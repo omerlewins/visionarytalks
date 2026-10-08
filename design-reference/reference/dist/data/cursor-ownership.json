@@ -1,0 +1,40 @@
+{
+  "slug": "who-owns-cursor",
+  "companyId": "anysphere",
+  "brand": "Cursor",
+  "legalEntity": "Anysphere, Inc.",
+  "parent": "SpaceX",
+  "status": "Acquired subsidiary",
+  "sector": "AI / Developer tools",
+  "founded": "2022",
+  "reviewedAt": "2026-10-04",
+  "headline": "Who owns Cursor?",
+  "dek": "Follow the company behind the code editor—from four founders to a new parent, and the money in between.",
+  "answer": "SpaceX owns Cursor. Anysphere, Inc. is the company behind the product; Cursor confirmed that its acquisition by SpaceX had closed on August 14, 2026.",
+  "answerSource": "https://cursor.com/blog/joining-spacex",
+  "deal": {"display": "$60B", "label": "Reported all-stock deal value", "date": "August 2026", "source": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/"},
+  "chain": [
+    {"name": "SpaceX", "label": "Parent company"},
+    {"name": "Anysphere, Inc.", "label": "Company behind the product"},
+    {"name": "Cursor", "label": "AI coding product"}
+  ],
+  "founders": ["Michael Truell", "Sualeh Asif", "Aman Sanger", "Arvid Lunnemark"],
+  "milestones": [
+    {"date": "2022", "title": "The company begins", "text": "Four MIT classmates found Anysphere.", "sourceId": "reference"},
+    {"date": "JUN 2025", "title": "A $9.9B valuation", "text": "Cursor announces $900M in Series C financing.", "sourceId": "series-c"},
+    {"date": "NOV 2025", "title": "The next funding round", "text": "A $2.3B Series D sets a $29.3B post-money valuation.", "sourceId": "series-d"},
+    {"date": "AUG 2026", "title": "A new parent", "text": "Cursor confirms the SpaceX acquisition has closed.", "sourceId": "acquisition"}
+  ],
+  "valuation": [
+    {"date": "Jun 2025", "round": "Series C", "valueBillions": 9.9, "raisedBillions": 0.9, "sourceId": "series-c"},
+    {"date": "Nov 2025", "round": "Series D", "valueBillions": 29.3, "raisedBillions": 2.3, "sourceId": "series-d"}
+  ],
+  "historicalInvestors": ["Thrive Capital", "Accel", "Andreessen Horowitz", "DST", "Coatue", "NVIDIA", "Google"],
+  "sources": [
+    {"id": "acquisition", "label": "Cursor: acquisition completion", "date": "August 14, 2026", "url": "https://cursor.com/blog/joining-spacex", "kind": "Company announcement"},
+    {"id": "series-c", "label": "Cursor: Series C and Scale", "date": "June 6, 2025", "url": "https://cursor.com/blog/series-c", "kind": "Company announcement"},
+    {"id": "series-d", "label": "Cursor: Past, Present, and Future", "date": "November 13, 2025", "url": "https://cursor.com/blog/series-d", "kind": "Company announcement"},
+    {"id": "deal", "label": "Reuters: the $60B all-stock agreement", "date": "June 16, 2026", "url": "https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/", "kind": "Independent reporting"},
+    {"id": "reference", "label": "Visionary Talks: the original Cursor ownership story", "date": "Reference article", "url": "https://visionarytalks.com/who-owns-cursor/", "kind": "Editorial reference · founders and legal entity"}
+  ]
+}

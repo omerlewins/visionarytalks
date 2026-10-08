@@ -1,0 +1,274 @@
+{
+  "schemaVersion": 1,
+  "personId": "satya-nadella",
+  "name": "Satya Nadella",
+  "reviewedAt": "2026-10-04",
+  "sources": {
+    "bio": {
+      "url": "https://news.microsoft.com/source/exec/satya-nadella/",
+      "publisher": "Microsoft"
+    },
+    "forbes": {
+      "url": "https://www.forbes.com/profile/satya-nadella/",
+      "publisher": "Forbes",
+      "asOf": "2026-10-04"
+    },
+    "fe": {
+      "url": "https://www.financialexpress.com/life/technology-meet-satya-nadella-the-indian-origin-microsoft-ceo-from-hyderabad-check-his-net-worth-educational-qualifications-and-more-4073482/lite/",
+      "publisher": "Financial Express",
+      "published": "2025-12-12"
+    },
+    "mit": {
+      "url": "https://www.manipal.edu/mu/lp/mahe_landingpage.html",
+      "publisher": "Manipal Academy of Higher Education"
+    },
+    "uwm": {
+      "url": "https://uwm.edu/news/uwm-alum-satya-nadella-named-to-the-2018-time-100-list/",
+      "publisher": "University of Wisconsin–Milwaukee"
+    },
+    "booth": {
+      "url": "https://www.chicagobooth.edu/magazine/leadership-lessons-satya-nadella",
+      "publisher": "Chicago Booth"
+    },
+    "booth_year": {
+      "url": "https://news.uchicago.edu/story/microsoft-ceo-elected-university-chicago-board-trustees",
+      "publisher": "University of Chicago"
+    },
+    "ceo": {
+      "url": "https://blogs.microsoft.com/blog/2014/02/04/introducing-microsofts-new-ceo-satya-nadella/",
+      "publisher": "Microsoft"
+    },
+    "linkedin": {
+      "url": "https://news.microsoft.com/source/2017/01/26/microsoft-cloud-strength-highlights-second-quarter-results-2/",
+      "publisher": "Microsoft"
+    },
+    "linkedin_price": {
+      "url": "https://news.microsoft.com/source/2016/06/13/microsoft-to-acquire-linkedin/",
+      "publisher": "Microsoft"
+    },
+    "openai": {
+      "url": "https://news.microsoft.com/source/2019/07/22/openai-forms-exclusive-computing-partnership-with-microsoft-to-build-new-azure-ai-supercomputing-technologies/",
+      "publisher": "Microsoft"
+    },
+    "chair": {
+      "url": "https://news.microsoft.com/source/2021/06/16/microsoft-board-of-directors-announces-role-changes-and-quarterly-dividend/",
+      "publisher": "Microsoft"
+    },
+    "starbucks_start": {
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922423000007/a2023proxystatementfinal.htm",
+      "publisher": "Starbucks / SEC"
+    },
+    "starbucks_end": {
+      "url": "https://www.sec.gov/Archives/edgar/data/829224/000082922424000033/sbux-20240530.htm",
+      "publisher": "Starbucks / SEC"
+    }
+  },
+  "education": [
+    {
+      "id": "nadella-mit-bachelor",
+      "institutionId": "manipal-institute-of-technology",
+      "institution": "Manipal Institute of Technology",
+      "degree": "Bachelor’s degree",
+      "field": "Electrical engineering",
+      "programId": "electrical-engineering-bachelor",
+      "attendanceStartYear": null,
+      "attendanceEndYear": 1988,
+      "graduationYear": 1988,
+      "datePrecision": "graduation_year_only",
+      "awardingInstitutionId": "mangalore-university",
+      "awardingInstitution": "Mangalore University",
+      "sources": [
+        "mit",
+        "bio"
+      ],
+      "location": "Manipal, India",
+      "note": "College: MIT, Manipal. Degree awarded by Mangalore University; full attendance dates have not been verified."
+    },
+    {
+      "id": "nadella-uwm-ms",
+      "institutionId": "university-of-wisconsin-milwaukee",
+      "institution": "University of Wisconsin–Milwaukee",
+      "degree": "Master of Science",
+      "field": "Computer science",
+      "programId": "computer-science-ms",
+      "attendanceStartYear": 1988,
+      "attendanceEndYear": 1990,
+      "graduationYear": 1990,
+      "datePrecision": "year",
+      "sources": [
+        "uwm"
+      ],
+      "location": "Milwaukee, United States",
+      "note": "The university records his arrival in 1988 and degree completion in 1990."
+    },
+    {
+      "id": "nadella-booth-mba",
+      "institutionId": "university-of-chicago",
+      "schoolId": "chicago-booth",
+      "institution": "University of Chicago",
+      "school": "Chicago Booth",
+      "degree": "MBA",
+      "field": "Business administration",
+      "programId": "weekend-mba",
+      "programFormat": "Weekend MBA",
+      "attendanceStartYear": null,
+      "attendanceEndYear": 1997,
+      "graduationYear": 1997,
+      "datePrecision": "graduation_year_only",
+      "sources": [
+        "booth",
+        "booth_year"
+      ],
+      "location": "Chicago, United States",
+      "note": "Weekend MBA, class of 1997. The enrollment start year has not been verified."
+    }
+  ],
+  "companyAssociations": [
+    {
+      "organizationId": "microsoft",
+      "name": "Microsoft",
+      "relationshipType": "employment",
+      "relationship": "Employer · leadership",
+      "role": "Chairman & CEO",
+      "startYear": 1992,
+      "endYear": null,
+      "status": "current",
+      "period": "1992–present · CEO since 2014",
+      "sources": [
+        "bio",
+        "chair"
+      ],
+      "note": "Board chair since June 2021."
+    },
+    {
+      "organizationId": "sun-microsystems",
+      "name": "Sun Microsystems",
+      "relationshipType": "employment",
+      "relationship": "Former employer",
+      "role": "Technology staff",
+      "startYear": null,
+      "endYear": null,
+      "status": "historical",
+      "period": "Before joining Microsoft in 1992",
+      "sources": [
+        "bio"
+      ],
+      "note": "Exact employment dates not verified."
+    },
+    {
+      "organizationId": "starbucks",
+      "name": "Starbucks",
+      "relationshipType": "board_membership",
+      "relationship": "Former board seat",
+      "role": "Independent director",
+      "startYear": 2017,
+      "endYear": 2024,
+      "endDate": "2024-05-30",
+      "status": "historical",
+      "period": "March 2017–May 30, 2024",
+      "sources": [
+        "starbucks_start",
+        "starbucks_end"
+      ],
+      "note": "Resigned from the board in May 2024."
+    },
+    {
+      "organizationId": "linkedin",
+      "name": "LinkedIn",
+      "relationshipType": "employer_acquisition",
+      "relationship": "Through Microsoft · acquisition",
+      "role": "Corporate connection",
+      "viaOrganizationId": "microsoft",
+      "startYear": 2016,
+      "status": "event",
+      "period": "Acquisition completed December 2016",
+      "sources": [
+        "linkedin"
+      ],
+      "note": "A Microsoft transaction during his CEO tenure; no separate personal role is asserted."
+    },
+    {
+      "organizationId": "openai",
+      "name": "OpenAI",
+      "relationshipType": "employer_partnership",
+      "relationship": "Through Microsoft · partnership",
+      "role": "Corporate connection",
+      "viaOrganizationId": "microsoft",
+      "startYear": 2019,
+      "status": "historical_event",
+      "period": "Partnership announced July 2019",
+      "sources": [
+        "openai"
+      ],
+      "note": "Microsoft announced a $1B investment. This does not establish a personal investment by Nadella."
+    }
+  ],
+  "pivotalMoments": [
+    {
+      "year": 1992,
+      "title": "The move to Microsoft",
+      "text": "Joins Microsoft after working at Sun Microsystems. It becomes the company where he builds his executive career.",
+      "source": "bio"
+    },
+    {
+      "year": 2014,
+      "title": "From cloud leader to CEO",
+      "text": "Appointed chief executive on February 4, after leading the Cloud and Enterprise group.",
+      "source": "ceo"
+    },
+    {
+      "year": 2016,
+      "title": "A bet on the professional network",
+      "text": "Microsoft completes its LinkedIn acquisition on December 8, adding a major professional network to its business.",
+      "source": "linkedin"
+    },
+    {
+      "year": 2019,
+      "title": "The OpenAI partnership begins",
+      "text": "Microsoft announces a $1B investment and a computing partnership focused on large-scale AI.",
+      "source": "openai"
+    },
+    {
+      "year": 2021,
+      "title": "The board-chair role",
+      "text": "Independent directors elect him chair on June 16, adding board leadership to the CEO position.",
+      "source": "chair"
+    }
+  ],
+  "netWorthObservations": [
+    {
+      "year": 2023,
+      "valueUsd": null,
+      "status": "not_verified"
+    },
+    {
+      "year": 2024,
+      "valueUsd": null,
+      "status": "not_verified"
+    },
+    {
+      "year": 2025,
+      "valueUsd": 1100000000,
+      "status": "secondary_reported_estimate",
+      "asOf": "late 2025",
+      "asOfPrecision": "approximate_period",
+      "sourceId": "fe",
+      "note": "Financial Express attributes this estimate to Forbes/Bloomberg; underlying historical estimate not independently verified."
+    },
+    {
+      "year": 2026,
+      "valueUsd": 1400000000,
+      "status": "publisher_estimate",
+      "asOf": "2026-10-04",
+      "asOfPrecision": "day",
+      "sourceId": "forbes",
+      "note": "Forbes net-worth estimate displayed for October 4, 2026."
+    }
+  ],
+  "cohortMatchingPolicy": {
+    "sameGraduatingClass": "same institutionId, schoolId where relevant, programId and graduationYear",
+    "overlappingAttendance": "only records with verified start and end years; classify year-level overlap as potential overlap",
+    "classmates": "requires explicit separate evidence of a shared class",
+    "relationshipInference": "Shared institution, class year or attendance window does not imply acquaintance."
+  }
+}

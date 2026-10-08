@@ -1,0 +1,57 @@
+{
+  "reviewedAt": "2026-10-04",
+  "leaders": [
+    {
+      "id": "satya-nadella",
+      "name": "Satya Nadella",
+      "role": "Chairman & CEO",
+      "company": "Microsoft",
+      "companyId": "microsoft",
+      "ownership": "public",
+      "ticker": "MSFT",
+      "image": "./assets/satya-nadella-illustration.png",
+      "profileUrl": "./leader.html",
+      "theme": "Cloud, AI, and the next era of work.",
+      "source": "https://news.microsoft.com/source/exec/satya-nadella/"
+    },
+    {
+      "id": "jensen-huang",
+      "name": "Jensen Huang",
+      "role": "Co-founder & CEO",
+      "company": "NVIDIA",
+      "companyId": "nvidia",
+      "ownership": "public",
+      "ticker": "NVDA",
+      "image": "./assets/jensen-huang-illustration.png",
+      "profileUrl": null,
+      "theme": "The computing behind the AI boom.",
+      "source": "https://nvidianews.nvidia.com/bios/jensen-huang"
+    },
+    {
+      "id": "melanie-perkins",
+      "name": "Melanie Perkins",
+      "role": "Co-founder & CEO",
+      "company": "Canva",
+      "companyId": "canva",
+      "ownership": "private",
+      "ticker": null,
+      "image": "./assets/melanie-perkins-illustration.png",
+      "profileUrl": null,
+      "theme": "Design tools for a global audience.",
+      "source": "https://public.canva.site/canva-press-hub-leadership"
+    },
+    {
+      "id": "patrick-collison",
+      "name": "Patrick Collison",
+      "role": "Co-founder & CEO",
+      "company": "Stripe",
+      "companyId": "stripe",
+      "ownership": "private",
+      "ticker": null,
+      "image": "./assets/patrick-collison-illustration.png",
+      "profileUrl": null,
+      "theme": "The systems behind online payments.",
+      "source": "https://stripe.com/newsroom/information"
+    }
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "sourceCommit": "f5f2a8b0a0ad05396230e911df862045e76fd263",
+  "conceptVersion": 12,
+  "capturedOn": "2026-10-04",
+  "files": [
+    {
+      "path": "reference/dist/ai-companies.html",
+      "bytes": 30583,
+      "sha256": "476f7d9ff9706802876ced14362db32d1ac3342c85124b76219b22f82a7391cc"
+    },
+    {
+      "path": "reference/dist/ai-tracker-core.js",
+      "bytes": 1065,
+      "sha256": "f10550ec8244246f973e11cc3bcc525968ed5d8ecddda4140ffaa168d596f79e"
+    },
+    {
+      "path": "reference/dist/ai-tracker.css",
+      "bytes": 11512,
+      "sha256": "ce4c40cecc822845666b8479e3d69d5c9ce52ebdf4511fb382e68e3ab1b02a8b"
+    },
+    {
+      "path": "reference/dist/ai-tracker.js",
+      "bytes": 2603,
+      "sha256": "74b70ec6d0f972ad674b64e30ff59edf87d5cb0b67f3ae86dea290bcba39290d"
+    },
+    {
+      "path": "reference/dist/article.css",
+      "bytes": 12703,
+      "sha256": "766cce15a855923302f16a3d8f3ae6570ad14dc8d3537ae98ef70fd6e5ec07b8"
+    },
+    {
+      "path": "reference/dist/article.html",
+      "bytes": 24812,
+      "sha256": "4b6c97d45411e76eda8e151a659ada2c4629bb146a9ee676b221730a0cd62706"
+    },
+    {
+      "path": "reference/dist/article.js",
+      "bytes": 2096,
+      "sha256": "d653c9a84b1f71476cb0c543bcdc5b6405ee557f60b89a2598ae8f369038e087"
+    },
+    {
+      "path": "reference/dist/assets/editorial-hero-illustrations.png",
+      "bytes": 2040399,
+      "sha256": "799a1151b80ddc1924522102801eb77d2a491babc683791f3384d1605eec0a39"
+    },
+    {
+      "path": "reference/dist/assets/hero-ai-collage.png",
+      "bytes": 2578771,
+      "sha256": "a8ec539914b75d4e627810c77170f83dd08c50c1e6086e39649990f6e8e3d879"
+    },
+    {
+      "path": "reference/dist/assets/hero-human-ai.png",
+      "bytes": 3267459,
+      "sha256": "7e61380f1c4f6fa293bc0abe14ecbff93f31267ecadcdf12157de9127623b925"
+    },
+    {
+      "path": "reference/dist/assets/hero-human-industry.png",
+      "bytes": 2353403,
+      "sha256": "7d88d065356c469c837b067fdf7f34b2a0cc1981e43e2319460587fbbc48eb4b"
+    },
+    {
+      "path": "reference/dist/assets/hero-industry-collage.png",
+      "bytes": 2193801,
+      "sha256": "3b48a7996fe425fd6a3fae026b2fc65d02b1cff6bc569b5e2c8986a31b795517"
+    },
+    {
+      "path": "reference/dist/assets/jensen-huang-illustration.png",
+      "bytes": 2802706,
+      "sha256": "9d70b39f74920f20b6244070600f6793a83a172a96b0c3300c370c5357a1529d"
+    },
+    {
+      "path": "reference/dist/assets/melanie-perkins-illustration.png",
+      "bytes": 2753649,
+      "sha256": "41d90e29463e55593ed3f6c1da9fa2b27e22f8d9c3ab7d5d414b3abce7af81bf"
+    },
+    {
+      "path": "reference/dist/assets/patrick-collison-illustration.png",
+      "bytes": 2816137,
+      "sha256": "fc597bcb0b07001f92c3c2918eb14cf6691c4465b7451eff915d78a4b11a1199"
+    },
+    {
+      "path": "reference/dist/assets/satya-nadella-illustration.png",
+      "bytes": 2393582,
+      "sha256": "3427dc27801f875ced72e8939a21f90f59dafb2a56c6cb331161a3d53aa39f5f"
+    },
+    {
+      "path": "reference/dist/data/ai-companies.json",
+      "bytes": 8802,
+      "sha256": "ae117d9706b0762354b73fc57858d09c1a962f1aeb4aa2453e362033c0c4e769"
+    },
+    {
+      "path": "reference/dist/data/cursor-ownership.json",
+      "bytes": 3046,
+      "sha256": "1ffe3220b8365577e81816849ca8a7cd7a88ca32f66250d7b7d3c887a926215a"
+    },
+    {
+      "path": "reference/dist/data/home-leaders.json",
+      "bytes": 1757,
+      "sha256": "fc18ff9dec4f45582237466c261da8a8677151334a07d6033f2301606c7d1bb7"
+    },
+    {
+      "path": "reference/dist/data/satya-nadella.json",
+      "bytes": 9442,
+      "sha256": "c25640b2dbe265f955b3e0c61956518f62df255c3c71fd8f5621fd04363cd772"
+    },
+    {
+      "path": "reference/dist/index.html",
+      "bytes": 25103,
+      "sha256": "2fb4b39585b960e3741c6a06cffd3aad986cfb23b51ffc2f056b29ebe923026c"
+    },
+    {
+      "path": "reference/dist/leader.css",
+      "bytes": 18232,
+      "sha256": "84d7cfbcfcfe6762f9b09875b23ea4549eb4d3999d3d5638febfe4c8171167b0"
+    },
+    {
+      "path": "reference/dist/leader.html",
+      "bytes": 28436,
+      "sha256": "2b77d16cbb0dd8a55cb91bac9ca0ebb61bf875e010aa46f1f44a85450529c092"
+    },
+    {
+      "path": "reference/dist/ownership-home.css",
+      "bytes": 3618,
+      "sha256": "081357be50ea74fd634d9b36c9c1043b2680c9470a3c712b021ce3e41e56074b"
+    },
+    {
+      "path": "reference/dist/ownership.css",
+      "bytes": 8955,
+      "sha256": "dd7affd0b88f2da12ce364aa5c0a8c4d4e5ac2c0721f44eda3c6c0bb9ccc5fa4"
+    },
+    {
+      "path": "reference/dist/script.js",
+      "bytes": 5115,
+      "sha256": "c825b887067e4614a930e38447d74916d98243185dc18032e8afe35fdf415cb6"
+    },
+    {
+      "path": "reference/dist/styles.css",
+      "bytes": 43927,
+      "sha256": "e81d0f1abd74d71a79da67545532818d8d2e5974e3b7608504e67f5484332c26"
+    },
+    {
+      "path": "reference/dist/who-owns-cursor.html",
+      "bytes": 21380,
+      "sha256": "a5abcf2fdedcc603cc283fb3923d93c7aa38cac54cf37902533238e3558c55bd"
+    },
+    {
+      "path": "reference/docs/ai-companies-tracker.md",
+      "bytes": 3972,
+      "sha256": "a4e874cbb27a76c433c62aea5f5a432a6c36532e1b1ef39ac2cc036e92681145"
+    },
+    {
+      "path": "reference/docs/article-template.md",
+      "bytes": 2347,
+      "sha256": "79032af7f204eea605ffab2bff9647c3c62984380d0dce836a7eb82e4261f990"
+    },
+    {
+      "path": "reference/docs/leader-template.md",
+      "bytes": 3766,
+      "sha256": "4a854ba276af5fe565a16eea0c0b99ec735716314b928a866622e353ad1d023a"
+    },
+    {
+      "path": "reference/docs/ownership-template.md",
+      "bytes": 5060,
+      "sha256": "834fb98a0915aa662cf35a87b2766cadfe023c8d50b25815ddf2fb05f5ad351a"
+    },
+    {
+      "path": "reference/scripts/build-ai-tracker.py",
+      "bytes": 12874,
+      "sha256": "44a3b211715b290b4495fac3aa7c7dbaff541b1995f335a19bc9c9039c95617f"
+    },
+    {
+      "path": "reference/scripts/build-ownership.py",
+      "bytes": 16026,
+      "sha256": "aee0471500dc7fd6738d3931c204a685af09cd5a92be768fca475067a7f2164a"
+    },
+    {
+      "path": "reference/tests/ai-tracker.test.cjs",
+      "bytes": 1375,
+      "sha256": "4d62f2ed51d85dee1b6eba72efd36347272477eed36bc597ceae9ca4c006d821"
+    }
+  ],
+  "handoffUpdatedOn": "2026-10-08",
+  "handoffIncludes": "GitHub + Vercel; four content agents; imagery; complete WordPress content/URL migration; mobile responsiveness"
+}
