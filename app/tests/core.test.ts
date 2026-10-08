@@ -14,6 +14,24 @@ import {
 } from "../src/migration/wordpress";
 import { submissionKey } from "../src/workflows/engine";
 import { validateDraft, versionConflict } from "../src/workflows/contracts";
+import { rewriteLegacyHTML } from "../src/migration/render";
+test("migration rewrites media and internal links without running legacy scripts", () => {
+  const mapped = rewriteLegacyHTML(
+    '<h2 id="section">Heading</h2><img src="/wp-content/uploads/a.jpg" srcset="/wp-content/uploads/a.jpg 300w" onerror="bad()"><a href="https://example.test/original/?q=one#part">Read</a><script>bad()</script>',
+    "https://example.test",
+    new Map([
+      [
+        "https://example.test/wp-content/uploads/a.jpg",
+        "/api/media/file/a.jpg",
+      ],
+    ]),
+  );
+  assert.ok(mapped.includes('src="/api/media/file/a.jpg"'));
+  assert.ok(mapped.includes('srcset="/api/media/file/a.jpg 300w"'));
+  assert.ok(mapped.includes('href="/original/?q=one#part"'));
+  assert.ok(mapped.includes('id="section"'));
+  assert.ok(!mapped.includes("bad()"));
+});
 test("authoritative legacy paths never acquire a content-type prefix", () => {
   assert.equal(
     publicPath("/2020/03/who-owns-cursor/"),

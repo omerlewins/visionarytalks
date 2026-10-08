@@ -2,6 +2,7 @@ import "server-only";
 import { cache } from "react";
 import { fixtures, companyFixtures } from "@/data/fixtures";
 import type { Story, CompanyRow } from "./domain";
+import { decodeHTML } from "entities";
 
 export const isDemo = () =>
   process.env.DEMO_MODE === "true" &&
@@ -32,6 +33,7 @@ export function toStory(doc: Record<string, any>): Story {
   const author = typeof doc.author === "object" ? doc.author : undefined;
   return {
     ...doc,
+    title: doc.legacyKey ? decodeHTML(doc.title) : doc.title,
     id: String(doc.id),
     path: doc.path,
     sections: (doc.sections ?? []).map((section: any) => ({

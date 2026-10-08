@@ -19,6 +19,7 @@ const pg = new EmbeddedPostgres({
   password: keys.password,
   port: 54329,
   persistent: true,
+  initdbFlags: ["--encoding=UTF8", "--locale=C"],
   postgresFlags: ["-h", "127.0.0.1"],
   onLog: () => {},
   onError: (msg) => {

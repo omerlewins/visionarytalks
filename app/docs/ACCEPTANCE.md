@@ -74,3 +74,16 @@ artifacts, not in source control.
 
 The deliverable is a working design/CMS foundation and tested local workflow path,
 not a claim that the entire migration or production launch is complete.
+
+## Subsequent real-content migration
+
+The WXR and uploads have now been received. All 107 post records are in the isolated
+local CMS as private review drafts with original paths/status metadata and linked
+images. Reimport is unchanged for all 107. Source-format conversion warnings remain;
+public release and cloud transfer have not occurred. See MIGRATION.md for the corpus
+audit, original-status distinction and review import command.
+
+Dependency audit: direct sharp was updated to 0.35.5. npm still reports transitive
+advisories involving Payload's undici and build tooling (including braces/esbuild),
+plus DOMPurify. Do not blindly apply the suggested Payload downgrade or incompatible
+major overrides; resolve compatibility and exposure before public production release.

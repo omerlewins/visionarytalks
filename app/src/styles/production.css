@@ -469,6 +469,15 @@ td small {
   max-width: 100%;
   height: auto;
 }
+.legacy-content {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.legacy-content pre {
+  max-width: 100%;
+  overflow: auto;
+  white-space: pre-wrap;
+}
 .legacy-content table {
   display: block;
   overflow: auto;

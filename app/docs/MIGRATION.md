@@ -72,3 +72,29 @@ srcset candidates. Twenty-three missing local variants occur in the Elementor
 still need explicit mapping or an approved template replacement; a matching local
 filename alone is not proof of external asset identity. All originals remain intact.
 The machine-readable inventory and image checksums are in ignored private reports.
+
+## Full article review import
+
+All 107 supplied post records (100 formerly published, seven original drafts) can
+be imported as authenticated review drafts with linked private images:
+
+```
+node --env-file=.env.local --import tsx scripts/import-wordpress.ts ../private/wordpress-2026-10-08.xml --apply --review-drafts --uploads ../private/uploads-2026-10-08/uploads
+```
+
+This mode retains original paths, source publication status, dates and text; it does
+not publish records or resolve flagged embeds/comments/scripts. Original draft query
+permalinks are stored only for private review; publication still validates public paths.
+Inline image URLs/srcsets and internal links are rewritten in the rendering copy;
+archived source HTML remains unchanged. Repeated real-corpus import reported all 107
+posts unchanged. The prior strict publishing import remains blocked by unresolved
+conversion issues: review readiness is not launch readiness.
+
+Local Windows PostgreSQL must use UTF-8. New local clusters explicitly select UTF-8;
+`scripts/upgrade-local-utf8.mjs` copies only the isolated local test server into a new
+UTF-8 database using a private data snapshot and versioned migrations. It retains
+the original database and updates only ignored local configuration after success.
+
+Run the private corpus browser checks with `TEST_MIGRATION=true` and
+`npx playwright test tests/browser/migration.spec.ts --workers=1`. They require the
+local authenticated fixture account, private reconciliation report and running app.

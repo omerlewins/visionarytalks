@@ -194,7 +194,18 @@ export const collections: CollectionConfig[] = [
       beforeChange: [
         publicationGuard,
         ({ data, originalDoc, req }) => {
-          if (data.path) publicPath(data.path);
+          if (data.path) {
+            // Original draft query permalinks are retained only for authenticated review.
+            // Publishing still requires a valid, approved public path.
+            if (!(
+              req.context.trustedImport &&
+              req.context.migrationReview &&
+              data._status === "draft"
+            ))
+              publicPath(data.path);
+            else if (!data.path.startsWith("/") || data.path.startsWith("//"))
+              throw new Error("Invalid original draft path");
+          }
           if (
             originalDoc?.legacyKey &&
             data.path &&

@@ -93,6 +93,7 @@ export function StoryTemplate({
             <figure className="profile-image">
               <Image
                 src={s.image}
+                unoptimized={s.image.includes("/api/media/file/")}
                 alt={s.imageAlt ?? s.title}
                 width={1122}
                 height={1402}
@@ -194,7 +195,14 @@ export function StoryTemplate({
                     allowedAttributes: {
                       ...sanitize.defaults.allowedAttributes,
                       "*": ["id"],
-                      img: ["src", "alt", "width", "height", "loading"],
+                      img: [
+                        "src",
+                        "srcset",
+                        "alt",
+                        "width",
+                        "height",
+                        "loading",
+                      ],
                     },
                   }),
                 }}

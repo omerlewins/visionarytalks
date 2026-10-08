@@ -1,5 +1,7 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
+import { migrateMedia } from "../src/migration/media";
+import { rewriteLegacyHTML } from "../src/migration/render";
 import {
   inspectWXR,
   reconcileURLs,
@@ -10,6 +12,13 @@ import {
 const args = process.argv.slice(2),
   input = args.find((a) => a.endsWith(".xml")),
   apply = args.includes("--apply");
+const reviewDrafts = args.includes("--review-drafts");
+const uploadsIndex = args.indexOf("--uploads");
+const uploads = uploadsIndex >= 0 ? args[uploadsIndex + 1] : undefined;
+if (reviewDrafts && !uploads)
+  throw new Error(
+    "Review import requires --uploads with the verified uploads directory",
+  );
 if (!input)
   throw new Error(
     "Usage: npm run import:wordpress -- private/export.xml [--apply] [--urls private/urls.txt]",
@@ -29,6 +38,7 @@ const urlIndex = args.indexOf("--urls"),
 const report: any = {
   generatedAt: new Date().toISOString(),
   mode: apply ? "apply" : "dry-run",
+  reviewDrafts,
   site: inventory.site,
   counts: inventory.counts,
   urls: reconcileURLs(urls, inventory.items),
@@ -79,8 +89,39 @@ for (const item of inventory.items) {
     path.join(privateDir, `${checksum(item.key)}.json`),
     JSON.stringify(item, null, 2),
   );
-  if (apply && ["post", "page"].includes(item.type) && !result.issues.length) {
+  if (
+    apply &&
+    ((reviewDrafts && item.type === "post") ||
+      (["post", "page"].includes(item.type) && !result.issues.length))
+  ) {
     try {
+      const mediaURLs = new Map<string, string>();
+      const mediaIDs = new Map<string, number>();
+      if (uploads) {
+        for (const reference of item.assets) {
+          const url = new URL(
+            reference.replaceAll("&amp;", "&"),
+            item.url || inventory.site,
+          );
+          if (url.origin !== new URL(inventory.site).origin)
+            throw new Error(
+              "External image origin requires a reviewed mapping",
+            );
+          const media = await migrateMedia(payload, uploads, url.href, {});
+          if (!media.filename)
+            throw new Error("Imported media has no stored filename");
+          mediaURLs.set(
+            url.href,
+            `/api/media/file/${encodeURIComponent(media.filename)}`,
+          );
+          mediaIDs.set(url.href, media.id);
+        }
+        result.issues = result.issues.filter(
+          (issue: string) =>
+            issue !==
+            "Media binary copy and internal-asset URL reconciliation required",
+        );
+      }
       const previous = (
         await payload.find({
           collection: "migration-records",
@@ -103,10 +144,20 @@ for (const item of inventory.items) {
             t.path,
             t._status,
             t.seo,
+            typeof t.featuredImage === "object"
+              ? t.featuredImage?.id
+              : t.featuredImage,
           ]),
         );
+      const effectiveChecksum = checksum(
+        `${item.checksum}:${reviewDrafts ? "review-draft-v1" : "preserve-status-v1"}`,
+      );
+      if (reviewDrafts && target?._status === "published")
+        throw new Error(
+          "Review import will not unpublish an existing published target",
+        );
       const decision = importDecision(
-        item.checksum,
+        effectiveChecksum,
         previous?.data?.sourceChecksum,
         target ? fingerprint(target) : undefined,
         previous?.data?.targetChecksum,
@@ -167,7 +218,21 @@ for (const item of inventory.items) {
             "Uncategorized",
           author: author.id,
           taxonomy,
-          legacyHTML: item.cleanHTML,
+          legacyHTML: rewriteLegacyHTML(
+            item.cleanHTML,
+            inventory.site,
+            mediaURLs,
+          ),
+          featuredImage: (() => {
+            const attachment = inventory.items.find(
+              (source) =>
+                source.id === item.meta._thumbnail_id &&
+                source.type === "attachment",
+            );
+            return attachment
+              ? mediaIDs.get(attachment.attachmentURL)
+              : undefined;
+          })(),
           importChecksum: item.checksum,
           seo: item.seo,
           publishedAt:
@@ -178,31 +243,33 @@ for (const item of inventory.items) {
             item.modifiedAt && !item.modifiedAt.startsWith("0000")
               ? new Date(item.modifiedAt.replace(" ", "T") + "Z").toISOString()
               : undefined,
-          _status: targetStatus(item.status),
+          _status: reviewDrafts ? "draft" : targetStatus(item.status),
         };
         const saved = target
           ? await payload.update({
               collection: "stories",
               id: target.id,
               data,
-              context: { trustedImport: true },
+              context: { trustedImport: true, migrationReview: reviewDrafts },
             })
           : await payload.create({
               collection: "stories",
               data,
-              context: { trustedImport: true },
+              context: { trustedImport: true, migrationReview: reviewDrafts },
             });
         result.targetID = saved.id;
         result.targetPath = saved.path;
         const audit = {
           name: item.title,
           key: item.key,
-          state: "imported",
+          state: reviewDrafts ? "needs-review" : "imported",
           data: {
-            sourceChecksum: item.checksum,
+            sourceChecksum: effectiveChecksum,
             targetChecksum: fingerprint(saved),
             targetID: saved.id,
             originalStatus: item.status,
+            issues: result.issues,
+            reviewOnly: reviewDrafts,
           },
         };
         if (previous)
@@ -222,9 +289,11 @@ for (const item of inventory.items) {
       }
     } catch (error) {
       result.outcome = "failed";
-      result.issues.push(
-        error instanceof Error ? error.message : String(error),
-      );
+      let cause: any = error;
+      while (cause?.cause) cause = cause.cause;
+      result.issues.push(String(cause?.message ?? error).slice(0, 500));
+      result.errorCode = cause?.code;
+      result.constraint = cause?.constraint;
     }
   } else if (result.issues.length) result.outcome = "needs-review";
   report.records.push(result);
@@ -235,7 +304,7 @@ for (const url of report.urls) {
     record?.targetID &&
     ["create", "update", "unchanged"].includes(record.outcome)
   ) {
-    url.disposition = "same-path-page";
+    url.disposition = reviewDrafts ? "draft-preview-only" : "same-path-page";
     url.targetID = record.targetID;
   }
 }
