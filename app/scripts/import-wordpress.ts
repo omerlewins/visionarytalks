@@ -177,12 +177,7 @@ async function processItem(item: (typeof inventory.items)[number]) {
               depth: 0,
             })
           ).docs[0] ?? null);
-      if (
-        target &&
-        !previous &&
-        (target.importChecksum !== item.checksum ||
-          target.createdAt !== target.updatedAt)
-      )
+      if (target && !previous && target.importChecksum !== item.checksum)
         throw new Error(
           "Interrupted import target has changes; manual reconciliation required",
         );
@@ -271,6 +266,32 @@ async function processItem(item: (typeof inventory.items)[number]) {
               : undefined,
           _status: reviewDrafts ? "draft" : targetStatus(item.status),
         };
+        // Payload can assign creation and update timestamps a millisecond apart.
+        // Recover interrupted audit writes only when every imported field still
+        // matches the source, rather than relying on timestamp equality.
+        const matchesImportedData = (actual: any, expected: any): boolean => {
+          if (expected == null) return actual == null;
+          if (Array.isArray(expected))
+            return (
+              Array.isArray(actual) &&
+              actual.length === expected.length &&
+              expected.every((value, index) =>
+                matchesImportedData(actual[index], value),
+              )
+            );
+          if (typeof expected === "object")
+            return (
+              actual != null &&
+              Object.entries(expected).every(([key, value]) =>
+                matchesImportedData(actual[key], value),
+              )
+            );
+          return actual === expected;
+        };
+        if (target && !previous && !matchesImportedData(target, data))
+          throw new Error(
+            "Interrupted import target differs from source; manual reconciliation required",
+          );
         const saved = target
           ? await payload.update({
               collection: "stories",

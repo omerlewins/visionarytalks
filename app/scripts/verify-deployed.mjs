@@ -68,6 +68,7 @@ if (smokeOnly) {
     100,
     "Exactly the original 100 published articles are public inside protected staging",
   );
+  let checked = 0;
   for (const story of visible.docs) {
     assert.equal(story.legacyStatus, "publish");
     assert.equal(
@@ -75,6 +76,8 @@ if (smokeOnly) {
       200,
       `Article route ${story.path}`,
     );
+    if (++checked % 25 === 0)
+      console.log(`Verified ${checked}/100 original article paths`);
   }
   const hidden = all.docs.filter((story) => story.legacyStatus === "draft");
   assert.equal(hidden.length, 7);
@@ -91,6 +94,20 @@ if (smokeOnly) {
     for (const route of ["/", story.path, "/search/"]) {
       assert.equal((await page.goto(access.url + route)).status(), 200);
       await page.locator("h1").first().waitFor();
+      await page.evaluate(() => document.fonts.ready);
+      await page.waitForFunction(() =>
+        [...document.images]
+          .filter((image) => {
+            const rect = image.getBoundingClientRect();
+            return (
+              rect.width > 0 &&
+              rect.height > 0 &&
+              rect.top < innerHeight &&
+              rect.bottom > 0
+            );
+          })
+          .every((image) => image.complete && image.naturalWidth > 0),
+      );
       assert.ok(
         await page.evaluate(
           () => document.documentElement.scrollWidth <= innerWidth + 1,

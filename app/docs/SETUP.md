@@ -104,8 +104,8 @@ Do not copy `.env.local` into a deployment or reuse preview credentials in produ
 | `IMAGE_PROVIDER_URL`, `IMAGE_PROVIDER_TOKEN` | Optional alternate illustration bridge |
 
 Private uploads and unpublished illustrations must not go into a public bucket.
-The installed Vercel Blob adapter was evaluated but supports public blobs only;
-the application therefore uses Payload's S3 adapter and authenticated file routes.
+The application supports Payload's S3 adapter or its custom private Vercel Blob
+adapter with collection access checks and authenticated file routes.
 Hosted environments refuse local filesystem storage fallback.
 
 ## Validation commands

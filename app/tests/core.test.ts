@@ -27,9 +27,9 @@ test("concurrent identical media reuse a single CMS upload", async () => {
     await writeFile(path.join(root, "b.png"), "same image bytes");
     const payload: any = {
       find: async () => ({ docs: [] }),
-      create: async () => {
+      create: async ({ file }: any) => {
         created++;
-        return { id: 123, filename: "a.png" };
+        return { id: created, filename: file.name };
       },
     };
     const [first, second] = await Promise.all([
@@ -48,6 +48,15 @@ test("concurrent identical media reuse a single CMS upload", async () => {
     ]);
     assert.equal(first.id, second.id);
     assert.equal(created, 1);
+    await writeFile(path.join(root, "a.png"), "different image bytes");
+    const different = await migrateMedia(
+      payload,
+      root,
+      "https://example.test/wp-content/uploads/a.png",
+      {},
+    );
+    assert.notEqual(different.filename, first.filename);
+    assert.equal(created, 2);
   } finally {
     await rm(path.join(root, "a.png"), { force: true });
     await rm(path.join(root, "b.png"), { force: true });

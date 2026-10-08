@@ -20,41 +20,52 @@ if (
     "All 107 source posts must be imported before enabling staging",
   );
 let published = 0;
-for (const record of posts) {
-  if (record.status !== "publish") continue;
-  const doc = await payload.findByID({
-    collection: "stories",
-    id: record.targetID,
-    depth: 0,
-    draft: true,
-  });
-  if (doc.legacyStatus !== "publish" || doc.path !== record.path)
-    throw new Error("Source status or path mismatch");
-  const filenames = [
-    ...(doc.legacyHTML ?? "").matchAll(/\/api\/media\/file\/([^"\s,<>]+)/g),
-  ].map((match) => decodeURIComponent(match[1]));
-  if (filenames.length)
-    await payload.update({
-      collection: "media",
-      where: { filename: { in: [...new Set(filenames)] } },
-      data: { approved: true },
-    });
-  if (doc.featuredImage)
-    await payload.update({
-      collection: "media",
-      id:
-        typeof doc.featuredImage === "object"
-          ? doc.featuredImage.id
-          : doc.featuredImage,
-      data: { approved: true },
-    });
-  await payload.update({
-    collection: "stories",
-    id: doc.id,
-    data: { _status: "published", legacyStatus: "publish" },
-    context: { trustedImport: true },
-  });
-  published++;
+const publishedPosts = posts.filter(
+  (record: any) => record.status === "publish",
+);
+for (let offset = 0; offset < publishedPosts.length; offset += 4) {
+  await Promise.all(
+    publishedPosts.slice(offset, offset + 4).map(async (record: any) => {
+      const doc = await payload.findByID({
+        collection: "stories",
+        id: record.targetID,
+        depth: 0,
+        draft: true,
+      });
+      if (doc.legacyStatus !== "publish" || doc.path !== record.path)
+        throw new Error("Source status or path mismatch");
+      if (doc._status === "published") {
+        published++;
+        return;
+      }
+      const filenames = [
+        ...(doc.legacyHTML ?? "").matchAll(/\/api\/media\/file\/([^"\s,<>]+)/g),
+      ].map((match) => decodeURIComponent(match[1]));
+      if (filenames.length)
+        await payload.update({
+          collection: "media",
+          where: { filename: { in: [...new Set(filenames)] } },
+          data: { approved: true },
+        });
+      if (doc.featuredImage)
+        await payload.update({
+          collection: "media",
+          id:
+            typeof doc.featuredImage === "object"
+              ? doc.featuredImage.id
+              : doc.featuredImage,
+          data: { approved: true },
+        });
+      await payload.update({
+        collection: "stories",
+        id: doc.id,
+        data: { _status: "published", legacyStatus: "publish" },
+        context: { trustedImport: true },
+      });
+      published++;
+    }),
+  );
+  console.log(`Staging publication: ${published}/${publishedPosts.length}`);
 }
 const result = {
   publishedForProtectedPreview: published,

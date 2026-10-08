@@ -55,7 +55,7 @@ export async function migrateMedia(
       file: {
         data: bytes,
         mimetype,
-        name: path.basename(file),
+        name: `${hash}-${path.basename(file)}`,
         size: bytes.length,
       },
       data: {

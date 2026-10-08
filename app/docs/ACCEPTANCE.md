@@ -50,8 +50,9 @@ artifacts, not in source control.
 
 ## Still required before production acceptance
 
-1. Owner-designated eligible Vercel project, isolated PostgreSQL and private object
-   storage; live upload/download/authorization, backup/restore and error-monitoring tests.
+1. Protected Hobby staging now has isolated Neon PostgreSQL and private Vercel Blob.
+   Upgrade the owner's workspace before commercial launch; production credentials,
+   backup/restore and error-monitoring tests are still required.
 2. Model credentials and explicit model choices, four real editorial input packets,
    source/citation accuracy review, generated portrait likeness/crop approval, deployed
    scheduler and long-running failure/retry tests. Token usage is retained; per-job
@@ -59,7 +60,8 @@ artifacts, not in source control.
 3. Structured-entity identity proposals, existing-story revision approval and targeted
    section regeneration need further editorial UX polish; job state is currently exposed
    through Payload's standard record screens. No automatic publishing is implemented.
-4. Full WordPress exports, uploads/CDN assets, SEO/plugin/permalink/crawl inventory.
+4. The supplied WordPress WXR and uploads are accounted for. Obtain the remaining
+   SEO/plugin/permalink/crawl inventory and resolve unsupported plugin content.
    Complete real-format adapters, internal/srcset/featured-image rewriting, legacy
    media routing, metadata parity and every-public-URL reconciliation against that corpus.
    Scheduled/private/member/plugin-dependent behavior must be reviewed from real data.
@@ -80,10 +82,53 @@ not a claim that the entire migration or production launch is complete.
 The WXR and uploads have now been received. All 107 post records are in the isolated
 local CMS as private review drafts with original paths/status metadata and linked
 images. Reimport is unchanged for all 107. Source-format conversion warnings remain;
-public release and cloud transfer have not occurred. See MIGRATION.md for the corpus
+public production release has not occurred. Cloud transfer is recorded below. See MIGRATION.md for the corpus
 audit, original-status distinction and review import command.
 
 Dependency audit: direct sharp was updated to 0.35.5. npm still reports transitive
 advisories involving Payload's undici and build tooling (including braces/esbuild),
 plus DOMPurify. Do not blindly apply the suggested Payload downgrade or incompatible
 major overrides; resolve compatibility and exposure before public production release.
+
+## Protected Hobby staging deployment
+
+The owner-designated `omer-webielcoms-projects/visionarytalks` project is connected
+to GitHub, with root directory `app`. A Vercel preview build passed TypeScript and
+production compilation. Preview-only Neon and private Blob credentials are configured;
+all three PostgreSQL migrations have been applied. No production credentials or DNS
+changes were made, and Vercel Authentication remains enabled.
+
+All 107 source posts imported successfully: 100 originally published articles are
+readable inside protected staging, and seven original drafts retain CMS access
+controls. Five legacy pages remain review drafts. All 449 source records are
+accounted for in `private/cloud-migration/reconciliation.json`; this is not a claim
+that plugin records, all pages, media aliases or conversion issues are resolved.
+The report still has 42 pending source URL dispositions. Article images referenced
+by the imported rendering copies are stored in private Blob with approved-image
+access through Payload. Full source archives and sensitive reports remain ignored.
+
+The importer recovered a network-interrupted record by comparing every imported
+field to its source. Different media binaries with the same basename now receive
+checksum-prefixed filenames; concurrent identical binaries share a single upload.
+The final recovery pass imported four outstanding posts and retained 103 unchanged.
+All 15 unit tests and the local TypeScript check passed after these repairs.
+
+Deployed verification passed for all 100 original article routes (HTTP 200), exactly
+100 CMS-readable published articles and seven original drafts hidden from anonymous
+CMS access (HTTP 404). Owner login, private Blob streaming and private jobs access
+were checked. Homepage, ownership article and search rendered at 360, 390, 430, 768,
+1024 and 1440 pixels without page overflow; visible images loaded. Desktop/mobile
+homepage and desktop article screenshots were inspected. Evidence is in the ignored
+`private/deployed-review/` directory. This complements the local Chromium/WebKit
+corpus checks; it does not replace production load or a full manual content review.
+
+Visual review also confirms remaining editorial setup: imports retain their regular
+legacy article template until classified; homepage section curation and structured
+company/compensation tracker data are still needed. Empty trackers do not contain
+invented sample financial figures. Newsletter and other unconfigured integrations
+remain clearly inactive.
+
+Do not rerun review-draft import against the promoted staging records: it intentionally
+refuses to unpublish them. Review mode is intended for a fresh isolated import or
+existing private drafts. Publishing to the live domain remains a separate approved
+release after dependency, content-conversion, operational and URL reconciliation gates.
