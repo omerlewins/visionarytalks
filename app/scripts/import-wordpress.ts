@@ -246,7 +246,10 @@ report.summary = {
       r.issues.length || ["failed", "editorial-conflict"].includes(r.outcome),
   ).length,
   unaccountedURLs: report.urls.filter(
-    (u: any) => u.disposition !== "same-path-page",
+    (u: any) => u.disposition === "unaccounted-public-url",
+  ).length,
+  pendingURLs: report.urls.filter(
+    (u: any) => u.disposition === "pending-import",
   ).length,
 };
 await writeFile(

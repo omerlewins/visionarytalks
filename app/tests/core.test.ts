@@ -70,6 +70,21 @@ test("WXR accounts for unsupported records, duplicates, metadata and private sta
 });
 test("reject external XML entities", () =>
   assert.throws(() => inspectWXR("<!DOCTYPE rss><rss/>")));
+test("featured media dependencies are resolved even without inline images", () => {
+  const post = (id: string, thumbnail: string) =>
+    `<item><link>https://example.test/p${id}/</link><wp:post_id>${id}</wp:post_id><wp:post_type>post</wp:post_type><wp:postmeta><wp:meta_key>_thumbnail_id</wp:meta_key><wp:meta_value>${thumbnail}</wp:meta_value></wp:postmeta></item>`;
+  const result = inspectWXR(
+    `<rss><channel><link>https://example.test</link>${post("1", "3")}${post("2", "99")}<item><link>https://example.test/image/</link><wp:post_id>3</wp:post_id><wp:post_type>attachment</wp:post_type><wp:attachment_url>https://example.test/uploads/image.jpg</wp:attachment_url></item></channel></rss>`,
+  );
+  assert.deepEqual(result.items[0].assets, [
+    "https://example.test/uploads/image.jpg",
+  ]);
+  assert.ok(
+    result.items[1].issues.includes(
+      "Featured image attachment missing from export: 99",
+    ),
+  );
+});
 test("null metrics sort last and zero remains a value", () => {
   const rows: any[] = [
     {

@@ -1,7 +1,10 @@
 # WordPress migration
 
-No WordPress export or live-site crawl has been supplied. The reference archive is
-not WordPress content and is never used to claim migration completeness.
+The October 8 WordPress WXR export has been supplied and inventoried privately:
+449 records, including 100 published posts, 7 draft posts, 8 published pages,
+295 attachment records and 39 menu/template/plugin records. Upload binaries and an
+independent public URL crawl are still needed. The reference archive is not WordPress
+content and is never used to claim migration completeness.
 
 Put source exports in the ignored `private/` directory, outside application assets.
 Retain the owner's full restorable WordPress backup separately. From `app/`:

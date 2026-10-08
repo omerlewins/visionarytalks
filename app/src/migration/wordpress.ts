@@ -141,6 +141,24 @@ export function inspectWXR(xml: string) {
       issues,
     };
   });
+  // Featured images are metadata references, often absent from the article HTML.
+  const attachments = new Map(
+    items
+      .filter((item) => item.type === "attachment")
+      .map((item) => [item.id, item]),
+  );
+  for (const item of items) {
+    const featuredID = item.meta._thumbnail_id;
+    if (!featuredID || featuredID === "0") continue;
+    const attachment = attachments.get(featuredID);
+    if (attachment?.attachmentURL) {
+      item.assets = [...new Set([...item.assets, attachment.attachmentURL])];
+    } else {
+      item.issues.push(
+        `Featured image attachment missing from export: ${featuredID}`,
+      );
+    }
+  }
   const byPath = new Map<string, string[]>();
   for (const r of items) {
     if (!r.path || r.type === "attachment") continue;
