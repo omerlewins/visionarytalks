@@ -70,6 +70,18 @@ test("WXR accounts for unsupported records, duplicates, metadata and private sta
 });
 test("reject external XML entities", () =>
   assert.throws(() => inspectWXR("<!DOCTYPE rss><rss/>")));
+test("inline media retains src, each srcset candidate and poster dependencies", () => {
+  const result = inspectWXR(
+    `<rss><channel><link>https://example.test</link><item><link>https://example.test/a/</link><wp:post_id>1</wp:post_id><content:encoded><![CDATA[<img src="/original.jpg" srcset="/small.jpg 300w, /large.jpg 900w"><video src="/movie.mp4" poster="/poster.jpg"></video>]]></content:encoded></item></channel></rss>`,
+  );
+  assert.deepEqual(result.items[0].assets, [
+    "/original.jpg",
+    "/small.jpg",
+    "/large.jpg",
+    "/movie.mp4",
+    "/poster.jpg",
+  ]);
+});
 test("featured media dependencies are resolved even without inline images", () => {
   const post = (id: string, thumbnail: string) =>
     `<item><link>https://example.test/p${id}/</link><wp:post_id>${id}</wp:post_id><wp:post_type>post</wp:post_type><wp:postmeta><wp:meta_key>_thumbnail_id</wp:meta_key><wp:meta_value>${thumbnail}</wp:meta_value></wp:postmeta></item>`;

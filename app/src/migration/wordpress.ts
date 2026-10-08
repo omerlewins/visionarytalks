@@ -77,10 +77,22 @@ export function inspectWXR(xml: string) {
     if (!id || id.startsWith("missing-"))
       issues.push("Missing stable WordPress ID");
     const assets = [
-      ...rawHTML.matchAll(
-        /<(?:img|source|video|audio)[^>]+(?:src|srcset)=["']([^"']+)/g,
+      ...new Set(
+        [...rawHTML.matchAll(/<(?:img|source|video|audio)\b[^>]*>/gi)].flatMap(
+          ([tag]) =>
+            [
+              ...tag.matchAll(/\s(src|srcset|poster)\s*=\s*(["'])(.*?)\2/gi),
+            ].flatMap((match) =>
+              match[1].toLowerCase() === "srcset"
+                ? match[3]
+                    .split(",")
+                    .map((candidate) => candidate.trim().split(/\s+/)[0])
+                    .filter(Boolean)
+                : [match[3]],
+            ),
+        ),
       ),
-    ].map((m) => m[1]);
+    ];
     const links = [...rawHTML.matchAll(/<a[^>]+href=["']([^"']+)/g)].map(
       (m) => m[1],
     );

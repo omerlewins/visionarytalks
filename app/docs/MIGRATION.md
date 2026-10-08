@@ -2,8 +2,9 @@
 
 The October 8 WordPress WXR export has been supplied and inventoried privately:
 449 records, including 100 published posts, 7 draft posts, 8 published pages,
-295 attachment records and 39 menu/template/plugin records. Upload binaries and an
-independent public URL crawl are still needed. The reference archive is not WordPress
+295 attachment records and 39 menu/template/plugin records. The supplied uploads ZIP
+contains all 295 attachment files; an independent public URL crawl is still needed.
+The reference archive is not WordPress
 content and is never used to claim migration completeness.
 
 Put source exports in the ignored `private/` directory, outside application assets.
@@ -12,6 +13,7 @@ Retain the owner's full restorable WordPress backup separately. From `app/`:
 ```
 npm run import:wordpress -- ../private/export.xml --urls ../private/urls.txt
 node --env-file=.env.local --import tsx scripts/import-media.ts ../private/export.xml ../private/uploads
+npx tsx scripts/audit-uploads.ts ../private/export.xml ../private/uploads
 ```
 
 Both default to inspection only. Add `--apply` to copy supported records/assets into
@@ -55,3 +57,18 @@ import; verify restore/rollback; obtain explicit domain-cutover approval.
 
 The current report always sets `complete: false`. No successful command is treated
 as proof that the existing site has been completely migrated.
+
+## Received uploads: local verification
+
+The archive contains 1,589 files: 1,585 fully decoded images and four preserved text
+logs. All 295 WXR attachment paths exist. The 291 image attachment records map to
+285 checksum-deduplicated private local CMS assets; a repeated import retained every
+target ID and checksum. The four text logs are preserved outside public media.
+None of this provisions durable cloud storage or approves public access.
+
+The HTML/featured-image audit identifies 599 media references, including responsive
+srcset candidates. Twenty-three missing local variants occur in the Elementor
+`Business Demo` template. External theme-demo origins in the old Home page/template
+still need explicit mapping or an approved template replacement; a matching local
+filename alone is not proof of external asset identity. All originals remain intact.
+The machine-readable inventory and image checksums are in ignored private reports.
