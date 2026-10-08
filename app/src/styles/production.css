@@ -478,9 +478,43 @@ td small {
   overflow: auto;
   white-space: pre-wrap;
 }
-.legacy-content table {
-  display: block;
-  overflow: auto;
+.article-table-scroll {
+  margin: 28px 0 20px;
+}
+.article-table-scroll table {
+  display: table;
+  width: 100%;
+  min-width: 560px;
+  border-top: 1px solid var(--ink);
+  background: #fff;
+  font-variant-numeric: tabular-nums;
+}
+.article-table-scroll :is(th, td) {
+  padding: 18px 14px;
+  border-bottom: 1px solid var(--rule);
+  text-align: left;
+  overflow-wrap: normal;
+}
+.article-table-scroll thead :is(th, td) {
+  font: 700 10px/1.5 var(--sans);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border-bottom: 1px solid var(--ink);
+}
+.article-table-scroll tbody th {
+  font-weight: 400;
+}
+.article-table-scroll :is(td, th) :is(p, strong, b, em, a) {
+  font-size: inherit;
+  font-family: inherit;
+  line-height: inherit;
+}
+.article-table-scroll :is(td, th) p + p {
+  margin-top: 8px;
+}
+.article-table-scroll tbody tr:hover {
+  background: var(--wash);
 }
 .home-ai-index .tracker {
   margin: 0;

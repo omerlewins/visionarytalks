@@ -1,6 +1,18 @@
 import sanitize from "sanitize-html";
 import { decodeHTML } from "entities";
 
+/** Presentation only: call after sanitizing; source markup and cell values stay intact. */
+export function editorialTables(html: string) {
+  let index = 0;
+  return html
+    .replace(
+      /<table\b[^>]*>/gi,
+      (table) =>
+        `<div class="table-scroll article-table-scroll" tabindex="0" role="region" aria-label="Article data table ${++index}, scroll horizontally to view all columns">${table}`,
+    )
+    .replace(/<\/table\s*>/gi, "</table></div>");
+}
+
 export function legacyHeadings(html: string) {
   const toc: { id: string; heading: string }[] = [];
   const content = html.replace(

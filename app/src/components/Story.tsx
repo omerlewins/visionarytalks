@@ -6,7 +6,7 @@ import type { Story as StoryData } from "@/lib/domain";
 import { Ad, Newsletter } from "./Shell";
 import { Chart } from "./Chart";
 import { Share } from "./Share";
-import { legacyHeadings } from "@/migration/render";
+import { legacyHeadings, editorialTables } from "@/migration/render";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
     <article className="story latest-story">
@@ -189,25 +189,27 @@ export function StoryTemplate({
               <div
                 className="legacy-content"
                 dangerouslySetInnerHTML={{
-                  __html: sanitize(legacy.content, {
-                    allowedTags: sanitize.defaults.allowedTags.concat([
-                      "img",
-                      "figure",
-                      "figcaption",
-                    ]),
-                    allowedAttributes: {
-                      ...sanitize.defaults.allowedAttributes,
-                      "*": ["id"],
-                      img: [
-                        "src",
-                        "srcset",
-                        "alt",
-                        "width",
-                        "height",
-                        "loading",
-                      ],
-                    },
-                  }),
+                  __html: editorialTables(
+                    sanitize(legacy.content, {
+                      allowedTags: sanitize.defaults.allowedTags.concat([
+                        "img",
+                        "figure",
+                        "figcaption",
+                      ]),
+                      allowedAttributes: {
+                        ...sanitize.defaults.allowedAttributes,
+                        "*": ["id"],
+                        img: [
+                          "src",
+                          "srcset",
+                          "alt",
+                          "width",
+                          "height",
+                          "loading",
+                        ],
+                      },
+                    }),
+                  ),
                 }}
               />
             )}
