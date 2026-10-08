@@ -74,6 +74,18 @@ Official references checked October 8, 2026:
 
 ## Environment variables
 
+The owner's requested Hobby review project is `omer-webielcoms-projects/visionarytalks`,
+linked to GitHub with root `app`. Its Preview environment has a separate free Neon
+database and a private Vercel Blob store. Production credentials are intentionally
+unset. Keep Vercel Authentication enabled. This is staging, not commercial launch
+acceptance or a representation that Hobby has a commercial-use exception.
+
+Private Blob is an alternative to S3: set `BLOB_STORE_ID` with Vercel OIDC, or
+`BLOB_READ_WRITE_TOKEN` for trusted local migration. The Payload adapter streams
+objects through protected collection file routes; it never makes the underlying
+store public. Local migrations use the ignored `private/.env.vercel-preview` file.
+Do not copy `.env.local` into a deployment or reuse preview credentials in production.
+
 | Variable | Purpose |
 | --- | --- |
 | `APP_ENV` | `development`, `preview`, or `production`; hosted environments validate the Vercel scope |

@@ -38,7 +38,10 @@ export default buildConfig({
     meta: { titleSuffix: "— Visionary Talks" },
   },
   db: postgresAdapter({
-    pool: { connectionString: process.env.DATABASE_URL ?? "" },
+    pool: {
+      connectionString: process.env.DATABASE_URL ?? "",
+      connectionTimeoutMillis: 15000,
+    },
     push: process.env.APP_ENV === "development",
     migrationDir: path.resolve(process.cwd(), "src/migrations"),
   }),

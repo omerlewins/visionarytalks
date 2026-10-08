@@ -3,6 +3,7 @@ import type { Adapter } from "@payloadcms/plugin-cloud-storage/types";
 import { getStorageFilePath } from "@payloadcms/plugin-cloud-storage/utilities";
 import { put, get, del } from "@vercel/blob";
 import { readFile } from "node:fs/promises";
+import type { PayloadRequest } from "payload";
 
 const adapter: Adapter = ({ collection, prefix = "" }) => ({
   name: "private-vercel-blob",
@@ -59,4 +60,19 @@ export async function readPrivateBlob(key: string) {
   if (!object || object.statusCode !== 200)
     throw new Error("Stored private asset unavailable");
   return Buffer.from(await new Response(object.stream).arrayBuffer());
+}
+export async function readBlobDocument(
+  req: PayloadRequest,
+  slug: "media" | "source-documents",
+  doc: any,
+) {
+  const key = await getStorageFilePath({
+    collection: req.payload.collections[slug].config,
+    collectionPrefix: slug === "media" ? "media" : "private",
+    doc,
+    filename: doc.filename,
+    req,
+    useCompositePrefixes: true,
+  });
+  return readPrivateBlob(key);
 }

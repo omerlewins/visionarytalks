@@ -1,4 +1,24 @@
 import sanitize from "sanitize-html";
+import { decodeHTML } from "entities";
+
+export function legacyHeadings(html: string) {
+  const toc: { id: string; heading: string }[] = [];
+  const content = html.replace(
+    /<h([1-6])([^>]*)>([\s\S]*?)<\/h\1>/gi,
+    (_match, level, attributes, text) => {
+      const existing = attributes.match(/\bid\s*=\s*(["'])(.*?)\1/i)?.[2];
+      const id = existing ?? `legacy-heading-${toc.length + 1}`;
+      toc.push({
+        id,
+        heading: decodeHTML(
+          sanitize(text, { allowedTags: [], allowedAttributes: {} }),
+        ),
+      });
+      return `<h${level}${attributes}${existing ? "" : ` id="${id}"`}>${text}</h${level}>`;
+    },
+  );
+  return { content, toc };
+}
 
 /** Rewrite verified media references without modifying the archived source HTML. */
 export function rewriteLegacyHTML(

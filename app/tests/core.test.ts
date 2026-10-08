@@ -14,7 +14,56 @@ import {
 } from "../src/migration/wordpress";
 import { submissionKey } from "../src/workflows/engine";
 import { validateDraft, versionConflict } from "../src/workflows/contracts";
-import { rewriteLegacyHTML } from "../src/migration/render";
+import { rewriteLegacyHTML, legacyHeadings } from "../src/migration/render";
+import { migrateMedia } from "../src/migration/media";
+import { mkdtemp, writeFile, rm, rmdir } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import path from "node:path";
+test("concurrent identical media reuse a single CMS upload", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "visionary-media-test-"));
+  let created = 0;
+  try {
+    await writeFile(path.join(root, "a.png"), "same image bytes");
+    await writeFile(path.join(root, "b.png"), "same image bytes");
+    const payload: any = {
+      find: async () => ({ docs: [] }),
+      create: async () => {
+        created++;
+        return { id: 123, filename: "a.png" };
+      },
+    };
+    const [first, second] = await Promise.all([
+      migrateMedia(
+        payload,
+        root,
+        "https://example.test/wp-content/uploads/a.png",
+        {},
+      ),
+      migrateMedia(
+        payload,
+        root,
+        "https://example.test/wp-content/uploads/b.png",
+        {},
+      ),
+    ]);
+    assert.equal(first.id, second.id);
+    assert.equal(created, 1);
+  } finally {
+    await rm(path.join(root, "a.png"), { force: true });
+    await rm(path.join(root, "b.png"), { force: true });
+    await rmdir(root);
+  }
+});
+test("legacy article TOCs preserve existing anchors and add missing heading targets", () => {
+  const result = legacyHeadings(
+    '<h2 id="original">A &amp; B</h2><h3>Next section</h3>',
+  );
+  assert.deepEqual(result.toc, [
+    { id: "original", heading: "A & B" },
+    { id: "legacy-heading-2", heading: "Next section" },
+  ]);
+  assert.ok(result.content.includes('<h3 id="legacy-heading-2">'));
+});
 test("migration rewrites media and internal links without running legacy scripts", () => {
   const mapped = rewriteLegacyHTML(
     '<h2 id="section">Heading</h2><img src="/wp-content/uploads/a.jpg" srcset="/wp-content/uploads/a.jpg 300w" onerror="bad()"><a href="https://example.test/original/?q=one#part">Read</a><script>bad()</script>',

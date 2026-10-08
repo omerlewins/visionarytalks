@@ -6,6 +6,7 @@ import type { Story as StoryData } from "@/lib/domain";
 import { Ad, Newsletter } from "./Shell";
 import { Chart } from "./Chart";
 import { Share } from "./Share";
+import { legacyHeadings } from "@/migration/render";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
     <article className="story latest-story">
@@ -29,6 +30,8 @@ export function StoryTemplate({
   story: StoryData;
   related?: StoryData[];
 }) {
+  const legacy = legacyHeadings(s.legacyHTML ?? "");
+  const showSources = s.sources.length > 0 || !s.legacyHTML;
   return (
     <>
       <div className="breadcrumbs">
@@ -115,7 +118,7 @@ export function StoryTemplate({
             )
           )}
         </header>
-        {s.facts && (
+        {!!s.facts?.length && (
           <dl className="facts-strip">
             {s.facts.map((f) => (
               <div key={f.label}>
@@ -130,12 +133,12 @@ export function StoryTemplate({
             <details open>
               <summary>IN THIS STORY</summary>
               <nav aria-label="Table of contents">
-                {s.sections.map((x) => (
+                {[...s.sections, ...legacy.toc].map((x) => (
                   <a href={`#${x.id}`} key={x.id}>
                     {x.heading}
                   </a>
                 ))}
-                <a href="#sources">Sources & methodology</a>
+                {showSources && <a href="#sources">Sources & methodology</a>}
               </nav>
             </details>
           </aside>
@@ -148,7 +151,7 @@ export function StoryTemplate({
                 <p>{s.shortAnswer}</p>
               </aside>
             )}
-            {s.relations && (
+            {!!s.relations?.length && (
               <section>
                 <h2>The ownership structure</h2>
                 <div className="ownership-chain">
@@ -186,7 +189,7 @@ export function StoryTemplate({
               <div
                 className="legacy-content"
                 dangerouslySetInnerHTML={{
-                  __html: sanitize(s.legacyHTML, {
+                  __html: sanitize(legacy.content, {
                     allowedTags: sanitize.defaults.allowedTags.concat([
                       "img",
                       "figure",
@@ -208,7 +211,7 @@ export function StoryTemplate({
                 }}
               />
             )}
-            {s.timeline && (
+            {!!s.timeline?.length && (
               <section>
                 <h2>Pivotal moments</h2>
                 <ol className="timeline">
@@ -222,7 +225,7 @@ export function StoryTemplate({
               </section>
             )}
             <Chart metrics={s.metrics ?? []} />
-            {s.faqs?.length && (
+            {!!s.faqs?.length && (
               <section>
                 <h2>Common questions</h2>
                 {s.faqs.map((f) => (
@@ -233,27 +236,29 @@ export function StoryTemplate({
                 ))}
               </section>
             )}
-            <section id="sources" className="source-notes">
-              <h2>Sources & methodology</h2>
-              <p>
-                Observations retain their source, period and definition.
-                Uncertainty is preserved; missing values are not zero.
-              </p>
-              <ol>
-                {s.sources.map((source) => (
-                  <li id={`source-${source.id}`} key={source.id}>
-                    <a href={source.url} target="_blank" rel="noreferrer">
-                      {source.title} ↗
-                    </a>
-                    <p>
-                      {source.publisher}
-                      {source.publishedAt && ` · ${source.publishedAt}`}
-                    </p>
-                    {source.evidence && <p>{source.evidence}</p>}
-                  </li>
-                ))}
-              </ol>
-            </section>
+            {showSources && (
+              <section id="sources" className="source-notes">
+                <h2>Sources & methodology</h2>
+                <p>
+                  Observations retain their source, period and definition.
+                  Uncertainty is preserved; missing values are not zero.
+                </p>
+                <ol>
+                  {s.sources.map((source) => (
+                    <li id={`source-${source.id}`} key={source.id}>
+                      <a href={source.url} target="_blank" rel="noreferrer">
+                        {source.title} ↗
+                      </a>
+                      <p>
+                        {source.publisher}
+                        {source.publishedAt && ` · ${source.publishedAt}`}
+                      </p>
+                      {source.evidence && <p>{source.evidence}</p>}
+                    </li>
+                  ))}
+                </ol>
+              </section>
+            )}
             <aside className="writer-box">
               <span className="eyebrow">ABOUT THE AUTHOR</span>
               <h3>{s.author.name}</h3>

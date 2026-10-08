@@ -98,3 +98,10 @@ the original database and updates only ignored local configuration after success
 Run the private corpus browser checks with `TEST_MIGRATION=true` and
 `npx playwright test tests/browser/migration.spec.ts --workers=1`. They require the
 local authenticated fixture account, private reconciliation report and running app.
+
+Cloud review uses `MIGRATION_REPORT_DIR=../private/cloud-migration` so local and
+cloud target IDs remain separate. The bounded media transfer queue shares in-flight
+checksums to prevent duplicate uploads. `scripts/enable-staging-articles.ts` restores
+only the 100 originally published posts to readable status in the isolated protected
+Neon preview. Seven original drafts remain private. It is not a production cutover
+command, and conversion issues remain recorded for release review.

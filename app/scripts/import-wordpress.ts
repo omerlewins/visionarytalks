@@ -45,7 +45,10 @@ const report: any = {
   records: [],
   complete: false,
 };
-const privateDir = path.resolve(process.cwd(), process.env.MIGRATION_REPORT_DIR || "../private/migration");
+const privateDir = path.resolve(
+  process.cwd(),
+  process.env.MIGRATION_REPORT_DIR || "../private/migration",
+);
 await mkdir(privateDir, { recursive: true });
 let payload: any;
 if (apply) {
@@ -56,7 +59,29 @@ if (apply) {
   payload = await getPayload({ config });
 }
 const reserved = /^\/(admin|api|preview|search|ai-companies|ai-salaries)(\/|$)/;
-for (const item of inventory.items) {
+const metadataRecords = new Map<string, Promise<any>>();
+function metadataRecord(collection: string, key: string, data: any) {
+  const identity = `${collection}:${key}`;
+  if (!metadataRecords.has(identity))
+    metadataRecords.set(
+      identity,
+      (async () => {
+        const found = (
+          await payload.find({
+            collection,
+            where: { legacyKey: { equals: key } },
+            limit: 1,
+          })
+        ).docs[0];
+        return (
+          found ??
+          payload.create({ collection, data: { ...data, legacyKey: key } })
+        );
+      })(),
+    );
+  return metadataRecords.get(identity)!;
+}
+async function processItem(item: (typeof inventory.items)[number]) {
   const result: any = {
     sourceID: item.id,
     type: item.type,
@@ -98,23 +123,33 @@ for (const item of inventory.items) {
       const mediaURLs = new Map<string, string>();
       const mediaIDs = new Map<string, number>();
       if (uploads) {
-        for (const reference of item.assets) {
-          const url = new URL(
-            reference.replaceAll("&amp;", "&"),
-            item.url || inventory.site,
+        for (let offset = 0; offset < item.assets.length; offset += 4) {
+          await Promise.all(
+            item.assets.slice(offset, offset + 4).map(async (reference) => {
+              const url = new URL(
+                reference.replaceAll("&amp;", "&"),
+                item.url || inventory.site,
+              );
+              if (url.origin !== new URL(inventory.site).origin)
+                throw new Error(
+                  "External image origin requires a reviewed mapping",
+                );
+              const sourceAttachment = inventory.items.find(
+                (asset) => asset.attachmentURL === url.href,
+              );
+              const media = await migrateMedia(payload, uploads, url.href, {
+                alt: sourceAttachment?.meta._wp_attachment_image_alt,
+                caption: sourceAttachment?.excerpt,
+              });
+              if (!media.filename)
+                throw new Error("Imported media has no stored filename");
+              mediaURLs.set(
+                url.href,
+                `/api/media/file/${encodeURIComponent(media.filename)}`,
+              );
+              mediaIDs.set(url.href, media.id);
+            }),
           );
-          if (url.origin !== new URL(inventory.site).origin)
-            throw new Error(
-              "External image origin requires a reviewed mapping",
-            );
-          const media = await migrateMedia(payload, uploads, url.href, {});
-          if (!media.filename)
-            throw new Error("Imported media has no stored filename");
-          mediaURLs.set(
-            url.href,
-            `/api/media/file/${encodeURIComponent(media.filename)}`,
-          );
-          mediaIDs.set(url.href, media.id);
         }
         result.issues = result.issues.filter(
           (issue: string) =>
@@ -134,7 +169,23 @@ for (const item of inventory.items) {
             collection: "stories",
             id: previous.data.targetID,
           })
-        : null;
+        : ((
+            await payload.find({
+              collection: "stories",
+              where: { legacyKey: { equals: item.key } },
+              limit: 1,
+              depth: 0,
+            })
+          ).docs[0] ?? null);
+      if (
+        target &&
+        !previous &&
+        (target.importChecksum !== item.checksum ||
+          target.createdAt !== target.updatedAt)
+      )
+        throw new Error(
+          "Interrupted import target has changes; manual reconciliation required",
+        );
       const fingerprint = (t: any) =>
         checksum(
           JSON.stringify([
@@ -165,45 +216,20 @@ for (const item of inventory.items) {
       result.outcome = decision;
       if (decision === "create" || decision === "update") {
         const authorKey = `${inventory.site}#author:${item.author}`;
-        let author = (
-          await payload.find({
-            collection: "authors",
-            where: { legacyKey: { equals: authorKey } },
-            limit: 1,
-          })
-        ).docs[0];
-        if (!author) {
-          const sourceAuthor = inventory.authors.find(
-            (a) => String(a["wp:author_login"]) === item.author,
-          );
-          author = await payload.create({
-            collection: "authors",
-            data: {
-              name: sourceAuthor?.["wp:author_display_name"] ?? item.author,
-              legacyKey: authorKey,
-            },
-          });
-        }
+        const sourceAuthor = inventory.authors.find(
+          (a) => String(a["wp:author_login"]) === item.author,
+        );
+        const author = await metadataRecord("authors", authorKey, {
+          name: sourceAuthor?.["wp:author_display_name"] ?? item.author,
+        });
         const taxonomy = [];
         for (const term of item.taxonomy) {
           const key = `${inventory.site}#${term.kind}:${term.slug}`;
-          const found =
-            (
-              await payload.find({
-                collection: "taxonomy",
-                where: { legacyKey: { equals: key } },
-                limit: 1,
-              })
-            ).docs[0] ??
-            (await payload.create({
-              collection: "taxonomy",
-              data: {
-                name: term.name,
-                path: `/${term.kind === "post_tag" ? "tag" : "category"}/${term.slug}/`,
-                kind: term.kind === "post_tag" ? "tag" : "category",
-                legacyKey: key,
-              },
-            }));
+          const found = await metadataRecord("taxonomy", key, {
+            name: term.name,
+            path: `/${term.kind === "post_tag" ? "tag" : "category"}/${term.slug}/`,
+            kind: term.kind === "post_tag" ? "tag" : "category",
+          });
           taxonomy.push(found.id);
         }
         const data = {
@@ -297,8 +323,21 @@ for (const item of inventory.items) {
     }
   } else if (result.issues.length) result.outcome = "needs-review";
   report.records.push(result);
-  if (apply && report.records.length % 25 === 0) console.log(`Accounted for ${report.records.length}/${inventory.items.length} source records`);
+  if (apply && report.records.length % 25 === 0)
+    console.log(
+      `Accounted for ${report.records.length}/${inventory.items.length} source records`,
+    );
 }
+for (let offset = 0; offset < inventory.items.length; offset += 4) {
+  await Promise.all(inventory.items.slice(offset, offset + 4).map(processItem));
+}
+const sourceOrder = new Map(
+  inventory.items.map((item, index) => [item.id, index]),
+);
+report.records.sort(
+  (a: any, b: any) =>
+    (sourceOrder.get(a.sourceID) ?? 0) - (sourceOrder.get(b.sourceID) ?? 0),
+);
 for (const url of report.urls) {
   const record = report.records.find((r: any) => r.oldURL === url.url);
   if (

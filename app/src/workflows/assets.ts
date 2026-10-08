@@ -5,7 +5,7 @@ import sharp from "sharp";
 import type { PayloadRequest } from "payload";
 import { submissionKey } from "./engine";
 import { responseStep, type ProviderCheckpoint } from "./openai";
-import { readPrivateBlob } from "../cms/blob-storage";
+import { readBlobDocument } from "../cms/blob-storage";
 export async function documentPackets(
   ids: (number | string)[],
   req: PayloadRequest,
@@ -20,7 +20,7 @@ export async function documentPackets(
     });
     let content: Buffer;
     if (process.env.BLOB_STORE_ID || process.env.BLOB_READ_WRITE_TOKEN) {
-      content = await readPrivateBlob(`private/${doc.filename}`);
+      content = await readBlobDocument(req, "source-documents", doc);
     } else if (process.env.S3_BUCKET) {
       const s3 = new S3Client({
         region: process.env.S3_REGION ?? "auto",
@@ -104,7 +104,7 @@ export async function illustrate(
       if (process.env.BLOB_STORE_ID || process.env.BLOB_READ_WRITE_TOKEN) {
         references.push({
           type: "input_image",
-          image_url: `data:${media.mimeType};base64,${(await readPrivateBlob(`media/${media.filename}`)).toString("base64")}`,
+          image_url: `data:${media.mimeType};base64,${(await readBlobDocument(req, "media", media)).toString("base64")}`,
         });
       } else if (process.env.S3_BUCKET) {
         const s3 = new S3Client({
