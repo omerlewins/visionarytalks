@@ -16,6 +16,8 @@ import { submissionKey } from "../src/workflows/engine";
 import { validateDraft, versionConflict } from "../src/workflows/contracts";
 import { rewriteLegacyHTML, legacyHeadings } from "../src/migration/render";
 import { migrateMedia } from "../src/migration/media";
+import { extractLegacyChart } from "../src/migration/charts";
+import { isOwnershipStory, ownershipBrand } from "../src/lib/ownership";
 import { mkdtemp, writeFile, rm, rmdir } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import path from "node:path";
@@ -62,6 +64,49 @@ test("concurrent identical media reuse a single CMS upload", async () => {
     await rm(path.join(root, "b.png"), { force: true });
     await rmdir(root);
   }
+});
+test("ownership classification includes refresh drafts without changing company names", () => {
+  assert.equal(
+    isOwnershipStory({
+      title: "REFRESH: Who Owns Canada Dry?",
+      path: "/?p=1566",
+    }),
+    true,
+  );
+  assert.equal(
+    isOwnershipStory({ title: "A founder interview", path: "/interview/" }),
+    false,
+  );
+  assert.equal(
+    ownershipBrand("Who Owns FIJI Water in 2026? The ownership story"),
+    "FIJI Water",
+  );
+  assert.equal(ownershipBrand("Who Owns Ben &amp; Jerry's?"), "Ben & Jerry's");
+});
+test("legacy charts use exact table values and refuse uncertain or unrelated data", () => {
+  const ages = ["Under 35", "35-44", "45-54", "55-64", "65-74", "75+"];
+  const html =
+    "<table><tr><th>Age of household head</th><th>Median net worth</th><th>Average net worth</th><th>Ratio</th></tr>" +
+    ages
+      .map(
+        (age) =>
+          `<tr><td>${age}</td><td>$39,000</td><td>$183,500</td><td>4.7x</td></tr>`,
+      )
+      .join("") +
+    "</table><figure>old vector labels<figcaption>Median vs average net worth by age of household head. Source: Federal Reserve, 2022 Survey of Consumer Finances (2022 dollars).</figcaption></figure><p>Original reporting remains here.</p>";
+  const result = extractLegacyChart(html)!;
+  assert.equal(result.series[0].points[0].value, 183500);
+  assert.equal(result.series[1].points[0].value, 39000);
+  assert.equal(result.after, "<p>Original reporting remains here.</p>");
+  assert.ok(result.before.includes("<table>"));
+  assert.equal(
+    extractLegacyChart(html.replace("$39,000", "About $39,000")),
+    null,
+  );
+  assert.equal(
+    extractLegacyChart(html.replace("Median net worth", "Salary")),
+    null,
+  );
 });
 test("legacy article TOCs preserve existing anchors and add missing heading targets", () => {
   const result = legacyHeadings(

@@ -122,8 +122,8 @@ homepage and desktop article screenshots were inspected. Evidence is in the igno
 `private/deployed-review/` directory. This complements the local Chromium/WebKit
 corpus checks; it does not replace production load or a full manual content review.
 
-Visual review also confirms remaining editorial setup: imports retain their regular
-legacy article template until classified; homepage section curation and structured
+Visual review also confirms remaining editorial setup: non-ownership imports retain
+their regular legacy article template until classified; homepage section curation and structured
 company/compensation tracker data are still needed. Empty trackers do not contain
 invented sample financial figures. Newsletter and other unconfigured integrations
 remain clearly inactive.
@@ -132,3 +132,33 @@ Do not rerun review-draft import against the promoted staging records: it intent
 refuses to unpublish them. Review mode is intended for a fresh isolated import or
 existing private drafts. Publishing to the live domain remains a separate approved
 release after dependency, content-conversion, operational and URL reconciliation gates.
+
+## Editorial tables, charts and ownership files
+
+Imported tables now share the editorial rules, headers and spacing, fill the reading
+column on desktop and scroll inside a keyboard-accessible region on small screens.
+Local and deployed checks passed for 294 tables across 99 imported articles. The
+wealth-percentile example was rendered at all six required widths.
+
+The source inventory identifies 61 ownership records: 54 published articles and seven
+refresh drafts. `scripts/classify-ownership.ts` changes only their CMS template kind
+and modification timestamp, stores private before-snapshots, and verifies hashes of
+all remaining fields. Original article paths, titles, text, dates, authors, imagery,
+SEO metadata and publication status are preserved. Query-style draft paths remain
+private. New imports also recognize ownership titles and paths.
+
+Ownership pages use the approved split typographic cover, four-column summary,
+contents navigation, boxed original opening paragraph, numbered editorial sections
+and company sidebar. Original featured images remain inside the article. Summary
+fields use existing structured facts when supplied; imported entries otherwise show
+company identity and article metadata. Parent, stake, founder and transaction facts
+are not inferred merely to fill design modules.
+
+The shared chart renderer uses the homepage's wash, serif labels, monochrome bars,
+fine gridlines, zero baseline and source notes. The one embedded SVG found in the
+export (net worth by age) is rebuilt from its exact accompanying source-table values,
+with median and average kept distinct on a shared USD scale. The original table and
+caption remain. Uncertain strings fail parsing rather than being converted to exact
+figures. This is source-preserving visualization, not renewed factual verification.
+Local checks compare the complete rendered legacy text of all 61 ownership records
+and render the ownership/chart examples at 360, 390, 430, 768, 1024 and 1440 pixels.

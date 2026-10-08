@@ -1,6 +1,14 @@
 import sanitize from "sanitize-html";
 import { decodeHTML } from "entities";
 
+export function ownershipOpening(html: string) {
+  return html.replace(
+    /<p\b[^>]*>[\s\S]*?<\/p>/i,
+    (paragraph) =>
+      `<aside class="ownership-short-answer"><span class="eyebrow">THE SHORT ANSWER</span>${paragraph}</aside>`,
+  );
+}
+
 /** Presentation only: call after sanitizing; source markup and cell values stay intact. */
 export function editorialTables(html: string) {
   let index = 0;

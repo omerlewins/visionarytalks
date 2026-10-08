@@ -2,6 +2,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { migrateMedia } from "../src/migration/media";
 import { rewriteLegacyHTML } from "../src/migration/render";
+import { isOwnershipStory } from "../src/lib/ownership";
 import {
   inspectWXR,
   reconcileURLs,
@@ -232,7 +233,12 @@ async function processItem(item: (typeof inventory.items)[number]) {
           path: item.path,
           legacyKey: item.key,
           legacyStatus: item.status,
-          kind: item.type === "page" ? "page" : "article",
+          kind:
+            item.type === "page"
+              ? "page"
+              : isOwnershipStory(item)
+                ? "ownership"
+                : "article",
           dek: item.excerpt || item.title,
           category:
             item.taxonomy.find((t) => t.kind === "category")?.name ??

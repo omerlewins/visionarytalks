@@ -1,9 +1,9 @@
 import { chartScale, type Metric } from "@/lib/domain";
+import { EditorialChart } from "./EditorialChart";
 export function Chart({ metrics }: { metrics: Metric[] }) {
   if (!metrics.length) return null;
-  let max: number;
   try {
-    max = chartScale(metrics);
+    chartScale(metrics);
   } catch {
     return (
       <p className="notice">
@@ -13,30 +13,41 @@ export function Chart({ metrics }: { metrics: Metric[] }) {
     );
   }
   return (
-    <figure className="data-chart">
-      <figcaption>
-        {metrics[0].definition} · {metrics[0].currency} {metrics[0].unit}
-      </figcaption>
-      <div className="chart-bars" aria-hidden="true">
-        {metrics.map((m, i) => (
-          <div key={i}>
-            <span>{m.value ?? "Unknown"}</span>
-            <i
-              style={{
-                height: `${m.value == null ? 0 : Math.max(0, m.value / max) * 100}%`,
-              }}
-            />
-            <b>{m.period}</b>
-          </div>
-        ))}
-      </div>
-      <p className="source">
-        Zero baseline · {metrics[0].basis}. Missing observations are not
-        interpolated.
-      </p>
+    <EditorialChart
+      title={metrics[0].definition}
+      subtitle={`${metrics[0].currency ?? ""} ${metrics[0].unit} · ${metrics[0].basis}`}
+      series={[
+        {
+          name: metrics[0].definition,
+          points: metrics.map((m) => ({
+            label: m.period,
+            value: m.value,
+            display:
+              m.value == null
+                ? "Unknown"
+                : `${m.value.toLocaleString("en-US")}${m.unit === "%" ? "%" : ""}`,
+          })),
+        },
+      ]}
+      source={
+        <>
+          Sources:{" "}
+          {[...new Set(metrics.flatMap((m) => m.sourceIds))].map((id) => (
+            <a key={id} href={`#source-${id}`}>
+              [{id}]{" "}
+            </a>
+          ))}
+        </>
+      }
+    >
       <details>
         <summary>View accessible data table</summary>
-        <div className="table-scroll">
+        <div
+          className="table-scroll article-table-scroll"
+          tabIndex={0}
+          role="region"
+          aria-label="Chart data table"
+        >
           <table>
             <thead>
               <tr>
@@ -67,6 +78,6 @@ export function Chart({ metrics }: { metrics: Metric[] }) {
           </table>
         </div>
       </details>
-    </figure>
+    </EditorialChart>
   );
 }
