@@ -29,6 +29,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             DESIGN PREVIEW · Reference fixtures, not published reporting
           </div>
         )}
+        {!isDemo() && process.env.APP_ENV === "preview" && (
+          <div className="demo-banner">STAGING REVIEW · Imported articles · Not the live publication</div>
+        )}
         <Header />
         <main id="main" className="page-width" tabIndex={-1}>
           {children}

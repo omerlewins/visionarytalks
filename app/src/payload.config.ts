@@ -7,6 +7,7 @@ import path from "node:path";
 import { collections } from "./cms/collections";
 import { editors } from "./cms/access";
 import { prepareTask } from "./workflows/engine";
+import { privateBlobStorage } from "./cms/blob-storage";
 if (
   process.env.VERCEL_ENV === "production" &&
   (process.env.DEMO_MODE === "true" || process.env.APP_ENV !== "production")
@@ -18,7 +19,9 @@ if (process.env.VERCEL_ENV === "preview" && process.env.APP_ENV !== "preview")
   throw new Error("Preview requires its isolated APP_ENV=preview credentials");
 if (
   process.env.VERCEL_ENV &&
-  (!process.env.S3_BUCKET ||
+  ((!process.env.S3_BUCKET &&
+    !process.env.BLOB_STORE_ID &&
+    !process.env.BLOB_READ_WRITE_TOKEN) ||
     !process.env.DATABASE_URL ||
     (process.env.PAYLOAD_SECRET?.length ?? 0) < 32)
 )
@@ -62,23 +65,27 @@ export default buildConfig({
     },
   ],
   plugins: [
-    s3Storage({
-      enabled: Boolean(process.env.S3_BUCKET),
-      alwaysInsertFields: true,
-      collections: {
-        media: { prefix: "media" },
-        "source-documents": { prefix: "private" },
-      },
-      bucket: process.env.S3_BUCKET ?? "",
-      config: {
-        region: process.env.S3_REGION ?? "auto",
-        endpoint: process.env.S3_ENDPOINT,
-        credentials: {
-          accessKeyId: process.env.S3_ACCESS_KEY_ID ?? "",
-          secretAccessKey: process.env.S3_SECRET_ACCESS_KEY ?? "",
-        },
-      },
-    }),
+    ...(process.env.BLOB_STORE_ID || process.env.BLOB_READ_WRITE_TOKEN
+      ? [privateBlobStorage()]
+      : [
+          s3Storage({
+            enabled: Boolean(process.env.S3_BUCKET),
+            alwaysInsertFields: true,
+            collections: {
+              media: { prefix: "media" },
+              "source-documents": { prefix: "private" },
+            },
+            bucket: process.env.S3_BUCKET ?? "",
+            config: {
+              region: process.env.S3_REGION ?? "auto",
+              endpoint: process.env.S3_ENDPOINT,
+              credentials: {
+                accessKeyId: process.env.S3_ACCESS_KEY_ID ?? "",
+                secretAccessKey: process.env.S3_SECRET_ACCESS_KEY ?? "",
+              },
+            },
+          }),
+        ]),
   ],
   upload: { limits: { fileSize: 4 * 1024 * 1024 } },
   jobs: {

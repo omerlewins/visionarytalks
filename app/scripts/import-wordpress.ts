@@ -45,7 +45,7 @@ const report: any = {
   records: [],
   complete: false,
 };
-const privateDir = path.resolve(process.cwd(), "../private/migration");
+const privateDir = path.resolve(process.cwd(), process.env.MIGRATION_REPORT_DIR || "../private/migration");
 await mkdir(privateDir, { recursive: true });
 let payload: any;
 if (apply) {
@@ -297,6 +297,7 @@ for (const item of inventory.items) {
     }
   } else if (result.issues.length) result.outcome = "needs-review";
   report.records.push(result);
+  if (apply && report.records.length % 25 === 0) console.log(`Accounted for ${report.records.length}/${inventory.items.length} source records`);
 }
 for (const url of report.urls) {
   const record = report.records.find((r: any) => r.oldURL === url.url);
