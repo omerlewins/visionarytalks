@@ -1,0 +1,7 @@
+import {chromium} from '@playwright/test'
+import {mkdir} from 'node:fs/promises'
+import sharp from 'sharp'
+const root='../private/review';await mkdir(root,{recursive:true})
+const routes=['/','/what-apple-earns-after-the-hardware-sale/','/who-owns-cursor/','/satya-nadella/','/understanding-ai-compensation/','/company-cursor/','/ai-companies/','/ai-salaries/','/category/business/','/search/','/contact/']
+const browser=await chromium.launch();const page=await browser.newPage()
+for(const width of [390,1440]){const thumbs=[];await page.setViewportSize({width,height:1000});for(const [i,route] of routes.entries()){await page.goto(`http://localhost:3000${route}`);await page.locator('img').evaluateAll(async imgs=>Promise.all(imgs.map(async img=>{img.loading='eager';try{await img.decode()}catch{}})));const file=`${root}/${width}-${i}.png`;await page.screenshot({path:file,fullPage:true});const thumb=await sharp(file).resize({width:400}).extract({left:0,top:0,width:400,height:Math.min(900,Math.round((await sharp(file).metadata()).height*400/width))}).extend({bottom:Math.max(0,900-Math.round((await sharp(file).metadata()).height*400/width)),background:'white'}).png().toBuffer();thumbs.push({input:thumb,left:(i%3)*400,top:Math.floor(i/3)*900})}await sharp({create:{width:1200,height:3600,channels:3,background:'white'}}).composite(thumbs).png().toFile(`${root}/contact-${width}.png`)}await browser.close();console.log('Captured all principal templates at 390 and 1440 into private/review.')

@@ -17,3 +17,8 @@ External gates: intended GitHub remote and Vercel project; separate PostgreSQL a
 storage credentials; approved generation providers; four real editorial input packets;
 complete WXR/uploads/SEO/permalink/crawl exports. No DNS/cutover until reconciliation
 and explicit owner approval. Never publish design fixture reporting as real content.
+
+October 8 milestone: the design/CMS foundation, four draft workflows, migration
+tooling and local acceptance checks are implemented. GitHub destination confirmed as
+`omerlewins/visionarytalks`. See `app/docs/ACCEPTANCE.md` for evidence and remaining
+production gates, and `app/docs/SETUP.md` for the free-plan development path.
