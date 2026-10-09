@@ -13,11 +13,12 @@ for(const [path,hash] of Object.entries(manifest)){
  const original=await readFile(await localMediaFile('../private/uploads-2026-10-08/uploads','https://visionarytalks.com'+path));
  if(checksum(original.toString('base64'))!==hash)throw new Error('Source checksum mismatch');
  const doc=(await payload.find({collection:'media',where:{checksum:{equals:hash}},limit:1})).docs[0];
- if(!doc?.approved)throw new Error('Only approved original assets are eligible');
+ if(!doc?.approved || !doc.filename || !doc.mimeType)throw new Error('Only approved original assets are eligible');
  const stored=await readBlobDocument(req,'media',doc);
  if(!stored.equals(original)){
   await writeFile(`../private/ranking-audit/media-before-${doc.id}`,stored);
-  const key=await getStorageFilePath({collection:payload.collections.media.config,collectionPrefix:'media',doc,filename:doc.filename,req,useCompositePrefixes:true});
+  const storageDoc={...doc,_objectKey:doc._objectKey??undefined,prefix:doc.prefix??undefined};
+  const key=await getStorageFilePath({collection:payload.collections.media.config,collectionPrefix:'media',doc:storageDoc,filename:doc.filename,req,useCompositePrefixes:true});
   await put(key,original,{access:'private',addRandomSuffix:false,allowOverwrite:true,contentType:doc.mimeType});
   await payload.update({collection:'media',id:doc.id,data:{filesize:original.length}});
   if(!(await readBlobDocument(req,'media',doc)).equals(original))throw new Error('Original restoration failed');
