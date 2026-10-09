@@ -162,3 +162,8 @@ caption remain. Uncertain strings fail parsing rather than being converted to ex
 figures. This is source-preserving visualization, not renewed factual verification.
 Local checks compare the complete rendered legacy text of all 61 ownership records
 and render the ownership/chart examples at 360, 390, 430, 768, 1024 and 1440 pixels.
+The same checks passed on the deployed ownership/chart build. The final homepage
+follow-up passed all six widths; anonymous CMS reads still expose exactly 100
+published articles, including 54 ownership articles, while all seven original drafts
+return 404. Private screenshots and results are in `private/editorial-review-deployed/`
+and `private/final-home-review/`. All 17 unit tests and TypeScript checks passed.

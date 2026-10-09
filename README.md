@@ -13,7 +13,7 @@ The supplied 107 articles have been imported into isolated staging. The live dom
 remains on WordPress, and production launch still requires the acceptance gates.
 Design fixtures cannot run with the production environment setting.
 
-The protected [Vercel review deployment](https://visionarytalks-djnyqy9t2-omer-webielcoms-projects.vercel.app)
+The protected [Vercel review deployment](https://visionarytalks-k3w6beotz-omer-webielcoms-projects.vercel.app)
 is in the owner's Hobby workspace. Sign in to Vercel with the owning account to review.
 It uses separate Preview credentials, Neon PostgreSQL and private Vercel Blob storage.
 
