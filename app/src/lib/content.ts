@@ -23,6 +23,7 @@ export const stories = cache(async (): Promise<Story[]> => {
     overrideAccess: false,
     depth: 2,
     pagination: false,
+    sort: "-publishedAt",
     where: { _status: { equals: "published" } },
   });
   return result.docs.map(toStory);

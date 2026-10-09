@@ -7,6 +7,7 @@ import { Ad, Newsletter } from "@/components/Shell";
 import { Chart } from "@/components/Chart";
 import { SalaryTracker } from "@/components/SalaryTracker";
 import { salaryFixtures } from "@/data/salary-fixtures";
+import { ownershipBrand } from "@/lib/ownership";
 export const dynamic = "force-dynamic";
 export default async function Home() {
   const [all, rows] = await Promise.all([stories(), companies()]);
@@ -105,7 +106,7 @@ export default async function Home() {
                   <span>001</span>
                 </div>
                 <strong>
-                  {ownership[0].title.replace("Who owns ", "").replace("?", "")}
+                  {ownershipBrand(ownership[0].title)}
                   <span>_</span>
                 </strong>
                 <div className="file-mini-chain">
@@ -131,7 +132,7 @@ export default async function Home() {
             </article>
           )}
           <div className="company-file-stack">
-            {all
+            {ownership
               .filter((s) => s.id !== ownership[0]?.id)
               .slice(0, 3)
               .map((s) => (
