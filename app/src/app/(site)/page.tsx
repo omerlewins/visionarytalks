@@ -8,8 +8,21 @@ import { Chart } from "@/components/Chart";
 import { SalaryTracker } from "@/components/SalaryTracker";
 import { salaryFixtures } from "@/data/salary-fixtures";
 import { ownershipBrand } from "@/lib/ownership";
+import { notFound } from "next/navigation";
 export const dynamic = "force-dynamic";
-export default async function Home() {
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}) {
+  const query = await searchParams;
+  // Old draft/query permalinks must not masquerade as successful homepage requests.
+  if (
+    query.p !== undefined ||
+    query.page_id !== undefined ||
+    query.preview !== undefined
+  )
+    notFound();
   const [all, rows] = await Promise.all([stories(), companies()]);
   const settings = isDemo()
     ? undefined

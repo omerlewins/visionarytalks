@@ -84,6 +84,8 @@ for (const width of [360, 390, 430, 768, 1024, 1440]) {
     "/category/money/page/9/",
     "/hot-posts/page/10/",
     "/who-owned-saab/",
+    "/john-ternus-net-worth/",
+    "/openai-salary/",
     "/privacy-policy/",
   ]) {
     const response = await page.goto(base + path, { waitUntil: "networkidle" });
@@ -127,7 +129,9 @@ const anonymous = await request.newContext({
   baseURL: base,
   extraHTTPHeaders: headers,
 });
-for (const doc of all.filter((d) => d._status === "draft"))
+await writeFile(`${dir}/layouts.json`, JSON.stringify(layouts, null, 2));
+const privateDocs = all.filter((d) => d._status === "draft" && d.legacyStatus !== 'publish');
+for (const doc of privateDocs)
   assert.equal(
     (await anonymous.get(doc.path)).status(),
     404,
@@ -149,7 +153,7 @@ console.log(
     mediaDifferences: results
       .filter((r) => r.binaryMatchesLive === false)
       .map((r) => r.path),
-    draftsPrivate: all.filter((d) => d._status === "draft").length,
+    draftsPrivate: privateDocs.length,
   }),
 );
 await browser.close();
