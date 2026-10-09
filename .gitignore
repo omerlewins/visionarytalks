@@ -9,3 +9,6 @@
 **/*.tsbuildinfo
 private/
 **/.vercel/
+
+.agents/
+skills-lock.json

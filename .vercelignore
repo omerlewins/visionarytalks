@@ -1,0 +1,11 @@
+private
+design-reference
+.agents
+skills-lock.json
+app/media
+app/test-results
+app/playwright-report
+app/.env*
+app/.next
+app/node_modules
+**/node_modules

@@ -1,0 +1,52 @@
+[
+  {
+    "destination": "/perplexity-salary/",
+    "statusCode": 301,
+    "source": "/perplexity/"
+  },
+  {
+    "destination": "/who-owns-ben-jerrys/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-ben-jerrys/"
+  },
+  {
+    "destination": "/who-owns-chatgpt-openai/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-chatgpt-openai/"
+  },
+  {
+    "destination": "/who-owns-einstein-bros/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-einstein-bros/"
+  },
+  {
+    "destination": "/who-owns-keurig/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-keurig/"
+  },
+  {
+    "destination": "/who-owns-lovable/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-lovable/"
+  },
+  {
+    "destination": "/who-owns-ben-jerrys/",
+    "statusCode": 301,
+    "source": "/who-owns-ben-jerry/"
+  },
+  {
+    "destination": "/who-owns-einstein-bros/",
+    "statusCode": 301,
+    "source": "/who-owns-einstein-bros"
+  },
+  {
+    "destination": "/who-owns-mcdonalds/",
+    "statusCode": 301,
+    "source": "/who-owns-mcdonalds"
+  },
+  {
+    "destination": "/who-owns-panera-bread/",
+    "statusCode": 301,
+    "source": "/who-owns-panera-bread"
+  }
+]

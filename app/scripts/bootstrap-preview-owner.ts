@@ -1,0 +1,12 @@
+import { readFile } from "node:fs/promises";
+import { getPayload } from "payload";
+import config from "../src/payload.config";
+if (process.env.APP_ENV !== "preview") throw new Error("Preview only");
+const owner = JSON.parse(await readFile("../private/preview-owner.json", "utf8"));
+const payload = await getPayload({ config });
+const existing = await payload.find({ collection: "users", limit: 1 });
+if (!existing.totalDocs) await payload.create({ collection: "users", data: { email: owner.email, password: owner.password, name: owner.name || "Publication administrator", role: "admin" } });
+else if (existing.docs[0].email !== owner.email) throw new Error("Existing administrator requires review");
+console.log("Preview administrator is configured; credentials remain in the private owner file.");
+await payload.destroy();
+process.exit(0);

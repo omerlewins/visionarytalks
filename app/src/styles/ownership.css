@@ -1,0 +1,233 @@
+/* Homepage company references, without generic journal photography. */
+.company-files-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 52px;
+}
+.company-file-feature {
+  min-width: 0;
+}
+.company-file-art {
+  display: block;
+  background: #151515;
+  color: #fff;
+  padding: 26px 29px;
+  text-decoration: none;
+}
+.company-file-art:hover {
+  text-decoration: none;
+}
+.file-art-meta,
+.file-art-bottom {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  font: 12px var(--sans);
+  letter-spacing: 0.07em;
+}
+.file-art-meta {
+  border-bottom: 1px solid #555;
+  padding-bottom: 20px;
+}
+.company-file-art > strong {
+  display: block;
+  font: 600 clamp(64px, 6vw, 91px)/1 var(--sans);
+  letter-spacing: -0.065em;
+  padding: 28px 0 35px;
+}
+.company-file-art > strong > span {
+  color: #888;
+}
+.file-mini-chain {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  border-top: 1px solid #777;
+  padding-top: 17px;
+}
+.file-mini-chain > div {
+  border-right: 1px solid #555;
+  padding-right: 12px;
+}
+.file-mini-chain > div:last-child {
+  border: 0;
+}
+.file-mini-chain small {
+  display: block;
+  font-size: 12px;
+  color: #bbb;
+  line-height: 1.4;
+}
+.file-mini-chain b {
+  font: normal 22px/1.2 var(--serif);
+  display: block;
+  margin-top: 8px;
+}
+.file-art-bottom {
+  border-top: 1px solid #555;
+  margin-top: 27px;
+  padding-top: 18px;
+  color: #bdbdbd;
+}
+.company-file-feature h3 {
+  font: normal 42px/1.1 var(--serif);
+  letter-spacing: -0.04em;
+  margin: 12px 0;
+}
+.company-file-feature > p {
+  font: 19px/1.5 var(--serif);
+  color: #555;
+  max-width: 510px;
+}
+.company-file-link {
+  display: inline-block;
+  margin-top: 20px;
+  font: 700 14px var(--sans);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.company-file-stack {
+  display: flex;
+  flex-direction: column;
+}
+.company-file-row {
+  border-top: 1px solid #aaa;
+  padding: 20px 0 23px;
+  flex: 1;
+}
+.company-row-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+.company-row-top > b {
+  font: 600 28px var(--sans);
+  letter-spacing: -0.04em;
+}
+.company-row-top > span {
+  font: 12px var(--sans);
+  color: #666;
+  text-align: right;
+}
+.company-file-row h3 {
+  font: normal 31px/1.15 var(--serif);
+  margin: 16px 0 9px;
+  letter-spacing: -0.025em;
+}
+.company-file-row p {
+  font: 17px/1.4 var(--serif);
+  color: #555;
+}
+.company-file-row .company-file-link {
+  font-size: 13px;
+  margin-top: 13px;
+}
+.company-row-apple {
+  padding-bottom: 0;
+}
+.compensation-editorial {
+  background: #eee;
+  padding: 27px 30px 25px;
+  margin-bottom: 22px;
+  border-top: 3px solid #111;
+}
+.compensation-editorial > span {
+  font: 12px var(--sans);
+  letter-spacing: 0.08em;
+}
+.compensation-editorial h4 {
+  font: normal clamp(35px, 3.8vw, 53px)/1.05 var(--serif);
+  letter-spacing: -0.045em;
+  margin: 23px 0 27px;
+}
+.compensation-editorial h4 em {
+  font-weight: normal;
+}
+.compensation-editorial > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid #aaa;
+  padding-top: 20px;
+}
+.compensation-editorial > div > b {
+  font: normal 22px var(--serif);
+}
+.compensation-editorial > div > span {
+  font-size: 20px;
+  color: #777;
+}
+.compensation-editorial > p {
+  font: 13px var(--sans);
+  color: #666;
+  margin-top: 19px;
+}
+@media (max-width: 900px) {
+  .company-files-grid {
+    gap: 30px;
+    grid-template-columns: 1.1fr 1fr;
+  }
+  .company-file-art {
+    padding: 23px;
+  }
+  .file-mini-chain {
+    gap: 9px;
+  }
+  .file-mini-chain b {
+    font-size: 19px;
+  }
+  .file-mini-chain small {
+    font-size: 12px;
+  }
+  .company-row-top {
+    align-items: start;
+    flex-direction: column;
+    gap: 7px;
+  }
+  .company-row-top > span {
+    text-align: left;
+  }
+}
+@media (max-width: 700px) {
+  .company-files-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .company-file-art > strong {
+    font-size: 72px;
+  }
+  .company-file-feature h3 {
+    font-size: 37px;
+  }
+  .company-file-row {
+    padding: 23px 0;
+  }
+  .company-row-top {
+    flex-direction: row;
+    align-items: center;
+  }
+  .company-row-top > b {
+    font-size: 29px;
+  }
+  .company-row-top > span {
+    font-size: 12px;
+    text-align: right;
+  }
+  .company-file-row h3 {
+    font-size: 30px;
+  }
+  .file-mini-chain b {
+    font-size: 21px;
+  }
+  .compensation-editorial {
+    padding: 23px;
+  }
+  .compensation-editorial h4 {
+    font-size: 43px;
+  }
+  .compensation-editorial > div > b {
+    font-size: 22px;
+  }
+}
