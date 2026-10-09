@@ -2,7 +2,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { migrateMedia } from "../src/migration/media";
 import { rewriteLegacyHTML } from "../src/migration/render";
-import { isOwnershipStory } from "../src/lib/ownership";
+import { editorialKind } from "../src/lib/editorial-taxonomy";
 import {
   inspectWXR,
   reconcileURLs,
@@ -217,6 +217,7 @@ async function processItem(item: (typeof inventory.items)[number]) {
         );
         const author = await metadataRecord("authors", authorKey, {
           name: sourceAuthor?.["wp:author_display_name"] ?? item.author,
+          path: `/author/${item.author}/`,
         });
         const taxonomy = [];
         for (const term of item.taxonomy) {
@@ -233,12 +234,7 @@ async function processItem(item: (typeof inventory.items)[number]) {
           path: item.path,
           legacyKey: item.key,
           legacyStatus: item.status,
-          kind:
-            item.type === "page"
-              ? "page"
-              : isOwnershipStory(item)
-                ? "ownership"
-                : "article",
+          kind: item.type === "page" ? "page" : editorialKind(item),
           dek: item.excerpt || item.title,
           category:
             item.taxonomy.find((t) => t.kind === "category")?.name ??

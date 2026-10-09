@@ -1,6 +1,6 @@
 import Link from "next/link";
 const nav = [
-  ["Ownership", "/category/ownership/"],
+  ["Who owns", "/category/ownership/"],
   ["Business", "/category/business/"],
   ["Careers", "/category/careers/"],
   ["People", "/category/people/"],

@@ -61,6 +61,11 @@ export function toStory(doc: Record<string, any>): Story {
   } as Story;
 }
 export async function storyAt(path: string) {
+  // This case-sensitive alias already returns 200 on WordPress; retain that behavior.
+  if (
+    path === "/How-Much-Money-Does-the-Average-Person-Spend-in-Their-Lifetime/"
+  )
+    path = "/how-much-money-does-the-average-person-spend-in-their-lifetime/";
   if (isDemo()) return fixtures.find((s) => s.path === path);
   const payload = await cms();
   const r = await payload.find({

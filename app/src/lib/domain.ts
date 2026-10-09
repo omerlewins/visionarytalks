@@ -57,8 +57,14 @@ export type Story = {
   related?: string[];
   legacyHTML?: string;
   noindex?: boolean;
+  seo?: {
+    title?: string;
+    description?: string;
+    canonical?: string;
+    noindex?: boolean;
+  };
   richBody?: any;
-  taxonomy?:{name:string;path:string;kind:string}[];
+  taxonomy?: { name: string; path: string; kind: string }[];
 };
 export type CompanyRow = {
   id: string;

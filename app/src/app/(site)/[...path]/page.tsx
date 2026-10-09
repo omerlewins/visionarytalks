@@ -8,6 +8,7 @@ import { SalaryTracker } from "@/components/SalaryTracker";
 import { salaryFixtures } from "@/data/salary-fixtures";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
+import { matchesArchive } from "@/lib/editorial-taxonomy";
 export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ path: string[] }>;
@@ -55,9 +56,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       robots: { index: false },
     };
   return {
-    title: s.title,
-    description: s.dek,
-    alternates: { canonical: s.path },
+    title:
+      s.seo?.title && !/%[^%]+%/.test(s.seo.title)
+        ? { absolute: s.seo.title }
+        : s.title,
+    description: s.seo?.description || s.dek,
+    alternates: { canonical: s.seo?.canonical || s.path },
     robots: {
       index: process.env.APP_ENV === "production" && !s.fixture && !s.noindex,
     },
@@ -88,7 +92,7 @@ export default async function Page({ params, searchParams }: Props) {
       author: { "@type": "Person", name: s.author.name },
       url: new URL(
         s.path,
-        process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+        process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",
       ).href,
     };
     return (
@@ -162,21 +166,43 @@ export default async function Page({ params, searchParams }: Props) {
         <Newsletter />
       </>
     );
-  if (["category", "tag", "author", "search"].includes(path[0])) {
+  if (["category", "tag", "author", "search", "hot-posts"].includes(path[0])) {
+    const simple = ["search", "hot-posts"].includes(path[0]);
+    const baseLength = simple ? 1 : 2;
+    const pageNumber =
+      path.length === baseLength ? 1 : Number(path[baseLength + 1]);
+    if (
+      !(
+        path.length === baseLength ||
+        (path.length === baseLength + 2 && path[baseLength] === "page")
+      ) ||
+      !Number.isSafeInteger(pageNumber) ||
+      pageNumber < 1 ||
+      (!simple && !path[1])
+    )
+      notFound();
     const all = await stories();
     const term =
       path[0] === "search"
         ? (query.q ?? "")
-        : decodeURIComponent(path[1] ?? "");
-    const found = all.filter((s) =>
-      path[0] === "search"
-        ? `${s.title} ${s.dek} ${s.sections.map((x) => x.text).join(" ")}`
-            .toLowerCase()
-            .includes(term.toLowerCase())
-        : path[0] === "author"
-          ? s.author.path === route
-          : s.taxonomy?.some(t=>t.path===route) || (path[0]==='category'&&s.category.toLowerCase() === term.toLowerCase()),
+        : path[0] === "hot-posts"
+          ? "Latest stories"
+          : decodeURIComponent(path[1] ?? "");
+    const found = all.filter(
+      (s) =>
+        s.kind !== "page" &&
+        (path[0] === "search"
+          ? `${s.title} ${s.dek} ${s.sections.map((x) => x.text).join(" ")}`
+              .toLowerCase()
+              .includes(term.toLowerCase())
+          : path[0] === "hot-posts" || matchesArchive(s, path[0], term)),
     );
+    const pageSize = 10;
+    const totalPages = Math.ceil(found.length / pageSize);
+    if (pageNumber > Math.max(1, totalPages)) notFound();
+    const basePath = `/${path.slice(0, baseLength).join("/")}/`;
+    const pageHref = (n: number) =>
+      `${basePath}${n === 1 ? "" : `page/${n}/`}${path[0] === "search" ? `?q=${encodeURIComponent(term)}` : ""}`;
     return (
       <>
         <header className="index-heading">
@@ -184,7 +210,9 @@ export default async function Page({ params, searchParams }: Props) {
           <h1>
             {path[0] === "search"
               ? "Look a little closer."
-              : term.replaceAll("-", " ")}
+              : term === "ownership"
+                ? "Who owns"
+                : term.replaceAll("-", " ")}
           </h1>
         </header>
         {path[0] === "search" && (
@@ -198,10 +226,25 @@ export default async function Page({ params, searchParams }: Props) {
         )}
         <p className="source">{found.length} stories</p>
         <div className="archive-grid">
-          {found.map((s) => (
-            <StoryCard key={s.id} story={s} />
-          ))}
+          {found
+            .slice((pageNumber - 1) * pageSize, pageNumber * pageSize)
+            .map((s) => (
+              <StoryCard key={s.id} story={s} />
+            ))}
         </div>
+        {totalPages > 1 && (
+          <nav className="archive-pagination" aria-label="Archive pages">
+            {pageNumber > 1 && (
+              <Link href={pageHref(pageNumber - 1)}>← Previous</Link>
+            )}
+            <span>
+              Page {pageNumber} of {totalPages}
+            </span>
+            {pageNumber < totalPages && (
+              <Link href={pageHref(pageNumber + 1)}>Next →</Link>
+            )}
+          </nav>
+        )}
         {!found.length && (
           <p className="empty-state">
             No stories found. <Link href="/search/">Try another search.</Link>

@@ -1005,3 +1005,5 @@ td small {
     margin: 0 0 16px;
   }
 }
+
+.archive-pagination { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:2rem; margin:3rem 0; font:14px sans-serif; }

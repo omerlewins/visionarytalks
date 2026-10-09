@@ -7,7 +7,7 @@ import { Header, Footer } from "@/components/Shell";
 import { isDemo } from "@/lib/content";
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",
   ),
   title: {
     default: "Visionary Talks — Companies. Money. Careers.",
@@ -30,7 +30,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           </div>
         )}
         {!isDemo() && process.env.APP_ENV === "preview" && (
-          <div className="demo-banner">STAGING REVIEW · Imported articles · Not the live publication</div>
+          <div className="demo-banner">
+            STAGING REVIEW · Imported articles · Not the live publication
+          </div>
         )}
         <Header />
         <main id="main" className="page-width" tabIndex={-1}>
