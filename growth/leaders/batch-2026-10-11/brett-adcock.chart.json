@@ -1,0 +1,17 @@
+{
+  "title": "Brett Adcock net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 23.4,
+      "display": "$23.4B",
+      "source": "https://www.forbes.com/profile/brett-adcock/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

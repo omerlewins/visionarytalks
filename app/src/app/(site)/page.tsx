@@ -1,3 +1,6 @@
+import { isLeadersReview } from "@/lib/leaders-review";
+import { FeaturedLeaders } from "@/components/LeaderCards";
+import { featuredLeaders } from "@/lib/leaders";
 import Image from "next/image";
 import Link from "next/link";
 import { stories, companies, isDemo, cms } from "@/lib/content";
@@ -276,61 +279,59 @@ export default async function Home({
       <section className="section home-leaders" id="people">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">03 / PEOPLE</span>
+            <span className="eyebrow">03 / LEADERS</span>
             <h2>The Leaders</h2>
           </div>
-          <p>The people behind the decisions that shape the world.</p>
+          <Link href="/leaders/">Explore the Leaders index ↗</Link>
         </div>
-        <div className="home-leader-grid">
-          {(isDemo()
-            ? [
-                "Satya Nadella",
-                "Jensen Huang",
-                "Melanie Perkins",
-                "Patrick Collison",
-              ]
-            : leaders.map((l) => l.title)
-          ).map((name, i) => {
-            const story = leaders.find((l) => l.title === name);
-            const image =
-              story?.image ??
-              (isDemo()
-                ? `/reference/${name.toLowerCase().replace(" ", "-")}-illustration.png`
-                : undefined);
-            return (
-              <article key={name} className="home-leader-card">
-                <div className="home-leader-portrait">
-                  <span className="leader-card-number">0{i + 1}</span>
-                  {image && (
-                    <Image
-                      src={image}
-                      alt={`Editorial illustration of ${name}`}
-                      width={1122}
-                      height={1402}
-                      sizes="(max-width:800px) 45vw, 24vw"
-                    />
-                  )}
-                </div>
-                <h3>{name}</h3>
-                <p className="home-leader-theme">
-                  A closer look at the person behind the business.
-                </p>
-                <div className="home-leader-bottom">
-                  {story ? (
-                    <Link className="home-leader-action" href={story.path}>
-                      Explore the profile ↗
-                    </Link>
-                  ) : (
-                    <span className="home-leader-pending">
-                      Profile forthcoming
-                    </span>
-                  )}
-                  <small>EDITORIAL ILLUSTRATION</small>
-                </div>
-              </article>
-            );
-          })}
-        </div>
+        {isLeadersReview() ? (
+          <FeaturedLeaders leaders={featuredLeaders} />
+        ) : (
+          <div className="home-leader-grid">
+            {leaders
+              .map((l) => l.title)
+              .map((name, i) => {
+                const story = leaders.find((l) => l.title === name);
+                const image =
+                  story?.image ??
+                  (isDemo()
+                    ? `/reference/${name.toLowerCase().replace(" ", "-")}-illustration.png`
+                    : undefined);
+                return (
+                  <article key={name} className="home-leader-card">
+                    <div className="home-leader-portrait">
+                      <span className="leader-card-number">0{i + 1}</span>
+                      {image && (
+                        <Image
+                          src={image}
+                          alt={`Editorial illustration of ${name}`}
+                          width={1122}
+                          height={1402}
+                          sizes="(max-width:800px) 45vw, 24vw"
+                        />
+                      )}
+                    </div>
+                    <h3>{name}</h3>
+                    <p className="home-leader-theme">
+                      A closer look at the person behind the business.
+                    </p>
+                    <div className="home-leader-bottom">
+                      {story ? (
+                        <Link className="home-leader-action" href={story.path}>
+                          Explore the profile ↗
+                        </Link>
+                      ) : (
+                        <span className="home-leader-pending">
+                          Profile forthcoming
+                        </span>
+                      )}
+                      <small>EDITORIAL ILLUSTRATION</small>
+                    </div>
+                  </article>
+                );
+              })}
+          </div>
+        )}
       </section>
       <Newsletter />
     </>

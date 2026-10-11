@@ -1,0 +1,17 @@
+{
+  "title": "Scott Wu net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Historical Forbes Türkiye estimate, not current wealth",
+  "observations": [
+    {
+      "date": "2026-02-02",
+      "value": 0.6,
+      "display": "$600M historical",
+      "source": "https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

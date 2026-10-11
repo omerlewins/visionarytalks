@@ -1,0 +1,318 @@
+.vt-about {
+  --about-rule: var(--rule, #b9b9b9);
+  --about-ink: var(--ink, #151515);
+  color: var(--about-ink);
+  padding: 56px 0 24px;
+}
+.vt-about h1,
+.vt-about h2,
+.vt-about h3 {
+  font-family: var(--serif, Georgia, serif);
+  font-weight: 400;
+}
+.vt-about a:focus-visible {
+  outline: 2px solid var(--about-ink);
+  outline-offset: 5px;
+}
+.vt-about-hero {
+  display: grid;
+  grid-template-columns: 1.13fr 0.87fr;
+  gap: 70px;
+  align-items: center;
+}
+.vt-about h1 {
+  font-size: clamp(48px, 5.2vw, 76px);
+  line-height: 1.03;
+  letter-spacing: -0.045em;
+  margin: 22px 0;
+}
+.vt-about em {
+  font-weight: 400;
+}
+.vt-about-dek {
+  font: 22px/1.5 var(--serif, Georgia, serif);
+  max-width: 510px;
+}
+.vt-about-signature {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 30px 0;
+}
+.vt-about-signature > span {
+  font: italic 27px var(--serif, Georgia, serif);
+}
+.vt-about-signature a {
+  font: 12px var(--sans, Arial, sans-serif);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.vt-about-portrait {
+  margin: 0;
+  min-width: 0;
+}
+.vt-about-portrait img {
+  width: 100%;
+  height: 520px;
+  object-fit: contain;
+}
+.vt-about-portrait figcaption {
+  font: 10px/1.6 var(--sans, Arial, sans-serif);
+  color: var(--muted, #606060);
+  max-width: 360px;
+  margin: 10px auto;
+  text-align: center;
+}
+.vt-about-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-block: 1px solid var(--about-rule);
+  padding: 24px 0;
+  margin: 40px 0 65px;
+}
+.vt-about-facts > div {
+  padding: 0 26px;
+  border-right: 1px solid var(--about-rule);
+}
+.vt-about-facts > div:first-child {
+  padding-left: 0;
+}
+.vt-about-facts > div:last-child {
+  border: 0;
+}
+.vt-about-facts dt {
+  font: 10px var(--sans, Arial, sans-serif);
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.vt-about-facts dd {
+  font: 22px/1.35 var(--serif, Georgia, serif);
+  margin: 0;
+}
+.vt-about-reading {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 740px);
+  gap: 70px;
+}
+.vt-about-index nav {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin: 22px 0;
+  font: 12px/1.5 var(--sans, Arial, sans-serif);
+}
+.vt-about-index a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.vt-about-body {
+  min-width: 0;
+}
+.vt-about-body section {
+  margin: 0 0 55px;
+  scroll-margin-top: 24px;
+}
+.vt-about h2 {
+  font-size: clamp(30px, 3.3vw, 43px);
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  margin: 16px 0 22px;
+}
+.vt-about-body p,
+.vt-about-contact p {
+  font: 19px/1.65 var(--serif, Georgia, serif);
+  margin: 18px 0;
+}
+.vt-about-privacy {
+  padding: 30px 34px;
+  background: var(--wash, #f4f4f2);
+  border-block: 1px solid var(--about-rule);
+}
+.vt-about-methods {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+.vt-about-methods li {
+  display: grid;
+  grid-template-columns: 35px minmax(0, 1fr);
+  gap: 20px;
+  border-top: 1px solid var(--about-rule);
+  padding: 23px 0;
+}
+.vt-about-methods li > span {
+  font: 11px var(--sans, Arial, sans-serif);
+  padding-top: 6px;
+}
+.vt-about-methods h3 {
+  font-size: 26px;
+  line-height: 1.2;
+}
+.vt-about-methods p {
+  font-size: 17px;
+  margin: 10px 0 0;
+}
+.vt-about-body .vt-about-note {
+  font: 12px/1.7 var(--sans, Arial, sans-serif);
+  color: var(--muted, #606060);
+}
+.vt-about-coverage {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 50px;
+  border-block: 1px solid var(--about-rule);
+  padding: 34px 0;
+  margin: 12px 0 64px;
+}
+.vt-about-coverage h2 {
+  font-size: 34px;
+}
+.vt-about-topics {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 40px;
+}
+.vt-about-topics a {
+  border-top: 1px solid var(--about-rule);
+  padding-top: 14px;
+}
+.vt-about-topics h3 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 27px;
+}
+.vt-about-topics p {
+  font: 13px/1.5 var(--sans, Arial, sans-serif);
+  margin: 10px 0;
+}
+.vt-about-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  padding: 0 0 44px;
+  scroll-margin-top: 24px;
+}
+.vt-about-email {
+  display: inline-block;
+  font: 22px/1.5 var(--serif, Georgia, serif);
+  text-decoration: underline;
+  text-underline-offset: 6px;
+  overflow-wrap: anywhere;
+}
+.vt-about-contact h3 {
+  font-size: 26px;
+  line-height: 1.25;
+  margin-top: 40px;
+}
+.vt-about-contact p {
+  font-size: 17px;
+}
+@media (max-width: 900px) {
+  .vt-about {
+    padding-top: 32px;
+  }
+  .vt-about-hero {
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .vt-about h1 {
+    font-size: 51px;
+  }
+  .vt-about-portrait img {
+    height: 410px;
+  }
+  .vt-about-reading {
+    grid-template-columns: 150px minmax(0, 1fr);
+    gap: 35px;
+  }
+  .vt-about-facts dd {
+    font-size: 19px;
+  }
+  .vt-about-contact {
+    gap: 38px;
+  }
+}
+@media (max-width: 650px) {
+  .vt-about-hero,
+  .vt-about-reading,
+  .vt-about-coverage,
+  .vt-about-contact {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .vt-about-hero {
+    gap: 6px;
+  }
+  .vt-about h1 {
+    font-size: clamp(43px, 10.5vw, 58px);
+  }
+  .vt-about-dek {
+    font-size: 20px;
+  }
+  .vt-about-signature {
+    margin-bottom: 12px;
+  }
+  .vt-about-portrait img {
+    height: 385px;
+  }
+  .vt-about-facts {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 24px 0;
+    margin: 25px 0 32px;
+  }
+  .vt-about-facts > div {
+    border: 0;
+    padding: 0 !important;
+  }
+  .vt-about-facts dd {
+    font-size: 21px;
+  }
+  .vt-about-index {
+    border-bottom: 1px solid var(--about-rule);
+  }
+  .vt-about-index nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  .vt-about-reading {
+    gap: 30px;
+  }
+  .vt-about h2 {
+    font-size: 32px;
+  }
+  .vt-about-body p {
+    font-size: 18px;
+  }
+  .vt-about-privacy {
+    padding: 25px 22px;
+  }
+  .vt-about-body section {
+    margin-bottom: 38px;
+  }
+  .vt-about-coverage {
+    gap: 16px;
+    margin-bottom: 38px;
+  }
+  .vt-about-topics {
+    gap: 24px;
+  }
+  .vt-about-topics h3 {
+    font-size: 24px;
+  }
+  .vt-about-contact {
+    gap: 5px;
+  }
+  .vt-about-contact h3 {
+    margin-top: 22px;
+  }
+  .vt-about-email {
+    font-size: 21px;
+  }
+}
+
+.vt-about-linkedin {
+  font: 12px/1.7 var(--sans, Arial, sans-serif);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Greg Brockman net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 25.5,
+      "display": "$25.5B",
+      "source": "https://www.forbes.com/profile/greg-brockman/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

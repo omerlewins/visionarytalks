@@ -1006,4 +1006,62 @@ td small {
   }
 }
 
-.archive-pagination { display:flex; align-items:center; justify-content:center; flex-wrap:wrap; gap:2rem; margin:3rem 0; font:14px sans-serif; }
+.archive-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 3rem 0;
+  font: 14px sans-serif;
+}
+
+.writer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  margin-top: 18px;
+  font: 12px/1.7 var(--sans, Arial, sans-serif);
+}
+.writer-links a,
+.story-byline a,
+.writer-box h3 a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.byline-with-avatar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.byline-details {
+  min-width: 0;
+}
+.author-avatar {
+  display: block;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 26%;
+  background: var(--wash, #f4f4f2);
+  border: 1px solid var(--rule, #b9b9b9);
+}
+.writer-avatar-link {
+  float: left;
+  margin: 0 18px 12px 0;
+}
+.author-avatar-large {
+  width: 72px;
+  height: 72px;
+}
+.writer-box::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.writer-box .writer-links {
+  clear: both;
+}

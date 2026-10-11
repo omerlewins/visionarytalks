@@ -1,0 +1,70 @@
+{
+  "name": "Leaders pilot: Michael Truell archival biography, Cursor-building story and dated net worth",
+  "workflow": "leader",
+  "text": "Follow growth/EDITORIAL_GUIDELINES.md, growth/leaders/TEMPLATE.md and growth/leaders/michael-truell.md. Produce one private profile answering who is Michael Truell and what is his net worth. Proposed title: Who Is Michael Truell? Cursor's Co-Founder and His Net Worth. Forbes profile retrieved Oct9,2026 shows net worth estimate USD2.8billion as of10/9/26; preserve estimate/source/date and recheck at publication. It identifies him as Cursor cofounder/CEO and founding in2022 with three MIT friends. Cursor's Aug14,2026 company announcement confirms acquisition completion. Do not invent personal stake percentages, compensation, birth date, education/graduation dates, stock class or cash proceeds. Forbes' separate estimated share consideration at closing is not the same metric as current net worth. Use explicit source-ID mapping, typed person/company roles and null unknowns. Link contextually and through relatedStories to /who-owns-cursor/; include /cursor-salary/ as related company pay evidence, not his salary. The general renderer does not parse Markdown in section text; use actual rich-text links or typed link modules. Portrait is a new AI illustration from a likeness reference, matching existing monochrome Leaders style; final local asset is to be attached and human likeness/crop/credit review is required. The original WSJ reference photograph remains private and is not republished. No invented quotes/interview. One observation does not justify an interpolated wealth chart. Full duplicate/path check, real author and editor approval remain required. Use the supplied draft as a first pass and deepen biography only with verified sources. Generated output remains a draft. Updated researched draft now includes Horace Mann science-fair announcement, Fido and NYCSL credits, Halite and Two Sigma records, contemporary 2023 Hacker News founder comments, shadow workspace engineering, funding milestones and an explicitly attributed investor retrospective. Follow growth/leaders/michael-truell-evidence.md. Preserve original editorial analysis and linked evidence beside factual claims. Do not reduce this to a generic biography or label public-source synthesis as a new interview. Reuse app/public/reference/michael-truell-illustration-v1.png. User editorial standard: write as a financial investigator, foreground distinctive documented findings, and weave descriptive source and internal links into sentences. Never append source labels after periods in article prose. Apply growth/EDITORIAL_GUIDELINES.md. Include our scoped four-round funding calculation: USD3.365bn; final round 68.4%, with inputs, formula and company-reported basis in the evidence ledger. Do not call this independently audited or lifetime funding. Net-worth presentation must follow growth/leaders/NET_WORTH_MODULE.md and michael-truell-net-worth.json: one concise paragraph, one dated USD2.8bn snapshot, two source-linked event entries, and a short methodology note. The August closing event is not a historical net-worth data point; do not graph its USD2.4bn estimated stock consideration as prior personal wealth. Use the homepage EditorialChart component/design for all graphs. Methodology must describe our independent public-record research, source checks and reproducible calculations, while attributing personal wealth to Forbes and stating the private-balance-sheet limitation. Follow the updated NET_WORTH_MODULE.md.",
+  "urls": [
+    {
+      "url": "https://www.forbes.com/profile/michael-truell/"
+    },
+    {
+      "url": "https://cursor.com/blog/third-era"
+    },
+    {
+      "url": "https://cursor.com/blog/joining-spacex"
+    },
+    {
+      "url": "https://visionarytalks.com/who-owns-cursor/"
+    },
+    {
+      "url": "https://visionarytalks.com/cursor-salary/"
+    },
+    {
+      "url": "https://www.horacemann.org/cf_news/view.cfm?newsid=903"
+    },
+    {
+      "url": "https://github.com/FidoProject/Research"
+    },
+    {
+      "url": "https://github.com/HMProgrammingClub/NYCSL"
+    },
+    {
+      "url": "https://github.com/HaliteChallenge/Halite-II"
+    },
+    {
+      "url": "https://www.twosigma.com/articles/the-halite-global-ai-programming-competition-in-google-cloud-for-google-cloud-next/"
+    },
+    {
+      "url": "https://a16z.com/cursor-spacexai-the-fastest-iterating-team-wins/"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=35285047"
+    },
+    {
+      "url": "https://news.ycombinator.com/item?id=37888477"
+    },
+    {
+      "url": "https://cursor.com/en-US/blog/shadow-workspace"
+    },
+    {
+      "url": "https://cursor.com/blog/series-a"
+    },
+    {
+      "url": "https://cursor.com/blog/supermaven"
+    },
+    {
+      "url": "https://cursor.com/blog/series-b"
+    },
+    {
+      "url": "https://cursor.com/blog/series-c"
+    },
+    {
+      "url": "https://cursor.com/blog/series-d"
+    },
+    {
+      "url": "https://cursor.com/blog/joining-spacex/"
+    }
+  ],
+  "imageMode": "reuse",
+  "proposedPath": "/michael-truell-net-worth/",
+  "allowResearch": true
+}

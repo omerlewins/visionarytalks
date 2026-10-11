@@ -1,0 +1,110 @@
+{
+  "checked": "2026-10-11T09:32:06.260Z",
+  "checks": [
+    {
+      "path": "/leaders/demis-hassabis/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/lucy-guo/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/greg-brockman/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/mira-murati/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/ilya-sutskever/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/aravind-srinivas/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/daniela-amodei/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/bret-taylor/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/scott-wu/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/aman-sanger/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/brett-adcock/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/mike-krieger/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/noam-shazeer/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/fidji-simo/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/ali-ghodsi/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/amjad-masad/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/mustafa-suleyman/",
+      "status": 200,
+      "charts": 0
+    },
+    {
+      "path": "/leaders/sualeh-asif/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/michael-intrator/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "path": "/leaders/edwin-chen/",
+      "status": 200,
+      "charts": 1
+    },
+    {
+      "filter": "Applications & agents",
+      "count": 8
+    }
+  ],
+  "failures": []
+}

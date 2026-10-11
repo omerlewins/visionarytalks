@@ -3,6 +3,7 @@ import "@/styles/reference.css";
 import "@/styles/ownership.css";
 import "@/styles/tracker-reference.css";
 import "@/styles/production.css";
+import "@/styles/leaders.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo } from "@/lib/content";
 export const metadata: Metadata = {

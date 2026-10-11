@@ -3,7 +3,7 @@ const nav = [
   ["Who owns", "/category/ownership/"],
   ["Business", "/category/business/"],
   ["Careers", "/category/careers/"],
-  ["People", "/category/people/"],
+  ["Leaders", "/leaders/"],
   ["Charts & Data", "/ai-salaries/"],
   ["AI Tracker", "/ai-companies/"],
 ];

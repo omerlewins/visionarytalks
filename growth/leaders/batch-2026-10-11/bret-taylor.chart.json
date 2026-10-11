@@ -1,0 +1,17 @@
+{
+  "title": "Bret Taylor net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-10",
+      "value": 2.5,
+      "display": "$2.5B",
+      "source": "https://www.forbes.com/profile/bret-taylor/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

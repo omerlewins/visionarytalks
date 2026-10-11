@@ -1,0 +1,12 @@
+const fs=require("node:fs"),path=require("node:path");
+const root=__dirname, author=JSON.parse(fs.readFileSync(path.join(root,"../authors/daniel-mercer.json"),"utf8").replace(/^\uFEFF/,""));
+const escape=text=>text.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+let preview=fs.readFileSync(path.join(root,"preview.html"),"utf8");
+preview=preview.replace(/<div class="meta">[\s\S]*?<\/div>/,'<div class="meta">By <a href="#author">'+escape(author.name)+'</a> · Visionary Talks<br>Research checked October 9, 2026 · Editorial draft updated October 11, 2026</div>');
+preview=preview.replace("Author and publication approval pending","Publication review pending");
+preview=preview.replace(/<aside id="author"[\s\S]*?<\/aside>/,"");
+preview=preview.replace("</div></div></main>",'<aside id="author" class="related"><div class="eyebrow">ABOUT THE AUTHOR</div><h3 style="font:normal 25px Georgia,serif">'+escape(author.name)+'</h3><p>'+escape(author.bio)+'</p><p class="note">'+escape(author.name)+' is a pen name. I still work in finance and keep my real name private. <a href="../authors/about-preview.html">About me and my research</a> · <a href="mailto:daniel@visionarytalks.com">Contact me</a> · <a href="https://www.linkedin.com/company/visionary-talks1/" target="_blank" rel="noopener noreferrer">Visionary Talks on LinkedIn ↗</a>.</p></aside></div></div></main>');
+fs.writeFileSync(path.join(root,"preview.html"),preview);
+let md=fs.readFileSync(path.join(root,"michael-truell.md"),"utf8");
+md=md.replace("Author assignment and publication review pending.","By Daniel Mercer (pen name). Publication review pending.").replace("Assign a real author, review the portrait","Author: Daniel Mercer (Omer’s pen name). Review the portrait");
+fs.writeFileSync(path.join(root,"michael-truell.md"),md);

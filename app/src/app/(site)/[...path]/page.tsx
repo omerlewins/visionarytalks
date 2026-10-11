@@ -1,3 +1,4 @@
+import { articleAuthor } from "@/lib/authors";
 import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import { stories, storyAt, companies, isDemo, cms } from "@/lib/content";
@@ -89,7 +90,19 @@ export default async function Page({ params, searchParams }: Props) {
       description: s.dek,
       datePublished: s.publishedAt,
       dateModified: s.modifiedAt,
-      author: { "@type": "Person", name: s.author.name },
+      author: {
+        "@type": "Person",
+        name: articleAuthor(s.author).name,
+        ...(articleAuthor(s.author).path
+          ? {
+              url: new URL(
+                articleAuthor(s.author).path!,
+                process.env.NEXT_PUBLIC_SITE_URL ??
+                  "https://visionarytalks.com",
+              ).href,
+            }
+          : {}),
+      },
       url: new URL(
         s.path,
         process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",

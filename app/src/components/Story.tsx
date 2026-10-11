@@ -1,3 +1,5 @@
+import profile from "@/data/publication-profile.json";
+import { articleAuthor } from "@/lib/authors";
 import Link from "next/link";
 import Image from "next/image";
 import { LegacyContent } from "./LegacyContent";
@@ -31,6 +33,7 @@ export function StoryTemplate({
   story: StoryData;
   related?: StoryData[];
 }) {
+  const author = articleAuthor(s.author);
   const legacy = legacyHeadings(s.legacyHTML ?? "");
   const showSources = s.sources.length > 0 || !s.legacyHTML;
   const ownership = s.kind === "ownership";
@@ -92,34 +95,47 @@ export function StoryTemplate({
             {(!ownership || s.dek !== s.title) && (
               <p className="story-dek">{s.dek}</p>
             )}
-            <div className="story-byline">
-              {s.author.path ? (
-                <Link href={s.author.path}>{s.author.name}</Link>
-              ) : (
-                s.author.name
+            <div className="story-byline byline-with-avatar">
+              {author.name === profile.name && (
+                <Image
+                  className="author-avatar"
+                  src="/reference/daniel-mercer-editorial-v1.png"
+                  alt=""
+                  title="AI-generated editorial representation; not a likeness"
+                  width={44}
+                  height={44}
+                />
               )}
-              {s.publishedAt && (
-                <>
-                  {" "}
-                  · Published{" "}
-                  <time dateTime={s.publishedAt}>
-                    {new Date(s.publishedAt).toLocaleDateString("en-GB", {
-                      timeZone: "UTC",
-                    })}
-                  </time>
-                </>
-              )}
-              {s.modifiedAt && (
-                <>
-                  {" "}
-                  · Updated{" "}
-                  <time dateTime={s.modifiedAt}>
-                    {new Date(s.modifiedAt).toLocaleDateString("en-GB", {
-                      timeZone: "UTC",
-                    })}
-                  </time>
-                </>
-              )}
+              <div className="byline-details">
+                By{" "}
+                {author.path ? (
+                  <Link href={author.path}>{author.name}</Link>
+                ) : (
+                  author.name
+                )}
+                {s.publishedAt && (
+                  <>
+                    {" "}
+                    · Published{" "}
+                    <time dateTime={s.publishedAt}>
+                      {new Date(s.publishedAt).toLocaleDateString("en-GB", {
+                        timeZone: "UTC",
+                      })}
+                    </time>
+                  </>
+                )}
+                {s.modifiedAt && (
+                  <>
+                    {" "}
+                    · Updated{" "}
+                    <time dateTime={s.modifiedAt}>
+                      {new Date(s.modifiedAt).toLocaleDateString("en-GB", {
+                        timeZone: "UTC",
+                      })}
+                    </time>
+                  </>
+                )}
+              </div>
             </div>
             <Share title={s.title} />
           </div>
@@ -305,9 +321,46 @@ export function StoryTemplate({
               </section>
             )}
             <aside className="writer-box">
+              {author.name === profile.name && (
+                <Link
+                  className="writer-avatar-link"
+                  href="/about/#about-me"
+                  aria-label="About Daniel Mercer"
+                >
+                  <Image
+                    className="author-avatar author-avatar-large"
+                    src="/reference/daniel-mercer-editorial-v1.png"
+                    alt=""
+                    title="AI-generated editorial representation; not a likeness"
+                    width={72}
+                    height={72}
+                  />
+                </Link>
+              )}
               <span className="eyebrow">ABOUT THE AUTHOR</span>
-              <h3>{s.author.name}</h3>
-              <p>{s.author.bio ?? "Responsible editorial author."}</p>
+              <h3>
+                {author.path ? (
+                  <Link href={author.path}>{author.name}</Link>
+                ) : (
+                  author.name
+                )}
+              </h3>
+              <p>{author.bio ?? "Responsible editorial author."}</p>
+              <nav className="writer-links" aria-label="Author and publication">
+                <Link href={author.path ?? "/about/"}>
+                  {author.path
+                    ? "About the author ↗"
+                    : "About Visionary Talks ↗"}
+                </Link>
+                <a
+                  href={profile.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visionary Talks on LinkedIn ↗
+                </a>
+                <a href={"mailto:" + profile.email}>Contact ↗</a>
+              </nav>
             </aside>
             <Share title={s.title} />
           </div>

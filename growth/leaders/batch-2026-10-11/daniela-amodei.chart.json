@@ -1,0 +1,17 @@
+{
+  "title": "Daniela Amodei net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 15.5,
+      "display": "$15.5B",
+      "source": "https://www.forbes.com/profile/daniela-amodei/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

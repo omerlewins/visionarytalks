@@ -1,0 +1,17 @@
+{
+  "title": "Michael Intrator net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 5.3,
+      "display": "$5.3B",
+      "source": "https://www.forbes.com/profile/michael-intrator/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}
