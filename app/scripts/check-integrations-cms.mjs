@@ -1,0 +1,10 @@
+import {chromium} from '@playwright/test';import fs from 'node:fs';
+const base='http://127.0.0.1:3110',browser=await chromium.launch({headless:true});const context=await browser.newContext(),page=await context.newPage();const results={};
+const anonymous=await context.request.get(base+'/api/integrations/check');results.anonymous=anonymous.status();if(anonymous.status()!==403)throw Error('Anonymous reporting access');
+const owner=JSON.parse(fs.readFileSync('../private/preview-owner.json','utf8'));const login=await context.request.post(base+'/api/users/login',{data:{email:owner.email,password:owner.password}});if(login.status()!==200)throw Error('Existing preview CMS login failed');
+const r=await page.goto(base+'/admin/globals/integrations',{waitUntil:'networkidle'});await page.getByRole('button',{name:'Check access & load report'}).waitFor();
+for(const label of ['Search Console property','GA4 property ID','GA4 measurement ID','Google site verification token'])if(!await page.getByLabel(label,{exact:true}).count())throw Error('Missing CMS field '+label);
+await page.getByRole('button',{name:'Check access & load report'}).click();await page.getByRole('alert').filter({hasText:'Reporting credentials are not configured'}).waitFor();results.missingCredentialsMessage=true;results.cmsPage=r.status();
+await page.screenshot({path:'../private/growth/google-integrations-cms.png',fullPage:true});
+await page.goto(base+'/',{waitUntil:'networkidle'});if(await page.locator('script[src*="googletagmanager.com"]').count())throw Error('Preview tracking leaked');results.previewTracking=false;
+await browser.close();fs.writeFileSync('../private/growth/integration-checks.json',JSON.stringify(results,null,2));console.log(JSON.stringify(results));

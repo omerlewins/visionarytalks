@@ -1065,3 +1065,7 @@ td small {
 .writer-box .writer-links {
   clear: both;
 }
+
+.analytics-preferences { position:fixed; bottom:16px; left:16px; z-index:100; padding:12px 16px; max-width:min(420px,calc(100vw - 32px)); background:#faf9f3; border:1px solid #b4b6ab; box-shadow:0 3px 20px #0001; font:13px/1.5 Arial,sans-serif; }
+.analytics-preferences p {margin:0 0 8px;}
+.analytics-preferences button {margin-right:12px; padding:6px 10px; cursor:pointer;}

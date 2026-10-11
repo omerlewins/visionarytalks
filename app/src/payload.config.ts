@@ -1,3 +1,4 @@
+import { integrations } from "./cms/integrations";
 import { buildConfig } from "payload";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
@@ -47,6 +48,7 @@ export default buildConfig({
   }),
   collections,
   globals: [
+    integrations,
     {
       slug: "site-settings",
       access: { read: () => true, update: editors },

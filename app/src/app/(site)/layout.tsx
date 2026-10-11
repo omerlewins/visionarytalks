@@ -1,3 +1,5 @@
+import { publicIntegrationSettings } from "@/lib/integration-settings";
+import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import type { Metadata } from "next";
 import "@/styles/reference.css";
 import "@/styles/ownership.css";
@@ -6,7 +8,7 @@ import "@/styles/production.css";
 import "@/styles/leaders.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo } from "@/lib/content";
-export const metadata: Metadata = {
+const baseMetadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",
   ),
@@ -21,7 +23,21 @@ export const metadata: Metadata = {
     follow: process.env.APP_ENV === "production",
   },
 };
-export default function Layout({ children }: { children: React.ReactNode }) {
+export async function generateMetadata(): Promise<Metadata> {
+  const settings = await publicIntegrationSettings();
+  return {
+    ...baseMetadata,
+    verification: settings.verification
+      ? { google: settings.verification }
+      : undefined,
+  };
+}
+export default async function Layout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  const settings = await publicIntegrationSettings();
   return (
     <html lang="en">
       <body>
@@ -40,6 +56,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {children}
         </main>
         <Footer />
+        {settings.measurementId && (
+          <GoogleAnalytics measurementId={settings.measurementId} />
+        )}
       </body>
     </html>
   );

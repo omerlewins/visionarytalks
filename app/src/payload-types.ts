@@ -132,9 +132,11 @@ export interface Config {
   };
   fallbackLocale: null;
   globals: {
+    integrations: Integration;
     'site-settings': SiteSetting;
   };
   globalsSelect: {
+    integrations: IntegrationsSelect<false> | IntegrationsSelect<true>;
     'site-settings': SiteSettingsSelect<false> | SiteSettingsSelect<true>;
   };
   locale: null;
@@ -1613,6 +1615,37 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
   createdAt?: T;
 }
 /**
+ * Connect Google Search Console and GA4. Save the settings before checking access. Tracking stays disabled on Preview.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "integrations".
+ */
+export interface Integration {
+  id: number;
+  /**
+   * Exact property shown in Google Search Console, for example sc-domain:visionarytalks.com.
+   */
+  searchConsoleProperty?: string | null;
+  /**
+   * Optional HTML verification token for a URL-prefix property. Domain properties require Google's DNS verification.
+   */
+  googleVerificationToken?: string | null;
+  /**
+   * Numeric ID from Analytics Admin → Property details. Used for reading reports.
+   */
+  ga4PropertyId?: string | null;
+  /**
+   * G- ID from the web data stream. Used for website tracking.
+   */
+  ga4MeasurementId?: string | null;
+  /**
+   * Production only. Visitors can allow or decline analytics. No tracking runs on staging or in the CMS.
+   */
+  trackingEnabled?: boolean | null;
+  updatedAt?: string | null;
+  createdAt?: string | null;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "site-settings".
  */
@@ -1624,6 +1657,20 @@ export interface SiteSetting {
   newsletterURL?: string | null;
   updatedAt?: string | null;
   createdAt?: string | null;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "integrations_select".
+ */
+export interface IntegrationsSelect<T extends boolean = true> {
+  searchConsoleProperty?: T;
+  googleVerificationToken?: T;
+  ga4PropertyId?: T;
+  ga4MeasurementId?: T;
+  trackingEnabled?: T;
+  updatedAt?: T;
+  createdAt?: T;
+  globalType?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
