@@ -57,3 +57,7 @@ Use natural descriptive links within sentences. Source lists belong in the evide
 Every leader gets the module specified in NET_WORTH_MODULE.md: one answer paragraph, a sourced event timeline, an evidence-appropriate graphic and a short methodology note. Michael's snapshot and event timeline are implemented in the private preview. Historical personal-wealth points need comparable dated evidence; company financing and deal consideration stay off that axis.
 
 All leader graphs follow the homepage EditorialChart design and shared tokens. Their methodology explains our independent public-record research, cross-checks, calculations and source limitations; personal wealth estimates retain their actual provider and date.
+
+## Historical wealth observations
+
+Every profile should retain verified earlier personal net-worth estimates alongside its latest observation. Record the source URL, nominal USD value, date, date meaning (valuation/publication/update/observation), and methodology caveat for each point. Render the chronology in the shared EditorialChart and article table. Use at least two independently sourced dates when available; disclose when only one total or none is supported. Never manufacture annual values, use zero for unknown wealth, or backdate an updated article. Keep holdings and company valuations outside total net worth. See WEALTH_HISTORY.md and app/src/data/leader-wealth-history.json.

@@ -1,0 +1,9 @@
+# Dated leader wealth estimates — 11 October 2026
+
+The website and Michael Truell local preview now render sourced personal wealth observations over time in the shared article chart design. Thirteen profiles have multiple observations; Scott Wu has one supported historical total. Seven profiles remain unquantified.
+
+The canonical historical observations and source links are in `app/src/data/leader-wealth-history.json`. Current observations remain in the existing profile files. Each table row states whether its date is a valuation date, article update, publication date, issue date, or our source observation. Publication dates are not presented as independently verified asset valuation days. The December 2025 Forbes roundup was updated January 2, 2026; this is disclosed in the affected rows. The Lucy Guo article was originally published April 17, 2025, but its reviewed version was updated June 4: we label the observation June 4 rather than backdating its $1.25B total.
+
+All values are third-party personal wealth estimates in nominal USD billions. We independently locate, review and compare the reporting; we do not audit private balance sheets or represent the estimates as our proprietary valuations. Equally spaced bars depict observations, not elapsed-time intervals. No missing years are interpolated, and unknown wealth is never entered as zero. Financing totals, enterprise/equity valuations, compensation, individual holding values and acquisition consideration are kept outside the total-net-worth series. Different provider assumptions or rounded values may affect comparisons; changes are not treated as cash gains.
+
+For each future update, preserve earlier observations and their source definitions. Add the new dated total, source URL, date meaning and caveat; do not overwrite history. Prefer comparable provider methodology. Keep conflicting providers in separate clearly labeled series rather than treating them as a measured rise or fall.

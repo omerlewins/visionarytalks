@@ -1,3 +1,4 @@
+import { leaderWealthObservations, wealthHistory } from "@/lib/leader-wealth";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
@@ -39,6 +40,8 @@ function Source({ id }: { id: string }) {
 }
 export function LeaderProfile({ leader: p }: { leader: Profile }) {
   const portrait = leaderPortrait(p);
+  const wealthObservations = leaderWealthObservations(p);
+  const historySummary = wealthHistory[p.slug]?.summary;
   const related = leaderProfiles
     .filter((l) => l.slug !== p.slug && l.cluster === p.cluster)
     .slice(0, 3);
@@ -217,7 +220,12 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
             <span className="eyebrow">THE WEALTH FILE</span>
             <h2>{p.name} net worth</h2>
             <p>
-              <Inline text={p.wealth.paragraph} />
+              <Inline
+                text={
+                  p.wealth.paragraph +
+                  (historySummary ? " " + historySummary : "")
+                }
+              />
             </p>
             {p.wealth.value !== null ? (
               <>
@@ -228,7 +236,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                   aria-label={`${p.name} net worth data table`}
                 >
                   <table>
-                    <caption>{p.name}: dated personal wealth estimate</caption>
+                    <caption>{p.name}: net worth estimates over time</caption>
                     <thead>
                       <tr>
                         <th scope="col">Date</th>
@@ -238,52 +246,65 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr>
-                        <td>{dateLabel(p.wealth.date)}</td>
-                        <td>{p.wealth.display}</td>
-                        <td>{p.wealth.basis}</td>
-                        <td>
-                          {p.wealth.sourceId ? (
-                            <Source id={p.wealth.sourceId} />
-                          ) : (
-                            "See the linked reporting above."
-                          )}
-                        </td>
-                      </tr>
+                      {wealthObservations.map((o) => (
+                        <tr key={o.date + o.sourceId}>
+                          <td>
+                            {dateLabel(o.date)}
+                            <small>{o.dateBasis}</small>
+                          </td>
+                          <td>{o.display}</td>
+                          <td>
+                            {o.basis}
+                            <small>{o.note}</small>
+                          </td>
+                          <td>
+                            <Source id={o.sourceId} />
+                          </td>
+                        </tr>
+                      ))}
                     </tbody>
                   </table>
                 </div>
                 <EditorialChart
-                  title={p.name + " net worth: a dated snapshot"}
+                  title={p.name + " net worth estimates over time"}
                   subtitle={
-                    "USD billions · " +
-                    p.wealth.basis +
-                    ". A single observation is not a trend."
+                    wealthObservations.length > 1
+                      ? "USD billions · Dated personal wealth estimates · Each bar is a separate observation"
+                      : "USD billions · One supported historical estimate; additional dated totals remain unverified"
                   }
                   series={[
                     {
                       name: "Personal wealth estimate",
-                      points: [
-                        {
-                          label: dateLabel(p.wealth.date),
-                          value: p.wealth.value,
-                          display: p.wealth.display,
-                        },
-                      ],
+                      points: wealthObservations.map((o) => ({
+                        label: dateLabel(o.date),
+                        value: o.value,
+                        display: o.display,
+                      })),
                     },
                   ]}
                   source={
-                    p.wealth.sourceId ? (
-                      <Source id={p.wealth.sourceId} />
-                    ) : (
-                      <span>See the linked reporting above.</span>
-                    )
+                    <>
+                      Sources:{" "}
+                      {[
+                        ...new Set(wealthObservations.map((o) => o.sourceId)),
+                      ].map((id, i) => (
+                        <Fragment key={id}>
+                          {i > 0 ? "; " : ""}
+                          <Source id={id} />
+                        </Fragment>
+                      ))}
+                    </>
                   }
                 >
                   <p className="chart-method">
-                    Exact values and the estimate basis appear in the source
-                    table above. We independently compare dated sources; this
-                    observation does not establish a wealth trend.
+                    We conduct independent desk research and compare dated
+                    personal estimates in the table above. Dates identify
+                    valuations, report publication, or our source observation,
+                    as labeled. Bars are equally spaced observations, not
+                    continuous calendar intervals. Figures are nominal USD;
+                    private holdings may be illiquid. We do not interpolate
+                    gaps, infer founder stakes, or count company funding as
+                    personal wealth.
                   </p>
                 </EditorialChart>
               </>
@@ -298,7 +319,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                 </p>
               </aside>
             )}
-            <h3>The dated record</h3>
+            <h3>Company and financial milestones</h3>
             <ol className="leader-timeline">
               {p.timeline.map((t, i) => (
                 <li key={i}>

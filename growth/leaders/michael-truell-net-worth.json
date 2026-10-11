@@ -1,7 +1,7 @@
 {
   "subject": "Michael Truell",
   "heading": "Michael Truell net worth",
-  "paragraph": "Michael Truell's net worth is estimated at **$2.8 billion as of October 9, 2026**, according to [Forbes' wealth profile](https://www.forbes.com/profile/michael-truell/). His financial turning point was Cursor's [August 2026 acquisition by SpaceX](https://cursor.com/blog/joining-spacex); Forbes estimates each co-founder received about **$2.4 billion in SpaceX shares at closing**. That stock consideration is part of the wealth story, not an additional cash payout to add to the current estimate. His exact holdings, liabilities and present ownership percentage remain undisclosed in the reviewed records.",
+  "paragraph": "Michael Truell's net worth is estimated at $2.8 billion as of October 9, 2026, according to [Forbes' wealth profile](https://www.forbes.com/profile/michael-truell/). His financial turning point was Cursor's [August 2026 acquisition by SpaceX](https://cursor.com/blog/joining-spacex); Forbes estimates each co-founder received about $2.4 billion in SpaceX shares at closing. That stock consideration is part of the wealth story, not an additional cash payout to add to the current estimate. His exact holdings, liabilities and present ownership percentage remain undisclosed in the reviewed records. The [year-end 2025 Forbes report](https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/) put the estimate at $1.3 billion. The later estimate reflects a different valuation context; the gap is not a measured cash gain.",
   "estimate": {
     "measure": "personal_net_worth",
     "amountUSD": 2800000000,
@@ -10,7 +10,7 @@
     "source": "https://www.forbes.com/profile/michael-truell/"
   },
   "chart": {
-    "type": "snapshot",
+    "type": "dated_observations",
     "minUSD": 0,
     "maxUSD": 3000000000,
     "label": "Estimated personal net worth · USD billions",
@@ -32,6 +32,28 @@
       "measure": "personal_net_worth"
     }
   ],
-  "methodology": "We conduct independent research into public records, checking dates, financial definitions and transaction status. For this profile, we traced school and project archives, checked Cursor's funding and closing announcements, and independently calculated its four-round funding total. Personal wealth uses [Forbes' dated estimate](https://www.forbes.com/profile/michael-truell/); the reviewed records do not provide a complete personal balance sheet. We keep stock consideration separate from current wealth and do not infer cash proceeds or undisclosed ownership percentages. Sources checked October 9, 2026.",
-  "checkedAt": "2026-10-09"
+  "methodology": "We conduct independent research into public records, checking dates, financial definitions and transaction status. For this profile, we traced school and project archives, checked Cursor's funding and closing announcements, and independently calculated its four-round funding total. Personal wealth uses [Forbes' dated estimate](https://www.forbes.com/profile/michael-truell/); the reviewed records do not provide a complete personal balance sheet. We keep stock consideration separate from current wealth and do not infer cash proceeds or undisclosed ownership percentages. Sources checked October 9, 2026. We compare historical personal estimates using the source dates labeled in the table. Equally spaced bars show separate observations, not continuous calendar intervals. We do not interpolate gaps or interpret the difference as realized cash gains.",
+  "checkedAt": "2026-10-11",
+  "observations": [
+    {
+      "date": "2025-12-25",
+      "value": 1.3,
+      "display": "$1.3B",
+      "sourceId": "wealth-forbes-dec2025",
+      "basis": "Forbes personal wealth estimate",
+      "dateBasis": "Report publication",
+      "note": "The year-end report was updated January 2, 2026; no exact asset valuation day is given.",
+      "source": "https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/"
+    },
+    {
+      "date": "2026-10-09",
+      "value": 2.8,
+      "display": "$2.8B",
+      "sourceId": "truell-0",
+      "basis": "Forbes personal wealth estimate",
+      "dateBasis": "Source observation",
+      "note": "Dated Forbes profile observation retained from the October 9 review.",
+      "source": "https://www.forbes.com/profile/michael-truell/"
+    }
+  ]
 }

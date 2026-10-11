@@ -4,19 +4,23 @@ const read=name=>fs.readFileSync(path.join(root,name),"utf8").replace(/^\uFEFF/,
 const md=read("michael-truell.md"), wealth=JSON.parse(read("michael-truell-net-worth.json"));
 const inline=text=>text.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\[([^\]]+)\]\((https:\/\/[^)]+)\)/g,'<a href="$2">$1</a>').replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>");
 function renderWealth(){
- const value=wealth.estimate.amountUSD, max=wealth.chart.maxUSD;
- if(!Number.isFinite(value)||value<0||max<=0||value>max)throw new Error("Invalid wealth chart scale");
- const amount=(value/1e9).toFixed(1);
+ const observations=wealth.observations;
+ if(!observations?.length||observations.some(o=>!Number.isFinite(o.value)||o.value<0))throw new Error("Invalid historical wealth observations");
+ const max=Math.max(1,...observations.map(o=>o.value));
+ const label=date=>new Date(date+"T12:00:00Z").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});
+ const rows=observations.map(o=>'<tr><td>'+label(o.date)+'<small>'+inline(o.dateBasis)+'</small></td><td>'+inline(o.display)+'</td><td>'+inline(o.basis)+'<small>'+inline(o.note)+'</small></td><td><a href="'+o.source+'">Forbes estimate</a></td></tr>').join("");
+ const bars=observations.map((o,i)=>'<div class="plot-group"><div class="plot-columns"><div class="plot-column"><div class="plot-bar '+(i===observations.length-1?'ink':'')+'" style="height:'+(o.value/max*100)+'%"><span>'+inline(o.display)+'</span></div></div></div><b class="plot-label">'+label(o.date)+'</b></div>').join("");
  const timeline=wealth.timeline.map(event=>'<li><time datetime="'+event.date+'">'+inline(event.label)+'</time><span><a href="'+event.source+'">'+inline(event.text)+'</a></span></li>').join("");
  return '<section id="wealth"><h2>'+inline(wealth.heading)+'</h2><p>'+inline(wealth.paragraph)+'</p>'+
- '<figure class="data-chart editorial-chart wealth-snapshot" aria-labelledby="wealth-chart-title"><figcaption><span class="eyebrow">BUSINESS IN NUMBERS</span><h3 id="wealth-chart-title">Michael Truell: the wealth estimate.</h3><p>USD billions · Third-party estimate · October 9, 2026</p></figcaption>'+
- '<div class="chart-scroll" tabindex="0" role="region" aria-label="Michael Truell net worth: 2.8 billion US dollars, October 9, 2026. One estimated observation. Scale zero to three billion."><div class="editorial-plot" aria-hidden="true"><span class="zero-label">0</span><span class="wealth-scale-top">3.0</span><div class="plot-group"><div class="plot-columns"><div class="plot-column"><div class="plot-bar ink" style="height:'+(value/max*100)+'%" data-amount-usd="'+value+'"><span>$'+amount+'bn</span></div></div></div><b class="plot-label">Oct 9, 2026</b></div></div></div>'+
- '<div class="chart-source">The plotted value comes from <a href="'+wealth.estimate.source+'">Forbes’ dated personal-wealth estimate</a>.</div>'+
- '<p class="chart-method">Zero baseline; scale $0–$3bn. One wealth observation. Acquisition consideration is excluded; no historical values are interpolated.</p>'+
- '<details><summary>View chart data</summary><div class="table-wrap" tabindex="0" role="region" aria-label="Wealth estimate data"><table><thead><tr><th>Date</th><th>USD</th><th>Basis</th></tr></thead><tbody><tr><td>Oct 9, 2026</td><td>2,800,000,000</td><td>Forbes estimate</td></tr></tbody></table></div></details></figure>'+
- '<ol class="wealth-timeline" aria-label="Financial evidence timeline">'+timeline+'</ol>'+
+ '<div class="table-wrap" tabindex="0" role="region" aria-label="Net worth estimates over time"><table><thead><tr><th>Date</th><th>Personal estimate</th><th>Basis</th><th>Source</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
+ '<figure class="data-chart editorial-chart wealth-snapshot"><figcaption><span class="eyebrow">BUSINESS IN NUMBERS</span><h3>Michael Truell net worth estimates over time</h3><p>USD billions · Separate dated personal estimates</p></figcaption>'+
+ '<div class="chart-scroll" tabindex="0" role="region" aria-label="Historical net worth chart"><div class="editorial-plot" style="min-width:400px" aria-hidden="true"><span class="zero-label">0</span>'+bars+'</div></div>'+
+ '<div class="chart-source">Sources: '+observations.map(o=>'<a href="'+o.source+'">Forbes: '+label(o.date)+'</a>').join('; ')+'</div>'+
+ '<p class="chart-method">Zero baseline. Equally spaced observations; missing dates are not interpolated. Dates and estimate definitions are labeled in the source table above. Company funding and transaction consideration are excluded.</p></figure>'+
+ '<h3>Company and financial milestones</h3><ol class="wealth-timeline">'+timeline+'</ol>'+
  '<div class="wealth-method"><h3>Our research methodology</h3><p class="note">'+inline(wealth.methodology)+'</p></div></section>';
 }
+
 const ids=["school","halite","founding","editor","growth","company","wealth","research"];
 const body=md.split(/^## /m).slice(1).filter(x=>!x.startsWith("Private release")&&!x.startsWith("Follow the company")).map((part,index)=>{
  if(ids[index]==="wealth")return renderWealth();
