@@ -482,12 +482,20 @@ td small {
   margin: 28px 0 20px;
 }
 .article-table-scroll table {
+  border-collapse: collapse;
+  font: 14px/1.55 var(--sans);
   display: table;
   width: 100%;
   min-width: 560px;
   border-top: 1px solid var(--ink);
   background: #fff;
   font-variant-numeric: tabular-nums;
+}
+.article-table-scroll caption {
+  text-align: left;
+  font: 11px/1.5 var(--sans);
+  color: var(--muted);
+  padding: 0 0 12px;
 }
 .article-table-scroll :is(th, td) {
   padding: 18px 14px;

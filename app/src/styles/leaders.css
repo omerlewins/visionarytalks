@@ -436,7 +436,7 @@
 .leader-reading-body {
   min-width: 0;
 }
-.leader-reading-body p {
+.leader-reading-body p:not(.editorial-chart p) {
   font:
     18px/1.75 Georgia,
     serif;
@@ -448,7 +448,7 @@
   letter-spacing: -0.025em;
   margin: 14px 0 24px;
 }
-.leader-reading-body h3 {
+.leader-reading-body h3:not(.editorial-chart h3) {
   font:
     normal 25px/1.2 Georgia,
     serif;
@@ -474,58 +474,8 @@
   padding: 26px 0 12px;
   scroll-margin-top: 25px;
 }
-.leader-prose-section p {
+.leader-prose-section p:not(.editorial-chart p) {
   margin: 0 0 21px;
-}
-.leader-table-scroll {
-  overflow: auto;
-  border-block: 1px solid #b4b6ab;
-}
-.leader-table-scroll table {
-  width: 100%;
-  min-width: 640px;
-  border-collapse: collapse;
-  text-align: left;
-  font:
-    12px/1.55 Arial,
-    sans-serif;
-}
-.leader-table-scroll caption {
-  text-align: left;
-  padding: 12px 0;
-  font-style: italic;
-}
-.leader-table-scroll th {
-  font-weight: 600;
-  background: #e9e9df;
-}
-.leader-table-scroll td,
-.leader-table-scroll th {
-  padding: 13px 12px;
-  border-bottom: 1px solid #c2c5b5;
-  vertical-align: top;
-}
-.leader-table-scroll td:first-child {
-  min-width: 105px;
-}
-.leader-chart-table {
-  border-collapse: collapse;
-  width: 100%;
-  text-align: left;
-  font:
-    12px/1.5 Arial,
-    sans-serif;
-  margin-top: 20px;
-}
-.leader-chart-table caption {
-  text-align: left;
-  font-size: 10px;
-  padding: 9px 0;
-}
-.leader-chart-table td,
-.leader-chart-table th {
-  padding: 8px;
-  border-block: 1px solid #bec2b2;
 }
 .leader-unknown {
   padding: 30px;
@@ -814,7 +764,7 @@
   .leader-toc > a {
     font-size: 11px;
   }
-  .leader-reading-body p {
+  .leader-reading-body p:not(.editorial-chart p) {
     font-size: 17px;
   }
   .leader-direct-answer p {
@@ -835,13 +785,6 @@
   .leader-timeline li {
     grid-template-columns: 90px 1fr;
     gap: 12px;
-  }
-  .leader-chart-table {
-    font-size: 11px;
-  }
-  .leader-chart-table td,
-  .leader-chart-table th {
-    padding: 6px;
   }
   .leader-author-end {
     gap: 14px;

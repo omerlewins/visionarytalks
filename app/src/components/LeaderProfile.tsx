@@ -179,7 +179,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
               personal wealth total.
             </p>
             <div
-              className="leader-table-scroll"
+              className="table-scroll article-table-scroll"
               tabIndex={0}
               role="region"
               aria-label="Capital and ownership observations"
@@ -188,11 +188,11 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                 <caption>{p.company}: dated capital records</caption>
                 <thead>
                   <tr>
-                    <th>Date / record</th>
-                    <th>Event</th>
-                    <th>Amount</th>
-                    <th>Company value</th>
-                    <th>Interpretation</th>
+                    <th scope="col">Date / record</th>
+                    <th scope="col">Event</th>
+                    <th scope="col">Amount</th>
+                    <th scope="col">Company value</th>
+                    <th scope="col">Interpretation</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -220,51 +220,73 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
               <Inline text={p.wealth.paragraph} />
             </p>
             {p.wealth.value !== null ? (
-              <EditorialChart
-                title={p.name + " net worth: a dated snapshot"}
-                subtitle={
-                  "USD billions · " +
-                  p.wealth.basis +
-                  ". A single observation is not a trend."
-                }
-                series={[
-                  {
-                    name: "Personal wealth estimate",
-                    points: [
-                      {
-                        label: dateLabel(p.wealth.date),
-                        value: p.wealth.value,
-                        display: p.wealth.display,
-                      },
-                    ],
-                  },
-                ]}
-                source={
-                  p.wealth.sourceId ? (
-                    <Source id={p.wealth.sourceId} />
-                  ) : (
-                    <span>See the linked reporting above.</span>
-                  )
-                }
-              >
-                <table className="leader-chart-table">
-                  <caption>Accessible chart data</caption>
-                  <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Personal estimate</th>
-                      <th>Basis</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>{dateLabel(p.wealth.date)}</td>
-                      <td>{p.wealth.display}</td>
-                      <td>{p.wealth.basis}</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </EditorialChart>
+              <>
+                <div
+                  className="table-scroll article-table-scroll"
+                  tabIndex={0}
+                  role="region"
+                  aria-label={`${p.name} net worth data table`}
+                >
+                  <table>
+                    <caption>{p.name}: dated personal wealth estimate</caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Personal estimate</th>
+                        <th scope="col">Basis</th>
+                        <th scope="col">Source</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>{dateLabel(p.wealth.date)}</td>
+                        <td>{p.wealth.display}</td>
+                        <td>{p.wealth.basis}</td>
+                        <td>
+                          {p.wealth.sourceId ? (
+                            <Source id={p.wealth.sourceId} />
+                          ) : (
+                            "See the linked reporting above."
+                          )}
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <EditorialChart
+                  title={p.name + " net worth: a dated snapshot"}
+                  subtitle={
+                    "USD billions · " +
+                    p.wealth.basis +
+                    ". A single observation is not a trend."
+                  }
+                  series={[
+                    {
+                      name: "Personal wealth estimate",
+                      points: [
+                        {
+                          label: dateLabel(p.wealth.date),
+                          value: p.wealth.value,
+                          display: p.wealth.display,
+                        },
+                      ],
+                    },
+                  ]}
+                  source={
+                    p.wealth.sourceId ? (
+                      <Source id={p.wealth.sourceId} />
+                    ) : (
+                      <span>See the linked reporting above.</span>
+                    )
+                  }
+                >
+                  <p className="chart-method">
+                    Exact values and the estimate basis appear in the source
+                    table above. We independently compare dated sources; this
+                    observation does not establish a wealth trend.
+                  </p>
+                </EditorialChart>
+              </>
             ) : (
               <aside className="leader-unknown">
                 <span className="eyebrow">NO SUPPORTED PERSONAL TOTAL</span>
