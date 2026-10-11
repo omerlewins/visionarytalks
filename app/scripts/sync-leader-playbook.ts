@@ -1,3 +1,5 @@
+import { sectionsForStages } from "../src/lib/leader-flow";
+import { validateLeader } from "../src/lib/leader-validation";
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 import { leaderProfiles, leaderSources } from "../src/lib/leaders";
@@ -9,6 +11,11 @@ if (
   !process.env.NEON_PROJECT_ID
 )
   throw Error("Isolated Preview only");
+for (const profile of leaderProfiles) {
+  const report = validateLeader(profile, leaderSources);
+  if (report.errors.length)
+    throw Error(profile.name + ": " + report.errors.join("; "));
+}
 const payload = await getPayload({ config });
 try {
   const user = (
@@ -40,11 +47,13 @@ try {
     })
   ).docs;
   if (
-    markers.length !== 21 ||
-    stories.length !== 21 ||
+    markers.length !== leaderProfiles.length ||
+    stories.length !== leaderProfiles.length ||
     stories.some((p) => p._status !== "draft")
   )
-    throw Error("Expected 21 managed drafts; refusing other content");
+    throw Error(
+      "Expected a managed draft and marker for every repository profile; refusing other content",
+    );
   const published = (
     await payload.find({
       collection: "stories",
@@ -104,7 +113,12 @@ try {
         indent: 0,
         direction: null,
         children: [
-          ...p.sections,
+          ...sectionsForStages(p.sections, [
+            "origin",
+            "company",
+            "strategy",
+            "finding",
+          ]),
           { heading: p.name + " net worth", paragraphs: [p.wealth.paragraph] },
           {
             heading: "How I researched " + p.name,
@@ -137,9 +151,46 @@ try {
         ]),
       },
     });
+    const sourceIds = new Map<string, number>();
+    async function cmsSource(id: string) {
+      const s = leaderSources[id];
+      const cached = sourceIds.get(s.url);
+      if (cached) return cached;
+      const existing = (
+        await payload.find({
+          collection: "sources",
+          where: { url: { equals: s.url } },
+          limit: 1,
+          depth: 0,
+        })
+      ).docs[0];
+      const doc =
+        existing ??
+        (await payload.create({
+          collection: "sources",
+          user,
+          overrideAccess: false,
+          data: {
+            title: s.title,
+            url: s.url,
+            publisher: new URL(s.url).hostname,
+            publishedAt: /^\d{4}-\d{2}-\d{2}$/.test(s.date)
+              ? s.date + "T12:00:00Z"
+              : undefined,
+            reviewedAt: s.accessed + "T12:00:00Z",
+            evidence:
+              "Research record carried from the dated repository source ledger. Editorial verification is separate from import.",
+            _status: "draft",
+          },
+        }));
+      sourceIds.set(s.url, doc.id);
+      return doc.id;
+    }
     for (const p of leaderProfiles) {
       const marker = markers.find((m) => m.key === "content-sync:" + p.path)!;
       const story = stories.find((s) => s.path === p.path)!;
+      const registeredSources: number[] = [];
+      for (const id of p.sourceIds) registeredSources.push(await cmsSource(id));
       await payload.update({
         collection: "stories",
         id: story.id,
@@ -147,6 +198,7 @@ try {
         user,
         overrideAccess: false,
         data: {
+          sources: registeredSources,
           shortAnswer: p.answer,
           body: lexical(p),
           facts: p.quickFacts.map((f) => ({ label: f.label, value: f.value })),
@@ -177,7 +229,9 @@ try {
         },
       });
     }
-    console.log("Updated 21 managed Preview drafts; backup saved privately.");
+    console.log(
+      `Updated ${leaderProfiles.length} managed Preview drafts; backup saved privately.`,
+    );
   }
 } finally {
   await payload.destroy();

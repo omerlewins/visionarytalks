@@ -362,7 +362,7 @@
     },
     "simo-openai": {
       "id": "simo-openai",
-      "title": "OpenAI: Simo appointed CEO of Applications",
+      "title": "OpenAI: leadership expansion with Fidji Simo",
       "url": "https://openai.com/index/leadership-expansion-with-fidji-simo/",
       "type": "Company announcement",
       "date": "2025-05-07",
@@ -599,6 +599,238 @@
       "type": "Company statement",
       "date": "",
       "accessed": "2026-10-11"
+    },
+    "passes-team": {
+      "id": "passes-team",
+      "title": "Passes leadership and financing statement",
+      "url": "https://www.passes.com/team",
+      "type": "Company statement",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "passes-guo-bio": {
+      "id": "passes-guo-bio",
+      "title": "Passes: Lucy Guo founder account, May 20, 2026",
+      "url": "https://vercel.passes.com/blog/posts/meet-lucy-guo-founder-rebuilding-creator-economy",
+      "type": "Company biography",
+      "date": "2026-05-20",
+      "accessed": "2026-10-11"
+    },
+    "tinker-launch": {
+      "id": "tinker-launch",
+      "title": "Thinking Machines: Announcing Tinker",
+      "url": "https://thinkingmachines.ai/news/announcing-tinker/",
+      "type": "Company announcement",
+      "date": "2025-10-01",
+      "accessed": "2026-10-11"
+    },
+    "anthropic-leadership": {
+      "id": "anthropic-leadership",
+      "title": "Anthropic leadership: Daniela Amodei’s remit",
+      "url": "https://www.anthropic.com/company/leadership",
+      "type": "Company biography",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "perplexity-ivp": {
+      "id": "perplexity-ivp",
+      "title": "IVP: Perplexity investment and leadership record",
+      "url": "https://www.ivp.com/portfolio/perplexity/",
+      "type": "Investor statement",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "perplexity-anniversary": {
+      "id": "perplexity-anniversary",
+      "title": "Aravind Srinivas: Perplexity’s first anniversary",
+      "url": "https://www.linkedin.com/posts/aravind-srinivas-16051987_today-marks-our-first-birthday-as-a-company-activity-7092909154100523008-mq9w",
+      "type": "Founder statement",
+      "date": "2023-08-03",
+      "accessed": "2026-10-11"
+    },
+    "devin-launch": {
+      "id": "devin-launch",
+      "title": "Scott Wu: Introducing Devin",
+      "url": "https://cognition.com/blog/introducing-devin",
+      "type": "Founder announcement",
+      "date": "2024-03-12",
+      "accessed": "2026-10-11"
+    },
+    "cognition-windsurf": {
+      "id": "cognition-windsurf",
+      "title": "Scott Wu: Cognition’s Windsurf agreement",
+      "url": "https://cognition.com/blog/windsurf",
+      "type": "Founder announcement",
+      "date": "2025-07-14",
+      "accessed": "2026-10-11"
+    },
+    "figure-series-b": {
+      "id": "figure-series-b",
+      "title": "Figure: Series B financing and OpenAI collaboration",
+      "url": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
+      "type": "Company announcement",
+      "date": "2024-02-29",
+      "accessed": "2026-10-11"
+    },
+    "figure-series-c": {
+      "id": "figure-series-c",
+      "title": "Figure: Series C committed capital",
+      "url": "https://www.figure.ai/news/series-c",
+      "type": "Company announcement",
+      "date": "2025-09-16",
+      "accessed": "2026-10-11"
+    },
+    "krieger-anthropic": {
+      "id": "krieger-anthropic",
+      "title": "Anthropic appoints Mike Krieger",
+      "url": "https://www.anthropic.com/news/mike-krieger-joins-anthropic",
+      "type": "Company announcement",
+      "date": "2024-05-15",
+      "accessed": "2026-10-11"
+    },
+    "krieger-thesis": {
+      "id": "krieger-thesis",
+      "title": "Michel Krieger: Stanford master’s thesis, December 2008",
+      "url": "https://hci.stanford.edu/publications/2008/mkrieger-thesis.pdf",
+      "type": "University record",
+      "date": "2008-12",
+      "accessed": "2026-10-11"
+    },
+    "switch-paper": {
+      "id": "switch-paper",
+      "title": "Switch Transformers: sparse model training research",
+      "url": "https://arxiv.org/abs/2101.03961",
+      "type": "Research paper",
+      "date": "2021-01-11",
+      "accessed": "2026-10-11"
+    },
+    "palm-paper": {
+      "id": "palm-paper",
+      "title": "PaLM: Scaling Language Modeling with Pathways",
+      "url": "https://arxiv.org/abs/2204.02311",
+      "type": "Research paper",
+      "date": "2022-04-05",
+      "accessed": "2026-10-11"
+    },
+    "instacart-transition": {
+      "id": "instacart-transition",
+      "title": "Instacart: May 8, 2025 leadership update",
+      "url": "https://company.instacart.com/updates/leadership-update",
+      "type": "Company announcement",
+      "date": "2025-05-08",
+      "accessed": "2026-10-11"
+    },
+    "simo-letter": {
+      "id": "simo-letter",
+      "title": "Fidji Simo: May 2025 CEO transition letter",
+      "url": "https://company.instacart.com/updates/leadership-update-a-letter-from-fidji-simo-2",
+      "type": "Executive first-person letter",
+      "date": "2025-05-28",
+      "accessed": "2026-10-11"
+    },
+    "simo-appointment": {
+      "id": "simo-appointment",
+      "title": "Instacart: July 2021 Simo appointment release",
+      "url": "https://investors.instacart.com/node/6671/pdf",
+      "type": "Company announcement",
+      "date": "2021-07-08",
+      "accessed": "2026-10-11"
+    },
+    "databricks-series-i": {
+      "id": "databricks-series-i",
+      "title": "Databricks: Series I financing at $43B",
+      "url": "https://www.prnewswire.com/news-releases/databricks-raises-series-i-investment-at-43b-valuation-301927440.html",
+      "type": "Company announcement",
+      "date": "2023-09-14",
+      "accessed": "2026-10-11"
+    },
+    "replit-bio": {
+      "id": "replit-bio",
+      "title": "Replit: Amjad Masad biography",
+      "url": "https://replit.com/blog/author/amjad-masad",
+      "type": "Company biography",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "replit-team": {
+      "id": "replit-team",
+      "title": "Replit: leadership team",
+      "url": "https://replit.com/about",
+      "type": "Company biography",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "inflection-cma": {
+      "id": "inflection-cma",
+      "title": "CMA decision ME 7103/24: Microsoft and Inflection arrangements",
+      "url": "https://assets.publishing.service.gov.uk/media/6719ff5f549f63039436b3c8/__Full_text_decision__.pdf",
+      "type": "Primary government record",
+      "date": "2024-10-24",
+      "accessed": "2026-10-11"
+    },
+    "suleyman-copilot": {
+      "id": "suleyman-copilot",
+      "title": "Mustafa Suleyman: Your AI Companion",
+      "url": "https://blogs.microsoft.com/blog/2025/04/04/your-ai-companion/",
+      "type": "Founder statement",
+      "date": "2025-04-04",
+      "accessed": "2026-10-11"
+    },
+    "suleyman-hsi": {
+      "id": "suleyman-hsi",
+      "title": "Mustafa Suleyman: Towards Humanist Superintelligence",
+      "url": "https://microsoft.ai/news/towards-humanist-superintelligence/",
+      "type": "Founder statement",
+      "date": "2025-11-06",
+      "accessed": "2026-10-11"
+    },
+    "coreweave-ipo-price": {
+      "id": "coreweave-ipo-price",
+      "title": "CoreWeave: IPO pricing announcement",
+      "url": "https://www.coreweave.com/news/coreweave-announces-pricing-of-initial-public-offering",
+      "type": "Company announcement",
+      "date": "2025-03-27",
+      "accessed": "2026-10-11"
+    },
+    "coreweave-q1-2025": {
+      "id": "coreweave-q1-2025",
+      "title": "CoreWeave 10-Q: quarter ended March 31, 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962825000014/crwv-20250331.htm",
+      "type": "SEC filing",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "chen-human-eval": {
+      "id": "chen-human-eval",
+      "title": "Edwin Chen: human evaluation beyond click-through rates",
+      "url": "https://www.edwinchen.ai/archived-blog/moving-beyond-ctr-better-recommendations-through-human-evaluation",
+      "type": "First-person technical post",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "shazeer-mqa": {
+      "id": "shazeer-mqa",
+      "title": "Noam Shazeer: Fast Transformer Decoding",
+      "url": "https://arxiv.org/abs/1911.02150",
+      "type": "Primary research paper",
+      "date": "2019-11-06",
+      "accessed": "2026-10-11"
+    },
+    "simo-meta-bio": {
+      "id": "simo-meta-bio",
+      "title": "Meta: historical Fidji Simo executive biography",
+      "url": "https://about.fb.com/fr/media-gallery/executives/fidji-simo/",
+      "type": "Company biography",
+      "date": "",
+      "accessed": "2026-10-11"
+    },
+    "simo-nscale": {
+      "id": "simo-nscale",
+      "title": "Nscale: Fidji Simo joins the board",
+      "url": "https://www.nscale.tech/press-releases/fidji-simo-joins-nscale-board-of-directors",
+      "type": "Company announcement",
+      "date": "2026-09-11",
+      "accessed": "2026-10-11"
     }
   },
   "leaders": [
@@ -634,7 +866,8 @@
             "The [UCL account of his 2023 lecture](https://www.ucl.ac.uk/news/2023/dec/google-deepmind-co-founder-discusses-how-ai-can-benefit-humanity-ucl) connects his early interest in chess and games with later neuroscience research. It records a cognitive-neuroscience PhD completed in 2009 under Eleanor Maguire. UCL also identifies his meeting with future collaborator Shane Legg. That is a stronger origin trail than an unsourced childhood wealth story.",
             "Isomorphic’s [biography of its founder](https://www.isomorphiclabs.com/people/sir-demis-hassabis-phd) credits him with designing and programming Theme Park at 17. The company identifies his Cambridge education and later UCL doctorate. This is an interested source, so its account should be read as company testimony. The university independently supports the doctoral milestone.",
             "The sequence matters economically. His background combined building a commercial product with studying how intelligence works. Those are different capabilities. A researcher can discover something valuable without building the organization that captures its value. A founder must also secure funding, allocate resources and decide how the discovery reaches users."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Isomorphic Labs: how DeepMind became a route into biology",
@@ -642,7 +875,8 @@
             "UCL dates DeepMind’s founding to 2010 and its acquisition by Google to 2014. That establishes a corporate transition. It does not establish how much Hassabis personally received, his tax position or what he retained. Multiplying a reported acquisition price by an invented founder percentage would introduce unsupported precision.",
             "The reviewed August 2026 [Axios report on the leadership change](https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai) identifies him as DeepMind chair and Alphabet chief scientist. His Isomorphic founder-and-CEO relationship appears separately in the company’s leadership material. Some company biographies still use his previous DeepMind CEO title. I treat a biography as potentially stale when a newer dated report addresses the same role.",
             "My read: his career should be understood through two businesses with different financial structures. DeepMind sits inside a larger public company. Isomorphic raises capital for drug discovery. A title at one does not disclose an economic interest in the other. Readers need the legal entity, the instrument and the valuation date before assigning a financial value."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Isomorphic Labs: what the control register actually tells us",
@@ -650,7 +884,8 @@
             "The [UK register](https://find-and-update.company-information.service.gov.uk/company/13223825/persons-with-significant-control) names Isomorphic Labs Limited, company number 13223825. It lists Alphabet as an active person with significant control. The disclosed categories cover at least 75% of shares and voting rights, plus director appointment rights.",
             "This is useful evidence of control at that entity. It is not a detailed capital table. It does not identify every minority shareholder or disclose all arrangements elsewhere in a group. A financing may involve another entity, a particular class of securities or a structure not visible on this page. I therefore do not infer a precise Hassabis percentage.",
             "Hypothetical 5%, 10% and 20% stakes would require verified ownership and valuation inputs. That would look like a wealth estimate while depending on two missing inputs. I omit it. A reader gains more from knowing which ownership record exists than from a chart built around attractive assumptions."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Isomorphic Labs: a financing milestone, not a personal payout",
@@ -658,7 +893,8 @@
             "Isomorphic says Thrive Capital led its May 2026 round. Existing backers included Alphabet and GV. The announcement also names new investors. It states that the funding will support its drug-design engine, global expansion and drug candidate pipeline. These are company plans, not independently verified clinical outcomes.",
             "Drug discovery creates a different cash-flow problem from selling software subscriptions. Research expenditure can occur well before a drug reaches patients. A financing round can extend the time available to generate evidence. It does not show the probability of regulatory approval, the commercial rights to a future treatment or the founder’s ability to sell shares.",
             "My calculation: the verified announcement adds $2.1 billion of stated financing to this ledger. I do not label that figure lifetime funding because we have not reconciled every earlier round. We also do not treat it as revenue, cash profit or sale proceeds. The financing amount and company valuation are different fields, and the latter was not disclosed on the announcement reviewed."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "Isomorphic Labs: the private company trail: Data Capital",
@@ -667,7 +903,8 @@
             "The [filing history](https://find-and-update.company-information.service.gov.uk/company/09730522/filing-history) lists dormant accounts through the period ending August 2020. It then lists micro-company accounts, including the August 2025 period filed in June 2026. A filing category is a lead for reading accounts. It is not evidence that a named investment sits inside the entity. The current overview’s dormant SIC label should not be treated as a complete financial history.",
             "My read: the two control registers answer different questions. Alphabet’s Isomorphic record describes control by a corporate group. Data Capital’s record describes Hassabis’s director-appointment rights in another legal entity. Neither identifies all assets held personally or through other vehicles. Combining their labels into a founder stake would skip the necessary ownership and valuation records.",
             "This is why we do not multiply an uncompleted fundraising target by an assumed founder percentage. Even a verified valuation would require a documented holding in the same legal entity. A separate holding company, option agreement or economic right could change the result. The registry trail locates documents to investigate, while leaving the personal total unresolved."
-          ]
+          ],
+          "stage": "finding"
         }
       ],
       "capital": [
@@ -786,7 +1023,13 @@
           "answer": "The origin records below connect Demis Hassabis to uk research and game-development career. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "hassabis-ucl"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Lucy Guo",
@@ -802,11 +1045,14 @@
         "date": "2026-10-11",
         "sourceId": "lucy-guo-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Lucy Guo net worth](https://www.forbes.com/profile/lucy-guo/) at $1.5 billion on October 11, 2026, and describes an approximately 3% Scale holding. The [company’s June 12, 2025 announcement](https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution) confirms a shareholder distribution alongside continued ownership. It does not disclose Guo’s payment. I therefore keep her personal estimate separate from Meta’s corporate investment and do not explain an earlier stake percentage with an unverified sale or dilution assumption."
+        "paragraph": "[Forbes estimates Lucy Guo net worth](https://www.forbes.com/profile/lucy-guo/) at $1.5 billion on October 11, 2026, and describes an approximately 3% Scale holding. The [company’s June 12, 2025 announcement](https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution) confirms a shareholder distribution alongside continued ownership. It does not disclose Guo’s payment. I therefore keep her personal estimate separate from Meta’s corporate investment and do not explain an earlier stake percentage with an unverified sale or dilution assumption.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "lucy-guo-forbes",
-        "scale-meta"
+        "scale-meta",
+        "passes-team",
+        "passes-guo-bio"
       ],
       "sections": [
         {
@@ -815,7 +1061,8 @@
             "The [Forbes profile](https://www.forbes.com/profile/lucy-guo/) traces Guo’s interest in coding to elementary school and Neopets. It records computer-science and human-computer-interaction studies at Carnegie Mellon, followed by departure to become a Thiel Fellow. These are biographical details from an independent publication, not proof of the amount of capital she started with.",
             "Her route into technology matters because it combines building software with understanding how people use it. That combination fits both a data-services company and a creator platform. It does not establish that the later company was inevitable. Founder histories often flatten uncertain decisions into a tidy sequence after a large valuation becomes public.",
             "For this profile, the financially relevant sequence is company creation, departure, retained equity and a later liquidity event. Job titles tell only part of that story. A founder can stop working at a company while retaining a meaningful economic interest. A separate operating role can then become the public face of a fortune earned elsewhere."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Scale and Passes are separate financial stories",
@@ -823,7 +1070,8 @@
             "Forbes dates Scale’s founding to 2016 and Guo’s departure to 2018. It attributes most of her fortune to retained Scale equity. It separately identifies Passes, founded in 2022, as the company she runs. A biography that calls her simply the Passes billionaire would conceal the asset responsible for the estimate.",
             "My read: operational influence and economic exposure diverged. Passes requires present management work. Scale’s stake represents a residual claim on another business. Growth at Passes need not explain a movement in a Scale-based wealth estimate. Conversely, a transaction involving Scale can change her financial position without changing her role at Passes.",
             "This distinction is useful for reading founder wealth generally. The company next to someone’s name can be their employer, their largest asset or their newest venture. Those relationships should not be treated as interchangeable. The relevant question is which holding the estimate values and what evidence supports that holding."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Passes: what Meta’s investment did for shareholders",
@@ -831,14 +1079,16 @@
             "The [Scale announcement](https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution) says Meta’s investment valued Scale at more than $29 billion. It also says proceeds would be distributed to shareholders and vested equity holders. Participants could obtain liquidity while continuing to hold equity. This is an interested company source, but it explicitly describes the transaction’s structure.",
             "That structure prevents a simple cash-out narrative. Receiving a distribution does not necessarily mean selling every share. Nor can the company-wide distribution be allocated to Guo without an individual disclosure. The reviewed announcement supplies no personal payment schedule, tax calculation or complete post-transaction cap table.",
             "My calculation: 3% multiplied by a $29 billion benchmark equals $870 million. This is only an illustrative gross stake value using Forbes’s approximate percentage and the announcement’s valuation floor. The inputs refer to different dates. It is not a reconciliation of the $1.5 billion estimate, a verified current holding value or her disclosed cash proceeds."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Passes: why the changed percentage remains unresolved",
           "paragraphs": [
             "Reconciling an earlier stake estimate with the current approximately 3% estimate requires the original dated methods. A change in an estimate can reflect more than one mechanism. A sale, a distribution structure, new information or a revised estimation approach could matter. The reviewed records do not establish which explanation applies to Guo.",
             "I do not turn that uncertainty into a claim that she sold two percentage points. Nor do we apply an assumed cash tax rate to an unreported payment. A useful reconciliation needs matched dates, the same security class and a description of any transaction between observations. Those inputs are absent here."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Passes: departure, retained equity and the two-business problem",
@@ -847,6 +1097,16 @@
             "My read: a shareholder distribution and retained equity can coexist. The distribution may provide liquidity, while remaining securities retain exposure to future results. But a company-wide announcement cannot tell us Guo’s after-tax cash, reinvestments or liabilities. Those are missing personal inputs, not details supplied by a valuation headline.",
             "A change from an earlier approximate stake to a newer one does not identify the mechanism. Dilution, a sale, a distribution structure or a revised provider estimate could produce different outcomes. The reviewed source does not resolve those alternatives. I do not call the difference a specific sale or calculate its proceeds.",
             "Compare the [Edwin Chen profile](/leaders/edwin-chen/). Both involve data businesses and private ownership estimates, but Scale’s shareholder-liquidity announcement is a distinct event. An operating title is less useful for measuring retained wealth than the securities and transactions behind the estimate."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Passes’ own account conflicts with the reported founding year",
+          "paragraphs": [
+            "I checked [Passes’ May 2026 founder account](https://vercel.passes.com/blog/posts/meet-lucy-guo-founder-rebuilding-creator-economy). It dates Guo’s founding of Passes to 2024. Forbes gives 2022. These are conflicting accounts, not evidence of two separate incorporations. A dated legal formation record would settle the distinction.",
+            "The same company account identifies Backend Capital and names investments including Anthropic and Ramp. That broadens the asset trail beyond Scale and Passes. It does not disclose Guo’s investment amounts, fund ownership or present portfolio value.",
+            "[Passes’ team page](https://www.passes.com/team) identifies Guo as CEO and says the team has raised more than $50 million. It does not break that statement into individual rounds. I keep it as a company financing claim, separate from Guo’s personal assets. My read: her operating biography and her wealth model require different records."
           ]
         }
       ],
@@ -957,7 +1217,13 @@
           "answer": "The origin records below connect Lucy Guo to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "lucy-guo-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Greg Brockman",
@@ -973,7 +1239,8 @@
         "date": "2026-10-11",
         "sourceId": "greg-brockman-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Greg Brockman net worth](https://www.forbes.com/profile/greg-brockman/) at $25.5 billion as of October 11, 2026. Its profile attributes his wealth principally to OpenAI and describes an estimated ownership range. I do not average those figures or derive a supposedly exact stake by dividing total wealth by OpenAI’s company valuation."
+        "paragraph": "[Forbes estimates Greg Brockman net worth](https://www.forbes.com/profile/greg-brockman/) at $25.5 billion as of October 11, 2026. Its profile attributes his wealth principally to OpenAI and describes an estimated ownership range. I do not average those figures or derive a supposedly exact stake by dividing total wealth by OpenAI’s company valuation.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "greg-brockman-forbes",
@@ -989,7 +1256,8 @@
             "[Forbes’s biography](https://www.forbes.com/profile/greg-brockman/) records Brockman leaving Harvard and MIT before joining Stripe in 2010. It identifies his CTO appointment in 2013 and departure in 2015. The relevant financial lesson is the transition from helping build one private company to founding another. Neither position discloses his complete balance sheet.",
             "His [own dated posts](https://blog.gregbrockman.com/) provide a contemporaneous account of engineering priorities. The archive includes his January 2017 discussion of the OpenAI CTO role and an earlier interest in programming languages. Unlike a retrospective net-worth list, these posts show what he was trying to build before today’s valuation debate.",
             "A technical leadership title can describe management, architecture or direct implementation. Brockman’s writing emphasizes making other builders effective. That distinction matters when assessing a founder’s contribution. A large holding can reward organizational work accumulated over years, even when public attention concentrates on a particular product launch."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "OpenAI: the research organization and the capital problem",
@@ -997,7 +1265,8 @@
             "The blog archive includes a March 2019 mission post co-written with Ilya Sutskever. It discusses a changed legal structure intended to raise more capital. This is a first-person account, so we treat the rationale as the founders’ explanation rather than an independent verdict on the structure.",
             "My read: capital formation is central to Brockman’s financial story. A research organization can need resources long before it produces revenue. Changing how investors participate can alter the relationship among mission, governance and economic claims. A reader cannot infer those claims merely from the organization’s original nonprofit description.",
             "A founder’s estimated fortune should therefore be matched to the specific legal and economic interest being valued. A nonprofit role, a commercial shareholding and a contractual profit participation are not interchangeable. Historical structures also should not be assumed to survive later reorganizations without reviewing the applicable records."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "OpenAI: what the Forbes number establishes",
@@ -1005,14 +1274,16 @@
             "The current [Forbes profile](https://www.forbes.com/profile/greg-brockman/) identifies him as cofounder and president in its editorial text. Its header still uses a CTO label. I use the editorial description while recording the inconsistency. The page’s wealth timestamp and biography-update timestamp are different fields.",
             "The estimate supplies a dated third-party observation. It does not give us an audited asset-and-liability schedule or prove that the holding can be sold at that value. Private securities can have transfer restrictions, preferences and a limited pool of buyers. Those considerations affect how a paper fortune differs from immediately available funds.",
             "My calculation: we retain the $25.5 billion observation without combining it with an assumed Stripe stake. Adding another privately estimated asset could double count something already included by Forbes. A reliable reconstruction would need the provider’s asset-level methodology and a dated ownership record for each material holding."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "OpenAI: the testimony comparison needs a matched basis",
           "paragraphs": [
             "The AP court report provides an additional dated observation about one OpenAI holding. The original transcript and its valuation assumptions still need review. Testimony about a security is not automatically a statement of total personal net worth. The comparison below keeps the two scopes and dates visible.",
             "The reviewed Forbes text refers to testimony and an estimated ownership range, but that is not a substitute for the underlying transcript. I do not characterize an exact percentage as sworn merely because it appears in a profile. We also do not infer why two figures differ when their basis is not matched."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "OpenAI: the $30 billion testimony and the $25.5 billion estimate",
@@ -1021,7 +1292,8 @@
             "My calculation: using $30 billion as an approximate comparison point, the difference from Forbes’s $25.5 billion total is $4.5 billion, or 15%. Dividing $30 billion by $852 billion gives about 3.52%. Neither calculation proves a valuation haircut or an ownership percentage. The inputs have different dates and scopes, and “nearly” supplies additional imprecision. The arithmetic measures the gap without inventing its cause.",
             "The [December 2015 founding announcement](https://openai.com/index/introducing-openai/) named Brockman CTO and described $1 billion of donor commitments. Commitments are not cash received or spent. [OpenAI’s May 2022 announcement](https://openai.com/index/leadership-team-update/) made him president. Those records show organizational change, but do not disclose when or how his current economic interest was awarded.",
             "The comparison is useful beside [Ilya Sutskever’s profile](/leaders/ilya-sutskever/). A disclosure about an OpenAI holding does not establish every other asset. Separate companies, security rights and provider methods must be traced separately. A reported stake and a provider’s personal total can both be meaningful without being interchangeable."
-          ]
+          ],
+          "stage": "finding"
         }
       ],
       "capital": [
@@ -1131,7 +1403,13 @@
           "answer": "The origin records below connect Greg Brockman to us technology career: stripe and openai. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "greg-brockman-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Mira Murati",
@@ -1153,7 +1431,8 @@
         "thinking",
         "murati-seed",
         "a16z-thinking",
-        "openai-2022"
+        "openai-2022",
+        "tinker-launch"
       ],
       "sections": [
         {
@@ -1161,7 +1440,8 @@
           "paragraphs": [
             "[Dartmouth Engineering’s graduate-outcomes page](https://engineering.dartmouth.edu/career-services/students/graduate-outcomes) identifies Murati among its engineering alumni. That provides an institutional connection independent of a wealth article. It does not establish a founder stake, employment compensation or the resources she invested in a later company.",
             "This approach avoids a familiar biography problem. A string of prominent employers can create the appearance of financial knowledge while supplying none of the inputs needed for a wealth estimate. Experience may explain why investors back a team. It does not identify how the resulting economic ownership is divided."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Thinking Machines Lab: the company’s stated product bet",
@@ -1169,7 +1449,8 @@
             "[Thinking Machines Lab’s own site](https://thinkingmachines.ai/) describes a research-and-product company focused on making AI understandable and customizable. It emphasizes collaboration with users, multimodal systems and sharing research. These are company statements of intent. They do not independently establish commercial success or the performance of every released product.",
             "My read: customization creates a distinct economic question. A general model may perform well on broad tasks while requiring adaptation for a particular organization. The business opportunity depends on whether that adaptation creates value customers will pay for. The cost of delivering it matters as much as a technical demonstration.",
             "The site presents infrastructure quality and empirical learning as priorities. A financial reader should ask how those priorities affect spending and product development. Reliable research infrastructure can reduce wasted effort. It can also require substantial upfront capital before revenue is large enough to fund continued experiments."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Thinking Machines Lab: the seed round and the missing ownership input",
@@ -1177,14 +1458,16 @@
             "The [July 2025 report](https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/) establishes the reported seed financing and company valuation. [Andreessen Horowitz’s enterprise newsletter](https://a16z.com/newsletter/enterprise-ai-rewrites-benchmarks/) provides an investor perspective on the company. That perspective should be labeled as interested, rather than treated as an independent appraisal.",
             "My calculation: $2 billion divided by $12 billion equals approximately 16.7%. This illustrates the share of post-money value represented by the stated financing amount. It does not prove the percentage investors received. Secondary sales, different security rights or other terms could change the relationship. Murati’s personal stake remains undisclosed in the reviewed sources.",
             "Even a disclosed voting multiple would not solve that problem. Voting rights determine who can influence decisions. Economic rights determine participation in proceeds. A founder can control a company with a minority economic stake, or own a large stake while sharing control. I do not convert an unverified voting-rights claim into a wealth calculation."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Thinking Machines Lab: why a fundraising target is a different observation",
           "paragraphs": [
             "That distinction also protects the net-worth chart. A rumored company valuation cannot become a dated personal wealth observation simply by applying a guessed percentage. The missing ownership denominator would remain missing even if the negotiating valuation proved accurate. No bar is preferable to a false personal history.",
             "The same logic applies to the proposed Albanian state investment angle. Authorization, commitment and payment are different events. A government budget entry would establish permission to invest, not necessarily a completed subscription. A company confirmation or execution record would be needed to identify the security and recipient entity."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Thinking Machines Lab: what the earlier CTO appointment actually documented",
@@ -1193,6 +1476,15 @@
             "My read: the combination matters when building a new lab. Research identifies what a system can do; product decisions determine how customers use it; partnerships can shape access and distribution. Those functions involve different incentives and timelines. Coordinating them is an operating responsibility, distinct from owning a percentage of the business.",
             "A seed valuation answers what investors accepted for the financing terms. It does not tell us the founder’s compensation, unvested awards, debts or cash. Even a large founder holding can remain illiquid. A control provision would answer another question: who decides. Without governing documents, we cannot substitute voting power for economic ownership.",
             "For a contrasting case, the [Daniela Amodei profile](/leaders/daniela-amodei/) includes a dated provider estimate. Murati’s page does not fill that missing observation with the company valuation. The absence of a defensible figure is a research result, not evidence that her holding has no value."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Thinking Machines’ first product sells managed training, not a founder stake",
+          "paragraphs": [
+            "[The October 1, 2025 Tinker announcement](https://thinkingmachines.ai/news/announcing-tinker/) describes an API for fine-tuning open-weight models. Researchers control their algorithms and data; Thinking Machines supplies distributed training infrastructure. The launch account names scheduling, resource allocation and failure recovery as services the company handles.",
+            "I checked the monetization language. Tinker initially launched free, with usage-based pricing planned for subsequent weeks. That is a dated commercial plan, not proof of today’s prices or revenue. My read: this product makes the infrastructure bill part of the business model. A large funding round alone cannot show whether usage revenue will cover that bill."
           ]
         }
       ],
@@ -1298,7 +1590,13 @@
           "answer": "The origin records below connect Mira Murati to engineering career documented by dartmouth. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "murati-dartmouth"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Ilya Sutskever",
@@ -1330,7 +1628,8 @@
             "The [University of Toronto graduate profile](https://www.sgs.utoronto.ca/profile/ilya-sutskever/) identifies Sutskever as a 2013 computer-science PhD alumnus. His [academic homepage](https://www.cs.toronto.edu/~ilya/) lists work with Geoffrey Hinton, a Stanford postdoctoral appointment, DNNresearch and Google Brain. The page is historical and still uses an old OpenAI title. I use it for the early sequence, not his current role.",
             "This gives the career a verifiable research foundation. It does not identify the ownership of DNNresearch, the personal terms of an acquisition or the value of a later OpenAI interest. Academic achievement and financial ownership are separate evidentiary questions. Neither should be reconstructed from the other.",
             "A useful profile asks how technical ability became an organizational asset. Research may generate knowledge shared through papers. A company can combine that knowledge with capital, engineering teams and deployment infrastructure. The transition changes the possible economic claims, but authorship alone does not establish a shareholder allocation."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Safe Superintelligence: sSI documents the leadership transition",
@@ -1338,21 +1637,24 @@
             "[SSI’s July 3, 2025 update](https://ssi.inc/updates) states that Sutskever became formally CEO and Daniel Levy president. It says Daniel Gross had left the company. This is direct company evidence for the transition. It does not reveal the departing founder’s equity treatment or how the remaining founders’ economic interests changed.",
             "The same update says the technical team reports to Sutskever. My read: the company places scientific and executive responsibility close together. That can shorten the path from research judgment to resource allocation. It can also make a small group of leaders unusually important to the organization.",
             "A departure does not automatically transfer one founder’s stake to another. Vesting, buybacks, retained holdings and other contractual arrangements could produce different outcomes. Without the applicable records, we do not divide SSI equally among its founders or infer an updated percentage from the leadership change."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Safe Superintelligence: funding is visible; individual economics are not",
           "paragraphs": [
             "SSI’s [September 4, 2024 update](https://ssi.inc/updates) says it raised $1 billion from named investors. Its July 2026 update identifies a strategic NVIDIA partnership. The public page supplies a financing milestone and a compute relationship. It does not disclose a complete valuation series or Sutskever’s personal allocation.",
             "A compute partnership can change the resources available to a lab without determining shareholder value. Contracted compute, an investment commitment and an equity subscription have different financial effects. The terms would be needed before calculating dilution, cash proceeds or the founder’s economic exposure."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "Safe Superintelligence: a partial stake value is not a personal balance sheet",
           "paragraphs": [
             "The Bloomberg report provides a dated value attributed to one OpenAI interest. I do not treat that observation as today’s total fortune. A personal calculation would need other assets, liabilities and any changes since the observation. It would also need clarity about the instrument being valued.",
             "The chart module therefore has no numerical net-worth bar. The timeline contains the separate research and financing events. This preserves the facts without visually adding unlike values. An OpenAI stake estimate can become a future chart input only in a chart explicitly measuring that holding, rather than total wealth."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Safe Superintelligence: two laboratories, two funding logics",
@@ -1361,7 +1663,8 @@
             "My read: a single-product research bet changes what investors are underwriting. Near-term customer revenue may be less informative than the ability to finance research until a technical objective is met. That does not remove business risk. It makes runway, capital access and the path to a usable result central questions. A mission statement does not disclose how long funds will last.",
             "The [SSI updates page](https://ssi.inc/updates) records leadership changes. Becoming CEO gives Sutskever management responsibility. It does not show his percentage ownership or founder-security terms. A compute partnership can improve infrastructure access without a personal cash distribution. Those changes belong in the event timeline rather than a guessed wealth trajectory.",
             "His interests in two organizations must be valued separately before being added. An estimate for one OpenAI holding cannot establish SSI’s contribution. A historical SSI financing value cannot determine his percentage after later changes. Our profile of [Greg Brockman](/leaders/greg-brockman/) illustrates the same distinction between a reported stake observation and a personal total."
-          ]
+          ],
+          "stage": "finding"
         }
       ],
       "capital": [
@@ -1479,7 +1782,13 @@
           "answer": "The origin records below connect Ilya Sutskever to university of toronto research career. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "ilya-toronto"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Aravind Srinivas",
@@ -1495,12 +1804,15 @@
         "date": "2026-10-11",
         "sourceId": "aravind-srinivas-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Aravind Srinivas net worth](https://www.forbes.com/profile/aravind-srinivas/) at $2.1 billion as of October 11, 2026. It separately identifies Perplexity’s $20 billion valuation in 2025. I do not divide those figures to claim he owns 10.5%: total wealth and a company financing value are different inputs. The proposed Hurun comparison needs the original dated report and a stated currency conversion before it can become a numerical reconciliation."
+        "paragraph": "[Forbes estimates Aravind Srinivas net worth](https://www.forbes.com/profile/aravind-srinivas/) at $2.1 billion as of October 11, 2026. It separately identifies Perplexity’s $20 billion valuation in 2025. I do not divide those figures to claim he owns 10.5%: total wealth and a company financing value are different inputs. The proposed Hurun comparison needs the original dated report and a stated currency conversion before it can become a numerical reconciliation.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "aravind-srinivas-forbes",
         "curl",
-        "decision-transformer"
+        "decision-transformer",
+        "perplexity-ivp",
+        "perplexity-anniversary"
       ],
       "sections": [
         {
@@ -1509,7 +1821,8 @@
             "The [2020 CURL paper](https://arxiv.org/abs/2004.04136) lists Srinivas alongside Michael Laskin and Pieter Abbeel. It examines learning useful representations from images for reinforcement learning. The record supplies a title, author list and submission date. These are observable research contributions, not a retrospective claim that one person invented an entire field.",
             "The [2021 Decision Transformer paper](https://arxiv.org/abs/2106.01345) also lists Srinivas among its authors. It approaches reinforcement learning through sequence modeling. I use the paper to establish authorship and the research direction. I do not translate benchmark results into commercial revenue or a founder’s later ownership.",
             "Forbes records IIT Madras and Berkeley education and earlier research employment. The primary papers add detail that a short employer list cannot provide. They show a technical trajectory before an AI-search business became valuable. That trajectory supports a career profile without requiring invented stories about motivation or private conversations."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Perplexity: the company-building question is distribution",
@@ -1517,7 +1830,8 @@
             "The [Forbes profile](https://www.forbes.com/profile/aravind-srinivas/) dates Perplexity’s founding to August 2022 and names its four cofounders. It describes a product that summarizes online material and points readers to sources. That is the operating concept relevant to the financial story.",
             "My read: search requires both an answer users trust and a reason to return. A model’s capabilities are only one input. Distribution, user habits and the economics of serving queries also matter. A company can create a popular interface while paying another provider for part of the underlying intelligence.",
             "The key financial distinction is gross activity versus retained value. More queries can increase use and costs at the same time. To evaluate the business, a reader would want paying-customer retention, revenue per customer and the cost of a typical workload. A company valuation does not disclose those operating figures."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Perplexity: why the fortune cannot reveal the cap table",
@@ -1525,14 +1839,16 @@
             "A personal wealth provider may incorporate several assets, discounts or assumptions. The financing valuation may relate to a different date and security class. Dividing one headline by the other does not yield a disclosed ownership percentage. We reject that shortcut even when the result looks plausible.",
             "My calculation: $2.1 billion divided by $20 billion is 10.5%. This is an arithmetic ratio of unmatched headline figures, shown to explain the error. It is not a stake estimate and does not appear in the ownership facts. The reviewed records do not establish a current percentage.",
             "That missing input also prevents a reliable mark-to-market exercise against rumored new valuations. A company-level negotiating price would not reveal founder dilution or any shares sold. Even a completed round would require matched ownership data before it could support an independent personal calculation."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Perplexity: the unreconciled Hurun comparison",
           "paragraphs": [
             "A proper comparison would preserve both providers’ stated dates. The conversion would identify the currency rate and observation date. It would distinguish a currency translation from a revision in underlying wealth. Explaining an apparent gap without those inputs would substitute a theory for research.",
             "We also exclude the proposed litigation and IPO-timing angles until the original records are reviewed. These could matter to valuation risk, but they are not necessary to invent a more dramatic biography. The current article can explain the business model and the evidence boundary directly."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Perplexity: why research papers belong in a financial profile",
@@ -1541,6 +1857,15 @@
             "My read: a research background can help a founder evaluate technical possibilities and tradeoffs. A company must decide which possibilities solve a repeated customer problem. Better answers, lower latency and a usable experience can each affect adoption. The cost of providing those answers matters alongside the quality. A research result and a profitable product remain different achievements.",
             "The ownership question does not follow from authorship. Coauthor order cannot establish a founder’s economic percentage. A provider’s total cannot be divided by company value to recover it reliably. Securities can carry different rights, while personal totals can include other assets. Those unknowns keep the financing observation outside the personal chart.",
             "Compare the application-layer business question with [Bret Taylor’s Sierra profile](/leaders/bret-taylor/). An answer service and a customer-service agent both require useful results, but have different measures of completion. The investigation follows the customer task and serving cost. Ranking founders by fundraising values would lose that distinction."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Perplexity’s incorporation date and investor chronology answer different questions",
+          "paragraphs": [
+            "[Srinivas’ first-anniversary post](https://www.linkedin.com/posts/aravind-srinivas-16051987_today-marks-our-first-birthday-as-a-company-activity-7092909154100523008-mq9w) dates incorporation to August 3, 2022. I treat this as the founder’s dated account, rather than an independently inspected incorporation certificate.",
+            "[Investor IVP’s portfolio record](https://www.ivp.com/portfolio/perplexity/) separately lists founding in 2022 and its partnership in 2024. It names Srinivas, Denis Yarats and Johnny Ho under leadership. That is an interested investor account, not a complete founding register. My read: company formation, leadership composition and a particular investor’s entry belong on separate lines of the history."
           ]
         }
       ],
@@ -1651,7 +1976,13 @@
           "answer": "The origin records below connect Aravind Srinivas to india (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "aravind-srinivas-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Daniela Amodei",
@@ -1667,12 +1998,14 @@
         "date": "2026-10-11",
         "sourceId": "daniela-amodei-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Daniela Amodei net worth](https://www.forbes.com/profile/daniela-amodei/) at $15.5 billion as of October 11, 2026. [Anthropic’s May 28 financing announcement](https://www.anthropic.com/news/series-h) states a $965 billion post-money valuation, but does not allocate individual founder ownership. I do not average estimates or present the resulting wealth-to-valuation ratio as her stake."
+        "paragraph": "[Forbes estimates Daniela Amodei net worth](https://www.forbes.com/profile/daniela-amodei/) at $15.5 billion as of October 11, 2026. [Anthropic’s May 28 financing announcement](https://www.anthropic.com/news/series-h) states a $965 billion post-money valuation, but does not allocate individual founder ownership. I do not average estimates or present the resulting wealth-to-valuation ratio as her stake.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "daniela-amodei-forbes",
         "anthropic-h",
-        "anthropic-labs"
+        "anthropic-labs",
+        "anthropic-leadership"
       ],
       "sections": [
         {
@@ -1681,7 +2014,8 @@
             "The [Forbes biography](https://www.forbes.com/profile/daniela-amodei/) identifies Amodei’s English-literature education at UC Santa Cruz and recruiting work at Stripe. It also records her later OpenAI management role. Her background is an organizational path into an AI company, rather than a paper-authorship story.",
             "That matters because a research business needs more than a breakthrough model. It must recruit, retain and coordinate people with different specialties. Product organizations then have to turn research into services customers can use reliably. These functions can become economically important without being captured by a technical benchmark.",
             "We avoid describing the company as the work of only one sibling. Forbes dates Anthropic to 2021 and identifies seven cofounders, including Daniela and Dario Amodei. A profile of Daniela should investigate her operating role on its own terms. Family relationships do not establish ownership percentages or the distribution of authority."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Anthropic: a documented product-organization decision",
@@ -1689,7 +2023,8 @@
             "[Anthropic’s January 13, 2026 Labs announcement](https://www.anthropic.com/news/introducing-anthropic-labs) identifies Daniela as president and describes a separation between experimentation and scaling products. Mike Krieger moved into Labs alongside Ben Mann. Ami Vora took responsibility for the Product organization. Those are company-reported organizational decisions.",
             "My read: this separates two kinds of execution risk. Early products need room for experimentation. Established services need consistency and dependable delivery. A research company can struggle if it uses the same process for both. The announcement reveals an attempt to organize around those different needs.",
             "It does not establish that the reorganization succeeded. Evidence of success would include customer outcomes, retention and operating efficiency over time. I distinguish a management decision from its financial result. A credible leadership profile can document the decision without converting a company explanation into an independent performance verdict."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Anthropic: read the financing number before the wealth number",
@@ -1697,14 +2032,16 @@
             "[Anthropic’s Series H announcement](https://www.anthropic.com/news/series-h) reports $65 billion raised at $965 billion post-money. It says the total includes $15 billion of previously committed hyperscaler investments. This qualification matters when combining financing headlines across time. An included commitment should not be counted again as new cash outside the round.",
             "My calculation: $65 billion minus $15 billion equals $50 billion excluding those previously committed investments. That is an arithmetic decomposition of the announcement, not a verified cash-receipt schedule. It also does not identify how much equity any investor received or how much founder dilution occurred.",
             "The same announcement reports that revenue run-rate crossed $47 billion. Run-rate describes a pace of activity extrapolated over a year. It is not automatically recognized revenue for a completed financial year. I keep that wording in the capital ledger and do not use it as audited annual income."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Anthropic: the ownership claim requires the ownership document",
           "paragraphs": [
             "A future ownership table would still require careful reading. Economic shares and voting control can differ. A founder entity may aggregate several people’s rights without making its entire stake attributable to one person. Shares subject to vesting, options and conversion rules can change the denominator.",
             "The proposed 80% wealth pledge is also outside this verified record. A pledge concerns intended future use of assets. It does not necessarily reduce a current net-worth estimate by 80%. Even with the original statement, the terms and any completed transfer would need separate treatment."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Anthropic: recruiting, engineering management and the organizational bet",
@@ -1713,6 +2050,15 @@
             "My read: recruiting and operational judgment matter economically when research becomes a dependable service. Hiring capacity, evaluation, product priorities and customer requirements compete for resources. Those are company-building decisions. They do not confer identical ownership rights on every executive or founding employee.",
             "The [January 2026 Labs announcement](https://www.anthropic.com/news/introducing-anthropic-labs) distinguishes experimentation from scaling reliable products. A promising experiment needs different processes from a service that many customers rely on. The statement explains the organization; it does not give product-level margins or the costs of the two functions.",
             "For the product-building story, read [Mike Krieger’s profile](/leaders/mike-krieger/). His Labs move and Amodei’s presidency involve the same company but different evidence trails. I use the announcement to describe roles and the dated wealth provider to describe her estimated fortune. A shared employer does not justify a shared ownership assumption."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Daniela Amodei’s board chair role is separate from an equity percentage",
+          "paragraphs": [
+            "[Anthropic’s leadership record](https://www.anthropic.com/company/leadership) identifies Daniela Amodei as co-founder, president and chair of its board. It describes responsibility across research, engineering, product, governance and commercial execution. Those are broader operating and governance duties than a recruiting-only biography suggests.",
+            "I keep that disclosure separate from her ownership estimate. Chairing a board does not reveal a percentage of economic rights or voting power. My read: the presidency helps explain how research reaches customers, while the wealth estimate still needs a dated securities model."
           ]
         }
       ],
@@ -1823,7 +2169,13 @@
           "answer": "The origin records below connect Daniela Amodei to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "daniela-amodei-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Bret Taylor",
@@ -1839,7 +2191,8 @@
         "date": "2026-10-10",
         "sourceId": "bret-taylor-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Bret Taylor net worth](https://www.forbes.com/profile/bret-taylor/) at $2.5 billion on October 10, 2026. [Dated reporting on Sierra’s May 2026 financing](https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise) identifies a $15.8 billion post-money value. That does not establish his current stake or prove Forbes failed to update its calculation. I exclude"
+        "paragraph": "[Forbes estimates Bret Taylor net worth](https://www.forbes.com/profile/bret-taylor/) at $2.5 billion on October 10, 2026. [Dated reporting on Sierra’s May 2026 financing](https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise) identifies a $15.8 billion post-money value. That does not establish his current stake or prove Forbes failed to update its calculation. I exclude",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "bret-taylor-forbes",
@@ -1855,7 +2208,8 @@
           "paragraphs": [
             "[Sierra’s biography](https://sierra.ai/author/bret-taylor) identifies Taylor’s work on Google Maps, his Facebook CTO role, Quip and Salesforce. This is a company account, so it supports a disclosed career narrative rather than an independent valuation of his earlier exits. It is also more specific than calling him a serial technology executive.",
             "Each stage involves a different economic relationship. An employee may receive compensation. A founder may hold equity through a sale. An executive may receive new grants subject to vesting. These relationships cannot be added together without checking dates, holdings and whether assets were already sold."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "How Sierra’s bet differs from a generic chatbot",
@@ -1863,7 +2217,8 @@
             "[Sierra’s company account](https://sierra.ai/about) says Taylor and Clay Bavor met while working at Google. Its [September 2025 funding post](https://sierra.ai/blog/theres-an-agent-for-that-and-it-runs-on-sierra) frames the business around agents for enterprise customers. I label that description as the founders’ explanation.",
             "My read: customer-service automation is a workflow business. Answering a question is only one part. An agent may need to authenticate someone, change an order or hand a case to a human. Integration and control can matter as much as the underlying language model.",
             "This makes the financial investigation more specific. A customer may judge the service by resolved cases, operating cost and the consequences of errors. A vendor’s opportunity depends on delivering useful outcomes without creating larger downstream costs. A company valuation does not disclose those unit economics."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Sierra: two rounds, two financing observations",
@@ -1871,14 +2226,16 @@
             "[Sierra’s September 4, 2025 announcement](https://sierra.ai/blog/theres-an-agent-for-that-and-it-runs-on-sierra) states $350 million raised at a $10 billion valuation. The later May 2026 observation identifies $950 million at $15.8 billion post-money. The latter is reported by Axios, rather than reconstructed from an ownership filing.",
             "My calculation: $350 million plus $950 million equals $1.3 billion across these two financing observations. This is not lifetime funding or Taylor’s personal proceeds. The table identifies the source type for each observation. It does not assume both rounds involved identical terms or the same mix of primary and secondary capital.",
             "My calculation: $15.8 billion divided by $10 billion equals 1.58 times the earlier company valuation. That is a company-value comparison, not a 58% increase in Taylor’s wealth. His percentage could change, assets outside Sierra could move and a wealth provider could apply a different valuation basis."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Sierra: a stale biography is not proof of a stale model",
           "paragraphs": [
             "The Forbes page has a real-time wealth date and an earlier editorial-update date. Its narrative still discusses the $10 billion financing. That observation justifies checking the methodology. It does not prove that the real-time calculation uses only the number visible in the biography.",
             "The OpenAI chair relationship also requires separate treatment. A governance role is not itself an equity disclosure. The financial relevance includes potential conflicts and decision authority, but neither establishes compensation or a personal ownership interest. I do not create an OpenAI holding merely from a board title."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Sierra: the founder announcement gives a better operating question",
@@ -1887,7 +2244,8 @@
             "The founders describe a move beyond support into sales, retention and other customer processes. My read: this changes the economic claim. Reducing a service cost and generating an incremental sale are different outcomes. A vendor should measure them separately. Customer-experience improvements can support a business case, but a company-wide revenue increase cannot automatically be attributed to an agent.",
             "An outcome-based contract also raises questions about measurement and control. Who decides whether a case is resolved? Does the customer return with the same problem? What happens when the agent transfers work to a person? These are analytical questions, not allegations about Sierra’s contracts. The public funding post does not provide the contract-level answers.",
             "The useful comparison is with [Scott Wu’s Cognition profile](/leaders/scott-wu/). Both businesses sell the prospect of delegating work, but engineering and customer service have different review costs. Comparing their financing valuations alone would skip the process each product must improve."
-          ]
+          ],
+          "stage": "strategy"
         }
       ],
       "capital": [
@@ -2005,7 +2363,13 @@
           "answer": "The origin records below connect Bret Taylor to us software and product-building career. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "sierra-about"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Scott Wu",
@@ -2021,13 +2385,16 @@
         "date": "2026-02-02",
         "sourceId": "wu-forbes",
         "basis": "Historical Forbes Türkiye estimate, not current wealth",
-        "paragraph": "The reviewed [Forbes Türkiye report](https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti), published February 2 and updated February 16, 2026, put Scott Wu net worth near $600 million. It described him as holding the smallest founder stake, without explaining why. [Cognition’s September 8, 2026 announcement](https://cognition.com/blog/series-e) gives a $48 billion company valuation, not his ownership. I do not update the old personal figure proportionally or use 6 billion claim."
+        "paragraph": "The reviewed [Forbes Türkiye report](https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti), published February 2 and updated February 16, 2026, put Scott Wu net worth near $600 million. It described him as holding the smallest founder stake, without explaining why. [Cognition’s September 8, 2026 announcement](https://cognition.com/blog/series-e) gives a $48 billion company valuation, not his ownership. I do not update the old personal figure proportionally or use 6 billion claim.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "wu-forbes",
         "cognition-10",
         "cognition-e",
-        "wu-result"
+        "wu-result",
+        "devin-launch",
+        "cognition-windsurf"
       ],
       "sections": [
         {
@@ -2035,7 +2402,8 @@
           "paragraphs": [
             "The [official 2014 IOI results](https://stats.ioinformatics.org/results/2014) list Scott Wu with a gold medal and 600 points out of 600. He tied for first with Ishraq Huda and Yinzhan Xu. Steven Hao, another Cognition founder, appears sixth with 525 points. This is a dated competition record, not a popularity-based reputation claim.",
             "The financially relevant question is how a technical network becomes a founding team. People who have worked or competed together may already understand one another’s capabilities. That can reduce uncertainty during formation, but it does not determine how equity is allocated. A cap table can reflect capital, timing, vesting or negotiated contributions."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "How Cognition describes the software-engineering bet",
@@ -2043,7 +2411,8 @@
             "[Cognition’s Series E announcement](https://cognition.com/blog/series-e) dates the company’s start to 2024. It describes a strategy in which engineers direct agents and delegate execution. That is the company’s account of its purpose. It does not independently establish that an agent can complete every engineering task reliably.",
             "My read: the relevant unit is completed useful work. A coding demonstration measures a narrower result than maintaining a production system. Customers must consider review effort, incident risk and how the tool operates within existing processes. The business case depends on the value of completed work after those costs.",
             "This also changes what a financial profile should investigate. A fast-growing usage metric may show activity, but monetization and retention remain separate questions. A revenue run-rate can indicate momentum without supplying recognized annual revenue, gross margin or cash generation. We preserve the company’s metric labels."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Cognition: the capital history is unusually clear",
@@ -2051,7 +2420,8 @@
             "[Wu’s September 8, 2025 funding post](https://cognition.com/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents) says Cognition raised over $400 million at $10.2 billion post-money. The [September 2026 announcement](https://cognition.com/blog/series-e) says it raised over $2 billion at $48 billion. These are corporate financing observations from interested company sources.",
             "My calculation: the two disclosed rounds total more than $2.4 billion. This is a lower bound for those observations, not lifetime capital or cash proceeds to Wu. The word “over” matters. Converting it into an exact $2.4 billion would make the ledger appear more precise than its sources.",
             "The later announcement says run-rate revenue rose from $492 million in May to almost $900 million. I keep “run-rate” and “almost” in the table. I do not turn the observation into audited annual revenue. The financing valuation divided by a run-rate would also be a valuation multiple, not a profit multiple."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Cognition: unequal founder economics remain unexplained",
@@ -2059,7 +2429,8 @@
             "The [Forbes Türkiye report](https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti) says Steven Hao and Walden Yan had larger stakes than Wu at the period it examined. It also says the reason was unknown and the company declined to comment on wealth. That limitation is part of the finding.",
             "The CEO title does not imply the largest shareholding. Leadership responsibility and negotiated ownership are different variables. I do not explain the difference with speculation about who wrote more code, who invested first or who joined earliest. The public source does not establish those causes.",
             "We also do not multiply Wu’s historical estimate by the rise in company valuation. That would assume his percentage, security terms, other assets and the provider’s methodology remained unchanged. The financing record supports a company timeline. It does not support a new personal wealth series."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Cognition: from a solved problem to an engineering business",
@@ -2067,10 +2438,35 @@
             "A competition gives a precise score because the task and scoring rules are defined. A commercial software project usually has less tidy boundaries. The code can compile while failing a customer requirement. Tests can pass while an integration remains fragile. The competition record establishes Wu’s performance under its own rules; it cannot establish the economics of Devin.",
             "My read: the founding team’s technical familiarity is useful when paired with a repeatable delivery process. The relevant questions are who specifies the task, who checks the result, and who remains responsible when an agent makes a mistake. Those responsibilities can determine whether automation saves money after supervision. They also explain why a company needs more than a successful demonstration to build recurring customer demand.",
             "The [2025 financing announcement](https://cognition.com/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents) describes Devin ARR rising from $1 million in September 2024 to $73 million in June 2025. Cognition says this was before acquiring Windsurf. This distinction prevents attributing the earlier increase to an acquired business. ARR remains a company-reported rate, rather than a statement of profits or Wu’s personal income."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Cognition’s first $21 million round predates the Windsurf agreement",
+          "paragraphs": [
+            "[Wu’s March 12, 2024 Devin launch](https://cognition.com/blog/introducing-devin) records a $21 million Series A led by Founders Fund. It also identifies the product’s shell, browser and editor environment. This is the company’s initial product and financing account, not an independent productivity audit.",
+            "[His July 14, 2025 Windsurf announcement](https://cognition.com/blog/windsurf) records a signed definitive acquisition agreement. The stated scope includes intellectual property, product, trademark, business and people. It supplies no purchase price. I do not relabel signing as closing or use the purchase to invent Wu’s personal proceeds."
           ]
         }
       ],
       "capital": [
+        {
+          "date": "2024-03-12",
+          "event": "Series A disclosed with Devin launch",
+          "amount": "$21M",
+          "valuation": "Not disclosed",
+          "note": "Company funding, according to the launch announcement.",
+          "sourceId": "devin-launch"
+        },
+        {
+          "date": "2025-07-14",
+          "event": "Windsurf acquisition agreement signed",
+          "amount": "Price not disclosed",
+          "valuation": "Not disclosed",
+          "note": "Signing-stage announcement; not a founder payout.",
+          "sourceId": "cognition-windsurf"
+        },
         {
           "date": "2025-09-08",
           "event": "Cognition financing",
@@ -2190,7 +2586,13 @@
           "answer": "The origin records below connect Scott Wu to us participant in the 2014 international olympiad in informatics. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "wu-result"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Aman Sanger",
@@ -2206,12 +2608,16 @@
         "date": "2026-10-11",
         "sourceId": "aman-sanger-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Aman Sanger net worth](https://www.forbes.com/profile/aman-sanger/) at $2.8 billion on October 11, 2026. It estimates $2.4 billion of SpaceX shares received by each Cursor cofounder at closing. The [August 14 merger filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) gives aggregate consideration, not Sanger’s allocation. I do not use unverified 4.5% and 9% stakes to reconstruct his holdings."
+        "paragraph": "[Forbes estimates Aman Sanger net worth](https://www.forbes.com/profile/aman-sanger/) at $2.8 billion on October 11, 2026. It estimates $2.4 billion of SpaceX shares received by each Cursor cofounder at closing. The [August 14 merger filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) gives aggregate consideration, not Sanger’s allocation. I do not use unverified 4.5% and 9% stakes to reconstruct his holdings.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "aman-sanger-forbes",
         "cursor-talk",
-        "cursor8k"
+        "cursor8k",
+        "truell-10",
+        "truell-11",
+        "truell-12"
       ],
       "sections": [
         {
@@ -2219,7 +2625,8 @@
           "paragraphs": [
             "The [Forbes profile](https://www.forbes.com/profile/aman-sanger/) records Sanger beginning to code at 14, studying at MIT and interning at Bridgewater and Google. It also identifies an earlier AI consultancy. These details establish reported work before Cursor, but do not disclose investment capital, salary or equity.",
             "In the [Cursor team interview](https://lexfridman.com/cursor-team-transcript/), Sanger explains moving from Vim to VS Code to try Copilot. That is a first-person product experience rather than an investor’s retrospective origin story. It shows a practical encounter with AI coding tools before Cursor’s own interface matured."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Cursor: the product bet was control of the workflow",
@@ -2227,7 +2634,8 @@
             "The team’s interview describes Cursor as a code editor rather than merely an extension. The relevant claim is that controlling the editing environment allowed more changes to the workflow. I attribute that account to the founders. It does not prove the product’s superiority across all use cases.",
             "My read: an editor creates repeated opportunities to help at the moment a developer works. A suggestion can be accepted, rejected or revised within an existing task. The economic value depends on useful assistance after review, not just the number of generated lines. The interface is part of the product’s business logic.",
             "There is also a tradeoff. Controlling more of the workflow can create differentiation, but increases responsibility for reliability and user experience. A tool that disrupts a trusted editing routine can impose switching costs on customers. Its success requires those costs to be outweighed by practical benefits."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "Cursor: read the closing filing in separate buckets",
@@ -2235,7 +2643,8 @@
             "The [SpaceX 8-K](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) says Anysphere became a wholly owned subsidiary on August 14, 2026. It identifies 389,289,254 Class A shares for outstanding Cursor common and preferred shares, based on $60 billion implied equity value. That is an aggregate corporate transaction input.",
             "The filing separately identifies 1,752,426 shares relating to vested restricted-stock units. It also describes assumed unvested awards and options. These are separate categories, not a single pool that can automatically be divided among four founders. The employee-award categories matter when reading the total consideration.",
             "My calculation: the two disclosed categories of issued shares sum to 391,041,680. This is the sum of shareholder consideration and vested-RSU consideration in the filing. It excludes the separately assumed unvested awards and options. It is not Sanger’s share count or a measure of his personal net worth."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Cursor: the asset changes even when the founder story continues",
@@ -2243,7 +2652,8 @@
             "An all-stock transaction changes what a former shareholder owns. The founder’s economic exposure can move from a private software company to securities in the acquiring company. That makes an old percentage of Cursor an incomplete description of the current asset. The filing does not establish every founder’s personal allocation.",
             "Forbes supplies a closing-value estimate for each cofounder, but we keep that estimate separate from the current total. A closing value is dated to a transaction. A current personal estimate can reflect later market movements, other assets and the provider’s assumptions. I do not silently relabel the closing figure as cash proceeds.",
             "The proposed Bloomberg comparison requires its original dated methodology. Applying two unverified Cursor percentages to the aggregate share pool would appear rigorous while ignoring security classes, award categories and allocation terms. I exclude that model. The filing is more valuable when its limits remain visible."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Cursor: what the consideration categories prevent us from assuming",
@@ -2252,10 +2662,43 @@
             "My read: a completed acquisition also changes the question a founder profile should ask. The old company value can explain a transaction. The asset retained afterward determines subsequent exposure. A historical Cursor percentage cannot be rolled forward without the exchange terms and the actual securities delivered to that holder.",
             "Sanger’s dated personal estimate should therefore be read beside the corporate filing, rather than replaced by arithmetic from it. One gives a provider’s modeled total. The other documents aggregate legal consideration. Agreement between two headline values would not establish the provider’s exact method. Disagreement would not identify an error automatically.",
             "The [Sualeh Asif profile](/leaders/sualeh-asif/) follows another member of the founding team. The [Cursor ownership file](/who-owns-cursor/) supplies the company context. These connected files make the allocation question visible without claiming that all founders received equal shares or converted those shares into cash."
+          ],
+          "stage": "finding"
+        },
+        {
+          "stage": "finding",
+          "heading": "Cursor’s financing records separate capital raised from recurring revenue",
+          "paragraphs": [
+            "[Cursor’s August 2024 Series A announcement](https://cursor.com/blog/series-a) records $60 million raised and more than 40,000 customers. [The January 2025 Series B account](https://cursor.com/blog/series-b) records another $105 million and more than $100 million in recurring revenue. Funding and recurring revenue are distinct measures.",
+            "[The June 2025 Series C announcement](https://cursor.com/blog/series-c) records $900 million raised at a $9.9 billion valuation, alongside more than $500 million in ARR. My calculation: the three disclosed raises sum to $1.065 billion. That is company financing across those rounds, not founder wealth or lifetime funding. The revenue descriptions do not supply an audited growth multiple."
           ]
         }
       ],
       "capital": [
+        {
+          "date": "2024-08-22",
+          "event": "Series A",
+          "amount": "$60M",
+          "valuation": "Not disclosed in announcement",
+          "note": "Company financing, not personal proceeds.",
+          "sourceId": "truell-10"
+        },
+        {
+          "date": "2025-01-16",
+          "event": "Series B",
+          "amount": "$105M",
+          "valuation": "Not disclosed in announcement",
+          "note": "Recurring revenue is a separate operating metric.",
+          "sourceId": "truell-11"
+        },
+        {
+          "date": "2025-06-06",
+          "event": "Series C",
+          "amount": "$900M",
+          "valuation": "$9.9B",
+          "note": "Company-reported financing and valuation.",
+          "sourceId": "truell-12"
+        },
         {
           "date": "2026-08-14",
           "event": "Anysphere merger closes",
@@ -2362,7 +2805,13 @@
           "answer": "The origin records below connect Aman Sanger to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "aman-sanger-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Brett Adcock",
@@ -2378,11 +2827,14 @@
         "date": "2026-10-11",
         "sourceId": "brett-adcock-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Brett Adcock net worth](https://www.forbes.com/profile/brett-adcock/) at $23.4 billion on October 11, 2026. It attributes an estimated 50% Figure stake and identifies a $39 billion company valuation in 2025. My calculation, 50% × $39 billion = $19.5 billion, illustrates a gross Figure holding using those reported inputs. It is not a new total or a confirmed current liquidation value. [Archer’s 2022 disclosure](https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm) is historical and is not added to Forbes without a current holdings reconciliation."
+        "paragraph": "[Forbes estimates Brett Adcock net worth](https://www.forbes.com/profile/brett-adcock/) at $23.4 billion on October 11, 2026. It attributes an estimated 50% Figure stake and identifies a $39 billion company valuation in 2025. My calculation, 50% × $39 billion = $19.5 billion, illustrates a gross Figure holding using those reported inputs. It is not a new total or a confirmed current liquidation value. [Archer’s 2022 disclosure](https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm) is historical and is not added to Forbes without a current holdings reconciliation.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "brett-adcock-forbes",
-        "archer-13d"
+        "archer-13d",
+        "figure-series-b",
+        "figure-series-c"
       ],
       "sections": [
         {
@@ -2391,7 +2843,8 @@
             "The [Forbes profile](https://www.forbes.com/profile/brett-adcock/) identifies Adcock’s University of Florida education, Vettery and Archer before Figure. It says Vettery was sold to Adecco in 2018 for $110 million. The reported $110 million concerns the acquisition, rather than his personal proceeds. I attribute the reported price and do not turn it into personal proceeds.",
             "A founder can hold less than all of a company at exit. Taxes, cofounders, investors and securities with different rights can change the amount attributable to an individual. The company sale price therefore cannot be rolled directly into a personal wealth ledger. A useful reconstruction would need the pre-sale ownership and transaction terms.",
             "The sequence also crosses business models. A hiring marketplace, electric aviation and humanoid robotics have different operating constraints. An earlier exit can provide experience or resources without proving that a later venture has the same capital needs or path to revenue."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Figure creates a physical deployment question",
@@ -2399,7 +2852,8 @@
             "Forbes dates Figure’s founding to 2022 and describes humanoid robots. My read: the financial question extends beyond a demonstration of physical capability. A customer needs dependable operation, maintenance and integration with a real worksite. The relevant return depends on useful work after those costs.",
             "A software service can often be distributed without reproducing a physical device for each deployment. Robotics introduces manufacturing, servicing and hardware replacement into the economic model. A valuation should not be mistaken for evidence that those operations have reached profitable scale.",
             "The founder’s estimated ownership makes these company outcomes particularly relevant to a paper fortune. A large percentage can magnify exposure to changes in the business value. It does not guarantee liquidity or erase the differences between securities sold in a financing and ordinary founder holdings."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Figure: the Archer filing is precise but historical",
@@ -2407,7 +2861,8 @@
             "The reviewed [Schedule 13D amendment](https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm) identifies 32,015,625 shares beneficially owned for its stated period. It reports 15.9% and includes Class B shares convertible into Class A. This is stronger evidence than a generic insider-stock website for that date.",
             "Beneficial ownership is a legal reporting concept. It can include shares held through entities and securities convertible under specified rules. It is not necessarily identical to a simple direct holding displayed by a tracker. Reading the footnotes matters before multiplying shares by a market price.",
             "I have not reconciled later amendments and transactions. The 2022 count therefore stays historical. Applying today’s share price to it would assume no sales, conversions or other changes. The profile does not make that assumption, and the chart does not mix a historical stake with a current personal estimate."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "The Figure arithmetic cannot explain every asset",
@@ -2415,7 +2870,8 @@
             "The wealth paragraph shows an illustrative Figure calculation with clearly identified inputs. The difference between that gross holding illustration and Forbes’s total does not prove the value of Hark or Archer. A residual can reflect other assets, different dates, discounts or provider assumptions.",
             "The [Forbes account](https://www.forbes.com/profile/brett-adcock/) identifies Hark as a later venture and describes a financing valuation above $6 billion. It does not provide a matched founder stake for this reconstruction. I therefore do not allocate the whole company valuation to Adcock or assume a personal investment amount.",
             "My calculation: $23.4 billion minus $19.5 billion equals $3.9 billion. This is a difference between the attributed total and an unmatched gross Figure illustration. It is not a valuation of Hark or a verified estimate of other assets. We show the distinction to prevent a common residual-allocation error."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Figure: why a public filing does not solve the private-company estimate",
@@ -2424,6 +2880,15 @@
             "My read: Adcock’s public and private interests require different valuation methods. A listed security has a quotation, but quantity and beneficial ownership still matter. A private holding requires a company-value assumption and security terms. An estimated Figure stake cannot settle what Archer shares remain, or whether another business contributes to the total.",
             "The provider’s estimate is also not a realized robotics profit. Equity value reflects expectations about future results. Physical products require delivery, service and manufacturing economics before those expectations become cash flows. The reviewed records do not provide a complete operating-cost analysis for Figure. A financing valuation does not establish profitable production.",
             "Compare [Michael Intrator’s CoreWeave profile](/leaders/michael-intrator/). There, a proxy expands the holding beyond directly registered shares. Adcock’s historical filing gives a different starting point. Both show why investigating a person requires a securities ledger, rather than a list of companies in their biography."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Figure’s $39 billion round describes committed capital",
+          "paragraphs": [
+            "[Figure’s February 29, 2024 release](https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html) records $675 million raised at a $2.6 billion valuation. It also announces an OpenAI collaboration. These are dated company claims, not a continuing guarantee about either relationship.",
+            "[The September 16, 2025 Series C statement](https://www.figure.ai/news/series-c) describes more than $1 billion in committed capital at a $39 billion post-money valuation. My calculation: $39 billion divided by $2.6 billion equals 15. That compares headline company valuations, not Adcock’s wealth growth. Commitment wording also does not establish that every dollar had arrived in the company’s bank account."
           ]
         }
       ],
@@ -2437,12 +2902,28 @@
           "sourceId": "archer-13d"
         },
         {
+          "date": "2024-02-29",
+          "event": "Series B",
+          "amount": "$675M raised",
+          "valuation": "$2.6B",
+          "note": "Figure-issued release; company capital.",
+          "sourceId": "figure-series-b"
+        },
+        {
           "date": "2025",
           "event": "Figure valuation described by Forbes",
           "amount": "Financing amount not reconstructed here",
           "valuation": "$39B",
           "note": "Approximately 50% founder stake is Forbes’s estimate",
           "sourceId": "brett-adcock-forbes"
+        },
+        {
+          "date": "2025-09-16",
+          "event": "Series C committed capital",
+          "amount": "More than $1B committed",
+          "valuation": "$39B post-money",
+          "note": "Commitments are not proof of all cash received.",
+          "sourceId": "figure-series-c"
         }
       ],
       "timeline": [
@@ -2542,7 +3023,13 @@
           "answer": "The origin records below connect Brett Adcock to entrepreneur behind vettery, archer and figure. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "brett-adcock-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Mike Krieger",
@@ -2562,7 +3049,10 @@
       "sourceIds": [
         "instagram-10k",
         "anthropic-labs",
-        "stanford-instagram"
+        "stanford-instagram",
+        "krieger-anthropic",
+        "krieger-thesis",
+        "anthropic-leadership"
       ],
       "sections": [
         {
@@ -2570,7 +3060,8 @@
           "paragraphs": [
             "A [Stanford event record from May 11, 2011](https://stvp.stanford.edu/av/stanford-startup) identifies Krieger and Kevin Systrom as former Mayfield Fellows. It records their talk about choosing problems and building simple initial products. The event predates the Instagram sale, making it useful evidence of their early product approach. It does not establish Krieger’s ownership percentage.",
             "His career is useful for studying how product experience transfers into a research company. A model capability and a consumer experience are different products of work. A product builder must decide which capability solves a problem, how users discover it and what happens when it fails. That work can be important without supplying a personal wealth estimate."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Anthropic: the Labs move separates experiments from scaled services",
@@ -2578,7 +3069,8 @@
             "Anthropic describes Labs as a place to incubate experimental products. Its [announcement](https://www.anthropic.com/news/introducing-anthropic-labs) puts the scaled Product organization under separate leadership. We report that as the company’s organizational design, not as proof that a particular experiment will become profitable.",
             "My read: experiments need a different tolerance for uncertainty from established services. An early product can reveal what customers want. A scaled service must deliver that value consistently. Separating the responsibilities can protect exploration while giving reliable products a more stable operating process.",
             "The financial question is how experiments graduate into sustainable revenue. Usage can reveal interest before willingness to pay is established. A new product can also generate support and compute costs. The profile should follow those outcomes rather than treating a prominent hire as proof of future profit."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Anthropic: read the Instagram price through the 10-K",
@@ -2586,7 +3078,8 @@
             "The [2012 filing](https://www.sec.gov/Archives/edgar/data/1326801/000132680113000003/fb-12312012x10k.htm) says Facebook completed the Instagram acquisition in August. It records $521 million of purchase consideration: $300 million cash and approximately 12 million vested shares issued to non-employee stockholders. The equity value was measured at closing for accounting purposes.",
             "It separately records approximately 11 million unvested shares issued to employee stockholders, valued at $194 million. The filing says that value would be recognized as compensation over a service period. Combining those shares with purchase consideration changes what the total measures. The distinction is material to any exit-based wealth story.",
             "My calculation: $521 million plus $194 million equals $715 million. This explains the familiar combined figure. It is not purchase consideration alone, and it is not an individual founder payout. The filing also supplies the closing date. Its primary accounting record says August, rather than September."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Anthropic: why the proceeds cannot simply be rolled forward",
@@ -2594,7 +3087,8 @@
             "The transaction does not provide Krieger’s personal allocation. Even a verified pre-acquisition percentage would not automatically map onto every bucket of cash and stock. Employee awards could have service conditions. Different holders could receive different instruments. Taxes and later transactions could materially change retained assets.",
             "An estimate that assumes every original share was retained through current Meta prices therefore depends on a private trading history it has not established. Stock splits and corporate changes can be adjusted mathematically, but they do not reveal whether someone sold, donated or transferred a holding.",
             "The current wealth module stays unquantified. Its timeline shows the company acquisition and the later Labs move. It does not plot $521 million, $715 million or the original announcement headline as personal net worth. Those figures belong in the transaction ledger with the correct definition."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Anthropic: the acquisition math is more revealing than the familiar headline",
@@ -2603,6 +3097,15 @@
             "A hypothetical retained-stock scenario requires the founder’s actual stock allocation. It then needs vesting dates, sales, gifts, corporate actions and a dated price. Multiplying a company-wide share count by today’s price cannot establish those inputs. Even a correctly priced hypothetical would describe one asset, not his full balance sheet. I therefore do not publish a rolled-forward Instagram fortune as a personal estimate.",
             "The [Anthropic Labs announcement](https://www.anthropic.com/news/introducing-anthropic-labs) connects Krieger’s present work to experimental products. My read: the two career chapters share a product question: which technical capability becomes useful enough for people to return? The answer can require simplifying the experience rather than adding features. The Stanford event supports the early product theme; Anthropic’s announcement supplies the new organizational setting.",
             "Krieger’s role should also be distinguished from [Daniela Amodei’s ownership story](/leaders/daniela-amodei/). An executive appointment does not establish the same equity economics as cofounding the company. The public evidence supports different questions for these leaders, even when their work is inside the same organization."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Mike Krieger’s 2008 Stanford thesis makes the education record specific",
+          "paragraphs": [
+            "I checked [the thesis hosted by Stanford’s HCI group](https://hci.stanford.edu/publications/2008/mkrieger-thesis.pdf). Its cover identifies Michel Krieger and a December 2008 master’s thesis submitted to the Symbolic Systems program. The title concerns collaboration for collective creation. This is a specific academic artifact, rather than a generic Stanford affiliation.",
+            "[Anthropic’s May 2024 appointment announcement](https://www.anthropic.com/news/mike-krieger-joins-anthropic) describes responsibility for product engineering, management and design. It also identifies Artifact as an intervening venture acquired by Yahoo. The later Labs announcement records a different remit. [Anthropic’s current leadership page](https://www.anthropic.com/company/leadership) names Ami Vora as chief product officer. I therefore keep Krieger’s May 2024 title dated instead of presenting it as his current role."
           ]
         }
       ],
@@ -2668,8 +3171,8 @@
         },
         {
           "label": "Education",
-          "value": "Stanford affiliation documented; degree not independently checked here",
-          "sourceId": "stanford-instagram"
+          "value": "Stanford Symbolic Systems master’s thesis, December 2008",
+          "sourceId": "krieger-thesis"
         },
         {
           "label": "Company",
@@ -2704,8 +3207,8 @@
         },
         {
           "question": "What is Mike Krieger’s education?",
-          "answer": "Stanford affiliation documented; degree not independently checked here. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "stanford-instagram"
+          "answer": "Stanford hosts Michel Krieger’s December 2008 master’s thesis in Symbolic Systems. It concerns collaboration for collective creation; the thesis supplies a concrete education record.",
+          "sourceId": "krieger-thesis"
         },
         {
           "question": "Does Mike Krieger still own Anthropic?",
@@ -2716,7 +3219,13 @@
           "answer": "The origin records below connect Mike Krieger to stanford startup history documented by stvp. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "stanford-instagram"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Noam Shazeer",
@@ -2736,7 +3245,10 @@
       "sourceIds": [
         "transformer",
         "moe",
-        "shazeer-move"
+        "shazeer-move",
+        "switch-paper",
+        "palm-paper",
+        "shazeer-mqa"
       ],
       "sections": [
         {
@@ -2745,7 +3257,8 @@
             "The original [Attention Is All You Need record](https://arxiv.org/abs/1706.03762) identifies Shazeer among eight authors. The first submission dates to June 12, 2017. Its core proposal is a Transformer architecture based on attention. We describe him as a coauthor, rather than attributing the whole result to one person.",
             "The [sparsely gated mixture-of-experts paper](https://arxiv.org/abs/1701.06538) provides another original research record. Its author list begins with Shazeer. It examines using a large set of specialist components while activating only part of the network. The research question concerns model capacity and computation, not a valuation of his employment.",
             "Authorship establishes contribution to the published work. It does not disclose intellectual-property ownership, royalties or personal compensation. A financial profile should not convert citation prominence into a price tag. The later transaction and employment records must be examined separately."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "OpenAI: the economics of scarce research talent",
@@ -2753,14 +3266,16 @@
             "My read: research talent can become valuable through several channels. A company can use published ideas, hire the people who developed them or license technology from a business they created. Each channel creates different economic rights. A large hiring or licensing headline cannot be assumed to pay only one researcher.",
             "The [Reuters report](https://www.investing.com/news/stock-market-news/googles-gemini-colead-noam-shazeer-to-join-openai-4748809) identifies Shazeer’s earlier Google employment, his Character.AI relationship and the later Google arrangement. It also records his announced OpenAI move in June 2026. At that report’s date, the timing of departure was not immediately clear.",
             "I therefore avoid assigning an exact new title or start date from the announcement alone. A stated move establishes intent and a reported transition. A current employer record would be needed to resolve the precise role. That distinction matters when financial terms depend on continued employment or vesting."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "OpenAI: a licensing event is not a standard acquisition",
           "paragraphs": [
             "A personal payout estimate would require the holder’s security position and the transaction waterfall. The waterfall describes how consideration is allocated among instruments and participants. Employment incentives could also carry conditions. Without those inputs, dividing the headline among founders would create an unsupported model.",
             "My calculation: we make no personal allocation of the reported $2.7 billion. The number remains a reported company transaction in the capital ledger. A transaction can be important to a founder’s financial history while still being unsuitable as a net-worth observation."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "OpenAI: why a second move does not prove a second payment",
@@ -2768,7 +3283,8 @@
             "A later employer move can change prospective compensation and vesting. It does not by itself disclose either. I do not assume Shazeer received another licensing-scale payment to join OpenAI. Nor do we assume a departure automatically forfeited particular earlier awards. The underlying contracts would determine those outcomes.",
             "This is where a career chronology and a financial chronology diverge. Employment dates can be publicly reported while payment terms remain private. The profile should make that gap visible instead of using a sequence of prominent employers to imply a sequence of cash windfalls.",
             "The papers remain useful because they show work before those later negotiations. They establish a research trail without making claims about confidential contracts. That gives readers something verifiable to understand, even when the requested net-worth answer remains open."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "OpenAI: a technical contribution and a transaction are different kinds of value",
@@ -2777,6 +3293,22 @@
             "My read: technical influence can create employment and entrepreneurial opportunities without a publicly measurable personal asset. An architecture can be implemented by many organizations. Economic rights depend on contracts, securities and intellectual-property arrangements. Citation counts measure another dimension and should not become a wealth calculation.",
             "A licensing arrangement can contain several relationships: company rights, investor distributions, compensation and later employment. An aggregate price does not allocate those relationships. The [Reuters report](https://www.investing.com/news/stock-market-news/googles-gemini-colead-noam-shazeer-to-join-openai-4748809) supplies reporting on the move and earlier deal. It does not provide a complete personal payout schedule.",
             "The [Mike Krieger profile](/leaders/mike-krieger/) uses a filing that separates purchase consideration from employee compensation. A Shazeer reconciliation would need a comparable allocation. Without it, multiplying a rumored percentage by a licensing headline produces a precise-looking number with unverified inputs."
+          ],
+          "stage": "finding"
+        },
+        {
+          "stage": "finding",
+          "heading": "Noam Shazeer’s sparse-model work changes the compute question",
+          "paragraphs": [
+            "[The Switch Transformers paper](https://arxiv.org/abs/2101.03961) names William Fedus, Barret Zoph and Noam Shazeer. It describes activating a subset of model parameters for each input. [PaLM’s author record](https://arxiv.org/abs/2204.02311) also names Shazeer in a much larger research team. Neither record supports attributing an entire model to one person.",
+            "My read: total parameter count alone does not describe the cost of serving an AI model. Sparse activation makes the amount of computation per example a separate question. The paper’s performance results are research claims under its evaluation conditions. They do not establish Character.AI’s present margins, a licensing payment or Shazeer’s personal wealth."
+          ]
+        },
+        {
+          "stage": "finding",
+          "heading": "Shazeer’s 2019 paper targets the memory bill behind inference",
+          "paragraphs": [
+            "I found a direct technical link between Shazeer’s research and AI serving economics. His sole-authored [2019 multi-query attention paper](https://arxiv.org/abs/1911.02150) identifies repeated key and value loading as a memory-bandwidth bottleneck during incremental decoding. Sharing those tensors across attention heads reduces that demand; the paper reports faster decoding with a small quality tradeoff. That is evidence about an engineering mechanism, not an audited dollar saving or a personal wealth estimate."
           ]
         }
       ],
@@ -2887,16 +3419,22 @@
           "answer": "The origin records below connect Noam Shazeer to research author on google’s transformer and mixture-of-experts papers. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "transformer"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Fidji Simo",
-      "company": "OpenAI / Instacart",
+      "company": "Nscale / OpenAI / Instacart",
       "cluster": "Applications & agents",
-      "role": "Former Instacart CEO; OpenAI appointment announced in 2025",
+      "role": "Nscale independent director; former OpenAI and Instacart executive",
       "hook": "The proxy separates promised equity from wealth actually retained",
       "dek": "Departure terms reveal why annual compensation tables cannot simply be added into a personal fortune.",
-      "answer": "Fidji Simo is former Instacart CEO. Fidji Simo net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "answer": "Fidji Simo is a Nscale director and former OpenAI executive. Fidji Simo net worth is not established in the reviewed records as of October 11, 2026. Compensation disclosures do not establish her total assets and liabilities.",
       "wealth": {
         "display": "Not established",
         "value": null,
@@ -2906,7 +3444,12 @@
       },
       "sourceIds": [
         "instacart-proxy",
-        "simo-openai"
+        "simo-openai",
+        "instacart-transition",
+        "simo-letter",
+        "simo-appointment",
+        "simo-meta-bio",
+        "simo-nscale"
       ],
       "sections": [
         {
@@ -2914,7 +3457,8 @@
           "paragraphs": [
             "[OpenAI’s May 7, 2025 announcement](https://openai.com/index/leadership-expansion-with-fidji-simo/) named Simo CEO of Applications, reporting to Sam Altman. It described a transition from Instacart and explained how the role fit alongside research and compute responsibilities. This is the company’s account of the appointment, not an independent description of compensation.",
             "A leadership profile should preserve this temporal distinction. An announcement describes a particular moment. It cannot safely stand in for an indefinitely current role. The same problem applies to equity awards: a grant date, vesting date and departure date may imply very different financial positions."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "OpenAI: the proxy supplies a stronger financial trail",
@@ -2922,7 +3466,8 @@
             "The [2026 Instacart proxy](https://www.sec.gov/Archives/edgar/data/1579091/000157909126000024/cart-20260409.htm) says Simo left the CEO role on August 15, 2025. It identifies the unvested portions of performance-based and time-vesting awards as forfeited. It separately says a director award was forfeited after her board departure on November 24.",
             "Those are financially material facts. A granted award can be reported in a compensation table before the recipient has an unconditional right to every share. Continued service and performance requirements matter. A departure can eliminate prospective value that a headline compensation figure appears to assign.",
             "My read: the correct unit is the award’s status, not the compensation headline. To reconstruct retained equity, a researcher must separate vested shares, unvested awards, exercised options and sold holdings. The proxy directly rules out counting some unvested awards as current property."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "OpenAI: salary rate is not salary received",
@@ -2930,14 +3475,16 @@
             "The proxy lists a $1 million annual base-salary rate for Simo in its 2025 salary table. That is an annual rate, not proof she received a full year of salary after leaving in August. The relevant paid amount would come from the appropriate compensation disclosure and employment period.",
             "The document also describes annual RSU arrangements and vesting terms. Grant-date accounting value can differ from a later realized value. Market movements, vesting and taxes affect what someone eventually receives. Adding grant values across years would not produce a personal asset total.",
             "My calculation: no total personal fortune is calculated from the salary rate or grants. The ledger records the rate and forfeiture events with their definitions. That gives readers useful financial information without disguising incomplete ownership data as an estimate."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "OpenAI: a holdings reconstruction needs transaction records",
           "paragraphs": [
             "A public-stock ledger is still only one part of personal wealth. It may exclude private investments, property and debt. OpenAI compensation could introduce a different private instrument with its own restrictions. I do not fill those gaps with a typical executive stake or an assumed compensation package.",
             "The profile therefore has no numerical wealth chart. Its financial timeline instead shows appointment and departure-related events. That design avoids plotting a salary rate beside unvested equity as if they formed a wealth history. Unknown net worth is visibly labeled, rather than encoded as zero."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "OpenAI: an equity award is a conditional claim, not a bank balance",
@@ -2946,6 +3493,31 @@
             "My read: an executive wealth ledger should distinguish grants, vesting, settlement, retention and disposal. Grant-date fair value is a compensation-accounting observation. Vesting changes the award’s conditions. A sale changes the asset held, but gross proceeds do not establish a current cash balance. Conflating these stages can overstate what remains.",
             "The annual base-salary rate requires similar care. It is a rate, not a promise that twelve months of pay were received. Departure timing and other compensation terms can matter. I do not sum the annual rate with forfeited awards and label the result personal net worth.",
             "Her [OpenAI appointment](https://openai.com/index/leadership-expansion-with-fidji-simo/) establishes a dated role, not an employment-package value. An agreement or disclosed allocation would be needed for that part of the ledger. The [Greg Brockman profile](/leaders/greg-brockman/) addresses a different observation: a reported statement about a founder stake."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Fidji Simo’s CEO appointment and board chronology do not fully agree",
+          "paragraphs": [
+            "[Instacart’s July 8, 2021 appointment release](https://investors.instacart.com/node/6671/pdf) names August 2 as the effective CEO date. It says Simo joined the board in January 2021. [The biography beneath her May 2025 transition letter](https://company.instacart.com/updates/leadership-update-a-letter-from-fidji-simo-2) instead says February 2021. I preserve that month-level discrepancy rather than silently choosing a board date.",
+            "[The May 8, 2025 company statement](https://company.instacart.com/updates/leadership-update) says she would leave the CEO job for OpenAI Applications while remaining board chair. These are separate positions. A resignation from an executive role does not establish a sale of shares or the value of compensation retained afterward."
+          ]
+        },
+        {
+          "stage": "origin",
+          "heading": "Before Instacart: eBay strategy, Facebook advertising and HEC Paris",
+          "paragraphs": [
+            "[Meta’s historical executive biography](https://about.fb.com/fr/media-gallery/executives/fidji-simo/) dates Simo’s entry to eBay’s strategy team to 2007 and Facebook to 2011. It credits her with work on mobile advertising formats and video products and identifies a Master of Management from HEC Paris, with the final year at UCLA Anderson. I use this interested employer account for career chronology, not proof of personal earnings or current employment.",
+            "My read: her documented background connects monetization and product distribution. Those skills help explain the later operating appointments, but they cannot establish a personal fortune. I keep the employer’s claims of impact separate from independently measured revenue attribution."
+          ]
+        },
+        {
+          "stage": "company",
+          "heading": "September 2026: Nscale appoints Simo an independent director",
+          "paragraphs": [
+            "[Nscale’s September 11, 2026 release](https://www.nscale.tech/press-releases/fidji-simo-joins-nscale-board-of-directors) announces Simo’s board appointment effective immediately and describes her as a former OpenAI CEO of AGI Deployment who continues as an adviser. This later primary account resolves why the May 2025 Applications appointment should not be presented as an indefinitely current job.",
+            "The company identifies a board role, not its compensation or share allocation. I have not inferred either from Nscale’s financing or her title. Board service and an advisory relationship belong in the career timeline; neither becomes a numerical wealth observation."
           ]
         }
       ],
@@ -2990,13 +3562,18 @@
           "date": "2025-11-24",
           "text": "Board departure leads to separate director-award forfeiture.",
           "sourceId": "instacart-proxy"
+        },
+        {
+          "date": "2026-09-11",
+          "text": "Nscale appoints Simo an independent director; its release describes a continuing OpenAI advisory relationship.",
+          "sourceId": "simo-nscale"
         }
       ],
-      "methodology": "I independently reviewed OpenAI’s appointment announcement and Instacart’s 2026 proxy. Salary rates, grant accounting values, vested property and forfeitures are treated separately. I have not reconciled all Form 4 transactions or verified the later advisory-role statement. No compensation sum is presented as a net-worth estimate.",
+      "methodology": "I independently reviewed OpenAI’s appointment announcement, Instacart’s 2026 proxy and leadership releases, Meta’s historical biography, and Nscale’s September 2026 board announcement. Company biographies and announcements are interested accounts. Salary rates, grant accounting values, vested property and forfeitures are treated separately. I have not reconciled all Form 4 transactions or a complete personal asset-and-liability statement. No compensation sum is presented as a net-worth estimate.",
       "notes": [
-        "The claimed July 2026 advisory transition requires the original statement before updating the current role.",
         "Current retained shares and transaction proceeds are not fully reconciled.",
-        "Education, earlier employer chronology and undisclosed OpenAI compensation are not asserted as verified financial inputs."
+        "Nscale’s release corroborates an OpenAI advisory relationship; the original July transition statement has not been inspected.",
+        "Education is attributed to Meta’s historical biography; graduation year and transcript are not verified."
       ],
       "slug": "fidji-simo",
       "path": "/leaders/fidji-simo/",
@@ -3019,23 +3596,23 @@
         },
         {
           "label": "Background",
-          "value": "Executive career at Instacart and OpenAI",
-          "sourceId": "simo-openai"
+          "value": "eBay strategy from 2007; Facebook from 2011, according to Meta",
+          "sourceId": "simo-meta-bio"
         },
         {
           "label": "Education",
-          "value": "Not independently verified in the reviewed proxy",
-          "sourceId": "simo-openai"
+          "value": "HEC Paris Master of Management; final year at UCLA Anderson, according to Meta",
+          "sourceId": "simo-meta-bio"
         },
         {
           "label": "Company",
-          "value": "OpenAI / Instacart",
+          "value": "Nscale / OpenAI / Instacart",
           "sourceId": null
         },
         {
           "label": "Role",
-          "value": "Former Instacart CEO; OpenAI appointment announced in 2025",
-          "sourceId": null
+          "value": "Nscale independent director; former OpenAI and Instacart executive",
+          "sourceId": "simo-nscale"
         },
         {
           "label": "Co-founders / relationship",
@@ -3051,7 +3628,7 @@
       "faq": [
         {
           "question": "What is Fidji Simo’s net worth?",
-          "answer": "Fidji Simo is Former Instacart CEO. Fidji Simo net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "Fidji Simo is a Nscale director and former OpenAI executive. Fidji Simo net worth is not established in the reviewed records as of October 11, 2026. Compensation disclosures do not establish her total assets and liabilities."
         },
         {
           "question": "How old is Fidji Simo?",
@@ -3060,19 +3637,25 @@
         },
         {
           "question": "What is Fidji Simo’s education?",
-          "answer": "Not independently verified in the reviewed proxy. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "simo-openai"
+          "answer": "[Meta’s historical biography](https://about.fb.com/fr/media-gallery/executives/fidji-simo/) identifies a Master of Management from HEC Paris and a final year at UCLA Anderson. This is an employer biography, not a transcript or a verified graduation-year record.",
+          "sourceId": "simo-meta-bio"
         },
         {
-          "question": "Does Fidji Simo still own OpenAI?",
+          "question": "Does Fidji Simo own an OpenAI stake?",
           "answer": "Compensation and forfeited awards do not establish net worth. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
         },
         {
           "question": "How did Fidji Simo build a career in AI?",
-          "answer": "The origin records below connect Fidji Simo to executive career at instacart and openai. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "simo-openai"
+          "answer": "Simo’s documented career runs from eBay strategy and Facebook product work to Instacart and OpenAI. [Nscale’s September 2026 announcement](https://www.nscale.tech/press-releases/fidji-simo-joins-nscale-board-of-directors) adds an independent-director appointment and describes her continuing OpenAI advisory role.",
+          "sourceId": "simo-nscale"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Ali Ghodsi",
@@ -3088,13 +3671,15 @@
         "date": "2026-10-10",
         "sourceId": "ali-ghodsi-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Ali Ghodsi net worth](https://www.forbes.com/profile/ali-ghodsi/) at $7.6 billion as of October 10, 2026. [Reuters’s August 13 report](https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466) identifies a $5 billion Databricks financing at $190 billion. I do not divide the personal total by the company valuation to declare a 4% stake. The reviewed sources do not establish his exact current ownership, liabilities or the valuation rights attached to founder securities."
+        "paragraph": "[Forbes estimates Ali Ghodsi net worth](https://www.forbes.com/profile/ali-ghodsi/) at $7.6 billion as of October 10, 2026. [Reuters’s August 13 report](https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466) identifies a $5 billion Databricks financing at $190 billion. I do not divide the personal total by the company valuation to declare a 4% stake. The reviewed sources do not establish his exact current ownership, liabilities or the valuation rights attached to founder securities.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "ali-ghodsi-forbes",
         "databricks-round",
         "drf",
-        "ali-bio"
+        "ali-bio",
+        "databricks-series-i"
       ],
       "sections": [
         {
@@ -3103,7 +3688,8 @@
             "The [USENIX record for Dominant Resource Fairness](https://www.usenix.org/conference/nsdi11/dominant-resource-fairness-fair-allocation-multiple-resource-types) lists Ghodsi with collaborators from the Berkeley research community. The 2011 work studies fair allocation across multiple resource types. It supplies a concrete technical contribution before a large corporate valuation made his name a wealth-search query.",
             "This is different from claiming that he personally created every component associated with Databricks. Research collaboration is visible in the author list. The record establishes work on a particular problem, not an exclusive ownership claim over later products. The company-building record must be considered separately.",
             "Resource allocation has an economic interpretation. A shared system must decide which users receive scarce capacity. Poor allocation can waste resources or make service unpredictable. Those problems can matter commercially even before generative AI enters the product story."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Databricks: the shift from research to operating a business",
@@ -3111,21 +3697,24 @@
             "The [Forbes biography](https://www.forbes.com/profile/ali-ghodsi/) dates Databricks’ founding to 2013 and identifies a team of Berkeley academics. It says Ghodsi became CEO in 2016 after initially joining as a part-time engineer. That is an operating transition rather than a simple founder-to-CEO assumption.",
             "My read: commercialization changes what must be optimized. A research system may demonstrate a useful capability. An enterprise service must be purchased, deployed, supported and renewed. A founder taking on the CEO role becomes responsible for those outcomes alongside technical development.",
             "A financial profile should therefore connect the research problem with customer needs. It should not infer revenue from the popularity of an open-source project. Users and paying enterprise customers can overlap without being identical groups. The value a business captures depends on its commercial offering and execution."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Databricks: the financing is dated, but the ownership is not",
           "paragraphs": [
             "The [August 2026 Reuters report](https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466) identifies $5 billion raised at a $190 billion valuation. That gives the ledger a company financing observation. It does not supply a full founder cap table or a personal liquidity schedule.",
             "My calculation: $5 billion divided by $190 billion is approximately 2.63%. This is a financing-to-valuation ratio. It does not prove the ownership sold, because security rights and any secondary component require their own terms. It also does not establish Ghodsi’s dilution or cash proceeds."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Databricks: a private-company estimate should preserve its provider",
           "paragraphs": [
             "The Forbes observation remains attributed. Private holdings often lack a continuously available market price for every security class. A financing price can provide a benchmark without establishing the amount obtainable for a founder’s whole position. Transfer restrictions and investor rights may matter.",
             "We also do not combine approximate wealth figures for other cofounders into a reconstructed capital table. Each estimate could use different assumptions or include assets outside Databricks. A table that appears internally consistent would still need actual ownership records before becoming a company disclosure."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Databricks: from distributed computing to the CEO chair",
@@ -3134,10 +3723,27 @@
             "The Dominant Resource Fairness paper provides an earlier technical record. Its authors address how to allocate several kinds of computing resources fairly. A workload can be constrained by one resource even when another remains available. My read: this is commercially relevant because unused or poorly allocated capacity costs money. The paper is evidence of a specific contribution, not proof of a later company’s margins.",
             "The earlier work investigated coordination of shared computing resources. A commercial data platform adds customer requirements, support, governance and reliability. Research can inform the architecture while the company must still earn a return from serving customers. A present wealth estimate cannot be traced directly to a paper’s citation count or a CEO title.",
             "The dated personal estimate and financing ledger answer different questions. To reconcile them fully, an investigator would need retained ownership, security terms and other personal assets. The career record makes the business understandable without pretending those private inputs are public."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Databricks’ 2023 round disclosed $73.50 per share",
+          "paragraphs": [
+            "[Databricks’ September 14, 2023 release](https://www.prnewswire.com/news-releases/databricks-raises-series-i-investment-at-43b-valuation-301927440.html) states more than $500 million raised, a $43 billion company valuation and a $73.50 share price. That gives a security-price observation, not just a headline valuation. The company identifies Ali Ghodsi as co-founder and CEO.",
+            "My read: a historical price can help reconstruct a holding only after the relevant class and share count are established. I do not divide total company value by that price to invent Ghodsi’s allocation. Preferences, different securities and later issuances remain separate inputs."
           ]
         }
       ],
       "capital": [
+        {
+          "date": "2023-09-14",
+          "event": "Series I",
+          "amount": "More than $500M",
+          "valuation": "$43B",
+          "note": "Company release also states $73.50 per share; no personal allocation.",
+          "sourceId": "databricks-series-i"
+        },
         {
           "date": "2026-08-13",
           "event": "Databricks financing reported by Reuters",
@@ -3244,7 +3850,13 @@
           "answer": "The origin records below connect Ali Ghodsi to distributed-computing researcher and databricks operator. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "ali-bio"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Amjad Masad",
@@ -3260,12 +3872,15 @@
         "date": "2026-10-10",
         "sourceId": "amjad-masad-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Amjad Masad net worth](https://www.forbes.com/profile/amjad-masad/) at $2 billion as of October 10, 2026. In his [March 11, 2026 announcement](https://replit.com/blog/replit-raises-400-million-dollars), Masad says Replit raised $400 million at a $9 billion valuation. Those figures do not disclose his economic stake or the amount, if any, sold personally. I exclude a target for future revenue from the wealth chart and do not convert company valuation into a personal ownership percentage."
+        "paragraph": "[Forbes estimates Amjad Masad net worth](https://www.forbes.com/profile/amjad-masad/) at $2 billion as of October 10, 2026. In his [March 11, 2026 announcement](https://replit.com/blog/replit-raises-400-million-dollars), Masad says Replit raised $400 million at a $9 billion valuation. Those figures do not disclose his economic stake or the amount, if any, sold personally. I exclude a target for future revenue from the wealth chart and do not convert company valuation into a personal ownership percentage.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "amjad-masad-forbes",
         "replit-round",
-        "replit-origin"
+        "replit-origin",
+        "replit-bio",
+        "replit-team"
       ],
       "sections": [
         {
@@ -3274,7 +3889,8 @@
             "The [Forbes profile](https://www.forbes.com/profile/amjad-masad/) traces Masad’s early work to software systems for internet cafés in Jordan. It records his move to the United States in 2012, Codecademy work and a later Facebook engineering role. These are reported biographical milestones, not a statement of his early wealth.",
             "In his [February 2023 origin account](https://replit.com/blog/20-million-developers), Masad describes coding in Amman in 2010 on borrowed machines and internet-café computers. Repeated setup and difficulty sharing work inspired a browser-based programming environment. This is a first-person retrospective, with the limitations that implies. It establishes his explanation of the problem, not an independently audited founding chronology.",
             "The documented commercial sequence is enough to ask a better question: how does reducing the friction of building software become a business? A browser-based environment can remove setup steps. A paid product must then provide enough ongoing value for users to return and pay."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Replit: masad’s own description of the product bet",
@@ -3282,14 +3898,16 @@
             "The [March 2026 financing post](https://replit.com/blog/replit-raises-400-million-dollars) is written by Masad. It presents a view of software creation centered on people and their ideas. I label this as a founder account. Its claims about product impact are not independently audited results.",
             "My read: easier creation can enlarge the potential customer base. Someone who cannot manage a traditional development environment may still have a useful problem to solve. The business opportunity depends on helping that person produce and maintain something valuable, rather than merely generate a first demonstration.",
             "Maintenance is part of the financial question. A generated app can need debugging, security updates and integration changes. A customer’s willingness to pay may depend on whether the platform supports those later tasks. A valuation headline does not disclose the costs of delivering that support."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Replit: the round supplies one clear capital observation",
           "paragraphs": [
             "Masad’s post states $400 million raised at a $9 billion valuation. That is the verified company announcement used in this ledger. The [Forbes profile](https://www.forbes.com/profile/amjad-masad/) also identifies the same financing milestone. I do not count the two sources as two separate rounds.",
             "My calculation: $400 million divided by $9 billion is approximately 4.44%. This illustrates the relationship between financing size and stated company value. It is not a disclosed percentage sold or Masad’s dilution. A securities agreement would be needed to identify primary capital, secondary transactions and special rights."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Replit: the personal estimate has a different scope",
@@ -3297,7 +3915,8 @@
             "Forbes’s $2 billion total is a dated personal estimate. It is not a direct allocation of the financing amount. A founder could receive no personal cash from a primary round while the estimated value of retained equity changes. The company can receive capital without the founder selling shares.",
             "The total divided by company valuation would also produce an unreliable ownership claim. It could include other assets, liabilities and valuation adjustments. Using the resulting percentage in later rounds would compound the error. We leave current founder ownership undisclosed rather than deriving it from headline arithmetic.",
             "This is especially useful in a sector where product activity and fundraising receive continuous attention. A financing can signal investor confidence while leaving profitability and retained customer value unresolved. A personal fortune estimate is not a substitute for a company operating analysis."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Replit: the early problem was reproducibility, not just a text editor",
@@ -3306,6 +3925,15 @@
             "That distinction carries into an AI-assisted app builder. Generated code must run somewhere, connect to services and remain accessible to its owner. The platform can therefore become part of the user’s ongoing operating workflow. This is an analytical reading of the product thesis. It does not establish Replit’s actual retention, margins or hosting cost.",
             "The founder’s [March 2026 financing statement](https://replit.com/blog/replit-raises-400-million-dollars) sets a target of $1 billion in run-rate revenue by year-end. This is prospective, not an achieved annual result at the announcement date. It should not be displayed as an actual revenue bar. Nor can a future company target update Masad’s personal fortune mechanically.",
             "Compare this with the [Aman Sanger profile](/leaders/aman-sanger/), where the reviewed record includes a completed merger. One ledger records company fundraising; the other records transaction consideration. Both can change the estimated value of founder equity. They require different documents to establish personal cash receipts or retained securities."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Replit’s own records identify Haya Odeh as co-founder",
+          "paragraphs": [
+            "[Replit’s leadership page](https://replit.com/about) names Haya Odeh as co-founder and vice president of design. It names Masad as founder and CEO. This confirms a founding relationship missing from a biography centered entirely on one engineer. The current leadership list is not a complete historical founding register.",
+            "[The company’s Masad biography](https://replit.com/blog/author/amjad-masad) identifies his JavaScript infrastructure work at Facebook and earlier founding-engineer role at Codecademy. I attribute those claims to Replit. My read: the earlier developer-tooling work helps explain the product focus, while the co-founder record keeps design work visible in the company story."
           ]
         }
       ],
@@ -3383,8 +4011,8 @@
         },
         {
           "label": "Co-founders / relationship",
-          "value": "Founding account requires further verification of individual roles",
-          "sourceId": null
+          "value": "Haya Odeh, co-founder and VP of Design, confirmed by Replit",
+          "sourceId": "replit-team"
         },
         {
           "label": "Personal wealth",
@@ -3416,7 +4044,13 @@
           "answer": "The origin records below connect Amjad Masad to jordanian coding background, reported by forbes. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "amjad-masad-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Mustafa Suleyman",
@@ -3436,7 +4070,10 @@
       "sourceIds": [
         "suleyman-bio",
         "microsoft-join",
-        "microsoft-role"
+        "microsoft-role",
+        "inflection-cma",
+        "suleyman-copilot",
+        "suleyman-hsi"
       ],
       "sections": [
         {
@@ -3444,7 +4081,8 @@
           "paragraphs": [
             "On his [own site](https://mustafa-suleyman.ai/), Suleyman identifies earlier work as a DeepMind cofounder and later Inflection cofounder and CEO. He describes applied research and commercialization work at DeepMind. This is an interested first-person account. It does not disclose how the founders divided ownership or the amount he received when Google acquired the company.",
             "The career spans founding and employment. A founder’s economic interest can survive a departure, change through financing or be sold in a transaction. An executive role at a public company can instead create compensation rights. The relationships should be investigated separately before assigning a combined wealth figure."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Microsoft AI: microsoft documents the organization it created",
@@ -3452,14 +4090,16 @@
             "[Microsoft’s March 19, 2024 announcement](https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/) names Suleyman EVP and CEO of Microsoft AI. It identifies Karén Simonyan’s arrival and says several Inflection team members were joining them. It describes a new organizational structure rather than a personal payment schedule.",
             "The [March 17, 2026 update](https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/) separates Copilot experience leadership from Suleyman’s model and superintelligence work. It connects that work with enterprise needs and delivery-cost efficiency. These are stated corporate priorities, not independently measured results.",
             "My read: this shift places emphasis on the economics of the underlying model layer. A company with large distribution can still need lower-cost, useful models. Improving cost per successful task can matter financially even when customers see only the product interface. That is distinct from the founder’s personal compensation."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Microsoft AI: the historical stake model has missing steps",
           "paragraphs": [
             "Even if the 2012 percentage were established, it would be a historical observation. A later transaction could involve dilution, transfers, different security rights or retention terms. Applying an old percentage to an acquisition headline would not establish personal proceeds without the missing transaction records.",
             "My calculation: no personal amount is assigned from the proposed DeepMind model. The same restraint applies to an Inflection licensing total. A company transaction can distribute value to investors, founders and contractual counterparties in different ways. Its headline cannot identify an individual recipient’s net proceeds."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Microsoft AI: an executive title does not reveal a Microsoft fortune",
@@ -3467,7 +4107,8 @@
             "Microsoft’s announcements identify authority and responsibility. They do not provide a complete statement of Suleyman’s compensation or holdings. A researcher should not take a typical executive package and assign it to him. Public-company pay disclosures vary with the individuals covered and the reporting period.",
             "A future holdings reconstruction would need the actual grants, vesting terms, reportable transactions and ownership footnotes. Shares promised for future service are different from shares vested today. A paper value is also different from cash after taxes. Those distinctions remain necessary even for a prominent executive.",
             "The wealth module is therefore explicitly unquantified. The timeline tracks organizational events, not a modeled fortune. This gives readers a useful current career picture while preserving the limits of the public financial evidence."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Microsoft AI: the old founding role and the present operating mandate",
@@ -3476,6 +4117,16 @@
             "My read: a company can separate model-production economics from distribution economics. Model development consumes resources before customers use a service. Product experience and distribution help determine whether that capability becomes useful. Leadership over one layer is not ownership of the whole commercial chain.",
             "The older DeepMind trail needs its own reconciliation. A pre-acquisition share count requires the class, relevant total capital and intervening transactions. Nominal share capital is not market valuation. A historic percentage, even if verified, would not establish present compensation or retained proceeds from another business.",
             "The [Demis Hassabis profile](/leaders/demis-hassabis/) is a useful companion. Their careers intersect at DeepMind, but registers and appointments describe different legal relationships. Neither a cofounder title nor a present executive role supplies the private inputs needed to calculate a full fortune."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "The CMA treated Microsoft’s Inflection arrangements as a merger situation",
+          "paragraphs": [
+            "I checked [the CMA’s decision, ME 7103/24](https://assets.publishing.service.gov.uk/media/6719ff5f549f63039436b3c8/__Full_text_decision__.pdf). It describes hiring almost all of Inflection’s team and a non-exclusive intellectual-property licence. The decision was made on September 4, 2024, with full text published October 24.",
+            "The regulator found a relevant merger situation but no realistic prospect of a substantial lessening of competition from horizontal unilateral effects. That is a competition-law conclusion about the combined arrangements. It does not mean Microsoft purchased every Inflection share, nor disclose Suleyman’s personal proceeds.",
+            "[Suleyman’s April 2025 Copilot account](https://blogs.microsoft.com/blog/2025/04/04/your-ai-companion/) and [November 2025 research-strategy essay](https://microsoft.ai/news/towards-humanist-superintelligence/) show his later Microsoft product and research agenda. I read these as executive statements of intent. They do not disclose compensation or a personal Microsoft holding."
           ]
         }
       ],
@@ -3594,7 +4245,13 @@
           "answer": "The origin records below connect Mustafa Suleyman to deepmind and inflection co-founder; microsoft ai executive. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "microsoft-join"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Sualeh Asif",
@@ -3610,7 +4267,8 @@
         "date": "2026-10-11",
         "sourceId": "sualeh-asif-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Sualeh Asif net worth](https://www.forbes.com/profile/sualeh-asif/) at $2.8 billion on October 11, 2026. It separately estimates the value each cofounder received in SpaceX shares at closing. The [August 14, 2026 filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) establishes a $60 billion implied Cursor equity value but not Asif’s allocation. I exclude an unreviewed Bloomberg comparison and do not infer his percentage from equal cofounder wealth estimates."
+        "paragraph": "[Forbes estimates Sualeh Asif net worth](https://www.forbes.com/profile/sualeh-asif/) at $2.8 billion on October 11, 2026. It separately estimates the value each cofounder received in SpaceX shares at closing. The [August 14, 2026 filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) establishes a $60 billion implied Cursor equity value but not Asif’s allocation. I exclude an unreviewed Bloomberg comparison and do not infer his percentage from equal cofounder wealth estimates.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "sualeh-asif-forbes",
@@ -3618,7 +4276,10 @@
         "cursor8k",
         "asif-2016",
         "asif-2017",
-        "asif-2018"
+        "asif-2018",
+        "truell-10",
+        "truell-11",
+        "truell-12"
       ],
       "sections": [
         {
@@ -3627,7 +4288,8 @@
             "The official results list Asif representing Pakistan in [2016](https://www.imo-official.org/results/individual/year/2016/), [2017](https://www.imo-official.org/results/individual/year/2017/) and [2018](https://www.imo-official.org/results/individual/year/2018/). His scores were 11, 18 and 4 points. Only 2017 carries a medal: bronze, at tied rank 139. Three appearances are not three medals, and this record does not support a silver-medal claim.",
             "The official tables distinguish participating from receiving an award. In 2016 and 2018, Asif’s award field is blank. In 2017, it records bronze. This is the reproducible correction behind the biography. It does not explain his later company ownership or imply a relationship between an Olympiad score and founder wealth.",
             "His founding relationship is enough to examine the company story. A profile can document an early technical environment without making age, rankings or national wealth records central. Those details need independent evidence and are not substitutes for an ownership investigation."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Cursor: the interview reveals a product criterion",
@@ -3635,7 +4297,8 @@
             "In the [Cursor team interview](https://lexfridman.com/cursor-team-transcript/), Asif discusses the difficulty of presenting suggested code changes intuitively. He describes interface iterations and the importance of how users encounter a suggestion. This is first-person evidence of product judgment, not a verified measure of developer productivity.",
             "My read: interface clarity affects the cost of reviewing generated code. A model can make a useful suggestion that a user struggles to understand. If the review process becomes distracting, some of the possible productivity gain disappears. The business therefore needs both model capability and an effective interaction design.",
             "That makes the origin story more useful than a generic young-founder narrative. The interview identifies a concrete problem the team worked on. It also shows uncertainty during iteration. A successful later valuation should not make those experiments appear predetermined or effortless."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "Cursor: the merger changed the company relationship",
@@ -3643,14 +4306,16 @@
             "The [closing filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) says Anysphere survives as a wholly owned SpaceX subsidiary. That directly establishes the company-level ownership transition. It does not describe every cofounder’s continuing operating role or personal holdings. We leave the post-close title unverified.",
             "A former private shareholder receiving acquirer securities has a different economic exposure after closing. The value can depend on the acquiring business and the security’s market or transfer terms. An old percentage of Cursor cannot describe that exposure completely. The personal allocation and subsequent transactions remain necessary inputs.",
             "The filing separates shareholder consideration from vested and unvested employee awards. Our profile of [Aman Sanger](../aman-sanger/) discusses the aggregate buckets in detail. The distinction applies to Asif’s reconstruction too. A company-wide share pool is not a personal ownership schedule."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Cursor: the same estimate does not prove identical ownership",
           "paragraphs": [
             "I do not assume four founders have identical economic stakes because Forbes lists similar closing-value estimates. Rounding, different assets or valuation assumptions can produce similar totals. A precise personal reconstruction requires the share allocation, security class and relevant date for each individual.",
             "My calculation: no individual percentage is derived from the $2.8 billion estimate and $60 billion transaction value. Their ratio would combine a current total with a dated company-level observation. It would also ignore any assets outside the transaction. The result would be an implied ratio, not a disclosed ownership percentage."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Cursor: what a product decision can change financially",
@@ -3658,10 +4323,43 @@
             "The competition record is a useful biography correction because it is exact and independently reproducible. A founder does not need an embellished medal record to make a valuable product. The economic question is what the company enabled users to do, and what it could charge for that improvement.",
             "My read: the product interface can be an economic asset even when underlying model suppliers remain outside the company. The editor must connect suggestions to a working codebase and fit the user’s habits. That creates a different task from improving a model’s benchmark score. Good interaction design can reduce the effort needed to obtain a useful result. It cannot eliminate the need to review code.",
             "For the transaction from another founder’s perspective, our [Aman Sanger profile](/leaders/aman-sanger/) examines the issued-share categories. Together with the [Cursor ownership file](/who-owns-cursor/), it shows why four cofounders should not be assigned equal proceeds by default. Equality would require evidence of their holdings and security rights."
+          ],
+          "stage": "finding"
+        },
+        {
+          "stage": "finding",
+          "heading": "Cursor’s financing records separate capital raised from recurring revenue",
+          "paragraphs": [
+            "[Cursor’s August 2024 Series A announcement](https://cursor.com/blog/series-a) records $60 million raised and more than 40,000 customers. [The January 2025 Series B account](https://cursor.com/blog/series-b) records another $105 million and more than $100 million in recurring revenue. Funding and recurring revenue are distinct measures.",
+            "[The June 2025 Series C announcement](https://cursor.com/blog/series-c) records $900 million raised at a $9.9 billion valuation, alongside more than $500 million in ARR. My calculation: the three disclosed raises sum to $1.065 billion. That is company financing across those rounds, not founder wealth or lifetime funding. The revenue descriptions do not supply an audited growth multiple."
           ]
         }
       ],
       "capital": [
+        {
+          "date": "2024-08-22",
+          "event": "Series A",
+          "amount": "$60M",
+          "valuation": "Not disclosed in announcement",
+          "note": "Company financing, not personal proceeds.",
+          "sourceId": "truell-10"
+        },
+        {
+          "date": "2025-01-16",
+          "event": "Series B",
+          "amount": "$105M",
+          "valuation": "Not disclosed in announcement",
+          "note": "Recurring revenue is a separate operating metric.",
+          "sourceId": "truell-11"
+        },
+        {
+          "date": "2025-06-06",
+          "event": "Series C",
+          "amount": "$900M",
+          "valuation": "$9.9B",
+          "note": "Company-reported financing and valuation.",
+          "sourceId": "truell-12"
+        },
         {
           "date": "2026-08-14",
           "event": "Anysphere becomes wholly owned subsidiary",
@@ -3768,7 +4466,13 @@
           "answer": "The origin records below connect Sualeh Asif to pakistan (forbes and imo records). The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "sualeh-asif-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Michael Intrator",
@@ -3784,12 +4488,15 @@
         "date": "2026-10-11",
         "sourceId": "michael-intrator-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Michael Intrator net worth](https://www.forbes.com/profile/michael-intrator/) at $5.3 billion on October 11, 2026.6 billion. [CoreWeave’s registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) establishes his role and earlier energy-market work. I have not reconciled the later trusts, LLCs and Form 4 transactions, so we do not treat a direct-holdings tracker as a complete personal asset total or claim to independently reproduce Forbes."
+        "paragraph": "[Forbes estimates Michael Intrator net worth](https://www.forbes.com/profile/michael-intrator/) at $5.3 billion on October 11, 2026.6 billion. [CoreWeave’s registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) establishes his role and earlier energy-market work. I have not reconciled the later trusts, LLCs and Form 4 transactions, so we do not treat a direct-holdings tracker as a complete personal asset total or claim to independently reproduce Forbes.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "michael-intrator-forbes",
         "coreweave-s1",
-        "intrator-proxy"
+        "intrator-proxy",
+        "coreweave-ipo-price",
+        "coreweave-q1-2025"
       ],
       "sections": [
         {
@@ -3798,7 +4505,8 @@
             "The [CoreWeave registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) records Intrator’s earlier work at Hudson Ridge Asset Management, a natural-gas hedge fund. It also describes his prior Natsource responsibilities in environmental and energy markets. This is a regulated company disclosure of executive biography.",
             "The filing identifies a political-science degree from Binghamton and an MPA from Columbia. That provides a documented educational trail without assuming a computer-science background. A leadership profile should examine the actual experience relevant to the business rather than forcing every AI founder into the same programming narrative.",
             "These records establish experience managing exposure to scarce resources and volatile markets. They do not prove that every investment decision at CoreWeave followed the same trading logic. The connection is an analytical lens, not a claim about private deliberations."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "CoreWeave: from computing assets to contracted service",
@@ -3806,7 +4514,8 @@
             "The [Forbes profile](https://www.forbes.com/profile/michael-intrator/) identifies CoreWeave’s 2017 founding and its original crypto-mining business. It describes the later company as selling computing power primarily to AI companies. That is a transition in the use and customer base of computing assets.",
             "My read: the company’s financial question concerns the relationship between capacity and contracted demand. A large deployment can require expenditure before all related revenue is earned. Financing, utilization and customer concentration can therefore matter as much as the number of processors installed.",
             "The registration statement is the right starting point for those questions. A public offering document can describe contracts, risks and financing alongside executive ownership. A simple founder biography cannot show how infrastructure spending translates into cash flows. I do not equate contracted future activity with current recognized revenue."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "CoreWeave: public ownership still requires careful reconciliation",
@@ -3814,7 +4523,8 @@
             "Public filings can reveal more than private-company estimates, but they are not automatically a complete wealth model. An ownership schedule can include direct holdings, entities, convertible securities and shares subject to specified rules. Dates and footnotes determine what can be counted together.",
             "The April 2026 proxy provides a later ownership snapshot, including indirect holdings. We have reviewed its table and footnote, but have not completed the subsequent Form 4 reconciliation. It supplies a historical starting point, rather than an October 2026 share balance.",
             "My calculation: the proxy’s 61,505,714-share beneficial-ownership total is about 11.63 times its 5,289,944 Class A component. This compares two fields in one dated filing. It does not reconcile a third-party wealth tracker or establish exclusive economic ownership. A personal model must reconcile transaction dates and distinguish economic ownership from voting control before assigning a market value."
-          ]
+          ],
+          "stage": "strategy"
         },
         {
           "heading": "CoreWeave: why a tracker can show a much smaller total",
@@ -3822,7 +4532,8 @@
             "An insider tracker can display a subset of reportable securities rather than a complete fortune. Depending on its method, it may emphasize direct holdings, one share class or recent transactions. A small displayed amount therefore does not by itself contradict a provider’s broader estimate.",
             "That is a methodological possibility, not a verified explanation of a tracker that includes only one share class. I have not reviewed the tracker’s underlying records and inclusion rules. I do not name a particular missing trust or class as the cause without performing the reconciliation.",
             "Likewise, sale proceeds do not automatically remain as cash. A transaction filing can establish what was sold and at what reported price. It generally does not establish how proceeds were subsequently invested, donated or used to meet liabilities. A public-equity ledger and total personal wealth have different scopes."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "CoreWeave: the ownership footnote changes the picture",
@@ -3831,18 +4542,19 @@
             "My calculation: the reported class totals sum to 61,505,714 beneficially owned shares. That is approximately 11.63 times the reported Class A count alone. This identifies a scope problem; it does not reconstruct a wealth provider’s model. SEC beneficial ownership need not equal personal economic entitlement to every included asset.",
             "The proxy reports 38.70% of voting power. Class B has ten votes per share and Class A has one. Voting influence and economic value require separate treatment. A voting percentage should not be multiplied by market capitalization to estimate a fortune. Securities counts and rights are the starting inputs.",
             "The snapshot is historical. Options, vesting, sales and transfers after April can change quantities. A current reconstruction would follow subsequent filings, apply a dated price and examine other assets and liabilities. I do not claim a specific website missed exactly this amount without reviewing its coverage. The original footnote establishes why a narrow tracker can be incomplete."
+          ],
+          "stage": "finding"
+        },
+        {
+          "stage": "finding",
+          "heading": "CoreWeave’s IPO included 910,000 secondary shares",
+          "paragraphs": [
+            "[The IPO pricing announcement](https://www.coreweave.com/news/coreweave-announces-pricing-of-initial-public-offering) describes 37.5 million shares at $40 each. [The subsequent 10-Q, under use of IPO proceeds](https://www.sec.gov/Archives/edgar/data/1769628/000176962825000014/crwv-20250331.htm), splits that into 36.59 million company-issued shares and 910,000 shares sold by selling stockholders. CoreWeave received no proceeds from the latter.",
+            "My calculation: 910,000 multiplied by $40 equals $36.4 million in gross secondary consideration. That is for the selling-stockholder group, not a disclosed Intrator payout. The company reports about $1.4 billion in net proceeds after offering costs. Keeping primary issuance, secondary sales and fees separate makes the familiar $1.5 billion headline more precise."
           ]
         }
       ],
       "capital": [
-        {
-          "date": "2026-04-15",
-          "event": "Proxy beneficial ownership snapshot",
-          "amount": "5,289,944 Class A + 56,215,770 Class B",
-          "valuation": "38.70% voting power; not economic ownership",
-          "note": "Includes indirect holdings and eligible awards; not a balance sheet",
-          "sourceId": "intrator-proxy"
-        },
         {
           "date": "2025",
           "event": "CoreWeave IPO described by Forbes",
@@ -3850,6 +4562,14 @@
           "valuation": "Approximately $23B company value",
           "note": "Provider description; not current personal wealth",
           "sourceId": "michael-intrator-forbes"
+        },
+        {
+          "date": "2026-04-15",
+          "event": "Proxy beneficial ownership snapshot",
+          "amount": "5,289,944 Class A + 56,215,770 Class B",
+          "valuation": "38.70% voting power; not economic ownership",
+          "note": "Includes indirect holdings and eligible awards; not a balance sheet",
+          "sourceId": "intrator-proxy"
         }
       ],
       "timeline": [
@@ -3949,7 +4669,13 @@
           "answer": "The origin records below connect Michael Intrator to energy-market career documented in coreweave’s s-1. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "coreweave-s1"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     },
     {
       "name": "Edwin Chen",
@@ -3965,13 +4691,15 @@
         "date": "2026-10-11",
         "sourceId": "edwin-chen-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Edwin Chen net worth](https://www.forbes.com/profile/edwin-chen/) at $18 billion on October 11, 2026, with an estimated 75% Surge stake. [Bloomberg’s reviewed snapshot](https://www.bloomberg.com/billionaires/profiles/edwin-chen/) shows $13 billion dated May 20, 2026, with modeled 82% ownership. Different ownership assumptions and observation dates prevent treating these as a measured wealth increase. I retain the current Forbes observation and do not present either percentage as a disclosed capital table."
+        "paragraph": "[Forbes estimates Edwin Chen net worth](https://www.forbes.com/profile/edwin-chen/) at $18 billion on October 11, 2026, with an estimated 75% Surge stake. [Bloomberg’s reviewed snapshot](https://www.bloomberg.com/billionaires/profiles/edwin-chen/) shows $13 billion dated May 20, 2026, with modeled 82% ownership. Different ownership assumptions and observation dates prevent treating these as a measured wealth increase. I retain the current Forbes observation and do not present either percentage as a disclosed capital table.",
+        "estimator": "Forbes"
       },
       "sourceIds": [
         "edwin-chen-forbes",
         "edwin-blog",
         "edwin-bloomberg",
-        "surge-mission"
+        "surge-mission",
+        "chen-human-eval"
       ],
       "sections": [
         {
@@ -3980,7 +4708,8 @@
             "Chen’s [archived introduction to latent Dirichlet allocation](https://www.edwinchen.ai/archived-blog/introduction-to-latent-dirichlet-allocation) gives a first-person technical record. It explains a statistical topic-modeling method through examples. That is more specific evidence of his earlier work than an unsourced list of prominent employers.",
             "The post establishes an interest in explaining how useful representations can be learned from data. It does not prove that the later company grew directly from that particular algorithm. A research trail can illuminate a founder’s experience without being converted into a deterministic origin story.",
             "The [Forbes biography](https://www.forbes.com/profile/edwin-chen/) records MIT study and earlier work at Twitter, Google, Facebook and Clarium. I attribute those details rather than pretending to have reviewed every employment record. The original technical post independently adds a concrete example of work outside the wealth profile."
-          ]
+          ],
+          "stage": "origin"
         },
         {
           "heading": "Surge AI: the company’s financial distinction is funding history",
@@ -3988,7 +4717,8 @@
             "Forbes dates Surge’s founding to 2020. It reports $1.2 billion revenue in 2024 and says the company claims not to have raised outside funding. The funding statement is a company claim relayed by Forbes. I do not turn it into a guarantee about every security or financing arrangement.",
             "My read: bootstrapping changes the ownership question, but does not remove it. A founder may retain more equity when outside investors have not entered. Employee grants, cofounder interests and other arrangements can still affect the percentage. A company’s funding history is not a substitute for a disclosed cap table.",
             "The operating question is what customers pay for in the data workflow. High-quality evaluation and labeling can require expertise, coordination and reliable processes. Revenue can therefore involve costs that a headline company value conceals. The relevant margin cannot be inferred simply from the volume of work."
-          ]
+          ],
+          "stage": "company"
         },
         {
           "heading": "Surge AI: estimated ownership and estimated value are different inputs",
@@ -3996,14 +4726,16 @@
             "Forbes’s approximate 75% holding is an estimate, not a shareholder register. Its $18 billion total is also a personal estimate. Those two figures should remain attributed to the provider. The reviewed record does not establish a completed transaction pricing Chen’s whole position.",
             "My calculation: $18 billion divided by 75% equals $24 billion. This is the hypothetical company value implied if the entire personal total consisted of that gross stake alone. It is not a disclosed financing valuation or an independently verified value for Surge. Other assets, liabilities and methodology could invalidate that simplification.",
             "This is a useful reverse check, but only when its assumptions remain explicit. A neat implied company value can create false confidence if readers mistake it for a funding round. I label the arithmetic and keep it outside the capital table’s confirmed transaction observations."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Surge AI: the provider comparison needs matched definitions",
           "paragraphs": [
             "The wealth paragraph preserves the two providers’ different dates and stake assumptions. A larger assumed percentage can coexist with a lower personal estimate when the company-value method differs. Ownership alone cannot explain the direction of the gap. I do not label it as proven dilution or a founder sale.",
             "A proper reconciliation would compare enterprise-to-equity adjustments, revenue periods, valuation multiples and other assets. It would also identify whether a liquidity discount was applied. These inputs are not interchangeable across providers. The current article does not claim an independently audited reconciliation of either total."
-          ]
+          ],
+          "stage": "finding"
         },
         {
           "heading": "Surge AI: the economic question behind a data business",
@@ -4012,6 +4744,15 @@
             "Customers can spend less per label and still obtain worse economics if the data fails to improve the intended task. Review, rework and specialist judgment affect effective cost. Higher-quality work can justify a higher price if it reduces later failures. These are analytical possibilities, not claims about Surge’s undisclosed unit costs.",
             "Chen’s [archived technical writing](https://www.edwinchen.ai/archived-blog/introduction-to-latent-dirichlet-allocation) records his explanation of machine-learning ideas before the current wealth story. Technical communication can matter when customers must evaluate uncertain quality. The writing is evidence of his approach. It does not verify present customers or profit margins.",
             "Compare [Lucy Guo’s Scale profile](/leaders/lucy-guo/). The Scale announcement documents a shareholder distribution; Surge’s wealth story relies on private valuation assumptions. Bootstrapping describes a funding path. It does not mean a company has no liabilities or that estimated equity could all be sold for cash."
+          ],
+          "stage": "strategy"
+        },
+        {
+          "stage": "finding",
+          "heading": "Edwin Chen’s earlier writing challenged click-through rates as a quality measure",
+          "paragraphs": [
+            "[Chen’s archived recommendations essay](https://www.edwinchen.ai/archived-blog/moving-beyond-ctr-better-recommendations-through-human-evaluation) argues for human relevance ratings rather than relying entirely on clicks or revenue. Its examples explain how a metric can improve while the usefulness of recommendations declines.",
+            "My read: this is a more concrete precursor to a human-evaluation business than a list of prestigious employers. It documents a problem Chen discussed, not proof that Surge’s present datasets improve every customer model. A historical research interest and a current commercial claim still require different evidence."
           ]
         }
       ],
@@ -4122,7 +4863,13 @@
           "answer": "The origin records below connect Edwin Chen to us machine-learning career, reported by forbes. The company-building sections distinguish documented work from my interpretation of the business strategy.",
           "sourceId": "edwin-chen-forbes"
         }
-      ]
+      ],
+      "templateVersion": "leaders-v1",
+      "editorialReview": {
+        "status": "needs-review",
+        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "findingsReviewed": false
+      }
     }
   ]
 }

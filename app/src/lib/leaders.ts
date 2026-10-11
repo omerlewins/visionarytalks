@@ -1,3 +1,4 @@
+import type { LeaderRecord } from "./leader-validation";
 import wealthData from "@/data/leader-wealth-history.json";
 import { wealthHistory } from "./leader-wealth";
 import pilot from "@/data/michael-truell-profile.json";
@@ -10,43 +11,7 @@ export type LeaderSource = {
   date: string;
   accessed: string;
 };
-export type LeaderProfile = {
-  name: string;
-  slug: string;
-  path: string;
-  company: string;
-  cluster: string;
-  role: string;
-  hook: string;
-  dek: string;
-  answer: string;
-  checked: string;
-  status: string;
-  seo: { title: string; description: string };
-  wealth: {
-    display: string;
-    value: number | null;
-    date: string;
-    sourceId?: string;
-    basis: string;
-    paragraph: string;
-  };
-  sections: { heading: string; paragraphs: string[] }[];
-  sourceIds: string[];
-  capital: {
-    date: string;
-    event: string;
-    amount: string;
-    valuation: string;
-    note: string;
-    sourceId: string;
-  }[];
-  timeline: { date: string; text: string; sourceId: string }[];
-  methodology: string;
-  notes: string[];
-  quickFacts: { label: string; value: string; sourceId: string | null }[];
-  faq: { question: string; answer: string; sourceId?: string }[];
-};
+export type LeaderProfile = LeaderRecord;
 export const leaderProfiles = [...data.leaders, pilot.profile].map((p) => ({
   ...p,
   sourceIds: [

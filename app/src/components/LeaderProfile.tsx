@@ -1,8 +1,10 @@
+import { sectionsForStages } from "@/lib/leader-flow";
 import { leaderCompanyLinks } from "@/lib/leader-links";
 import {
   leaderWealthObservations,
   wealthHistory,
   wealthChartSeries,
+  canChartWealth,
 } from "@/lib/leader-wealth";
 import Image from "next/image";
 import Link from "next/link";
@@ -256,8 +258,16 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
             </div>
           </section>
           <div id="background">
-            {p.sections.slice(0, 3).map((s, i) => (
-              <section className="leader-prose-section" key={s.heading}>
+            {sectionsForStages(p.sections, [
+              "origin",
+              "company",
+              "strategy",
+            ]).map((s, i) => (
+              <section
+                className="leader-prose-section"
+                data-leader-stage={s.stage}
+                key={s.heading}
+              >
                 <span className="eyebrow">
                   {String(i + 1).padStart(2, "0")} / THE RESEARCH
                 </span>
@@ -313,8 +323,12 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
             </div>
           </section>
           <div id="findings">
-            {p.sections.slice(3).map((s) => (
-              <section className="leader-prose-section" key={s.heading}>
+            {sectionsForStages(p.sections, ["finding"]).map((s) => (
+              <section
+                className="leader-prose-section"
+                data-leader-stage={s.stage}
+                key={s.heading}
+              >
                 <span className="eyebrow">THE RECORD AND MY READ</span>
                 <h2>{s.heading}</h2>
                 {s.paragraphs.map((text, i) => (
@@ -373,7 +387,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                 </table>
               </div>
             )}
-            {p.wealth.value !== null ? (
+            {wealthObservations.length > 0 ? (
               <>
                 <div
                   className="table-scroll article-table-scroll"
@@ -414,7 +428,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                     </tbody>
                   </table>
                 </div>
-                {wealthObservations.length >= 3 && (
+                {canChartWealth(wealthObservations) && (
                   <EditorialChart
                     title={p.name + " net worth estimates over time"}
                     subtitle={
@@ -478,16 +492,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
               <div key={f.question}>
                 <h3>{f.question}</h3>
                 <p>
-                  <Inline
-                    text={
-                      f.sourceId
-                        ? f.answer.replace(/\.$/, "") +
-                          " ([source](" +
-                          leaderSources[f.sourceId].url +
-                          "))."
-                        : f.answer
-                    }
-                  />
+                  <Inline text={f.answer} />
                 </p>
               </div>
             ))}
@@ -518,7 +523,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                       ),
                     ) -
                     Number(
-                      /Forbes|Bloomberg|report|news/i.test(
+                      /Independent|wealth estimate|report|news/i.test(
                         leaderSources[b]?.type ?? "",
                       ),
                     ),

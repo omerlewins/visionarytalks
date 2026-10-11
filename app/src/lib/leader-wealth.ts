@@ -12,6 +12,7 @@ export type WealthObservation = {
 export type WealthSubject = {
   slug: string;
   wealth: {
+    estimator?: string;
     value: number | null;
     display: string;
     date: string;
@@ -64,7 +65,10 @@ export function leaderWealthObservations(
       : [];
   return [
     ...historical.map((o) => ({ ...o, estimator: o.estimator ?? "Forbes" })),
-    ...latest.map((o) => ({ ...o, estimator: "Forbes" })),
+    ...latest.map((o) => ({
+      ...o,
+      estimator: p.wealth.estimator ?? "Unspecified estimator",
+    })),
     ...comparison,
   ].sort((a, b) => a.date.localeCompare(b.date));
 }
@@ -86,4 +90,8 @@ export function wealthChartSeries(observations: WealthObservation[]) {
       }),
     }),
   );
+}
+
+export function canChartWealth(observations: WealthObservation[]) {
+  return new Set(observations.map((o) => o.date)).size >= 3;
 }

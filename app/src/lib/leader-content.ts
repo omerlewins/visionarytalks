@@ -1,4 +1,6 @@
 import "server-only";
+import { validateLeader } from "./leader-validation";
+import { leaderSources } from "./leaders";
 import { leaderProfiles, type LeaderProfile } from "./leaders";
 import { cms, isDemo } from "./content";
 import { isLeadersReview } from "./leaders-review";
@@ -17,7 +19,7 @@ export async function loadLeaderProfile(
     depth: 0,
   });
   const data = records.docs[0]?.data as { profile?: LeaderProfile } | undefined;
-  return data?.profile
+  const stored = data?.profile
     ? {
         ...base,
         ...data.profile,
@@ -25,4 +27,5 @@ export async function loadLeaderProfile(
         faq: data.profile.faq ?? base.faq,
       }
     : base;
+  return validateLeader(stored, leaderSources).errors.length ? base : stored;
 }
