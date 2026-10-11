@@ -19,7 +19,10 @@
     "migrate": "payload migrate",
     "import:wordpress": "tsx scripts/import-wordpress.ts",
     "leaders:new": "tsx scripts/new-leader.ts",
-    "validate:leaders": "tsx scripts/validate-leaders.ts"
+    "validate:leaders": "tsx scripts/validate-leaders.ts",
+    "ownership:new": "tsx scripts/new-ownership.ts",
+    "validate:ownership": "tsx scripts/validate-ownership.ts",
+    "sync:ownership": "tsx scripts/sync-ownership.ts"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "3.90.2",

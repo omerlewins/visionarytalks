@@ -12,6 +12,8 @@ import { Chart } from "./Chart";
 import { Share } from "./Share";
 import { legacyHeadings } from "@/migration/render";
 import { ownershipBrand } from "@/lib/ownership";
+import type { ReactNode } from "react";
+import { OwnershipBacklinks } from "./OwnershipBacklinks";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
     <article className="story latest-story">
@@ -31,9 +33,15 @@ export function StoryCard({ story }: { story: StoryData }) {
 export function StoryTemplate({
   story: s,
   related = [],
+  children,
+  contents,
+  cover,
 }: {
   story: StoryData;
   related?: StoryData[];
+  children?: ReactNode;
+  contents?: {id: string; heading: string}[];
+  cover?: ReactNode;
 }) {
   const people = isLeadersReview() ? ownershipLeaders(s.path) : [];
   const author = articleAuthor(s.author);
@@ -142,7 +150,7 @@ export function StoryTemplate({
             </div>
             <Share title={s.title} />
           </div>
-          {ownership ? (
+          {cover ?? (ownership ? (
             <aside
               className="company-cover ownership-cover"
               aria-label={`${brand} company file`}
@@ -188,7 +196,7 @@ export function StoryTemplate({
                 <span>IDENTITY / OWNERSHIP / THE BUSINESS</span>
               </div>
             )
-          )}
+          ))}
         </header>
         {(ownership || !!s.facts?.length) && (
           <dl className="facts-strip">
@@ -207,7 +215,7 @@ export function StoryTemplate({
                 {ownership ? "IN THIS COMPANY FILE" : "IN THIS STORY"}
               </summary>
               <nav aria-label="Table of contents">
-                {[...s.sections, ...legacy.toc].map((x) => (
+                {(contents ?? [...s.sections, ...legacy.toc]).map((x) => (
                   <a href={`#${x.id}`} key={x.id}>
                     {x.heading}
                   </a>
@@ -238,6 +246,7 @@ export function StoryTemplate({
                 <p>{s.shortAnswer}</p>
               </aside>
             )}
+            {children}
             {!!s.relations?.length && (
               <section>
                 <h2>The ownership structure</h2>
@@ -330,6 +339,7 @@ export function StoryTemplate({
                 </ol>
               </section>
             )}
+            {isLeadersReview() && <OwnershipBacklinks path={s.path}/>}
             <aside className="writer-box">
               {author.name === profile.name && (
                 <Link

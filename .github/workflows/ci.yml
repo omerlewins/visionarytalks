@@ -26,6 +26,7 @@ jobs:
       - run: npx next typegen
       - run: npm run typecheck
       - run: npm run validate:leaders
+      - run: npm run validate:ownership
       - run: npm test
       - run: npm run build
       - run: npx playwright install --with-deps chromium webkit

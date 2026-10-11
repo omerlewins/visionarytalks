@@ -1,0 +1,67 @@
+{
+  "capturedAt": "2026-10-11",
+  "method": "Browser Google ownership searches with gl=us and hl=en; physical geolocation not independently confirmed. PAA text transcribed from rendered results; not search-volume measurements.",
+  "questions": {
+    "Anduril": [
+      "Is Anduril publicly traded?",
+      "What companies compete with Anduril Industries?",
+      "Is Palmer Luckey a billionaire?",
+      "Who is Anduril?"
+    ],
+    "Groq": [
+      "Is Nvidia a US or Chinese company?",
+      "What is Groq’s current valuation?",
+      "Who is the CEO of Groq?",
+      "Who are the owners of Nvidia?"
+    ],
+    "Canva": [
+      "What apps does Canva own?",
+      "Are Mel and Cliff married?",
+      "Who built Canva?",
+      "Is Canva public or private?"
+    ],
+    "Mistral AI": [
+      "Who owns the .ai domain?",
+      "Who is the CEO of Mistral?",
+      "Is Mistral free?",
+      "Who are the Big 4 in AI?"
+    ],
+    "Glean": [
+      "Is Glean publicly traded?",
+      "Who is the founder and CEO of Glean AI?",
+      "How much is Glean?",
+      "What is a Glean agent?"
+    ],
+    "Notion": [
+      "How does Notion make money?",
+      "What is Notion worth?",
+      "Will Notion IPO?",
+      "Is Notion US based?"
+    ],
+    "Cohere": [
+      "Who is the CEO of Cohere?",
+      "Who are the Big 4 in AI?",
+      "Does Cohere trade on the TSX?",
+      "What does Cohere sell?"
+    ],
+    "Crusoe": [
+      "Who is the CEO of Crusoe?",
+      "Who is the largest owner of data centers in the US?",
+      "Is Crusoe publicly traded?",
+      "How much has Crusoe raised to date?"
+    ],
+    "Lambda AI": [
+      "Who is the owner of Lambda?",
+      "Is Lambda owned by Amazon?",
+      "Did Nvidia invest in Lambda?",
+      "Is Lambda AI a good company?"
+    ],
+    "Harvey AI": [
+      "Who is behind Harvey?",
+      "Who are the investors in Harvey?",
+      "Is Harvey legit?",
+      "Who is the CEO of Harvey?"
+    ]
+  },
+  "editorialChoice": "Only questions relevant to ownership, legal identity, valuation, product and leadership selected. Irrelevant .ai domain, generic Big 4, Nvidia nationality and private family-life questions excluded. Answers independently sourced; Google AI summaries not treated as evidence."
+}

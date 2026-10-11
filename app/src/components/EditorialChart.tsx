@@ -9,18 +9,24 @@ export function EditorialChart({
   series,
   source,
   children,
+  scale = "linear",
 }: {
   title: string;
   subtitle: string;
   series: ChartSeries[];
   source: ReactNode;
   children?: ReactNode;
+  scale?: "linear" | "log";
 }) {
   const values = series.flatMap((s) => s.points.map((p) => p.value));
   const valid = values.every(
     (v) => v == null || (Number.isFinite(v) && v >= 0),
   );
   const max = Math.max(1, ...values.filter((v): v is number => v != null));
+  const positive = values.filter((v): v is number => v != null && v > 0);
+  const floor = scale === "log" ? Math.pow(10, Math.floor(Math.log10(Math.min(...positive))) - 1) : 0;
+  const chartValid = valid && (scale !== "log" || positive.length === values.filter(v => v != null).length);
+  const height = (value: number) => scale === "log" ? ((Math.log10(value) - Math.log10(floor)) / (Math.log10(max) - Math.log10(floor))) * 100 : (value / max) * 100;
   const labels = series[0]?.points.map((p) => p.label) ?? [];
   const aligned = series.every(
     (s) =>
@@ -34,7 +40,7 @@ export function EditorialChart({
         <h3>{title}</h3>
         <p>{subtitle}</p>
       </figcaption>
-      {valid && aligned ? (
+      {chartValid && aligned ? (
         <>
           {series.length > 1 && (
             <ul className="chart-legend">
@@ -57,7 +63,7 @@ export function EditorialChart({
               style={{ minWidth: Math.max(400, labels.length * 110) }}
               aria-hidden="true"
             >
-              <span className="zero-label">0</span>
+              <span className="zero-label">{scale === "log" ? floor : 0}</span>
               {labels.map((label, i) => (
                 <div className="plot-group" key={`${label}-${i}`}>
                   <div className="plot-columns">
@@ -69,7 +75,7 @@ export function EditorialChart({
                             <div
                               className={`plot-bar ${series.length > 1 ? (j === series.length - 1 ? "ink" : "") : i === labels.length - 1 ? "ink" : ""}`}
                               style={{
-                                height: `${point.value == null ? 0 : (point.value / max) * 100}%`,
+                                height: `${point.value == null ? 0 : height(point.value)}%`,
                               }}
                             >
                               <span>{point.display}</span>
@@ -97,7 +103,7 @@ export function EditorialChart({
       </p>
       <div className="chart-source">{source}</div>
       <p className="chart-method">
-        Zero baseline. Missing values are not interpolated.
+        {scale === "log" ? `Logarithmic scale. Baseline ${floor} in the displayed units; equal vertical distances represent equal ratios.` : "Zero baseline."} Missing values are not interpolated.
       </p>
       {children}
     </figure>

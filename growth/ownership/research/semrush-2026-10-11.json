@@ -1,0 +1,232 @@
+{
+  "retrievedAt": "2026-10-11",
+  "provider": "Semrush",
+  "database": "us",
+  "note": "Most recent database returned by connector. Retrieval date is not the underlying measurement period. Separate from user-supplied DataForSEO; KD scores are not interchangeable.",
+  "metrics": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"data\":\"Keyword;Search Volume;Keyword Difficulty Index\\nwho owns anduril;390;43\\nanduril stock;60500;42\\nanduril ipo;9900;37\\nwho owns groq;480;71\\ngroq stock;6600;25\\ngroq ipo;390;22\\nwho owns canva;1600;72\\ncanva stock;4400;60\\ncanva ipo;1900;21\\nwho owns mistral ai;110;64\\nmistral ai stock;1000;44\\nmistral ai ipo;110;39\\nwho owns glean;140;47\\nglean stock;390;8\\nglean ipo;260;15\\nwho owns notion;260;52\\nnotion stock;590;25\\nnotion ipo;590;20\\nwho owns cohere;20;0\\ncohere stock;720;17\\ncohere ipo;210;24\\nwho owns crusoe;20;0\\ncrusoe stock;1600;19\\ncrusoe ipo;320;12\\nwho owns lambda;20;0\\nlambda stock;1000;18\\nlambda ipo;590;23\\nwho owns harvey ai;90;50\\nharvey ai stock;210;7\\nharvey ai ipo;40;0\\n\",\"metadata\":{\"format\":\"csv\",\"url\":\"https://www.semrush.com/analytics/keywordoverview/?db=us\\u0026export_columns=keyword%2Cvolume%2Ckeyword_difficulty\\u0026q=who+owns+anduril%3Banduril+stock%3Banduril+ipo%3Bwho+owns+groq%3Bgroq+stock%3Bgroq+ipo%3Bwho+owns+canva%3Bcanva+stock%3Bcanva+ipo%3Bwho+owns+mistral+ai%3Bmistral+ai+stock%3Bmistral+ai+ipo%3Bwho+owns+glean%3Bglean+stock%3Bglean+ipo%3Bwho+owns+notion%3Bnotion+stock%3Bnotion+ipo%3Bwho+owns+cohere%3Bcohere+stock%3Bcohere+ipo%3Bwho+owns+crusoe%3Bcrusoe+stock%3Bcrusoe+ipo%3Bwho+owns+lambda%3Blambda+stock%3Blambda+ipo%3Bwho+owns+harvey+ai%3Bharvey+ai+stock%3Bharvey+ai+ipo\",\"usage\":{\"api_units\":300}}}"
+      }
+    ],
+    "structuredContent": {
+      "data": "Keyword;Search Volume;Keyword Difficulty Index\nwho owns anduril;390;43\nanduril stock;60500;42\nanduril ipo;9900;37\nwho owns groq;480;71\ngroq stock;6600;25\ngroq ipo;390;22\nwho owns canva;1600;72\ncanva stock;4400;60\ncanva ipo;1900;21\nwho owns mistral ai;110;64\nmistral ai stock;1000;44\nmistral ai ipo;110;39\nwho owns glean;140;47\nglean stock;390;8\nglean ipo;260;15\nwho owns notion;260;52\nnotion stock;590;25\nnotion ipo;590;20\nwho owns cohere;20;0\ncohere stock;720;17\ncohere ipo;210;24\nwho owns crusoe;20;0\ncrusoe stock;1600;19\ncrusoe ipo;320;12\nwho owns lambda;20;0\nlambda stock;1000;18\nlambda ipo;590;23\nwho owns harvey ai;90;50\nharvey ai stock;210;7\nharvey ai ipo;40;0\n",
+      "metadata": {
+        "format": "csv",
+        "url": "https://www.semrush.com/analytics/keywordoverview/?db=us&export_columns=keyword%2Cvolume%2Ckeyword_difficulty&q=who+owns+anduril%3Banduril+stock%3Banduril+ipo%3Bwho+owns+groq%3Bgroq+stock%3Bgroq+ipo%3Bwho+owns+canva%3Bcanva+stock%3Bcanva+ipo%3Bwho+owns+mistral+ai%3Bmistral+ai+stock%3Bmistral+ai+ipo%3Bwho+owns+glean%3Bglean+stock%3Bglean+ipo%3Bwho+owns+notion%3Bnotion+stock%3Bnotion+ipo%3Bwho+owns+cohere%3Bcohere+stock%3Bcohere+ipo%3Bwho+owns+crusoe%3Bcrusoe+stock%3Bcrusoe+ipo%3Bwho+owns+lambda%3Blambda+stock%3Blambda+ipo%3Bwho+owns+harvey+ai%3Bharvey+ai+stock%3Bharvey+ai+ipo",
+        "usage": {
+          "api_units": 300
+        }
+      }
+    },
+    "isError": false
+  },
+  "questions": {
+    "anduril": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"data\":\"Keyword;Search Volume\\nis anduril a public company;1900\\nis anduril publicly traded;1600\\nwhen will anduril go public;1300\\nhow to invest in anduril;1000\\nhow to buy anduril stock;880\\nwhen is anduril going public;880\\nwhat is anduril;720\\nwhat does anduril do;590\\nwill anduril go public;480\\nwho owns anduril;390\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":10,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=10\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=anduril\",\"usage\":{\"api_units\":400}}}"
+        }
+      ],
+      "structuredContent": {
+        "data": "Keyword;Search Volume\nis anduril a public company;1900\nis anduril publicly traded;1600\nwhen will anduril go public;1300\nhow to invest in anduril;1000\nhow to buy anduril stock;880\nwhen is anduril going public;880\nwhat is anduril;720\nwhat does anduril do;590\nwill anduril go public;480\nwho owns anduril;390\n",
+        "metadata": {
+          "format": "csv",
+          "pagination": {
+            "limit": 10,
+            "sort": "volume_desc"
+          },
+          "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=10&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=anduril",
+          "usage": {
+            "api_units": 400
+          }
+        }
+      },
+      "isError": false
+    },
+    "groq": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nwhat is groq;1300\\nwho owns groq;480\\nwhat is groq ai;390\\nis groq api free;320\\nis groq free;260\\nwhat does groq do;260\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=groq\",\"usage\":{\"api_units\":1200}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nwhat is groq;1300\nwho owns groq;480\nwhat is groq ai;390\nis groq api free;320\nis groq free;260\nwhat does groq do;260\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=groq",
+            "usage": {
+              "api_units": 1200
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    "canva": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nhow to remove background in canva;49500\\nwhat is canva;22200\\nhow much is canva pro;14800\\nhow to cancel canva subscription;12100\\nis canva free;12100\\nis canvas down;12100\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=canva\",\"usage\":{\"api_units\":2160}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nhow to remove background in canva;49500\nwhat is canva;22200\nhow much is canva pro;14800\nhow to cancel canva subscription;12100\nis canva free;12100\nis canvas down;12100\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=canva",
+            "usage": {
+              "api_units": 2160
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    "glean": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nwhere to watch glee;12100\\nwhere can i watch glee;8100\\nwill shue glee;1900\\nhow did finn die in glee;1600\\nwhat does glean mean;1600\\nwhat does glee mean;1600\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=glean\",\"usage\":{\"api_units\":1680}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nwhere to watch glee;12100\nwhere can i watch glee;8100\nwill shue glee;1900\nhow did finn die in glee;1600\nwhat does glean mean;1600\nwhat does glee mean;1600\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=glean",
+            "usage": {
+              "api_units": 1680
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    "notion": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nwhat is notion;9900\\nis notion free;3600\\nhow to use notion;2400\\nwhat does notion mean;2400\\nwhat is notion app;2400\\nhow to see notion edit history;1900\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=notion\",\"usage\":{\"api_units\":1920}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nwhat is notion;9900\nis notion free;3600\nhow to use notion;2400\nwhat does notion mean;2400\nwhat is notion app;2400\nhow to see notion edit history;1900\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=notion",
+            "usage": {
+              "api_units": 1920
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    "cohere": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nwhat does coherent mean;2400\\na sentence for coherent;1300\\nwhat is coherence;1300\\na sentence with coherent;1000\\nwhat is the coherence;1000\\nwhere to watch coherence;1000\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=cohere\",\"usage\":{\"api_units\":1680}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nwhat does coherent mean;2400\na sentence for coherent;1300\nwhat is coherence;1300\na sentence with coherent;1000\nwhat is the coherence;1000\nwhere to watch coherence;1000\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=cohere",
+            "usage": {
+              "api_units": 1680
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    "crusoe": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nwho wrote robinson crusoe;720\\nwho wrote the robinson crusoe;720\\nwho wrote the novel robinson crusoe;480\\nis robinson crusoe a real story;260\\nis robinson crusoe a true story;260\\nis the story of robinson crusoe true;260\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=crusoe\",\"usage\":{\"api_units\":1680}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nwho wrote robinson crusoe;720\nwho wrote the robinson crusoe;720\nwho wrote the novel robinson crusoe;480\nis robinson crusoe a real story;260\nis robinson crusoe a true story;260\nis the story of robinson crusoe true;260\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=crusoe",
+            "usage": {
+              "api_units": 1680
+            }
+          }
+        },
+        "isError": false
+      }
+    },
+    "lambda": {
+      "status": "fulfilled",
+      "value": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"data\":\"Keyword;Search Volume\\nwhat is lambda;2400\\nwhat is aws lambda;1600\\nwhat is a lambda;590\\nwhat is a lambda function;590\\nwhat is lambda in python;590\\nwhat does lambda mean;390\\n\",\"metadata\":{\"format\":\"csv\",\"pagination\":{\"limit\":6,\"sort\":\"volume_desc\"},\"url\":\"https://www.semrush.com/analytics/keywordmagic/?db=us\\u0026display_limit=6\\u0026display_sort=volume_desc\\u0026export_columns=keyword%2Cvolume\\u0026q=lambda\",\"usage\":{\"api_units\":1680}}}"
+          }
+        ],
+        "structuredContent": {
+          "data": "Keyword;Search Volume\nwhat is lambda;2400\nwhat is aws lambda;1600\nwhat is a lambda;590\nwhat is a lambda function;590\nwhat is lambda in python;590\nwhat does lambda mean;390\n",
+          "metadata": {
+            "format": "csv",
+            "pagination": {
+              "limit": 6,
+              "sort": "volume_desc"
+            },
+            "url": "https://www.semrush.com/analytics/keywordmagic/?db=us&display_limit=6&display_sort=volume_desc&export_columns=keyword%2Cvolume&q=lambda",
+            "usage": {
+              "api_units": 1680
+            }
+          }
+        },
+        "isError": false
+      }
+    }
+  }
+}

@@ -10,6 +10,9 @@ import { salaryFixtures } from "@/data/salary-fixtures";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { matchesArchive } from "@/lib/editorial-taxonomy";
+import { loadOwnershipFile } from "@/lib/ownership-content";
+import { OwnershipInvestigation, OwnershipDirectory } from "@/components/OwnershipInvestigation";
+import { isLeadersReview } from "@/lib/leaders-review";
 export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ path: string[] }>;
@@ -47,6 +50,8 @@ const publicationPages: Record<string, [string, string]> = {
 };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { path } = await params;
+  const research = await loadOwnershipFile((await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`);
+  if (research) return {title:{absolute:research.seo.title}, description:research.seo.description,robots:{index:false,follow:false},alternates:{canonical:`/who-owns-${research.slug}/`},openGraph:{title:research.title,description:research.dek,type:"article",images:[`/ownership-cards/${research.slug}.svg`]}};
   const s = await storyAt(
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`,
   );
@@ -80,6 +85,8 @@ export default async function Page({ params, searchParams }: Props) {
   const query = await searchParams;
   const route =
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
+  const research = await loadOwnershipFile(route);
+  if (research) return <OwnershipInvestigation file={research}/>;
   const s = await storyAt(route);
   if (s) {
     const all = await stories();
@@ -237,7 +244,8 @@ export default async function Page({ params, searchParams }: Props) {
             </div>
           </form>
         )}
-        <p className="source">{found.length} stories</p>
+        {term === "ownership" && pageNumber === 1 && isLeadersReview() && <OwnershipDirectory/>}
+        <p className="source">{found.length} published stories</p>
         <div className="archive-grid">
           {found
             .slice((pageNumber - 1) * pageSize, pageNumber * pageSize)

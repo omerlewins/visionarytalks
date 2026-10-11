@@ -4,6 +4,7 @@ import { cms, isDemo } from "@/lib/content";
 import { leaderProfiles } from "@/lib/leaders";
 import cycle from "@/data/content-review-drafts.json";
 import { isLeadersReview } from "@/lib/leaders-review";
+import { OwnershipDirectory } from "@/components/OwnershipInvestigation";
 export const dynamic = "force-dynamic";
 export const metadata = {
   title: "New Content Review",
@@ -40,6 +41,8 @@ export default async function Page() {
         Research drafts for review. Wealth estimates keep their source dates.
         These articles are not published to the live site.
       </p>
+      <OwnershipDirectory/>
+      <p>These ownership investigations are saved as Preview CMS drafts. To edit their structured text, tables or chart observations, open the matching <Link href="/admin/collections/claim-evidence">Ownership investigation research record</Link> and edit <code>data.file</code>. The <Link href="/admin/collections/content-inbox">Content inbox</Link> keeps the full research proposal.</p>
       <h2>21 leader profiles</h2>
       <p>
         Including Michael Truell’s original Cursor investigation and the 20 new
