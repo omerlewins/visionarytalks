@@ -3,6 +3,7 @@ import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import type { Metadata } from "next";
 import "@/styles/reference.css";
 import "@/styles/ownership.css";
+import "@/styles/ownership-archive.css";
 import "@/styles/tracker-reference.css";
 import "@/styles/production.css";
 import "@/styles/leaders.css";

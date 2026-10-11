@@ -11,7 +11,9 @@ import type { Metadata } from "next";
 import { headers } from "next/headers";
 import { matchesArchive } from "@/lib/editorial-taxonomy";
 import { loadOwnershipFile } from "@/lib/ownership-content";
-import { OwnershipInvestigation, OwnershipDirectory } from "@/components/OwnershipInvestigation";
+import { OwnershipInvestigation } from "@/components/OwnershipInvestigation";
+import { OwnershipArchive } from "@/components/OwnershipArchive";
+import { ownershipArchiveEntries } from "@/lib/ownership-archive";
 import { isLeadersReview } from "@/lib/leaders-review";
 export const dynamic = "force-dynamic";
 type Props = {
@@ -50,6 +52,7 @@ const publicationPages: Record<string, [string, string]> = {
 };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { path } = await params;
+  if (path[0] === "category" && ["ownership","who-owns"].includes(path[1])) return {title:"Who Owns? AI Companies & Everyday Brands",description:"Explore the founders, parent companies and investors behind AI businesses and everyday brands. Ownership investigations from Visionary Talks.",alternates:{canonical:"/category/ownership/"},robots:{index:process.env.APP_ENV === "production"}};
   const research = await loadOwnershipFile((await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`);
   if (research) return {title:{absolute:research.seo.title}, description:research.seo.description,robots:{index:false,follow:false},alternates:{canonical:`/who-owns-${research.slug}/`},openGraph:{title:research.title,description:research.dek,type:"article",images:[`/ownership-cards/${research.slug}.svg`]}};
   const s = await storyAt(
@@ -217,6 +220,7 @@ export default async function Page({ params, searchParams }: Props) {
               .includes(term.toLowerCase())
           : path[0] === "hot-posts" || matchesArchive(s, path[0], term)),
     );
+    if (path[0] === "category" && ["ownership","who-owns"].includes(term) && pageNumber === 1) return <><OwnershipArchive entries={ownershipArchiveEntries(found, isLeadersReview())}/><Newsletter/></>;
     const pageSize = 10;
     const totalPages = Math.ceil(found.length / pageSize);
     if (pageNumber > Math.max(1, totalPages)) notFound();
@@ -244,7 +248,6 @@ export default async function Page({ params, searchParams }: Props) {
             </div>
           </form>
         )}
-        {term === "ownership" && pageNumber === 1 && isLeadersReview() && <OwnershipDirectory/>}
         <p className="source">{found.length} published stories</p>
         <div className="archive-grid">
           {found
