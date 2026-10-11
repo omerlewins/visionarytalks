@@ -65,14 +65,16 @@ export function EditorialChart({
                       const point = s.points[i];
                       return (
                         <div className="plot-column" key={s.name}>
-                          <div
-                            className={`plot-bar ${series.length > 1 ? (j === series.length - 1 ? "ink" : "") : i === labels.length - 1 ? "ink" : ""}`}
-                            style={{
-                              height: `${point.value == null ? 0 : (point.value / max) * 100}%`,
-                            }}
-                          >
-                            <span>{point.display}</span>
-                          </div>
+                          {point.value !== null && (
+                            <div
+                              className={`plot-bar ${series.length > 1 ? (j === series.length - 1 ? "ink" : "") : i === labels.length - 1 ? "ink" : ""}`}
+                              style={{
+                                height: `${point.value == null ? 0 : (point.value / max) * 100}%`,
+                              }}
+                            >
+                              <span>{point.display}</span>
+                            </div>
+                          )}
                         </div>
                       );
                     })}

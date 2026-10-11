@@ -44,6 +44,8 @@ export type LeaderProfile = {
   timeline: { date: string; text: string; sourceId: string }[];
   methodology: string;
   notes: string[];
+  quickFacts: { label: string; value: string; sourceId: string | null }[];
+  faq: { question: string; answer: string; sourceId?: string }[];
 };
 export const leaderProfiles = [...data.leaders, pilot.profile].map((p) => ({
   ...p,

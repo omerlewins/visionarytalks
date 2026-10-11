@@ -1,4 +1,9 @@
-import { leaderWealthObservations, wealthHistory } from "@/lib/leader-wealth";
+import { leaderCompanyLinks } from "@/lib/leader-links";
+import {
+  leaderWealthObservations,
+  wealthHistory,
+  wealthChartSeries,
+} from "@/lib/leader-wealth";
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
@@ -39,11 +44,34 @@ function Source({ id }: { id: string }) {
   return s ? <a href={s.url}>{s.title}</a> : null;
 }
 export function LeaderProfile({ leader: p }: { leader: Profile }) {
+  const companyLinks = leaderCompanyLinks(p.slug);
   const portrait = leaderPortrait(p);
   const wealthObservations = leaderWealthObservations(p);
+  const stakeComparison =
+    p.slug === "greg-brockman"
+      ? {
+          date: "2026-05-04",
+          display: "Nearly $30B",
+          sourceId: "brockman-ap",
+          basis: "Reported sworn testimony: OpenAI stake alone",
+          note: "A holding value, not total net worth. Forbes’s $25.5B personal estimate uses a different date and scope.",
+        }
+      : p.slug === "ilya-sutskever"
+        ? {
+            date: "2026-05-11",
+            display: "About $7B",
+            sourceId: "sutskever-stake",
+            basis: "Reported OpenAI stake value",
+            note: "A partial asset valuation. It does not establish a personal total including SSI, other assets and liabilities.",
+          }
+        : null;
   const historySummary = wealthHistory[p.slug]?.summary;
   const related = leaderProfiles
     .filter((l) => l.slug !== p.slug && l.cluster === p.cluster)
+    .sort(
+      (a, b) =>
+        Number(b.company === p.company) - Number(a.company === p.company),
+    )
     .slice(0, 3);
   return (
     <article className="leader-profile">
@@ -61,6 +89,26 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
             Who is {p.name}?<br />
             <em>{p.hook}.</em>
           </h1>
+          <section className="leader-direct-answer">
+            <span className="eyebrow">THE SHORT ANSWER</span>
+            <p>
+              <Inline
+                text={
+                  p.wealth.sourceId
+                    ? p.answer.replace(
+                        p.wealth.display,
+                        "[" +
+                          p.wealth.display +
+                          "](" +
+                          leaderSources[p.wealth.sourceId].url +
+                          ")",
+                      )
+                    : p.answer
+                }
+              />
+            </p>
+          </section>
+
           <p className="leader-dek">{p.dek}</p>
           <div className="leader-author">
             <Link href={publicationAuthor.path}>
@@ -79,7 +127,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                 </Link>
               </span>
               <small>
-                Research draft · Checked {dateLabel(p.checked)} ·{" "}
+                Research checked {dateLabel(p.checked)} ·{" "}
                 <a href="https://www.linkedin.com/company/visionary-talks1/">
                   Visionary Talks on LinkedIn
                 </a>
@@ -91,7 +139,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
           <figure className="leader-profile-portrait">
             <Image
               src={portrait}
-              alt={"AI editorial illustration of " + p.name}
+              alt={"Illustration of " + p.name + ", " + p.company + " leader"}
               width={1024}
               height={1536}
               priority
@@ -105,12 +153,21 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
       </header>
       <dl className="leader-facts">
         <div>
-          <dt>Company</dt>
+          <dt>Company / role</dt>
           <dd>{p.company}</dd>
+          <small>{p.role}</small>
         </div>
         <div>
-          <dt>Role / record</dt>
-          <dd>{p.role}</dd>
+          <dt>Stake status</dt>
+          <dd>
+            {p.slug === "lucy-guo"
+              ? "About 3% of Scale, estimated by Forbes"
+              : p.slug === "edwin-chen"
+                ? "75% Forbes / 82% Bloomberg estimates"
+                : p.slug === "michael-intrator"
+                  ? "61,505,714 beneficial shares, April 2026 proxy"
+                  : "Exact personal stake not disclosed"}
+          </dd>
         </div>
         <div>
           <dt>Personal wealth</dt>
@@ -118,18 +175,20 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
           <small>
             {p.wealth.value === null
               ? "No substantiated total"
-              : dateLabel(p.wealth.date) + " · estimate"}
+              : dateLabel(p.wealth.date) + " · " + p.wealth.basis}
           </small>
         </div>
         <div>
-          <dt>Research basis</dt>
-          <dd>{p.sourceIds.length} reviewed sources</dd>
-          <small>Independent desk research</small>
+          <dt>Company value is separate</dt>
+          <dd>{p.capital.at(-1)?.valuation ?? "Not disclosed"}</dd>
+          <small>Company record, not personal wealth</small>
         </div>
       </dl>
       <div className="leader-reading-layout">
         <aside className="leader-toc">
           <span className="eyebrow">IN THIS PROFILE</span>
+          <a href="#quick-facts">Quick facts</a>
+          <a href="#faq">Questions about {p.name}</a>
           <a href="#background">The company-building story</a>
           <a href="#capital">Capital & ownership</a>
           <a href="#wealth">{p.name} net worth</a>
@@ -137,30 +196,67 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
           <a href="#sources">Sources & records</a>
         </aside>
         <div className="leader-reading-body">
-          <section className="leader-direct-answer">
-            <span className="eyebrow">THE SHORT ANSWER</span>
-            <p>{p.answer}</p>
-          </section>
           <aside className="leader-company-link">
             <span className="eyebrow">FOLLOW THE COMPANY</span>
             <p>
-              {p.company.includes("Cursor") ? (
+              {companyLinks.ownership ? (
                 <>
-                  Explore <Link href="/who-owns-cursor/">who owns Cursor</Link>{" "}
-                  for the company side of this founder’s story.
+                  Investigate{" "}
+                  <Link href={companyLinks.ownership}>
+                    who owns {companyLinks.company}
+                  </Link>{" "}
+                  alongside the personal wealth records.
                 </>
               ) : (
                 <>
-                  See how businesses fit together in our{" "}
-                  <Link href="/ai-companies/">AI companies tracker</Link>. A
-                  dedicated ownership file for {p.company} is still being
-                  researched.
+                  Compare {p.company} with businesses in the{" "}
+                  <Link href="/ai-companies/">AI companies tracker</Link>.
+                </>
+              )}
+              {companyLinks.salary && (
+                <>
+                  {" "}
+                  For employee economics, see{" "}
+                  <Link href={companyLinks.salary}>
+                    {companyLinks.company} salaries in the AI Salary Database
+                  </Link>
+                  .
                 </>
               )}
             </p>
           </aside>
+          <section className="leader-prose-section" id="quick-facts">
+            <h2>{p.name} at a glance</h2>
+            <div
+              className="table-scroll article-table-scroll"
+              tabIndex={0}
+              role="region"
+              aria-label={p.name + " quick facts"}
+            >
+              <table>
+                <caption>
+                  Dated public records and attributed biographical information
+                </caption>
+                <tbody>
+                  {p.quickFacts.map((f) => (
+                    <tr key={f.label}>
+                      <th scope="row">{f.label}</th>
+                      <td>
+                        {f.value}
+                        {f.sourceId && (
+                          <small>
+                            <Source id={f.sourceId} />
+                          </small>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </section>
           <div id="background">
-            {p.sections.map((s, i) => (
+            {p.sections.slice(0, 3).map((s, i) => (
               <section className="leader-prose-section" key={s.heading}>
                 <span className="eyebrow">
                   {String(i + 1).padStart(2, "0")} / THE RESEARCH
@@ -176,7 +272,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
           </div>
           <section className="leader-prose-section" id="capital">
             <span className="eyebrow">THE CAPITAL LEDGER</span>
-            <h2>Follow the money.</h2>
+            <h2>{p.company} funding and ownership history</h2>
             <p>
               Corporate events and historical holdings. These figures are not a
               personal wealth total.
@@ -216,9 +312,24 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
               </table>
             </div>
           </section>
+          <div id="findings">
+            {p.sections.slice(3).map((s) => (
+              <section className="leader-prose-section" key={s.heading}>
+                <span className="eyebrow">THE RECORD AND MY READ</span>
+                <h2>{s.heading}</h2>
+                {s.paragraphs.map((text, i) => (
+                  <p key={i}>
+                    <Inline text={text} />
+                  </p>
+                ))}
+              </section>
+            ))}
+          </div>
           <section className="leader-prose-section" id="wealth">
             <span className="eyebrow">THE WEALTH FILE</span>
-            <h2>{p.name} net worth</h2>
+            <h2>
+              {p.name} net worth in {p.checked.slice(0, 4)}
+            </h2>
             <p>
               <Inline
                 text={
@@ -227,6 +338,41 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                 }
               />
             </p>
+            {stakeComparison && (
+              <div
+                className="table-scroll article-table-scroll"
+                tabIndex={0}
+                role="region"
+                aria-label="Stake valuation comparison"
+              >
+                <table>
+                  <caption>
+                    Reported holding value: separate from total net worth
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Holding value</th>
+                      <th>Measure / source</th>
+                      <th>Interpretation</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>{dateLabel(stakeComparison.date)}</td>
+                      <td>{stakeComparison.display}</td>
+                      <td>
+                        {stakeComparison.basis}
+                        <small>
+                          <Source id={stakeComparison.sourceId} />
+                        </small>
+                      </td>
+                      <td>{stakeComparison.note}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            )}
             {p.wealth.value !== null ? (
               <>
                 <div
@@ -240,7 +386,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                     <thead>
                       <tr>
                         <th scope="col">Date</th>
-                        <th scope="col">Personal estimate</th>
+                        <th scope="col">Personal estimate / estimator</th>
                         <th scope="col">Basis</th>
                         <th scope="col">Source</th>
                       </tr>
@@ -252,7 +398,10 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                             {dateLabel(o.date)}
                             <small>{o.dateBasis}</small>
                           </td>
-                          <td>{o.display}</td>
+                          <td>
+                            {o.display}
+                            <small>{o.estimator ?? "Forbes"}</small>
+                          </td>
                           <td>
                             {o.basis}
                             <small>{o.note}</small>
@@ -265,61 +414,53 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
                     </tbody>
                   </table>
                 </div>
-                <EditorialChart
-                  title={p.name + " net worth estimates over time"}
-                  subtitle={
-                    wealthObservations.length > 1
-                      ? "USD billions · Dated personal wealth estimates · Each bar is a separate observation"
-                      : "USD billions · One supported historical estimate; additional dated totals remain unverified"
-                  }
-                  series={[
-                    {
-                      name: "Personal wealth estimate",
-                      points: wealthObservations.map((o) => ({
-                        label: dateLabel(o.date),
-                        value: o.value,
-                        display: o.display,
-                      })),
-                    },
-                  ]}
-                  source={
-                    <>
-                      Sources:{" "}
-                      {[
-                        ...new Set(wealthObservations.map((o) => o.sourceId)),
-                      ].map((id, i) => (
-                        <Fragment key={id}>
-                          {i > 0 ? "; " : ""}
-                          <Source id={id} />
-                        </Fragment>
-                      ))}
-                    </>
-                  }
-                >
-                  <p className="chart-method">
-                    We conduct independent desk research and compare dated
-                    personal estimates in the table above. Dates identify
-                    valuations, report publication, or our source observation,
-                    as labeled. Bars are equally spaced observations, not
-                    continuous calendar intervals. Figures are nominal USD;
-                    private holdings may be illiquid. We do not interpolate
-                    gaps, infer founder stakes, or count company funding as
-                    personal wealth.
-                  </p>
-                </EditorialChart>
+                {wealthObservations.length >= 3 && (
+                  <EditorialChart
+                    title={p.name + " net worth estimates over time"}
+                    subtitle={
+                      wealthObservations.length > 1
+                        ? "USD billions · Dated personal wealth estimates · Each bar is a separate observation"
+                        : "USD billions · One supported historical estimate; additional dated totals remain unverified"
+                    }
+                    series={wealthChartSeries(wealthObservations)}
+                    source={
+                      <>
+                        Sources:{" "}
+                        {[
+                          ...new Set(wealthObservations.map((o) => o.sourceId)),
+                        ].map((id, i) => (
+                          <Fragment key={id}>
+                            {i > 0 ? "; " : ""}
+                            <Source id={id} />
+                          </Fragment>
+                        ))}
+                      </>
+                    }
+                  >
+                    <p className="chart-method">
+                      I compare dated personal estimates in the table above.
+                      Dates identify valuations, report publication, or our
+                      source observation, as labeled. Bars are equally spaced
+                      observations, not continuous calendar intervals. Figures
+                      are nominal USD; private holdings may be illiquid. I do
+                      not interpolate gaps, infer founder stakes, or count
+                      company funding as personal wealth.
+                    </p>
+                  </EditorialChart>
+                )}
               </>
             ) : (
               <aside className="leader-unknown">
                 <span className="eyebrow">NO SUPPORTED PERSONAL TOTAL</span>
-                <h3>A blank is more accurate than an invented number.</h3>
+                <h3>{p.name}: personal total not established</h3>
                 <p>
                   The reviewed records do not establish a personal net-worth
-                  total. Company financing and transaction prices are excluded
-                  from this chart.
+                  total. Company financing and transaction prices are separate
+                  measures.
                 </p>
               </aside>
             )}
-            <h3>Company and financial milestones</h3>
+            <h3>{p.company}: dated financial events</h3>
             <ol className="leader-timeline">
               {p.timeline.map((t, i) => (
                 <li key={i}>
@@ -331,56 +472,73 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
               ))}
             </ol>
           </section>
+          <section className="leader-prose-section leader-faq" id="faq">
+            <h2>Questions about {p.name}</h2>
+            {p.faq.map((f) => (
+              <div key={f.question}>
+                <h3>{f.question}</h3>
+                <p>
+                  <Inline
+                    text={
+                      f.sourceId
+                        ? f.answer.replace(/\.$/, "") +
+                          " ([source](" +
+                          leaderSources[f.sourceId].url +
+                          "))."
+                        : f.answer
+                    }
+                  />
+                </p>
+              </div>
+            ))}
+          </section>
           <section className="leader-methodology" id="methodology">
             <span className="eyebrow">HOW WE RESEARCHED THIS</span>
-            <h2>
-              Independent research.
-              <br />
-              <em>Visible assumptions.</em>
-            </h2>
+            <h2>How I researched {p.name}</h2>
             <p>
               <Inline text={p.methodology} />
-            </p>
-            <p>
-              Our work is independent desk research and source comparison. We
-              have not audited {p.name}’s private balance sheet. Personal
-              estimates may include illiquid holdings and provider assumptions;
-              transaction consideration does not establish after-tax proceeds.
             </p>
             <Link href="/about/#research">
               Meet the researcher and read our approach ↗
             </Link>
           </section>
           <section className="leader-sources" id="sources">
-            <h2>The source file</h2>
+            <h2>Sources and records</h2>
             <p>
-              Records accessed {dateLabel(p.checked)}. Company and investor
+              Access dates are listed for each record. Company and investor
               statements are interested sources.
             </p>
             <ol>
-              {p.sourceIds.map((id) => {
-                const s = leaderSources[id];
-                return (
-                  s && (
-                    <li key={id}>
-                      <Source id={id} />
-                      <small>
-                        {s.type}
-                        {s.date ? " · " + dateLabel(s.date) : ""}
-                      </small>
-                    </li>
-                  )
-                );
-              })}
+              {[...p.sourceIds]
+                .sort(
+                  (a, b) =>
+                    Number(
+                      /Independent|wealth estimate|report|news/i.test(
+                        leaderSources[a]?.type ?? "",
+                      ),
+                    ) -
+                    Number(
+                      /Forbes|Bloomberg|report|news/i.test(
+                        leaderSources[b]?.type ?? "",
+                      ),
+                    ),
+                )
+                .map((id) => {
+                  const s = leaderSources[id];
+                  return (
+                    s && (
+                      <li key={id}>
+                        <Source id={id} />
+                        <small>
+                          {s.type}
+                          {s.date ? " · " + dateLabel(s.date) : ""} · Accessed{" "}
+                          {dateLabel(s.accessed || p.checked)}
+                        </small>
+                      </li>
+                    )
+                  );
+                })}
             </ol>
-            <details>
-              <summary>Research boundaries and verification notes</summary>
-              <ul>
-                {p.notes.map((note) => (
-                  <li key={note}>{note}</li>
-                ))}
-              </ul>
-            </details>
           </section>
           <aside className="leader-author-end">
             <Image

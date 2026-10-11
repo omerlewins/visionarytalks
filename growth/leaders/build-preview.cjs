@@ -1,45 +1,19 @@
-require("./align-home-chart.cjs");
-const fs=require("node:fs"), path=require("node:path"), root=__dirname;
-const read=name=>fs.readFileSync(path.join(root,name),"utf8").replace(/^\uFEFF/,"");
-const md=read("michael-truell.md"), wealth=JSON.parse(read("michael-truell-net-worth.json"));
-const inline=text=>text.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/\[([^\]]+)\]\((https:\/\/[^)]+)\)/g,'<a href="$2">$1</a>').replace(/\*\*([^*]+)\*\*/g,"<strong>$1</strong>");
-function renderWealth(){
- const observations=wealth.observations;
- if(!observations?.length||observations.some(o=>!Number.isFinite(o.value)||o.value<0))throw new Error("Invalid historical wealth observations");
- const max=Math.max(1,...observations.map(o=>o.value));
- const label=date=>new Date(date+"T12:00:00Z").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric",timeZone:"UTC"});
- const rows=observations.map(o=>'<tr><td>'+label(o.date)+'<small>'+inline(o.dateBasis)+'</small></td><td>'+inline(o.display)+'</td><td>'+inline(o.basis)+'<small>'+inline(o.note)+'</small></td><td><a href="'+o.source+'">Forbes estimate</a></td></tr>').join("");
- const bars=observations.map((o,i)=>'<div class="plot-group"><div class="plot-columns"><div class="plot-column"><div class="plot-bar '+(i===observations.length-1?'ink':'')+'" style="height:'+(o.value/max*100)+'%"><span>'+inline(o.display)+'</span></div></div></div><b class="plot-label">'+label(o.date)+'</b></div>').join("");
- const timeline=wealth.timeline.map(event=>'<li><time datetime="'+event.date+'">'+inline(event.label)+'</time><span><a href="'+event.source+'">'+inline(event.text)+'</a></span></li>').join("");
- return '<section id="wealth"><h2>'+inline(wealth.heading)+'</h2><p>'+inline(wealth.paragraph)+'</p>'+
- '<div class="table-wrap" tabindex="0" role="region" aria-label="Net worth estimates over time"><table><thead><tr><th>Date</th><th>Personal estimate</th><th>Basis</th><th>Source</th></tr></thead><tbody>'+rows+'</tbody></table></div>'+
- '<figure class="data-chart editorial-chart wealth-snapshot"><figcaption><span class="eyebrow">BUSINESS IN NUMBERS</span><h3>Michael Truell net worth estimates over time</h3><p>USD billions · Separate dated personal estimates</p></figcaption>'+
- '<div class="chart-scroll" tabindex="0" role="region" aria-label="Historical net worth chart"><div class="editorial-plot" style="min-width:400px" aria-hidden="true"><span class="zero-label">0</span>'+bars+'</div></div>'+
- '<div class="chart-source">Sources: '+observations.map(o=>'<a href="'+o.source+'">Forbes: '+label(o.date)+'</a>').join('; ')+'</div>'+
- '<p class="chart-method">Zero baseline. Equally spaced observations; missing dates are not interpolated. Dates and estimate definitions are labeled in the source table above. Company funding and transaction consideration are excluded.</p></figure>'+
- '<h3>Company and financial milestones</h3><ol class="wealth-timeline">'+timeline+'</ol>'+
- '<div class="wealth-method"><h3>Our research methodology</h3><p class="note">'+inline(wealth.methodology)+'</p></div></section>';
-}
-
-const ids=["school","halite","founding","editor","growth","company","wealth","research"];
-const body=md.split(/^## /m).slice(1).filter(x=>!x.startsWith("Private release")&&!x.startsWith("Follow the company")).map((part,index)=>{
- if(ids[index]==="wealth")return renderWealth();
- const [title,...lines]=part.trim().split("\n");
- const html=lines.join("\n").trim().split(/\n\s*\n/).map(block=>{
-  if(!block.startsWith("|"))return "<p>"+inline(block.replace(/\n/g," "))+"</p>";
-  const rows=block.split("\n").filter(x=>!x.includes("| ---")).map(x=>x.split("|").slice(1,-1).map(x=>inline(x.trim())));
-  return '<div class="table-wrap" tabindex="0" role="region" aria-label="'+inline(title)+'"><table><thead><tr>'+rows[0].map(x=>"<th>"+x+"</th>").join("")+"</tr></thead><tbody>"+rows.slice(1).map(row=>"<tr>"+row.map(x=>"<td>"+x+"</td>").join("")+"</tr>").join("")+"</tbody></table></div>";
- }).join("\n");
- return '<section id="'+ids[index]+'"><h2>'+inline(title)+"</h2>"+html+"</section>";
-}).join("\n");
-let preview=read("preview.html");
-preview=preview.replace(/<section id="(?:person|school)">[\s\S]*?(?=<aside class="related">)/,()=>body+"\n");
-preview=preview.replace(/<section id="sources">[\s\S]*?<\/section>/,'<section id="sources"><h2>Sources &amp; methodology</h2><p class="note">Visionary Talks conducts independent research into public records. For this profile, we reviewed school archives, project credits, contemporary founder comments and company announcements; checked dates and financial definitions; and independently calculated the four-round funding total. Investor accounts are identified as interested sources. Personal wealth remains a dated Forbes estimate. Our contribution is the documentary investigation and analysis; the reviewed sources do not disclose a complete private balance sheet. Research checked October 9, 2026.</p></section>');
-preview=preview.replace(/<link rel="stylesheet" href="homepage-chart.css">\s*/g,"").replace("</head>",'<link rel="stylesheet" href="homepage-chart.css"></head>');
-fs.writeFileSync(path.join(root,"preview.html"),preview);
-const packet=JSON.parse(read("michael-truell-packet.json"));
-packet.urls=[...new Set([...packet.urls.map(x=>x.url),...Array.from(md.matchAll(/\]\((https:\/\/[^)]+)\)/g),x=>x[1])])].map(url=>({url}));
-fs.writeFileSync(path.join(root,"michael-truell-packet.json"),JSON.stringify(packet,null,2)+"\n");
-
-
-require("./update-author.cjs");
+const fs = require('node:fs'), path = require('node:path');
+const root=__dirname, read=file=>JSON.parse(fs.readFileSync(path.join(root,'../../app/src/data',file),'utf8'));
+const p=read('michael-truell-profile.json').profile, history=read('leader-wealth-history.json'), sources={...read('michael-truell-profile.json').sources,...history.sources};
+const inline=t=>t.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2">$1</a>');
+const table=(headers,rows)=>'<div class="table-wrap" tabindex="0"><table><thead><tr>'+headers.map(h=>'<th>'+inline(h)+'</th>').join('')+'</tr></thead><tbody>'+rows.map(row=>'<tr>'+row.map(v=>'<td>'+inline(v)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+const section=(id,title,body)=>'<section id="'+id+'"><h2>'+inline(title)+'</h2>'+body+'</section>';
+const facts=section('quick-facts',p.name+' at a glance',table(['Fact','Public record'],p.quickFacts.map(f=>[f.label,f.value+(f.sourceId?' ([source]('+sources[f.sourceId].url+'))':'')])));
+const prose=p.sections.map((s,i)=>section(['school','halite','founding','editor','growth','company'][i],s.heading,s.paragraphs.map(t=>'<p>'+inline(t)+'</p>').join('')));
+const capital=section('capital','Cursor funding and ownership history',table(['Date','Event','Amount','Company value'],p.capital.map(c=>['['+c.date+']('+sources[c.sourceId].url+')',c.event,c.amount,c.valuation])));
+const observations=[...(history.profiles[p.slug]?.observations??[]),{...p.wealth,dateBasis:'Source observation'}];
+let chart='';if(observations.length>=3){const max=Math.max(...observations.map(o=>o.value));chart='<figure class="data-chart editorial-chart"><figcaption><span class="eyebrow">BUSINESS IN NUMBERS</span><h3>Michael Truell net worth over time</h3><p>USD billions · Forbes estimates</p></figcaption><div class="chart-scroll"><div class="editorial-plot" style="min-width:400px">'+observations.map(o=>'<div class="plot-group"><div class="plot-columns"><div class="plot-column"><div class="plot-bar" style="height:'+(o.value/max*100)+'%"><span>'+o.display+'</span></div></div></div><b class="plot-label">'+o.date+'</b></div>').join('')+'</div></div><p class="chart-method">Equally spaced observations. Missing estimates are not interpolated. Sources are linked in the table above.</p></figure>';}
+const wealth=section('wealth',p.name+' net worth over time','<p>'+inline(p.wealth.paragraph)+'</p>'+table(['Date','Estimate','Estimator / basis','Source'],observations.map(o=>[o.date+' · '+o.dateBasis,o.display,'Forbes · '+o.basis,'['+sources[o.sourceId].title+']('+sources[o.sourceId].url+')']))+chart+'<h3>Cursor: dated financial events</h3><ol>'+p.timeline.map(t=>'<li>['+t.date+']('+sources[t.sourceId].url+'): '+t.text+'</li>').map(inline).join('')+'</ol>');
+const faq=section('faq','Questions about '+p.name,p.faq.map(f=>'<h3>'+f.question+'</h3><p>'+inline(f.answer)+'</p>').join(''));
+const methodology=section('research','How I researched '+p.name,'<p>'+inline(p.methodology)+'</p>');
+const sourceSection=section('sources','Sources and records','<ol>'+[...new Set([...p.sourceIds,...(history.profiles[p.slug]?.observations??[]).map(o=>o.sourceId)])].map(id=>'<li><a href="'+sources[id].url+'">'+sources[id].title+'</a> · '+sources[id].type+' · Accessed '+sources[id].accessed+'</li>').join('')+'</ol>');
+let html=fs.readFileSync(path.join(root,'preview.html'),'utf8');
+html=html.replace(/<section id="(?:quick-facts|person|school)">[\s\S]*?(?=<aside class="related">)/,facts+prose.slice(0,3).join('')+capital+prose.slice(3).join('')+wealth+faq+methodology+'\n');
+html=html.replace(/<section id="sources">[\s\S]*?<\/section>/,sourceSection);
+fs.writeFileSync(path.join(root,'preview.html'),html);

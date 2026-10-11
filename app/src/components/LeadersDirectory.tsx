@@ -4,6 +4,10 @@ import { LeaderCard } from "./LeaderCards";
 import type { LeaderSummary } from "@/lib/leader-display";
 const groups = [
   "All leaders",
+  "Cursor",
+  "OpenAI",
+  "Anthropic",
+  "DeepMind",
   "Models & science",
   "Applications & agents",
   "Data & infrastructure",
@@ -13,7 +17,9 @@ export function LeadersDirectory({ leaders }: { leaders: LeaderSummary[] }) {
   const [query, setQuery] = useState("");
   const matches = leaders.filter(
     (p) =>
-      (group === "All leaders" || p.cluster === group) &&
+      (group === "All leaders" ||
+        p.cluster === group ||
+        p.company.includes(group)) &&
       [p.name, p.company, p.hook]
         .join(" ")
         .toLowerCase()

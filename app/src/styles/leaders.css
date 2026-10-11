@@ -831,3 +831,8 @@
   flex-direction: column;
   gap: 12px;
 }
+
+.leader-profile-header .leader-direct-answer { margin: 24px 0; padding: 20px; border-block: 1px solid var(--line, #b9b9b5); background: #f4f4f2; }
+.leader-profile-header .leader-direct-answer p { font: 20px/1.5 Georgia, serif; margin: 10px 0 0; }
+.leader-faq > div { border-top: 1px solid #c5c5c0; padding: 18px 0; }
+.leader-facts dd { overflow-wrap: anywhere; }

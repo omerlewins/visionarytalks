@@ -1,3 +1,5 @@
+import { isLeadersReview } from "@/lib/leaders-review";
+import { ownershipLeaders, linkLeaderMentions } from "@/lib/leader-backlinks";
 import profile from "@/data/publication-profile.json";
 import { articleAuthor } from "@/lib/authors";
 import Link from "next/link";
@@ -33,6 +35,7 @@ export function StoryTemplate({
   story: StoryData;
   related?: StoryData[];
 }) {
+  const people = isLeadersReview() ? ownershipLeaders(s.path) : [];
   const author = articleAuthor(s.author);
   const legacy = legacyHeadings(s.legacyHTML ?? "");
   const showSources = s.sources.length > 0 || !s.legacyHTML;
@@ -270,7 +273,14 @@ export function StoryTemplate({
             ))}
             {s.richBody && <RichText data={s.richBody} />}
             {s.legacyHTML && (
-              <LegacyContent html={legacy.content} ownership={ownership} />
+              <LegacyContent
+                html={
+                  people.length
+                    ? linkLeaderMentions(legacy.content, s.path)
+                    : legacy.content
+                }
+                ownership={ownership}
+              />
             )}
             {!!s.timeline?.length && (
               <section>
@@ -387,6 +397,24 @@ export function StoryTemplate({
           )}
         </div>
       </article>
+      {!!people.length && (
+        <section className="leader-related">
+          <span className="eyebrow">FOLLOW THE PEOPLE</span>
+          <h2>The leaders behind {brand}</h2>
+          <div>
+            {people.map((p) => (
+              <article key={p.slug}>
+                <h3>
+                  <Link href={p.path}>
+                    {p.name}’s net worth and company story
+                  </Link>
+                </h3>
+                <p>{p.hook}.</p>
+              </article>
+            ))}
+          </div>
+        </section>
+      )}
       {!!related.length && (
         <section className="section">
           <div className="section-heading">

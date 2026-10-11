@@ -17,5 +17,12 @@ export async function loadLeaderProfile(
     depth: 0,
   });
   const data = records.docs[0]?.data as { profile?: LeaderProfile } | undefined;
-  return data?.profile ?? base;
+  return data?.profile
+    ? {
+        ...base,
+        ...data.profile,
+        quickFacts: data.profile.quickFacts ?? base.quickFacts,
+        faq: data.profile.faq ?? base.faq,
+      }
+    : base;
 }

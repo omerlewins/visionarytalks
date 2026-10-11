@@ -7,13 +7,13 @@ const checks=[];fs.mkdirSync('../private/growth/leaders-design',{recursive:true}
 for(const p of all){
  const r=await page.goto('http://127.0.0.1:3110'+p.path,{waitUntil:'networkidle'});
  if(r.status()!==200)throw Error('Profile failed '+p.name);
- const charts=await page.locator('.editorial-chart').count();if(charts!==(p.wealth.value===null?0:1))throw Error('Unsupported chart '+p.name);
+ const expected=(history.profiles[p.slug]?.observations.length??0)+(p.wealth.value===null?0:1)+(p.slug==='edwin-chen'?1:0);const charts=await page.locator('.editorial-chart').count();if(charts!==(expected>=3?1:0))throw Error('Unsupported chart '+p.name);
  if(await page.locator('#capital .article-table-scroll').count()!==1)throw Error('Capital table mismatch');
- if(charts){const expected=(history.profiles[p.slug]?.observations.length??0)+1; if(await page.locator('.editorial-chart .plot-bar').count()!==expected||await page.locator('#wealth > .article-table-scroll tbody tr').count()!==expected)throw Error('History points mismatch '+p.name); const styles=await page.locator('.editorial-chart').evaluate(el=>({title:getComputedStyle(el.querySelector('h3')).fontSize,subtitle:getComputedStyle(el.querySelector('figcaption p')).fontSize,method:getComputedStyle(el.querySelector('.chart-method')).fontSize}));if(styles.title!=='30px'||styles.subtitle!=='13px'||styles.method!=='11px')throw Error(JSON.stringify({name:p.name,styles}));if(await page.locator('#wealth > .article-table-scroll').count()!==1)throw Error('Missing source table');}
+ if(charts){if(await page.locator('.editorial-chart .plot-bar').count()!==expected||await page.locator('#wealth > .article-table-scroll tbody tr').count()!==expected)throw Error('History points mismatch '+p.name); const styles=await page.locator('.editorial-chart').evaluate(el=>({title:getComputedStyle(el.querySelector('h3')).fontSize,subtitle:getComputedStyle(el.querySelector('figcaption p')).fontSize,method:getComputedStyle(el.querySelector('.chart-method')).fontSize}));if(styles.title!=='30px'||styles.subtitle!=='13px'||styles.method!=='11px')throw Error(JSON.stringify({name:p.name,styles}));if(await page.locator('#wealth > .article-table-scroll').count()!==1)throw Error('Missing source table');}
  checks.push({name:p.name,status:r.status(),charts});
 }
 for(const width of [1440,390]){
- await page.setViewportSize({width,height:1000});await page.goto('http://127.0.0.1:3110/leaders/aman-sanger/',{waitUntil:'networkidle'});
+ await page.setViewportSize({width,height:1000});await page.goto('http://127.0.0.1:3110/leaders/lucy-guo/',{waitUntil:'networkidle'});
  await page.locator('#wealth').scrollIntoViewIfNeeded();await page.screenshot({path:`../private/growth/leaders-design/wealth-${width}.png`});
  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>window.innerWidth);if(overflow)throw Error('Page overflow '+width);
  if(width===390){const chart=await page.locator('.chart-scroll').evaluate(el=>({client:el.clientWidth,scroll:el.scrollWidth}));if(chart.scroll<=chart.client)throw Error('Mobile graph should scroll');}

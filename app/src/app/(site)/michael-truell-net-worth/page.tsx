@@ -1,18 +1,26 @@
+import { leaderMetadata, leaderSchema } from "@/lib/leader-schema";
 import { notFound } from "next/navigation";
 import { isLeadersReview } from "@/lib/leaders-review";
 import { loadLeaderProfile } from "@/lib/leader-content";
 import { LeaderProfile } from "@/components/LeaderProfile";
 export const dynamic = "force-dynamic";
-export const metadata = {
-  title: { absolute: "Michael Truell Net Worth: How He Built Cursor" },
-  description:
-    "Michael Truell’s Cursor story through archival records, financing disclosures and a dated personal wealth estimate.",
-  alternates: { canonical: "/michael-truell-net-worth/" },
-  robots: { index: false, follow: false },
-};
+export async function generateMetadata() {
+  const p = await loadLeaderProfile("michael-truell");
+  return p ? leaderMetadata(p) : {};
+}
 export default async function Page() {
   if (!isLeadersReview()) notFound();
   const p = await loadLeaderProfile("michael-truell");
   if (!p) notFound();
-  return <LeaderProfile leader={p} />;
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(leaderSchema(p)).replace(/</g, "\\u003c"),
+        }}
+      />
+      <LeaderProfile leader={p} />
+    </>
+  );
 }
