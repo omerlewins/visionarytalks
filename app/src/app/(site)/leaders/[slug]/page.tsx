@@ -1,13 +1,13 @@
+import { loadLeaderProfile } from "@/lib/leader-content";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { isLeadersReview } from "@/lib/leaders-review";
-import { leaderProfiles } from "@/lib/leaders";
 import { LeaderProfile } from "@/components/LeaderProfile";
 type Props = { params: Promise<{ slug: string }> };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLeadersReview()) return { robots: { index: false, follow: false } };
   const { slug } = await params;
-  const p = leaderProfiles.find((p) => p.slug === slug);
+  const p = await loadLeaderProfile(slug);
   return p
     ? {
         title: { absolute: p.seo.title },
@@ -20,8 +20,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 export default async function Page({ params }: Props) {
   if (!isLeadersReview()) notFound();
   const { slug } = await params;
-  const p = leaderProfiles.find((p) => p.slug === slug);
+  const p = await loadLeaderProfile(slug);
   if (!p) notFound();
+  if (p.path !== "/leaders/" + slug + "/") permanentRedirect(p.path);
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",

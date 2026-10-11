@@ -98,7 +98,10 @@ export default async function LeadersPage() {
           records. Personal wealth estimates carry dates. Company valuations
           stay separate.
         </p>
-        <Link href="/about/#research">Our approach ↗</Link>
+        <div className="leader-research-links">
+          <Link href="/about/#research">Our approach ↗</Link>
+          <Link href="/content-review/">All new content ↗</Link>
+        </div>
       </aside>
       <LeadersDirectory leaders={leaderProfiles.map(leaderSummary)} />
     </>

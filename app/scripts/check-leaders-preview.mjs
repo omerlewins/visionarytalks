@@ -1,19 +1,19 @@
 import {chromium} from '@playwright/test';
 import fs from 'node:fs';
 const base='http://127.0.0.1:3107';
-const data=JSON.parse(fs.readFileSync('src/data/leader-profiles.json','utf8'));
+const data=JSON.parse(fs.readFileSync('src/data/leader-profiles.json','utf8'));data.leaders.push(JSON.parse(fs.readFileSync('src/data/michael-truell-profile.json','utf8')).profile);
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:1440,height:1000},deviceScaleFactor:1});
 const failures=[];const checks=[];
 page.on('pageerror',e=>failures.push(e.message));
 for(const p of data.leaders){const r=await page.goto(base+p.path,{waitUntil:'domcontentloaded'});await page.locator('.leader-reading-body').waitFor();const text=await page.locator('article.leader-profile').innerText();const charts=await page.locator('.editorial-chart').count();if(r.status()!==200||charts!==(p.wealth.value===null?0:1)||/\]\(https:/.test(text))failures.push(p.name+' route/chart/link rendering');const author=await page.locator('.leader-author-end>img').boundingBox();if(!author||author.width>75)failures.push(p.name+' author image sizing');checks.push({path:p.path,status:r.status(),charts});}
 await page.goto(base+'/leaders/',{waitUntil:'networkidle'});
-if(await page.locator('.leader-directory-grid article').count()!==20)failures.push('Directory initial count');
+if(await page.locator('.leader-directory-grid article').count()!==data.leaders.length)failures.push('Directory initial count');
 await page.getByRole('button',{name:'Applications & agents',exact:true}).click();
 checks.push({filter:'Applications & agents',count:await page.locator('.leader-directory-grid article').count()});
 await page.getByRole('button',{name:'All leaders',exact:true}).click();
 await page.getByRole('searchbox').fill('Cursor');
-if(await page.locator('.leader-directory-grid article').count()!==2)failures.push('Company search');
+if(await page.locator('.leader-directory-grid article').count()!==3)failures.push('Company search');
 await page.getByRole('searchbox').fill('no-such-leader');
 if(await page.locator('.leader-no-results').count()!==1)failures.push('Empty search state');
 await page.getByRole('searchbox').fill('');

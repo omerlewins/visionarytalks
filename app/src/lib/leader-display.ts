@@ -19,7 +19,7 @@ export const featuredLeaderSlugs = [
   "aman-sanger",
 ];
 export function leaderPortrait(p: LeaderSummary) {
-  return featuredLeaderSlugs.includes(p.slug)
+  return [...featuredLeaderSlugs, "michael-truell"].includes(p.slug)
     ? "/reference/" + p.slug + "-editorial-v1.png"
     : undefined;
 }

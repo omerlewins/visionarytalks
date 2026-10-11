@@ -1,0 +1,304 @@
+{
+  "profile": {
+    "name": "Michael Truell",
+    "slug": "michael-truell",
+    "path": "/michael-truell-net-worth/",
+    "company": "Cursor / Anysphere",
+    "cluster": "Applications & agents",
+    "role": "Cursor co-founder and CEO, per checked sources",
+    "hook": "How he built Cursor",
+    "dek": "School projects, developer communities and four funding rounds trace the business behind his dated wealth estimate.",
+    "answer": "Michael Truell is Cursor’s co-founder and CEO. Forbes estimated Michael Truell net worth at $2.8 billion on October 9, 2026. His exact holdings and liabilities are not disclosed in the reviewed records.",
+    "checked": "2026-10-09",
+    "status": "draft",
+    "seo": {
+      "title": "Michael Truell Net Worth: How He Built Cursor",
+      "description": "Michael Truell net worth and the Cursor story, investigated through school archives, founder posts, financing records and dated wealth estimates."
+    },
+    "wealth": {
+      "display": "$2.8B",
+      "value": 2.8,
+      "date": "2026-10-09",
+      "sourceId": "truell-0",
+      "basis": "Forbes personal wealth estimate",
+      "paragraph": "Michael Truell's net worth is estimated at $2.8 billion as of October 9, 2026, according to [Forbes' wealth profile](https://www.forbes.com/profile/michael-truell/). His financial turning point was Cursor's [August 2026 acquisition by SpaceX](https://cursor.com/blog/joining-spacex); Forbes estimates each co-founder received about $2.4 billion in SpaceX shares at closing. That stock consideration is part of the wealth story, not an additional cash payout to add to the current estimate. His exact holdings, liabilities and present ownership percentage remain undisclosed in the reviewed records."
+    },
+    "sections": [
+      {
+        "heading": "Before Cursor: the high-school project trail",
+        "paragraphs": [
+          "\nTruell was working on AI before Cursor existed. A [Horace Mann announcement from April 2016](https://www.horacemann.org/cf_news/view.cfm?newsid=903) records first-place science-fair awards for him and Joshua Gruenstein and their selection to present at the international fair in Phoenix. It identifies Truell with the school's class designation '18.",
+          "The underlying [Fido research repository](https://github.com/FidoProject/Research) credits both students with a robot-control system using reinforcement learning with limited feedback. The repository makes the research specific: the students were attempting to teach a machine through feedback. Its performance results remain the project authors' claims.",
+          "A second record shows him building infrastructure for other programmers. The [NYCSL project credits](https://github.com/HMProgrammingClub/NYCSL) name Truell, Gruenstein, Ben Spector and Luca Koval as authors of a high-school programming platform with monthly challenges, automated grading and school and global leaderboards.",
+          "Together, those records establish two strands of his early work: AI experimentation and software used by a programming community. The credits identify the collaborators who helped build those projects."
+        ]
+      },
+      {
+        "heading": "Halite: a developer community before Cursor",
+        "paragraphs": [
+          "\nThe [Halite project history](https://github.com/HaliteChallenge/Halite-II) identifies Truell and Spector as Two Sigma summer interns who conceived and developed Halite I in 2016. Programmers wrote bots to compete in a game that began as an internal challenge and expanded to a wider audience.",
+          "By 2018, the later competition had reached more than 6,000 active players across 100 countries, with more than 12 million game executions in three months, according to a [Two Sigma account co-authored by Truell and Spector](https://www.twosigma.com/articles/the-halite-global-ai-programming-competition-in-google-cloud-for-google-cloud-next/). These are Halite II figures; they measure the later platform's reach, not work attributable solely to its original creators.",
+          "The relevant experience was operational as well as technical: a programming environment had to work for users outside the team. That is a documented part of Truell's history before Cursor's commercial success."
+        ]
+      },
+      {
+        "heading": "How Cursor began: four founders and a pivot",
+        "paragraphs": [
+          "\nThe company dates to 2022. Truell's fellow founders were Sualeh Asif, Aman Sanger and Arvid Lunnemark, whom an [Andreessen Horowitz retrospective](https://a16z.com/cursor-spacexai-the-fastest-iterating-team-wins/) connects through MIT. The investor describes earlier experiments with an AI email client and an AI CAD tool before the team focused on coding.",
+          "That account comes from a Cursor investor, so its portrayal of the team's success has a financial interest behind it. The useful factual lead is the change of direction: the eventual product was not the team's first idea.",
+          "Our interpretation is that a coding tool shortened the distance between building and using the product. The founders could encounter problems in their own development work, change the tool and try it again. Contemporary comments help test that interpretation against what Truell was saying at the time."
+        ]
+      },
+      {
+        "heading": "The product bet: own the editing environment",
+        "paragraphs": [
+          "\nIn a [March 2023 Hacker News discussion](https://news.ycombinator.com/item?id=35285047), Truell, posting as mntruell, argued for editor-level changes involving errors, navigation, documentation and the move from instructions into code. This record predates the large funding announcements and shows an early ambition beyond a chatbot beside a code window.",
+          "His [October 2023 explanation of the VS Code fork](https://news.ycombinator.com/item?id=37888477) supplies a more specific reason: the team wanted interface changes, including the Cmd-K experience, that he said extensions could not support.",
+          "Cursor's [shadow-workspace engineering account](https://cursor.com/en-US/blog/shadow-workspace) shows how that approach translated into a system. AI-generated changes could be checked for lint errors in a separate workspace without interrupting the user's live editing environment.",
+          "Our analysis is that Cursor was competing over the workflow around the model as well as the model's output. Context, error checking and the act of accepting an edit were product decisions. The engineering record supports that distinction; it does not by itself measure a financial moat."
+        ]
+      },
+      {
+        "heading": "Follow the capital: $3.365 billion across four announced rounds",
+        "paragraphs": [
+          "\nCursor's [August 2024 Series A announcement](https://cursor.com/blog/series-a) reported a $60 million raise and more than 40,000 customers. Three subsequent announcements bring the four-round funding sum to $3.365 billion.",
+          "Our calculation: $60 million + $105 million + $900 million + $2.3 billion = $3.365 billion. The November round alone accounted for approximately 68.4% of that sum: $2.3 billion ÷ $3.365 billion × 100.",
+          "This is a sum of four announced raises, not lifetime funding, current cash or money paid to Truell. It shows how heavily the documented financing was concentrated in the final round. The announcements also use different revenue terms, so they cannot establish an exact revenue growth multiple.",
+          "Product expansion continued alongside the financing. Truell's [November 2024 Supermaven announcement](https://cursor.com/blog/supermaven) said the team was joining Cursor without disclosing a price. His [February 2026 essay on coding agents](https://cursor.com/blog/third-era) described a move toward longer tasks requiring less continuous direction, a statement of strategy, rather than measured productivity."
+        ]
+      },
+      {
+        "heading": "The ownership change behind the wealth estimate",
+        "paragraphs": [
+          "\nCursor's [August 14, 2026 closing announcement](https://cursor.com/blog/joining-spacex) confirmed that its acquisition by SpaceX had completed. The relevant question became how the transaction changed both corporate ownership and the founders' assets.",
+          "Our investigation of [who owns Cursor](/who-owns-cursor/) follows the company and transaction history. The records reviewed for this profile do not establish Truell's exact current equity percentage or voting control."
+        ]
+      },
+      {
+        "heading": "What the financial record reveals",
+        "paragraphs": [
+          "\nThe distinctive finding is the sequence, rather than a wealth ranking alone. Archival records show collaborative AI and programming projects years before Cursor. Contemporary founder comments identify control of the editing environment as an early product choice. The financing trail then records $3.365 billion across four announced rounds, with about two-thirds concentrated in the November 2025 round.",
+          "Those findings describe project history, product strategy and company financing. Forbes' wealth estimate answers the personal-assets question. Keeping those records separate makes the financial story more precise: we can trace the business's development without inventing a founder stake or a cash payout."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "truell-0",
+      "truell-1",
+      "truell-2",
+      "truell-3",
+      "truell-4",
+      "truell-5",
+      "truell-6",
+      "truell-7",
+      "truell-8",
+      "truell-9",
+      "truell-10",
+      "truell-11",
+      "truell-12",
+      "truell-13",
+      "truell-14",
+      "truell-15",
+      "truell-16",
+      "truell-17"
+    ],
+    "capital": [
+      {
+        "date": "2024-08-22",
+        "event": "Series A",
+        "amount": "$60M",
+        "valuation": "Not disclosed",
+        "note": "Company-reported. Not stated",
+        "sourceId": "truell-10"
+      },
+      {
+        "date": "2025-01-16",
+        "event": "Series B",
+        "amount": "$105M",
+        "valuation": "Not disclosed",
+        "note": "Company-reported. Recurring revenue exceeded $100M",
+        "sourceId": "truell-11"
+      },
+      {
+        "date": "2025-06-06",
+        "event": "Series C",
+        "amount": "$900M",
+        "valuation": "$9.9B",
+        "note": "Company-reported. ARR exceeded $500M",
+        "sourceId": "truell-12"
+      },
+      {
+        "date": "2025-11-13",
+        "event": "Series D",
+        "amount": "$2.3B",
+        "valuation": "$29.3B post-money",
+        "note": "Company-reported. Annualized revenue exceeded $1B",
+        "sourceId": "truell-13"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "2026-08-14",
+        "text": "Cursor confirms its acquisition by SpaceX has closed.",
+        "sourceId": "truell-16"
+      },
+      {
+        "date": "2026-10-09",
+        "text": "Forbes estimates Truell's personal net worth at $2.8 billion.",
+        "sourceId": "truell-0"
+      }
+    ],
+    "methodology": "We conduct independent research into public records, checking dates, financial definitions and transaction status. For this profile, we traced school and project archives, checked Cursor's funding and closing announcements, and independently calculated its four-round funding total. Personal wealth uses [Forbes' dated estimate](https://www.forbes.com/profile/michael-truell/); the reviewed records do not provide a complete personal balance sheet. We keep stock consideration separate from current wealth and do not infer cash proceeds or undisclosed ownership percentages. Sources checked October 9, 2026.",
+    "notes": [
+      "The $2.8B estimate is a historical October 9, 2026 observation, not a newly checked October 11 estimate.",
+      "Current role and exact personal ownership must be rechecked before publication.",
+      "Public-source archival research, not an interview or audit of private assets."
+    ]
+  },
+  "sources": {
+    "truell-0": {
+      "id": "truell-0",
+      "title": "Forbes' wealth profile",
+      "url": "https://www.forbes.com/profile/michael-truell/",
+      "type": "Independent wealth estimate",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-1": {
+      "id": "truell-1",
+      "title": "Horace Mann announcement from April 2016",
+      "url": "https://www.horacemann.org/cf_news/view.cfm?newsid=903",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-2": {
+      "id": "truell-2",
+      "title": "Fido research repository",
+      "url": "https://github.com/FidoProject/Research",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-3": {
+      "id": "truell-3",
+      "title": "NYCSL project credits",
+      "url": "https://github.com/HMProgrammingClub/NYCSL",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-4": {
+      "id": "truell-4",
+      "title": "Halite project history",
+      "url": "https://github.com/HaliteChallenge/Halite-II",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-5": {
+      "id": "truell-5",
+      "title": "Two Sigma account co-authored by Truell and Spector",
+      "url": "https://www.twosigma.com/articles/the-halite-global-ai-programming-competition-in-google-cloud-for-google-cloud-next/",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-6": {
+      "id": "truell-6",
+      "title": "Andreessen Horowitz retrospective",
+      "url": "https://a16z.com/cursor-spacexai-the-fastest-iterating-team-wins/",
+      "type": "Investor retrospective",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-7": {
+      "id": "truell-7",
+      "title": "March 2023 Hacker News discussion",
+      "url": "https://news.ycombinator.com/item?id=35285047",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-8": {
+      "id": "truell-8",
+      "title": "October 2023 explanation of the VS Code fork",
+      "url": "https://news.ycombinator.com/item?id=37888477",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-9": {
+      "id": "truell-9",
+      "title": "shadow-workspace engineering account",
+      "url": "https://cursor.com/en-US/blog/shadow-workspace",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-10": {
+      "id": "truell-10",
+      "title": "August 2024 Series A announcement",
+      "url": "https://cursor.com/blog/series-a",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-11": {
+      "id": "truell-11",
+      "title": "January 16, 2025: Series B",
+      "url": "https://cursor.com/blog/series-b",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-12": {
+      "id": "truell-12",
+      "title": "June 6, 2025: Series C",
+      "url": "https://cursor.com/blog/series-c",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-13": {
+      "id": "truell-13",
+      "title": "November 13, 2025: Series D",
+      "url": "https://cursor.com/blog/series-d",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-14": {
+      "id": "truell-14",
+      "title": "November 2024 Supermaven announcement",
+      "url": "https://cursor.com/blog/supermaven",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-15": {
+      "id": "truell-15",
+      "title": "February 2026 essay on coding agents",
+      "url": "https://cursor.com/blog/third-era",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-16": {
+      "id": "truell-16",
+      "title": "August 14, 2026 closing announcement",
+      "url": "https://cursor.com/blog/joining-spacex",
+      "type": "Company or first-person announcement",
+      "date": "",
+      "accessed": "2026-10-09"
+    },
+    "truell-17": {
+      "id": "truell-17",
+      "title": "who owns Cursor",
+      "url": "https://visionarytalks.com/who-owns-cursor/",
+      "type": "Original public record",
+      "date": "",
+      "accessed": "2026-10-09"
+    }
+  }
+}

@@ -295,7 +295,9 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
               <br />
               <em>Visible assumptions.</em>
             </h2>
-            <p>{p.methodology}</p>
+            <p>
+              <Inline text={p.methodology} />
+            </p>
             <p>
               Our work is independent desk research and source comparison. We
               have not audited {p.name}’s private balance sheet. Personal
