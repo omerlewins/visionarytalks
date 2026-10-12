@@ -13,6 +13,18 @@ import { salaryFixtures } from "@/data/salary-fixtures";
 import { ownershipBrand } from "@/lib/ownership";
 import { notFound } from "next/navigation";
 export const dynamic = "force-dynamic";
+export const metadata = {
+  alternates: { canonical: "https://visionarytalks.com/" },
+  openGraph: {
+    title: "Visionary Talks — Companies. Money. Careers.",
+    description:
+      "Investigate company ownership, wealth, AI businesses and careers through dated sources, data and independent financial research.",
+    url: "https://visionarytalks.com/",
+    images: ["/social-image/?path=%2F"],
+  },
+  description:
+    "Investigate company ownership, wealth, AI businesses and careers through dated sources, data and independent financial research.",
+};
 export default async function Home({
   searchParams,
 }: {

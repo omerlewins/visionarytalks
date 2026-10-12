@@ -1,5 +1,7 @@
 export const metadata = {
   title: "Newsletter privacy notice",
+  description:
+    "How Visionary Talks stores newsletter registrations, records consent and handles withdrawal requests before email delivery begins.",
   alternates: { canonical: "/newsletter-privacy/" },
 };
 export default function Page() {

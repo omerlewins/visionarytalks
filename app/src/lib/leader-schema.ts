@@ -1,8 +1,19 @@
 import type { LeaderProfile } from "./leaders";
 import { leaderPortrait } from "./leader-display";
+import { socialImage } from "./seo";
 const site = "https://visionarytalks.com";
 export function leaderMetadata(p: LeaderProfile) {
   const portrait = leaderPortrait(p);
+  const image = {
+    url: site + (portrait ?? socialImage(p.path)),
+    alt: portrait
+      ? "AI-generated editorial illustration of " +
+        p.name +
+        ", " +
+        p.company +
+        " leader"
+      : "Visionary Talks editorial cover: " + p.name,
+  };
   return {
     title: { absolute: p.seo.title },
     description: p.seo.description,
@@ -12,16 +23,14 @@ export function leaderMetadata(p: LeaderProfile) {
       title: p.seo.title,
       description: p.seo.description,
       url: site + p.path,
-      ...(portrait
-        ? {
-            images: [
-              {
-                url: site + portrait,
-                alt: "Illustration of " + p.name + ", " + p.company + " leader",
-              },
-            ],
-          }
-        : {}),
+      type: "article" as const,
+      images: [image],
+    },
+    twitter: {
+      card: "summary_large_image" as const,
+      title: p.seo.title,
+      description: p.seo.description,
+      images: [image],
     },
   };
 }
@@ -54,6 +63,7 @@ export function leaderSchema(p: LeaderProfile) {
         },
         mainEntityOfPage: url,
         about: { "@id": url + "#person" },
+        image: site + (leaderPortrait(p) ?? socialImage(p.path)),
       },
       {
         "@type": "ProfilePage",

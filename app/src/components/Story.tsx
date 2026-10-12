@@ -17,6 +17,7 @@ import { OwnershipBacklinks } from "./OwnershipBacklinks";
 import { AIContentNotice } from "./AIContentNotice";
 import { StateWealthMap } from "./StateWealthMap";
 import { TopOnePercentComparison } from "./TopOnePercentComparison";
+import { storyFeaturedImage } from "@/lib/story-image";
 import { correctedStateWealthHTML } from "@/lib/state-wealth";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
@@ -49,6 +50,7 @@ export function StoryTemplate({
 }) {
   const people = isLeadersReview() ? ownershipLeaders(s.path) : [];
   const author = articleAuthor(s.author);
+  const featuredImage = storyFeaturedImage(s);
   const mapKind =
     s.path === "/how-many-billionaires-by-state/"
       ? "billionaires"
@@ -187,18 +189,27 @@ export function StoryTemplate({
                   <span>VISIONARY TALKS</span>
                 </div>
               </aside>
-            ) : s.image ? (
-              <figure className="profile-image">
+            ) : featuredImage ? (
+              <figure
+                className={`profile-image${featuredImage.url.startsWith("/social-image/") ? " editorial-cover-image" : ""}`}
+              >
                 <Image
-                  src={s.image}
-                  unoptimized={s.image.includes("/api/media/file/")}
-                  alt={s.imageAlt ?? s.title}
-                  width={1122}
-                  height={1402}
+                  src={featuredImage.url}
+                  unoptimized={
+                    featuredImage.url.includes("/api/media/file/") ||
+                    featuredImage.url.startsWith("/social-image/")
+                  }
+                  alt={featuredImage.alt}
+                  width={
+                    featuredImage.url.startsWith("/social-image/") ? 1200 : 1122
+                  }
+                  height={
+                    featuredImage.url.startsWith("/social-image/") ? 630 : 1402
+                  }
                   priority
                   sizes="(max-width: 768px) 90vw, 36vw"
                 />
-                <figcaption>{s.imageCredit}</figcaption>
+                <figcaption>{featuredImage.credit}</figcaption>
               </figure>
             ) : (
               (s.kind === "ownership" || s.kind === "company") && (

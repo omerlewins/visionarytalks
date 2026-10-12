@@ -1,5 +1,39 @@
 [
-  {"source":"/how-many-millionaires-in-the-us/","destination":"/millionaires-by-state/","statusCode":301},
+  {
+    "source": "/sitemap_index.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/post-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/page-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/category-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/post_tag-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/author-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/how-many-millionaires-in-the-us/",
+    "destination": "/millionaires-by-state/",
+    "statusCode": 301
+  },
   { "source": "/coming-soon/", "destination": "/", "statusCode": 301 },
   { "source": "/redirect-page-2/", "destination": "/", "statusCode": 301 },
   { "source": "/sample-page/", "destination": "/", "statusCode": 301 },

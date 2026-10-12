@@ -18,6 +18,14 @@ import { isLeadersReview } from "@/lib/leaders-review";
 import { loadLeaderProfile } from "@/lib/leader-content";
 import { leaderMetadata, leaderSchema } from "@/lib/leader-schema";
 import { LeaderProfile } from "@/components/LeaderProfile";
+import {
+  publicationURL,
+  socialImage,
+  storySEO,
+  textOnly,
+  productionIndexing,
+} from "@/lib/seo";
+import { storyFeaturedImage } from "@/lib/story-image";
 export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ path: string[] }>;
@@ -55,17 +63,30 @@ const publicationPages: Record<string, [string, string]> = {
 };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { path } = await params;
+  const route =
+    (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
   if (path.join("/") === "leopold-aschenbrenner-net-worth") {
     const leader = await loadLeaderProfile("leopold-aschenbrenner");
     if (leader) return leaderMetadata(leader);
   }
-  if (path[0] === "category" && ["ownership", "who-owns"].includes(path[1]))
+  if (
+    path[0] === "category" &&
+    ["ownership", "who-owns"].includes(path[1]) &&
+    path.length === 2
+  )
     return {
       title: "Who Owns? AI Companies & Everyday Brands",
       description:
         "Explore the founders, parent companies and investors behind AI businesses and everyday brands. Ownership investigations from Visionary Talks.",
       alternates: { canonical: "/category/ownership/" },
-      robots: { index: process.env.APP_ENV === "production" },
+      robots: { index: productionIndexing() },
+      openGraph: {
+        title: "Who Owns? AI Companies & Everyday Brands",
+        description:
+          "Explore company ownership, founders, parent companies and investors.",
+        url: "/category/ownership/",
+        images: [socialImage("/category/ownership/")],
+      },
     };
   const research = await loadOwnershipFile(
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`,
@@ -80,34 +101,102 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         title: research.title,
         description: research.dek,
         type: "article",
-        images: [`/ownership-cards/${research.slug}.svg`],
+        images: [
+          {
+            url: socialImage(`/who-owns-${research.slug}/`),
+            width: 1200,
+            height: 630,
+            alt: `${research.title} — Visionary Talks editorial cover`,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: research.seo.title,
+        description: research.seo.description,
+        images: [socialImage(`/who-owns-${research.slug}/`)],
       },
     };
   const s = await storyAt(
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`,
   );
+  if (!s && path.length === 1 && path[0] === "ai-companies")
+    return {
+      title: "AI Companies Tracker: Businesses & Dated Valuations",
+      description:
+        "Explore AI companies by business category, with dated financing observations, source links and definitions for each reported number.",
+      alternates: { canonical: publicationURL + "/ai-companies/" },
+      robots: {
+        index: productionIndexing() && (await companies()).length > 0,
+      },
+      openGraph: {
+        title: "AI Companies Tracker",
+        url: "/ai-companies/",
+        images: [socialImage("/ai-companies/")],
+      },
+    };
+  if (
+    !s &&
+    ["category", "tag", "author", "hot-posts", "search"].includes(path[0])
+  ) {
+    const term =
+      path[0] === "hot-posts"
+        ? "Latest stories"
+        : path[0] === "author" && path[1] === "daniel-mercer"
+          ? "Daniel Mercer"
+          : decodeURIComponent(path[1] ?? "Search").replaceAll("-", " ");
+    const label = textOnly(term).replace(/\b\w/g, (c) => c.toUpperCase());
+    const page = path.includes("page") ? ` — Page ${path.at(-1)}` : "";
+    const title = `${label}${page}`;
+    const description = `Browse Visionary Talks’ ${label.toLowerCase()} ${path[0] === "author" ? "articles" : "archive"}${page.toLowerCase()}. Explore the companies, people, money and careers behind the headlines.`;
+    const found = (await stories()).some((story) =>
+      matchesArchive(story, path[0], path[1] ?? ""),
+    );
+    return {
+      title,
+      description,
+      alternates: { canonical: publicationURL + route },
+      robots: {
+        index: productionIndexing() && path[0] === "category" && found,
+        follow: productionIndexing(),
+      },
+      openGraph: {
+        title,
+        description,
+        url: route,
+        images: [socialImage(route)],
+      },
+    };
+  }
   if (!s)
     return {
       title:
         publicationPages[path[0]]?.[0] ?? path.join(" ").replaceAll("-", " "),
       robots: { index: false },
+      description: publicationPages[path[0]]?.[1],
+      alternates: { canonical: publicationURL + route },
     };
+  const seo = storySEO(s);
+  const image = storyFeaturedImage(s);
   return {
-    title:
-      s.seo?.title && !/%[^%]+%/.test(s.seo.title)
-        ? { absolute: s.seo.title }
-        : s.title,
-    description: s.seo?.description || s.dek,
-    alternates: { canonical: s.seo?.canonical || s.path },
+    title: { absolute: seo.title },
+    description: seo.description,
+    alternates: { canonical: seo.canonical },
     robots: {
-      index: process.env.APP_ENV === "production" && !s.fixture && !s.noindex,
+      index: productionIndexing() && !s.fixture && !s.noindex,
     },
     openGraph: {
-      title: s.title,
-      description: s.dek,
+      title: seo.title,
+      description: seo.description,
       url: s.path,
       type: "article",
-      images: s.image ? [s.image] : [],
+      images: [{ url: image.url, alt: image.alt }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: seo.title,
+      description: seo.description,
+      images: [{ url: image.url, alt: image.alt }],
     },
   };
 }
@@ -141,9 +230,9 @@ export default async function Page({ params, searchParams }: Props) {
     const all = await stories();
     const schema = {
       "@context": "https://schema.org",
-      "@type": "Article",
+      "@type": s.kind === "page" ? "WebPage" : "Article",
       headline: s.title,
-      description: s.dek,
+      description: storySEO(s).description,
       datePublished: s.publishedAt,
       dateModified: s.modifiedAt,
       author: {
@@ -159,10 +248,14 @@ export default async function Page({ params, searchParams }: Props) {
             }
           : {}),
       },
-      url: new URL(
-        s.path,
-        process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",
-      ).href,
+      url: storySEO(s).canonical,
+      mainEntityOfPage: storySEO(s).canonical,
+      image: new URL(storyFeaturedImage(s).url, publicationURL).href,
+      publisher: {
+        "@type": "Organization",
+        name: "Visionary Talks",
+        url: publicationURL,
+      },
     };
     return (
       <>
@@ -170,7 +263,29 @@ export default async function Page({ params, searchParams }: Props) {
           <script
             type="application/ld+json"
             dangerouslySetInnerHTML={{
-              __html: JSON.stringify(schema).replace(/</g, "\\u003c"),
+              __html: JSON.stringify({
+                "@context": "https://schema.org",
+                "@graph": [
+                  schema,
+                  {
+                    "@type": "BreadcrumbList",
+                    itemListElement: [
+                      {
+                        "@type": "ListItem",
+                        position: 1,
+                        name: "Home",
+                        item: publicationURL + "/",
+                      },
+                      {
+                        "@type": "ListItem",
+                        position: 2,
+                        name: s.title,
+                        item: storySEO(s).canonical,
+                      },
+                    ],
+                  },
+                ],
+              }).replace(/</g, "\\u003c"),
             }}
           />
         )}

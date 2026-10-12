@@ -131,6 +131,7 @@ dd {
   color: #666;
   margin-top: 8px;
 }
+.profile-image.editorial-cover-image img { width: 100%; height: auto; }
 .company-cover {
   min-height: 300px;
   background: #171717;

@@ -12,19 +12,32 @@ import "@/styles/home-editorial.css";
 import "@/styles/publication-policies.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo, companies } from "@/lib/content";
+import { publicationURL, socialImage, productionIndexing } from "@/lib/seo";
 const baseMetadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",
-  ),
+  metadataBase: new URL(publicationURL),
   title: {
     default: "Visionary Talks — Companies. Money. Careers.",
     template: "%s | Visionary Talks",
   },
   description:
     "The stories behind the businesses, people, and industries that shape our lives.",
+  openGraph: {
+    type: "website",
+    siteName: "Visionary Talks",
+    locale: "en_US",
+    images: [
+      {
+        url: socialImage("/"),
+        width: 1200,
+        height: 630,
+        alt: "Visionary Talks — Companies. Money. Careers.",
+      },
+    ],
+  },
+  twitter: { card: "summary_large_image" },
   robots: {
-    index: process.env.APP_ENV === "production",
-    follow: process.env.APP_ENV === "production",
+    index: productionIndexing(),
+    follow: productionIndexing(),
   },
 };
 export async function generateMetadata(): Promise<Metadata> {
