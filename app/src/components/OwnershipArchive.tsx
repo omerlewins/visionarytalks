@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { CompanySuggestion } from "./CompanySuggestion";
 
 export type OwnershipArchiveEntry = {
   path: string;
@@ -111,6 +112,7 @@ export function OwnershipArchive({
             Explore {entries.length} company files{" "}
             <span aria-hidden="true">↓</span>
           </a>
+          <a className="owner-suggest-link" href="#suggest-company">Suggest a company to investigate ↗</a>
         </div>
         <div className="owner-hero-art" aria-hidden="true">
           <span className="owner-hero-art-label">LOOK BEHIND THE BRAND</span>
@@ -219,6 +221,7 @@ export function OwnershipArchive({
           </div>
         )}
       </section>
+      <CompanySuggestion />
       <aside className="owner-research-note">
         <span className="eyebrow">LOOK CLOSER</span>
         <h2>A familiar brand is only the beginning.</h2>

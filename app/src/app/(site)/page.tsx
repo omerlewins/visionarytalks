@@ -238,18 +238,35 @@ export default async function Home({
               <br />
               offer <em>really</em> worth?
             </h4>
-            <div>
-              <b>Cash</b>
-              <span>+</span>
-              <b>Equity</b>
-              <span>+</span>
-              <b>Benefits</b>
+            <div className="career-equation-cards">
+              <div>
+                <span>01 / TODAY</span>
+                <b>Cash</b>
+                <small>Salary & bonus</small>
+              </div>
+              <div>
+                <span>02 / TOMORROW</span>
+                <b>Equity</b>
+                <small>Ownership & vesting</small>
+              </div>
+              <div>
+                <span>03 / EVERY DAY</span>
+                <b>Benefits</b>
+                <small>Health, time & flexibility</small>
+              </div>
             </div>
-            <p>Then account for your time.</p>
+            <p>
+              A good offer is more than its headline number. Understand the pay,
+              the ownership and the life that comes with it.
+            </p>
+            <Link className="index-cta" href="/ai-salary-database/">
+              Read the AI salary investigation ↗
+            </Link>
           </div>
-          <div>
+          <div className="home-career-stories">
             {all
               .filter((s) => s.kind === "salary")
+              .slice(0, 3)
               .map((s) => (
                 <StoryCard key={s.id} story={s} />
               ))}

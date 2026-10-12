@@ -25,7 +25,7 @@ export function StoryCard({ story }: { story: StoryData }) {
       <h3>
         <Link href={story.path}>{story.title}</Link>
       </h3>
-      <p>{story.dek}</p>
+      {story.dek !== story.title && <p>{story.dek}</p>}
       <Link className="latest-action" href={story.path}>
         Take a closer look ↗
       </Link>

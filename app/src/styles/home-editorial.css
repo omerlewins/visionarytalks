@@ -1,0 +1,100 @@
+.company-files .company-file-art {
+  background: #f1e5b5;
+}
+.home-ai-index {
+  background: #edf3f5;
+  padding: 34px;
+  border-top: 1px solid #a5b7bd;
+}
+.home-leaders > .section-heading {
+  background: #f3efe5;
+  padding: 20px 24px;
+  border-top: 1px solid #b9ae93;
+}
+.careers-grid {
+  align-items: start;
+}
+.careers-section .compensation-editorial {
+  background: #f3f0e7;
+  padding: 30px;
+  border-top: 3px solid #1c2924;
+  height: auto;
+  min-height: 0;
+}
+.careers-section .compensation-editorial h4 {
+  font-size: clamp(30px, 4vw, 50px);
+}
+.compensation-editorial .career-equation-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  padding: 20px 0;
+  border-block: 1px solid #b9b5aa;
+}
+.career-equation-cards > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 12px;
+  min-width: 0;
+  background: #e8d99c;
+}
+.career-equation-cards > div:nth-child(2) {
+  background: #dce9ee;
+}
+.career-equation-cards > div:nth-child(3) {
+  background: #dbe5d8;
+}
+.career-equation-cards b {
+  font: normal 24px var(--serif);
+}
+.career-equation-cards span {
+  font: 9px var(--sans);
+  letter-spacing: 1px;
+}
+.career-equation-cards small {
+  font: 11px/1.5 var(--sans);
+  color: #4d574f;
+}
+.careers-section .compensation-editorial > p {
+  font: 15px/1.7 var(--serif);
+  margin: 20px 0;
+  color: #475248;
+}
+.careers-section .home-career-stories {
+  border-top: 1px solid #9aaba0;
+}
+.home-career-stories .latest-story {
+  padding: 20px 0;
+  border-bottom: 1px solid #c2ccc6;
+}
+.home-career-stories .latest-story h3 {
+  font-size: 26px;
+}
+.home-career-stories > .index-cta {
+  display: inline-block;
+  margin-top: 20px;
+}
+@media (max-width: 700px) {
+  .home-ai-index {
+    padding: 20px 14px;
+  }
+  .careers-section .compensation-editorial {
+    padding: 22px 16px;
+  }
+  .compensation-editorial .career-equation-cards {
+    gap: 6px;
+  }
+  .career-equation-cards > div {
+    padding: 14px 8px;
+  }
+  .career-equation-cards b {
+    font-size: 20px;
+  }
+  .career-equation-cards span {
+    font-size: 8px;
+  }
+  .home-leaders > .section-heading {
+    padding: 20px 14px;
+  }
+}

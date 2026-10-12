@@ -1,4 +1,9 @@
 [
+  {"source":"/how-many-millionaires-in-the-us/","destination":"/millionaires-by-state/","statusCode":301},
+  { "source": "/coming-soon/", "destination": "/", "statusCode": 301 },
+  { "source": "/redirect-page-2/", "destination": "/", "statusCode": 301 },
+  { "source": "/sample-page/", "destination": "/", "statusCode": 301 },
+  { "source": "/my-account/", "destination": "/", "statusCode": 301 },
   {
     "destination": "/perplexity-salary/",
     "statusCode": 301,

@@ -8,6 +8,7 @@ import "@/styles/tracker-reference.css";
 import "@/styles/production.css";
 import "@/styles/leaders.css";
 import "@/styles/state-wealth-map.css";
+import "@/styles/home-editorial.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo } from "@/lib/content";
 const baseMetadata: Metadata = {
