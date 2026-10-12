@@ -19,6 +19,8 @@ import { StateWealthMap } from "./StateWealthMap";
 import { TopOnePercentComparison } from "./TopOnePercentComparison";
 import { storyFeaturedImage } from "@/lib/story-image";
 import { correctedStateWealthHTML } from "@/lib/state-wealth";
+import { publicLeaderProfiles } from "@/lib/leader-content";
+import { publishedResearchStories } from "@/lib/published-research-content";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
     <article className="story latest-story">
@@ -35,7 +37,7 @@ export function StoryCard({ story }: { story: StoryData }) {
     </article>
   );
 }
-export function StoryTemplate({
+export async function StoryTemplate({
   story: s,
   related = [],
   children,
@@ -48,7 +50,15 @@ export function StoryTemplate({
   contents?: { id: string; heading: string }[];
   cover?: ReactNode;
 }) {
-  const people = isLeadersReview() ? ownershipLeaders(s.path) : [];
+  const publishedLeaders = isLeadersReview()
+    ? undefined
+    : await publicLeaderProfiles();
+  const people = ownershipLeaders(s.path).filter(
+    (p) => !publishedLeaders || publishedLeaders.some((l) => l.path === p.path),
+  );
+  const researchPaths = isLeadersReview()
+    ? undefined
+    : (await publishedResearchStories()).map((s) => s.path);
   const author = articleAuthor(s.author);
   const featuredImage = storyFeaturedImage(s);
   const mapKind =
@@ -317,7 +327,11 @@ export function StoryTemplate({
               <LegacyContent
                 html={
                   people.length
-                    ? linkLeaderMentions(legacy.content, s.path)
+                    ? linkLeaderMentions(
+                        legacy.content,
+                        s.path,
+                        publishedLeaders?.map((p) => p.path),
+                      )
                     : legacy.content
                 }
                 ownership={ownership}
@@ -371,7 +385,7 @@ export function StoryTemplate({
                 </ol>
               </section>
             )}
-            {isLeadersReview() && <OwnershipBacklinks path={s.path} />}
+            <OwnershipBacklinks path={s.path} publishedPaths={researchPaths} />
             <aside className="writer-box">
               {author.name === profile.name && (
                 <Link

@@ -4,10 +4,25 @@ import { leaderSources } from "./leaders";
 import { leaderProfiles, type LeaderProfile } from "./leaders";
 import { cms, isDemo } from "./content";
 import { isLeadersReview } from "./leaders-review";
+import { publishedResearchStories } from "./published-research-content";
+export async function publicLeaderProfiles() {
+  return (await publishedResearchStories()).flatMap((s) =>
+    s.research.type === "leader" ? [s.research.content] : [],
+  );
+}
 export async function loadLeaderProfile(
   slug: string,
 ): Promise<LeaderProfile | undefined> {
-  if (!isLeadersReview()) return undefined;
+  if (!isLeadersReview()) {
+    const record = (await publishedResearchStories()).find(
+      (s) => s.research.type === "leader" && s.research.content.slug === slug,
+    );
+    return record?.research.type === "leader"
+      ? Object.assign({}, record.research.content, {
+          publishedAt: record.publishedAt,
+        })
+      : undefined;
+  }
   const base = leaderProfiles.find((p) => p.slug === slug);
   if (!base || isDemo()) return base;
   const payload = await cms();

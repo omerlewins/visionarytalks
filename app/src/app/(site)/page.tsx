@@ -1,3 +1,4 @@
+import { publicLeaderProfiles } from "@/lib/leader-content";
 import { isLeadersReview } from "@/lib/leaders-review";
 import { FeaturedLeaders } from "@/components/LeaderCards";
 import { featuredLeaders } from "@/lib/leaders";
@@ -49,6 +50,12 @@ export default async function Home({
     ? all.filter((s) => picks.some((id) => String(id) === s.id))
     : all;
   const ownership = all.filter((s) => s.kind === "ownership");
+  const publicProfiles = isLeadersReview()
+    ? featuredLeaders
+    : await publicLeaderProfiles();
+  const leaderFeatures = featuredLeaders.flatMap((p) =>
+    publicProfiles.filter((l) => l.slug === p.slug),
+  );
   const leaders = all.filter((s) => s.kind === "leader");
   return (
     <>
@@ -315,8 +322,8 @@ export default async function Home({
           </div>
           <Link href="/leaders/">Explore the Leaders index ↗</Link>
         </div>
-        {isLeadersReview() ? (
-          <FeaturedLeaders leaders={featuredLeaders} />
+        {leaderFeatures.length ? (
+          <FeaturedLeaders leaders={leaderFeatures} />
         ) : (
           <div className="home-leader-grid">
             {leaders

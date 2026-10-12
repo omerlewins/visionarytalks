@@ -2,6 +2,7 @@ import type { CollectionConfig, CollectionSlug, Field } from "payload";
 import { revalidatePath } from "next/cache";
 import { admins, editors, staff, published, publicationGuard } from "./access";
 import { publicPath } from "@/lib/domain";
+import { validatePublishedResearch } from "@/lib/published-research";
 const text = (name: string, required = false): Field => ({
   name,
   type: "text",
@@ -194,6 +195,14 @@ export const collections: CollectionConfig[] = [
       beforeChange: [
         publicationGuard,
         ({ data, originalDoc, req }) => {
+          const research =
+            data.publishedResearch ?? originalDoc?.publishedResearch;
+          if (data._status === "published" && research)
+            validatePublishedResearch(
+              research,
+              data.path ?? originalDoc?.path,
+              data.kind ?? originalDoc?.kind,
+            );
           if (data.path) {
             // Original draft query permalinks are retained only for authenticated review.
             // Publishing still requires a valid, approved public path.
@@ -338,6 +347,21 @@ export const collections: CollectionConfig[] = [
         type: "text",
         unique: true,
         access: { read: ({ req }) => Boolean(req.user) },
+      },
+      {
+        name: "publishedResearch",
+        type: "json",
+        admin: {
+          description:
+            "Approved structured article. Edit this field to update the shared Leaders or Ownership template; publishing runs the editorial contract checks.",
+        },
+        access: {
+          read: ({ req }) => Boolean(req.user),
+          update: ({ req }) =>
+            ["admin", "editor"].includes(req.user?.role ?? ""),
+          create: ({ req }) =>
+            ["admin", "editor"].includes(req.user?.role ?? ""),
+        },
       },
     ],
   },

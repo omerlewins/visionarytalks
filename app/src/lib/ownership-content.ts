@@ -6,6 +6,7 @@ import { cms, isDemo } from "./content";
 import { ownershipSources } from "./ownership-files";
 import { validateOwnership, type OwnershipFile } from "./ownership-contract";
 import { cache } from "react";
+import { publishedResearchStories } from "./published-research-content";
 
 // Versioned research files are the source of truth for this review batch.
 // Production routing never exposes unpublished investigations.
@@ -16,6 +17,17 @@ export function ownershipFileAt(path: string) {
 }
 export const loadOwnershipFile = cache(
   async (path: string): Promise<OwnershipFile | undefined> => {
+    if (!isLeadersReview()) {
+      const record = (await publishedResearchStories()).find(
+        (s) => s.path === path && s.research.type === "ownership",
+      );
+      return record?.research.type === "ownership"
+        ? {
+            ...record.research.content,
+            published: record.publishedAt?.slice(0, 10) ?? null,
+          }
+        : undefined;
+    }
     const base = ownershipFileAt(path);
     if (!base || isDemo()) return base;
     const records = await (

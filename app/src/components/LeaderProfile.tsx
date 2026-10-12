@@ -19,6 +19,8 @@ import {
   type LeaderProfile as Profile,
 } from "@/lib/leaders";
 import { publicationAuthor } from "@/lib/authors";
+import { publicLeaderProfiles } from "@/lib/leader-content";
+import { isLeadersReview } from "@/lib/leaders-review";
 export function Inline({ text }: { text: string }) {
   const parts = text.split(/(\[[^\]]+\]\((?:https:\/\/|\/|\.\.\/)[^)]+\))/g);
   return (
@@ -46,7 +48,7 @@ function Source({ id }: { id: string }) {
   const s = leaderSources[id];
   return s ? <a href={s.url}>{s.title}</a> : null;
 }
-export function LeaderProfile({ leader: p }: { leader: Profile }) {
+export async function LeaderProfile({ leader: p }: { leader: Profile }) {
   const companyLinks = leaderCompanyLinks(p.slug);
   const portrait = leaderPortrait(p);
   const wealthObservations = leaderWealthObservations(p);
@@ -69,7 +71,10 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
           }
         : null;
   const historySummary = wealthHistory[p.slug]?.summary;
-  const related = leaderProfiles
+  const eligible = isLeadersReview()
+    ? leaderProfiles
+    : await publicLeaderProfiles();
+  const related = eligible
     .filter((l) => l.slug !== p.slug && l.cluster === p.cluster)
     .sort(
       (a, b) =>

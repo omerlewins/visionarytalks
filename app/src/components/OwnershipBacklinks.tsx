@@ -4,8 +4,30 @@ export const ownershipInboundPages = [
   "/who-owns-anthropic-claude/",
   "/who-owns-chatgpt-openai/",
 ];
-export function OwnershipBacklinks({ path }: { path: string }) {
+export function OwnershipBacklinks({
+  path,
+  publishedPaths,
+}: {
+  path: string;
+  publishedPaths?: string[];
+}) {
   if (!ownershipInboundPages.includes(path)) return null;
+  if (
+    publishedPaths &&
+    [
+      "/who-owns-groq/",
+      "/who-owns-mistral-ai/",
+      "/who-owns-cohere/",
+      "/who-owns-canva/",
+      "/who-owns-glean/",
+      "/who-owns-notion/",
+      "/who-owns-harvey-ai/",
+      "/who-owns-anduril/",
+      "/who-owns-crusoe/",
+      "/who-owns-lambda/",
+    ].some((p) => !publishedPaths.includes(p))
+  )
+    return null;
   return (
     <section id="private-ai-comparisons">
       <h2>Compare private AI ownership structures</h2>

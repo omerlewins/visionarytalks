@@ -434,6 +434,18 @@ export interface Story {
   legacyHTML?: string | null;
   importChecksum?: string | null;
   sourceJobKey?: string | null;
+  /**
+   * Approved structured article. Edit this field to update the shared Leaders or Ownership template; publishing runs the editorial contract checks.
+   */
+  publishedResearch?:
+    | {
+        [k: string]: unknown;
+      }
+    | unknown[]
+    | string
+    | number
+    | boolean
+    | null;
   updatedAt: string;
   createdAt: string;
   _status?: ('draft' | 'published') | null;
@@ -1284,6 +1296,7 @@ export interface StoriesSelect<T extends boolean = true> {
   legacyHTML?: T;
   importChecksum?: T;
   sourceJobKey?: T;
+  publishedResearch?: T;
   updatedAt?: T;
   createdAt?: T;
   _status?: T;

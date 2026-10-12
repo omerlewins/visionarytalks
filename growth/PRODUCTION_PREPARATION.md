@@ -21,3 +21,7 @@ No research batch has been synchronized into Production, no domain or DNS settin
 The 32 editorial reviews are now complete; see `EDITORIAL_RELEASE_REVIEW.md` for the individual decisions and limits. Both publication validators and the content-bound release review passed. Corrected records were synchronized only to isolated Preview with private backups. The pending steps above now begin with deliberate approved publication transfer and public routing; the review does not itself publish or change the live domain.
 
 Private verification evidence: `production-baseline-manifest.json`, `baseline-rehearsal-restored.json`, `baseline-production-restored.json`, `production-media-readback.json`, both version-seed reports, `production-cms-check.json` and `production-admin-browser-check.json` under `private/growth/`. Administrator credentials and backups stay outside Git.
+
+## Completed approved publication integration
+
+The steps above describing publication as pending are historical. The 32 individually approved articles are now deliberately published into Production through the new public Story artifact, after a backed-up rehearsal and contract/hash validation. There are 133 published articles; all 102 original paths remain. The 101 unaffected original records match the immutable baseline exactly, and Leopold's original path, legacy identifier and publication date are preserved. No private research markers, proposals or users were transferred. See `LAUNCH_CANDIDATE.md` for current verification and the remaining domain cutover step.

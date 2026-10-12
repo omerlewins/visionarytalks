@@ -1,6 +1,6 @@
 import type { LeaderProfile } from "./leaders";
 import { leaderPortrait } from "./leader-display";
-import { socialImage } from "./seo";
+import { socialImage, productionIndexing } from "./seo";
 const site = "https://visionarytalks.com";
 export function leaderMetadata(p: LeaderProfile) {
   const portrait = leaderPortrait(p);
@@ -18,7 +18,7 @@ export function leaderMetadata(p: LeaderProfile) {
     title: { absolute: p.seo.title },
     description: p.seo.description,
     alternates: { canonical: site + p.path },
-    robots: { index: false, follow: false },
+    robots: { index: productionIndexing(), follow: productionIndexing() },
     openGraph: {
       title: p.seo.title,
       description: p.seo.description,
@@ -51,6 +51,8 @@ export function leaderSchema(p: LeaderProfile) {
         headline: "Who is " + p.name + "? " + p.hook,
         description: p.seo.description,
         dateModified: p.checked,
+        datePublished: (p as LeaderProfile & { publishedAt?: string })
+          .publishedAt,
         author: {
           "@type": "Person",
           name: "Daniel Mercer",

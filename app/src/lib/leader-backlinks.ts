@@ -5,8 +5,14 @@ export function ownershipLeaders(path: string) {
     (p) => leaderCompanyLinks(p.slug).ownership === path,
   );
 }
-export function linkLeaderMentions(html: string, path: string) {
-  const people = ownershipLeaders(path),
+export function linkLeaderMentions(
+  html: string,
+  path: string,
+  eligiblePaths?: string[],
+) {
+  const people = ownershipLeaders(path).filter(
+      (p) => !eligiblePaths || eligiblePaths.includes(p.path),
+    ),
     linked = new Set<string>();
   let anchorDepth = 0;
   return html

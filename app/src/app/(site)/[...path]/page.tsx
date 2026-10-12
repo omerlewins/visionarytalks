@@ -115,7 +115,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return {
       title: { absolute: research.seo.title },
       description: research.seo.description,
-      robots: { index: false, follow: false },
+      robots: { index: productionIndexing(), follow: productionIndexing() },
       alternates: { canonical: `/who-owns-${research.slug}/` },
       openGraph: {
         title: research.title,

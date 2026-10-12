@@ -1,8 +1,8 @@
+import { publicLeaderProfiles } from "@/lib/leader-content";
 import { isLeadersReview } from "@/lib/leaders-review";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { stories } from "@/lib/content";
 import {
   featuredLeaders,
   leaderProfiles,
@@ -10,6 +10,7 @@ import {
   leaderSummary,
 } from "@/lib/leaders";
 import { LeadersDirectory } from "@/components/LeadersDirectory";
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "AI Leaders: People, Ownership & Net Worth",
   description:
@@ -18,23 +19,20 @@ export const metadata: Metadata = {
   robots: isLeadersReview() ? { index: false, follow: false } : undefined,
 };
 export default async function LeadersPage() {
-  if (!isLeadersReview()) {
-    const published = (await stories()).filter((s) => s.kind === "leader");
+  const profiles = isLeadersReview()
+    ? leaderProfiles
+    : await publicLeaderProfiles();
+  const featured = featuredLeaders.flatMap((p) =>
+    profiles.filter((l) => l.slug === p.slug),
+  );
+  const lead = featured[0] ?? profiles[0];
+  if (!lead)
     return (
       <section className="section">
-        <span className="eyebrow">PEOPLE / LEADERS</span>
-        <h1>The company builders.</h1>
-        <p>The people, ownership and decisions behind the business.</p>
-        {published.map((s) => (
-          <p key={s.id}>
-            <Link href={s.path}>{s.title}</Link>
-          </p>
-        ))}
-        {!published.length && <p>Our first profiles are being researched.</p>}
+        <h1>Leaders.</h1>
+        <p>Our first profiles are being researched.</p>
       </section>
     );
-  }
-  const lead = featuredLeaders[0];
   return (
     <>
       <header className="leaders-heading">
@@ -80,7 +78,7 @@ export default async function LeadersPage() {
         </Link>
         <div className="leaders-cover-rail">
           <span className="eyebrow">ALSO IN THIS EDITION</span>
-          {featuredLeaders.slice(1).map((p) => (
+          {featured.slice(1).map((p) => (
             <article key={p.slug}>
               <span className="eyebrow">{p.company}</span>
               <h3>
@@ -100,10 +98,12 @@ export default async function LeadersPage() {
         </p>
         <div className="leader-research-links">
           <Link href="/about/#research">Our approach ↗</Link>
-          <Link href="/content-review/">All new content ↗</Link>
+          {isLeadersReview() && (
+            <Link href="/content-review/">All new content ↗</Link>
+          )}
         </div>
       </aside>
-      <LeadersDirectory leaders={leaderProfiles.map(leaderSummary)} />
+      <LeadersDirectory leaders={profiles.map(leaderSummary)} />
     </>
   );
 }
