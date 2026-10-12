@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { cms, isDemo } from "@/lib/content";
 import { leaderProfiles } from "@/lib/leaders";
+import { ownershipFiles } from "@/lib/ownership-files";
 import cycle from "@/data/content-review-drafts.json";
 import { isLeadersReview } from "@/lib/leaders-review";
 import { OwnershipDirectory } from "@/components/OwnershipInvestigation";
@@ -36,17 +37,20 @@ export default async function Page() {
   return (
     <section className="section">
       <span className="eyebrow">EDITORIAL DESK / PREVIEW</span>
-      <h1>New content, in one place.</h1>
+      <h1>Reviewed content, in one place.</h1>
       <p>
-        Research drafts for review. Wealth estimates keep their source dates.
-        These articles are not published to the live site.
+        {leaderProfiles.filter((p) => p.editorialReview.status === "approved").length} leader
+        profiles and {ownershipFiles.filter((p) => p.gaps.length === 0).length} ownership
+        investigations have completed editorial review. Wealth estimates retain
+        their source dates and unavailable facts remain explicit. These files
+        await a deliberate publication release to the live site.
       </p>
       <OwnershipDirectory/>
       <p>These ownership investigations are saved as Preview CMS drafts. To edit their structured text, tables or chart observations, open the matching <Link href="/admin/collections/claim-evidence">Ownership investigation research record</Link> and edit <code>data.file</code>. The <Link href="/admin/collections/content-inbox">Content inbox</Link> keeps the full research proposal.</p>
       <h2>{leaderProfiles.length} leader profiles</h2>
       <p>
-        Including Michael Truell’s original Cursor investigation and the 20 new
-        profiles.
+        Including Michael Truell’s Cursor investigation, the 20 new profiles and
+        Leopold Aschenbrenner’s conversion to the shared Leaders template.
       </p>
       <div className="leader-directory-grid">
         {leaderProfiles.map((p) => (
@@ -57,14 +61,17 @@ export default async function Page() {
             </h3>
             <p>{p.dek}</p>
             <small>
-              {records.some((d) => d.path === p.path)
-                ? "Saved in Preview CMS · Draft"
-                : "Local research draft"}
+              {p.editorialReview.status === "approved"
+                ? "Editorial review complete · Awaiting publication"
+                : records.some((d) => d.path === p.path)
+                  ? "Saved in Preview CMS · Review needed"
+                  : "Local research draft"}
             </small>
           </article>
         ))}
       </div>
-      <h2>First-cycle ownership drafts</h2>
+      <h2>Earlier research proposals</h2>
+      <p>These separate first-cycle proposals are outside the reviewed 32-article launch batch.</p>
       {cycle.map((p) => (
         <article key={p.id}>
           <h3>
