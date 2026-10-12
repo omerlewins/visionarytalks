@@ -3,7 +3,7 @@
     "templateVersion": "leaders-v1",
     "editorialReview": {
       "status": "needs-review",
-      "questionsBasis": "Reader questions adapted from the existing article; live People Also Ask not yet verified",
+      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
       "findingsReviewed": false,
       "unknownsReviewed": false
     },
@@ -144,7 +144,11 @@
         "value": "Situational Awareness LP",
         "sourceId": "leopold-firm"
       },
-      { "label": "Role", "value": "Founder", "sourceId": "leopold-firm" },
+      {
+        "label": "Role",
+        "value": "Founder",
+        "sourceId": "leopold-firm"
+      },
       {
         "label": "Earlier research",
         "value": "OpenAI Superalignment; Oxford Global Priorities Institute, per his own biography",
@@ -179,26 +183,21 @@
     "faq": [
       {
         "question": "What is Leopold Aschenbrenner’s net worth?",
-        "answer": "No reliable personal dollar total is established by the records reviewed here. Fund holdings and assumed fee income cannot substitute for his personal assets and liabilities."
+        "answer": "A personal total is not established by the reviewed records. Personal assets, liabilities and economic interests are not sufficiently disclosed. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
       },
       {
-        "question": "Does he personally own the firm’s $20.24 billion portfolio?",
-        "answer": "The June 2026 SEC total belongs to Situational Awareness LP’s report of managed securities. It is not a filing of Aschenbrenner’s personal balance sheet.",
+        "question": "Is Leopold Aschenbrenner a billionaire?",
+        "answer": "The reviewed records do not establish his personal fortune. Situational Awareness’s $20.24 billion June securities-table total concerns the firm’s reported positions, not his own assets less liabilities.",
         "sourceId": "leopold-q2"
       },
       {
-        "question": "What did he do before Situational Awareness?",
-        "answer": "His first-person biography describes economic-growth research at Oxford’s Global Priorities Institute and work on OpenAI’s Superalignment team.",
-        "sourceId": "leopold-bio"
-      },
-      {
-        "question": "When was Situational Awareness founded?",
-        "answer": "The firm’s website says September 2024. His essay series appeared in June 2024; publishing a thesis and establishing the firm are distinct milestones.",
-        "sourceId": "leopold-firm"
+        "question": "How much money did Leopold Aschenbrenner make?",
+        "answer": "The 13F filings do not disclose his capital balance, realized personal fees, management-company ownership or liabilities. I cannot derive his personal earnings from changes in the reported portfolio total.",
+        "sourceId": "leopold-q2"
       },
       {
         "question": "Can the SEC filings show his investment returns?",
-        "answer": "Not by themselves. A change in reported table value can reflect capital flows, trading and reporting treatment. The filing also omits short positions and is not a complete fund balance sheet.",
+        "answer": "Not by comparing the two table totals alone. New capital, position changes and option-underlying reporting can alter the total. A 13F securities snapshot is different from fund net asset value and audited performance.",
         "sourceId": "leopold-sec-guide"
       }
     ]

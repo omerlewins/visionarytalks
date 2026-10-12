@@ -13,13 +13,15 @@ try {
     ...existing,
     searchConsoleProperty: "sc-domain:visionarytalks.com",
     ga4PropertyId: "530033839",
+    ga4MeasurementId: "G-1YPKS2X7JE",
+    trackingEnabled: true,
   };
   console.log(
     JSON.stringify({
       searchConsoleProperty: proposed.searchConsoleProperty,
       ga4PropertyId: proposed.ga4PropertyId,
-      measurementIdConfigured: !!existing.ga4MeasurementId,
-      trackingEnabled: !!existing.trackingEnabled,
+      measurementIdConfigured: !!proposed.ga4MeasurementId,
+      trackingEnabled: proposed.trackingEnabled,
       reportingCredentialsConfigured: !!process.env.GOOGLE_SERVICE_ACCOUNT_JSON,
       mode: process.argv.includes("--apply") ? "apply" : "dry-run",
     }),
@@ -35,10 +37,12 @@ try {
       data: {
         searchConsoleProperty: proposed.searchConsoleProperty,
         ga4PropertyId: proposed.ga4PropertyId,
+        ga4MeasurementId: proposed.ga4MeasurementId,
+        trackingEnabled: proposed.trackingEnabled,
       },
     });
     console.log(
-      "Supplied property identifiers saved; existing consent and tracking settings preserved.",
+      "Supplied Google identifiers saved. Analytics is enabled for Production only; Preview remains untracked.",
     );
   }
 } finally {

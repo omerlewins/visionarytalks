@@ -1,0 +1,87 @@
+{
+  "generated": "2026-10-12",
+  "tool": "Built-in image generation",
+  "disclosure": "AI-generated editorial illustrations, not photographs. Generated without reference photographs; artistic likeness is approximate.",
+  "portraits": [
+    {
+      "slug": "greg-brockman",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Greg Brockman, OpenAI co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/greg-brockman-editorial-v1.png"
+    },
+    {
+      "slug": "ilya-sutskever",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Ilya Sutskever, Safe Superintelligence co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/ilya-sutskever-editorial-v1.png"
+    },
+    {
+      "slug": "aravind-srinivas",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Aravind Srinivas, Perplexity co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/aravind-srinivas-editorial-v1.png"
+    },
+    {
+      "slug": "daniela-amodei",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Daniela Amodei, Anthropic co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/daniela-amodei-editorial-v1.png"
+    },
+    {
+      "slug": "bret-taylor",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Bret Taylor, Sierra co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/bret-taylor-editorial-v1.png"
+    },
+    {
+      "slug": "scott-wu",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Scott Wu, Cognition co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/scott-wu-editorial-v1.png"
+    },
+    {
+      "slug": "brett-adcock",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Brett Adcock, Figure AI founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/brett-adcock-editorial-v1.png"
+    },
+    {
+      "slug": "mike-krieger",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Mike Krieger, Instagram co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/mike-krieger-editorial-v1.png"
+    },
+    {
+      "slug": "noam-shazeer",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Noam Shazeer, AI researcher and Character.AI co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/noam-shazeer-editorial-v1.png"
+    },
+    {
+      "slug": "fidji-simo",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Fidji Simo, technology executive. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/fidji-simo-editorial-v1.png"
+    },
+    {
+      "slug": "ali-ghodsi",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Ali Ghodsi, Databricks co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/ali-ghodsi-editorial-v1.png"
+    },
+    {
+      "slug": "amjad-masad",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Amjad Masad, Replit co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/amjad-masad-editorial-v1.png"
+    },
+    {
+      "slug": "mustafa-suleyman",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Mustafa Suleyman, DeepMind co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/mustafa-suleyman-editorial-v1.png"
+    },
+    {
+      "slug": "sualeh-asif",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Sualeh Asif, Cursor co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/sualeh-asif-editorial-v1.png"
+    },
+    {
+      "slug": "michael-intrator",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Michael Intrator, CoreWeave co-founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/michael-intrator-editorial-v1.png"
+    },
+    {
+      "slug": "edwin-chen",
+      "prompt": "Use case: stylized-concept. Asset type: Visionary Talks leader article portrait. Subject: Edwin Chen, Surge AI founder. Make a recognizable editorial illustration of this public business figure based on their public appearance, head and shoulders, calm neutral expression, looking slightly off-camera. Style: meticulous black-and-white stipple engraving and fine crosshatching, visibly illustrated, monochrome face and simple dark jacket or their usual plain clothing, black background with a soft gray halo behind the head. Vertical 2:3 composition, head fully inside frame, shoulders near bottom, matching a financial magazine’s engraved portrait series. One person only. No text, numbers, logos, watermark, props, money, company symbols or photorealistic claims. This will be labeled as an AI-generated editorial illustration, not a photograph.",
+      "assetPath": "app/public/reference/edwin-chen-editorial-v1.png"
+    }
+  ]
+}

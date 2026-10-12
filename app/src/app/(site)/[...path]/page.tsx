@@ -26,6 +26,11 @@ import {
   productionIndexing,
 } from "@/lib/seo";
 import { storyFeaturedImage } from "@/lib/story-image";
+import policies from "@/data/publication-policies.json";
+import {
+  PublicationPolicy,
+  type PolicyName,
+} from "@/components/PublicationPolicy";
 export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ path: string[] }>;
@@ -65,6 +70,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { path } = await params;
   const route =
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
+  if (path.length === 1 && path[0] in policies) {
+    const policy = policies[path[0] as PolicyName];
+    return {
+      title: policy.title,
+      description: policy.description,
+      alternates: { canonical: publicationURL + route },
+      robots: { index: productionIndexing(), follow: productionIndexing() },
+      openGraph: {
+        title: policy.title,
+        description: policy.description,
+        url: route,
+        images: [socialImage(route)],
+      },
+    };
+  }
   if (path.join("/") === "leopold-aschenbrenner-net-worth") {
     const leader = await loadLeaderProfile("leopold-aschenbrenner");
     if (leader) return leaderMetadata(leader);
@@ -205,6 +225,8 @@ export default async function Page({ params, searchParams }: Props) {
   const query = await searchParams;
   const route =
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
+  if (path.length === 1 && path[0] in policies)
+    return <PublicationPolicy name={path[0] as PolicyName} />;
   if (route === "/leopold-aschenbrenner-net-worth/") {
     const leader = await loadLeaderProfile("leopold-aschenbrenner");
     if (leader)

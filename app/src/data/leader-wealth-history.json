@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-11",
+  "checked": "2026-10-12",
   "sources": {
     "wealth-forbes-2025": {
       "id": "wealth-forbes-2025",
@@ -101,6 +101,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "The year-end report was updated January 2, 2026; no exact asset valuation day is given."
+        },
+        {
+          "date": "2026-10-09",
+          "value": 2.8,
+          "display": "$2.8B",
+          "sourceId": "truell-0",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [year-end 2025 Forbes report](https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/) put the estimate at $1.3 billion. The later estimate reflects a different valuation context; the gap is not a measured cash gain."
@@ -115,6 +125,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "The year-end report was updated January 2, 2026; no exact asset valuation day is given."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 2.8,
+          "display": "$2.8B",
+          "sourceId": "aman-sanger-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [year-end 2025 Forbes report](https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/) put the estimate at $1.3 billion. The later estimate reflects a different valuation context; the gap is not a measured cash gain."
@@ -129,6 +149,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "The year-end report was updated January 2, 2026; no exact asset valuation day is given."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 2.8,
+          "display": "$2.8B",
+          "sourceId": "sualeh-asif-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [year-end 2025 Forbes report](https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/) put the estimate at $1.3 billion. The later estimate reflects a different valuation context; the gap is not a measured cash gain."
@@ -152,6 +182,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "Year-end report, updated January 2, 2026; exact asset valuation day is not specified."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 1.5,
+          "display": "$1.5B",
+          "sourceId": "lucy-guo-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "Historical [Forbes reporting](https://www.forbes.com/sites/kerryadolan/2025/04/17/this-ai-founder-lucy-guo-scale-ai-has-unseated-taylor-swift-as-the-worlds-youngest-self-made-woman-billionaire/) put her total at $1.25 billion in its June 2025 update; the [year-end report](https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/) estimated $1.4 billion. These are paper-wealth estimates, not disclosed sale proceeds."
@@ -175,6 +215,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Valuation date",
           "note": "The 2026 ranking uses June 1 asset valuations; the article was published June 3."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 15.5,
+          "display": "$15.5B",
+          "sourceId": "daniela-amodei-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [2025 Forbes list](https://www.forbes.com.au/news/billionaires/meet-the-2025-ai-boom-billionaires/) estimated $1.2 billion; the [June 2026 ranking](https://www.forbes.com/sites/gracechung/2026/06/03/forbes-ranking-of-americas-richest-self-made-women-2026/) put her at $15.5 billion. Changes in private-company marks and provider assumptions affect the comparison."
@@ -189,6 +239,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "Contemporaneous personal estimate after the Series H announcement; not a fixed-stake valuation model."
+        },
+        {
+          "date": "2026-10-10",
+          "value": 7.6,
+          "display": "$7.6B",
+          "sourceId": "ali-ghodsi-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "A [contemporaneous Forbes estimate in August 2021](https://www.forbes.com/sites/kenrickcai/2021/08/31/databricks-series-h-38-billion/) put his fortune at $1.8 billion. We retain that historical estimate without assuming his ownership percentage stayed constant."
@@ -212,6 +272,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "The feature estimates his total fortune at $23.4B; this is not solely the Figure holding."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 23.4,
+          "display": "$23.4B",
+          "sourceId": "brett-adcock-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "[Forbes estimated $1.4 billion in April 2024](https://www.forbes.com/sites/rashishrivastava/2024/04/16/the-prompt-machine-learning-paradise/), compared with [$23.4 billion in its October 2026 feature](https://www.forbes.com.au/news/innovation/brett-adcock-net-worth-figure-ai-humanoid-robots/). Most of the later figure is tied to private-company marks, not liquid cash."
@@ -226,6 +296,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Valuation date",
           "note": "Annual-list estimate before the March 28 IPO; not a later public share-price observation."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 5.3,
+          "display": "$5.3B",
+          "sourceId": "michael-intrator-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [2025 Forbes list](https://www.forbes.com.au/news/billionaires/meet-the-2025-ai-boom-billionaires/) estimated $3.1 billion before CoreWeave’s IPO. We keep that personal estimate separate from subsequent stock-price changes and unreconciled share transactions."
@@ -240,6 +320,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Valuation date",
           "note": "The Forbes 400 report uses September 1, 2025 prices and estimates a 75% Surge stake."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 18,
+          "display": "$18B",
+          "sourceId": "edwin-chen-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [2025 Forbes 400 report](https://www.forbes.com/sites/chasewithorn/2025/09/09/the-2025-forbes-400-list-of-wealthiest-americans-facts-and-figures/) also estimated $18 billion. An unchanged rounded estimate does not establish that the underlying assets were unchanged."
@@ -254,6 +344,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "Year-end total wealth estimate; not a new calculation using a later Sierra financing valuation."
+        },
+        {
+          "date": "2026-10-10",
+          "value": 2.5,
+          "display": "$2.5B",
+          "sourceId": "bret-taylor-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [year-end 2025 Forbes report](https://www.forbes.com/sites/aliciapark/2025/12/25/ai-minted-more-than-50-new-billionaires-in-2025/) also put his net worth at $2.5 billion. We do not mechanically raise that figure with each Sierra funding round."
@@ -268,6 +368,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "A dated Forbes 400 report; earlier testimony describes an OpenAI holding, not complete net worth."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 25.5,
+          "display": "$25.5B",
+          "sourceId": "greg-brockman-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "A [September 2026 Forbes report](https://forbes.com.br/forbes-money/2026/09/novo-membro-mais-rico-da-lista-de-bilionarios-vem-da-openai-mas-nao-e-sam-altman/) also estimated $25.5 billion. The reviewed historical total starts there; the earlier OpenAI stake testimony is excluded from this total-wealth series."
@@ -282,6 +392,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Report publication",
           "note": "Personal estimate in the March 2026 feature following Replit’s financing; earlier company valuations are not personal estimates."
+        },
+        {
+          "date": "2026-10-10",
+          "value": 2,
+          "display": "$2B",
+          "sourceId": "amjad-masad-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "[Forbes reported a $2 billion estimate in March 2026](https://www.forbesargentina.com/negocios/de-programar-cibercafes-comprarse-una-playstation-construir-imperio-us9000-millones-n87840), matching the later rounded observation. Earlier Replit valuations do not supply missing personal wealth values."
@@ -296,6 +416,16 @@
           "basis": "Forbes personal wealth estimate",
           "dateBasis": "Issue date",
           "note": "The magazine issue reports $2.1B; no exact underlying asset valuation day is supplied for this item."
+        },
+        {
+          "date": "2026-10-11",
+          "value": 2.1,
+          "display": "$2.1B",
+          "sourceId": "aravind-srinivas-forbes",
+          "estimator": "Forbes",
+          "basis": "Forbes personal wealth estimate",
+          "dateBasis": "Source observation",
+          "note": "Prior dated observation retained; company valuations are separate."
         }
       ],
       "summary": "The [May 2026 Forbes India issue](https://images.forbesindia.com/blog/wp-content/uploads/assets/images/ForbesIndia1stMay2026Digital.pdf) reported $2.1 billion. We show that earlier dated estimate without treating an unchanged rounded total as a daily asset valuation."

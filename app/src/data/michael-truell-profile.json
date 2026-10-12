@@ -8,8 +8,8 @@
     "role": "Cursor co-founder and CEO, per checked sources",
     "hook": "How he built Cursor",
     "dek": "School projects, developer communities and four funding rounds trace the business behind his dated wealth estimate.",
-    "answer": "Michael Truell is Cursor co-founder and CEO, per checked sources. Forbes estimates Michael Truell net worth at $2.8B (2026-10-09). This is a personal estimate, not company value.",
-    "checked": "2026-10-09",
+    "answer": "Michael Truell is Cursor co-founder and CEO, per checked sources. Forbes estimates Michael Truell net worth at $2.8B (2026-10-12). This is a personal estimate, not company value.",
+    "checked": "2026-10-12",
     "status": "draft",
     "seo": {
       "title": "Michael Truell Net Worth: $2.8B | Cursor",
@@ -18,10 +18,10 @@
     "wealth": {
       "display": "$2.8B",
       "value": 2.8,
-      "date": "2026-10-09",
+      "date": "2026-10-12",
       "sourceId": "truell-0",
       "basis": "Forbes personal wealth estimate",
-      "paragraph": "Michael Truell's net worth is estimated at $2.8 billion as of October 9, 2026, according to [Forbes' wealth profile](https://www.forbes.com/profile/michael-truell/). His financial turning point was Cursor's [August 2026 acquisition by SpaceX](https://cursor.com/blog/joining-spacex); Forbes estimates each co-founder received about $2.4 billion in SpaceX shares at closing. That stock consideration is part of the wealth story, not an additional cash payout to add to the current estimate. His exact holdings, liabilities and present ownership percentage remain undisclosed in the reviewed records.",
+      "paragraph": "Michael Truell's net worth is estimated at $2.8 billion as of October 12, 2026, according to [Forbes' wealth profile](https://www.forbes.com/profile/michael-truell/). His financial turning point was Cursor's [August 2026 acquisition by SpaceX](https://cursor.com/blog/joining-spacex); Forbes estimates each co-founder received about $2.4 billion in SpaceX shares at closing. That stock consideration is part of the wealth story, not an additional cash payout to add to the current estimate. His exact holdings, liabilities and present ownership percentage remain undisclosed in the reviewed records.",
       "estimator": "Forbes"
     },
     "sections": [
@@ -157,7 +157,7 @@
     "quickFacts": [
       {
         "label": "Age",
-        "value": "26 (Forbes, observed October 11, 2026)",
+        "value": "26 (Forbes, observed October 12, 2026)",
         "sourceId": "truell-0"
       },
       {
@@ -199,32 +199,29 @@
     "faq": [
       {
         "question": "What is Michael Truell’s net worth?",
-        "answer": "Michael Truell is Cursor co-founder and CEO, per checked sources. Forbes estimates Michael Truell net worth at $2.8B (2026-10-09). This is a personal estimate, not company value."
-      },
-      {
-        "question": "How old is Michael Truell?",
-        "answer": "26 (Forbes, observed October 11, 2026). This is the age reported by the provider when checked, rather than an independently verified birth-date calculation.",
+        "answer": "Forbes estimates $2.8B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
         "sourceId": "truell-0"
       },
       {
-        "question": "What is Michael Truell’s education?",
-        "answer": "MIT bachelor of science, as listed by Forbes. The source shown in the quick facts table identifies the scope of this record.",
+        "question": "Is Michael Truell a billionaire?",
+        "answer": "Forbes estimates $2.8 billion at the October 12, 2026 observation. It estimates SpaceX shares received at acquisition closing; that consideration is part of his wealth story, not an extra cash payout to add again.",
         "sourceId": "truell-0"
       },
       {
-        "question": "Does Michael Truell still own Cursor?",
-        "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+        "question": "Is Cursor worth $60 billion?",
+        "answer": "The August 2026 acquisition announcement confirms that Cursor joined SpaceX. The $60 billion deal benchmark concerns the company, while founder allocations and current personal assets require separate evidence.",
+        "sourceId": "truell-16"
       },
       {
-        "question": "How did Michael Truell build a career in AI?",
-        "answer": "The origin records below connect Michael Truell to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
-        "sourceId": "truell-0"
+        "question": "How much funding did Cursor announce across its four major rounds?",
+        "answer": "The four announcements sum to $3.365 billion: $60 million, $105 million, $900 million and $2.3 billion. This is the sum of those raises, not lifetime funding, current cash or money personally received by Truell.",
+        "sourceId": "truell-13"
       }
     ],
     "templateVersion": "leaders-v1",
     "editorialReview": {
       "status": "needs-review",
-      "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Michael Truell net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
       "findingsReviewed": false
     }
   },
@@ -235,7 +232,7 @@
       "url": "https://www.forbes.com/profile/michael-truell/",
       "type": "Independent wealth estimate",
       "date": "",
-      "accessed": "2026-10-09"
+      "accessed": "2026-10-12"
     },
     "truell-1": {
       "id": "truell-1",

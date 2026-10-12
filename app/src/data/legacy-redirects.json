@@ -1,4 +1,6 @@
 [
+  {"source":"/privacy-policy/","destination":"/privacy/","statusCode":301},
+  {"source":"/contact-page/","destination":"/contact/","statusCode":301},
   {
     "source": "/sitemap_index.xml",
     "destination": "/sitemap.xml",

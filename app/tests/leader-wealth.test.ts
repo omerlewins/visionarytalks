@@ -32,6 +32,7 @@ test("Cursor history retains an earlier sourced total and does not insert financ
     [
       ["2025-12-25", 1.3],
       ["2026-10-09", 2.8],
+      ["2026-10-12", 2.8],
     ],
   );
   assert.ok(
@@ -55,7 +56,7 @@ test("historical observations are chronological and retain explicit valuation da
   );
   assert.deepEqual(
     o.map((p) => p.date),
-    ["2025-03-07", "2026-06-01", "2026-10-11"],
+    ["2025-03-07", "2026-06-01", "2026-10-11", "2026-10-12"],
   );
   assert.equal(o[0].dateBasis, "Valuation date");
 });

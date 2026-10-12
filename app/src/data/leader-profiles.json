@@ -62,7 +62,7 @@
       "url": "https://www.forbes.com/profile/lucy-guo/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "greg-brockman-forbes": {
       "id": "greg-brockman-forbes",
@@ -70,7 +70,7 @@
       "url": "https://www.forbes.com/profile/greg-brockman/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "aravind-srinivas-forbes": {
       "id": "aravind-srinivas-forbes",
@@ -78,7 +78,7 @@
       "url": "https://www.forbes.com/profile/aravind-srinivas/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "daniela-amodei-forbes": {
       "id": "daniela-amodei-forbes",
@@ -86,7 +86,7 @@
       "url": "https://www.forbes.com/profile/daniela-amodei/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "bret-taylor-forbes": {
       "id": "bret-taylor-forbes",
@@ -94,7 +94,7 @@
       "url": "https://www.forbes.com/profile/bret-taylor/",
       "type": "Independent wealth estimate",
       "date": "2026-10-10",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "aman-sanger-forbes": {
       "id": "aman-sanger-forbes",
@@ -102,7 +102,7 @@
       "url": "https://www.forbes.com/profile/aman-sanger/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "brett-adcock-forbes": {
       "id": "brett-adcock-forbes",
@@ -110,7 +110,7 @@
       "url": "https://www.forbes.com/profile/brett-adcock/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "ali-ghodsi-forbes": {
       "id": "ali-ghodsi-forbes",
@@ -118,7 +118,7 @@
       "url": "https://www.forbes.com/profile/ali-ghodsi/",
       "type": "Independent wealth estimate",
       "date": "2026-10-10",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "amjad-masad-forbes": {
       "id": "amjad-masad-forbes",
@@ -126,7 +126,7 @@
       "url": "https://www.forbes.com/profile/amjad-masad/",
       "type": "Independent wealth estimate",
       "date": "2026-10-10",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "sualeh-asif-forbes": {
       "id": "sualeh-asif-forbes",
@@ -134,7 +134,7 @@
       "url": "https://www.forbes.com/profile/sualeh-asif/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "michael-intrator-forbes": {
       "id": "michael-intrator-forbes",
@@ -142,7 +142,7 @@
       "url": "https://www.forbes.com/profile/michael-intrator/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "edwin-chen-forbes": {
       "id": "edwin-chen-forbes",
@@ -150,7 +150,7 @@
       "url": "https://www.forbes.com/profile/edwin-chen/",
       "type": "Independent wealth estimate",
       "date": "2026-10-11",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "scale-meta": {
       "id": "scale-meta",
@@ -358,7 +358,7 @@
       "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000024/cart-20260409.htm",
       "type": "SEC filing",
       "date": "2026-04-09",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "simo-openai": {
       "id": "simo-openai",
@@ -558,7 +558,7 @@
       "url": "https://find-and-update.company-information.service.gov.uk/company/09730522/persons-with-significant-control",
       "type": "Companies House record",
       "date": "",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-12"
     },
     "brockman-ap": {
       "id": "brockman-ap",
@@ -960,13 +960,13 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "Not independently verified",
-          "sourceId": "hassabis-ucl"
+          "value": "50 (birth month July 1976 in Companies House)",
+          "sourceId": "data-capital-psc"
         },
         {
           "label": "Birth date",
-          "value": "Not independently verified",
-          "sourceId": null
+          "value": "July 1976; day not disclosed in the public register",
+          "sourceId": "data-capital-psc"
         },
         {
           "label": "Background",
@@ -1002,32 +1002,28 @@
       "faq": [
         {
           "question": "What is Demis Hassabis’s net worth?",
-          "answer": "Demis Hassabis is Isomorphic founder. Demis Hassabis net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "A personal total is not established by the reviewed records. No substantiated personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
           "question": "How old is Demis Hassabis?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Demis Hassabis. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "hassabis-ucl"
+          "answer": "Companies House records his birth month as July 1976. That makes him 50 at the October 2026 research check. The public register does not disclose his birth day.",
+          "sourceId": "data-capital-psc"
         },
         {
-          "question": "What is Demis Hassabis’s education?",
-          "answer": "Cambridge; cognitive-neuroscience PhD, UCL, 2009. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "hassabis-ucl"
+          "question": "Does Demis Hassabis own Isomorphic Labs?",
+          "answer": "The UK register identifies Alphabet as controlling at least 75% of shares and votes in Isomorphic Labs Limited. It does not disclose a specific Hassabis stake or the full group capital table.",
+          "sourceId": "isomorphic-psc"
         },
         {
-          "question": "Does Demis Hassabis still own Isomorphic Labs?",
-          "answer": "No substantiated personal estimate in reviewed records. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Demis Hassabis build a career in AI?",
-          "answer": "The origin records below connect Demis Hassabis to uk research and game-development career. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "hassabis-ucl"
+          "question": "What does Data Capital reveal about Hassabis?",
+          "answer": "Its control register identifies his right to appoint or remove directors. That is a documented control relationship, not a disclosed value for his private investments. I do not convert it into a personal fortune.",
+          "sourceId": "data-capital-psc"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Demis Hassabis net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -1038,14 +1034,14 @@
       "role": "Passes founder and CEO; Scale AI cofounder",
       "hook": "A former founder can keep an economically important stake",
       "dek": "The company announcement separates shareholder liquidity from continuing ownership, which changes how her fortune should be read.",
-      "answer": "Lucy Guo is Passes founder and CEO. Forbes estimates Lucy Guo net worth at $1.5B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Lucy Guo is Passes founder and CEO. Forbes estimates Lucy Guo net worth at $1.5B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$1.5B",
         "value": 1.5,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "lucy-guo-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Lucy Guo net worth](https://www.forbes.com/profile/lucy-guo/) at $1.5 billion on October 11, 2026, and describes an approximately 3% Scale holding. The [company’s June 12, 2025 announcement](https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution) confirms a shareholder distribution alongside continued ownership. It does not disclose Guo’s payment. I therefore keep her personal estimate separate from Meta’s corporate investment and do not explain an earlier stake percentage with an unverified sale or dilution assumption.",
+        "paragraph": "[Forbes estimates Lucy Guo net worth](https://www.forbes.com/profile/lucy-guo/) at $1.5 billion on October 12, 2026, and describes an approximately 3% Scale holding. The [company’s June 12, 2025 announcement](https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution) confirms a shareholder distribution alongside continued ownership. It does not disclose Guo’s payment. I therefore keep her personal estimate separate from Meta’s corporate investment and do not explain an earlier stake percentage with an unverified sale or dilution assumption.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -1145,7 +1141,7 @@
       ],
       "slug": "lucy-guo",
       "path": "/leaders/lucy-guo/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Lucy Guo Net Worth: $1.5B | Passes",
@@ -1154,7 +1150,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "31 (Forbes, observed October 11, 2026)",
+          "value": "31 (Forbes, observed October 12, 2026)",
           "sourceId": "lucy-guo-forbes"
         },
         {
@@ -1196,32 +1192,29 @@
       "faq": [
         {
           "question": "What is Lucy Guo’s net worth?",
-          "answer": "Lucy Guo is Passes founder and CEO. Forbes estimates Lucy Guo net worth at $1.5B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Lucy Guo?",
-          "answer": "31 (Forbes, observed October 11, 2026). This is the age reported by the provider when checked, rather than an independently verified birth-date calculation.",
+          "answer": "Forbes estimates $1.5B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "lucy-guo-forbes"
         },
         {
-          "question": "What is Lucy Guo’s education?",
-          "answer": "Carnegie Mellon; left before graduating. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "Is Lucy Guo actually a billionaire?",
+          "answer": "Forbes estimates her fortune at $1.5 billion in the checked October 2026 profile, principally linked to an approximately 3% Scale stake. That is a provider estimate rather than an audited personal balance sheet.",
           "sourceId": "lucy-guo-forbes"
         },
         {
-          "question": "Does Lucy Guo still own Passes?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "Did Lucy Guo cash out of Scale AI?",
+          "answer": "Scale says its Meta transaction distributed proceeds to shareholders and vested equity holders while allowing continued equity ownership. The announcement does not identify Guo’s payment or establish that she sold her entire position.",
+          "sourceId": "scale-meta"
         },
         {
-          "question": "How did Lucy Guo build a career in AI?",
-          "answer": "The origin records below connect Lucy Guo to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "lucy-guo-forbes"
+          "question": "When did Lucy Guo found Passes?",
+          "answer": "The reviewed accounts conflict: Forbes gives 2022, while Passes’ May 2026 founder account gives 2024. I preserve the discrepancy until a legal formation record resolves it. Neither date establishes her present stake.",
+          "sourceId": "passes-guo-bio"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Lucy Guo net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -1232,14 +1225,14 @@
       "role": "OpenAI cofounder and president",
       "hook": "The founder stake behind the headline fortune",
       "dek": "His early engineering posts explain the business-building approach; the wealth estimate requires a different evidentiary standard.",
-      "answer": "Greg Brockman is OpenAI cofounder and president. Forbes estimates Greg Brockman net worth at $25.5B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Greg Brockman is OpenAI cofounder and president. Forbes estimates Greg Brockman net worth at $25.5B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$25.5B",
         "value": 25.5,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "greg-brockman-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Greg Brockman net worth](https://www.forbes.com/profile/greg-brockman/) at $25.5 billion as of October 11, 2026. Its profile attributes his wealth principally to OpenAI and describes an estimated ownership range. I do not average those figures or derive a supposedly exact stake by dividing total wealth by OpenAI’s company valuation.",
+        "paragraph": "[Forbes estimates Greg Brockman net worth](https://www.forbes.com/profile/greg-brockman/) at $25.5 billion as of October 12, 2026. Its profile attributes his wealth principally to OpenAI and describes an estimated ownership range. I do not average those figures or derive a supposedly exact stake by dividing total wealth by OpenAI’s company valuation.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -1331,7 +1324,7 @@
       ],
       "slug": "greg-brockman",
       "path": "/leaders/greg-brockman/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Greg Brockman Net Worth: $25.5B | OpenAI",
@@ -1340,7 +1333,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "Not independently verified",
+          "value": "37 (Forbes, observed October 12, 2026)",
           "sourceId": "greg-brockman-forbes"
         },
         {
@@ -1382,32 +1375,29 @@
       "faq": [
         {
           "question": "What is Greg Brockman’s net worth?",
-          "answer": "Greg Brockman is OpenAI cofounder and president. Forbes estimates Greg Brockman net worth at $25.5B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Greg Brockman?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Greg Brockman. I leave the age unconfirmed rather than infer it from school or career dates.",
+          "answer": "Forbes estimates $25.5B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "greg-brockman-forbes"
         },
         {
-          "question": "What is Greg Brockman’s education?",
-          "answer": "Attended Harvard and MIT; left before graduating. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "How did Greg Brockman make his money?",
+          "answer": "The reviewed Forbes profile attributes his wealth principally to OpenAI. His earlier career included Stripe, where he became CTO. The founding announcement identifies his role but does not disclose when or how his current economic interest was awarded.",
           "sourceId": "greg-brockman-forbes"
         },
         {
-          "question": "Does Greg Brockman still own OpenAI?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "How much equity does Greg Brockman have?",
+          "answer": "Forbes estimates an ownership range of about 2.5% to 3%. AP separately reported testimony valuing his OpenAI stake at nearly $30 billion. Neither gives us a current, independently reconciled share register.",
+          "sourceId": "greg-brockman-forbes"
         },
         {
-          "question": "How did Greg Brockman build a career in AI?",
-          "answer": "The origin records below connect Greg Brockman to us technology career: stripe and openai. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "greg-brockman-forbes"
+          "question": "Was the nearly $30 billion testimony his net worth?",
+          "answer": "AP reported a value for his OpenAI stake. That scope differs from a total personal wealth estimate. I have reviewed the report, not the original court transcript, and do not add the holding value to Forbes’s total.",
+          "sourceId": "brockman-ap"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Greg Brockman net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -1569,32 +1559,28 @@
       "faq": [
         {
           "question": "What is Mira Murati’s net worth?",
-          "answer": "Mira Murati is Thinking Machines Lab founder. Mira Murati net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "A personal total is not established by the reviewed records. No substantiated personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
-          "question": "How old is Mira Murati?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Mira Murati. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "murati-dartmouth"
+          "question": "How rich is Mira Murati?",
+          "answer": "A defensible personal total is not established in these sources. The reported $12 billion seed-round company valuation and $2 billion raise do not disclose her ownership, other assets or liabilities.",
+          "sourceId": "murati-seed"
         },
         {
-          "question": "What is Mira Murati’s education?",
-          "answer": "Dartmouth engineering alumna. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "murati-dartmouth"
+          "question": "What is Mira Murati’s estimated net worth in 2026?",
+          "answer": "I publish no dollar estimate. Applying an assumed founder percentage to a fundraising headline would create a number from missing inputs. Unknown wealth remains unquantified rather than plotted as zero.",
+          "sourceId": "murati-seed"
         },
         {
-          "question": "Does Mira Murati still own Thinking Machines Lab?",
-          "answer": "No substantiated personal estimate in reviewed records. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Mira Murati build a career in AI?",
-          "answer": "The origin records below connect Mira Murati to engineering career documented by dartmouth. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "murati-dartmouth"
+          "question": "What does Thinking Machines Lab sell?",
+          "answer": "Its October 2025 Tinker announcement describes managed infrastructure for fine-tuning open-weight models. Customers control their algorithms and data while the company handles distributed training. That product statement does not establish current revenue or Murati’s stake.",
+          "sourceId": "tinker-launch"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Mira Murati net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -1611,7 +1597,7 @@
         "value": null,
         "date": "2026-10-11",
         "basis": "Partial holding value is not total personal net worth",
-        "paragraph": "Ilya Sutskever net worth remains unestablished here. [Bloomberg reported on May 11, 2026](https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion) that he valued his OpenAI stake at about $7 billion. That is a holding value, not a complete balance sheet. [SSI’s updates](https://ssi.inc/updates) disclose corporate funding and leadership changes, but not his ownership percentage. I exclude 8 billion combined figure until its dated asset-level methodology can be reviewed."
+        "paragraph": "Ilya Sutskever net worth remains unestablished here. [Bloomberg reported on May 11, 2026](https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion) that he valued his OpenAI stake at about $7 billion. That is a holding value, not a complete balance sheet. [SSI’s updates](https://ssi.inc/updates) disclose corporate funding and leadership changes, but not his ownership percentage. SSI’s private ownership and the rest of his assets and liabilities are not disclosed here, so I do not add a speculative SSI holding to the OpenAI figure."
       },
       "sourceIds": [
         "ilya-toronto",
@@ -1761,32 +1747,28 @@
       "faq": [
         {
           "question": "What is Ilya Sutskever’s net worth?",
-          "answer": "Ilya Sutskever is SSI cofounder and CEO. Ilya Sutskever net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "A personal total is not established by the reviewed records. Partial holding value is not total personal net worth. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
-          "question": "How old is Ilya Sutskever?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Ilya Sutskever. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "ilya-toronto"
+          "question": "Is Ilya Sutskever a billionaire?",
+          "answer": "Bloomberg reported in May 2026 that Sutskever valued his OpenAI stake at about $7 billion. That is a reported holding value. I have not established a complete personal asset-and-liability statement or a comparable current total.",
+          "sourceId": "sutskever-stake"
         },
         {
-          "question": "What is Ilya Sutskever’s education?",
-          "answer": "University of Toronto PhD, 2013. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "ilya-toronto"
+          "question": "Who runs Safe Superintelligence?",
+          "answer": "SSI’s July 2025 update names Sutskever CEO and Daniel Levy president after Daniel Gross’s departure. The appointment establishes management roles, not individual economic percentages.",
+          "sourceId": "ssi-updates"
         },
         {
-          "question": "Does Ilya Sutskever still own Safe Superintelligence?",
-          "answer": "Partial holding value is not total personal net worth. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Ilya Sutskever build a career in AI?",
-          "answer": "The origin records below connect Ilya Sutskever to university of toronto research career. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "ilya-toronto"
+          "question": "Does SSI’s funding reveal Sutskever’s wealth?",
+          "answer": "No. The company’s disclosed financing and compute partnerships concern the laboratory. They do not allocate the capital to Sutskever or disclose his ownership. I keep those events outside a personal net-worth chart.",
+          "sourceId": "ssi-updates"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Ilya Sutskever net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -1797,14 +1779,14 @@
       "role": "Perplexity cofounder and CEO",
       "hook": "From research papers to the economics of AI search",
       "dek": "His published research establishes technical work before Perplexity; the current wealth figure remains an attributed private-company estimate.",
-      "answer": "Aravind Srinivas is Perplexity cofounder and CEO. Forbes estimates Aravind Srinivas net worth at $2.1B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Aravind Srinivas is Perplexity cofounder and CEO. Forbes estimates Aravind Srinivas net worth at $2.1B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$2.1B",
         "value": 2.1,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "aravind-srinivas-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Aravind Srinivas net worth](https://www.forbes.com/profile/aravind-srinivas/) at $2.1 billion as of October 11, 2026. It separately identifies Perplexity’s $20 billion valuation in 2025. I do not divide those figures to claim he owns 10.5%: total wealth and a company financing value are different inputs. The proposed Hurun comparison needs the original dated report and a stated currency conversion before it can become a numerical reconciliation.",
+        "paragraph": "[Forbes estimates Aravind Srinivas net worth](https://www.forbes.com/profile/aravind-srinivas/) at $2.1 billion as of October 12, 2026. It separately identifies Perplexity’s $20 billion valuation in 2025. I do not divide those figures to claim he owns 10.5%: total wealth and a company financing value are different inputs. The proposed Hurun comparison needs the original dated report and a stated currency conversion before it can become a numerical reconciliation.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -1904,7 +1886,7 @@
       ],
       "slug": "aravind-srinivas",
       "path": "/leaders/aravind-srinivas/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Aravind Srinivas Net Worth: $2.1B | Perplexity",
@@ -1913,7 +1895,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "32 (Forbes, observed October 11, 2026)",
+          "value": "32 (Forbes, observed October 12, 2026)",
           "sourceId": "aravind-srinivas-forbes"
         },
         {
@@ -1943,8 +1925,8 @@
         },
         {
           "label": "Co-founders / relationship",
-          "value": "Not independently verified in the reviewed papers",
-          "sourceId": null
+          "value": "Andy Konwinski, Denis Yarats and Johnny Ho (Forbes)",
+          "sourceId": "aravind-srinivas-forbes"
         },
         {
           "label": "Personal wealth",
@@ -1955,32 +1937,29 @@
       "faq": [
         {
           "question": "What is Aravind Srinivas’s net worth?",
-          "answer": "Aravind Srinivas is Perplexity cofounder and CEO. Forbes estimates Aravind Srinivas net worth at $2.1B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Aravind Srinivas?",
-          "answer": "32 (Forbes, observed October 11, 2026). This is the age reported by the provider when checked, rather than an independently verified birth-date calculation.",
+          "answer": "Forbes estimates $2.1B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "aravind-srinivas-forbes"
         },
         {
-          "question": "What is Aravind Srinivas’s education?",
-          "answer": "IIT Madras BTech and MSc; UC Berkeley PhD. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "Is Aravind Srinivas a billionaire?",
+          "answer": "Forbes estimates $2.1 billion in the October 2026 profile. Its company valuation and personal estimate remain separate. Dividing the two does not establish a 10.5% founder stake.",
           "sourceId": "aravind-srinivas-forbes"
         },
         {
-          "question": "Does Aravind Srinivas still own Perplexity?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "How much is Perplexity AI worth?",
+          "answer": "The reviewed Forbes profile cites a $20 billion private-company valuation in 2025. It is a dated company benchmark, not Srinivas’s personal fortune or a continuously traded stock price.",
+          "sourceId": "aravind-srinivas-forbes"
         },
         {
-          "question": "How did Aravind Srinivas build a career in AI?",
-          "answer": "The origin records below connect Aravind Srinivas to india (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
+          "question": "Who founded Perplexity with Aravind Srinivas?",
+          "answer": "The reviewed account names Andy Konwinski, Denis Yarats and Johnny Ho alongside Srinivas and dates the founding to August 2022. Founding status does not identify their current equity allocation.",
           "sourceId": "aravind-srinivas-forbes"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Aravind Srinivas net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -1991,14 +1970,14 @@
       "role": "Anthropic cofounder and president",
       "hook": "Company capital is visible before personal ownership is",
       "dek": "The financing announcement provides useful arithmetic, while a claimed IPO ownership table requires the actual filing.",
-      "answer": "Daniela Amodei is Anthropic cofounder and president. Forbes estimates Daniela Amodei net worth at $15.5B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Daniela Amodei is Anthropic cofounder and president. Forbes estimates Daniela Amodei net worth at $15.5B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$15.5B",
         "value": 15.5,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "daniela-amodei-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Daniela Amodei net worth](https://www.forbes.com/profile/daniela-amodei/) at $15.5 billion as of October 11, 2026. [Anthropic’s May 28 financing announcement](https://www.anthropic.com/news/series-h) states a $965 billion post-money valuation, but does not allocate individual founder ownership. I do not average estimates or present the resulting wealth-to-valuation ratio as her stake.",
+        "paragraph": "[Forbes estimates Daniela Amodei net worth](https://www.forbes.com/profile/daniela-amodei/) at $15.5 billion as of October 12, 2026. [Anthropic’s May 28 financing announcement](https://www.anthropic.com/news/series-h) states a $965 billion post-money valuation, but does not allocate individual founder ownership. I do not average estimates or present the resulting wealth-to-valuation ratio as her stake.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -2097,7 +2076,7 @@
       ],
       "slug": "daniela-amodei",
       "path": "/leaders/daniela-amodei/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Daniela Amodei Net Worth: $15.5B | Anthropic",
@@ -2106,7 +2085,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "39 (Forbes, observed October 11, 2026)",
+          "value": "39 (Forbes, observed October 12, 2026)",
           "sourceId": "daniela-amodei-forbes"
         },
         {
@@ -2148,32 +2127,29 @@
       "faq": [
         {
           "question": "What is Daniela Amodei’s net worth?",
-          "answer": "Daniela Amodei is Anthropic cofounder and president. Forbes estimates Daniela Amodei net worth at $15.5B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Daniela Amodei?",
-          "answer": "39 (Forbes, observed October 11, 2026). This is the age reported by the provider when checked, rather than an independently verified birth-date calculation.",
+          "answer": "Forbes estimates $15.5B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "daniela-amodei-forbes"
         },
         {
-          "question": "What is Daniela Amodei’s education?",
-          "answer": "UC Santa Cruz, English literature (Forbes). The source shown in the quick facts table identifies the scope of this record.",
+          "question": "Is Daniela Amodei a billionaire?",
+          "answer": "Forbes estimates her personal fortune at $15.5 billion in the checked October 2026 profile. Anthropic’s financing announcement does not disclose her individual allocation, so I retain Forbes’s attribution rather than invent a stake.",
           "sourceId": "daniela-amodei-forbes"
         },
         {
-          "question": "Does Daniela Amodei still own Anthropic?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "What is Daniela Amodei’s role at Anthropic?",
+          "answer": "Anthropic’s leadership page identifies her as co-founder, president and board chair, leading work across research, engineering, product, governance and commercial execution. Her brother Dario is CEO.",
+          "sourceId": "anthropic-leadership"
         },
         {
-          "question": "How did Daniela Amodei build a career in AI?",
-          "answer": "The origin records below connect Daniela Amodei to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "daniela-amodei-forbes"
+          "question": "Was Anthropic’s entire $65 billion round new money?",
+          "answer": "Anthropic says its May 2026 Series H included $15 billion of previously committed hyperscaler investments. Subtraction leaves $50 billion outside those prior commitments, but does not establish the dates cash was paid.",
+          "sourceId": "anthropic-h"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Daniela Amodei net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -2184,14 +2160,14 @@
       "role": "Sierra cofounder; OpenAI board chair",
       "hook": "A new company valuation does not automatically rewrite Forbes",
       "dek": "His product-building history is documented, but the proposed ownership arithmetic needs a substantiated stake before becoming an estimate.",
-      "answer": "Bret Taylor is Sierra cofounder. Forbes estimates Bret Taylor net worth at $2.5B (2026-10-10). This is a personal estimate, not company value.",
+      "answer": "Bret Taylor is Sierra cofounder. Forbes estimates Bret Taylor net worth at $2.5B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$2.5B",
         "value": 2.5,
-        "date": "2026-10-10",
+        "date": "2026-10-12",
         "sourceId": "bret-taylor-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Bret Taylor net worth](https://www.forbes.com/profile/bret-taylor/) at $2.5 billion on October 10, 2026. [Dated reporting on Sierra’s May 2026 financing](https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise) identifies a $15.8 billion post-money value. That does not establish his current stake or prove Forbes failed to update its calculation. I exclude",
+        "paragraph": "[Forbes estimates Bret Taylor net worth](https://www.forbes.com/profile/bret-taylor/) at $2.5 billion on October 12, 2026. [Dated reporting on Sierra’s May 2026 financing](https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise) identifies a $15.8 billion post-money value. That does not establish his current stake or prove Forbes failed to update its calculation. His Sierra ownership percentage and the rest of his personal balance sheet are undisclosed in these records.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -2291,7 +2267,7 @@
       ],
       "slug": "bret-taylor",
       "path": "/leaders/bret-taylor/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Bret Taylor Net Worth: $2.5B | Sierra",
@@ -2342,32 +2318,29 @@
       "faq": [
         {
           "question": "What is Bret Taylor’s net worth?",
-          "answer": "Bret Taylor is Sierra cofounder. Forbes estimates Bret Taylor net worth at $2.5B (2026-10-10). This is a personal estimate, not company value."
+          "answer": "Forbes estimates $2.5B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
+          "sourceId": "bret-taylor-forbes"
         },
         {
-          "question": "How old is Bret Taylor?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Bret Taylor. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "sierra-about"
+          "question": "Is Bret Taylor a billionaire?",
+          "answer": "Forbes estimates $2.5 billion in its October 2026 profile. The real-time wealth date and the biography’s earlier editorial update are distinct; an older paragraph alone does not prove the estimate ignored later financing.",
+          "sourceId": "bret-taylor-forbes"
         },
         {
-          "question": "What is Bret Taylor’s education?",
-          "answer": "Not independently verified in this profile. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "sierra-about"
+          "question": "What is Bret Taylor doing now?",
+          "answer": "The reviewed sources identify Taylor as Sierra co-founder and CEO and OpenAI board chair. The governance position is not itself disclosure of an OpenAI holding.",
+          "sourceId": "bret-taylor-forbes"
         },
         {
-          "question": "Does Bret Taylor still own Sierra?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Bret Taylor build a career in AI?",
-          "answer": "The origin records below connect Bret Taylor to us software and product-building career. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "sierra-about"
+          "question": "Did Sierra’s financing pay Bret Taylor personally?",
+          "answer": "The founders’ May 2026 post announces $950 million raised at a valuation above $15 billion and company capital for further investment. It does not disclose Taylor’s personal proceeds or his current equity percentage.",
+          "sourceId": "sierra-15"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Bret Taylor net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -2385,7 +2358,7 @@
         "date": "2026-02-02",
         "sourceId": "wu-forbes",
         "basis": "Historical Forbes Türkiye estimate, not current wealth",
-        "paragraph": "The reviewed [Forbes Türkiye report](https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti), published February 2 and updated February 16, 2026, put Scott Wu net worth near $600 million. It described him as holding the smallest founder stake, without explaining why. [Cognition’s September 8, 2026 announcement](https://cognition.com/blog/series-e) gives a $48 billion company valuation, not his ownership. I do not update the old personal figure proportionally or use 6 billion claim.",
+        "paragraph": "The reviewed [Forbes Türkiye report](https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti), published February 2 and updated February 16, 2026, put Scott Wu net worth near $600 million. It described him as holding the smallest founder stake, without explaining why. [Cognition’s September 8, 2026 announcement](https://cognition.com/blog/series-e) gives a $48 billion company valuation, not his ownership. I do not update the old personal figure proportionally or replace it with an unsupported current estimate.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -2565,32 +2538,29 @@
       "faq": [
         {
           "question": "What is Scott Wu’s net worth?",
-          "answer": "Scott Wu is Cognition cofounder and CEO. Forbes estimates Scott Wu net worth at $600M historical (2026-02-02). This is a personal estimate, not company value."
+          "answer": "Forbes estimates $600M historical on 2026-02-02. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
+          "sourceId": "wu-forbes"
         },
         {
-          "question": "How old is Scott Wu?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Scott Wu. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "wu-result"
+          "question": "Is Scott Wu a billionaire?",
+          "answer": "The reviewed February 2026 Forbes Türkiye report estimated about $600 million. Cognition’s later $48 billion company valuation does not establish a current personal total. I cannot substantiate billionaire status by scaling the earlier estimate.",
+          "sourceId": "wu-forbes"
         },
         {
-          "question": "What is Scott Wu’s education?",
-          "answer": "Competition record verifies achievement, not a university degree. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "wu-result"
+          "question": "How much is Cognition AI worth?",
+          "answer": "Cognition announced a $48 billion company valuation with more than $2 billion raised in September 2026. The announcement does not disclose Wu’s individual stake.",
+          "sourceId": "cognition-e"
         },
         {
-          "question": "Does Scott Wu still own Cognition?",
-          "answer": "Historical Forbes Türkiye estimate, not current wealth. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Scott Wu build a career in AI?",
-          "answer": "The origin records below connect Scott Wu to us participant in the 2014 international olympiad in informatics. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "wu-result"
+          "question": "What did Devin’s launch establish?",
+          "answer": "Cognition’s March 2024 launch introduced its coding-agent product and published company-run performance claims. It documents the commercial proposition; those results need their stated benchmark conditions and are not an independent appraisal.",
+          "sourceId": "devin-launch"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Scott Wu net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -2601,14 +2571,14 @@
       "role": "Cursor cofounder; post-close title unverified",
       "hook": "The all-stock deal changed the asset behind the fortune",
       "dek": "SpaceX’s closing filing distinguishes shareholder consideration from employee awards, making it more useful than a simplified acquisition headline.",
-      "answer": "Aman Sanger is Cursor cofounder. Forbes estimates Aman Sanger net worth at $2.8B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Aman Sanger is Cursor cofounder. Forbes estimates Aman Sanger net worth at $2.8B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$2.8B",
         "value": 2.8,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "aman-sanger-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Aman Sanger net worth](https://www.forbes.com/profile/aman-sanger/) at $2.8 billion on October 11, 2026. It estimates $2.4 billion of SpaceX shares received by each Cursor cofounder at closing. The [August 14 merger filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) gives aggregate consideration, not Sanger’s allocation. I do not use unverified 4.5% and 9% stakes to reconstruct his holdings.",
+        "paragraph": "[Forbes estimates Aman Sanger net worth](https://www.forbes.com/profile/aman-sanger/) at $2.8 billion on October 12, 2026. It estimates $2.4 billion of SpaceX shares received by each Cursor cofounder at closing. The [August 14 merger filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) gives aggregate consideration, not Sanger’s allocation. I do not use unverified 4.5% and 9% stakes to reconstruct his holdings.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -2733,7 +2703,7 @@
       ],
       "slug": "aman-sanger",
       "path": "/leaders/aman-sanger/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Aman Sanger Net Worth: $2.8B | Cursor",
@@ -2742,7 +2712,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "26 (Forbes, observed October 11, 2026)",
+          "value": "26 (Forbes, observed October 12, 2026)",
           "sourceId": "aman-sanger-forbes"
         },
         {
@@ -2784,32 +2754,29 @@
       "faq": [
         {
           "question": "What is Aman Sanger’s net worth?",
-          "answer": "Aman Sanger is Cursor cofounder. Forbes estimates Aman Sanger net worth at $2.8B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Aman Sanger?",
-          "answer": "26 (Forbes, observed October 11, 2026). This is the age reported by the provider when checked, rather than an independently verified birth-date calculation.",
+          "answer": "Forbes estimates $2.8B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "aman-sanger-forbes"
         },
         {
-          "question": "What is Aman Sanger’s education?",
-          "answer": "MIT bachelor’s degree, as listed by Forbes. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "Is Aman Sanger a billionaire?",
+          "answer": "Forbes estimates $2.8 billion in October 2026. Its estimate of SpaceX shares received at closing is a component of the financial history, not another payment to add to that total.",
           "sourceId": "aman-sanger-forbes"
         },
         {
-          "question": "Does Aman Sanger still own Cursor?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "Is Cursor worth $60 billion?",
+          "answer": "SpaceX’s August 14, 2026 filing reports a $60 billion implied equity value for the Anysphere acquisition. It reports aggregate consideration, without allocating shares among individual founders.",
+          "sourceId": "cursor8k"
         },
         {
-          "question": "How did Aman Sanger build a career in AI?",
-          "answer": "The origin records below connect Aman Sanger to united states (forbes). The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "aman-sanger-forbes"
+          "question": "How many SpaceX shares were issued for Cursor?",
+          "answer": "The merger filing reports 389,289,254 shares for Anysphere shareholders and 1,752,426 for vested RSUs. Unvested awards are separately identified; this aggregate cannot establish Sanger’s individual allocation.",
+          "sourceId": "cursor8k"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Aman Sanger net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -2820,14 +2787,14 @@
       "role": "Figure founder and CEO",
       "hook": "An old public filing and a new private estimate need different treatment",
       "dek": "Figure’s estimated founder stake and Archer’s dated ownership disclosure are distinct parts of the financial record.",
-      "answer": "Brett Adcock is Figure founder and CEO. Forbes estimates Brett Adcock net worth at $23.4B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Brett Adcock is Figure founder and CEO. Forbes estimates Brett Adcock net worth at $23.4B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$23.4B",
         "value": 23.4,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "brett-adcock-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Brett Adcock net worth](https://www.forbes.com/profile/brett-adcock/) at $23.4 billion on October 11, 2026. It attributes an estimated 50% Figure stake and identifies a $39 billion company valuation in 2025. My calculation, 50% × $39 billion = $19.5 billion, illustrates a gross Figure holding using those reported inputs. It is not a new total or a confirmed current liquidation value. [Archer’s 2022 disclosure](https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm) is historical and is not added to Forbes without a current holdings reconciliation.",
+        "paragraph": "[Forbes estimates Brett Adcock net worth](https://www.forbes.com/profile/brett-adcock/) at $23.4 billion on October 12, 2026. It attributes an estimated 50% Figure stake and identifies a $39 billion company valuation in 2025. My calculation, 50% × $39 billion = $19.5 billion, illustrates a gross Figure holding using those reported inputs. It is not a new total or a confirmed current liquidation value. [Archer’s 2022 disclosure](https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm) is historical and is not added to Forbes without a current holdings reconciliation.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -2951,7 +2918,7 @@
       ],
       "slug": "brett-adcock",
       "path": "/leaders/brett-adcock/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Brett Adcock Net Worth: $23.4B | Figure",
@@ -3002,32 +2969,29 @@
       "faq": [
         {
           "question": "What is Brett Adcock’s net worth?",
-          "answer": "Brett Adcock is Figure founder and CEO. Forbes estimates Brett Adcock net worth at $23.4B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Brett Adcock?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Brett Adcock. I leave the age unconfirmed rather than infer it from school or career dates.",
+          "answer": "Forbes estimates $23.4B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "brett-adcock-forbes"
         },
         {
-          "question": "What is Brett Adcock’s education?",
-          "answer": "Not independently verified in this profile. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "Is Brett Adcock a billionaire?",
+          "answer": "Forbes estimates $23.4 billion in October 2026 and an approximately 50% Figure stake. Those are provider estimates, not a disclosed capital table or a verified liquidation price.",
           "sourceId": "brett-adcock-forbes"
         },
         {
-          "question": "Does Brett Adcock still own Figure?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "What company does Brett Adcock own?",
+          "answer": "His business trail includes Figure, Archer and Vettery. Forbes also identifies Hark. Each holding requires its own date and ownership evidence; a co-founder title does not mean sole ownership.",
+          "sourceId": "brett-adcock-forbes"
         },
         {
-          "question": "How did Brett Adcock build a career in AI?",
-          "answer": "The origin records below connect Brett Adcock to entrepreneur behind vettery, archer and figure. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "brett-adcock-forbes"
+          "question": "Does the Archer filing show Adcock’s current stake?",
+          "answer": "The May 2022 amended ownership filing reports 32,015,625 beneficially owned shares and a historical 15.9% percentage. It cannot be marked as a current position without later transaction and ownership records.",
+          "sourceId": "archer-13d"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Brett Adcock net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -3198,32 +3162,28 @@
       "faq": [
         {
           "question": "What is Mike Krieger’s net worth?",
-          "answer": "Mike Krieger is Anthropic Labs builder. Mike Krieger net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "A personal total is not established by the reviewed records. Acquisition consideration is not a personal wealth estimate. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
-          "question": "How old is Mike Krieger?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Mike Krieger. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "stanford-instagram"
+          "question": "What does Instagram’s sale tell us about Mike Krieger’s wealth?",
+          "answer": "Facebook’s 2012 10-K records $521 million purchase consideration and $194 million of separately treated unvested employee shares. The $715 million combined amount is not Krieger’s payout or a present personal estimate.",
+          "sourceId": "instagram-10k"
         },
         {
-          "question": "What is Mike Krieger’s education?",
-          "answer": "Stanford hosts Michel Krieger’s December 2008 master’s thesis in Symbolic Systems. It concerns collaboration for collective creation; the thesis supplies a concrete education record.",
+          "question": "How much are Mike Krieger and Kevin Systrom worth?",
+          "answer": "The acquisition filing does not allocate the proceeds between the founders. I have not established a comparable personal estimate for Krieger and do not split the deal headline or assume a retained 10% stake.",
+          "sourceId": "instagram-10k"
+        },
+        {
+          "question": "What did Mike Krieger study at Stanford?",
+          "answer": "His December 2008 Symbolic Systems master’s thesis provides a primary academic record. It is evidence of his research work, separate from later company ownership and compensation.",
           "sourceId": "krieger-thesis"
-        },
-        {
-          "question": "Does Mike Krieger still own Anthropic?",
-          "answer": "Acquisition consideration is not a personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Mike Krieger build a career in AI?",
-          "answer": "The origin records below connect Mike Krieger to stanford startup history documented by stvp. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "stanford-instagram"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Mike Krieger net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -3398,32 +3358,28 @@
       "faq": [
         {
           "question": "What is Noam Shazeer’s net worth?",
-          "answer": "Noam Shazeer is AI researcher. Noam Shazeer net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "A personal total is not established by the reviewed records. No substantiated complete personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
-          "question": "How old is Noam Shazeer?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Noam Shazeer. I leave the age unconfirmed rather than infer it from school or career dates.",
+          "question": "Did Noam Shazeer invent Transformers?",
+          "answer": "He is one of eight named authors on the June 2017 Attention Is All You Need paper. The author list establishes collaboration; it does not support describing him as the sole inventor.",
           "sourceId": "transformer"
         },
         {
-          "question": "What is Noam Shazeer’s education?",
-          "answer": "Not independently verified in this profile. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "transformer"
+          "question": "Did Noam Shazeer personally receive $2.7 billion?",
+          "answer": "The reviewed Reuters report describes the Google transaction involving Character.AI and its team. It does not establish that the entire reported company-level amount was paid personally to Shazeer.",
+          "sourceId": "shazeer-move"
         },
         {
-          "question": "Does Noam Shazeer still own OpenAI?",
-          "answer": "No substantiated complete personal estimate in reviewed records. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Noam Shazeer build a career in AI?",
-          "answer": "The origin records below connect Noam Shazeer to research author on google’s transformer and mixture-of-experts papers. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "transformer"
+          "question": "What was Noam Shazeer’s June 2026 career move?",
+          "answer": "Reuters reported his move from Google’s Gemini work to OpenAI. The report is a dated role observation, not a disclosure of his current pay, holdings or private wealth.",
+          "sourceId": "shazeer-move"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Noam Shazeer net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -3470,19 +3426,10 @@
           "stage": "finding"
         },
         {
-          "heading": "OpenAI: salary rate is not salary received",
+          "heading": "Fidji Simo: $1 million salary rate versus $626,923 reported salary",
           "paragraphs": [
-            "The proxy lists a $1 million annual base-salary rate for Simo in its 2025 salary table. That is an annual rate, not proof she received a full year of salary after leaving in August. The relevant paid amount would come from the appropriate compensation disclosure and employment period.",
-            "The document also describes annual RSU arrangements and vesting terms. Grant-date accounting value can differ from a later realized value. Market movements, vesting and taxes affect what someone eventually receives. Adding grant values across years would not produce a personal asset total.",
-            "My calculation: no total personal fortune is calculated from the salary rate or grants. The ledger records the rate and forfeiture events with their definitions. That gives readers useful financial information without disguising incomplete ownership data as an estimate."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "OpenAI: a holdings reconstruction needs transaction records",
-          "paragraphs": [
-            "A public-stock ledger is still only one part of personal wealth. It may exclude private investments, property and debt. OpenAI compensation could introduce a different private instrument with its own restrictions. I do not fill those gaps with a typical executive stake or an assumed compensation package.",
-            "The profile therefore has no numerical wealth chart. Its financial timeline instead shows appointment and departure-related events. That design avoids plotting a salary rate beside unvested equity as if they formed a wealth history. Unknown net worth is visibly labeled, rather than encoded as zero."
+            "The [2026 Instacart proxy’s compensation table](https://www.sec.gov/Archives/edgar/data/1579091/000157909126000024/cart-20260409.htm) reports $626,923 in salary for Simo in 2025, despite a $1 million annual base-salary rate. Her CEO tenure ended August 15. The reported amount is the relevant annual disclosure; the rate is not a full-year payment.",
+            "The same row reports $22,296,487 in total compensation, including $21,562,560 of grant-date stock-award value. Footnote 1 explicitly distinguishes accounting cost from economic value realized. Footnote 11 says unvested executive awards were forfeited at her CEO departure, and the director award at her November 24 board departure. I therefore do not add the compensation headline to retained assets or use it as a net-worth estimate."
           ],
           "stage": "finding"
         },
@@ -3522,6 +3469,14 @@
         }
       ],
       "capital": [
+        {
+          "date": "2025",
+          "event": "Instacart reported annual compensation",
+          "amount": "$626,923 salary; $22,296,487 total",
+          "valuation": "Compensation accounting, not personal wealth",
+          "note": "Total includes $21,562,560 grant-date stock awards; unvested awards forfeited on departure.",
+          "sourceId": "instacart-proxy"
+        },
         {
           "date": "2025",
           "event": "Instacart annual base-salary rate",
@@ -3628,32 +3583,28 @@
       "faq": [
         {
           "question": "What is Fidji Simo’s net worth?",
-          "answer": "Fidji Simo is a Nscale director and former OpenAI executive. Fidji Simo net worth is not established in the reviewed records as of October 11, 2026. Compensation disclosures do not establish her total assets and liabilities."
+          "answer": "A personal total is not established by the reviewed records. Compensation and forfeited awards do not establish net worth. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
-          "question": "How old is Fidji Simo?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Fidji Simo. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "simo-openai"
+          "question": "How much did Instacart’s CEO make?",
+          "answer": "Simo’s 2025 compensation row reports $626,923 salary and $22,296,487 total, largely grant-date stock-award accounting. It is not a net-worth figure; the proxy also records forfeitures of unvested awards when she left.",
+          "sourceId": "instacart-proxy"
         },
         {
-          "question": "What is Fidji Simo’s education?",
-          "answer": "[Meta’s historical biography](https://about.fb.com/fr/media-gallery/executives/fidji-simo/) identifies a Master of Management from HEC Paris and a final year at UCLA Anderson. This is an employer biography, not a transcript or a verified graduation-year record.",
-          "sourceId": "simo-meta-bio"
+          "question": "How did Fidji Simo make her money?",
+          "answer": "The documented financial trail includes executive salary and equity awards at Instacart. Vesting, forfeiture, sales, taxes and assets outside the company prevent converting cumulative compensation into a personal balance sheet.",
+          "sourceId": "instacart-proxy"
         },
         {
-          "question": "Does Fidji Simo own an OpenAI stake?",
-          "answer": "Compensation and forfeited awards do not establish net worth. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Fidji Simo build a career in AI?",
-          "answer": "Simo’s documented career runs from eBay strategy and Facebook product work to Instacart and OpenAI. [Nscale’s September 2026 announcement](https://www.nscale.tech/press-releases/fidji-simo-joins-nscale-board-of-directors) adds an independent-director appointment and describes her continuing OpenAI advisory role.",
-          "sourceId": "simo-nscale"
+          "question": "Did Fidji Simo keep her unvested Instacart awards?",
+          "answer": "The proxy says unvested executive awards were forfeited on her August 15, 2025 CEO departure and the director award on her November 24 board departure. Historical grants cannot all be counted as retained property.",
+          "sourceId": "instacart-proxy"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Fidji Simo net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -3664,14 +3615,14 @@
       "role": "Databricks cofounder and CEO",
       "hook": "A resource-allocation paper sits behind the enterprise company story",
       "dek": "The primary research trail adds substance to a biography built around a large private-company estimate.",
-      "answer": "Ali Ghodsi is Databricks cofounder and CEO. Forbes estimates Ali Ghodsi net worth at $7.6B (2026-10-10). This is a personal estimate, not company value.",
+      "answer": "Ali Ghodsi is Databricks cofounder and CEO. Forbes estimates Ali Ghodsi net worth at $7.6B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$7.6B",
         "value": 7.6,
-        "date": "2026-10-10",
+        "date": "2026-10-12",
         "sourceId": "ali-ghodsi-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Ali Ghodsi net worth](https://www.forbes.com/profile/ali-ghodsi/) at $7.6 billion as of October 10, 2026. [Reuters’s August 13 report](https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466) identifies a $5 billion Databricks financing at $190 billion. I do not divide the personal total by the company valuation to declare a 4% stake. The reviewed sources do not establish his exact current ownership, liabilities or the valuation rights attached to founder securities.",
+        "paragraph": "[Forbes estimates Ali Ghodsi net worth](https://www.forbes.com/profile/ali-ghodsi/) at $7.6 billion as of October 12, 2026. [Reuters’s August 13 report](https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466) identifies a $5 billion Databricks financing at $190 billion. I do not divide the personal total by the company valuation to declare a 4% stake. The reviewed sources do not establish his exact current ownership, liabilities or the valuation rights attached to founder securities.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -3778,7 +3729,7 @@
       ],
       "slug": "ali-ghodsi",
       "path": "/leaders/ali-ghodsi/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Ali Ghodsi Net Worth: $7.6B | Databricks",
@@ -3829,32 +3780,29 @@
       "faq": [
         {
           "question": "What is Ali Ghodsi’s net worth?",
-          "answer": "Ali Ghodsi is Databricks cofounder and CEO. Forbes estimates Ali Ghodsi net worth at $7.6B (2026-10-10). This is a personal estimate, not company value."
+          "answer": "Forbes estimates $7.6B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
+          "sourceId": "ali-ghodsi-forbes"
         },
         {
-          "question": "How old is Ali Ghodsi?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Ali Ghodsi. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "ali-bio"
+          "question": "What is Databricks’ net worth?",
+          "answer": "Reuters reported a $190 billion company financing valuation in August 2026. Company equity value is different from Ghodsi’s personal wealth and does not disclose his founder percentage.",
+          "sourceId": "databricks-round"
         },
         {
-          "question": "What is Ali Ghodsi’s education?",
-          "answer": "PhD in distributed computing, according to Databricks. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "ali-bio"
+          "question": "Does Ali Ghodsi own 4% of Databricks?",
+          "answer": "Dividing Forbes’s $7.6 billion personal estimate by the $190 billion company valuation gives 4%, but does not establish ownership. The total can include other assets and different private-security valuation assumptions.",
+          "sourceId": "ali-ghodsi-forbes"
         },
         {
-          "question": "Does Ali Ghodsi still own Databricks?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Ali Ghodsi build a career in AI?",
-          "answer": "The origin records below connect Ali Ghodsi to distributed-computing researcher and databricks operator. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "ali-bio"
+          "question": "What did Databricks’ 2023 financing disclose?",
+          "answer": "Its Series I announcement states a $73.50 share price, a $43 billion valuation and more than $500 million raised. A historical security price needs a matched class and share count before it can value a founder holding.",
+          "sourceId": "databricks-series-i"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Ali Ghodsi net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -3865,14 +3813,14 @@
       "role": "Replit cofounder and CEO",
       "hook": "The browser-based building tool became a company financing story",
       "dek": "His own announcement shows the product thesis; the dated personal estimate should not be inferred from company funding.",
-      "answer": "Amjad Masad is Replit cofounder and CEO. Forbes estimates Amjad Masad net worth at $2B (2026-10-10). This is a personal estimate, not company value.",
+      "answer": "Amjad Masad is Replit cofounder and CEO. Forbes estimates Amjad Masad net worth at $2B (2026-10-11). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$2B",
         "value": 2,
-        "date": "2026-10-10",
+        "date": "2026-10-11",
         "sourceId": "amjad-masad-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Amjad Masad net worth](https://www.forbes.com/profile/amjad-masad/) at $2 billion as of October 10, 2026. In his [March 11, 2026 announcement](https://replit.com/blog/replit-raises-400-million-dollars), Masad says Replit raised $400 million at a $9 billion valuation. Those figures do not disclose his economic stake or the amount, if any, sold personally. I exclude a target for future revenue from the wealth chart and do not convert company valuation into a personal ownership percentage.",
+        "paragraph": "[Forbes estimates Amjad Masad net worth](https://www.forbes.com/profile/amjad-masad/) at $2 billion as of October 11, 2026. In his [March 11, 2026 announcement](https://replit.com/blog/replit-raises-400-million-dollars), Masad says Replit raised $400 million at a $9 billion valuation. Those figures do not disclose his economic stake or the amount, if any, sold personally. I exclude a target for future revenue from the wealth chart and do not convert company valuation into a personal ownership percentage.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -3972,7 +3920,7 @@
       ],
       "slug": "amjad-masad",
       "path": "/leaders/amjad-masad/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Amjad Masad Net Worth: $2B | Replit",
@@ -4023,32 +3971,29 @@
       "faq": [
         {
           "question": "What is Amjad Masad’s net worth?",
-          "answer": "Amjad Masad is Replit cofounder and CEO. Forbes estimates Amjad Masad net worth at $2B (2026-10-10). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Amjad Masad?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Amjad Masad. I leave the age unconfirmed rather than infer it from school or career dates.",
+          "answer": "Forbes estimates $2B on 2026-10-11. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "amjad-masad-forbes"
         },
         {
-          "question": "What is Amjad Masad’s education?",
-          "answer": "Not independently verified in this profile. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "Is Amjad Masad a billionaire?",
+          "answer": "Forbes’s displayed October 11, 2026 estimate is $2 billion, read in the October 12 check. I preserve the provider’s observation date instead of silently redating it to the access date.",
           "sourceId": "amjad-masad-forbes"
         },
         {
-          "question": "Does Amjad Masad still own Replit?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "What is Replit’s net worth?",
+          "answer": "Masad’s March 2026 announcement gives a $9 billion company valuation and $400 million raised. These are financing measures, not Masad’s personal assets or a disclosure of a founder sale.",
+          "sourceId": "replit-round"
         },
         {
-          "question": "How did Amjad Masad build a career in AI?",
-          "answer": "The origin records below connect Amjad Masad to jordanian coding background, reported by forbes. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "amjad-masad-forbes"
+          "question": "Who founded Replit with Amjad Masad?",
+          "answer": "Replit’s team page identifies Haya Odeh as co-founder and VP of Design. The company biography establishes a business role without supplying her or Masad’s economic ownership percentage.",
+          "sourceId": "replit-team"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Amjad Masad net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -4065,7 +4010,7 @@
         "value": null,
         "date": "2026-10-11",
         "basis": "No substantiated personal estimate in reviewed records",
-        "paragraph": "Mustafa Suleyman net worth remains unestablished in the reviewed sources. His [first-person biography](https://mustafa-suleyman.ai/) confirms DeepMind and Inflection relationships, while [Microsoft’s March 2026 announcement](https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/) defines his current mandate. Neither provides a personal balance sheet. I exclude"
+        "paragraph": "Mustafa Suleyman net worth remains unestablished in the reviewed sources. His [first-person biography](https://mustafa-suleyman.ai/) confirms DeepMind and Inflection relationships, while [Microsoft’s March 2026 announcement](https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/) defines his current mandate. Neither provides a personal balance sheet. Neither his private holdings nor his current compensation can be reconstructed from these announcements."
       },
       "sourceIds": [
         "suleyman-bio",
@@ -4224,32 +4169,28 @@
       "faq": [
         {
           "question": "What is Mustafa Suleyman’s net worth?",
-          "answer": "Mustafa Suleyman is Microsoft AI CEO. Mustafa Suleyman net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth."
+          "answer": "A personal total is not established by the reviewed records. No substantiated personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
         },
         {
-          "question": "How old is Mustafa Suleyman?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Mustafa Suleyman. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "microsoft-join"
+          "question": "Did Microsoft buy all of Inflection?",
+          "answer": "The CMA describes hiring almost all the team and a non-exclusive IP licence. It found a relevant merger situation for its legal assessment, covering acquired activities rather than requiring purchase of the whole legal entity.",
+          "sourceId": "inflection-cma"
         },
         {
-          "question": "What is Mustafa Suleyman’s education?",
-          "answer": "Not independently verified in the reviewed career records. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "microsoft-join"
+          "question": "What does Mustafa Suleyman lead at Microsoft?",
+          "answer": "Microsoft’s March 2026 update focuses his mandate on models and superintelligence, while separating Copilot experience leadership. This organizational mandate does not disclose his compensation or share ownership.",
+          "sourceId": "microsoft-role"
         },
         {
-          "question": "Does Mustafa Suleyman still own Microsoft AI?",
-          "answer": "No substantiated personal estimate in reviewed records. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Mustafa Suleyman build a career in AI?",
-          "answer": "The origin records below connect Mustafa Suleyman to deepmind and inflection co-founder; microsoft ai executive. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "microsoft-join"
+          "question": "Can the Inflection deal establish Suleyman’s net worth?",
+          "answer": "No. The regulator’s account establishes transaction structure and competitive assessment, not a complete founder distribution or personal assets and liabilities. I publish no unsupported dollar estimate.",
+          "sourceId": "inflection-cma"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Mustafa Suleyman net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -4260,14 +4201,14 @@
       "role": "Cursor cofounder; post-close title unverified",
       "hook": "A founder’s product judgment and a company-wide share exchange",
       "dek": "The interview shows how he evaluated coding interfaces, while the closing filing does not disclose his personal allocation.",
-      "answer": "Sualeh Asif is Cursor cofounder. Forbes estimates Sualeh Asif net worth at $2.8B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Sualeh Asif is Cursor cofounder. Forbes estimates Sualeh Asif net worth at $2.8B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$2.8B",
         "value": 2.8,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "sualeh-asif-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Sualeh Asif net worth](https://www.forbes.com/profile/sualeh-asif/) at $2.8 billion on October 11, 2026. It separately estimates the value each cofounder received in SpaceX shares at closing. The [August 14, 2026 filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) establishes a $60 billion implied Cursor equity value but not Asif’s allocation. I exclude an unreviewed Bloomberg comparison and do not infer his percentage from equal cofounder wealth estimates.",
+        "paragraph": "[Forbes estimates Sualeh Asif net worth](https://www.forbes.com/profile/sualeh-asif/) at $2.8 billion on October 12, 2026. It separately estimates the value each cofounder received in SpaceX shares at closing. The [August 14, 2026 filing](https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm) establishes a $60 billion implied Cursor equity value but not Asif’s allocation. I exclude an unreviewed Bloomberg comparison and do not infer his percentage from equal cofounder wealth estimates.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -4394,7 +4335,7 @@
       ],
       "slug": "sualeh-asif",
       "path": "/leaders/sualeh-asif/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Sualeh Asif Net Worth: $2.8B | Cursor",
@@ -4403,7 +4344,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "26 (Forbes, observed October 11, 2026)",
+          "value": "26 (Forbes, observed October 12, 2026)",
           "sourceId": "sualeh-asif-forbes"
         },
         {
@@ -4445,32 +4386,29 @@
       "faq": [
         {
           "question": "What is Sualeh Asif’s net worth?",
-          "answer": "Sualeh Asif is Cursor cofounder. Forbes estimates Sualeh Asif net worth at $2.8B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Sualeh Asif?",
-          "answer": "26 (Forbes, observed October 11, 2026). This is the age reported by the provider when checked, rather than an independently verified birth-date calculation.",
+          "answer": "Forbes estimates $2.8B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "sualeh-asif-forbes"
         },
         {
-          "question": "What is Sualeh Asif’s education?",
-          "answer": "MIT bachelor’s degree, as listed by Forbes. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "How rich are Cursor founders?",
+          "answer": "Forbes estimates Asif at $2.8 billion in October 2026 and describes estimated SpaceX shares received at closing. The merger filing gives aggregate consideration, not each founder’s allocation.",
           "sourceId": "sualeh-asif-forbes"
         },
         {
-          "question": "Does Sualeh Asif still own Cursor?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "How much is the Cursor company worth?",
+          "answer": "SpaceX’s August 14, 2026 filing gives a $60 billion implied equity value for its acquisition of Anysphere. That transaction value is separate from Asif’s current personal total.",
+          "sourceId": "cursor8k"
         },
         {
-          "question": "How did Sualeh Asif build a career in AI?",
-          "answer": "The origin records below connect Sualeh Asif to pakistan (forbes and imo records). The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "sualeh-asif-forbes"
+          "question": "Did Sualeh Asif win three IMO medals?",
+          "answer": "The official 2016, 2017 and 2018 results distinguish appearances from medals: his 2017 result is bronze, while the award fields for 2016 and 2018 are blank. Calling all three appearances medals would misread the records.",
+          "sourceId": "asif-2017"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Sualeh Asif net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -4481,14 +4419,14 @@
       "role": "CoreWeave cofounder and CEO",
       "hook": "The trader’s background is documented in the IPO filing",
       "dek": "A public-company registration statement gives a more useful origin trail than an isolated insider-stock total.",
-      "answer": "Michael Intrator is CoreWeave cofounder and CEO. Forbes estimates Michael Intrator net worth at $5.3B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Michael Intrator is CoreWeave cofounder and CEO. Forbes estimates Michael Intrator net worth at $5.3B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$5.3B",
         "value": 5.3,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "michael-intrator-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Michael Intrator net worth](https://www.forbes.com/profile/michael-intrator/) at $5.3 billion on October 11, 2026.6 billion. [CoreWeave’s registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) establishes his role and earlier energy-market work. I have not reconciled the later trusts, LLCs and Form 4 transactions, so we do not treat a direct-holdings tracker as a complete personal asset total or claim to independently reproduce Forbes.",
+        "paragraph": "[Forbes estimates Michael Intrator net worth](https://www.forbes.com/profile/michael-intrator/) at $5.3 billion on October 12, 2026. [CoreWeave’s registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) establishes his role and earlier energy-market work. I have not reconciled the later trusts, LLCs and Form 4 transactions, so we do not treat a direct-holdings tracker as a complete personal asset total or claim to independently reproduce Forbes.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -4597,7 +4535,7 @@
       ],
       "slug": "michael-intrator",
       "path": "/leaders/michael-intrator/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Michael Intrator Net Worth: $5.3B | CoreWeave",
@@ -4606,8 +4544,8 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "Not independently verified",
-          "sourceId": "coreweave-s1"
+          "value": "57 (Forbes, observed October 12, 2026)",
+          "sourceId": "michael-intrator-forbes"
         },
         {
           "label": "Birth date",
@@ -4648,32 +4586,29 @@
       "faq": [
         {
           "question": "What is Michael Intrator’s net worth?",
-          "answer": "Michael Intrator is CoreWeave cofounder and CEO. Forbes estimates Michael Intrator net worth at $5.3B (2026-10-11). This is a personal estimate, not company value."
+          "answer": "Forbes estimates $5.3B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
+          "sourceId": "michael-intrator-forbes"
         },
         {
-          "question": "How old is Michael Intrator?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Michael Intrator. I leave the age unconfirmed rather than infer it from school or career dates.",
-          "sourceId": "coreweave-s1"
+          "question": "How old is CoreWeave CEO Michael Intrator?",
+          "answer": "Forbes lists him as 57 in the October 12, 2026 profile. This is the provider’s reported age, not an independently verified day-of-birth calculation.",
+          "sourceId": "michael-intrator-forbes"
         },
         {
-          "question": "What is Michael Intrator’s education?",
-          "answer": "Binghamton political science; Columbia MPA. The source shown in the quick facts table identifies the scope of this record.",
-          "sourceId": "coreweave-s1"
+          "question": "Does Michael Intrator own 38.70% of CoreWeave?",
+          "answer": "The April 2026 proxy reports 38.70% voting power. Class B has ten votes per share and Class A one. Voting power is not economic ownership and cannot be multiplied by market capitalization to estimate wealth.",
+          "sourceId": "intrator-proxy"
         },
         {
-          "question": "Does Michael Intrator still own CoreWeave?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
-        },
-        {
-          "question": "How did Michael Intrator build a career in AI?",
-          "answer": "The origin records below connect Michael Intrator to energy-market career documented in coreweave’s s-1. The company-building sections distinguish documented work from my interpretation of the business strategy.",
-          "sourceId": "coreweave-s1"
+          "question": "Why can a direct-holdings tracker miss Intrator’s securities?",
+          "answer": "The proxy’s beneficial ownership footnote includes LLC, trust, spouse and eligible-award interests. Its historical class totals sum to 61,505,714 shares. That scope is broader than directly registered Class A shares, without proving a particular tracker’s error.",
+          "sourceId": "intrator-proxy"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Michael Intrator net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     },
@@ -4684,14 +4619,14 @@
       "role": "Surge AI founder and CEO",
       "hook": "A bootstrapped company still requires a valuation method",
       "dek": "His own technical writing adds an early research trail; an estimated founder percentage does not make a private-company value observable.",
-      "answer": "Edwin Chen is Surge AI founder and CEO. Forbes estimates Edwin Chen net worth at $18B (2026-10-11). This is a personal estimate, not company value.",
+      "answer": "Edwin Chen is Surge AI founder and CEO. Forbes estimates Edwin Chen net worth at $18B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$18B",
         "value": 18,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "sourceId": "edwin-chen-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Edwin Chen net worth](https://www.forbes.com/profile/edwin-chen/) at $18 billion on October 11, 2026, with an estimated 75% Surge stake. [Bloomberg’s reviewed snapshot](https://www.bloomberg.com/billionaires/profiles/edwin-chen/) shows $13 billion dated May 20, 2026, with modeled 82% ownership. Different ownership assumptions and observation dates prevent treating these as a measured wealth increase. I retain the current Forbes observation and do not present either percentage as a disclosed capital table.",
+        "paragraph": "[Forbes estimates Edwin Chen net worth](https://www.forbes.com/profile/edwin-chen/) at $18 billion on October 12, 2026, with an estimated 75% Surge stake. [Bloomberg’s reviewed snapshot](https://www.bloomberg.com/billionaires/profiles/edwin-chen/) shows $13 billion dated May 20, 2026, with modeled 82% ownership. Different ownership assumptions and observation dates prevent treating these as a measured wealth increase. I retain the current Forbes observation and do not present either percentage as a disclosed capital table.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -4791,7 +4726,7 @@
       ],
       "slug": "edwin-chen",
       "path": "/leaders/edwin-chen/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Edwin Chen Net Worth: $18B | Surge AI",
@@ -4800,7 +4735,7 @@
       "quickFacts": [
         {
           "label": "Age",
-          "value": "Not independently verified",
+          "value": "38 (Forbes, observed October 12, 2026)",
           "sourceId": "edwin-chen-forbes"
         },
         {
@@ -4842,32 +4777,29 @@
       "faq": [
         {
           "question": "What is Edwin Chen’s net worth?",
-          "answer": "Edwin Chen is Surge AI founder and CEO. Forbes estimates Edwin Chen net worth at $18B (2026-10-11). This is a personal estimate, not company value."
-        },
-        {
-          "question": "How old is Edwin Chen?",
-          "answer": "The reviewed records do not establish a verified birth date or age for Edwin Chen. I leave the age unconfirmed rather than infer it from school or career dates.",
+          "answer": "Forbes estimates $18B on 2026-10-12. This dated personal estimate is separate from the company’s valuation and is not an audited balance sheet.",
           "sourceId": "edwin-chen-forbes"
         },
         {
-          "question": "What is Edwin Chen’s education?",
-          "answer": "MIT study, reported by Forbes. The source shown in the quick facts table identifies the scope of this record.",
+          "question": "How old is Edwin Chen, the founder of Surge AI?",
+          "answer": "Forbes lists him as 38 in the October 12, 2026 profile. The observation is dated and attributed; I do not infer an exact birth date from it.",
           "sourceId": "edwin-chen-forbes"
         },
         {
-          "question": "Does Edwin Chen still own Surge AI?",
-          "answer": "Forbes personal wealth estimate. An operating title does not establish current ownership. The capital ledger distinguishes disclosed holdings, estimated stakes and company transactions."
+          "question": "Why do Forbes and Bloomberg differ on Edwin Chen?",
+          "answer": "The reviewed Forbes observation is $18 billion, while the dated Bloomberg snapshot is $13 billion. Their modeled stakes and dates differ. Without matched inputs, the gap is not a measured wealth increase or proof of a sale.",
+          "sourceId": "edwin-bloomberg"
         },
         {
-          "question": "How did Edwin Chen build a career in AI?",
-          "answer": "The origin records below connect Edwin Chen to us machine-learning career, reported by forbes. The company-building sections distinguish documented work from my interpretation of the business strategy.",
+          "question": "Has Surge AI raised outside funding?",
+          "answer": "Forbes reports Surge’s claim that it has not raised outside funding. That claim and its estimated 75% Chen holding remain attributed; neither is a shareholder register or an independently priced financing.",
           "sourceId": "edwin-chen-forbes"
         }
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
         "status": "needs-review",
-        "questionsBasis": "Reader questions; live People Also Ask not yet verified",
+        "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Edwin Chen net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
         "findingsReviewed": false
       }
     }

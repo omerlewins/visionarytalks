@@ -23,7 +23,26 @@ export function leaderPortrait(p: LeaderSummary) {
     return "/reference/leopold-aschenbrenner-editorial-v1.png";
   if (p.slug === "michael-truell")
     return "/reference/michael-truell-illustration-v1.png";
-  return featuredLeaderSlugs.includes(p.slug)
+  const illustratedSlugs = [
+    ...featuredLeaderSlugs,
+    "greg-brockman",
+    "ilya-sutskever",
+    "aravind-srinivas",
+    "daniela-amodei",
+    "bret-taylor",
+    "scott-wu",
+    "brett-adcock",
+    "mike-krieger",
+    "noam-shazeer",
+    "fidji-simo",
+    "ali-ghodsi",
+    "amjad-masad",
+    "mustafa-suleyman",
+    "sualeh-asif",
+    "michael-intrator",
+    "edwin-chen",
+  ];
+  return illustratedSlugs.includes(p.slug)
     ? "/reference/" + p.slug + "-editorial-v1.png"
     : undefined;
 }
