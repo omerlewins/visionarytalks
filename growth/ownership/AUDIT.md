@@ -50,6 +50,10 @@ Current founder executive titles and private voting allocations need a final ref
 
 ## Provenance and limits
 
+### October 12 launch refresh
+
+Groq's June 22 company announcement adds $650 million of growth capital led by Disruptive and Infinitum and identifies Adam Winter as CEO and Alex Davis as chair. It supersedes the December CEO appointment record. The capital ledger, leadership, timeline, finding and FAQ now reflect this newer record; no valuation or controlling percentage is inferred. Notion's June 8 founder announcement names its first board; the article treats the appointments as announced and does not infer voting stakes or an IPO date. Both primary records are in the source ledger with actual access dates. Review validation passed and the guarded Preview sync was dry-run, then applied with a private backup. Remaining publication gaps are retained; this refresh does not approve either article for release.
+
 The public source registry records publisher, dates, access and evidence. Primary documents were inspected through web readers/browser; some Javascript pages and the Groq corporate archive required search-rendered source text. Do not claim interviews, exclusive private records, a complete private cap table, or an exhaustive archive search. Independent research means our reconciliation and analysis of public records. Current undisclosed stakes are not invented. Announced status is presented as of the checked source set; a release is not proof there was no later event.
 
 The freshly retrieved SEO provider is Semrush, separate from the user’s DataForSEO brief. Actual rendered Google questions are saved separately, with location limitations.

@@ -639,6 +639,26 @@
       "accessed": "2026-10-11",
       "evidence": "Definition of Harvey names Harvey AI Corporation, a Delaware corporation, and its affiliates. Contractual group definition is not a complete subsidiary or shareholder register.",
       "type": "primary"
+    },
+    "groq-growth-2026": {
+      "id": "groq-growth-2026",
+      "title": "Groq June 2026 growth capital and current leadership",
+      "url": "https://groq.com/newsroom/groq-raises-usd650m-to-scale-its-ai-inference-cloud-business",
+      "publisher": "Groq",
+      "date": "2026-06-22",
+      "accessed": "2026-10-12",
+      "type": "primary",
+      "evidence": "$650M new growth capital led by Disruptive and Infinitum; reinvesting investors; Adam Winter CEO, Matt Eng CFO and Alex Davis chair; independent US company. No valuation or current percentages disclosed."
+    },
+    "notion-board-2026": {
+      "id": "notion-board-2026",
+      "title": "Ivan Zhao announces Notion’s first board",
+      "url": "https://www.notion.com/blog/meet-notions-board-of-directors",
+      "publisher": "Notion",
+      "date": "2026-06-08",
+      "accessed": "2026-10-12",
+      "type": "primary",
+      "evidence": "Founder announcement names Jonathan Chadwick, Pat Grady, Gretchen Howard, Christopher Payne and Patrick Hsu as joining the first board. No voting percentages or public offering schedule disclosed."
     }
   },
   "files": [
@@ -902,8 +922,8 @@
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "groq",
@@ -936,7 +956,8 @@
       ],
       "changed": [
         "I opened [Nvidia’s FY2026 annual report](source:nvidia-10k) and compared its Groq note with the [December company announcement](source:groq-license). Together they give a more precise ownership answer than a headline calling this a takeover.",
-        "Technology rights and personnel moved into Nvidia’s orbit while Groq described an independent business and continuing GroqCloud. The remaining company’s assets, strategy and earnings potential therefore need a fresh examination. The old fundraising price cannot simply be relabeled an exit price."
+        "Technology rights and personnel moved into Nvidia’s orbit while Groq described an independent business and continuing GroqCloud. The remaining company’s assets, strategy and earnings potential therefore need a fresh examination. The old fundraising price cannot simply be relabeled an exit price.",
+        "Groq’s [June 22 growth-capital announcement](source:groq-growth-2026) adds $650 million led by Disruptive and Infinitum. It identifies Adam Winter as CEO and Alex Davis as chair, superseding the December appointment record."
       ],
       "ownership": [
         "The investor table dates participation to the September financing. It does not disclose a full post-licensing shareholder register. The founder’s departure does not establish whether he retained shares, sold them or received distributions.",
@@ -946,9 +967,9 @@
       "holders": [
         {
           "holder": "Disruptive",
-          "type": "Financing lead",
-          "sourceId": "groq-e",
-          "date": "2025-09-17",
+          "type": "Growth-capital co-lead",
+          "sourceId": "groq-growth-2026",
+          "date": "2026-06-22",
           "stake": "Not disclosed",
           "votes": "Not disclosed"
         },
@@ -973,6 +994,14 @@
           "type": "Named returning investors",
           "sourceId": "groq-e",
           "date": "2025-09-17",
+          "stake": "Not disclosed",
+          "votes": "Not disclosed"
+        },
+        {
+          "holder": "Infinitum",
+          "type": "Growth-capital co-lead",
+          "sourceId": "groq-growth-2026",
+          "date": "2026-06-22",
           "stake": "Not disclosed",
           "votes": "Not disclosed"
         }
@@ -1051,6 +1080,18 @@
           "lead": "Nvidia",
           "sourceId": "nvidia-10k",
           "basis": "disclosed"
+        },
+        {
+          "date": "2026-06-22",
+          "event": "Growth capital",
+          "amount": "$650M",
+          "valuation": "Not disclosed",
+          "value": null,
+          "priced": false,
+          "currency": "USD",
+          "lead": "Disruptive; Infinitum",
+          "sourceId": "groq-growth-2026",
+          "basis": "disclosed"
         }
       ],
       "funding": [
@@ -1096,36 +1137,51 @@
           "sourceId": "nvidia-10k"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-06-22",
+          "event": "Growth capital and leadership disclosure",
+          "ownerAfter": "Disruptive and Infinitum co-lead; percentages undisclosed",
+          "money": "$650M; valuation undisclosed",
+          "sourceId": "groq-growth-2026"
+        },
+        {
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Independent private company per reviewed records",
           "money": "Post-deal company valuation unavailable",
-          "sourceId": "groq-license"
+          "sourceId": "groq-growth-2026"
         }
       ],
       "finding": {
         "heading": "The $20B headline becomes a $13B-plus-$4B filing schedule",
         "sourceIds": [
-          "nvidia-10k"
+          "nvidia-10k",
+          "groq-growth-2026"
         ],
         "paragraphs": [
           "The annual report’s cash schedule totals $17B, including imputed interest in the amount payable. I use that documented figure rather than presenting an unverified approximately $20B headline as filed consideration.",
           "My read: reconciling transaction type and payment timing is more useful than selecting the biggest number. Cash paid at closing and a future obligation differ. Neither establishes the company’s post-deal value or a payment to each individual shareholder.",
-          "Nvidia also records goodwill and developed technology. Accounting for a workforce and future development can involve goodwill even when no equity interests were purchased. Goodwill alone is therefore insufficient evidence that Groq became a subsidiary."
+          "Nvidia also records goodwill and developed technology. Accounting for a workforce and future development can involve goodwill even when no equity interests were purchased. Goodwill alone is therefore insufficient evidence that Groq became a subsidiary.",
+          "The [June announcement](source:groq-growth-2026) supplies a post-agreement capital and management record: reinvesting investors, new funding and a different CEO. It does not reprice the remaining company. I keep the $650 million off the valuation chart because no price is disclosed."
         ]
       },
       "leadership": [
         {
-          "person": "Simon Edwards",
-          "role": "CEO of independent Groq",
-          "since": "Named December 24, 2025",
-          "sourceId": "groq-license"
+          "person": "Adam Winter",
+          "role": "CEO",
+          "since": "Identified June 22, 2026",
+          "sourceId": "groq-growth-2026"
         },
         {
           "person": "Jonathan Ross",
           "role": "Founder; joined Nvidia under arrangement",
           "since": "Transition announced December 2025",
           "sourceId": "groq-license"
+        },
+        {
+          "person": "Alex Davis",
+          "role": "Chair; Disruptive founder",
+          "since": "Identified June 22, 2026",
+          "sourceId": "groq-growth-2026"
         }
       ],
       "stock": [
@@ -1151,11 +1207,11 @@
         },
         {
           "question": "Who is the CEO of Groq?",
-          "answer": "Simon Edwards was named CEO in Groq’s December 24, 2025 licensing announcement. Founder Jonathan Ross and president Sunny Madra were joining Nvidia. That dated company record supersedes older funding reports identifying Ross as chief executive; it does not reveal either executive’s current personal ownership interest."
+          "answer": "Adam Winter is identified as CEO in Groq’s June 22, 2026 growth-capital announcement. That newer record supersedes December 2025’s appointment of Simon Edwards. Alex Davis is chair. The company remains described as independent; neither a management title nor a financing lead establishes a disclosed controlling share percentage."
         },
         {
           "question": "What is Groq’s current valuation?",
-          "answer": "Groq announced a $6.9B post-money financing valuation in September 2025. That benchmark predates the Nvidia licensing and hiring agreement. I have not established a comparable valuation of the remaining business after that agreement, so the old financing price is a historical observation rather than a current stock quote."
+          "answer": "The $6.9B post-money benchmark comes from September 2025, before the Nvidia agreement. Groq’s June 2026 announcement adds $650M of growth capital without a valuation. I therefore retain the earlier price as historical and do not assign a new price to the remaining independent business."
         }
       ],
       "watching": [
@@ -1163,13 +1219,14 @@
         "Next ownership evidence: seek a current shareholder disclosure rather than treating staff hiring as share sales.",
         "Next financing: confirm that a new priced round concerns the continuing Groq entity and its post-deal perimeter."
       ],
-      "methodology": "I cross-read the company licensing announcement, company-issued financing release and Nvidia’s annual report. The filing establishes scope and consideration; the release establishes dated participation. I did not obtain a private cap table, executed licence or founder distribution schedule. Our [research methodology](/about/#research-method) preserves those boundaries.",
+      "methodology": "I cross-read the company licensing announcement, company-issued financing releases, including June 2026 leadership and growth capital and Nvidia’s annual report. The filing establishes scope and consideration; the release establishes dated participation. I did not obtain a private cap table, executed licence or founder distribution schedule. Our [research methodology](/about/#research-method) preserves those boundaries.",
       "sourceIds": [
         "groq-license",
         "nvidia-10k",
         "groq-e",
         "groq-d",
-        "groq-privacy"
+        "groq-privacy",
+        "groq-growth-2026"
       ],
       "gaps": [
         "Refresh post-agreement shareholder and operating disclosures before publication. Jonathan Ross’s personal profile is not yet built."
@@ -2028,8 +2085,8 @@
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "notion",
@@ -2123,6 +2180,13 @@
             "I also keep two different denominators separate. More than half of ARR coming from AI-enabled customers is a statement about the composition of a run rate. It does not mean AI itself generated that proportion of incremental revenue, and a doubling of the share is not the same thing as a doubling of total sales.",
             "A tender can therefore be relevant to staff retention, investor demand and IPO preparation without proving an imminent IPO. The useful next record would be a company-confirmed listing process or public registration document, with a defined issuer, share classes and offering terms. Until then, the company’s ability to provide private liquidity is part of the story in its own right."
           ]
+        },
+        {
+          "id": "first-board",
+          "heading": "Notion’s first board is a governance signal, not an IPO date",
+          "paragraphs": [
+            "In [his June 8 announcement](source:notion-board-2026), Ivan Zhao names Jonathan Chadwick, Pat Grady, Gretchen Howard, Christopher Payne and Patrick Hsu as joining Notion’s first board. I distinguish that governance development from share ownership: the post gives no voting percentages or offering timetable."
+          ]
         }
       ],
       "founderStory": [
@@ -2203,7 +2267,14 @@
           "sourceId": "notion-tender"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-06-08",
+          "event": "First board announced",
+          "ownerAfter": "Shareholder percentages not disclosed",
+          "money": "No financing announced in this record",
+          "sourceId": "notion-board-2026"
+        },
+        {
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private shareholders; no public listing established here",
           "money": "Tender is secondary liquidity",
@@ -2263,13 +2334,14 @@
         "Next public filing: look for issuer, votes and beneficial owners before assigning an IPO date.",
         "Next operating update: preserve revenue-growth and ARR-mix definitions rather than combining percentages."
       ],
-      "methodology": "I read the CFO’s announcement, the adviser’s historical financing record and the investor company page. I traced transaction type and proceeds rather than guessing current percentages. Our [research method](/about/#research-method) separates liquidity, capital and company value. I did not obtain employee agreements, a confidential filing or a shareholder register.",
+      "methodology": "I read the CFO’s announcement, the adviser’s historical financing record and the investor company page and founder’s first-board announcement. I traced transaction type and proceeds rather than guessing current percentages. Our [research method](/about/#research-method) separates liquidity, capital and company value. I did not obtain employee agreements, a confidential filing or a shareholder register.",
       "sourceIds": [
         "notion-tender",
         "notion-2020",
         "notion-founders",
         "notion-2021",
-        "notion-team"
+        "notion-team",
+        "notion-board-2026"
       ],
       "gaps": [
         "Confirm IPO-preparation reporting and current voting arrangements before publication; founder profiles are not yet built."
