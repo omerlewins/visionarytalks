@@ -63,8 +63,11 @@ test("navigation, search and filters are usable", async ({ page }) => {
   });
   await expect(investigation).toBeVisible();
   await expect(investigation).toHaveAttribute("href", "/company-cursor/");
-  await investigation.click();
-  await expect(page.locator("h1")).toBeVisible();
+  await Promise.all([
+    page.waitForURL("**/company-cursor/", { waitUntil: "load" }),
+    investigation.click(),
+  ]);
+  await expect(page.getByRole("heading", { level: 1, name: "Cursor", exact: true })).toBeVisible();
   await page.goto("/search/?q=Apple");
   await expect(page.locator(".archive-grid article")).toHaveCount(1);
 });
