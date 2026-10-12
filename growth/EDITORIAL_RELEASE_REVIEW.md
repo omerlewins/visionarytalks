@@ -54,6 +54,8 @@ Missing founder profiles are omitted; no nonexistent destination is invented. Th
 
 ## Release boundary
 
+Commit `f0ccd90` passed both GitHub validation runs and reached a ready protected Vercel Preview at `visionarytalks-prx40zpbq-omer-webielcoms-projects.vercel.app`. All 32 deployed articles returned successfully with the corrected metadata, FAQs, one H1 and Preview noindex protection; the index showed completed review status. Private evidence: `private/growth/deployed-editorial-review.json`. This verifies the review deployment, not the Production publication of those files. The separate dependency patch and remaining vendor advisories are recorded in `DEPENDENCY_LAUNCH_REVIEW.md`.
+
 Both publication validators and the content-bound release review passed. All 59 unit tests and the Preview build passed. The guarded Preview synchronizations completed with private backups, preserving published originals. Browser checks passed for all 32 articles at 1440px and 390px (64 viewport checks): current descriptions, one H1, loaded leader portraits, readable shared tables/charts, no root overflow, FAQ/schema parity, Preview noindex and no analytics tag. All 45 internal destinations returned successfully. Private evidence is `private/growth/reviewed-batch-qa.json` and the screenshots under `private/growth/review-qa/`. Selected wealth and leadership details were also visually inspected.
 
 Editorial approval makes these files candidates for a deliberate publication release. It does not synchronize them to Production, invent first-publication dates, change DNS, expose Preview drafts publicly or certify a deployed release. Approved publication transfer, public routing and final deployed checks remain distinct launch work.

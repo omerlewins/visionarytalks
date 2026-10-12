@@ -6,6 +6,10 @@
   "engines": {
     "node": ">=22.0.0"
   },
+  "overrides": {
+    "undici@>=7.0.0 <7.29.1": "7.29.1",
+    "dompurify@<=3.4.15": "3.4.16"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build --webpack",
