@@ -77,7 +77,7 @@ test("legacy Mississippi correction applies to the intended article only", () =>
 });
 test("Leopold retains his original canonical route and never charts managed assets as personal wealth", () => {
   const p = leopold.profile as any;
-  assert.deepEqual(validateLeader(p, leopold.sources, "2026-10-11").errors, []);
+  assert.deepEqual(validateLeader(p, leopold.sources, p.checked).errors, []);
   assert.equal(p.path, "/leopold-aschenbrenner-net-worth/");
   assert.equal(
     leaderSchema(p)["@graph"][0].mainEntityOfPage,

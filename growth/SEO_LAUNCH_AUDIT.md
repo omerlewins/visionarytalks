@@ -28,6 +28,8 @@ Official references: [Google title guidance](https://developers.google.com/searc
 
 ## Remaining launch work
 
+October 12 editorial completion: the 22 Leaders and ten ownership investigations now pass their separate publication gates, with individual decisions and retained public-record limits in `EDITORIAL_RELEASE_REVIEW.md`. Stale estimate dates in descriptions were corrected. The new `validate:release` command binds the reviewed copy to content hashes so later edits require renewed review. Editorial readiness does not activate public research routes or transfer this batch to Production; deliberate publication integration and deployed checks remain launch requirements. Earlier paragraphs below retain the previous audit state.
+
 October 12 Production rehearsal update: separate storage and database are provisioned, migrations and published-only restore passed, owner-approved administrator access is verified, and all 439 migrated image objects passed destination hash checks. The local Production candidate passed 158 route/metadata checks and its build. Fresh application configuration and secrets are installed in Vercel Production. See `PRODUCTION_PREPARATION.md` for exact scope and private evidence. The 32 research articles still require publication review and deliberate integration; these infrastructure checks do not approve them or perform the domain cutover.
 
 This branch is Preview-only. Production credentials/storage, schema migrations, approved content transfer, integration settings, `APP_ENV=production`, `DEMO_MODE=false` and the domain cutover are separate launch steps. Do not reuse Preview credentials in Production.

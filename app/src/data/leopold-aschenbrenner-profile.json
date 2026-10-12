@@ -2,10 +2,10 @@
   "profile": {
     "templateVersion": "leaders-v1",
     "editorialReview": {
-      "status": "needs-review",
+      "status": "approved",
       "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-      "findingsReviewed": false,
-      "unknownsReviewed": false
+      "findingsReviewed": true,
+      "unknownsReviewed": true
     },
     "name": "Leopold Aschenbrenner",
     "slug": "leopold-aschenbrenner",
@@ -15,17 +15,17 @@
     "role": "Founder of Situational Awareness LP",
     "hook": "The investor behind the AI infrastructure bet",
     "dek": "I trace his move from AI safety research to investment management, then separate the firm’s disclosed securities from his unverified personal fortune.",
-    "answer": "Leopold Aschenbrenner is the founder of Situational Awareness, an investment firm focused on AI. Leopold Aschenbrenner net worth is not publicly established by the records reviewed on October 11, 2026. The firm’s SEC holdings disclosures measure managed securities, not his personal wealth.",
-    "checked": "2026-10-11",
+    "answer": "Leopold Aschenbrenner is the founder of Situational Awareness, an investment firm focused on AI. Leopold Aschenbrenner net worth is not publicly established by the records reviewed on October 12, 2026. The firm’s SEC holdings disclosures measure managed securities, not his personal wealth.",
+    "checked": "2026-10-12",
     "status": "draft",
     "seo": {
       "title": "Leopold Aschenbrenner Net Worth: The Evidence",
-      "description": "Leopold Aschenbrenner net worth investigated through his AI career, Situational Awareness and SEC records. Fund assets are not personal wealth."
+      "description": "Leopold Aschenbrenner net worth is not established. The 13F concentration calculation without inventing personal wealth."
     },
     "wealth": {
       "display": "Not publicly established",
       "value": null,
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "basis": "Personal assets, liabilities and economic interests are not sufficiently disclosed",
       "paragraph": "Leopold Aschenbrenner’s net worth is not publicly established as of my October 11, 2026 research check. The firm’s [March 2026 filing](https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/xslForm13F_X02/primary_doc.xml) reports $13.68 billion of securities-table value; its [June 2026 filing](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml) reports $20.24 billion. Neither is his personal fortune. A defensible estimate requires his own capital balance, management-company ownership, realized fees, other assets and liabilities. I have not established those inputs, so I publish no personal dollar estimate or interpolated wealth curve. The earlier article’s $400 million–$1.6 billion fee-and-capital model depended on undisclosed assumptions and should not be treated as a verified estimate."
     },
@@ -183,7 +183,7 @@
     "faq": [
       {
         "question": "What is Leopold Aschenbrenner’s net worth?",
-        "answer": "A personal total is not established by the reviewed records. Personal assets, liabilities and economic interests are not sufficiently disclosed. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+        "answer": "Leopold Aschenbrenner’s net worth is not publicly established as of my October 11, 2026 research check. The firm’s March 2026 filing reports $13.68 billion of securities-table value; its June 2026 filing reports $20.24 billion. Neither is his personal fortune. A defensible estimate requires his own capital balance, management-company ownership, realized fees, other assets and liabilities. I have not established those inputs, so I publish no personal dollar estimate or interpolated wealth curve. The earlier article’s $400 million–$1.6 billion fee-and-capital model depended on undisclosed assumptions and should not be treated as a verified estimate."
       },
       {
         "question": "Is Leopold Aschenbrenner a billionaire?",

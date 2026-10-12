@@ -61,7 +61,7 @@
       "title": "Forbes: Lucy Guo, dated wealth estimate",
       "url": "https://www.forbes.com/profile/lucy-guo/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "greg-brockman-forbes": {
@@ -69,7 +69,7 @@
       "title": "Forbes: Greg Brockman, dated wealth estimate",
       "url": "https://www.forbes.com/profile/greg-brockman/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "aravind-srinivas-forbes": {
@@ -77,7 +77,7 @@
       "title": "Forbes: Aravind Srinivas, dated wealth estimate",
       "url": "https://www.forbes.com/profile/aravind-srinivas/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "daniela-amodei-forbes": {
@@ -85,7 +85,7 @@
       "title": "Forbes: Daniela Amodei, dated wealth estimate",
       "url": "https://www.forbes.com/profile/daniela-amodei/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "bret-taylor-forbes": {
@@ -93,7 +93,7 @@
       "title": "Forbes: Bret Taylor, dated wealth estimate",
       "url": "https://www.forbes.com/profile/bret-taylor/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-10",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "aman-sanger-forbes": {
@@ -101,7 +101,7 @@
       "title": "Forbes: Aman Sanger, dated wealth estimate",
       "url": "https://www.forbes.com/profile/aman-sanger/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "brett-adcock-forbes": {
@@ -109,7 +109,7 @@
       "title": "Forbes: Brett Adcock, dated wealth estimate",
       "url": "https://www.forbes.com/profile/brett-adcock/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "ali-ghodsi-forbes": {
@@ -117,7 +117,7 @@
       "title": "Forbes: Ali Ghodsi, dated wealth estimate",
       "url": "https://www.forbes.com/profile/ali-ghodsi/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-10",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "amjad-masad-forbes": {
@@ -125,7 +125,7 @@
       "title": "Forbes: Amjad Masad, dated wealth estimate",
       "url": "https://www.forbes.com/profile/amjad-masad/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "accessed": "2026-10-12"
     },
     "sualeh-asif-forbes": {
@@ -133,7 +133,7 @@
       "title": "Forbes: Sualeh Asif, dated wealth estimate",
       "url": "https://www.forbes.com/profile/sualeh-asif/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "michael-intrator-forbes": {
@@ -141,7 +141,7 @@
       "title": "Forbes: Michael Intrator, dated wealth estimate",
       "url": "https://www.forbes.com/profile/michael-intrator/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "edwin-chen-forbes": {
@@ -149,7 +149,7 @@
       "title": "Forbes: Edwin Chen, dated wealth estimate",
       "url": "https://www.forbes.com/profile/edwin-chen/",
       "type": "Independent wealth estimate",
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "scale-meta": {
@@ -841,11 +841,11 @@
       "role": "Isomorphic founder; DeepMind chair per dated reporting",
       "hook": "The scientist whose company value is not his net worth",
       "dek": "A university record, an Alphabet-controlled legal entity and a new financing round tell different parts of the wealth story.",
-      "answer": "Demis Hassabis is Isomorphic founder. Demis Hassabis net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "answer": "Demis Hassabis is Isomorphic founder. Demis Hassabis net worth is not established in the reviewed records as of October 12, 2026. Company funding does not establish personal wealth.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "No substantiated personal estimate in reviewed records",
         "paragraph": "Demis Hassabis net worth cannot be established from the records reviewed here. [Isomorphic’s May 12, 2026 announcement](https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round) confirms $2.1 billion raised, but gives no personal stake. The [Companies House control record](https://find-and-update.company-information.service.gov.uk/company/13223825/persons-with-significant-control) lists Alphabet at 75% or more in the UK entity. That is a control disclosure, not Hassabis’s complete investment portfolio. I exclude speculative stake models and acquisition-price shortcuts."
       },
@@ -879,15 +879,6 @@
           "stage": "company"
         },
         {
-          "heading": "Isomorphic Labs: what the control register actually tells us",
-          "paragraphs": [
-            "The [UK register](https://find-and-update.company-information.service.gov.uk/company/13223825/persons-with-significant-control) names Isomorphic Labs Limited, company number 13223825. It lists Alphabet as an active person with significant control. The disclosed categories cover at least 75% of shares and voting rights, plus director appointment rights.",
-            "This is useful evidence of control at that entity. It is not a detailed capital table. It does not identify every minority shareholder or disclose all arrangements elsewhere in a group. A financing may involve another entity, a particular class of securities or a structure not visible on this page. I therefore do not infer a precise Hassabis percentage.",
-            "Hypothetical 5%, 10% and 20% stakes would require verified ownership and valuation inputs. That would look like a wealth estimate while depending on two missing inputs. I omit it. A reader gains more from knowing which ownership record exists than from a chart built around attractive assumptions."
-          ],
-          "stage": "finding"
-        },
-        {
           "heading": "Isomorphic Labs: a financing milestone, not a personal payout",
           "paragraphs": [
             "Isomorphic says Thrive Capital led its May 2026 round. Existing backers included Alphabet and GV. The announcement also names new investors. It states that the funding will support its drug-design engine, global expansion and drug candidate pipeline. These are company plans, not independently verified clinical outcomes.",
@@ -901,8 +892,7 @@
           "paragraphs": [
             "The [Data Capital officers register](https://find-and-update.company-information.service.gov.uk/company/09730522/officers) lists Hassabis as an active director appointed September 9, 2015. The [control register](https://find-and-update.company-information.service.gov.uk/company/09730522/persons-with-significant-control) identifies his right to appoint or remove directors. That is a concrete control relationship. It does not disclose a personal asset value or a specific investment portfolio.",
             "The [filing history](https://find-and-update.company-information.service.gov.uk/company/09730522/filing-history) lists dormant accounts through the period ending August 2020. It then lists micro-company accounts, including the August 2025 period filed in June 2026. A filing category is a lead for reading accounts. It is not evidence that a named investment sits inside the entity. The current overview’s dormant SIC label should not be treated as a complete financial history.",
-            "My read: the two control registers answer different questions. Alphabet’s Isomorphic record describes control by a corporate group. Data Capital’s record describes Hassabis’s director-appointment rights in another legal entity. Neither identifies all assets held personally or through other vehicles. Combining their labels into a founder stake would skip the necessary ownership and valuation records.",
-            "This is why we do not multiply an uncompleted fundraising target by an assumed founder percentage. Even a verified valuation would require a documented holding in the same legal entity. A separate holding company, option agreement or economic right could change the result. The registry trail locates documents to investigate, while leaving the personal total unresolved."
+            "My read: the two control registers answer different questions. Alphabet’s Isomorphic record describes control by a corporate group. Data Capital’s record describes Hassabis’s director-appointment rights in another legal entity. Neither identifies all assets held personally or through other vehicles. Combining their labels into a founder stake would skip the necessary ownership and valuation records."
           ],
           "stage": "finding"
         }
@@ -951,11 +941,11 @@
       ],
       "slug": "demis-hassabis",
       "path": "/leaders/demis-hassabis/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Demis Hassabis Net Worth: Not established",
-        "description": "Demis Hassabis net worth: Not established, public records 2026-10-11. Isomorphic Labs ownership, career and dated financial records."
+        "description": "Demis Hassabis net worth is not established. Alphabet’s control record and Data Capital’s separate rights."
       },
       "quickFacts": [
         {
@@ -1002,7 +992,7 @@
       "faq": [
         {
           "question": "What is Demis Hassabis’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. No substantiated personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Demis Hassabis net worth cannot be established from the records reviewed here. Isomorphic’s May 12, 2026 announcement confirms $2.1 billion raised, but gives no personal stake. The Companies House control record lists Alphabet at 75% or more in the UK entity. That is a control disclosure, not Hassabis’s complete investment portfolio. I exclude speculative stake models and acquisition-price shortcuts."
         },
         {
           "question": "How old is Demis Hassabis?",
@@ -1022,9 +1012,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Demis Hassabis net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -1075,14 +1066,6 @@
             "The [Scale announcement](https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution) says Meta’s investment valued Scale at more than $29 billion. It also says proceeds would be distributed to shareholders and vested equity holders. Participants could obtain liquidity while continuing to hold equity. This is an interested company source, but it explicitly describes the transaction’s structure.",
             "That structure prevents a simple cash-out narrative. Receiving a distribution does not necessarily mean selling every share. Nor can the company-wide distribution be allocated to Guo without an individual disclosure. The reviewed announcement supplies no personal payment schedule, tax calculation or complete post-transaction cap table.",
             "My calculation: 3% multiplied by a $29 billion benchmark equals $870 million. This is only an illustrative gross stake value using Forbes’s approximate percentage and the announcement’s valuation floor. The inputs refer to different dates. It is not a reconciliation of the $1.5 billion estimate, a verified current holding value or her disclosed cash proceeds."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Passes: why the changed percentage remains unresolved",
-          "paragraphs": [
-            "Reconciling an earlier stake estimate with the current approximately 3% estimate requires the original dated methods. A change in an estimate can reflect more than one mechanism. A sale, a distribution structure, new information or a revised estimation approach could matter. The reviewed records do not establish which explanation applies to Guo.",
-            "I do not turn that uncertainty into a claim that she sold two percentage points. Nor do we apply an assumed cash tax rate to an unreported payment. A useful reconciliation needs matched dates, the same security class and a description of any transaction between observations. Those inputs are absent here."
           ],
           "stage": "finding"
         },
@@ -1145,7 +1128,7 @@
       "status": "draft",
       "seo": {
         "title": "Lucy Guo Net Worth: $1.5B | Passes",
-        "description": "Lucy Guo net worth: $1.5B, Forbes 2026-10-11. Passes ownership, career and dated financial records."
+        "description": "Lucy Guo net worth: $1.5B, Forbes 2026-10-12. Scale distributions, retained equity and the Passes date discrepancy."
       },
       "quickFacts": [
         {
@@ -1213,9 +1196,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Lucy Guo net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -1271,14 +1255,6 @@
           "stage": "strategy"
         },
         {
-          "heading": "OpenAI: the testimony comparison needs a matched basis",
-          "paragraphs": [
-            "The AP court report provides an additional dated observation about one OpenAI holding. The original transcript and its valuation assumptions still need review. Testimony about a security is not automatically a statement of total personal net worth. The comparison below keeps the two scopes and dates visible.",
-            "The reviewed Forbes text refers to testimony and an estimated ownership range, but that is not a substitute for the underlying transcript. I do not characterize an exact percentage as sworn merely because it appears in a profile. We also do not infer why two figures differ when their basis is not matched."
-          ],
-          "stage": "finding"
-        },
-        {
           "heading": "OpenAI: the $30 billion testimony and the $25.5 billion estimate",
           "paragraphs": [
             "[Associated Press’s May 4, 2026 court report](https://apnews.com/article/brockman-musk-altman-openai-trial-837bdc3fbced2a02f0f93a1899260bdd) says Brockman described his OpenAI stake as worth nearly $30 billion. AP reported an $852 billion company valuation. This is reporting of testimony, rather than our inspection of the original transcript. It concerns one stake at that date, not a complete current personal balance sheet.",
@@ -1328,7 +1304,7 @@
       "status": "draft",
       "seo": {
         "title": "Greg Brockman Net Worth: $25.5B | OpenAI",
-        "description": "Greg Brockman net worth: $25.5B, Forbes 2026-10-11. OpenAI ownership, career and dated financial records."
+        "description": "Greg Brockman net worth: $25.5B, Forbes 2026-10-12. OpenAI’s founding record and the scope of reported stake testimony."
       },
       "quickFacts": [
         {
@@ -1396,9 +1372,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Greg Brockman net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -1408,11 +1385,11 @@
       "role": "Thinking Machines Lab founder",
       "hook": "A multibillion-dollar seed round is not a personal fortune",
       "dek": "The evidence supports a research company and a financing milestone, while leaving the founder’s economic stake undisclosed.",
-      "answer": "Mira Murati is Thinking Machines Lab founder. Mira Murati net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "answer": "Mira Murati is Thinking Machines Lab founder. Mira Murati net worth is not established in the reviewed records as of October 12, 2026. Company funding does not establish personal wealth.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "No substantiated personal estimate in reviewed records",
         "paragraph": "Mira Murati net worth is not established by the sources reviewed here. [TechCrunch’s July 15, 2025 report](https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/) identifies $2 billion raised at a $12 billion company valuation. Neither figure discloses her ownership. I exclude later fundraising targets, assumed founder percentages and a government investment claim without a reviewed authorization and payment record. Company capital cannot be allocated to Murati as personal wealth."
       },
@@ -1448,14 +1425,6 @@
             "The [July 2025 report](https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/) establishes the reported seed financing and company valuation. [Andreessen Horowitz’s enterprise newsletter](https://a16z.com/newsletter/enterprise-ai-rewrites-benchmarks/) provides an investor perspective on the company. That perspective should be labeled as interested, rather than treated as an independent appraisal.",
             "My calculation: $2 billion divided by $12 billion equals approximately 16.7%. This illustrates the share of post-money value represented by the stated financing amount. It does not prove the percentage investors received. Secondary sales, different security rights or other terms could change the relationship. Murati’s personal stake remains undisclosed in the reviewed sources.",
             "Even a disclosed voting multiple would not solve that problem. Voting rights determine who can influence decisions. Economic rights determine participation in proceeds. A founder can control a company with a minority economic stake, or own a large stake while sharing control. I do not convert an unverified voting-rights claim into a wealth calculation."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Thinking Machines Lab: why a fundraising target is a different observation",
-          "paragraphs": [
-            "That distinction also protects the net-worth chart. A rumored company valuation cannot become a dated personal wealth observation simply by applying a guessed percentage. The missing ownership denominator would remain missing even if the negotiating valuation proved accurate. No bar is preferable to a false personal history.",
-            "The same logic applies to the proposed Albanian state investment angle. Authorization, commitment and payment are different events. A government budget entry would establish permission to invest, not necessarily a completed subscription. A company confirmation or execution record would be needed to identify the security and recipient entity."
           ],
           "stage": "finding"
         },
@@ -1508,17 +1477,17 @@
       ],
       "slug": "mira-murati",
       "path": "/leaders/mira-murati/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Mira Murati Net Worth: Not established",
-        "description": "Mira Murati net worth: Not established, public records 2026-10-11. Thinking Machines Lab ownership, career and dated financial records."
+        "description": "Mira Murati net worth is not established. Tinker’s launch record and the company financing ledger."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "murati-dartmouth"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -1559,7 +1528,7 @@
       "faq": [
         {
           "question": "What is Mira Murati’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. No substantiated personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Mira Murati net worth is not established by the sources reviewed here. TechCrunch’s July 15, 2025 report identifies $2 billion raised at a $12 billion company valuation. Neither figure discloses her ownership. I exclude later fundraising targets, assumed founder percentages and a government investment claim without a reviewed authorization and payment record. Company capital cannot be allocated to Murati as personal wealth."
         },
         {
           "question": "How rich is Mira Murati?",
@@ -1579,9 +1548,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Mira Murati net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -1590,12 +1560,12 @@
       "cluster": "Models & science",
       "role": "SSI cofounder and CEO",
       "hook": "Two company interests do not automatically make one wealth estimate",
-      "dek": "An academic trail and SSI’s own updates are verified; the proposed combined fortune is not established by the reviewed records.",
-      "answer": "Ilya Sutskever is SSI cofounder and CEO. Ilya Sutskever net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "dek": "SSI’s company updates and academic records explain his career. The reported OpenAI holding is a separate measure from personal net worth.",
+      "answer": "Ilya Sutskever is SSI cofounder and CEO. Ilya Sutskever net worth is not established in the reviewed records as of October 12, 2026. Company funding does not establish personal wealth.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "Partial holding value is not total personal net worth",
         "paragraph": "Ilya Sutskever net worth remains unestablished here. [Bloomberg reported on May 11, 2026](https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion) that he valued his OpenAI stake at about $7 billion. That is a holding value, not a complete balance sheet. [SSI’s updates](https://ssi.inc/updates) disclose corporate funding and leadership changes, but not his ownership percentage. SSI’s private ownership and the rest of his assets and liabilities are not disclosed here, so I do not add a speculative SSI holding to the OpenAI figure."
       },
@@ -1618,7 +1588,7 @@
           "stage": "origin"
         },
         {
-          "heading": "Safe Superintelligence: sSI documents the leadership transition",
+          "heading": "Safe Superintelligence: SSI documents the leadership transition",
           "paragraphs": [
             "[SSI’s July 3, 2025 update](https://ssi.inc/updates) states that Sutskever became formally CEO and Daniel Levy president. It says Daniel Gross had left the company. This is direct company evidence for the transition. It does not reveal the departing founder’s equity treatment or how the remaining founders’ economic interests changed.",
             "The same update says the technical team reports to Sutskever. My read: the company places scientific and executive responsibility close together. That can shorten the path from research judgment to resource allocation. It can also make a small group of leaders unusually important to the organization.",
@@ -1633,14 +1603,6 @@
             "A compute partnership can change the resources available to a lab without determining shareholder value. Contracted compute, an investment commitment and an equity subscription have different financial effects. The terms would be needed before calculating dilution, cash proceeds or the founder’s economic exposure."
           ],
           "stage": "strategy"
-        },
-        {
-          "heading": "Safe Superintelligence: a partial stake value is not a personal balance sheet",
-          "paragraphs": [
-            "The Bloomberg report provides a dated value attributed to one OpenAI interest. I do not treat that observation as today’s total fortune. A personal calculation would need other assets, liabilities and any changes since the observation. It would also need clarity about the instrument being valued.",
-            "The chart module therefore has no numerical net-worth bar. The timeline contains the separate research and financing events. This preserves the facts without visually adding unlike values. An OpenAI stake estimate can become a future chart input only in a chart explicitly measuring that holding, rather than total wealth."
-          ],
-          "stage": "finding"
         },
         {
           "heading": "Safe Superintelligence: two laboratories, two funding logics",
@@ -1696,17 +1658,17 @@
       ],
       "slug": "ilya-sutskever",
       "path": "/leaders/ilya-sutskever/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Ilya Sutskever Net Worth: Not established",
-        "description": "Ilya Sutskever net worth: Not established, public records 2026-10-11. Safe Superintelligence ownership, career and dated financial records."
+        "description": "Ilya Sutskever net worth is not established. SSI leadership and the reported OpenAI holding’s limits."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "ilya-toronto"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -1747,7 +1709,7 @@
       "faq": [
         {
           "question": "What is Ilya Sutskever’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. Partial holding value is not total personal net worth. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Ilya Sutskever net worth remains unestablished here. Bloomberg reported on May 11, 2026 that he valued his OpenAI stake at about $7 billion. That is a holding value, not a complete balance sheet. SSI’s updates disclose corporate funding and leadership changes, but not his ownership percentage. SSI’s private ownership and the rest of his assets and liabilities are not disclosed here, so I do not add a speculative SSI holding to the OpenAI figure."
         },
         {
           "question": "Is Ilya Sutskever a billionaire?",
@@ -1767,9 +1729,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Ilya Sutskever net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -1786,7 +1749,7 @@
         "date": "2026-10-12",
         "sourceId": "aravind-srinivas-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Aravind Srinivas net worth](https://www.forbes.com/profile/aravind-srinivas/) at $2.1 billion as of October 12, 2026. It separately identifies Perplexity’s $20 billion valuation in 2025. I do not divide those figures to claim he owns 10.5%: total wealth and a company financing value are different inputs. The proposed Hurun comparison needs the original dated report and a stated currency conversion before it can become a numerical reconciliation.",
+        "paragraph": "[Forbes estimates Aravind Srinivas net worth](https://www.forbes.com/profile/aravind-srinivas/) at $2.1 billion as of October 12, 2026. It separately identifies Perplexity’s $20 billion valuation in 2025. I do not divide those figures to claim he owns 10.5%: total wealth and a company financing value are different inputs. The reviewed records do not disclose his current equity percentage.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -1821,14 +1784,6 @@
             "A personal wealth provider may incorporate several assets, discounts or assumptions. The financing valuation may relate to a different date and security class. Dividing one headline by the other does not yield a disclosed ownership percentage. We reject that shortcut even when the result looks plausible.",
             "My calculation: $2.1 billion divided by $20 billion is 10.5%. This is an arithmetic ratio of unmatched headline figures, shown to explain the error. It is not a stake estimate and does not appear in the ownership facts. The reviewed records do not establish a current percentage.",
             "That missing input also prevents a reliable mark-to-market exercise against rumored new valuations. A company-level negotiating price would not reveal founder dilution or any shares sold. Even a completed round would require matched ownership data before it could support an independent personal calculation."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Perplexity: the unreconciled Hurun comparison",
-          "paragraphs": [
-            "A proper comparison would preserve both providers’ stated dates. The conversion would identify the currency rate and observation date. It would distinguish a currency translation from a revision in underlying wealth. Explaining an apparent gap without those inputs would substitute a theory for research.",
-            "We also exclude the proposed litigation and IPO-timing angles until the original records are reviewed. These could matter to valuation risk, but they are not necessary to invent a more dramatic biography. The current article can explain the business model and the evidence boundary directly."
           ],
           "stage": "finding"
         },
@@ -1890,7 +1845,7 @@
       "status": "draft",
       "seo": {
         "title": "Aravind Srinivas Net Worth: $2.1B | Perplexity",
-        "description": "Aravind Srinivas net worth: $2.1B, Forbes 2026-10-11. Perplexity ownership, career and dated financial records."
+        "description": "Aravind Srinivas net worth: $2.1B, Forbes 2026-10-12. Perplexity’s founding chronology and the ownership evidence."
       },
       "quickFacts": [
         {
@@ -1958,9 +1913,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Aravind Srinivas net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -2011,14 +1967,6 @@
             "[Anthropic’s Series H announcement](https://www.anthropic.com/news/series-h) reports $65 billion raised at $965 billion post-money. It says the total includes $15 billion of previously committed hyperscaler investments. This qualification matters when combining financing headlines across time. An included commitment should not be counted again as new cash outside the round.",
             "My calculation: $65 billion minus $15 billion equals $50 billion excluding those previously committed investments. That is an arithmetic decomposition of the announcement, not a verified cash-receipt schedule. It also does not identify how much equity any investor received or how much founder dilution occurred.",
             "The same announcement reports that revenue run-rate crossed $47 billion. Run-rate describes a pace of activity extrapolated over a year. It is not automatically recognized revenue for a completed financial year. I keep that wording in the capital ledger and do not use it as audited annual income."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Anthropic: the ownership claim requires the ownership document",
-          "paragraphs": [
-            "A future ownership table would still require careful reading. Economic shares and voting control can differ. A founder entity may aggregate several people’s rights without making its entire stake attributable to one person. Shares subject to vesting, options and conversion rules can change the denominator.",
-            "The proposed 80% wealth pledge is also outside this verified record. A pledge concerns intended future use of assets. It does not necessarily reduce a current net-worth estimate by 80%. Even with the original statement, the terms and any completed transfer would need separate treatment."
           ],
           "stage": "finding"
         },
@@ -2080,7 +2028,7 @@
       "status": "draft",
       "seo": {
         "title": "Daniela Amodei Net Worth: $15.5B | Anthropic",
-        "description": "Daniela Amodei net worth: $15.5B, Forbes 2026-10-11. Anthropic ownership, career and dated financial records."
+        "description": "Daniela Amodei net worth: $15.5B, Forbes 2026-10-12. Anthropic’s prior commitments and Daniela’s governance role."
       },
       "quickFacts": [
         {
@@ -2148,9 +2096,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Daniela Amodei net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -2159,7 +2108,7 @@
       "cluster": "Applications & agents",
       "role": "Sierra cofounder; OpenAI board chair",
       "hook": "A new company valuation does not automatically rewrite Forbes",
-      "dek": "His product-building history is documented, but the proposed ownership arithmetic needs a substantiated stake before becoming an estimate.",
+      "dek": "Sierra’s financing statements explain the business value; Taylor’s dated personal estimate remains a separate financial measure.",
       "answer": "Bret Taylor is Sierra cofounder. Forbes estimates Bret Taylor net worth at $2.5B (2026-10-12). This is a personal estimate, not company value.",
       "wealth": {
         "display": "$2.5B",
@@ -2202,14 +2151,6 @@
             "[Sierra’s September 4, 2025 announcement](https://sierra.ai/blog/theres-an-agent-for-that-and-it-runs-on-sierra) states $350 million raised at a $10 billion valuation. The later May 2026 observation identifies $950 million at $15.8 billion post-money. The latter is reported by Axios, rather than reconstructed from an ownership filing.",
             "My calculation: $350 million plus $950 million equals $1.3 billion across these two financing observations. This is not lifetime funding or Taylor’s personal proceeds. The table identifies the source type for each observation. It does not assume both rounds involved identical terms or the same mix of primary and secondary capital.",
             "My calculation: $15.8 billion divided by $10 billion equals 1.58 times the earlier company valuation. That is a company-value comparison, not a 58% increase in Taylor’s wealth. His percentage could change, assets outside Sierra could move and a wealth provider could apply a different valuation basis."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Sierra: a stale biography is not proof of a stale model",
-          "paragraphs": [
-            "The Forbes page has a real-time wealth date and an earlier editorial-update date. Its narrative still discusses the $10 billion financing. That observation justifies checking the methodology. It does not prove that the real-time calculation uses only the number visible in the biography.",
-            "The OpenAI chair relationship also requires separate treatment. A governance role is not itself an equity disclosure. The financial relevance includes potential conflicts and decision authority, but neither establishes compensation or a personal ownership interest. I do not create an OpenAI holding merely from a board title."
           ],
           "stage": "finding"
         },
@@ -2271,13 +2212,13 @@
       "status": "draft",
       "seo": {
         "title": "Bret Taylor Net Worth: $2.5B | Sierra",
-        "description": "Bret Taylor net worth: $2.5B, Forbes 2026-10-10. Sierra ownership, career and dated financial records."
+        "description": "Bret Taylor net worth: $2.5B, Forbes 2026-10-12. Sierra’s financing records and Taylor’s separate governance roles."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "sierra-about"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -2292,7 +2233,7 @@
         {
           "label": "Education",
           "value": "Not independently verified in this profile",
-          "sourceId": "sierra-about"
+          "sourceId": null
         },
         {
           "label": "Company",
@@ -2339,9 +2280,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Bret Taylor net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -2487,17 +2429,17 @@
       ],
       "slug": "scott-wu",
       "path": "/leaders/scott-wu/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Scott Wu Net Worth: $600M historical | Cognition",
-        "description": "Scott Wu net worth: $600M historical, Forbes 2026-02-02. Cognition ownership, career and dated financial records."
+        "description": "Scott Wu net worth: $600M historical, Forbes 2026-02-02. Cognition’s original round and Wu’s verified competition record."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "wu-result"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -2526,8 +2468,8 @@
         },
         {
           "label": "Co-founders / relationship",
-          "value": "Not independently verified in this profile",
-          "sourceId": null
+          "value": "Steven Hao and Walden Yan, according to the dated Forbes report",
+          "sourceId": "wu-forbes"
         },
         {
           "label": "Personal wealth",
@@ -2559,9 +2501,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Scott Wu net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -2587,7 +2530,8 @@
         "cursor8k",
         "truell-10",
         "truell-11",
-        "truell-12"
+        "truell-12",
+        "truell-13"
       ],
       "sections": [
         {
@@ -2640,7 +2584,8 @@
           "heading": "Cursor’s financing records separate capital raised from recurring revenue",
           "paragraphs": [
             "[Cursor’s August 2024 Series A announcement](https://cursor.com/blog/series-a) records $60 million raised and more than 40,000 customers. [The January 2025 Series B account](https://cursor.com/blog/series-b) records another $105 million and more than $100 million in recurring revenue. Funding and recurring revenue are distinct measures.",
-            "[The June 2025 Series C announcement](https://cursor.com/blog/series-c) records $900 million raised at a $9.9 billion valuation, alongside more than $500 million in ARR. My calculation: the three disclosed raises sum to $1.065 billion. That is company financing across those rounds, not founder wealth or lifetime funding. The revenue descriptions do not supply an audited growth multiple."
+            "[The June 2025 Series C announcement](https://cursor.com/blog/series-c) records $900 million raised at a $9.9 billion valuation, alongside more than $500 million in ARR. My calculation: the three disclosed raises sum to $1.065 billion. That is company financing across those rounds, not founder wealth or lifetime funding. The revenue descriptions do not supply an audited growth multiple.",
+            "The [November 2025 Series D announcement](https://cursor.com/blog/series-d) adds $2.3 billion at $29.3 billion post-money. My calculation: $60 million + $105 million + $900 million + $2.3 billion = $3.365 billion across four announced rounds. This sum measures company financing, not the founder’s proceeds or current cash."
           ]
         }
       ],
@@ -2668,6 +2613,14 @@
           "valuation": "$9.9B",
           "note": "Company-reported financing and valuation.",
           "sourceId": "truell-12"
+        },
+        {
+          "date": "2025-11-13",
+          "event": "Series D",
+          "amount": "$2.3B",
+          "valuation": "$29.3B post-money",
+          "note": "Company-reported. Annualized revenue exceeded $1B",
+          "sourceId": "truell-13"
         },
         {
           "date": "2026-08-14",
@@ -2698,8 +2651,7 @@
       "methodology": "I independently read the team interview, Forbes’s dated estimate and SpaceX’s closing filing. The aggregate issued-share calculation preserves the filing’s separate award categories. I do not infer a personal allocation from the aggregate consideration. Closing-value estimates and current total wealth stay separate.",
       "notes": [
         "Forbes now shows $2.8B, rather than the brief’s $2.6B.",
-        "Original Bloomberg estimate, 4.5% and 9% stakes, individual share allocation and current title remain unverified.",
-        "Degree completion is not asserted from conflicting secondary descriptions."
+        "Original Bloomberg estimate, 4.5% and 9% stakes, individual share allocation and current title remain unverified."
       ],
       "slug": "aman-sanger",
       "path": "/leaders/aman-sanger/",
@@ -2707,7 +2659,7 @@
       "status": "draft",
       "seo": {
         "title": "Aman Sanger Net Worth: $2.8B | Cursor",
-        "description": "Aman Sanger net worth: $2.8B, Forbes 2026-10-11. Cursor ownership, career and dated financial records."
+        "description": "Aman Sanger net worth: $2.8B, Forbes 2026-10-12. Cursor’s closing filing and its separate consideration buckets."
       },
       "quickFacts": [
         {
@@ -2775,9 +2727,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Aman Sanger net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -2922,13 +2875,13 @@
       "status": "draft",
       "seo": {
         "title": "Brett Adcock Net Worth: $23.4B | Figure",
-        "description": "Brett Adcock net worth: $23.4B, Forbes 2026-10-11. Figure ownership, career and dated financial records."
+        "description": "Brett Adcock net worth: $23.4B, Forbes 2026-10-12. Archer’s historical ownership and Figure’s committed capital."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "brett-adcock-forbes"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -2942,8 +2895,8 @@
         },
         {
           "label": "Education",
-          "value": "Not independently verified in this profile",
-          "sourceId": "brett-adcock-forbes"
+          "value": "University of Florida, according to Forbes",
+          "sourceId": null
         },
         {
           "label": "Company",
@@ -2990,9 +2943,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Brett Adcock net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -3002,11 +2956,11 @@
       "role": "Anthropic Labs builder; Instagram cofounder",
       "hook": "Instagram’s acquisition accounting corrects a familiar wealth shortcut",
       "dek": "The 2012 filing separates purchase consideration from employee compensation, and neither discloses his present personal wealth.",
-      "answer": "Mike Krieger is Anthropic Labs builder. Mike Krieger net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "answer": "Mike Krieger is Anthropic Labs builder. Mike Krieger net worth is not established in the reviewed records as of October 12, 2026. Company funding does not establish personal wealth.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "Acquisition consideration is not a personal wealth estimate",
         "paragraph": "Mike Krieger net worth is not established by the records reviewed here. [Facebook’s 2012 Form 10-K](https://www.sec.gov/Archives/edgar/data/1326801/000132680113000003/fb-12312012x10k.htm) records $521 million in Instagram purchase consideration and $194 million in separately treated unvested employee shares. Their sum, $715 million, is a transaction-and-compensation aggregate, not Krieger’s payout. I do not apply an unverified 10% stake or assume he retained the original shares through later Meta price changes."
       },
@@ -3042,15 +2996,6 @@
             "The [2012 filing](https://www.sec.gov/Archives/edgar/data/1326801/000132680113000003/fb-12312012x10k.htm) says Facebook completed the Instagram acquisition in August. It records $521 million of purchase consideration: $300 million cash and approximately 12 million vested shares issued to non-employee stockholders. The equity value was measured at closing for accounting purposes.",
             "It separately records approximately 11 million unvested shares issued to employee stockholders, valued at $194 million. The filing says that value would be recognized as compensation over a service period. Combining those shares with purchase consideration changes what the total measures. The distinction is material to any exit-based wealth story.",
             "My calculation: $521 million plus $194 million equals $715 million. This explains the familiar combined figure. It is not purchase consideration alone, and it is not an individual founder payout. The filing also supplies the closing date. Its primary accounting record says August, rather than September."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Anthropic: why the proceeds cannot simply be rolled forward",
-          "paragraphs": [
-            "The transaction does not provide Krieger’s personal allocation. Even a verified pre-acquisition percentage would not automatically map onto every bucket of cash and stock. Employee awards could have service conditions. Different holders could receive different instruments. Taxes and later transactions could materially change retained assets.",
-            "An estimate that assumes every original share was retained through current Meta prices therefore depends on a private trading history it has not established. Stock splits and corporate changes can be adjusted mathematically, but they do not reveal whether someone sold, donated or transferred a holding.",
-            "The current wealth module stays unquantified. Its timeline shows the company acquisition and the later Labs move. It does not plot $521 million, $715 million or the original announcement headline as personal net worth. Those figures belong in the transaction ledger with the correct definition."
           ],
           "stage": "finding"
         },
@@ -3107,21 +3052,21 @@
       "notes": [
         "The brief’s September closing date conflicts with the reviewed 10-K, which says August 2012.",
         "The $715M aggregate includes $194M of separately accounted employee compensation.",
-        "The Stanford Mayfield Fellows connection is verified. Exact degree, a 10% personal stake, retained Meta holdings and Artifact economics remain unestablished."
+        "The Stanford Mayfield Fellows connection is verified. A 10% personal stake, retained Meta holdings and Artifact economics remain unestablished."
       ],
       "slug": "mike-krieger",
       "path": "/leaders/mike-krieger/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Mike Krieger Net Worth: Not established",
-        "description": "Mike Krieger net worth: Not established, public records 2026-10-11. Anthropic ownership, career and dated financial records."
+        "description": "Mike Krieger net worth is not established. Instagram’s accounting record and Krieger’s Stanford thesis."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "stanford-instagram"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -3162,7 +3107,7 @@
       "faq": [
         {
           "question": "What is Mike Krieger’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. Acquisition consideration is not a personal wealth estimate. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Mike Krieger net worth is not established by the records reviewed here. Facebook’s 2012 Form 10-K records $521 million in Instagram purchase consideration and $194 million in separately treated unvested employee shares. Their sum, $715 million, is a transaction-and-compensation aggregate, not Krieger’s payout. I do not apply an unverified 10% stake or assume he retained the original shares through later Meta price changes."
         },
         {
           "question": "What does Instagram’s sale tell us about Mike Krieger’s wealth?",
@@ -3182,9 +3127,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Mike Krieger net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -3194,11 +3140,11 @@
       "role": "AI researcher; announced OpenAI move in June 2026",
       "hook": "Research authorship and a licensing headline measure different value",
       "dek": "The original papers document his contribution; a company licensing payment does not disclose his total wealth.",
-      "answer": "Noam Shazeer is AI researcher. Noam Shazeer net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "answer": "Noam Shazeer is AI researcher. Noam Shazeer net worth is not established in the reviewed records as of October 12, 2026. Company funding does not establish personal wealth.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "No substantiated complete personal estimate in reviewed records",
         "paragraph": "Noam Shazeer net worth is not established by the reviewed sources. [Reuters’s June 17, 2026 report](https://www.investing.com/news/stock-market-news/googles-gemini-colead-noam-shazeer-to-join-openai-4748809) describes a reported $2.7 billion Google transaction involving Character.AI and its team. That company-level amount is not Shazeer’s personal proceeds. I exclude it from the wealth chart and do not assume a retained founder percentage."
       },
@@ -3236,15 +3182,6 @@
             "My calculation: we make no personal allocation of the reported $2.7 billion. The number remains a reported company transaction in the capital ledger. A transaction can be important to a founder’s financial history while still being unsuitable as a net-worth observation."
           ],
           "stage": "company"
-        },
-        {
-          "heading": "OpenAI: why a second move does not prove a second payment",
-          "paragraphs": [
-            "A later employer move can change prospective compensation and vesting. It does not by itself disclose either. I do not assume Shazeer received another licensing-scale payment to join OpenAI. Nor do we assume a departure automatically forfeited particular earlier awards. The underlying contracts would determine those outcomes.",
-            "This is where a career chronology and a financial chronology diverge. Employment dates can be publicly reported while payment terms remain private. The profile should make that gap visible instead of using a sequence of prominent employers to imply a sequence of cash windfalls.",
-            "The papers remain useful because they show work before those later negotiations. They establish a research trail without making claims about confidential contracts. That gives readers something verifiable to understand, even when the requested net-worth answer remains open."
-          ],
-          "stage": "finding"
         },
         {
           "heading": "OpenAI: a technical contribution and a transaction are different kinds of value",
@@ -3307,17 +3244,17 @@
       ],
       "slug": "noam-shazeer",
       "path": "/leaders/noam-shazeer/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Noam Shazeer Net Worth: Not established",
-        "description": "Noam Shazeer net worth: Not established, public records 2026-10-11. OpenAI ownership, career and dated financial records."
+        "description": "Noam Shazeer net worth is not established. His multi-query attention paper and the licensing evidence."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "transformer"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -3332,7 +3269,7 @@
         {
           "label": "Education",
           "value": "Not independently verified in this profile",
-          "sourceId": "transformer"
+          "sourceId": null
         },
         {
           "label": "Company",
@@ -3358,7 +3295,7 @@
       "faq": [
         {
           "question": "What is Noam Shazeer’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. No substantiated complete personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Noam Shazeer net worth is not established by the reviewed sources. Reuters’s June 17, 2026 report describes a reported $2.7 billion Google transaction involving Character.AI and its team. That company-level amount is not Shazeer’s personal proceeds. I exclude it from the wealth chart and do not assume a retained founder percentage."
         },
         {
           "question": "Did Noam Shazeer invent Transformers?",
@@ -3378,9 +3315,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Noam Shazeer net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -3390,11 +3328,11 @@
       "role": "Nscale independent director; former OpenAI and Instacart executive",
       "hook": "The proxy separates promised equity from wealth actually retained",
       "dek": "Departure terms reveal why annual compensation tables cannot simply be added into a personal fortune.",
-      "answer": "Fidji Simo is a Nscale director and former OpenAI executive. Fidji Simo net worth is not established in the reviewed records as of October 11, 2026. Compensation disclosures do not establish her total assets and liabilities.",
+      "answer": "Fidji Simo is a Nscale director and former OpenAI executive. Fidji Simo net worth is not established in the reviewed records as of October 12, 2026. Compensation disclosures do not establish her total assets and liabilities.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "Compensation and forfeited awards do not establish net worth",
         "paragraph": "Fidji Simo net worth cannot be established from the reviewed records. [Instacart’s April 9, 2026 proxy](https://www.sec.gov/Archives/edgar/data/1579091/000157909126000024/cart-20260409.htm) reports compensation arrangements and says her unvested executive awards were forfeited after leaving as CEO. A director award was also forfeited when she left the board. Those disclosures prevent treating every historical grant as an asset she still owns. I do not assign a value to undisclosed OpenAI compensation or reconstruct her private portfolio."
       },
@@ -3532,17 +3470,17 @@
       ],
       "slug": "fidji-simo",
       "path": "/leaders/fidji-simo/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Fidji Simo Net Worth: Not established",
-        "description": "Fidji Simo net worth: Not established, public records 2026-10-11. OpenAI ownership, career and dated financial records."
+        "description": "Fidji Simo net worth is not established. Instacart’s salary table, equity accounting and forfeitures."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "simo-openai"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -3583,7 +3521,7 @@
       "faq": [
         {
           "question": "What is Fidji Simo’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. Compensation and forfeited awards do not establish net worth. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Fidji Simo net worth cannot be established from the reviewed records. Instacart’s April 9, 2026 proxy reports compensation arrangements and says her unvested executive awards were forfeited after leaving as CEO. A director award was also forfeited when she left the board. Those disclosures prevent treating every historical grant as an asset she still owns. I do not assign a value to undisclosed OpenAI compensation or reconstruct her private portfolio."
         },
         {
           "question": "How much did Instacart’s CEO make?",
@@ -3603,9 +3541,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Fidji Simo net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -3733,13 +3672,13 @@
       "status": "draft",
       "seo": {
         "title": "Ali Ghodsi Net Worth: $7.6B | Databricks",
-        "description": "Ali Ghodsi net worth: $7.6B, Forbes 2026-10-10. Databricks ownership, career and dated financial records."
+        "description": "Ali Ghodsi net worth: $7.6B, Forbes 2026-10-12. Databricks’ disclosed share price and Ghodsi’s research trail."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "ali-bio"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -3801,9 +3740,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Ali Ghodsi net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -3841,7 +3781,7 @@
           "stage": "origin"
         },
         {
-          "heading": "Replit: masad’s own description of the product bet",
+          "heading": "Replit: Masad’s own description of the product bet",
           "paragraphs": [
             "The [March 2026 financing post](https://replit.com/blog/replit-raises-400-million-dollars) is written by Masad. It presents a view of software creation centered on people and their ideas. I label this as a founder account. Its claims about product impact are not independently audited results.",
             "My read: easier creation can enlarge the potential customer base. Someone who cannot manage a traditional development environment may still have a useful problem to solve. The business opportunity depends on helping that person produce and maintain something valuable, rather than merely generate a first demonstration.",
@@ -3924,13 +3864,13 @@
       "status": "draft",
       "seo": {
         "title": "Amjad Masad Net Worth: $2B | Replit",
-        "description": "Amjad Masad net worth: $2B, Forbes 2026-10-10. Replit ownership, career and dated financial records."
+        "description": "Amjad Masad net worth: $2B, Forbes 2026-10-11. Replit’s co-founder record and dated financing announcement."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "amjad-masad-forbes"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -3945,7 +3885,7 @@
         {
           "label": "Education",
           "value": "Not independently verified in this profile",
-          "sourceId": "amjad-masad-forbes"
+          "sourceId": null
         },
         {
           "label": "Company",
@@ -3992,9 +3932,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Amjad Masad net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -4004,11 +3945,11 @@
       "role": "Microsoft AI CEO; model and superintelligence mandate",
       "hook": "Three organizations, three different economic relationships",
       "dek": "The current role is documented, but a historical founder stake cannot establish present personal wealth.",
-      "answer": "Mustafa Suleyman is Microsoft AI CEO. Mustafa Suleyman net worth is not established in the reviewed records as of October 11, 2026. Company funding does not establish personal wealth.",
+      "answer": "Mustafa Suleyman is Microsoft AI CEO. Mustafa Suleyman net worth is not established in the reviewed records as of October 12, 2026. Company funding does not establish personal wealth.",
       "wealth": {
         "display": "Not established",
         "value": null,
-        "date": "2026-10-11",
+        "date": "2026-10-12",
         "basis": "No substantiated personal estimate in reviewed records",
         "paragraph": "Mustafa Suleyman net worth remains unestablished in the reviewed sources. His [first-person biography](https://mustafa-suleyman.ai/) confirms DeepMind and Inflection relationships, while [Microsoft’s March 2026 announcement](https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/) defines his current mandate. Neither provides a personal balance sheet. Neither his private holdings nor his current compensation can be reconstructed from these announcements."
       },
@@ -4030,30 +3971,13 @@
           "stage": "origin"
         },
         {
-          "heading": "Microsoft AI: microsoft documents the organization it created",
+          "heading": "Microsoft AI: Microsoft documents the organization it created",
           "paragraphs": [
             "[Microsoft’s March 19, 2024 announcement](https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/) names Suleyman EVP and CEO of Microsoft AI. It identifies Karén Simonyan’s arrival and says several Inflection team members were joining them. It describes a new organizational structure rather than a personal payment schedule.",
             "The [March 17, 2026 update](https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/) separates Copilot experience leadership from Suleyman’s model and superintelligence work. It connects that work with enterprise needs and delivery-cost efficiency. These are stated corporate priorities, not independently measured results.",
             "My read: this shift places emphasis on the economics of the underlying model layer. A company with large distribution can still need lower-cost, useful models. Improving cost per successful task can matter financially even when customers see only the product interface. That is distinct from the founder’s personal compensation."
           ],
           "stage": "company"
-        },
-        {
-          "heading": "Microsoft AI: the historical stake model has missing steps",
-          "paragraphs": [
-            "Even if the 2012 percentage were established, it would be a historical observation. A later transaction could involve dilution, transfers, different security rights or retention terms. Applying an old percentage to an acquisition headline would not establish personal proceeds without the missing transaction records.",
-            "My calculation: no personal amount is assigned from the proposed DeepMind model. The same restraint applies to an Inflection licensing total. A company transaction can distribute value to investors, founders and contractual counterparties in different ways. Its headline cannot identify an individual recipient’s net proceeds."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Microsoft AI: an executive title does not reveal a Microsoft fortune",
-          "paragraphs": [
-            "Microsoft’s announcements identify authority and responsibility. They do not provide a complete statement of Suleyman’s compensation or holdings. A researcher should not take a typical executive package and assign it to him. Public-company pay disclosures vary with the individuals covered and the reporting period.",
-            "A future holdings reconstruction would need the actual grants, vesting terms, reportable transactions and ownership footnotes. Shares promised for future service are different from shares vested today. A paper value is also different from cash after taxes. Those distinctions remain necessary even for a prominent executive.",
-            "The wealth module is therefore explicitly unquantified. The timeline tracks organizational events, not a modeled fortune. This gives readers a useful current career picture while preserving the limits of the public financial evidence."
-          ],
-          "stage": "finding"
         },
         {
           "heading": "Microsoft AI: the old founding role and the present operating mandate",
@@ -4118,17 +4042,17 @@
       ],
       "slug": "mustafa-suleyman",
       "path": "/leaders/mustafa-suleyman/",
-      "checked": "2026-10-11",
+      "checked": "2026-10-12",
       "status": "draft",
       "seo": {
         "title": "Mustafa Suleyman Net Worth: Not established",
-        "description": "Mustafa Suleyman net worth: Not established, public records 2026-10-11. Microsoft AI ownership, career and dated financial records."
+        "description": "Mustafa Suleyman net worth is not established. The CMA’s Inflection decision and Microsoft’s model mandate."
       },
       "quickFacts": [
         {
           "label": "Age",
           "value": "Not independently verified",
-          "sourceId": "microsoft-join"
+          "sourceId": null
         },
         {
           "label": "Birth date",
@@ -4143,7 +4067,7 @@
         {
           "label": "Education",
           "value": "Not independently verified in the reviewed career records",
-          "sourceId": "microsoft-join"
+          "sourceId": null
         },
         {
           "label": "Company",
@@ -4169,7 +4093,7 @@
       "faq": [
         {
           "question": "What is Mustafa Suleyman’s net worth?",
-          "answer": "A personal total is not established by the reviewed records. No substantiated personal estimate in reviewed records. Company financing, compensation, transaction consideration and assets managed for clients are different measures; I do not turn them into a personal estimate."
+          "answer": "Mustafa Suleyman net worth remains unestablished in the reviewed sources. His first-person biography confirms DeepMind and Inflection relationships, while Microsoft’s March 2026 announcement defines his current mandate. Neither provides a personal balance sheet. Neither his private holdings nor his current compensation can be reconstructed from these announcements."
         },
         {
           "question": "Did Microsoft buy all of Inflection?",
@@ -4189,9 +4113,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Mustafa Suleyman net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -4220,7 +4145,8 @@
         "asif-2018",
         "truell-10",
         "truell-11",
-        "truell-12"
+        "truell-12",
+        "truell-13"
       ],
       "sections": [
         {
@@ -4251,14 +4177,6 @@
           "stage": "company"
         },
         {
-          "heading": "Cursor: the same estimate does not prove identical ownership",
-          "paragraphs": [
-            "I do not assume four founders have identical economic stakes because Forbes lists similar closing-value estimates. Rounding, different assets or valuation assumptions can produce similar totals. A precise personal reconstruction requires the share allocation, security class and relevant date for each individual.",
-            "My calculation: no individual percentage is derived from the $2.8 billion estimate and $60 billion transaction value. Their ratio would combine a current total with a dated company-level observation. It would also ignore any assets outside the transaction. The result would be an implied ratio, not a disclosed ownership percentage."
-          ],
-          "stage": "finding"
-        },
-        {
           "heading": "Cursor: what a product decision can change financially",
           "paragraphs": [
             "The competition record is a useful biography correction because it is exact and independently reproducible. A founder does not need an embellished medal record to make a valuable product. The economic question is what the company enabled users to do, and what it could charge for that improvement.",
@@ -4272,7 +4190,8 @@
           "heading": "Cursor’s financing records separate capital raised from recurring revenue",
           "paragraphs": [
             "[Cursor’s August 2024 Series A announcement](https://cursor.com/blog/series-a) records $60 million raised and more than 40,000 customers. [The January 2025 Series B account](https://cursor.com/blog/series-b) records another $105 million and more than $100 million in recurring revenue. Funding and recurring revenue are distinct measures.",
-            "[The June 2025 Series C announcement](https://cursor.com/blog/series-c) records $900 million raised at a $9.9 billion valuation, alongside more than $500 million in ARR. My calculation: the three disclosed raises sum to $1.065 billion. That is company financing across those rounds, not founder wealth or lifetime funding. The revenue descriptions do not supply an audited growth multiple."
+            "[The June 2025 Series C announcement](https://cursor.com/blog/series-c) records $900 million raised at a $9.9 billion valuation, alongside more than $500 million in ARR. My calculation: the three disclosed raises sum to $1.065 billion. That is company financing across those rounds, not founder wealth or lifetime funding. The revenue descriptions do not supply an audited growth multiple.",
+            "The [November 2025 Series D announcement](https://cursor.com/blog/series-d) adds $2.3 billion at $29.3 billion post-money. My calculation: $60 million + $105 million + $900 million + $2.3 billion = $3.365 billion across four announced rounds. This sum measures company financing, not the founder’s proceeds or current cash."
           ]
         }
       ],
@@ -4300,6 +4219,14 @@
           "valuation": "$9.9B",
           "note": "Company-reported financing and valuation.",
           "sourceId": "truell-12"
+        },
+        {
+          "date": "2025-11-13",
+          "event": "Series D",
+          "amount": "$2.3B",
+          "valuation": "$29.3B post-money",
+          "note": "Company-reported. Annualized revenue exceeded $1B",
+          "sourceId": "truell-13"
         },
         {
           "date": "2026-08-14",
@@ -4339,7 +4266,7 @@
       "status": "draft",
       "seo": {
         "title": "Sualeh Asif Net Worth: $2.8B | Cursor",
-        "description": "Sualeh Asif net worth: $2.8B, Forbes 2026-10-11. Cursor ownership, career and dated financial records."
+        "description": "Sualeh Asif net worth: $2.8B, Forbes 2026-10-12. His verified IMO history and Cursor’s financing records."
       },
       "quickFacts": [
         {
@@ -4407,9 +4334,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Sualeh Asif net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -4426,7 +4354,7 @@
         "date": "2026-10-12",
         "sourceId": "michael-intrator-forbes",
         "basis": "Forbes personal wealth estimate",
-        "paragraph": "[Forbes estimates Michael Intrator net worth](https://www.forbes.com/profile/michael-intrator/) at $5.3 billion on October 12, 2026. [CoreWeave’s registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) establishes his role and earlier energy-market work. I have not reconciled the later trusts, LLCs and Form 4 transactions, so we do not treat a direct-holdings tracker as a complete personal asset total or claim to independently reproduce Forbes.",
+        "paragraph": "[Forbes estimates Michael Intrator net worth](https://www.forbes.com/profile/michael-intrator/) at $5.3 billion on October 12, 2026. [CoreWeave’s registration statement](https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm) establishes his role and earlier energy-market work. I reviewed the proxy’s trusts and LLCs, but have not reconciled subsequent Form 4 transactions, so we do not treat a direct-holdings tracker as a complete personal asset total or claim to independently reproduce Forbes.",
         "estimator": "Forbes"
       },
       "sourceIds": [
@@ -4463,15 +4391,6 @@
             "My calculation: the proxy’s 61,505,714-share beneficial-ownership total is about 11.63 times its 5,289,944 Class A component. This compares two fields in one dated filing. It does not reconcile a third-party wealth tracker or establish exclusive economic ownership. A personal model must reconcile transaction dates and distinguish economic ownership from voting control before assigning a market value."
           ],
           "stage": "strategy"
-        },
-        {
-          "heading": "CoreWeave: why a tracker can show a much smaller total",
-          "paragraphs": [
-            "An insider tracker can display a subset of reportable securities rather than a complete fortune. Depending on its method, it may emphasize direct holdings, one share class or recent transactions. A small displayed amount therefore does not by itself contradict a provider’s broader estimate.",
-            "That is a methodological possibility, not a verified explanation of a tracker that includes only one share class. I have not reviewed the tracker’s underlying records and inclusion rules. I do not name a particular missing trust or class as the cause without performing the reconciliation.",
-            "Likewise, sale proceeds do not automatically remain as cash. A transaction filing can establish what was sold and at what reported price. It generally does not establish how proceeds were subsequently invested, donated or used to meet liabilities. A public-equity ledger and total personal wealth have different scopes."
-          ],
-          "stage": "finding"
         },
         {
           "heading": "CoreWeave: the ownership footnote changes the picture",
@@ -4539,7 +4458,7 @@
       "status": "draft",
       "seo": {
         "title": "Michael Intrator Net Worth: $5.3B | CoreWeave",
-        "description": "Michael Intrator net worth: $5.3B, Forbes 2026-10-11. CoreWeave ownership, career and dated financial records."
+        "description": "Michael Intrator net worth: $5.3B, Forbes 2026-10-12. CoreWeave’s ownership footnotes and primary versus secondary IPO shares."
       },
       "quickFacts": [
         {
@@ -4607,9 +4526,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Michael Intrator net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     },
     {
@@ -4661,14 +4581,6 @@
             "Forbes’s approximate 75% holding is an estimate, not a shareholder register. Its $18 billion total is also a personal estimate. Those two figures should remain attributed to the provider. The reviewed record does not establish a completed transaction pricing Chen’s whole position.",
             "My calculation: $18 billion divided by 75% equals $24 billion. This is the hypothetical company value implied if the entire personal total consisted of that gross stake alone. It is not a disclosed financing valuation or an independently verified value for Surge. Other assets, liabilities and methodology could invalidate that simplification.",
             "This is a useful reverse check, but only when its assumptions remain explicit. A neat implied company value can create false confidence if readers mistake it for a funding round. I label the arithmetic and keep it outside the capital table’s confirmed transaction observations."
-          ],
-          "stage": "finding"
-        },
-        {
-          "heading": "Surge AI: the provider comparison needs matched definitions",
-          "paragraphs": [
-            "The wealth paragraph preserves the two providers’ different dates and stake assumptions. A larger assumed percentage can coexist with a lower personal estimate when the company-value method differs. Ownership alone cannot explain the direction of the gap. I do not label it as proven dilution or a founder sale.",
-            "A proper reconciliation would compare enterprise-to-equity adjustments, revenue periods, valuation multiples and other assets. It would also identify whether a liquidity discount was applied. These inputs are not interchangeable across providers. The current article does not claim an independently audited reconciliation of either total."
           ],
           "stage": "finding"
         },
@@ -4730,7 +4642,7 @@
       "status": "draft",
       "seo": {
         "title": "Edwin Chen Net Worth: $18B | Surge AI",
-        "description": "Edwin Chen net worth: $18B, Forbes 2026-10-11. Surge AI ownership, career and dated financial records."
+        "description": "Edwin Chen net worth: $18B, Forbes 2026-10-12. Surge’s human-evaluation origin and the dated provider comparison."
       },
       "quickFacts": [
         {
@@ -4798,9 +4710,10 @@
       ],
       "templateVersion": "leaders-v1",
       "editorialReview": {
-        "status": "needs-review",
+        "status": "approved",
         "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Edwin Chen net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-        "findingsReviewed": false
+        "findingsReviewed": true,
+        "unknownsReviewed": true
       }
     }
   ]

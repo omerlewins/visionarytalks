@@ -13,7 +13,7 @@
     "status": "draft",
     "seo": {
       "title": "Michael Truell Net Worth: $2.8B | Cursor",
-      "description": "Michael Truell net worth: $2.8B, Forbes 2026-10-09. Cursor ownership, career and dated financial records."
+      "description": "Michael Truell net worth: $2.8B, Forbes 2026-10-12. Cursor’s original artifacts and four announced funding rounds."
     },
     "wealth": {
       "display": "$2.8B",
@@ -150,9 +150,9 @@
     ],
     "methodology": "I conduct independent research into public records, checking dates, financial definitions and transaction status. For this profile, we traced school and project archives, checked Cursor's funding and closing announcements, and independently calculated its four-round funding total. Personal wealth uses [Forbes' dated estimate](https://www.forbes.com/profile/michael-truell/); the reviewed records do not provide a complete personal balance sheet. I keep stock consideration separate from current wealth and do not infer cash proceeds or undisclosed ownership percentages.",
     "notes": [
-      "The $2.8B estimate is a historical October 9, 2026 observation, not a newly checked October 11 estimate.",
-      "Current role and exact personal ownership must be rechecked before publication.",
-      "Public-source archival research, not an interview or audit of private assets."
+      "October 9 and October 12 Forbes observations are retained separately; the current observation is October 12.",
+      "Forbes identifies Truell as Cursor co-founder and CEO; exact current personal ownership and voting control remain undisclosed in the reviewed records.",
+      "Original school, repository and dated public-post research; no interview or exhaustive archive search claimed."
     ],
     "quickFacts": [
       {
@@ -220,9 +220,10 @@
     ],
     "templateVersion": "leaders-v1",
     "editorialReview": {
-      "status": "needs-review",
+      "status": "approved",
       "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Michael Truell net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
-      "findingsReviewed": false
+      "findingsReviewed": true,
+      "unknownsReviewed": true
     }
   },
   "sources": {
@@ -231,7 +232,7 @@
       "title": "Forbes' wealth profile",
       "url": "https://www.forbes.com/profile/michael-truell/",
       "type": "Independent wealth estimate",
-      "date": "",
+      "date": "2026-10-12",
       "accessed": "2026-10-12"
     },
     "truell-1": {

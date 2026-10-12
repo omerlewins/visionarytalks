@@ -1,12 +1,12 @@
 # Ownership research audit
 
-Checked October 11, 2026. Ten full research drafts, not published articles. Each uses sourced dated tables, a primary-record finding, Daniel’s byline and the shared design. Review contract passes; the publication gate intentionally requires unresolved checks.
+The October 12 editorial review assessed the remaining gaps in all ten investigations. See [individual decisions and retained limits](../EDITORIAL_RELEASE_REVIEW.md). Both review and publication validators now pass. Unverified IPO claims and private percentages remain excluded or explicitly unknown, and absent founder profiles are not linked. This is AI-assisted desk review, not an external human editor's approval. These remain unpublished review files until a deliberate publication release. The earlier October 11 research audit below is retained as history.
 
 ## Corrections to supplied leads
 
 Groq: Nvidia’s annual filing gives $13B paid plus $4B payable, and no equity/customer contracts/product acquisition, rather than treating approximately $20B reporting as filed consideration. Current policy names Groq LLC. Canva: restructure effective February 2025, not simply September; tax ruling preserves holder percentages. Mistral: over €21B is a lower bound, not an exact plotted price; ASML’s 11% is dated 2025. Glean: $300M ARR is a May 2026 company metric, distinct from 2025 funding valuation. Notion: approximately $270M employee tender is not corporate primary capital; 82% revenue growth not adopted without verified evidence. Cohere: signed combination is conditional, $20B earlier reporting not final disclosed terms; second close of 2025 financing reconciled. Crusoe: initial/anticipated closing qualification preserved; Form D separately records $595,943,098 of options or similar rights across 52 investors. Lambda: proposed $14.5B is pre-money, not closed valuation; banks’ loan roles are not IPO mandates; May 2026 CEO change included. Harvey: specified bank investment arms, not IPO underwriting; legal entity confirmed in the Platform Agreement.
 
-## Outstanding editorial checks
+## October 11 editorial checks (assessed in the October 12 review)
 
 ### Anduril
 

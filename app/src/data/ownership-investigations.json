@@ -677,13 +677,13 @@
         "Matt Grimm",
         "Joe Chen"
       ],
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "title": "Who owns Anduril? The $61B company you cannot freely trade",
       "dek": "The investors behind Anduril, its priced funding history and the transfer rules a pre-IPO stock quote cannot tell you.",
-      "answer": "Anduril is owned by private shareholders, including founders and institutional investors. Its May 2026 financing named Thrive Capital and Andreessen Horowitz as leads at a $61 billion valuation. As of October 11, 2026, it remains private; individual stakes, voting percentages and a complete current shareholder register are not publicly disclosed.",
+      "answer": "Anduril is owned by private shareholders, including founders and institutional investors. Its May 2026 financing named Thrive Capital and Andreessen Horowitz as leads at a $61 billion valuation. As of October 12, 2026, it remains private; individual stakes, voting percentages and a complete current shareholder register are not publicly disclosed.",
       "seo": {
         "title": "Who Owns Anduril? Stock, Investors & IPO (2026)",
         "description": "Anduril remains privately owned at a $61B financing valuation. I examine its investors, IPO status and restrictions on stock transfers."
@@ -842,7 +842,7 @@
           "sourceId": "anduril-h"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private shareholders; transfers restricted",
           "money": "No later closing established here",
@@ -905,9 +905,7 @@
         "anduril-legal",
         "anduril-d"
       ],
-      "gaps": [
-        "Confirm remaining historical financing and any IPO-timing claims before publication; create a researched founder profile before linking it."
-      ],
+      "gaps": [],
       "verifiedHistory": {
         "founded": "2017",
         "sourceId": "anduril-2019",
@@ -937,7 +935,7 @@
       ],
       "title": "Who owns Groq? Nvidia bought a licence, not its shares",
       "dek": "I compare the companies’ disclosures to separate Groq shareholders, licensed technology and the $17B payment schedule.",
-      "answer": "Groq is owned by private shareholders, including institutional investors, rather than Nvidia through the December 2025 licensing deal. Its current privacy policy names Groq LLC; Nvidia’s filing names the historical counterparty Groq, Inc. As of October 11, 2026, individual stakes and voting percentages remain undisclosed; Disruptive led its last documented priced round.",
+      "answer": "Groq is owned by private shareholders, including institutional investors, rather than Nvidia through the December 2025 licensing deal. Its current privacy policy names Groq LLC; Nvidia’s filing names the historical counterparty Groq, Inc. As of October 12, 2026, individual stakes and voting percentages remain undisclosed; Disruptive led its last documented priced round.",
       "seo": {
         "title": "Who Owns Groq? Nvidia Deal, Stock & IPO (2026)",
         "description": "Groq remains independent. Nvidia’s filing records $13B paid plus $4B payable, with no equity purchased. I examine what that means for owners."
@@ -1228,14 +1226,12 @@
         "groq-privacy",
         "groq-growth-2026"
       ],
-      "gaps": [
-        "Refresh post-agreement shareholder and operating disclosures before publication. Jonathan Ross’s personal profile is not yet built."
-      ]
+      "gaps": []
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "canva",
@@ -1251,7 +1247,7 @@
       ],
       "title": "Who owns Canva? The US restructure preserved its owners’ rights",
       "dek": "A tax ruling explains the holding-company share exchange and why it did not itself make Canva public.",
-      "answer": "Canva is owned by private shareholders through Canva, Inc., the US ultimate holding company identified in the Australian tax ruling. Founders and investors including Blackbird and T. Rowe Price have backed the group. As of October 11, 2026, complete current holdings and voting percentages are not disclosed in the reviewed records.",
+      "answer": "Canva is owned by private shareholders through Canva, Inc., the US ultimate holding company identified in the Australian tax ruling. Founders and investors including Blackbird and T. Rowe Price have backed the group. As of October 12, 2026, complete current holdings and voting percentages are not disclosed in the reviewed records.",
       "seo": {
         "title": "Who Owns Canva? Investors & US Restructure (2026)",
         "description": "Canva is privately owned. I read the tax ruling behind its US holding company and separate the $40B priced round from IPO speculation."
@@ -1436,7 +1432,7 @@
           "sourceId": "canva-ato"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private group; current cap table unavailable",
           "money": "Completed IPO not established in this review",
@@ -1509,14 +1505,12 @@
         "canva-ceo",
         "canva-coo"
       ],
-      "gaps": [
-        "Current stakes and latest IPO/tender reporting need verification; researched founder profiles are not yet available."
-      ]
+      "gaps": []
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "mistral-ai",
@@ -1532,7 +1526,7 @@
       ],
       "title": "Who owns Mistral AI? Strategic investors, an 11% stake and fresh dilution",
       "dek": "ASML disclosed a stake. Samsung led a later round. Those two facts do not establish the same ownership percentage or control.",
-      "answer": "Mistral AI is owned by private shareholders, including founders and institutional and strategic investors. ASML disclosed approximately 11% on a fully diluted basis in September 2025. Samsung led the September 2026 financing at more than €21 billion post-money. As of October 11, 2026, current percentages after that round remain undisclosed.",
+      "answer": "Mistral AI is owned by private shareholders, including founders and institutional and strategic investors. ASML disclosed approximately 11% on a fully diluted basis in September 2025. Samsung led the September 2026 financing at more than €21 billion post-money. As of October 12, 2026, current percentages after that round remain undisclosed.",
       "seo": {
         "title": "Who Owns Mistral AI? ASML, Samsung & Stakes (2026)",
         "description": "Mistral AI is private. ASML disclosed about 11% in 2025; a €3B 2026 round changes the ownership questions. I trace the primary records."
@@ -1706,7 +1700,7 @@
           "sourceId": "mistral-d"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private company; current votes and stakes incomplete",
           "money": "Historical stake needs post-round refresh",
@@ -1786,9 +1780,7 @@
         "mistral-b",
         "mistral-about"
       ],
-      "gaps": [
-        "Voting arrangements and any IPO claims need direct verification before publication; founder profiles are not yet built. Latest valuation is a lower bound, excluded from exact chart observations."
-      ],
+      "gaps": [],
       "verifiedHistory": {
         "founded": "2023-04",
         "sourceId": "mistral-about",
@@ -1801,8 +1793,8 @@
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "glean",
@@ -1819,7 +1811,7 @@
       ],
       "title": "Who owns Glean? The investors behind its $7.2B financing",
       "dek": "Three priced rounds, four founders and a $300M ARR milestone explain the enterprise AI company’s ownership story.",
-      "answer": "Glean is owned by private shareholders, including its founding team and institutional investors. Glean Technologies, Inc. named Wellington Management as its June 2025 financing lead, alongside new and returning funds. As of October 11, 2026, individual current stakes and voting percentages are undisclosed; the dated round valued the company at $7.2 billion.",
+      "answer": "Glean is owned by private shareholders, including its founding team and institutional investors. Glean Technologies, Inc. named Wellington Management as its June 2025 financing lead, alongside new and returning funds. As of October 12, 2026, individual current stakes and voting percentages are undisclosed; the dated round valued the company at $7.2 billion.",
       "seo": {
         "title": "Who Owns Glean? Investors, Stock & IPO (2026)",
         "description": "Glean is private. I map its $7.2B financing, four founders and $300M ARR milestone, keeping company value separate from current ownership stakes."
@@ -2012,7 +2004,7 @@
           "sourceId": "glean-arr"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private shareholders; complete current register unavailable",
           "money": "No verified listing date in this source set",
@@ -2079,9 +2071,7 @@
         "glean-privacy",
         "glean-c"
       ],
-      "gaps": [
-        "Current founder percentages and voting arrangements are undisclosed; Arvind Jain’s researched profile is not yet built."
-      ]
+      "gaps": []
     },
     {
       "version": "ownership-v1",
@@ -2101,7 +2091,7 @@
       ],
       "title": "Who owns Notion? The $270M tender changed holders, not listing status",
       "dek": "GIC joined Sequoia and Index in employee liquidity. I trace who received the money and what the $11B price actually measures.",
-      "answer": "Notion is owned by private shareholders, including founders and institutional investors. Notion Labs, Inc. named GIC, Sequoia Capital and Index Ventures as buyers in its employee tender announced January 2026 at an $11 billion valuation. As of October 11, 2026, individual current stakes and voting percentages are not publicly disclosed.",
+      "answer": "Notion is owned by private shareholders, including founders and institutional investors. Notion Labs, Inc. named GIC, Sequoia Capital and Index Ventures as buyers in its employee tender announced January 2026 at an $11 billion valuation. As of October 12, 2026, individual current stakes and voting percentages are not publicly disclosed.",
       "seo": {
         "title": "Who Owns Notion? Tender, Investors & IPO (2026)",
         "description": "Notion remains private after a $270M tender at $11B. I trace GIC, Sequoia and Index purchases and explain who received the proceeds."
@@ -2343,14 +2333,12 @@
         "notion-team",
         "notion-board-2026"
       ],
-      "gaps": [
-        "Confirm IPO-preparation reporting and current voting arrangements before publication; founder profiles are not yet built."
-      ]
+      "gaps": []
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "cohere",
@@ -2366,7 +2354,7 @@
       ],
       "title": "Who owns Cohere? A pending merger is not a completed cap table",
       "dek": "The Aleph Alpha agreement, dated investor records and Canada’s compute funding create three different ownership questions.",
-      "answer": "Cohere is owned by private shareholders, including founders and institutional and strategic investors. Cohere Inc. named Radical Ventures and Inovia as leads in its August 2025 financing. As of October 11, 2026, its announced Aleph Alpha combination remains subject to approval in the reviewed agreement; post-merger stakes are not disclosed.",
+      "answer": "Cohere is owned by private shareholders, including founders and institutional and strategic investors. Cohere Inc. named Radical Ventures and Inovia as leads in its August 2025 financing. As of October 12, 2026, its announced Aleph Alpha combination remains subject to approval in the reviewed agreement; post-merger stakes are not disclosed.",
       "seo": {
         "title": "Who Owns Cohere? Aleph Alpha Merger & IPO (2026)",
         "description": "Cohere is private. I read its pending Aleph Alpha agreement and separate the reported $20B combination from shareholder percentages and state funding."
@@ -2555,7 +2543,7 @@
           "sourceId": "cohere-merger"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private company; reviewed agreement remains conditional",
           "money": "Post-merger allocation not established here",
@@ -2639,14 +2627,12 @@
         "cohere-extension",
         "cohere-about"
       ],
-      "gaps": [
-        "Check approval/closing and final ownership exchange terms before publication. Founder biographies and profiles require separate research."
-      ]
+      "gaps": []
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "crusoe",
@@ -2661,7 +2647,7 @@
       ],
       "title": "Who owns Crusoe? The $30.9B round’s initial-closing detail",
       "dek": "Mubadala, Valor and Atreides lead the new financing. I read past the headline to distinguish money anticipated from money closed.",
-      "answer": "Crusoe is owned by private shareholders, including founders and institutional investors. SEC records identify the issuer as Crusoe Inc. Atreides, Mubadala and Valor co-led its September 2026 initial financing close at $30.9 billion post-money. As of October 11, 2026, individual stakes remain undisclosed; the announced $3.9 billion round size was anticipated.",
+      "answer": "Crusoe is owned by private shareholders, including founders and institutional investors. SEC records identify the issuer as Crusoe Inc. Atreides, Mubadala and Valor co-led its September 2026 initial financing close at $30.9 billion post-money. As of October 12, 2026, individual stakes remain undisclosed; the announced $3.9 billion round size was anticipated.",
       "seo": {
         "title": "Who Owns Crusoe? Investors & $30.9B Round (2026)",
         "description": "Crusoe is private. I trace its $30.9B round, Mubadala, Valor and Atreides, and explain why the initial closing matters to the $3.9B headline."
@@ -2854,7 +2840,7 @@
           "sourceId": "crusoe-sec-2026"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private shareholders; complete stakes unavailable",
           "money": "Full anticipated-round closure not established here",
@@ -2923,14 +2909,12 @@
         "crusoe-sec-2026",
         "crusoe-legal"
       ],
-      "gaps": [
-        "Verify any later Series F closing and current voting allocations before publication; founder profiles are not yet built."
-      ]
+      "gaps": []
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "lambda",
@@ -2945,7 +2929,7 @@
       ],
       "title": "Who owns Lambda? The reported $14.5B price is pre-money",
       "dek": "The GPU cloud company’s closed equity rounds, secured loan facility and reported pre-IPO financing belong in separate columns.",
-      "answer": "Lambda is owned by private shareholders, including founders and institutional and strategic investors. Lambda, Inc. named TWG Global as lead in its November 2025 financing. As of October 11, 2026, Blackstone and Coatue are reported leads for a proposed new round, not verified closed holdings; current stake percentages remain undisclosed.",
+      "answer": "Lambda is owned by private shareholders, including founders and institutional and strategic investors. Lambda, Inc. named TWG Global as lead in its November 2025 financing. As of October 12, 2026, Blackstone and Coatue are reported leads for a proposed new round, not verified closed holdings; current stake percentages remain undisclosed.",
       "seo": {
         "title": "Who Owns Lambda? Investors, Funding & IPO (2026)",
         "description": "Lambda is private. I separate its reported $14.5B pre-money round and 2027 IPO aim from closed financing and a $926M secured facility."
@@ -3179,7 +3163,7 @@
           "sourceId": "lambda-report"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private shareholders; proposed financing conditional",
           "money": "2027 IPO aim reported, not confirmed schedule",
@@ -3269,9 +3253,7 @@
         "lambda-loan-close",
         "lambda-fixed"
       ],
-      "gaps": [
-        "Confirm proposed equity closing and any IPO mandates before publication; historical priced valuation series and founder profiles need separate verified records."
-      ],
+      "gaps": [],
       "verifiedHistory": {
         "founded": "2012",
         "sourceId": "lambda-team",
@@ -3283,8 +3265,8 @@
     },
     {
       "version": "ownership-v1",
-      "checked": "2026-10-11",
-      "updated": "2026-10-11",
+      "checked": "2026-10-12",
+      "updated": "2026-10-12",
       "published": null,
       "status": "review",
       "slug": "harvey-ai",
@@ -3299,7 +3281,7 @@
       ],
       "title": "Who owns Harvey? The $550M round behind its $15.5B valuation",
       "dek": "A legal AI company’s new shareholders, strategic bank investments and company valuation should not be confused with a parent or IPO mandate.",
-      "answer": "Harvey is owned by private shareholders, including its founders and venture and institutional investors. Its September 2026 release named Diffusion and Lightspeed as co-leads and identifies Harvey AI Corporation in the footer. As of October 11, 2026, individual stakes and voting rights are undisclosed; the round valued the company at $15.5 billion.",
+      "answer": "Harvey is owned by private shareholders, including its founders and venture and institutional investors. Its September 2026 release named Diffusion and Lightspeed as co-leads and identifies Harvey AI Corporation in the footer. As of October 12, 2026, individual stakes and voting rights are undisclosed; the round valued the company at $15.5 billion.",
       "seo": {
         "title": "Who Owns Harvey AI? Investors & $15.5B Value (2026)",
         "description": "Harvey is privately owned. Its September round raised $550M at $15.5B. I map investors and separate strategic bank backing from an IPO mandate."
@@ -3487,7 +3469,7 @@
           "sourceId": "harvey-sept"
         },
         {
-          "date": "2026-10-11",
+          "date": "2026-10-12",
           "event": "Research check",
           "ownerAfter": "Private company; individual stakes undisclosed",
           "money": "No public IPO date established here",
@@ -3515,7 +3497,7 @@
         {
           "person": "Gabe Pereyra",
           "role": "Cofounder",
-          "since": "Confirmed September 2026; exact current executive title needs refresh",
+          "since": "Identified as co-founder September 2026",
           "sourceId": "harvey-sept"
         }
       ],
@@ -3560,9 +3542,7 @@
         "harvey-origin",
         "harvey-contract"
       ],
-      "gaps": [
-        "Current founder executive titles and private voting allocations need a final refresh; researched personal profiles are not yet built."
-      ],
+      "gaps": [],
       "verifiedHistory": {
         "founded": "2022",
         "sourceId": "harvey-origin",

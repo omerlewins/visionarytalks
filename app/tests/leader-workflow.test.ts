@@ -78,8 +78,11 @@ test("invalid calendar dates and fact-table placeholders cannot enter the shared
 });
 test("starter cannot pass validation and research drafts cannot pass the editorial gate", () => {
   assert.ok(validateLeader(starter, leaderSources, today).errors.length);
+  const draft = fixture();
+  draft.editorialReview.status = "needs-review";
+  draft.editorialReview.findingsReviewed = false;
   assert.ok(
-    validateLeader(fixture(), leaderSources, today).publicationGaps.some((g) =>
+    validateLeader(draft, leaderSources, today).publicationGaps.some((g) =>
       g.includes("Editorial approval"),
     ),
   );

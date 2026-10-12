@@ -1,4 +1,8 @@
-# Leaders playbook review: October 11, 2026
+# Leaders playbook review: October 11, 2026 baseline
+
+## October 12 editorial decision
+
+The remaining review gates were assessed for all **22** profiles, including the legacy Leopold conversion. See [individual decisions and limits](../EDITORIAL_RELEASE_REVIEW.md) and the content-bound JSON record. Dated provider observations, primary findings, unavailable biography fields, chart scope, source attribution and internal destinations were reviewed. Stale descriptions and notes were corrected, speculative repeated sections removed, and the missing Cursor Series D added to Sanger and Asif's ledgers. Live Google questions were recorded in `growth/LAUNCH_SEARCH_QUESTIONS.json`. All 22 now pass the separate publication validator. This is an AI-assisted editorial desk review, not an external human editor's approval, an exhaustive archive search or an audit of personal assets. Unavailable totals remain null and unknown facts remain explicit. Publication transfer and deployed launch checks are separate; the October 11 baseline below describes the earlier state.
 
 All 21 review profiles now use the versioned leaders-v1 contract and explicitly typed sections. The shared template orders origin, company story, strategy, capital ledger, findings, wealth history, FAQ, methodology, sources and related leaders. Source-linked tables, estimator-separated charts, author treatment and schema are shared. Structural validation runs in CI and before Preview CMS synchronization; invalid stored profiles fall back to the validated repository copy.
 

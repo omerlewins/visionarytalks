@@ -22,6 +22,7 @@
     "validate:leaders": "tsx scripts/validate-leaders.ts",
     "ownership:new": "tsx scripts/new-ownership.ts",
     "validate:ownership": "tsx scripts/validate-ownership.ts",
+    "validate:release": "tsx scripts/validate-editorial-release.ts",
     "sync:ownership": "tsx scripts/sync-ownership.ts"
   },
   "dependencies": {
