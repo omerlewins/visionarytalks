@@ -7,6 +7,7 @@ import "@/styles/ownership-archive.css";
 import "@/styles/tracker-reference.css";
 import "@/styles/production.css";
 import "@/styles/leaders.css";
+import "@/styles/state-wealth-map.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo } from "@/lib/content";
 const baseMetadata: Metadata = {

@@ -28,6 +28,7 @@ export function leaderCompanyLinks(slug: string): {
       salary: "/perplexity-salary/",
     };
   const other: Record<string, { company: string; salary?: string }> = {
+    "leopold-aschenbrenner": { company: "Situational Awareness" },
     "mira-murati": {
       company: "Thinking Machines Lab",
       salary: "/thinking-machines-salary/",

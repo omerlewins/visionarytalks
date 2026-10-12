@@ -19,6 +19,8 @@ export const featuredLeaderSlugs = [
   "aman-sanger",
 ];
 export function leaderPortrait(p: LeaderSummary) {
+  if (p.slug === "leopold-aschenbrenner")
+    return "/reference/leopold-aschenbrenner-editorial-v1.png";
   if (p.slug === "michael-truell")
     return "/reference/michael-truell-illustration-v1.png";
   return featuredLeaderSlugs.includes(p.slug)

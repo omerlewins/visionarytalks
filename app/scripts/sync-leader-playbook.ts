@@ -3,6 +3,14 @@ import { validateLeader } from "../src/lib/leader-validation";
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 import { leaderProfiles, leaderSources } from "../src/lib/leaders";
+// Published legacy articles retain their Story record. Their template conversion
+// lives in the isolated Preview research marker instead of replacing public copy.
+const legacyProfiles = leaderProfiles.filter(
+  (p) => p.slug === "leopold-aschenbrenner",
+);
+const managedProfiles = leaderProfiles.filter(
+  (p) => p.slug !== "leopold-aschenbrenner",
+);
 import { leaderWealthObservations } from "../src/lib/leader-wealth";
 import { mkdir, writeFile } from "node:fs/promises";
 if (
@@ -47,12 +55,18 @@ try {
     })
   ).docs;
   if (
-    markers.length !== leaderProfiles.length ||
-    stories.length !== leaderProfiles.length ||
-    stories.some((p) => p._status !== "draft")
+    managedProfiles.some(
+      (p) =>
+        !markers.some((m) => m.key === "content-sync:" + p.path) ||
+        !stories.some((s) => s.path === p.path && s._status === "draft"),
+    ) ||
+    legacyProfiles.some(
+      (p) =>
+        !stories.some((s) => s.path === p.path && s._status === "published"),
+    )
   )
     throw Error(
-      "Expected a managed draft and marker for every repository profile; refusing other content",
+      "Expected managed drafts and markers plus the published legacy original; refusing other content",
     );
   const published = (
     await payload.find({
@@ -187,6 +201,41 @@ try {
       return doc.id;
     }
     for (const p of leaderProfiles) {
+      if (process.argv.includes("--legacy-only") && !legacyProfiles.includes(p)) continue;
+      if (legacyProfiles.includes(p)) {
+        const existingMarker = markers.find(
+          (m) => m.key === "content-sync:" + p.path,
+        );
+        const markerData = {
+          name: p.name + " Leaders template conversion",
+          key: "content-sync:" + p.path,
+          state: "needs-review",
+          data: {
+            profile: p,
+            sources: p.sourceIds.map((id) => leaderSources[id]),
+            wealthObservations: leaderWealthObservations(p),
+            publicationReady: false,
+            playbookVersion: "2026-10-11",
+            preservesPublishedStory: true,
+          },
+        };
+        if (existingMarker)
+          await payload.update({
+            collection: "claim-evidence",
+            id: existingMarker.id,
+            user,
+            overrideAccess: false,
+            data: markerData,
+          });
+        else
+          await payload.create({
+            collection: "claim-evidence",
+            user,
+            overrideAccess: false,
+            data: markerData,
+          });
+        continue;
+      }
       const marker = markers.find((m) => m.key === "content-sync:" + p.path)!;
       const story = stories.find((s) => s.path === p.path)!;
       const registeredSources: number[] = [];
@@ -230,7 +279,7 @@ try {
       });
     }
     console.log(
-      `Updated ${leaderProfiles.length} managed Preview drafts; backup saved privately.`,
+      `Updated ${process.argv.includes("--legacy-only") ? legacyProfiles.length : leaderProfiles.length} Preview research records; backup saved privately. Published legacy stories preserved.`,
     );
   }
 } finally {

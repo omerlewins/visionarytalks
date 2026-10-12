@@ -15,6 +15,9 @@ import { OwnershipInvestigation } from "@/components/OwnershipInvestigation";
 import { OwnershipArchive } from "@/components/OwnershipArchive";
 import { ownershipArchiveEntries } from "@/lib/ownership-archive";
 import { isLeadersReview } from "@/lib/leaders-review";
+import { loadLeaderProfile } from "@/lib/leader-content";
+import { leaderMetadata, leaderSchema } from "@/lib/leader-schema";
+import { LeaderProfile } from "@/components/LeaderProfile";
 export const dynamic = "force-dynamic";
 type Props = {
   params: Promise<{ path: string[] }>;
@@ -52,9 +55,34 @@ const publicationPages: Record<string, [string, string]> = {
 };
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { path } = await params;
-  if (path[0] === "category" && ["ownership","who-owns"].includes(path[1])) return {title:"Who Owns? AI Companies & Everyday Brands",description:"Explore the founders, parent companies and investors behind AI businesses and everyday brands. Ownership investigations from Visionary Talks.",alternates:{canonical:"/category/ownership/"},robots:{index:process.env.APP_ENV === "production"}};
-  const research = await loadOwnershipFile((await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`);
-  if (research) return {title:{absolute:research.seo.title}, description:research.seo.description,robots:{index:false,follow:false},alternates:{canonical:`/who-owns-${research.slug}/`},openGraph:{title:research.title,description:research.dek,type:"article",images:[`/ownership-cards/${research.slug}.svg`]}};
+  if (path.join("/") === "leopold-aschenbrenner-net-worth") {
+    const leader = await loadLeaderProfile("leopold-aschenbrenner");
+    if (leader) return leaderMetadata(leader);
+  }
+  if (path[0] === "category" && ["ownership", "who-owns"].includes(path[1]))
+    return {
+      title: "Who Owns? AI Companies & Everyday Brands",
+      description:
+        "Explore the founders, parent companies and investors behind AI businesses and everyday brands. Ownership investigations from Visionary Talks.",
+      alternates: { canonical: "/category/ownership/" },
+      robots: { index: process.env.APP_ENV === "production" },
+    };
+  const research = await loadOwnershipFile(
+    (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`,
+  );
+  if (research)
+    return {
+      title: { absolute: research.seo.title },
+      description: research.seo.description,
+      robots: { index: false, follow: false },
+      alternates: { canonical: `/who-owns-${research.slug}/` },
+      openGraph: {
+        title: research.title,
+        description: research.dek,
+        type: "article",
+        images: [`/ownership-cards/${research.slug}.svg`],
+      },
+    };
   const s = await storyAt(
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`,
   );
@@ -88,8 +116,26 @@ export default async function Page({ params, searchParams }: Props) {
   const query = await searchParams;
   const route =
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
+  if (route === "/leopold-aschenbrenner-net-worth/") {
+    const leader = await loadLeaderProfile("leopold-aschenbrenner");
+    if (leader)
+      return (
+        <>
+          <script
+            type="application/ld+json"
+            dangerouslySetInnerHTML={{
+              __html: JSON.stringify(leaderSchema(leader)).replace(
+                /</g,
+                "\\u003c",
+              ),
+            }}
+          />
+          <LeaderProfile leader={leader} />
+        </>
+      );
+  }
   const research = await loadOwnershipFile(route);
-  if (research) return <OwnershipInvestigation file={research}/>;
+  if (research) return <OwnershipInvestigation file={research} />;
   const s = await storyAt(route);
   if (s) {
     const all = await stories();
@@ -220,7 +266,19 @@ export default async function Page({ params, searchParams }: Props) {
               .includes(term.toLowerCase())
           : path[0] === "hot-posts" || matchesArchive(s, path[0], term)),
     );
-    if (path[0] === "category" && ["ownership","who-owns"].includes(term) && pageNumber === 1) return <><OwnershipArchive entries={ownershipArchiveEntries(found, isLeadersReview())}/><Newsletter/></>;
+    if (
+      path[0] === "category" &&
+      ["ownership", "who-owns"].includes(term) &&
+      pageNumber === 1
+    )
+      return (
+        <>
+          <OwnershipArchive
+            entries={ownershipArchiveEntries(found, isLeadersReview())}
+          />
+          <Newsletter />
+        </>
+      );
     const pageSize = 10;
     const totalPages = Math.ceil(found.length / pageSize);
     if (pageNumber > Math.max(1, totalPages)) notFound();

@@ -43,7 +43,7 @@ export default async function Page() {
       </p>
       <OwnershipDirectory/>
       <p>These ownership investigations are saved as Preview CMS drafts. To edit their structured text, tables or chart observations, open the matching <Link href="/admin/collections/claim-evidence">Ownership investigation research record</Link> and edit <code>data.file</code>. The <Link href="/admin/collections/content-inbox">Content inbox</Link> keeps the full research proposal.</p>
-      <h2>21 leader profiles</h2>
+      <h2>{leaderProfiles.length} leader profiles</h2>
       <p>
         Including Michael Truell’s original Cursor investigation and the 20 new
         profiles.

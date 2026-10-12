@@ -11,6 +11,7 @@ const groups = [
   "Models & science",
   "Applications & agents",
   "Data & infrastructure",
+  "Investment & infrastructure",
 ];
 export function LeadersDirectory({ leaders }: { leaders: LeaderSummary[] }) {
   const [group, setGroup] = useState("All leaders");

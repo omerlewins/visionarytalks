@@ -14,6 +14,8 @@ import { legacyHeadings } from "@/migration/render";
 import { ownershipBrand } from "@/lib/ownership";
 import type { ReactNode } from "react";
 import { OwnershipBacklinks } from "./OwnershipBacklinks";
+import { StateWealthMap } from "./StateWealthMap";
+import { correctedStateWealthHTML } from "@/lib/state-wealth";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
     <article className="story latest-story">
@@ -40,12 +42,20 @@ export function StoryTemplate({
   story: StoryData;
   related?: StoryData[];
   children?: ReactNode;
-  contents?: {id: string; heading: string}[];
+  contents?: { id: string; heading: string }[];
   cover?: ReactNode;
 }) {
   const people = isLeadersReview() ? ownershipLeaders(s.path) : [];
   const author = articleAuthor(s.author);
-  const legacy = legacyHeadings(s.legacyHTML ?? "");
+  const mapKind =
+    s.path === "/how-many-billionaires-by-state/"
+      ? "billionaires"
+      : s.path === "/millionaires-by-state/"
+        ? "millionaires"
+        : undefined;
+  const legacy = legacyHeadings(
+    correctedStateWealthHTML(s.path, s.legacyHTML ?? ""),
+  );
   const showSources = s.sources.length > 0 || !s.legacyHTML;
   const ownership = s.kind === "ownership";
   const brand = ownershipBrand(s.title);
@@ -150,53 +160,54 @@ export function StoryTemplate({
             </div>
             <Share title={s.title} />
           </div>
-          {cover ?? (ownership ? (
-            <aside
-              className="company-cover ownership-cover"
-              aria-label={`${brand} company file`}
-            >
-              <div className="cover-top">
-                <span>THE COMPANY FILE</span>
-                <span>OWNERSHIP</span>
-              </div>
-              <div className="cover-name">
-                {brand}
-                <span>_</span>
-              </div>
-              <div className="cover-bottom">
-                <span>
-                  THE COMPANY. THE PEOPLE.
-                  <br />
-                  THE MONEY BEHIND IT.
-                </span>
-                <span>VISIONARY TALKS</span>
-              </div>
-            </aside>
-          ) : s.image ? (
-            <figure className="profile-image">
-              <Image
-                src={s.image}
-                unoptimized={s.image.includes("/api/media/file/")}
-                alt={s.imageAlt ?? s.title}
-                width={1122}
-                height={1402}
-                priority
-                sizes="(max-width: 768px) 90vw, 36vw"
-              />
-              <figcaption>{s.imageCredit}</figcaption>
-            </figure>
-          ) : (
-            (s.kind === "ownership" || s.kind === "company") && (
-              <div className="company-cover">
-                <span>THE COMPANY FILE</span>
-                <strong>
-                  {s.title.replace("Who owns ", "").replace("?", "")}
-                  <i>_</i>
-                </strong>
-                <span>IDENTITY / OWNERSHIP / THE BUSINESS</span>
-              </div>
-            )
-          ))}
+          {cover ??
+            (ownership ? (
+              <aside
+                className="company-cover ownership-cover"
+                aria-label={`${brand} company file`}
+              >
+                <div className="cover-top">
+                  <span>THE COMPANY FILE</span>
+                  <span>OWNERSHIP</span>
+                </div>
+                <div className="cover-name">
+                  {brand}
+                  <span>_</span>
+                </div>
+                <div className="cover-bottom">
+                  <span>
+                    THE COMPANY. THE PEOPLE.
+                    <br />
+                    THE MONEY BEHIND IT.
+                  </span>
+                  <span>VISIONARY TALKS</span>
+                </div>
+              </aside>
+            ) : s.image ? (
+              <figure className="profile-image">
+                <Image
+                  src={s.image}
+                  unoptimized={s.image.includes("/api/media/file/")}
+                  alt={s.imageAlt ?? s.title}
+                  width={1122}
+                  height={1402}
+                  priority
+                  sizes="(max-width: 768px) 90vw, 36vw"
+                />
+                <figcaption>{s.imageCredit}</figcaption>
+              </figure>
+            ) : (
+              (s.kind === "ownership" || s.kind === "company") && (
+                <div className="company-cover">
+                  <span>THE COMPANY FILE</span>
+                  <strong>
+                    {s.title.replace("Who owns ", "").replace("?", "")}
+                    <i>_</i>
+                  </strong>
+                  <span>IDENTITY / OWNERSHIP / THE BUSINESS</span>
+                </div>
+              )
+            ))}
         </header>
         {(ownership || !!s.facts?.length) && (
           <dl className="facts-strip">
@@ -215,6 +226,7 @@ export function StoryTemplate({
                 {ownership ? "IN THIS COMPANY FILE" : "IN THIS STORY"}
               </summary>
               <nav aria-label="Table of contents">
+                {mapKind && <a href="#wealth-map">Explore the state map</a>}
                 {(contents ?? [...s.sections, ...legacy.toc]).map((x) => (
                   <a href={`#${x.id}`} key={x.id}>
                     {x.heading}
@@ -247,6 +259,7 @@ export function StoryTemplate({
               </aside>
             )}
             {children}
+            {mapKind && <StateWealthMap kind={mapKind} />}
             {!!s.relations?.length && (
               <section>
                 <h2>The ownership structure</h2>
@@ -339,7 +352,7 @@ export function StoryTemplate({
                 </ol>
               </section>
             )}
-            {isLeadersReview() && <OwnershipBacklinks path={s.path}/>}
+            {isLeadersReview() && <OwnershipBacklinks path={s.path} />}
             <aside className="writer-box">
               {author.name === profile.name && (
                 <Link

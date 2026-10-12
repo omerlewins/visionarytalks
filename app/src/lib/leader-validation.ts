@@ -113,7 +113,7 @@ export function validateLeader(
     );
   if (
     p.path !== "/leaders/" + p.slug + "/" &&
-    !(p.slug === "michael-truell" && p.path === "/michael-truell-net-worth/")
+    !(["michael-truell", "leopold-aschenbrenner"].includes(p.slug) && p.path === "/" + p.slug + "-net-worth/")
   )
     errors.push("Profile path must use the canonical Leaders route");
   for (const stage of LEADER_PROSE_STAGES)

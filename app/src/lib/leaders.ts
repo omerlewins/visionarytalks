@@ -3,6 +3,7 @@ import wealthData from "@/data/leader-wealth-history.json";
 import { wealthHistory } from "./leader-wealth";
 import pilot from "@/data/michael-truell-profile.json";
 import data from "@/data/leader-profiles.json";
+import leopold from "@/data/leopold-aschenbrenner-profile.json";
 export type LeaderSource = {
   id: string;
   title: string;
@@ -12,7 +13,7 @@ export type LeaderSource = {
   accessed: string;
 };
 export type LeaderProfile = LeaderRecord;
-export const leaderProfiles = [...data.leaders, pilot.profile].map((p) => ({
+export const leaderProfiles = [...data.leaders, pilot.profile, leopold.profile].map((p) => ({
   ...p,
   sourceIds: [
     ...new Set([
@@ -25,6 +26,7 @@ export const leaderSources = {
   ...data.sources,
   ...pilot.sources,
   ...wealthData.sources,
+  ...leopold.sources,
 } as Record<string, LeaderSource>;
 export { dateLabel, leaderPortrait, leaderSummary } from "./leader-display";
 import { featuredLeaderSlugs } from "./leader-display";
