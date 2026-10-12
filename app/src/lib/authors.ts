@@ -11,7 +11,7 @@ export function articleAuthor(
 ): Story["author"] {
   const name = author?.name?.trim() ?? "";
   if (
-    /^(visionary\s*talks(?: editorial)?|daniel mercer|omer|editorial team|design fixture.*)?$/i.test(
+    /^(visionary\s*talks(?: editorial)?|daniel mercer|omer|max talks|claude-editor|editorial team|design fixture.*)?$/i.test(
       name,
     )
   ) {

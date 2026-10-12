@@ -294,7 +294,9 @@ export default async function Page({ params, searchParams }: Props) {
               ? "Look a little closer."
               : term === "ownership"
                 ? "Who owns"
-                : term.replaceAll("-", " ")}
+                : path[0] === "author" && term === "daniel-mercer"
+                  ? "Daniel Mercer"
+                  : term.replaceAll("-", " ")}
           </h1>
         </header>
         {path[0] === "search" && (

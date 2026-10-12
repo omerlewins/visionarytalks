@@ -1,6 +1,13 @@
 import { NextResponse, type NextRequest } from "next/server";
 import redirects from "./data/legacy-redirects.json";
+import { legacyAuthorDestination } from "./lib/legacy-author-routes";
 export function proxy(request: NextRequest) {
+  const authorDestination = legacyAuthorDestination(request.nextUrl.pathname);
+  if (authorDestination)
+    return NextResponse.redirect(
+      new URL(authorDestination + request.nextUrl.search, request.url),
+      301,
+    );
   const redirect = redirects.find((r) => r.source === request.nextUrl.pathname);
   if (redirect)
     return NextResponse.redirect(

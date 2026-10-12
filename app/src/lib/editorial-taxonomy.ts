@@ -1,5 +1,6 @@
 import type { Story } from "./domain";
 import { isOwnershipStory } from "./ownership";
+import { articleAuthor, publicationAuthor } from "./authors";
 
 const leaders = new Set([
   "leopold-aschenbrenner-net-worth",
@@ -28,7 +29,10 @@ export function editorialKind(story: {
 export function matchesArchive(story: Story, type: string, term: string) {
   if (story.kind === "page") return false;
   const route = `/${type}/${term}/`;
-  if (type === "author") return story.author.path === route;
+  if (type === "author")
+    return term === "daniel-mercer"
+      ? articleAuthor(story.author).name === publicationAuthor.name
+      : story.author.path === route;
   const original =
     story.taxonomy?.some((t) => t.path === route) ||
     (type === "category" &&
