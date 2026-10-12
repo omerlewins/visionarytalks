@@ -76,9 +76,10 @@ export function Tracker({
       )}
       <p className="source" aria-live="polite">
         {filtered.length} {filtered.length === 1 ? "company" : "companies"} ·
-        Dated observations, not a live feed. Mixed metrics are not directly
-        comparable.
+        Dated, company-reported observations—not live prices or necessarily the
+        latest valuations. Mixed metrics are not directly comparable.
       </p>
+      <p className="tracker-scroll-hint">Scroll across for figures and source links →</p>
       <div
         className="table-scroll"
         tabIndex={0}
@@ -108,9 +109,19 @@ export function Tracker({
                     <details>
                       <summary>{r.name}</summary>
                       <p>{r.description}</p>
-                      <p>{o?.note}</p>
+                      {r.observations.map((observation, i) => (
+                        <p key={i}>
+                          <strong>
+                            {observation.display} · {observation.period}
+                          </strong>
+                          <br />
+                          {observation.note}
+                        </p>
+                      ))}
                       {r.profilePath && (
-                        <Link href={r.profilePath}>Company profile ↗</Link>
+                        <Link href={r.profilePath}>
+                          Ownership investigation ↗
+                        </Link>
                       )}
                     </details>
                   </th>
@@ -137,7 +148,9 @@ export function Tracker({
       </div>
       {!filtered.length && (
         <p className="empty-state">
-          No companies match these filters. Reset to see every company.
+          {rows.length
+            ? "No companies match these filters. Reset to see every company."
+            : "Company research is being prepared. Explore our ownership investigations while we verify the tracker’s records."}
         </p>
       )}
     </div>

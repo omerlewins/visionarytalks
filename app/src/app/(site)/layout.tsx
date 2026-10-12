@@ -11,7 +11,7 @@ import "@/styles/state-wealth-map.css";
 import "@/styles/home-editorial.css";
 import "@/styles/publication-policies.css";
 import { Header, Footer } from "@/components/Shell";
-import { isDemo } from "@/lib/content";
+import { isDemo, companies } from "@/lib/content";
 const baseMetadata: Metadata = {
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL ?? "https://visionarytalks.com",
@@ -41,7 +41,10 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  const settings = await publicIntegrationSettings();
+  const [settings, companyRows] = await Promise.all([
+    publicIntegrationSettings(),
+    companies(),
+  ]);
   return (
     <html lang="en">
       <body>
@@ -55,7 +58,7 @@ export default async function Layout({
             STAGING REVIEW · Imported articles · Not the live publication
           </div>
         )}
-        <Header />
+        <Header showCompanyTracker={companyRows.length > 0} />
         <main id="main" className="page-width" tabIndex={-1}>
           {children}
         </main>

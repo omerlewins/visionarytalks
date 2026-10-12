@@ -3,6 +3,8 @@ import { cache } from "react";
 import { fixtures, companyFixtures } from "@/data/fixtures";
 import type { Story, CompanyRow } from "./domain";
 import { decodeHTML } from "entities";
+import trackerSeed from "@/data/company-tracker-seed.json";
+import { isLeadersReview } from "./leaders-review";
 
 export const isDemo = () =>
   process.env.DEMO_MODE === "true" &&
@@ -84,7 +86,7 @@ export const companies = cache(async (): Promise<CompanyRow[]> => {
     collection: "companies",
     overrideAccess: false,
     depth: 2,
-    limit: 100,
+    pagination: false,
   });
   return r.docs.map((d: any) => ({
     id: String(d.id),
@@ -92,9 +94,17 @@ export const companies = cache(async (): Promise<CompanyRow[]> => {
     vertical: d.vertical,
     description: d.description ?? "",
     profilePath:
-      typeof d.profile === "object" && d.profile ? d.profile.path : undefined,
+      typeof d.profile === "object" && d.profile
+        ? d.profile.path
+        : isLeadersReview()
+          ? (trackerSeed.companies.find((c) => c.name === d.name)
+              ?.researchPath ?? undefined)
+          : undefined,
     observations: (d.observations ?? [])
-      .filter((o: any) => typeof o === "object" && o._status === "published")
+      .filter(
+        (o: any) => o && typeof o === "object" && o._status === "published",
+      )
+      .sort((a: any, b: any) => b.period.localeCompare(a.period))
       .map((o: any) => ({
         value: o.value,
         display: o.display ?? String(o.value ?? "Unknown"),

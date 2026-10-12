@@ -787,3 +787,5 @@
     font-size: 40px;
   }
 }
+.tracker-scroll-hint { display: none; }
+@media(max-width:700px) { .tracker .tracker-scroll-hint { display:block; font:11px/1.6 var(--sans); color:#535b51; margin:12px 0; } }

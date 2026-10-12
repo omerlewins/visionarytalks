@@ -8,7 +8,14 @@ const nav = [
   ["Charts & Data", "/ai-salaries/"],
   ["AI Tracker", "/ai-companies/"],
 ];
-export function Header() {
+export function Header({
+  showCompanyTracker = true,
+}: {
+  showCompanyTracker?: boolean;
+}) {
+  const visibleNav = nav.filter(
+    ([, path]) => showCompanyTracker || path !== "/ai-companies/",
+  );
   return (
     <header className="site-header page-width" id="top">
       <a className="skip-link" href="#main" tabIndex={0}>
@@ -29,7 +36,7 @@ export function Header() {
         <p>Companies. Money. Careers.</p>
       </div>
       <nav className="main-nav desktop-nav" aria-label="Sections">
-        {nav.map(([n, p]) => (
+        {visibleNav.map(([n, p]) => (
           <Link key={p} href={p}>
             {n}
           </Link>
@@ -40,7 +47,7 @@ export function Header() {
           Explore the magazine <span>Menu +</span>
         </summary>
         <nav aria-label="Mobile sections">
-          {nav.map(([n, p]) => (
+          {visibleNav.map(([n, p]) => (
             <Link key={p} href={p}>
               {n}
             </Link>
@@ -106,7 +113,10 @@ export function Footer() {
             ))}
           </nav>
         </div>
-        <p className="footer-ai-note">We use AI to assist research, writing and some illustrations. <Link href="/ai-disclosure/">Read our AI disclosure ↗</Link></p>
+        <p className="footer-ai-note">
+          We use AI to assist research, writing and some illustrations.{" "}
+          <Link href="/ai-disclosure/">Read our AI disclosure ↗</Link>
+        </p>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Visionary Talks</span>
           <a href="#top">Back to top ↑</a>

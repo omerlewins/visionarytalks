@@ -157,24 +157,26 @@ export default async function Home({
           </div>
         </div>
       </section>
-      <section className="section home-ai-index">
-        <div className="home-ai-intro">
-          <span className="eyebrow">THE VISIONARY INDEX / AI COMPANIES</span>
-          <h2>
-            Behind the hype.
-            <br />
-            <em>Inside the business.</em>
-          </h2>
-          <p>
-            Track the companies, their verticals, and the numbers behind the
-            headlines.
-          </p>
-          <Link className="index-cta" href="/ai-companies/">
-            Explore the AI companies tracker ↗
-          </Link>
-        </div>
-        <Tracker rows={rows} preview />
-      </section>
+      {!!rows.length && (
+        <section className="section home-ai-index">
+          <div className="home-ai-intro">
+            <span className="eyebrow">THE VISIONARY INDEX / AI COMPANIES</span>
+            <h2>
+              Behind the hype.
+              <br />
+              <em>Inside the business.</em>
+            </h2>
+            <p>
+              Track the companies, their verticals, and the numbers behind the
+              headlines.
+            </p>
+            <Link className="index-cta" href="/ai-companies/">
+              Explore the AI companies tracker ↗
+            </Link>
+          </div>
+          <Tracker rows={rows} preview />
+        </section>
+      )}
       {isDemo() && (
         <section className="section">
           <div className="section-heading">
