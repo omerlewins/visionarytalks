@@ -90,6 +90,7 @@ export interface Config {
     'review-decisions': ReviewDecision;
     'prompt-templates': PromptTemplate;
     'migration-records': MigrationRecord;
+    'newsletter-registrations': NewsletterRegistration;
     'payload-kv': PayloadKv;
     'payload-jobs': PayloadJob;
     'payload-locked-documents': PayloadLockedDocument;
@@ -121,6 +122,7 @@ export interface Config {
     'review-decisions': ReviewDecisionsSelect<false> | ReviewDecisionsSelect<true>;
     'prompt-templates': PromptTemplatesSelect<false> | PromptTemplatesSelect<true>;
     'migration-records': MigrationRecordsSelect<false> | MigrationRecordsSelect<true>;
+    'newsletter-registrations': NewsletterRegistrationsSelect<false> | NewsletterRegistrationsSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-jobs': PayloadJobsSelect<false> | PayloadJobsSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
@@ -795,6 +797,23 @@ export interface MigrationRecord {
   createdAt: string;
 }
 /**
+ * Consented registrations only. Addresses are unverified and no newsletter emails are sent by this website. Connect verification and unsubscribe handling before enabling delivery.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "newsletter-registrations".
+ */
+export interface NewsletterRegistration {
+  id: number;
+  email: string;
+  status: 'registered' | 'withdrawn';
+  emailVerified?: boolean | null;
+  consentedAt: string;
+  consentVersion: string;
+  sourcePath: string;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "payload-kv".
  */
@@ -1005,6 +1024,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'migration-records';
         value: number | MigrationRecord;
+      } | null)
+    | ({
+        relationTo: 'newsletter-registrations';
+        value: number | NewsletterRegistration;
       } | null);
   globalSlug?: string | null;
   user: {
@@ -1539,6 +1562,20 @@ export interface MigrationRecordsSelect<T extends boolean = true> {
   state?: T;
   data?: T;
   error?: T;
+  updatedAt?: T;
+  createdAt?: T;
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "newsletter-registrations_select".
+ */
+export interface NewsletterRegistrationsSelect<T extends boolean = true> {
+  email?: T;
+  status?: T;
+  emailVerified?: T;
+  consentedAt?: T;
+  consentVersion?: T;
+  sourcePath?: T;
   updatedAt?: T;
   createdAt?: T;
 }

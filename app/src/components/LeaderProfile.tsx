@@ -1,4 +1,5 @@
 import { sectionsForStages } from "@/lib/leader-flow";
+import { AIContentNotice } from "./AIContentNotice";
 import { leaderCompanyLinks } from "@/lib/leader-links";
 import {
   leaderWealthObservations,
@@ -565,6 +566,7 @@ export function LeaderProfile({ leader: p }: { leader: Profile }) {
           </aside>
         </div>
       </div>
+      <AIContentNotice />
       <section className="leader-related">
         <span className="eyebrow">KEEP INVESTIGATING</span>
         <h2>The people in the same ecosystem.</h2>

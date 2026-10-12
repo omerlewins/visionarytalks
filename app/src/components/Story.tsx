@@ -14,6 +14,7 @@ import { legacyHeadings } from "@/migration/render";
 import { ownershipBrand } from "@/lib/ownership";
 import type { ReactNode } from "react";
 import { OwnershipBacklinks } from "./OwnershipBacklinks";
+import { AIContentNotice } from "./AIContentNotice";
 import { StateWealthMap } from "./StateWealthMap";
 import { correctedStateWealthHTML } from "@/lib/state-wealth";
 export function StoryCard({ story }: { story: StoryData }) {
@@ -420,6 +421,7 @@ export function StoryTemplate({
           )}
         </div>
       </article>
+      <AIContentNotice />
       {!!people.length && (
         <section className="leader-related">
           <span className="eyebrow">FOLLOW THE PEOPLE</span>

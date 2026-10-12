@@ -6,6 +6,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const base = process.env.NEXT_PUBLIC_SITE_URL!;
   return [
     { url: base },
+    ...["/ai-disclosure/", "/newsletter/", "/newsletter-privacy/"].map(path=>({url:new URL(path,base).href})),
     ...(await stories())
       .filter((s) => !s.noindex)
       .map((s) => ({

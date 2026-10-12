@@ -6,6 +6,7 @@ import { s3Storage } from "@payloadcms/storage-s3";
 import sharp from "sharp";
 import path from "node:path";
 import { collections } from "./cms/collections";
+import { newsletterRegistrations } from "./cms/newsletter";
 import { editors } from "./cms/access";
 import { prepareTask } from "./workflows/engine";
 import { privateBlobStorage } from "./cms/blob-storage";
@@ -46,7 +47,7 @@ export default buildConfig({
     push: process.env.APP_ENV === "development",
     migrationDir: path.resolve(process.cwd(), "src/migrations"),
   }),
-  collections,
+  collections: [...collections, newsletterRegistrations],
   globals: [
     integrations,
     {

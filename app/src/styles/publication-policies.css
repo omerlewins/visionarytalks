@@ -1,0 +1,126 @@
+.publication-policy {
+  max-width: 780px;
+  margin: 60px auto;
+}
+.publication-policy h1 {
+  font: normal clamp(36px, 6vw, 64px)/1.1 var(--serif);
+  margin: 18px 0 30px;
+}
+.publication-policy h2 {
+  font: normal 28px/1.2 var(--serif);
+  margin: 32px 0 15px;
+}
+.publication-policy p {
+  font: 18px/1.75 var(--serif);
+  margin: 16px 0;
+}
+.publication-policy .policy-intro {
+  font-size: 23px;
+}
+.footer-ai-note {
+  font: 12px/1.7 var(--sans);
+  color: #c5c5bb;
+  max-width: 650px;
+  margin: 25px 0;
+}
+.footer-ai-note a { color: #eeeeE5; text-decoration: underline; text-underline-offset: 3px; }
+.ai-content-notice {
+  padding: 20px 24px;
+  background: #f2f2ed;
+  border-block: 1px solid #c0c3b9;
+  margin: 32px 0;
+}
+.ai-content-notice strong {
+  font: 700 11px var(--sans);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.ai-content-notice p {
+  font: 13px/1.7 var(--sans);
+  color: #4c5548;
+  margin: 12px 0 0;
+}
+.newsletter-registration {
+  font: 14px/1.7 var(--sans);
+}
+.newsletter-registration form {
+  margin-top: 18px;
+}
+.newsletter-registration label {
+  display: block;
+  font: 12px/1.7 var(--sans);
+}
+.newsletter-input-row {
+  display: flex;
+  gap: 8px;
+  margin: 8px 0 16px;
+}
+.newsletter-input-row input {
+  min-width: 0;
+  flex: 1;
+  border: 1px solid #8e9d88;
+  padding: 13px;
+  font: 15px var(--sans);
+  background: white;
+  color: #182117;
+}
+.newsletter-input-row button {
+  border: 0;
+  background: #203427;
+  color: white;
+  padding: 13px 18px;
+  cursor: pointer;
+  white-space: nowrap;
+  font: 12px var(--sans);
+}
+.newsletter-input-row button:disabled {
+  opacity: 0.65;
+  cursor: wait;
+}
+.newsletter-registration .newsletter-consent {
+  display: flex;
+  gap: 10px;
+  align-items: start;
+  text-transform: none;
+  letter-spacing: normal;
+  font-weight: 400;
+}
+.newsletter-consent input {
+  margin-top: 4px;
+  flex-shrink: 0;
+  width: 17px;
+  height: 17px;
+}
+.newsletter-registration .newsletter-privacy {
+  font: 11px/1.7 var(--sans);
+  margin-top: 12px;
+  color: #53604d;
+}
+.newsletter-trap {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.newsletter-result {
+  font: 14px/1.7 var(--sans);
+  padding: 15px;
+  background: #e9efdf;
+  border: 1px solid #a9b398;
+}
+.newsletter-registration :is(input, button):focus-visible {
+  outline: 2px solid #688254;
+  outline-offset: 3px;
+}
+@media (max-width: 500px) {
+  .newsletter-input-row {
+    flex-direction: column;
+  }
+  .publication-policy p {
+    font-size: 17px;
+  }
+  .publication-policy .policy-intro {
+    font-size: 20px;
+  }
+}

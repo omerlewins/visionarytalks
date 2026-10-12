@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NewsletterRegistration } from "./NewsletterRegistration";
 const nav = [
   ["Who owns", "/category/ownership/"],
   ["Business", "/category/business/"],
@@ -18,7 +19,7 @@ export function Header() {
         <span className="date">BUSINESS, EXPLAINED.</span>
         <div className="utility-actions">
           <Link href="/search/">Search</Link>
-          <a href="#brief">Newsletter ↗</a>
+          <Link href="/newsletter/">Newsletter ↗</Link>
         </div>
       </div>
       <div className="masthead">
@@ -65,12 +66,7 @@ export function Newsletter() {
           world.
         </p>
       </div>
-      <div>
-        <p>Newsletter registration is not yet open.</p>
-        <p className="source">
-          This placement is ready for the publication’s newsletter provider.
-        </p>
-      </div>
+      <NewsletterRegistration />
     </section>
   );
 }
@@ -97,6 +93,7 @@ export function Footer() {
             {[
               "About",
               "Editorial standards",
+              "AI disclosure",
               "Contact",
               "Corrections",
               "Advertise",
@@ -109,6 +106,7 @@ export function Footer() {
             ))}
           </nav>
         </div>
+        <p className="footer-ai-note">We use AI to assist research, writing and some illustrations. <Link href="/ai-disclosure/">Read our AI disclosure ↗</Link></p>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Visionary Talks</span>
           <a href="#top">Back to top ↑</a>
