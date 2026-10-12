@@ -7,6 +7,7 @@ import { leaderMetadata } from "../src/lib/leader-schema";
 import { leaderProfiles } from "../src/lib/leaders";
 import { fixtures } from "../src/data/fixtures";
 import robots from "../src/app/robots";
+import { legacyHeadings } from "../src/migration/render";
 const base = {
   ...fixtures[0],
   title: "Who Owns Example? A Very Long Story",
@@ -14,6 +15,19 @@ const base = {
   seo: {},
   dek: "Who Owns Example? A Very Long Story",
 };
+test("legacy body headings do not duplicate the article title H1 and retain anchors", () => {
+  const result = legacyHeadings(
+    '<h1 id="person">A person</h1><h2>Sources</h2>',
+  );
+  assert.equal(
+    result.content,
+    '<h2 id="person">A person</h2><h2 id="legacy-heading-2">Sources</h2>',
+  );
+  assert.deepEqual(
+    result.toc.map((h) => h.id),
+    ["person", "legacy-heading-2"],
+  );
+});
 test("production robots explicitly allow public CMS images while staging stays blocked", () => {
   const previous = {
     APP_ENV: process.env.APP_ENV,

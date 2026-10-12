@@ -34,7 +34,8 @@ export function legacyHeadings(html: string) {
           sanitize(text, { allowedTags: [], allowedAttributes: {} }),
         ),
       });
-      return `<h${level}${attributes}${existing ? "" : ` id="${id}"`}>${text}</h${level}>`;
+      const headingLevel = level === "1" ? "2" : level;
+      return `<h${headingLevel}${attributes}${existing ? "" : ` id="${id}"`}>${text}</h${headingLevel}>`;
     },
   );
   return { content, toc };
