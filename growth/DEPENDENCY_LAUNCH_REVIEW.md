@@ -9,3 +9,5 @@ Repository source inspection found no application call accepting a public brace/
 Private raw audit evidence is under `private/growth/production-dependency-audit*.json`. The editorial approval remains tied to its exact content hashes; dependency patching does not publish the reviewed articles or perform the domain cutover.
 
 After patching, all 59 tests, the release-integrity check and the candidate build passed. The approved Production owner still signed in successfully, and both published and draft CMS reads retained the exact 102-article baseline. No research record was introduced into Production by these checks.
+
+The later launch integration passed 61 tests. GitHub's npm 10 clean install exposed a compatibility issue with the range-qualified DOMPurify override. It is now the exact `dompurify: 3.4.16` override; the resolved lockfile and installed patch version are unchanged. A clean-install dry-run with npm 10.9.4 passed. Vercel's newer npm independently installed and built the candidate successfully. This correction does not remove the retained braces/esbuild advisories above.
