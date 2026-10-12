@@ -9,6 +9,31 @@ import { validateLeader } from "../src/lib/leader-validation";
 import { leaderSchema } from "../src/lib/leader-schema";
 import { leaderWealthObservations } from "../src/lib/leader-wealth";
 
+test("top 1% map retains dated household dollar estimates for every jurisdiction", () => {
+  assert.equal(data.topOnePercent.date, "2026-04");
+  assert.equal(data.topOnePercent.checked, "2026-10-12");
+  assert.match(data.topOnePercent.source, /windfall.com/);
+  for (const state of data.states)
+    assert.ok(
+      Number.isInteger(state.topOnePercent) && state.topOnePercent > 1000000,
+    );
+  const ranked = [...data.states].sort(
+    (a, b) => b.topOnePercent - a.topOnePercent,
+  );
+  assert.equal(ranked[0].code, "HI");
+  assert.equal(ranked[0].topOnePercent, 21518000);
+  assert.equal(ranked.at(-1)!.code, "MS");
+  assert.equal(ranked.at(-1)!.topOnePercent, 2940000);
+  assert.equal(
+    data.states.find((s) => s.code === "CA")!.topOnePercent,
+    19751000,
+  );
+  assert.equal(
+    data.states.find((s) => s.code === "DC")!.topOnePercent,
+    11255000,
+  );
+});
+
 test("state maps include 50 states plus DC, preserve true zero counts, and reconcile totals", () => {
   assert.equal(data.states.length, 51);
   assert.equal(new Set(data.states.map((s) => s.fips)).size, 51);

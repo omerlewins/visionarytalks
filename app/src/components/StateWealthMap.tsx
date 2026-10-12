@@ -3,7 +3,7 @@
 import { useState } from "react";
 import data from "@/data/us-state-wealth.json";
 
-type Kind = "billionaires" | "millionaires";
+type Kind = "billionaires" | "millionaires" | "topOnePercent";
 const colors = ["#e4e4df", "#c1c3bd", "#979c94", "#5d685e", "#1d3427"];
 const compact = (n: number) =>
   new Intl.NumberFormat("en-US", {
@@ -16,28 +16,33 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
   const [hovered, setHovered] = useState<string | null>(null);
   const [share, setShare] = useState(false);
   const millionaire = kind === "millionaires";
+  const threshold = kind === "topOnePercent";
   const current = data.states.find((s) => s.code === (hovered ?? selected))!;
   const value = (s: typeof current) =>
     share ? (s.millionaires / s.households) * 100 : s[kind];
   const edges = share
     ? [10, 15, 20, 25]
-    : millionaire
-      ? [100000, 250000, 500000, 1000000]
-      : [1, 5, 20, 100];
+    : threshold
+      ? [5000000, 8000000, 11000000, 15000000]
+      : millionaire
+        ? [100000, 250000, 500000, 1000000]
+        : [1, 5, 20, 100];
   const labels = share
     ? ["<10%", "10–<15%", "15–<20%", "20–<25%", "25%+"]
-    : millionaire
-      ? ["<100K", "100K–<250K", "250K–<500K", "500K–<1M", "1M+"]
-      : ["0", "1–4", "5–19", "20–99", "100+"];
+    : threshold
+      ? ["<$5M", "$5M–<$8M", "$8M–<$11M", "$11M–<$15M", "$15M+"]
+      : millionaire
+        ? ["<100K", "100K–<250K", "250K–<500K", "500K–<1M", "1M+"]
+        : ["0", "1–4", "5–19", "20–99", "100+"];
   const band = (n: number) => edges.filter((e) => n >= e).length;
   const formatted = (s: typeof current) =>
     share
       ? value(s).toFixed(1) + "%"
-      : (millionaire ? "≈" : "") + exact(s[kind]);
+      : (threshold ? "$" : millionaire ? "≈" : "") + exact(s[kind]);
   const ranked = [...data.states].sort(
     (a, b) => value(b) - value(a) || a.name.localeCompare(b.name),
   );
-  const snapshot = millionaire ? "APRIL 2026" : "24 JULY 2025";
+  const snapshot = millionaire || threshold ? "APRIL 2026" : "24 JULY 2025";
   return (
     <section
       className="state-wealth-map"
@@ -47,14 +52,18 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
       <header>
         <span className="eyebrow">WEALTH ACROSS AMERICA · {snapshot}</span>
         <h2 id="state-map-title">
-          {millionaire
-            ? "Where millionaire households live"
-            : "Where billionaires live"}
+          {threshold
+            ? "What it takes to join your state’s top 1%"
+            : millionaire
+              ? "Where millionaire households live"
+              : "Where billionaires live"}
         </h2>
         <p>
-          {millionaire
-            ? "Households with net worth of $1 million or more, including home equity."
-            : "Residents on Forbes’ billionaire list, grouped by residence in this dated snapshot."}
+          {threshold
+            ? "Estimated 99th-percentile household net worth, in US dollars. Assets minus debts, including home equity."
+            : millionaire
+              ? "Households with net worth of $1 million or more, including home equity."
+              : "Residents on Forbes’ billionaire list, grouped by residence in this dated snapshot."}
         </p>
       </header>
       <div className="state-map-controls">
@@ -109,7 +118,7 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
                 role="button"
                 tabIndex={0}
                 aria-pressed={selected === s.code}
-                aria-label={`${s.name}: ${formatted(s)} ${share ? "of households" : millionaire ? "millionaire households" : "billionaires"}`}
+                aria-label={`${s.name}: ${formatted(s)} ${threshold ? "top 1% household net worth threshold" : share ? "of households" : millionaire ? "millionaire households" : "billionaires"}`}
                 onMouseEnter={() => setHovered(s.code)}
                 onMouseLeave={() => setHovered(null)}
                 onFocus={() => setHovered(s.code)}
@@ -174,16 +183,22 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
           </span>
           <strong>{formatted(current)}</strong>
           <span>
-            {share
-              ? "of households are millionaires"
-              : millionaire
-                ? "millionaire households (estimated)"
-                : "resident billionaires"}
+            {threshold
+              ? "estimated top 1% household threshold"
+              : share
+                ? "of households are millionaires"
+                : millionaire
+                  ? "millionaire households (estimated)"
+                  : "resident billionaires"}
           </span>
         </div>
         <div>
           <span className="eyebrow">
-            {share ? "HOUSEHOLD COUNT" : "RANK BY COUNT"}
+            {threshold
+              ? "RANK BY THRESHOLD"
+              : share
+                ? "HOUSEHOLD COUNT"
+                : "RANK BY COUNT"}
           </span>
           <strong>
             {share
@@ -200,16 +215,18 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
       <p className="state-map-hint">
         Hover, tap or use Tab and Enter to explore. Alaska and Hawaii appear as
         insets.{" "}
-        {millionaire
-          ? "Counts are rounded estimates; household shares are calculated from those rounded inputs."
-          : "Zero means the source recorded no resident billionaire, not missing data."}
+        {threshold
+          ? "State thresholds are model estimates, not official cutoffs or an individual wealth ranking."
+          : millionaire
+            ? "Counts are rounded estimates; household shares are calculated from those rounded inputs."
+            : "Zero means the source recorded no resident billionaire, not missing data."}
       </p>
       <details className="state-map-method">
         <summary>Source, methodology & all 51 figures</summary>
         <p>
           Visionary Talks independently checked the source table and joined each
           jurisdiction to Census-derived state boundaries.{" "}
-          {millionaire ? (
+          {millionaire || threshold ? (
             <>
               The{" "}
               <a href={data.millionaires.source}>
@@ -217,6 +234,8 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
               </a>{" "}
               measure assets less liabilities, including property. They count
               households, not individual people or only investable assets.
+              {threshold &&
+                " Windfall uses a proprietary household model and excludes some groups, including college students, ADU residents, transient residents and unhoused people. The published dollar precision does not remove model uncertainty; these thresholds are not the Federal Reserve’s national survey estimate."}
             </>
           ) : (
             <>
@@ -230,21 +249,28 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
               territories are excluded.
             </>
           )}{" "}
-          Checked October 11, 2026. This is a dated snapshot, not a live count.
+          Checked {threshold ? "October 12" : "October 11"}, 2026. This is a
+          dated snapshot.
         </p>
         <div className="state-map-table">
           <table>
             <caption>
               {snapshot} ·{" "}
-              {millionaire
-                ? "Approximate household counts"
-                : "Resident billionaire counts"}
+              {threshold
+                ? "Estimated household net worth thresholds · USD"
+                : millionaire
+                  ? "Approximate household counts"
+                  : "Resident billionaire counts"}
             </caption>
             <thead>
               <tr>
                 <th scope="col">State</th>
                 <th scope="col">
-                  {millionaire ? "Millionaire households" : "Billionaires"}
+                  {threshold
+                    ? "Top 1% threshold (estimate)"
+                    : millionaire
+                      ? "Millionaire households"
+                      : "Billionaires"}
                 </th>
                 {millionaire && (
                   <>
@@ -268,7 +294,10 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
                       {s.name}
                     </button>
                   </th>
-                  <td>{exact(s[kind])}</td>
+                  <td>
+                    {threshold ? "$" : ""}
+                    {exact(s[kind])}
+                  </td>
                   {millionaire && (
                     <>
                       <td>{exact(s.households)}</td>

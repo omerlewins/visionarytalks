@@ -18,7 +18,8 @@
       "y": 435.8,
       "billionaires": 1,
       "millionaires": 240000,
-      "households": 1770000
+      "households": 1770000,
+      "topOnePercent": 5865000
     },
     {
       "fips": "02",
@@ -29,7 +30,8 @@
       "y": 530.1,
       "billionaires": 0,
       "millionaires": 30000,
-      "households": 240000
+      "households": 240000,
+      "topOnePercent": 5207000
     },
     {
       "fips": "04",
@@ -40,7 +42,8 @@
       "y": 384.8,
       "billionaires": 15,
       "millionaires": 500000,
-      "households": 2710000
+      "households": 2710000,
+      "topOnePercent": 9980000
     },
     {
       "fips": "05",
@@ -51,7 +54,8 @@
       "y": 393.5,
       "billionaires": 6,
       "millionaires": 120000,
-      "households": 1170000
+      "households": 1170000,
+      "topOnePercent": 4619000
     },
     {
       "fips": "06",
@@ -62,7 +66,8 @@
       "y": 283.5,
       "billionaires": 199,
       "millionaires": 3590000,
-      "households": 12430000
+      "households": 12430000,
+      "topOnePercent": 19751000
     },
     {
       "fips": "08",
@@ -73,7 +78,8 @@
       "y": 288.9,
       "billionaires": 13,
       "millionaires": 540000,
-      "households": 2420000
+      "households": 2420000,
+      "topOnePercent": 12627000
     },
     {
       "fips": "09",
@@ -84,7 +90,8 @@
       "y": 193,
       "billionaires": 17,
       "millionaires": 290000,
-      "households": 1440000
+      "households": 1440000,
+      "topOnePercent": 10807000
     },
     {
       "fips": "10",
@@ -95,7 +102,8 @@
       "y": 256.8,
       "billionaires": 0,
       "millionaires": 80000,
-      "households": 390000
+      "households": 390000,
+      "topOnePercent": 9206000
     },
     {
       "fips": "12",
@@ -106,7 +114,8 @@
       "y": 529.1,
       "billionaires": 117,
       "millionaires": 1850000,
-      "households": 9170000
+      "households": 9170000,
+      "topOnePercent": 12778000
     },
     {
       "fips": "13",
@@ -117,7 +126,8 @@
       "y": 424.9,
       "billionaires": 21,
       "millionaires": 690000,
-      "households": 3720000
+      "households": 3720000,
+      "topOnePercent": 7288000
     },
     {
       "fips": "15",
@@ -128,7 +138,8 @@
       "y": 587.8,
       "billionaires": 3,
       "millionaires": 170000,
-      "households": 480000
+      "households": 480000,
+      "topOnePercent": 21518000
     },
     {
       "fips": "16",
@@ -139,7 +150,8 @@
       "y": 122.7,
       "billionaires": 1,
       "millionaires": 120000,
-      "households": 670000
+      "households": 670000,
+      "topOnePercent": 9111000
     },
     {
       "fips": "17",
@@ -150,7 +162,8 @@
       "y": 276.2,
       "billionaires": 30,
       "millionaires": 540000,
-      "households": 4870000
+      "households": 4870000,
+      "topOnePercent": 5607000
     },
     {
       "fips": "18",
@@ -161,7 +174,8 @@
       "y": 272,
       "billionaires": 2,
       "millionaires": 240000,
-      "households": 2670000
+      "households": 2670000,
+      "topOnePercent": 4376000
     },
     {
       "fips": "19",
@@ -172,7 +186,8 @@
       "y": 229,
       "billionaires": 1,
       "millionaires": 130000,
-      "households": 1290000
+      "households": 1290000,
+      "topOnePercent": 4088000
     },
     {
       "fips": "20",
@@ -183,7 +198,8 @@
       "y": 307.9,
       "billionaires": 3,
       "millionaires": 70000,
-      "households": 1080000
+      "households": 1080000,
+      "topOnePercent": 3302000
     },
     {
       "fips": "21",
@@ -194,7 +210,8 @@
       "y": 317.3,
       "billionaires": 1,
       "millionaires": 190000,
-      "households": 1600000
+      "households": 1600000,
+      "topOnePercent": 4557000
     },
     {
       "fips": "22",
@@ -205,7 +222,8 @@
       "y": 478.3,
       "billionaires": 4,
       "millionaires": 110000,
-      "households": 1680000
+      "households": 1680000,
+      "topOnePercent": 3620000
     },
     {
       "fips": "23",
@@ -216,7 +234,8 @@
       "y": 98,
       "billionaires": 1,
       "millionaires": 110000,
-      "households": 640000
+      "households": 640000,
+      "topOnePercent": 6565000
     },
     {
       "fips": "24",
@@ -227,7 +246,8 @@
       "y": 264.9,
       "billionaires": 10,
       "millionaires": 430000,
-      "households": 2250000
+      "households": 2250000,
+      "topOnePercent": 8082000
     },
     {
       "fips": "25",
@@ -238,7 +258,8 @@
       "y": 171.2,
       "billionaires": 23,
       "millionaires": 730000,
-      "households": 2980000
+      "households": 2980000,
+      "topOnePercent": 11090000
     },
     {
       "fips": "26",
@@ -249,7 +270,8 @@
       "y": 180.1,
       "billionaires": 9,
       "millionaires": 570000,
-      "households": 4040000
+      "households": 4040000,
+      "topOnePercent": 5689000
     },
     {
       "fips": "27",
@@ -260,7 +282,8 @@
       "y": 128.7,
       "billionaires": 5,
       "millionaires": 380000,
-      "households": 2410000
+      "households": 2410000,
+      "topOnePercent": 5686000
     },
     {
       "fips": "28",
@@ -271,7 +294,8 @@
       "y": 439.7,
       "billionaires": 2,
       "millionaires": 50000,
-      "households": 930000
+      "households": 930000,
+      "topOnePercent": 2940000
     },
     {
       "fips": "29",
@@ -282,7 +306,8 @@
       "y": 311.8,
       "billionaires": 8,
       "millionaires": 160000,
-      "households": 2410000
+      "households": 2410000,
+      "topOnePercent": 3797000
     },
     {
       "fips": "30",
@@ -293,7 +318,8 @@
       "y": 97.4,
       "billionaires": 6,
       "millionaires": 60000,
-      "households": 410000
+      "households": 410000,
+      "topOnePercent": 7155000
     },
     {
       "fips": "31",
@@ -304,7 +330,8 @@
       "y": 238.1,
       "billionaires": 4,
       "millionaires": 80000,
-      "households": 730000
+      "households": 730000,
+      "topOnePercent": 4838000
     },
     {
       "fips": "32",
@@ -315,7 +342,8 @@
       "y": 267.7,
       "billionaires": 19,
       "millionaires": 210000,
-      "households": 1160000
+      "households": 1160000,
+      "topOnePercent": 10453000
     },
     {
       "fips": "33",
@@ -326,7 +354,8 @@
       "y": 133.6,
       "billionaires": 2,
       "millionaires": 160000,
-      "households": 600000
+      "households": 600000,
+      "topOnePercent": 8959000
     },
     {
       "fips": "34",
@@ -337,7 +366,8 @@
       "y": 231.6,
       "billionaires": 7,
       "millionaires": 960000,
-      "households": 3240000
+      "households": 3240000,
+      "topOnePercent": 10982000
     },
     {
       "fips": "35",
@@ -348,7 +378,8 @@
       "y": 393.2,
       "billionaires": 1,
       "millionaires": 50000,
-      "households": 710000
+      "households": 710000,
+      "topOnePercent": 4116000
     },
     {
       "fips": "36",
@@ -359,7 +390,8 @@
       "y": 168.5,
       "billionaires": 136,
       "millionaires": 1550000,
-      "households": 7410000
+      "households": 7410000,
+      "topOnePercent": 11549000
     },
     {
       "fips": "37",
@@ -370,7 +402,8 @@
       "y": 351,
       "billionaires": 10,
       "millionaires": 760000,
-      "households": 4060000
+      "households": 4060000,
+      "topOnePercent": 8452000
     },
     {
       "fips": "38",
@@ -381,7 +414,8 @@
       "y": 102.8,
       "billionaires": 1,
       "millionaires": 20000,
-      "households": 260000
+      "households": 260000,
+      "topOnePercent": 4714000
     },
     {
       "fips": "39",
@@ -392,7 +426,8 @@
       "y": 252,
       "billionaires": 10,
       "millionaires": 470000,
-      "households": 4470000
+      "households": 4470000,
+      "topOnePercent": 4323000
     },
     {
       "fips": "40",
@@ -403,7 +438,8 @@
       "y": 380.3,
       "billionaires": 4,
       "millionaires": 140000,
-      "households": 1420000
+      "households": 1420000,
+      "topOnePercent": 4352000
     },
     {
       "fips": "41",
@@ -414,7 +450,8 @@
       "y": 129.7,
       "billionaires": 3,
       "millionaires": 360000,
-      "households": 1820000
+      "households": 1820000,
+      "topOnePercent": 8480000
     },
     {
       "fips": "42",
@@ -425,7 +462,8 @@
       "y": 226,
       "billionaires": 23,
       "millionaires": 650000,
-      "households": 4900000
+      "households": 4900000,
+      "topOnePercent": 5752000
     },
     {
       "fips": "44",
@@ -436,7 +474,8 @@
       "y": 184.9,
       "billionaires": 1,
       "millionaires": 100000,
-      "households": 440000
+      "households": 440000,
+      "topOnePercent": 9741000
     },
     {
       "fips": "45",
@@ -447,7 +486,8 @@
       "y": 399.7,
       "billionaires": 4,
       "millionaires": 370000,
-      "households": 2050000
+      "households": 2050000,
+      "topOnePercent": 8723000
     },
     {
       "fips": "46",
@@ -458,7 +498,8 @@
       "y": 176.4,
       "billionaires": 1,
       "millionaires": 50000,
-      "households": 300000
+      "households": 300000,
+      "topOnePercent": 5672000
     },
     {
       "fips": "47",
@@ -469,7 +510,8 @@
       "y": 360.1,
       "billionaires": 12,
       "millionaires": 540000,
-      "households": 2560000
+      "households": 2560000,
+      "topOnePercent": 8124000
     },
     {
       "fips": "48",
@@ -480,7 +522,8 @@
       "y": 474.2,
       "billionaires": 83,
       "millionaires": 960000,
-      "households": 10140000
+      "households": 10140000,
+      "topOnePercent": 5324000
     },
     {
       "fips": "49",
@@ -491,7 +534,8 @@
       "y": 264.5,
       "billionaires": 7,
       "millionaires": 260000,
-      "households": 1120000
+      "households": 1120000,
+      "topOnePercent": 10147000
     },
     {
       "fips": "50",
@@ -502,7 +546,8 @@
       "y": 139.1,
       "billionaires": 1,
       "millionaires": 100000,
-      "households": 280000
+      "households": 280000,
+      "topOnePercent": 9825000
     },
     {
       "fips": "51",
@@ -513,7 +558,8 @@
       "y": 298.9,
       "billionaires": 11,
       "millionaires": 680000,
-      "households": 3240000
+      "households": 3240000,
+      "topOnePercent": 8313000
     },
     {
       "fips": "53",
@@ -524,7 +570,8 @@
       "y": 58.4,
       "billionaires": 17,
       "millionaires": 790000,
-      "households": 3170000
+      "households": 3170000,
+      "topOnePercent": 12009000
     },
     {
       "fips": "11",
@@ -535,7 +582,8 @@
       "y": 267.6,
       "billionaires": 2,
       "millionaires": 50000,
-      "households": 380000
+      "households": 380000,
+      "topOnePercent": 11255000
     },
     {
       "fips": "54",
@@ -546,7 +594,8 @@
       "y": 279.6,
       "billionaires": 0,
       "millionaires": 70000,
-      "households": 710000
+      "households": 710000,
+      "topOnePercent": 3591000
     },
     {
       "fips": "55",
@@ -557,7 +606,8 @@
       "y": 165,
       "billionaires": 7,
       "millionaires": 390000,
-      "households": 2250000
+      "households": 2250000,
+      "topOnePercent": 6168000
     },
     {
       "fips": "56",
@@ -568,7 +618,13 @@
       "y": 194.3,
       "billionaires": 7,
       "millionaires": 30000,
-      "households": 210000
+      "households": 210000,
+      "topOnePercent": 10006000
     }
-  ]
+  ],
+  "topOnePercent": {
+    "date": "2026-04",
+    "checked": "2026-10-12",
+    "source": "https://www.windfall.com/blog/what-it-takes-to-be-in-the-top-1-of-every-state"
+  }
 }

@@ -16,6 +16,7 @@ import type { ReactNode } from "react";
 import { OwnershipBacklinks } from "./OwnershipBacklinks";
 import { AIContentNotice } from "./AIContentNotice";
 import { StateWealthMap } from "./StateWealthMap";
+import { TopOnePercentComparison } from "./TopOnePercentComparison";
 import { correctedStateWealthHTML } from "@/lib/state-wealth";
 export function StoryCard({ story }: { story: StoryData }) {
   return (
@@ -53,7 +54,9 @@ export function StoryTemplate({
       ? "billionaires"
       : s.path === "/millionaires-by-state/"
         ? "millionaires"
-        : undefined;
+        : s.path === "/top-1-percent-net-worth/"
+          ? "topOnePercent"
+          : undefined;
   const legacy = legacyHeadings(
     correctedStateWealthHTML(s.path, s.legacyHTML ?? ""),
   );
@@ -228,6 +231,9 @@ export function StoryTemplate({
               </summary>
               <nav aria-label="Table of contents">
                 {mapKind && <a href="#wealth-map">Explore the state map</a>}
+                {mapKind === "topOnePercent" && (
+                  <a href="#state-threshold-gap">The state threshold gap</a>
+                )}
                 {(contents ?? [...s.sections, ...legacy.toc]).map((x) => (
                   <a href={`#${x.id}`} key={x.id}>
                     {x.heading}
@@ -261,6 +267,7 @@ export function StoryTemplate({
             )}
             {children}
             {mapKind && <StateWealthMap kind={mapKind} />}
+            {mapKind === "topOnePercent" && <TopOnePercentComparison />}
             {!!s.relations?.length && (
               <section>
                 <h2>The ownership structure</h2>
