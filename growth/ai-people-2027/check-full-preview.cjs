@@ -18,6 +18,20 @@ const fs=require('node:fs');
   await page.locator('.watch-reset').click();
   await page.locator('.watch-index-details > summary').click();
   await page.locator('[data-watch-id] a').filter({hasText:'Tri Dao'}).click();if(!page.url().endsWith('#tri-dao'))throw new Error('Stable anchor');
+  await page.evaluate(async()=>{await Promise.all([...document.images].map(async(image)=>{image.loading='eager';await image.decode()}))});
+  if(await page.locator('.watch-person .watch-role-labels').count()!==100)throw new Error('Missing role labels');
+  if(await page.locator('.watch-person-portrait').count()!==12)throw new Error('Featured portrait scope');
+  if(await page.locator('.watch-test-card').count()!==200)throw new Error('Missing research panels');
+  const form=page.locator('#suggest-person form');
+  if(await form.getAttribute('action')!=='mailto:daniel@visionarytalks.com?subject=AI%20watchlist%20nomination')throw new Error('Nomination fallback');
+  if(await form.evaluate(f=>f.checkValidity()))throw new Error('Empty nomination accepted');
+  await form.locator('[name=person]').fill('A proposed researcher');
+  await form.locator('[name=reason]').fill('Their documented contribution deserves further investigation.');
+  await form.locator('[name=source]').fill('invalid-url');
+  if(await form.evaluate(f=>f.checkValidity()))throw new Error('Invalid evidence URL accepted');
+  await form.locator('[name=source]').fill('https://example.com/research');
+  if(!await form.evaluate(f=>f.checkValidity()))throw new Error('Valid nomination rejected');
+  await form.evaluate(f=>f.reset());
   const checks=await page.evaluate(()=>({
    overflow:document.documentElement.scrollWidth>innerWidth,
    anchors:[...document.querySelectorAll('a[href^="#"]')].filter(a=>!document.getElementById(a.getAttribute('href').slice(1))).length,
@@ -32,6 +46,8 @@ const fs=require('node:fs');
   if(checks.overflow||checks.anchors||checks.brokenImages.length||checks.dots!==100||checks.h1!==1||errors.length)throw new Error(JSON.stringify({...checks,errors}));
   await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:path.join(out,`full-hero-${width}.png`)});
   await page.locator('#tri-dao').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`full-entry-${width}.png`)});
+  await page.locator('#tri-dao .watch-person-test').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`full-tests-${width}.png`)});
+  await page.locator('#suggest-person').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`full-nomination-${width}.png`)});
   await page.locator('.editorial-chart').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`full-chart-${width}.png`)});
   evidence.push({width,...checks,interactions:'pass',scriptErrors:errors.length});await page.close();
  }

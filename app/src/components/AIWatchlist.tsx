@@ -1,5 +1,9 @@
 import { EditorialChart } from "./EditorialChart";
 import { WatchlistExplorer } from "./WatchlistExplorer";
+import { PersonSuggestion } from "./PersonSuggestion";
+import { watchlistRoleLabels } from "@/lib/watchlist-display";
+import portraitData from "@/data/watchlist-portraits.json";
+const portraits: { number: number; src: string }[] = portraitData;
 import {
   watchlistChapters,
   watchlistFinancingChart,
@@ -176,6 +180,7 @@ export function AIWatchlist({
         <a href="#people-index">Find a person</a>
         <a href="#capital-ledger">Follow the money</a>
         <a href="#watch-methodology">Methodology</a>
+        <a href="#suggest-person">Nominate someone ↗</a>
       </nav>
       <section id="documentary-findings" className="watch-findings">
         <div className="watch-section-heading">
@@ -308,12 +313,42 @@ export function AIWatchlist({
                     {String(p.number).padStart(2, "0")}
                   </div>
                   <div>
-                    <span className="eyebrow">
-                      {p.organization}
-                      {p.featured ? " / FEATURED FILE" : ""}
-                    </span>
-                    <h3>{p.name}</h3>
-                    <p className="watch-person-role">{p.role}</p>
+                    <div className="watch-person-heading">
+                      <div>
+                        <span className="eyebrow">
+                          {p.organization}
+                          {p.featured ? " / FEATURED FILE" : ""}
+                        </span>
+                        <h3>{p.name}</h3>
+                        <div
+                          className="watch-role-labels"
+                          aria-label="Contribution categories"
+                        >
+                          {watchlistRoleLabels(p).map((label) => (
+                            <span key={label}>{label}</span>
+                          ))}
+                        </div>
+                        <p className="watch-person-role">{p.role}</p>
+                      </div>
+                      {portraits.find(
+                        (portrait) => portrait.number === p.number,
+                      ) && (
+                        <figure className="watch-person-portrait">
+                          <img
+                            src={
+                              portraits.find(
+                                (portrait) => portrait.number === p.number,
+                              )!.src
+                            }
+                            alt={`AI editorial illustration of ${p.name}`}
+                            width={160}
+                            height={160}
+                            loading="lazy"
+                          />
+                          <figcaption>AI illustration</figcaption>
+                        </figure>
+                      )}
+                    </div>
                     <h4>{p.hook}</h4>
                     <p>
                       According to {sourceLink(p.sourceId)},{" "}
@@ -324,14 +359,20 @@ export function AIWatchlist({
                       <p key={j}>{paragraph}</p>
                     ))}
                     <div className="watch-person-test">
-                      <p>
-                        <strong>My 2027 test</strong>
-                        {p.watch}
-                      </p>
-                      <p>
-                        <strong>What would weaken the case</strong>
-                        {p.risk}
-                      </p>
+                      <aside className="watch-test-card watch-test-positive">
+                        <span className="watch-test-marker" aria-hidden="true">
+                          ↗
+                        </span>
+                        <h5>My 2027 test</h5>
+                        <p>{p.watch}</p>
+                      </aside>
+                      <aside className="watch-test-card watch-test-counter">
+                        <span className="watch-test-marker" aria-hidden="true">
+                          ↘
+                        </span>
+                        <h5>What would weaken the case</h5>
+                        <p>{p.risk}</p>
+                      </aside>
                     </div>
                     {p.additionalSourceIds?.length ? (
                       <p className="watch-supporting">
@@ -361,6 +402,7 @@ export function AIWatchlist({
           </div>
         </section>
       ))}
+      <PersonSuggestion />
       <section id="capital-ledger" className="watch-ledger">
         <div className="watch-section-heading">
           <span className="eyebrow">
@@ -528,6 +570,13 @@ export function AIWatchlist({
       <section className="watch-methodology" id="watch-methodology">
         <span className="eyebrow">OUR METHOD / THE LIMITS OF THE RECORD</span>
         <h2>How I built this watchlist.</h2>
+        <p>
+          Portraits of the 12 featured people are AI-generated editorial
+          illustrations, based on public identity references. They are not
+          photographs or evidence of an interview or endorsement. The short role
+          labels describe contribution categories; the role line below each name
+          preserves the scope of its dated record.
+        </p>
         <p>
           I conducted independent desk research into the public records linked
           here: contribution credits, papers, project documentation,

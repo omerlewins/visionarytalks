@@ -4,6 +4,7 @@ import type { WatchlistPerson } from "@/lib/ai-watchlist";
 import {
   watchlistBottlenecks,
   watchlistChapters,
+  watchlistRoleLabels,
 } from "@/lib/watchlist-display";
 export type WatchlistIndexPerson = Pick<
   WatchlistPerson,
@@ -141,6 +142,11 @@ export function WatchlistExplorer({
                   <th scope="row">
                     <small>{String(p.number).padStart(2, "0")}</small>
                     <a href={`#${p.id}`}>{p.name} ↗</a>
+                    <div className="watch-role-labels">
+                      {watchlistRoleLabels(p).map((label) => (
+                        <span key={label}>{label}</span>
+                      ))}
+                    </div>
                   </th>
                   <td>
                     {p.organization}

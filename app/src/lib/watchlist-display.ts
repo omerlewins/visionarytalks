@@ -1,3 +1,45 @@
+// Editorial contribution labels; the detailed role line retains its dated scope.
+export function watchlistRoleLabels(person: {
+  number: number;
+  role: string;
+  chapter: string;
+}): string[] {
+  const overrides: Record<number, string[]> = {
+    10: ["Researcher", "Writer"],
+    21: ["Leader", "Researcher"],
+    24: ["Engineer"],
+    28: ["Engineer"],
+    37: ["Engineer"],
+    40: ["Leader"],
+    50: ["Leader"],
+    60: ["Leader"],
+    68: ["Leader", "Researcher"],
+    77: ["Builder"],
+    81: ["Leader"],
+    82: ["Educator"],
+    86: ["Leader"],
+    88: ["Policy"],
+    90: ["Policy"],
+    91: ["Policy"],
+    92: ["Investor"],
+    93: ["Investor"],
+    94: ["Investor"],
+    95: ["Investor"],
+    96: ["Engineer", "Writer"],
+    97: ["Researcher", "Writer"],
+    98: ["Host"],
+    99: ["Host", "Founder"],
+    100: ["Engineer", "Educator"],
+  };
+  if (overrides[person.number]) return overrides[person.number];
+  if (/founder/i.test(person.role)) {
+    return /professor|scientist|research/i.test(person.role)
+      ? ["Founder", "Researcher"]
+      : ["Founder"];
+  }
+  return person.chapter === "infrastructure" ? ["Engineer"] : ["Researcher"];
+}
+
 export const watchlistChapters = [
   {
     id: "frontier",

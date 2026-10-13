@@ -385,21 +385,167 @@
 .watch-person-test {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background: #eeeee6;
-  padding: 17px 20px;
-  gap: 20px;
+  padding: 0;
+  gap: 12px;
   margin: 22px 0 0;
 }
 .watch-person-test p {
   font: 14px/1.55 var(--sans);
   margin: 0;
 }
-.watch-person-test strong {
+.watch-person-test h5 {
   display: block;
   font: bold 10px/1.6 var(--sans);
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 7px;
+  margin: 0 0 12px;
+  color: #334b43;
+}
+.watch-test-card {
+  position: relative;
+  padding: 22px 22px 24px;
+  border-top: 2px solid #72867b;
+  background: #eaf0e8;
+}
+.watch-test-counter {
+  background: #f3eee3;
+  border-color: #a18b64;
+}
+.watch-test-counter h5 {
+  color: #685439;
+}
+.watch-test-marker {
+  display: block;
+  font: 26px/1 var(--sans);
+  color: #63796b;
+  margin-bottom: 12px;
+}
+.watch-test-counter .watch-test-marker {
+  color: #927c56;
+}
+.watch-person-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.watch-person-heading > div {
+  min-width: 0;
+}
+.watch-role-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 13px 0 11px;
+}
+.watch-role-labels > span {
+  padding: 5px 10px;
+  border: 1px solid #c6d1c5;
+  border-radius: 3px;
+  background: #e8eee5;
+  color: #344d40;
+  font: 600 10px/1.3 var(--sans);
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+.watch-person-portrait {
+  flex: 0 0 132px;
+  margin: 0;
+}
+.watch-person-portrait img {
+  width: 132px;
+  height: 132px;
+  object-fit: cover;
+  border: 1px solid #d2d2c6;
+  border-radius: 50%;
+}
+.watch-person-portrait figcaption {
+  text-align: center;
+  font: 9px/1.4 var(--sans);
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  margin-top: 8px;
+  color: var(--muted);
+}
+.watch-suggestion {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin: 55px 0;
+  padding: 38px;
+  background: #e9efea;
+  border-top: 2px solid #374e42;
+  scroll-margin-top: 30px;
+}
+.watch-suggestion h2 {
+  font: normal 40px/1.15 var(--serif);
+  margin: 15px 0 20px;
+}
+.watch-suggestion p {
+  font: 18px/1.6 var(--serif);
+}
+.watch-suggestion .watch-suggestion-note {
+  font: 12px/1.6 var(--sans);
+  color: #536456;
+}
+.watch-suggestion form {
+  display: grid;
+  gap: 16px;
+}
+.watch-suggestion label {
+  display: grid;
+  gap: 8px;
+  font: 600 12px/1.4 var(--sans);
+}
+.watch-suggestion label span {
+  font-weight: 400;
+  color: var(--muted);
+  display: inline;
+}
+.watch-suggestion input,
+.watch-suggestion textarea {
+  width: 100%;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid #b6c3b8;
+  border-radius: 0;
+  background: #fcfbf8;
+  color: var(--ink);
+  font: 14px/1.5 var(--sans);
+}
+.watch-suggestion button {
+  padding: 14px 18px;
+  background: #20382d;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  font: 600 13px/1.5 var(--sans);
+}
+.watch-suggestion small {
+  font: 11px/1.6 var(--sans);
+  color: #4b5f51;
+}
+.watch-suggestion :is(input, textarea, button):focus-visible {
+  outline: 2px solid #20382d;
+  outline-offset: 3px;
+}
+@media (max-width: 650px) {
+  .watch-suggestion {
+    grid-template-columns: 1fr;
+    padding: 24px 18px;
+    gap: 20px;
+  }
+  .watch-person-heading {
+    gap: 12px;
+  }
+  .watch-person-portrait {
+    flex-basis: 76px;
+  }
+  .watch-person-portrait img {
+    width: 76px;
+    height: 76px;
+  }
 }
 .watch-supporting,
 .watch-related {
@@ -617,8 +763,8 @@
   }
   .watch-person-test {
     grid-template-columns: 1fr;
-    padding: 16px;
-    gap: 16px;
+    padding: 0;
+    gap: 10px;
   }
   .watch-person-test p {
     font-size: 13px;

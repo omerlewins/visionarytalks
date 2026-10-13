@@ -30,4 +30,6 @@ The entries total approximately 8,100 words before the introductory analysis, fi
 
 No personal wealth was inferred from company financing. No interviews, broad archive search, demographic study, current keyword-volume research or independent financial audit is claimed.
 
-The hero uses a data diagram rather than a portrait montage, representing all 100 people without guessing unknown likenesses. The author image retains its existing AI representation disclosure. No new individual portrait assets were generated.
+The hero uses a data diagram representing all 100 people. At the user's request, the 12 expanded entries now have AI-generated editorial portraits, based on public identity references. Each has an AI caption; references and exact prompts are in [portrait-manifest.json](portrait-manifest.json). Historical photos are not represented as current headshots. Public assets are 320px WebP files under `app/public/reference/watchlist/`; generated originals and downloaded references remain private.
+
+Every narrative entry and index row has short contribution badges. The detailed role line keeps its dated qualification. The shared template uses two separately colored research panels for the 2027 test and countercase. The nomination section prepares an email draft to Daniel, matching the company suggestion flow. It does not claim a CMS save or send an email automatically; its native email action and direct address also remain available without JavaScript.

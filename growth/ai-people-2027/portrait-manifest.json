@@ -1,0 +1,91 @@
+{
+  "created": "2026-10-13",
+  "mode": "built-in image_gen",
+  "note": "AI editorial illustrations, not photographs, interviews or endorsements. Identity photos include historical portraits; these are not verified current headshots. Private reference photos are not redistributed. Fedus is the right-hand person in the Felicis founders photo. An unrelated current X avatar candidate was rejected for Ying Sheng; the older self-published portrait was used.",
+  "portraits": [
+    {
+      "id": "batson",
+      "number": 6,
+      "src": "/reference/watchlist/batson-editorial-v1.webp",
+      "reference": "https://www.gatescambridge.org/biography/6120/",
+      "prompt": "Create one square editorial portrait illustration of Joshua (Josh) Batson for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "fedus",
+      "number": 11,
+      "src": "/reference/watchlist/fedus-editorial-v1.webp",
+      "reference": "https://www.felicis.com/blog/periodic-labs-investment",
+      "prompt": "Create one square editorial portrait illustration of Liam Fedus for Visionary Talks. In reference 1, Liam Fedus is the man on the RIGHT in the gray zip-neck sweater. Illustrate ONLY that man; exclude the other man completely. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "sheng",
+      "number": 23,
+      "src": "/reference/watchlist/sheng-editorial-v1.webp",
+      "reference": "https://x.com/ying11231",
+      "prompt": "Create one square editorial portrait illustration of Ying Sheng for Visionary Talks. Reference 1 shows the person's face. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "gerganov",
+      "number": 24,
+      "src": "/reference/watchlist/gerganov-editorial-v1.webp",
+      "reference": "https://huggingface.co/blog/ggml-joins-hf",
+      "prompt": "Create one square editorial portrait illustration of Georgi Gerganov for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "dao",
+      "number": 25,
+      "src": "/reference/watchlist/dao-editorial-v1.webp",
+      "reference": "https://tridao.me/",
+      "prompt": "Create one square editorial portrait illustration of Tri Dao for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "shlomo",
+      "number": 43,
+      "src": "/reference/watchlist/shlomo-editorial-v1.webp",
+      "reference": "https://www.linkedin.com/in/maor-shlomo-1088b4144/",
+      "prompt": "Create one square editorial portrait illustration of Maor Shlomo for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "lee",
+      "number": 54,
+      "src": "/reference/watchlist/lee-editorial-v1.webp",
+      "reference": "https://stvp.stanford.edu/people/grant-lee",
+      "prompt": "Create one square editorial portrait illustration of Grant Lee for Visionary Talks. Reference 1 shows the person's face. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "hie",
+      "number": 67,
+      "src": "/reference/watchlist/hie-editorial-v1.webp",
+      "reference": "https://profiles.stanford.edu/brian-hie",
+      "prompt": "Create one square editorial portrait illustration of Brian Hie for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "jaderberg",
+      "number": 68,
+      "src": "/reference/watchlist/jaderberg-editorial-v1.webp",
+      "reference": "https://www.broadinstitute.org/bios/max-jaderberg",
+      "prompt": "Create one square editorial portrait illustration of Max Jaderberg for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "lundberg",
+      "number": 69,
+      "src": "/reference/watchlist/lundberg-editorial-v1.webp",
+      "reference": "https://profiles.stanford.edu/emma-lundberg",
+      "prompt": "Create one square editorial portrait illustration of Emma Lundberg for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "barnes",
+      "number": 84,
+      "src": "/reference/watchlist/barnes-editorial-v1.webp",
+      "reference": "https://metr.org/about",
+      "prompt": "Create one square editorial portrait illustration of Beth Barnes for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    },
+    {
+      "id": "willison",
+      "number": 96,
+      "src": "/reference/watchlist/willison-editorial-v1.webp",
+      "reference": "https://github.com/simonw",
+      "prompt": "Create one square editorial portrait illustration of Simon Willison for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+    }
+  ]
+}
