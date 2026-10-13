@@ -13,6 +13,8 @@ import { SalaryTracker } from "@/components/SalaryTracker";
 import { salaryFixtures } from "@/data/salary-fixtures";
 import { ownershipBrand } from "@/lib/ownership";
 import { notFound } from "next/navigation";
+import { canExposeWatchlist } from "@/lib/ai-watchlist";
+import { WatchlistHomeFeature } from "@/components/WatchlistHomeFeature";
 export const dynamic = "force-dynamic";
 export const metadata = {
   alternates: { canonical: "https://visionarytalks.com/" },
@@ -322,6 +324,7 @@ export default async function Home({
           </div>
           <Link href="/leaders/">Explore the Leaders index ↗</Link>
         </div>
+        {canExposeWatchlist(process.env) && <WatchlistHomeFeature />}
         {leaderFeatures.length ? (
           <FeaturedLeaders leaders={leaderFeatures} />
         ) : (
