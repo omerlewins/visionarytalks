@@ -133,10 +133,11 @@
         ]
       },
       {
-        "heading": "Optional analytics",
+        "heading": "Website analytics and your choices",
         "paragraphs": [
-          "When enabled on the live website, Google Analytics helps us understand which pages readers use. Its script loads only after you allow analytics. Declining leaves it unloaded. Analytics is disabled on Preview deployments and CMS pages; there is no advertising tracking network connected to this website.",
-          "Your analytics choice is stored in your browser’s local storage and remains there until you change it or clear that storage. You can change a choice using Analytics preferences on the website when analytics is enabled. Google’s own cookies and data retention depend on the configured service. Advertising personalization and Google signals are disabled in our website integration. We do not treat analytics identifiers as a list of newsletter subscribers."
+          "When enabled on the live website, Google Analytics helps us understand readership. We automatically send limited cookieless measurement signals from all regions, unless you opt out. Without an analytics-cookie choice, we configure Google Analytics with analytics storage denied; Google Analytics cookies are not read or written by this integration. These signals still involve data processing by Google and are not a promise of anonymity. Cookie-based analytics is enabled only after you allow analytics or when you have an existing saved permission. Analytics is disabled on Preview deployments and CMS pages.",
+          "You can use Opt out of analytics on the website at any time. An existing Decline choice is preserved. We also disable analytics when we receive Global Privacy Control or Do Not Track signals. Opting out stops future website analytics events, clears accessible first-party Google Analytics cookies and saves your preference in this browser. It does not erase information already received by Google. Clearing browser storage, changing browsers or devices can remove your saved preference.",
+          "Google Analytics can process page addresses, browser and device information, approximate location and cookie-based identifiers. We omit URL query strings from the page-view addresses we send and disable Google signals and advertising personalization in our website integration. Google cookies and data retention depend on the configured service. We do not link analytics identifiers to newsletter subscribers. Read how Google uses information from sites that use its services: https://policies.google.com/technologies/partner-sites."
         ]
       },
       {
@@ -149,7 +150,7 @@
       {
         "heading": "Providers and transfers",
         "paragraphs": [
-          "Vercel provides website hosting and media infrastructure, and Neon provides the CMS database infrastructure. Google processes optional analytics when you allow it. Email correspondence is handled through our email service. These providers may process information in the United States or other countries under their applicable terms and safeguards.",
+          "Vercel provides website hosting and media infrastructure, and Neon provides the CMS database infrastructure. Google processes website analytics according to the settings and your choices described above. Email correspondence is handled through our email service. These providers may process information in the United States or other countries under their applicable terms and safeguards.",
           "We do not sell the newsletter list or submit newsletter registrations to AI models. Authorized publication staff can access registrations in the CMS. Service providers process information to provide their services, and information may also be disclosed when legally required or necessary to protect the website and its users."
         ]
       },

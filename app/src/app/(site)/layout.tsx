@@ -1,5 +1,6 @@
 import { publicIntegrationSettings } from "@/lib/integration-settings";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { headers } from "next/headers";
 import type { Metadata } from "next";
 import "@/styles/reference.css";
 import "@/styles/ownership.css";
@@ -58,6 +59,7 @@ export default async function Layout({
     publicIntegrationSettings(),
     companies(),
   ]);
+  const requestHeaders = await headers();
   return (
     <html lang="en">
       <body>
@@ -77,7 +79,13 @@ export default async function Layout({
         </main>
         <Footer />
         {settings.measurementId && (
-          <GoogleAnalytics measurementId={settings.measurementId} />
+          <GoogleAnalytics
+            measurementId={settings.measurementId}
+            privacySignal={
+              requestHeaders.get("sec-gpc") === "1" ||
+              requestHeaders.get("dnt") === "1"
+            }
+          />
         )}
       </body>
     </html>
