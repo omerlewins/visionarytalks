@@ -1,7 +1,13 @@
 import { aiWatchlistSchema } from "../src/lib/ai-watchlist";
 import { readFileSync } from "node:fs";
+import {
+  validateWatchlistPublication,
+  watchlistReviewHash,
+} from "../src/lib/watchlist-publication";
 const data = JSON.parse(readFileSync("src/data/ai-watchlist.json", "utf8"));
 const article = aiWatchlistSchema.parse(data);
+if (process.argv.includes("--publish"))
+  validateWatchlistPublication(article, watchlistReviewHash);
 if (
   process.argv.includes("--publish") &&
   article.editorialReview.status !== "approved"

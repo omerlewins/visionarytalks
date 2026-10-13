@@ -14,6 +14,7 @@ import "@/styles/publication-policies.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo, companies } from "@/lib/content";
 import { publicationURL, socialImage, productionIndexing } from "@/lib/seo";
+import { loadWatchlist } from "@/lib/watchlist-content";
 const baseMetadata: Metadata = {
   metadataBase: new URL(publicationURL),
   title: {
@@ -55,9 +56,10 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  const [settings, companyRows] = await Promise.all([
+  const [settings, companyRows, watchlist] = await Promise.all([
     publicIntegrationSettings(),
     companies(),
+    loadWatchlist(),
   ]);
   const requestHeaders = await headers();
   return (
@@ -73,7 +75,10 @@ export default async function Layout({
             STAGING REVIEW · Imported articles · Not the live publication
           </div>
         )}
-        <Header showCompanyTracker={companyRows.length > 0} />
+        <Header
+          showCompanyTracker={companyRows.length > 0}
+          showWatchlist={Boolean(watchlist)}
+        />
         <main id="main" className="page-width" tabIndex={-1}>
           {children}
         </main>

@@ -13,7 +13,7 @@ import { SalaryTracker } from "@/components/SalaryTracker";
 import { salaryFixtures } from "@/data/salary-fixtures";
 import { ownershipBrand } from "@/lib/ownership";
 import { notFound } from "next/navigation";
-import { canExposeWatchlist } from "@/lib/ai-watchlist";
+import { loadWatchlist } from "@/lib/watchlist-content";
 import { WatchlistHomeFeature } from "@/components/WatchlistHomeFeature";
 export const dynamic = "force-dynamic";
 export const metadata = {
@@ -59,6 +59,7 @@ export default async function Home({
     publicProfiles.filter((l) => l.slug === p.slug),
   );
   const leaders = all.filter((s) => s.kind === "leader");
+  const watchlist = await loadWatchlist();
   return (
     <>
       <section
@@ -324,7 +325,7 @@ export default async function Home({
           </div>
           <Link href="/leaders/">Explore the Leaders index ↗</Link>
         </div>
-        {canExposeWatchlist(process.env) && <WatchlistHomeFeature />}
+        {watchlist && <WatchlistHomeFeature article={watchlist.article} />}
         {leaderFeatures.length ? (
           <FeaturedLeaders leaders={leaderFeatures} />
         ) : (

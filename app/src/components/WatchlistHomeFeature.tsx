@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { aiWatchlist } from "@/lib/ai-watchlist";
+import type { AIWatchlist } from "@/lib/ai-watchlist";
 import portraits from "@/data/watchlist-portraits.json";
 
-export function WatchlistHomeFeature() {
+export function WatchlistHomeFeature({ article }: { article: AIWatchlist }) {
   const selection = [23, 25, 43, 69, 84, 96].map((number) => ({
-    person: aiWatchlist.people.find((p) => p.number === number)!,
+    person: article.people.find((p) => p.number === number)!,
     portrait: portraits.find((p) => p.number === number)!,
   }));
   return (

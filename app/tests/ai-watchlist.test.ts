@@ -1,6 +1,8 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import data from "../src/data/ai-watchlist.json";
+import { validatePublishedResearch } from "../src/lib/published-research";
+import { watchlistReviewHash } from "../src/lib/watchlist-publication";
 import {
   aiWatchlistSchema,
   canExposeWatchlist,
@@ -35,6 +37,36 @@ test("production cannot expose the review feature even when demo or preview flag
     true,
   );
   assert.equal(canExposeWatchlist({}), false);
+});
+test("published watchlist requires its exact reviewed content and cannot publish a draft or wrong path", () => {
+  const record = {
+    type: "watchlist",
+    content: aiWatchlistSchema.parse(data),
+    reviewHash: watchlistReviewHash,
+  };
+  assert.doesNotThrow(() =>
+    validatePublishedResearch(record, "/ai-people-to-watch/", "article"),
+  );
+  const changed = structuredClone(record);
+  changed.content.people[0].fact += " Unreviewed addition.";
+  assert.throws(() =>
+    validatePublishedResearch(changed, "/ai-people-to-watch/", "article"),
+  );
+  const draft = structuredClone(record);
+  draft.content.editorialReview.status = "awaiting-editorial-review";
+  assert.throws(() =>
+    validatePublishedResearch(draft, "/ai-people-to-watch/", "article"),
+  );
+  assert.throws(() =>
+    validatePublishedResearch(record, "/wrong-path/", "article"),
+  );
+  assert.throws(() =>
+    validatePublishedResearch(
+      { ...record, reviewHash: "a".repeat(64) },
+      "/ai-people-to-watch/",
+      "article",
+    ),
+  );
 });
 test("selected financing bars cannot accidentally count employee liquidity or acquisitions", () => {
   const article = aiWatchlistSchema.parse(data),

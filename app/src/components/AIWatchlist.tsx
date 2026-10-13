@@ -115,7 +115,9 @@ export function AIWatchlist({
         <aside className="watch-review">
           <strong>EDITORIAL PREVIEW</strong> Complete 100-person feature ·
           retained concise claims checked against the cited records · final
-          publication approval pending.
+          {article.editorialReview.status === "approved"
+            ? "publication release prepared; preview environment."
+            : "publication approval pending."}
         </aside>
       )}
       <header className="watch-hero">

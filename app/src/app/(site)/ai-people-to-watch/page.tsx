@@ -1,30 +1,41 @@
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { AIWatchlist } from "@/components/AIWatchlist";
-import { aiWatchlist, canExposeWatchlist } from "@/lib/ai-watchlist";
+import { loadWatchlist } from "@/lib/watchlist-content";
+import { productionIndexing } from "@/lib/seo";
 import "@/styles/ai-watchlist.css";
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = {
-  title: { absolute: aiWatchlist.seo.title },
-  description: aiWatchlist.seo.description,
-  alternates: { canonical: "https://visionarytalks.com/ai-people-to-watch/" },
-  robots: { index: false, follow: false },
-  openGraph: {
-    title: aiWatchlist.title,
-    description: aiWatchlist.dek,
-    type: "article",
-    images: [
-      {
-        url: "/reference/ai-watchlist-2027-cover.png",
-        width: 1200,
-        height: 630,
-        alt: "One hundred AI people, grouped into five editorial chapters",
-      },
-    ],
-  },
-};
-export default function Page() {
-  if (!canExposeWatchlist(process.env)) notFound();
+export async function generateMetadata(): Promise<Metadata> {
+  const record = await loadWatchlist();
+  if (!record) return { robots: { index: false, follow: false } };
+  const aiWatchlist = record.article;
+  return {
+    title: { absolute: aiWatchlist.seo.title },
+    description: aiWatchlist.seo.description,
+    alternates: { canonical: "https://visionarytalks.com/ai-people-to-watch/" },
+    robots: {
+      index: Boolean(record.publishedAt) && productionIndexing(),
+      follow: Boolean(record.publishedAt) && productionIndexing(),
+    },
+    openGraph: {
+      title: aiWatchlist.title,
+      description: aiWatchlist.dek,
+      type: "article",
+      images: [
+        {
+          url: "/reference/ai-watchlist-2027-cover.png",
+          width: 1200,
+          height: 630,
+          alt: "One hundred AI people, grouped into five editorial chapters",
+        },
+      ],
+    },
+  };
+}
+export default async function Page() {
+  const record = await loadWatchlist();
+  if (!record) notFound();
+  const aiWatchlist = record.article;
   const structured = {
     "@context": "https://schema.org",
     "@graph": [
@@ -34,6 +45,7 @@ export default function Page() {
         description: aiWatchlist.dek,
         mainEntityOfPage: "https://visionarytalks.com/ai-people-to-watch/",
         dateModified: aiWatchlist.checked,
+        ...(record.publishedAt ? { datePublished: record.publishedAt } : {}),
         image:
           "https://visionarytalks.com/reference/ai-watchlist-2027-cover.png",
         author: {
@@ -80,7 +92,7 @@ export default function Page() {
           __html: JSON.stringify(structured).replaceAll("<", "\\u003c"),
         }}
       />
-      <AIWatchlist article={aiWatchlist} />
+      <AIWatchlist article={aiWatchlist} review={!record.publishedAt} />
     </>
   );
 }

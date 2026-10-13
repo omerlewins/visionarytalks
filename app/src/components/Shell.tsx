@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { NewsletterRegistration } from "./NewsletterRegistration";
 import { publicationSocials } from "@/lib/publication-socials";
-import { canExposeWatchlist } from "@/lib/ai-watchlist";
 const nav = [
   ["Who owns", "/category/ownership/"],
   ["Business", "/category/business/"],
@@ -12,13 +11,14 @@ const nav = [
 ];
 export function Header({
   showCompanyTracker = true,
+  showWatchlist = false,
 }: {
   showCompanyTracker?: boolean;
+  showWatchlist?: boolean;
 }) {
   const visibleNav = nav.filter(
     ([, path]) => showCompanyTracker || path !== "/ai-companies/",
   );
-  const showWatchlist = canExposeWatchlist(process.env);
   return (
     <header className="site-header page-width" id="top">
       <a className="skip-link" href="#main" tabIndex={0}>

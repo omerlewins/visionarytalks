@@ -25,8 +25,8 @@ $env:WATCHLIST_BASE_URL='http://127.0.0.1:3123'
 node growth/ai-people-2027/check-full-preview.cjs
 ```
 
-10. `npm run validate:watchlist -- --publish` deliberately rejects this feature until publication approval is recorded. Structural success cannot establish factual truth. Review specific changed claims, not just approval flags.
-11. The route refuses Production even if demo flags are present. Future publication requires deliberate reviewed CMS/release integration, public-loader and sitemap changes, and removal of review wording. Do not open the route globally or substitute a code flag for approval.
+10. `npm run validate:watchlist -- --publish` requires the article to match `PUBLICATION_REVIEW.json`, including its canonical content hash. Structural success cannot establish factual truth. Review specific changed claims, not just approval flags. The retained-claim ledger documents the narrower research scope; the separate publication review records the owner-authorized release.
+11. Preview may use the research file. Production requires a published CMS Story whose `watchlist` research artifact passes the exact release snapshot validation. Publish with `app/scripts/publish-watchlist.ts`: dry-run, rehearsal on the existing isolated Production branch, private backup, then authorized Production apply. The public loader controls the route, homepage and navigation together; the CMS Story supplies sitemap inclusion and its real publication date. Never expose review data via a production environment flag or overwrite a different published release without review.
 12. Refresh after a material release, role change, financing or credible contrary record. Preserve earlier events. Update dates only following substantive reviewed work. No automation is scheduled.
 
 Education, wealth, hiring and financing leads omitted from the original attachment require fresh evidence before being restored. This feature’s narrower claim review does not certify the original biographies.
