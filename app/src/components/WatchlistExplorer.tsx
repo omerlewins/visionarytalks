@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import portraits from "@/data/watchlist-portraits.json";
 import type { WatchlistPerson } from "@/lib/ai-watchlist";
 import {
   watchlistBottlenecks,
@@ -19,8 +20,10 @@ export type WatchlistIndexPerson = Pick<
 >;
 export function WatchlistExplorer({
   people,
+  overview = false,
 }: {
   people: WatchlistIndexPerson[];
+  overview?: boolean;
 }) {
   const [query, setQuery] = useState(""),
     [bottleneck, setBottleneck] = useState(""),
@@ -41,32 +44,36 @@ export function WatchlistExplorer({
     >
       <div className="watch-section-heading">
         <span className="eyebrow">THE PEOPLE / FIND YOUR WAY IN</span>
-        <h2 id="watch-explore-heading">Explore the bottlenecks.</h2>
+        <h2 id="watch-explore-heading">
+          {overview ? "The 100 at a glance." : "Explore the bottlenecks."}
+        </h2>
         <p>
           Choose a field, find a name or follow a company. Each person has one
           primary discovery tag; these counts describe our selection, not the
           industry.
         </p>
       </div>
-      <div className="watch-stack">
-        {watchlistBottlenecks.map((b, i) => (
-          <button
-            key={b.id}
-            type="button"
-            data-bottleneck={b.id}
-            className={`watch-stack-tile ${b.tone}`}
-            aria-pressed={bottleneck === b.id}
-            onClick={() => setBottleneck(bottleneck === b.id ? "" : b.id)}
-          >
-            <span className="watch-tile-number">
-              0{i + 1} / {people.filter((p) => p.bottleneck === b.id).length}{" "}
-              PEOPLE
-            </span>
-            <strong>{b.label}</strong>
-            <span>{b.question}</span>
-          </button>
-        ))}
-      </div>
+      {!overview && (
+        <div className="watch-stack">
+          {watchlistBottlenecks.map((b, i) => (
+            <button
+              key={b.id}
+              type="button"
+              data-bottleneck={b.id}
+              className={`watch-stack-tile ${b.tone}`}
+              aria-pressed={bottleneck === b.id}
+              onClick={() => setBottleneck(bottleneck === b.id ? "" : b.id)}
+            >
+              <span className="watch-tile-number">
+                0{i + 1} / {people.filter((p) => p.bottleneck === b.id).length}{" "}
+                PEOPLE
+              </span>
+              <strong>{b.label}</strong>
+              <span>{b.question}</span>
+            </button>
+          ))}
+        </div>
+      )}
       <div className="watch-controls">
         <label htmlFor="watch-search">
           Find a person, company or project
@@ -127,21 +134,50 @@ export function WatchlistExplorer({
         >
           <table>
             <caption>
-              The full watchlist. Jump to any person’s evidence and 2027 test.
+              {overview
+                ? "Names link to education, career history and the 2027 outlook below."
+                : "The full watchlist. Jump to any person’s evidence and 2027 test."}
             </caption>
             <thead>
               <tr>
-                <th scope="col">Person</th>
-                <th scope="col">Organization / record</th>
-                <th scope="col">What to watch</th>
+                {overview && <th scope="col">#</th>}
+                <th scope="col">{overview ? "Name" : "Person"}</th>
+                <th scope="col">
+                  {overview ? "Role and organization" : "Organization / record"}
+                </th>
+                <th scope="col">{overview ? "Section" : "What to watch"}</th>
               </tr>
             </thead>
             <tbody>
               {found.map((p) => (
                 <tr key={p.id} data-watch-id={p.id}>
+                  {overview && <td>{p.number}</td>}
                   <th scope="row">
-                    <small>{String(p.number).padStart(2, "0")}</small>
-                    <a href={`#${p.id}`}>{p.name} ↗</a>
+                    {!overview && (
+                      <small>{String(p.number).padStart(2, "0")}</small>
+                    )}
+                    <a
+                      className={overview ? "watch-index-person" : undefined}
+                      href={`#${p.id}`}
+                    >
+                      {overview &&
+                        portraits.find(
+                          (portrait) => portrait.number === p.number,
+                        ) && (
+                          <img
+                            src={
+                              portraits.find(
+                                (portrait) => portrait.number === p.number,
+                              )!.src
+                            }
+                            width={36}
+                            height={36}
+                            loading="lazy"
+                            alt=""
+                          />
+                        )}
+                      <span>{p.name} ↗</span>
+                    </a>
                     <div className="watch-role-labels">
                       {watchlistRoleLabels(p).map((label) => (
                         <span key={label}>{label}</span>
@@ -152,7 +188,11 @@ export function WatchlistExplorer({
                     {p.organization}
                     <span>{p.role}</span>
                   </td>
-                  <td>{p.hook}</td>
+                  <td>
+                    {overview
+                      ? watchlistChapters.find((c) => c.id === p.chapter)?.label
+                      : p.hook}
+                  </td>
                 </tr>
               ))}
             </tbody>

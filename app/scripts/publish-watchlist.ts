@@ -1,7 +1,10 @@
 import { getPayload } from "payload";
 import config from "../src/payload.config";
 import { aiWatchlist } from "../src/lib/ai-watchlist";
-import { watchlistReviewHash } from "../src/lib/watchlist-publication";
+import {
+  watchlistReviewHash,
+  previousWatchlistReviewHash,
+} from "../src/lib/watchlist-publication";
 import { validatePublishedResearch } from "../src/lib/published-research";
 import { mkdir, writeFile } from "node:fs/promises";
 
@@ -55,12 +58,17 @@ try {
     await payload.find({ collection: "sources", pagination: false, depth: 0 })
   ).docs;
   const old = stories.find((s) => s.path === aiWatchlist.path);
-  if (
+  const oldHash = (
+    old?.publishedResearch as { reviewHash?: string } | undefined
+  )?.reviewHash;
+  const replacement = Boolean(
     old &&
-    (!old.publishedResearch ||
-      (old.publishedResearch as { reviewHash: string }).reviewHash !==
-        watchlistReviewHash)
-  )
+    oldHash === previousWatchlistReviewHash &&
+    process.argv.includes("--replace-reviewed"),
+  );
+  if (replacement)
+    validatePublishedResearch(old!.publishedResearch, old!.path, old!.kind);
+  if (old && oldHash !== watchlistReviewHash && !replacement)
     throw Error("Existing article requires separate review");
   console.log(
     JSON.stringify({
@@ -71,10 +79,13 @@ try {
       existingPublished: stories.filter((s) => s._status === "published")
         .length,
       alreadyPublished: Boolean(old),
+      replacement,
+      previousReviewHash: oldHash,
+      preservePublishedAt: old?.publishedAt,
       sourceRecords: Object.keys(aiWatchlist.sources).length,
     }),
   );
-  if (process.argv.includes("--apply") && !old) {
+  if (process.argv.includes("--apply") && (!old || replacement)) {
     await mkdir("../private/growth/ai-people-2027", { recursive: true });
     await writeFile(
       `../private/growth/ai-people-2027/cms-before-${host}-${Date.now()}.json`,
@@ -104,30 +115,39 @@ try {
       ids.push(saved.id);
     }
     const now = new Date().toISOString();
-    const saved = await payload.create({
-      collection: "stories",
-      user,
-      overrideAccess: false,
-      data: {
-        title: aiWatchlist.title,
-        path: aiWatchlist.path,
-        kind: "article",
-        category: "Leaders",
-        dek: aiWatchlist.dek,
-        shortAnswer: aiWatchlist.dek,
-        author: author.id,
-        publishedAt: now,
-        modifiedAt: now,
-        sources: [...new Set(ids)],
-        seo: {
-          ...aiWatchlist.seo,
-          canonical: aiWatchlist.path,
-          noindex: false,
-        },
-        publishedResearch: research,
-        _status: "published",
+    const data = {
+      title: aiWatchlist.title,
+      path: aiWatchlist.path,
+      kind: "article" as const,
+      category: "Leaders",
+      dek: aiWatchlist.dek,
+      shortAnswer: aiWatchlist.dek,
+      author: author.id,
+      publishedAt: old?.publishedAt ?? now,
+      modifiedAt: now,
+      sources: [...new Set(ids)],
+      seo: {
+        ...aiWatchlist.seo,
+        canonical: aiWatchlist.path,
+        noindex: false,
       },
-    });
+      publishedResearch: research,
+      _status: "published" as const,
+    };
+    const saved = old
+      ? await payload.update({
+          collection: "stories",
+          id: old.id,
+          user,
+          overrideAccess: false,
+          data,
+        })
+      : await payload.create({
+          collection: "stories",
+          user,
+          overrideAccess: false,
+          data,
+        });
     console.log(
       JSON.stringify({
         published: saved.path,

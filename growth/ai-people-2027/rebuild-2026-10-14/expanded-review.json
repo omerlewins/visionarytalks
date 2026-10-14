@@ -1,0 +1,2592 @@
+{
+  "checked": "2026-10-14",
+  "status": "awaiting-expanded-claim-review",
+  "release": "Preview only",
+  "retrievalIsVerification": false,
+  "correctionCount": 83,
+  "people": [
+    {
+      "number": 1,
+      "name": "Alexander Wei",
+      "stableId": "alexander-wei",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "outlook",
+        "read"
+      ],
+      "words": 193,
+      "contentHash": "be9ff2e0a31ffcbb284bee8a70305b720815a602f23756d95bdb3c5934ee7bde",
+      "sources": [
+        {
+          "title": "alexwei.org",
+          "url": "https://www.alexwei.org/"
+        },
+        {
+          "title": "The Decoder",
+          "url": "https://the-decoder.com/openai-claims-a-breakthrough-in-llm-reasoning-on-complex-math-problems/"
+        },
+        {
+          "title": "Meta Research Fellows",
+          "url": "https://research.facebook.com/fellows/wei-alexander/"
+        },
+        {
+          "title": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/openai-noam-brown-ai-agents-agi/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 2,
+      "name": "Jerry Tworek",
+      "stableId": "jerry-tworek",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "read",
+        "career"
+      ],
+      "words": 197,
+      "contentHash": "9100e0442bb172ef73d18aaa59f8eace2051753f6f8a34ef89f44d3d1bffe40a",
+      "sources": [
+        {
+          "title": "Business Today",
+          "url": "https://www.businesstoday.in/amp/technology/news/story/openai-reasoning-chief-jerry-tworek-quits-after-7-years-heres-why-509827-2026-01-07"
+        },
+        {
+          "title": "The Decoder: launch",
+          "url": "https://the-decoder.com/ex-openai-researcher-jerry-tworek-launches-core-automation-to-build-the-most-automated-ai-lab-in-the-world/"
+        },
+        {
+          "title": "The Decoder: valuation",
+          "url": "https://the-decoder.com/ai-money-keeps-flowing-as-deepseek-plans-record-raise-and-core-automation-quadruples-valuation-in-weeks/"
+        },
+        {
+          "title": "openai.com",
+          "url": "https://openai.com/index/learning-to-reason-with-llms/"
+        },
+        {
+          "title": "openai.com",
+          "url": "https://openai.com/openai-o1-contributions/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 3,
+      "name": "Jason Wei",
+      "stableId": "jason-wei",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "hook",
+        "career",
+        "outlook",
+        "read"
+      ],
+      "words": 165,
+      "contentHash": "d0f48fe6d2887b841b7f9b226a44291463be06a4dba202df1c9301bc857ed859",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2025/07/16/meta-reportedly-scores-two-more-high-profile-openai-researchers/"
+        },
+        {
+          "title": "36Kr",
+          "url": "https://eu.36kr.com/en/p/3938796537183367"
+        },
+        {
+          "title": "jasonwei.net",
+          "url": "https://www.jasonwei.net/"
+        },
+        {
+          "title": "jasonwei.net",
+          "url": "https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf"
+        },
+        {
+          "title": "home.dartmouth.edu",
+          "url": "https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 4,
+      "name": "Hongyu Ren",
+      "stableId": "hongyu-ren",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 202,
+      "contentHash": "71617773337884b776f44fdb358ccb475fbb22035e06b81786b69c801de0bc5d",
+      "sources": [
+        {
+          "title": "Fortune",
+          "url": "https://fortune.com/2025/06/28/meta-four-openai-researchers-superintelligence-team-ai-talent-competition"
+        },
+        {
+          "title": "36Kr",
+          "url": "https://eu.36kr.com/en/p/3938796537183367"
+        },
+        {
+          "title": "hyren.me",
+          "url": "https://hyren.me/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 5,
+      "name": "Sholto Douglas",
+      "stableId": "sholto-douglas",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 170,
+      "contentHash": "9d2aa5a6f17074acc4990e5c35745e48c11bc51d2d3cd15b8b0e10719b7be671",
+      "sources": [
+        {
+          "title": "Dwarkesh Podcast",
+          "url": "https://www.dwarkesh.com/p/sholto-trenton-2"
+        },
+        {
+          "title": "X post",
+          "url": "https://x.com/_sholtodouglas/status/1895610467818901609"
+        },
+        {
+          "title": "sydney.edu.au",
+          "url": "https://www.sydney.edu.au/engineering/news-and-events/news/2019/08/01/one-student-s-vision-to-build-an-automated-future.html"
+        },
+        {
+          "title": "dfat.gov.au",
+          "url": "https://www.dfat.gov.au/people-to-people/new-colombo-plan/news/Pages/scholar-returns-from-china-determined-to-help-build-australias-artificial-intelligence-ecosystem"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 6,
+      "name": "Joshua (Josh) Batson",
+      "stableId": "joshua-josh-batson",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "hook",
+        "career",
+        "outlook",
+        "read"
+      ],
+      "words": 181,
+      "contentHash": "0d4ba90cb6349552333d157e51d16bd74388d580310e79bd728df9403dfd03d8",
+      "sources": [
+        {
+          "title": "Math Genealogy Project",
+          "url": "https://genealogy.math.ndsu.nodak.edu/id.php?id=189873"
+        },
+        {
+          "title": "Gates Cambridge",
+          "url": "https://gatescambridge.org/biography/6120"
+        },
+        {
+          "title": "Transformer Circuits",
+          "url": "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+        },
+        {
+          "title": "VentureBeat",
+          "url": "https://venturebeat.com/ai/anthropic-scientists-expose-how-ai-actually-thinks-and-discover-it-secretly-plans-ahead-and-sometimes-lies"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 7,
+      "name": "Julian Schrittwieser",
+      "stableId": "julian-schrittwieser",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 192,
+      "contentHash": "3567a2f81d04c7ec4501b5ae838229f0ce682b16750bf3138cfcfd6070c336b9",
+      "sources": [
+        {
+          "title": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/innovator/julian-schrittwieser/"
+        },
+        {
+          "title": "AIbase",
+          "url": "https://news.aibase.com/zh/news/12823"
+        },
+        {
+          "title": "julian.ac",
+          "url": "https://www.julian.ac/index.html"
+        },
+        {
+          "title": "36Kr",
+          "url": "https://eu.36kr.com/en/p/3528095596566912"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 8,
+      "name": "Neel Nanda",
+      "stableId": "neel-nanda",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 194,
+      "contentHash": "7574362ad22a570607fc4cd1fdd2c2156cd3e176f2ce838ded6de7c355765acd",
+      "sources": [
+        {
+          "title": "neelnanda.io",
+          "url": "https://www.neelnanda.io/about"
+        },
+        {
+          "title": "MATS",
+          "url": "https://www.matsprogram.org/mentor/neel"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 9,
+      "name": "Jack Parker-Holder",
+      "stableId": "jack-parker-holder",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 198,
+      "contentHash": "a00f418041a734cf5b02ef39df81e6075c996a5ef7dbcc14e9a102c14b8fda36",
+      "sources": [
+        {
+          "title": "jparkerholder.github.io",
+          "url": "https://jparkerholder.github.io/"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2025/08/05/deepmind-reveals-genie-3-a-world-model-that-could-be-the-key-to-reaching-agi"
+        },
+        {
+          "title": "heise",
+          "url": "https://heise.de/-11304842"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 10,
+      "name": "Lilian Weng",
+      "stableId": "lilian-weng",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 177,
+      "contentHash": "c80fe12c0e408217078a9ec58eee9c98e5da0b3b2221f6ec059f3ffc81eeefde",
+      "sources": [
+        {
+          "title": "American Bazaar",
+          "url": "https://americanbazaaronline.com/2026/07/30/weng-leaves-thinking-machines-to-rejoin-openai-485496/"
+        },
+        {
+          "title": "ifanr",
+          "url": "https://www.ifanr.com/1673220"
+        },
+        {
+          "title": "Runtime Wire",
+          "url": "https://runtimewire.com/zh/article/lilian-weng-returns-openai-recursive-self-improvement"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 11,
+      "name": "Liam Fedus",
+      "stableId": "liam-fedus",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "outlook",
+        "read"
+      ],
+      "words": 205,
+      "contentHash": "57ddd25b7e26cd1f98cf0350ab790f264b79ab5b718228208bcd4d6326e7af8c",
+      "sources": [
+        {
+          "title": "Techleap",
+          "url": "https://finder.techleap.nl/news/note/periodic-labs-eyes-7b-valuation-fivefold-jump-in-six-months"
+        },
+        {
+          "title": "Portal Tela",
+          "url": "https://www.portaltela.com/noticias/ciencia/2026/07/04/ex-pesquisador-da-openai-busca-levantar-us-500-milhoes-para-startup-de-ia/"
+        },
+        {
+          "title": "bloomberg.com",
+          "url": "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 12,
+      "name": "Misha Laskin",
+      "stableId": "misha-laskin",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "outlook",
+        "read"
+      ],
+      "words": 189,
+      "contentHash": "4fe892244af4a8f5dee5bca5dc4884eecc2b0a801c37593c757b125542fe90b0",
+      "sources": [
+        {
+          "title": "mishalaskin.com",
+          "url": "https://www.mishalaskin.com/"
+        },
+        {
+          "title": "CXO Digital Pulse",
+          "url": "https://www.cxodigitalpulse.com/?p=38976"
+        },
+        {
+          "title": "Layer3 Labs",
+          "url": "https://www.layer3labs.io/guides/reflection-ai-explained"
+        },
+        {
+          "title": "reflection.company",
+          "url": "https://reflection.company/newsroom"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 13,
+      "name": "Luo Fuli",
+      "stableId": "luo-fuli",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 168,
+      "contentHash": "712033601db82247e1ae09abb7b81c8d2031bc25b007104b06f10d225697508e",
+      "sources": [
+        {
+          "title": "TechNode",
+          "url": "https://technode.com/2026/09/29/xiaomi-promotes-mimo-team-lead-luo-fuli-to-its-top-job-level/"
+        },
+        {
+          "title": "SCMP",
+          "url": "https://www.scmp.com/tech/big-tech/article/3332502/chinese-ai-prodigy-luo-fuli-joins-xiaomi-industry-competition-talent-heats"
+        },
+        {
+          "title": "Jiemian",
+          "url": "https://www.jiemian.com/article/12362237.html"
+        },
+        {
+          "title": "Caixin Global",
+          "url": "https://www.caixinglobal.com/2026-03-21/xiaomi-unveils-trio-of-large-ai-models-in-87-billion-bet-102425493.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 14,
+      "name": "Yao Shunyu (Vinces Yao)",
+      "stableId": "yao-shunyu-vinces-yao",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 196,
+      "contentHash": "5e59a6bd0a15111c7203dd9c71969297dbdc5775ced90cbb3a0ebbf0a18ccf66",
+      "sources": [
+        {
+          "title": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/tencent-restructures-ai-operations-promotes-093000045.html"
+        },
+        {
+          "title": "Caixin Global",
+          "url": "https://www.caixinglobal.com/2026-01-27/in-depth-tencent-bets-its-ai-future-on-28-year-old-from-openai-102408553.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 15,
+      "name": "Lin Junyang (Justin Lin)",
+      "stableId": "lin-junyang-justin-lin",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 195,
+      "contentHash": "725c6ca89bddb0969f28b8483e0eac6dd6086f31b2e43cf40bc99b6e94b14d29",
+      "sources": [
+        {
+          "title": "The Standard",
+          "url": "https://www.thestandard.com.hk/finance/article/339744/Former-Alibaba-Qwen-AI-model-leader-founds-new-AI-company-with-funding-from-venture-giants"
+        },
+        {
+          "title": "NYU Shanghai RITS",
+          "url": "https://rits.shanghai.nyu.edu/ai/junyang-lin-steps-down-as-qwen-tech-lead-in-abrupt-departure"
+        },
+        {
+          "title": "Caixin Global",
+          "url": "https://www.caixinglobal.com/2026-03-04/alibabas-ai-model-chief-resigns-102419448.html"
+        },
+        {
+          "title": "QbitAI",
+          "url": "https://www.qbitai.com/2026/03/383842.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 16,
+      "name": "Yang Zhilin",
+      "stableId": "yang-zhilin",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "hook",
+        "career",
+        "outlook",
+        "read"
+      ],
+      "words": 171,
+      "contentHash": "79378ad12032a640e2a376cd5ea108aaf80661bf25ba8af10157853185c41dbf",
+      "sources": [
+        {
+          "title": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/moonshot-ai-50-billion-hong-kong-ipo/"
+        },
+        {
+          "title": "KuCoin News",
+          "url": "https://kucoin.com/news/flash/34-year-old-drummer-s-ai-model-kimi-k3-ranks-4th-globally-sparks-market-reaction"
+        },
+        {
+          "title": "ThePrint",
+          "url": "https://theprint.in/world/chinas-moonshot-ai-grabs-attention-at-shanghai-event-how-its-founder-yang-zhilin-aced-the-tech-race/2992096/"
+        },
+        {
+          "title": "lti.cs.cmu.edu",
+          "url": "https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 17,
+      "name": "Chelsea Finn",
+      "stableId": "chelsea-finn",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 190,
+      "contentHash": "1d13ddce154b0cc9922bec84e14a1db5696eb5ba5ef0be84225090dec13cd18e",
+      "sources": [
+        {
+          "title": "Stanford AI Lab",
+          "url": "https://ai.stanford.edu/~cbfinn/"
+        },
+        {
+          "title": "Berkeley EECS thesis",
+          "url": "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-105.html"
+        },
+        {
+          "title": "AI Automation Global",
+          "url": "https://aiautomationglobal.com/blog/physical-intelligence-11b-valuation-general-purpose-robotics-ai-2026"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 18,
+      "name": "Sherry Yang",
+      "stableId": "sherry-yang",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 181,
+      "contentHash": "f7f356297c69158c4dced918af657dcdb47fa45a12f313a9135b641f2ab8d12d",
+      "sources": [
+        {
+          "title": "sherryy.github.io",
+          "url": "https://sherryy.github.io/"
+        },
+        {
+          "title": "alphaXiv",
+          "url": "https://www.alphaxiv.org/@sherry-yang"
+        },
+        {
+          "title": "Kempner Institute",
+          "url": "https://kempnerinstitute.harvard.edu/events/sherry-yang"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 19,
+      "name": "Levent Alpöge",
+      "stableId": "levent-alpoge",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "read",
+        "outlook",
+        "career"
+      ],
+      "words": 208,
+      "contentHash": "a03882b5619a991198319b4c1e0bf0432a5d25ae5c4fadb97c0c27c38885b293",
+      "sources": [
+        {
+          "title": "OpenAI",
+          "url": "https://openai.com/index/navier-stokes-solution/"
+        },
+        {
+          "title": "NYU Shanghai RITS",
+          "url": "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/"
+        },
+        {
+          "title": "Unite.AI",
+          "url": "https://www.unite.ai/?p=463326"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 20,
+      "name": "Sara Hooker",
+      "stableId": "sara-hooker",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "career"
+      ],
+      "words": 198,
+      "contentHash": "91d4a084ba5e1957fa5415acdabbf45d9f07b47eb3f3b99a06850e9906155b49",
+      "sources": [
+        {
+          "title": "The Hardware Lottery (arXiv)",
+          "url": "https://arxiv.org/abs/2009.06489"
+        },
+        {
+          "title": "sarahooker.me",
+          "url": "https://www.sarahooker.me/"
+        },
+        {
+          "title": "sarahooker.me",
+          "url": "https://www.sarahooker.me/blog/slow-learning"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 21,
+      "name": "Joelle Pineau",
+      "stableId": "joelle-pineau",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 212,
+      "contentHash": "d46d20cf628000084d42f8337623788a52c5f942ad0394832db0a00e9fea0a23",
+      "sources": [
+        {
+          "title": "who owns Cohere",
+          "url": "https://visionarytalks.com/who-owns-cohere/"
+        },
+        {
+          "title": "Visionary Talks: Who owns Cohere",
+          "url": "https://visionarytalks.com/who-owns-cohere/"
+        },
+        {
+          "title": "cs.mcgill.ca",
+          "url": "https://www.cs.mcgill.ca/~jpineau/"
+        },
+        {
+          "title": "cs.cmu.edu",
+          "url": "https://www.cs.cmu.edu/afs/.cs.cmu.edu/Web/Posters/RI-Pineau14.pdf"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 22,
+      "name": "Woosuk Kwon",
+      "stableId": "woosuk-kwon",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 207,
+      "contentHash": "8537adff73b4dff334c5a138a695ecaf75f4291af285f851f45cc06c4b3f2319",
+      "sources": [
+        {
+          "title": "alphaXiv profile",
+          "url": "https://www.alphaxiv.org/@woosuk-kwon"
+        },
+        {
+          "title": "SiliconANGLE",
+          "url": "https://siliconangle.com/2026/01/22/inferact-launches-150m-funding-commercialize-vllm/"
+        },
+        {
+          "title": "vLLM on GitHub",
+          "url": "https://github.com/vllm-project/vllm"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 23,
+      "name": "Ying Sheng",
+      "stableId": "ying-sheng",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 200,
+      "contentHash": "8d19fdb2105319712a1485dd19562b7a5c085036e4b208d2eb5639994a63c1db",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes"
+        },
+        {
+          "title": "Pulse 2.0",
+          "url": "https://pulse2.com/radixark-launches-with-100-million-in-seed-funding-to-democratize-frontier-ai-infrastructure/"
+        },
+        {
+          "title": "yespress profile",
+          "url": "https://yespress.io/ying-sheng.md"
+        },
+        {
+          "title": "SGLang on GitHub",
+          "url": "https://github.com/sgl-project/sglang"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 24,
+      "name": "Georgi Gerganov",
+      "stableId": "georgi-gerganov",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 194,
+      "contentHash": "9f2e810a9643f72ff8ec08a986f94f846a5718f465814376eb548d72b9a90acc",
+      "sources": [
+        {
+          "title": "Hugging Face blog",
+          "url": "https://huggingface.co/blog/ggml-joins-hf"
+        },
+        {
+          "title": "llama.cpp on GitHub",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 25,
+      "name": "Tri Dao",
+      "stableId": "tri-dao",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "career",
+        "outlook",
+        "read",
+        "hook"
+      ],
+      "words": 186,
+      "contentHash": "a272df12878eb07cd7a627b480646c5717607ab46e09ae76aba9d904479f82ff",
+      "sources": [
+        {
+          "title": "Princeton CS profile",
+          "url": "https://www.cs.princeton.edu/people/profile/td8762"
+        },
+        {
+          "title": "flash-attention on GitHub",
+          "url": "https://github.com/Dao-AILab/flash-attention"
+        },
+        {
+          "title": "tridao.me",
+          "url": "https://tridao.me/assets/pdf/cv.pdf"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 26,
+      "name": "Daniel Han",
+      "stableId": "daniel-han",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 198,
+      "contentHash": "870943ba61b8b5addc9bb47321e4079c384418b1c5acd5ef04ba61db6e8f28bb",
+      "sources": [
+        {
+          "title": "Y Combinator",
+          "url": "https://www.ycombinator.com/companies/unsloth-ai"
+        },
+        {
+          "title": "Seedtable",
+          "url": "https://seedtable.com/companies/unsloth-ai/funding-rounds/seed-2024-10"
+        },
+        {
+          "title": "TII",
+          "url": "https://tii.ae/node/3272"
+        },
+        {
+          "title": "Unsloth on GitHub",
+          "url": "https://github.com/unslothai/unsloth"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 27,
+      "name": "Omar Khattab",
+      "stableId": "omar-khattab",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 177,
+      "contentHash": "febff109d515c199f1a0cdb27925157746fe4f18ec350a1b70bdf837be1bb46d",
+      "sources": [
+        {
+          "title": "AI Engineer",
+          "url": "https://www.ai.engineer/speakers/omar-khattab"
+        },
+        {
+          "title": "MIT EECS",
+          "url": "https://www.eecs.mit.edu/people/omar-khattab/"
+        },
+        {
+          "title": "CMU Alumni",
+          "url": "https://www.cmu.edu/engage/alumni/get-involved/tartansontherise/2025/khattab.html"
+        },
+        {
+          "title": "DSPy on GitHub",
+          "url": "https://github.com/stanfordnlp/dspy"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 28,
+      "name": "Lysandre Debut",
+      "stableId": "lysandre-debut",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 180,
+      "contentHash": "bf4e801d586f65b825b72a92d420dcb3d589f455adead24ac30c049ef57c0576",
+      "sources": [
+        {
+          "title": "Hugging Face profile",
+          "url": "https://huggingface.co/lysandre"
+        },
+        {
+          "title": "Transformers v5 blog",
+          "url": "https://huggingface.co/blog/transformers-v5"
+        },
+        {
+          "title": "PyTorch Foundation",
+          "url": "https://pytorch.org/?p=1098"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 29,
+      "name": "Erik Bernhardsson",
+      "stableId": "erik-bernhardsson",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "outlook",
+        "read"
+      ],
+      "words": 209,
+      "contentHash": "d5c13f152016d90be161ed48b1bf4b21b1eb076d3f9fc0f31713db705ee5edcb",
+      "sources": [
+        {
+          "title": "erikbern.com",
+          "url": "https://erikbern.com/about"
+        },
+        {
+          "title": "Dealroom",
+          "url": "https://dealroom.co/news/129203-modal-raises-355m-series-c-at-4-65b-valuation/"
+        },
+        {
+          "title": "Crypto Briefing",
+          "url": "https://cryptobriefing.com/modal-labs-750m-funding-16b-valuation/"
+        },
+        {
+          "title": "modal.com",
+          "url": "https://modal.com/blog/modal-series-c"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 30,
+      "name": "Lin Qiao",
+      "stableId": "lin-qiao",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "outlook"
+      ],
+      "words": 200,
+      "contentHash": "f9192b8849dce57cf8d1a0f5a7b12eff22d84d689618a78ae5b44bcb743614b1",
+      "sources": [
+        {
+          "title": "Ontario Teachers' Pension Plan",
+          "url": "https://otpp.com/en-ca/about-us/news-and-insights/2026/fireworks-raises-a-1-5-billion-series-d-to-lead-the-specialized-intelligence-revolution/"
+        },
+        {
+          "title": "TWIML",
+          "url": "https://twimlai.com/network/lin-qiao"
+        },
+        {
+          "title": "twimlai.com",
+          "url": "https://twimlai.com/network/lin-qiao/"
+        },
+        {
+          "title": "fireworks.ai",
+          "url": "https://fireworks.ai/blog/series-d-announcement"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 31,
+      "name": "Tuhin Srivastava",
+      "stableId": "tuhin-srivastava",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "hook",
+        "career",
+        "outlook",
+        "read"
+      ],
+      "words": 175,
+      "contentHash": "8d477d1763def65d430f0cfc338880f1fa26a421213ffff83c80b3f7f0de10da",
+      "sources": [
+        {
+          "title": "Noqta",
+          "url": "https://noqta.tn/en/news/baseten-1-5-billion-inference-infrastructure-funding-2026"
+        },
+        {
+          "title": "HumanX",
+          "url": "https://humanx.co/speaker/tuhin-srivastava"
+        },
+        {
+          "title": "baseten.co",
+          "url": "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/"
+        },
+        {
+          "title": "baseten.co",
+          "url": "https://www.baseten.co/blog/announcing-our-series-f/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 32,
+      "name": "Gorkem Yurtseven",
+      "stableId": "gorkem-yurtseven",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 180,
+      "contentHash": "5d736c6154b38b7c278c272d895b55ad32843c9c332959d957410471e39e5f7b",
+      "sources": [
+        {
+          "title": "Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/fal-nabs-140m-fresh-funding-222133234.html"
+        },
+        {
+          "title": "Forbes Turkey",
+          "url": "https://www.forbes.com.tr/yapay-zeka/forbes-ai-50-gorkem-yurtseven-ve-burkay-gur-un-kurdugu-fal-da-listede"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 33,
+      "name": "Jeffrey Morgan",
+      "stableId": "jeffrey-morgan",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 186,
+      "contentHash": "e0542b705a74e9ec2b3c8c91dfb10cd53c2f6320e9cb525f4475c18b6d6b49c8",
+      "sources": [
+        {
+          "title": "Pulse 2.0",
+          "url": "https://pulse2.com/ollama-raises-65-million-in-series-b-funding-to-expand-its-open-source-ai-platform/"
+        },
+        {
+          "title": "TechCrunch (2015)",
+          "url": "https://techcrunch.com/2015/03/12/kitematic-founders-barely-two-years-out-of-college-sell-to-docker"
+        },
+        {
+          "title": "Ollama on GitHub",
+          "url": "https://github.com/ollama/ollama"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 34,
+      "name": "Simon Hørup Eskildsen",
+      "stableId": "simon-h-rup-eskildsen",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 195,
+      "contentHash": "2f9ab9c411e1a5e06cd271bdfeed25964c9d34ac4eed439f2e68057cc09f01be",
+      "sources": [
+        {
+          "title": "StartupHub",
+          "url": "https://www.startuphub.ai/news/turbopuffer-ceo-on-ai-databases-and-startup-growth"
+        },
+        {
+          "title": "AI Council",
+          "url": "https://www.aicouncil.com/speakers/simon-h-rup-eskildsen"
+        },
+        {
+          "title": "Let's Data Science",
+          "url": "https://letsdatascience.com/news/turbopuffer-secures-funding-to-scale-search-6939db58"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 35,
+      "name": "Ankur Goyal",
+      "stableId": "ankur-goyal",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 192,
+      "contentHash": "2d11bd7ee5e900cef22ee44f616bb69dd8db2030338746c552fd00e2fd8caac4",
+      "sources": [
+        {
+          "title": "Axios",
+          "url": "https://www.axios.com/pro/enterprise-software-deals/2026/02/17/ai-observability-braintrust-80-million-800-million"
+        },
+        {
+          "title": "yespress profile",
+          "url": "https://yespress.io/ankur-goyal.md"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 36,
+      "name": "Anastasios Angelopoulos",
+      "stableId": "anastasios-angelopoulos",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 209,
+      "contentHash": "7e96935f07c523cc81537ddee7e929108e6d6933b7ee20444116562b45d9197e",
+      "sources": [
+        {
+          "title": "Endeavor Greece",
+          "url": "https://www.endeavor.org.gr/entrepreneurs/anastasios-angelopoulos"
+        },
+        {
+          "title": "Bridge MENA",
+          "url": "https://bridgemena.com/news/lmarena-reaches-1-7b-valuation-following-150m-series-a-round"
+        },
+        {
+          "title": "Berkeley homepage",
+          "url": "https://people.eecs.berkeley.edu/~angelopoulos/"
+        },
+        {
+          "title": "angelopoulos.ai",
+          "url": "https://angelopoulos.ai/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 37,
+      "name": "David Soria Parra",
+      "stableId": "david-soria-parra",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 197,
+      "contentHash": "efe68404adb44483bec076923c92ce57ef7d40865a4115f8aaf062aea775590d",
+      "sources": [
+        {
+          "title": "AI Engineer",
+          "url": "https://www.ai.engineer/speakers/david-soria-parra"
+        },
+        {
+          "title": "MCP spec on GitHub",
+          "url": "https://github.com/modelcontextprotocol/modelcontextprotocol"
+        },
+        {
+          "title": "Agentic AI Foundation",
+          "url": "https://aaif.io/?p=555"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 38,
+      "name": "Gavin Uberti",
+      "stableId": "gavin-uberti",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "hook",
+        "career",
+        "outlook",
+        "read"
+      ],
+      "words": 201,
+      "contentHash": "b1b3cd910de8b1645287177739cd58ace0a70481baf3d3d7ca6c83ac5f85bbd0",
+      "sources": [
+        {
+          "title": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/innovator/gavin-uberti/"
+        },
+        {
+          "title": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/etched-draws-40b-50b-bids-weeks-after-21b-september-round"
+        },
+        {
+          "title": "etched.com",
+          "url": "https://www.etched.com/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 39,
+      "name": "Reiner Pope",
+      "stableId": "reiner-pope",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 207,
+      "contentHash": "49c6f4c96d0c75a628536a3bfeb9349eeea4e56948a6d69a2d18c37da3265cf6",
+      "sources": [
+        {
+          "title": "yespress profile",
+          "url": "https://yespress.io/reiner-pope.md"
+        },
+        {
+          "title": "Traded",
+          "url": "https://traded.co/deals/national/all/sale/matx-secures-500-million-funding-round-led-by-jane-street-and-situational-awareness/"
+        },
+        {
+          "title": "MatX",
+          "url": "https://matx.com/about"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 40,
+      "name": "Sharon Zhou",
+      "stableId": "sharon-zhou",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 182,
+      "contentHash": "2df3dd9059c1e54f01e34770ce9d92ae1a5f024da766d1d1dc454aa8aaa1adfa",
+      "sources": [
+        {
+          "title": "HumanX",
+          "url": "https://humanx.co/speakers/sharon-zhou"
+        },
+        {
+          "title": "Le Monde Informatique",
+          "url": "https://www.lemondeinformatique.fr/actualites/lireamp-telex-amd-renforce-son-pole-ia-avec-l-equipe-lamini-outset-leve-17-m$-pour-son-ia-intervieweuse-rappel-d-1-1-million-de-batteries-externes-anker-97133.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 41,
+      "name": "Jerry Liu",
+      "stableId": "jerry-liu",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 195,
+      "contentHash": "466bcac80ed80a892bb5c58f3fbb0044a57cf497eeec0140bc9c76f4d3c45572",
+      "sources": [
+        {
+          "title": "yespress profile",
+          "url": "https://yespress.io/jerry-liu.md"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2025/03/04/llamaindex-launches-a-cloud-service-for-building-unstructed-data-agents"
+        },
+        {
+          "title": "KPMG",
+          "url": "https://kpmg.com/us/en/media/news/llamaIndex-announces-investments-from-databricks-and-kpmg.html"
+        },
+        {
+          "title": "LlamaIndex on GitHub",
+          "url": "https://github.com/run-llama/llama_index"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 42,
+      "name": "Anton Osika",
+      "stableId": "anton-osika",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 187,
+      "contentHash": "53fb27485ee964176781ab1feedb502c88dc2bbd32d89f446263df6b09a2d32d",
+      "sources": [
+        {
+          "title": "VKTR",
+          "url": "https://www.vktr.com/ai-platforms/lovable-raises-400-million-at-133-billion-valuation/"
+        },
+        {
+          "title": "Forbes",
+          "url": "https://www.forbes.com/sites/zoyahasan/2026/01/09/they-made-the-under-30-europe-list-now-theyre-billionaires-who-should-be-next/"
+        },
+        {
+          "title": "KTH",
+          "url": "https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 43,
+      "name": "Maor Shlomo",
+      "stableId": "maor-shlomo",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 185,
+      "contentHash": "0d0a6665ee8c1c90572819d13561457cfcd4c8a68d3d2d2153553559c1977d00",
+      "sources": [
+        {
+          "title": "Who Owns Base44?",
+          "url": "https://visionarytalks.com/who-owns-base44/"
+        },
+        {
+          "title": "Wix press release",
+          "url": "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif"
+        },
+        {
+          "title": "GetLatka",
+          "url": "https://getlatka.com/blog/base44-revenue-acquired-wix"
+        },
+        {
+          "title": "Calcalist",
+          "url": "https://www.calcalistech.com/ctechnews/article/s1iflnlelx"
+        },
+        {
+          "title": "Visionary Talks",
+          "url": "https://visionarytalks.com/who-owns-base44/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 44,
+      "name": "Mati Staniszewski",
+      "stableId": "mati-staniszewski",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 193,
+      "contentHash": "952f02ad4ee7fb45c44b002be6be7b4dba279fd5ff5597efd201798b660817a7",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-longoria-as-new-investors/"
+        },
+        {
+          "title": "Forbes",
+          "url": "https://www.forbes.com/sites/zoyahasan/2026/01/09/they-made-the-under-30-europe-list-now-theyre-billionaires-who-should-be-next/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 45,
+      "name": "Brendan Foody",
+      "stableId": "brendan-foody",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "outlook",
+        "read"
+      ],
+      "words": 218,
+      "contentHash": "cd90c86cdfa77f4e25d21b2e1658e53b0635a336a94aef2595748ffa51836597",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/?p=3044695"
+        },
+        {
+          "title": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/mercor-in-talks-for-20b-round-double-october-valuation"
+        },
+        {
+          "title": "KTVU",
+          "url": "https://www.ktvu.com/news/from-bay-area-high-school-friends-worlds-youngest-self-made-billionaires-company-valued-10b"
+        },
+        {
+          "title": "Forbes",
+          "url": "https://www.forbes.com/profile/brendan-foody/"
+        },
+        {
+          "title": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/"
+        },
+        {
+          "title": "techcrunch.com",
+          "url": "https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 46,
+      "name": "Jesse Zhang",
+      "stableId": "jesse-zhang",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 191,
+      "contentHash": "c237f907376b21703be3d0b095fcf072cc0f410e53107e1fd4f790f3ddbb61f7",
+      "sources": [
+        {
+          "title": "Forbes",
+          "url": "https://www.forbes.com/sites/alexyork/2026/02/06/ai-agent-startup-decagon-triples-valuation-to-45-billion/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 47,
+      "name": "Matan Grinberg",
+      "stableId": "matan-grinberg",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 205,
+      "contentHash": "0cbbba7e70dac65de7fb8f32e9419a3a1177f751ed9b1c67bd46b6c1fd356b08",
+      "sources": [
+        {
+          "title": "Factory",
+          "url": "https://factory.com/news/series-c"
+        },
+        {
+          "title": "TechFundingNews",
+          "url": "https://techfundingnews.com/factory-jumps-to-5b-in-5-months-with-200m-for-its-ai-droids/"
+        },
+        {
+          "title": "YesPress",
+          "url": "https://yespress.io/matan-grinberg"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 48,
+      "name": "Mukund Jha",
+      "stableId": "mukund-jha",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 196,
+      "contentHash": "76324541989de6483badfaa75bd85bba30254f7ebf32eebb7bbeceea5efe74c5",
+      "sources": [
+        {
+          "title": "TechCrunch (Jan 2026)",
+          "url": "https://techcrunch.com/2026/01/20/indian-vibe-coding-startup-emergent-raises-70m-at-300m-valuation-from-softbank-khosla-ventures/"
+        },
+        {
+          "title": "TechCrunch (Feb 2026)",
+          "url": "https://techcrunch.com/2026/02/17/emergent-hits-100m-arr-eight-months-after-launch-rolls-out-mobile-app/"
+        },
+        {
+          "title": "Silicon Valley Investclub",
+          "url": "https://siliconvalleyinvestclub.com/2026/08/11/interview-with-mukund-jha-founder-ceo-of-emergent-130m-series-c-at-1-5b-valuation/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 49,
+      "name": "Cristóbal Valenzuela",
+      "stableId": "cristobal-valenzuela",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 205,
+      "contentHash": "fa23b5558a52331a52679e6dcb84d0b12226b1ff3e5e68911595599eb0b9ba49",
+      "sources": [
+        {
+          "title": "TechFundingNews",
+          "url": "https://techfundingnews.com/runway-315m-series-e-5-3b-valuation-world-models/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 50,
+      "name": "Kareem Amin",
+      "stableId": "kareem-amin",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 212,
+      "contentHash": "497c5d043bd04c801f300367eac385e4d9809fe2d502b74205511ac431550dc5",
+      "sources": [
+        {
+          "title": "Clay blog",
+          "url": "https://www.clay.com/blog/tender-offer-2026"
+        },
+        {
+          "title": "The AI Insider",
+          "url": "https://theaiinsider.tech/2026/09/10/clay-raises-115m-to-be-the-ai-growth-engine-for-every-company/"
+        },
+        {
+          "title": "YesPress",
+          "url": "https://yespress.io/kareem-amin"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 51,
+      "name": "Jan Oberhauser",
+      "stableId": "jan-oberhauser",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 186,
+      "contentHash": "e29dd22e46a255899bac37a94082d8ba9014b4f385538115f553e18ea5056304",
+      "sources": [
+        {
+          "title": "n8n press page",
+          "url": "https://n8n.io/press/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 52,
+      "name": "Robin Rombach",
+      "stableId": "robin-rombach",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 187,
+      "contentHash": "c6bfafd6b1175ca32998d0d1dbde02fb14a2f7360a0bf0f658bad75f51185637",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation"
+        },
+        {
+          "title": "Stanford EE",
+          "url": "https://ee.stanford.edu/event/10-16-2024/latent-diffusion-flux-and-beyond-scaling-efficient-content-creation"
+        },
+        {
+          "title": "IHK Freiburg",
+          "url": "https://www.ihk.de/freiburg/presse/standortkampagne/standortbotschafter-robin-rombach-6984598"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 53,
+      "name": "Alex Mashrabov",
+      "stableId": "alex-mashrabov",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 195,
+      "contentHash": "69bb715712768a7761fd976e6978c22f8a9cb4051da9c704ca8878496390cf29",
+      "sources": [
+        {
+          "title": "Sacra",
+          "url": "https://sacra.com/research/higgsfield-at-230m-arr/"
+        },
+        {
+          "title": "YesPress",
+          "url": "https://yespress.io/alex-mashrabov"
+        },
+        {
+          "title": "SaaStr Annual 2026",
+          "url": "https://www.saastrannual2026.com/session/6-million-generations-a-day-how-higgsfield-scaled-from-0-to-300m-arr-by-reimagining-the-video-creation-with-higgsfield-s-ceo-and-co-founder"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 54,
+      "name": "Grant Lee",
+      "stableId": "grant-lee",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "career",
+        "outlook",
+        "read"
+      ],
+      "words": 183,
+      "contentHash": "63713e293d653cac54e3d38e60e605d716b3278da8a37382748c197d563e7764",
+      "sources": [
+        {
+          "title": "Gamma",
+          "url": "https://gamma.app/insights/how-we-built-a-usd100m-business-differently"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2025/11/10/ai-powerpoint-killer-gamma-hits-2-1b-valuation-100m-arr-founder-says/"
+        },
+        {
+          "title": "Lenny's Newsletter",
+          "url": "https://www.lennysnewsletter.com/p/how-50-people-built-a-profitable-ai-unicorn"
+        },
+        {
+          "title": "stvp.stanford.edu",
+          "url": "https://stvp.stanford.edu/people/grant-lee"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 55,
+      "name": "James Cadwallader",
+      "stableId": "james-cadwallader",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 192,
+      "contentHash": "d668931e57c45fbf4250ad84fb87e0e524275555617e8e17ada1896ad669f9a2",
+      "sources": [
+        {
+          "title": "Profound newsroom",
+          "url": "https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams"
+        },
+        {
+          "title": "FinSMEs",
+          "url": "https://www.finsmes.com/2026/09/profound-raises-180m-in-series-d-funding-at-1-8b-valuation.html"
+        },
+        {
+          "title": "Silicon Valley Investclub",
+          "url": "https://siliconvalleyinvestclub.com/companies/profound/team/james-cadwallader/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 56,
+      "name": "Noah Shinn",
+      "stableId": "noah-shinn",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 209,
+      "contentHash": "ec1878c9d1620252d6ba85fc93507de994a6f991e31e5d530d9a498827811aa4",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/"
+        },
+        {
+          "title": "Layer3 Labs",
+          "url": "https://www.layer3labs.io/guides/who-is-noah-shinn"
+        },
+        {
+          "title": "KuCoin News",
+          "url": "https://www.kucoin.com/news/flash/23-year-old-noah-shinn-instinct-founder-previously-worked-on-reflexion-and-bench"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 57,
+      "name": "Lourdes Agapito",
+      "stableId": "lourdes-agapito",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 201,
+      "contentHash": "b2b33d345a4b423473ed6f90fd2ee85a572aeb4b38985ba13dfd8239ada6f22b",
+      "sources": [
+        {
+          "title": "FinSMEs",
+          "url": "https://www.finsmes.com/2026/01/synthesia-raises-200m-in-series-e-funding-at-4-billion-post-money-valuation-2.html"
+        },
+        {
+          "title": "UCL impact case study",
+          "url": "https://www.ucl.ac.uk/impact/case-studies/2022/apr/ucl-computer-scientists-create-photorealistic-talking-digital-actors"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 58,
+      "name": "Demi Guo",
+      "stableId": "demi-guo",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 184,
+      "contentHash": "faa3cfa5b09ba8dc71dada602b37f5ba8f07e600394b8f8f5b780ae327f71a1d",
+      "sources": [
+        {
+          "title": "TBPN Digest",
+          "url": "https://www.tbpndigest.com/story/2026-02-26/pikas-demi-guo-launches-ai-selves-a-personalized-always-on-avatar-that-learns-and-monetizes-your-expertise"
+        },
+        {
+          "title": "Silicon Valley Investclub",
+          "url": "https://siliconvalleyinvestclub.com/companies/pika/team/demi-guo/"
+        },
+        {
+          "title": "X",
+          "url": "https://x.com/demi_guo_/status/1729546758718656530"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 59,
+      "name": "Mikey Shulman",
+      "stableId": "mikey-shulman",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 203,
+      "contentHash": "083cbc85dadea41d0314c43895cb80f1e7a104df4e2ec9d3d1583302bbbf63bc",
+      "sources": [
+        {
+          "title": "Music Business Worldwide",
+          "url": "https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/"
+        },
+        {
+          "title": "Contrary Research",
+          "url": "https://research.contrary.com/company/suno"
+        },
+        {
+          "title": "Billboard",
+          "url": "https://www.billboard.com/pro/suno-2-million-paid-subscribers-300m-arr-revenue/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 60,
+      "name": "Bar Winkler",
+      "stableId": "bar-winkler",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 184,
+      "contentHash": "9b603208c54fefdc854b9ae46857b4377a256871be21c4737c16a443c668e1e8",
+      "sources": [
+        {
+          "title": "Globes (Sep 2026)",
+          "url": "https://en.globes.co.il/en/article-israeli-ai-agents-co-wonderful-raises-550m-at-55b-valuation-1001554223"
+        },
+        {
+          "title": "Globes (Mar 2026)",
+          "url": "https://en.globes.co.il/en/article-israeli-ai-agents-co-wonderful-raises-150m-at-2b-valuation-1001537395"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 61,
+      "name": "Chris Pedregal",
+      "stableId": "chris-pedregal",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 180,
+      "contentHash": "a6d60ed5b37cb2a7a62883cad5f74fa3d229538e8a6b6d65af88e3ec46c66b60",
+      "sources": [
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2026/03/25/granola-raises-125m-hits-1-5b-valuation-as-it-expands-from-meeting-notetaker-to-enterprise-ai-app/"
+        },
+        {
+          "title": "Tech.eu",
+          "url": "https://tech.eu/2026/03/25/granola-raises-125m-at-1-5bn-valuation/"
+        },
+        {
+          "title": "BusinessCloud",
+          "url": "https://businesscloud.co.uk/?p=192825"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 62,
+      "name": "Zachary Lipton",
+      "stableId": "zachary-lipton",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 183,
+      "contentHash": "b2be00e0b934a81d2af32a006519f8a6744c9dca54c8465e5f671cf8bbb37b70",
+      "sources": [
+        {
+          "title": "Abridge blog",
+          "url": "https://abridge.com/blog/zach-lipton-modern-healthcare-40-under-40"
+        },
+        {
+          "title": "MM+M",
+          "url": "https://www.mmm-online.com/home/channel/people-moves/abridge-names-amazon-ai-alum-zachary-lipton-as-chief-scientific-officer/"
+        },
+        {
+          "title": "Revenue Memo",
+          "url": "https://www.revenuememo.com/p/abridge-funding"
+        },
+        {
+          "title": "cmu.edu",
+          "url": "https://www.cmu.edu/news/experts/zachary.lipton"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 63,
+      "name": "Nikhil Buduma",
+      "stableId": "nikhil-buduma",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 187,
+      "contentHash": "93911cf2c421b3770f22a4ff0a160ee98010c99bf6af6b780191992a0f0bf716",
+      "sources": [
+        {
+          "title": "Becker's Hospital Review",
+          "url": "https://www.beckershospitalreview.com/healthcare-information-technology/ai/ambience-healthcare-reaches-1-25b-valuation/"
+        },
+        {
+          "title": "a16z Show",
+          "url": "https://stt.ai/podcasts/the-a16z-show/deploying-ai-in-healthcare"
+        },
+        {
+          "title": "DistilINFO",
+          "url": "https://distilinfo.com/2026/02/25/ambience-healthcare-wins-2026-klas-chime-trailblazer-award/"
+        },
+        {
+          "title": "Profile",
+          "url": "https://yespress.io/nikhil-buduma.md"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 64,
+      "name": "Zachary Ziegler",
+      "stableId": "zachary-ziegler",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 201,
+      "contentHash": "458a4e68e553cc6005de56f2a10e85e15e2228551aa6e3942a7967baf5ae2fce",
+      "sources": [
+        {
+          "title": "GV",
+          "url": "https://gv.com/news/openevidence-founder-ai"
+        },
+        {
+          "title": "Sequoia",
+          "url": "https://www.sequoiacap.com/founder/zachary-ziegler/"
+        },
+        {
+          "title": "PMLR",
+          "url": "https://proceedings.mlr.press/v97/ziegler19a.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 65,
+      "name": "Suchi Saria",
+      "stableId": "suchi-saria",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 206,
+      "contentHash": "be16da7152b33fcd4d641f09027a9f3b9e7b1adcb57a765199e96619efb374d9",
+      "sources": [
+        {
+          "title": "Futurity",
+          "url": "https://www.futurity.org/?p=2771192"
+        },
+        {
+          "title": "HC Innovation Group",
+          "url": "https://www.hcinnovationgroup.com/clinical-it/clinical-decision-support/article/21230042/johns-hopkins-spin-out-offers-ai-based-clinical-decision-support"
+        },
+        {
+          "title": "NewsBytes",
+          "url": "https://www.newsbytesapp.com/news/science/suchi-saria-named-to-time-100-for-sepsis-ai-tool/tldr"
+        },
+        {
+          "title": "publichealth.jhu.edu",
+          "url": "https://publichealth.jhu.edu/faculty/2783/suchi-saria"
+        },
+        {
+          "title": "suchisaria.jhu.edu",
+          "url": "https://suchisaria.jhu.edu/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 66,
+      "name": "Joshua Meier",
+      "stableId": "joshua-meier",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 194,
+      "contentHash": "ef0fc556eae4a1e3d0b514378fbe8f9b31459ccae46d01fba964b8bc7f446492",
+      "sources": [
+        {
+          "title": "GEN",
+          "url": "https://www.genengnews.com/topics/artificial-intelligence/chais-the-limit-for-ai-antibody-designer-after-130m-series-b-funding/"
+        },
+        {
+          "title": "Startup Researcher",
+          "url": "https://www.startupresearcher.com/news/chai-discovery-raises-usd400-million-at-usd3-8-billion-valuation"
+        },
+        {
+          "title": "bioRxiv",
+          "url": "https://www.biorxiv.org/content/10.1101/2025.07.05.663018.full.pdf"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 67,
+      "name": "Brian Hie",
+      "stableId": "brian-hie",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "career"
+      ],
+      "words": 198,
+      "contentHash": "975e5bcd8f91c7a7b8021c51a179b59aabe0844a5d35d131f90afdfa94519731",
+      "sources": [
+        {
+          "title": "Arc Institute",
+          "url": "https://arcinstitute.org/news/evo2"
+        },
+        {
+          "title": "Astrobiology",
+          "url": "https://astrobiology.com/2026/03/07/with-evo-2-ai-can-model-and-design-the-genetic-code-for-all-domains-of-life/"
+        },
+        {
+          "title": "Stanford Data Science",
+          "url": "https://datascience.stanford.edu/people/brian-hie"
+        },
+        {
+          "title": "AIChE",
+          "url": "https://www.aiche.org/community/bio/brian-hie"
+        },
+        {
+          "title": "cheme.stanford.edu",
+          "url": "https://cheme.stanford.edu/people/brian-hie"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 68,
+      "name": "Max Jaderberg",
+      "stableId": "max-jaderberg",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 202,
+      "contentHash": "9eda055580c6876f9e262165377bb2815f23401276ace48dc66f223a1859071e",
+      "sources": [
+        {
+          "title": "Isomorphic Labs: President",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-to-appoint-max-jaderberg-as-president"
+        },
+        {
+          "title": "Isomorphic Labs: $600M round",
+          "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-600m-external-investment-round"
+        },
+        {
+          "title": "Broad Institute",
+          "url": "https://www.broadinstitute.org/bios/max-jaderberg"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 69,
+      "name": "Emma Lundberg",
+      "stableId": "emma-lundberg",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 212,
+      "contentHash": "2df1c0bfe59a3ab7f935fba987645418fef3234826a4c2e0256fd30d896e33ec",
+      "sources": [
+        {
+          "title": "Stanford Profiles",
+          "url": "https://profiles.stanford.edu/emma-lundberg?tab=bio"
+        },
+        {
+          "title": "Newswise",
+          "url": "https://www.newswise.com/articles/genbio-ai-welcomes-emma-lundberg-as-co-founder-and-chief-scientific-advisor"
+        },
+        {
+          "title": "Stanford Report",
+          "url": "https://news.stanford.edu/stories/2024/12/scientists-call-for-all-out-global-effort-to-create-an-ai-virtual-cell"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 70,
+      "name": "Karol Hausman",
+      "stableId": "karol-hausman",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 196,
+      "contentHash": "9afb34a29de8ab6394e89df59fd5a46b996be0d4dffbd13946ffcf34ec70853d",
+      "sources": [
+        {
+          "title": "AI Weekly",
+          "url": "https://aiweekly.co/alerts/physical-intelligence-ceo-denies-anthropic-acquisition-rumor"
+        },
+        {
+          "title": "Value Add VC",
+          "url": "https://valueaddvc.com/blog/physical-intelligence-valuation-2026-robot-foundation-models"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 71,
+      "name": "Deepak Pathak",
+      "stableId": "deepak-pathak",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "career"
+      ],
+      "words": 199,
+      "contentHash": "41c723a3c31fd1e799bd4d6f561bc6b9cfe7089547143cfbce73e1bd9e2028e6",
+      "sources": [
+        {
+          "title": "CMU Robotics Institute",
+          "url": "https://www.ri.cmu.edu/?p=151548"
+        },
+        {
+          "title": "Advisor Perspectives",
+          "url": "https://www.advisorperspectives.com/articles/2026/01/14/robotics-skild-ai-valued-above-14-billion-new-funding"
+        },
+        {
+          "title": "IIT Kanpur",
+          "url": "https://iitk.ac.in/dora/profile/prof-deepak-pathak"
+        },
+        {
+          "title": "cs.cmu.edu",
+          "url": "https://www.cs.cmu.edu/~dpathak/CV_Pathak.pdf"
+        },
+        {
+          "title": "cs.cmu.edu",
+          "url": "https://www.cs.cmu.edu/~dpathak/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 72,
+      "name": "Bernt Øivind Børnich",
+      "stableId": "bernt-ivind-b-rnich",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 194,
+      "contentHash": "d0963128a6fd6f9d3c743b4dabb2c13fda7ea575084e248f807690d9aa470ddf",
+      "sources": [
+        {
+          "title": "Business Wire",
+          "url": "https://www.businesswire.com/news/home/20251027434628/en/1X-Launches-NEO-The-Robot-Redefining-Life-at-Home"
+        },
+        {
+          "title": "Let's Data Science",
+          "url": "https://letsdatascience.com/news/1x-ships-neo-humanoid-robots-to-us-homes-774b7a74"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 73,
+      "name": "Carolina Parada",
+      "stableId": "carolina-parada",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 198,
+      "contentHash": "512879741def7e79fd3fa67581287f982f2592d0f7e6a3bb89403fb8a391a36a",
+      "sources": [
+        {
+          "title": "Automate.org",
+          "url": "https://www.automate.org/robotics/industry-insights/rip-it-up-and-start-again-google-deepmind-vp-on-rewriting-the-rules-of-robotics"
+        },
+        {
+          "title": "Automated podcast",
+          "url": "https://www.automate.org/automated-podcast/episodes/carolina-parada"
+        },
+        {
+          "title": "RAISE Summit",
+          "url": "https://tickets.raisesummit.com/Machina/speaker/2337185/carolina-parada"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 74,
+      "name": "Max Junestrand",
+      "stableId": "max-junestrand",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 204,
+      "contentHash": "635f39cfc29da569acf9bab992ee92636ba177991f4b23df96b001480213d69d",
+      "sources": [
+        {
+          "title": "Forbes",
+          "url": "https://www.forbes.com/profile/max-junestrand/"
+        },
+        {
+          "title": "Legora",
+          "url": "https://legora.com/about"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 75,
+      "name": "Gabriel Pereyra",
+      "stableId": "gabriel-pereyra",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 197,
+      "contentHash": "ff021104ebed34a65ae04a9017f132745951aba15cc123d89d2d5820aa742e1c",
+      "sources": [
+        {
+          "title": "Contrary Research",
+          "url": "https://research.contrary.com/company/harvey"
+        },
+        {
+          "title": "Harvey",
+          "url": "https://www.harvey.ai/company"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 76,
+      "name": "George Sivulka",
+      "stableId": "george-sivulka",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 200,
+      "contentHash": "87d7e5034ef28f80ae50a81fa2bab947202081c2b1fec32c3ccbb547575b5f34",
+      "sources": [
+        {
+          "title": "Contrary Research",
+          "url": "https://research.contrary.com/company/hebbia"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2024/07/09/ai-startup-hebbia-raised-130m-at-a-700m-valuation-on-13m-of-profitable-revenue/"
+        },
+        {
+          "title": "Hebbia blog",
+          "url": "https://www.hebbia.com/blog"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 77,
+      "name": "Gabriel Stengel",
+      "stableId": "gabriel-stengel",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 194,
+      "contentHash": "9f4a6a76e05e0ae7aa0c1b872d21a54be4aa6e5fb9e101af6b85e2bceb76a392",
+      "sources": [
+        {
+          "title": "Rogo: Series D",
+          "url": "https://rogo.com/blog/series-d"
+        },
+        {
+          "title": "Rogo: Series C",
+          "url": "https://rogo.com/blog/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion"
+        },
+        {
+          "title": "Rogo blog",
+          "url": "https://rogo.com/blog"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 78,
+      "name": "Antoine Bordes",
+      "stableId": "antoine-bordes",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 190,
+      "contentHash": "1c5a79a8a9e9bb4ab184ac073b621fafe526dbd8fc40ebfedd83c8997dcad9ea",
+      "sources": [
+        {
+          "title": "Helsing: AAAI award",
+          "url": "https://helsing.ai/newsroom/chief-scientist-antoine-bordes-receives-aaai-classic-paper-award"
+        },
+        {
+          "title": "Helsing: Series E",
+          "url": "https://helsing.ai/newsroom/helsing-raises-1-8bn-in-series-e"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 79,
+      "name": "Oege de Moor",
+      "stableId": "oege-de-moor",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 196,
+      "contentHash": "574add6ff6ae119c18ba661f0c311552e56ca80f001c4c9ca33bfa60dc49210e",
+      "sources": [
+        {
+          "title": "XBOW: HackerOne",
+          "url": "https://xbow.com/blog/top-1-how-xbow-did-it"
+        },
+        {
+          "title": "Sequoia Training Data",
+          "url": "https://sequoiacap.com/podcast/training-data-oege-de-moor"
+        },
+        {
+          "title": "XBOW: Microsoft RCEs",
+          "url": "https://xbow.com/blog/three-rce-vulnerabilities-in-microsoft-identified-xbow"
+        },
+        {
+          "title": "GitHub blog",
+          "url": "https://github.blog/news-insights/company-news/github-welcomes-semmle/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 80,
+      "name": "Ekin Dogus Cubuk",
+      "stableId": "ekin-dogus-cubuk",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 220,
+      "contentHash": "769f0e7ec86adf0e9a478aed742b3bcba6b7d7c2d689dd6de5dd8d51784ef5c9",
+      "sources": [
+        {
+          "title": "a16z",
+          "url": "https://a16z.com/announcement/investing-in-periodic-labs/"
+        },
+        {
+          "title": "Periodic Labs",
+          "url": "https://periodic.com/news/introducing-periodic-labs"
+        },
+        {
+          "title": "Google DeepMind",
+          "url": "https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/"
+        },
+        {
+          "title": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=Mu_8iOEAAAAJ"
+        },
+        {
+          "title": "efthimioskaxiras.scholars.harvard.edu",
+          "url": "https://efthimioskaxiras.scholars.harvard.edu/ekin-dogus"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 81,
+      "name": "Jonathan Godwin",
+      "stableId": "jonathan-godwin",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 187,
+      "contentHash": "9a9e180206fd2766c352e35bb2fa1a51925c0aa583d255116e5f51bc48f79b68",
+      "sources": [
+        {
+          "title": "Orbital: BASF",
+          "url": "https://www.orbitalindustries.com/news/press/basf-ecms-ai-materials-discovery-platform"
+        },
+        {
+          "title": "Orbital: CurieOS",
+          "url": "https://www.orbitalindustries.com/news/announcements/introducing-curieos"
+        },
+        {
+          "title": "arXiv: Orb",
+          "url": "https://arxiv.org/abs/2410.22570"
+        },
+        {
+          "title": "arXiv: GNN regularisation",
+          "url": "https://arxiv.org/abs/2106.07971"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 82,
+      "name": "Kristen DiCerbo",
+      "stableId": "kristen-dicerbo",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "career"
+      ],
+      "words": 196,
+      "contentHash": "7f27e2ff6ee4e3099c170d6c846ca964b638258fe8647c91d729f8033faf5ced",
+      "sources": [
+        {
+          "title": "Khan Academy blog: motivation",
+          "url": "https://blog.khanacademy.org/student-motivation-hard-problem/"
+        },
+        {
+          "title": "Khan Academy blog",
+          "url": "https://blog.khanacademy.org/"
+        },
+        {
+          "title": "khanacademy.org",
+          "url": "https://www.khanacademy.org/about/our-board"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 83,
+      "name": "Alex Kendall",
+      "stableId": "alex-kendall",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 197,
+      "contentHash": "004c79a914ca2c67dcc02fba5897388e495608566b66609ac7c386a546d8898e",
+      "sources": [
+        {
+          "title": "Alex Kendall",
+          "url": "https://alexgkendall.com/"
+        },
+        {
+          "title": "arXiv",
+          "url": "https://arxiv.org/abs/1703.04977"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 84,
+      "name": "Beth Barnes",
+      "stableId": "beth-barnes",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 207,
+      "contentHash": "b9f4bd9c9727059ee5b293116ff1005d0a0d0ee0aa383a6822ebdff83c75979e",
+      "sources": [
+        {
+          "title": "METR: About",
+          "url": "https://metr.org/about"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 85,
+      "name": "Marius Hobbhahn",
+      "stableId": "marius-hobbhahn",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 205,
+      "contentHash": "82bf041195b4d6b010abd08d50c39dfca98c7a31a6b0d69319ddf121f1af23f4",
+      "sources": [
+        {
+          "title": "Tübingen AI Center",
+          "url": "https://tuebingen.ai/alumni/marius-hobhahn"
+        },
+        {
+          "title": "Apollo Research: Team",
+          "url": "https://www.apolloresearch.ai/team"
+        },
+        {
+          "title": "MATS mentor page",
+          "url": "https://www.matsprogram.org/mentor/hobbhahn"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 86,
+      "name": "Buck Shlegeris",
+      "stableId": "buck-shlegeris",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 184,
+      "contentHash": "033b3645f90bc5f106d7aa24c596c417b7e479314b575d9def9167cc2edc76fe",
+      "sources": [
+        {
+          "title": "80,000 Hours podcast",
+          "url": "https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/"
+        },
+        {
+          "title": "Redwood Research: AI Control",
+          "url": "https://redwoodresearch.org/research/ai-control"
+        },
+        {
+          "title": "Longterm Wiki",
+          "url": "https://www.longtermwiki.com/people/buck-shlegeris/data"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 87,
+      "name": "Owain Evans",
+      "stableId": "owain-evans",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 181,
+      "contentHash": "f6d012d4066d8e7254aa7c2babccffcd3bfb4e2ea5f8dce3a5bfda55156f9dca",
+      "sources": [
+        {
+          "title": "Quanta Magazine",
+          "url": "https://www.quantamagazine.org/the-ai-was-fed-sloppy-code-it-turned-into-something-evil-20250813/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 88,
+      "name": "Dean W. Ball",
+      "stableId": "dean-w-ball",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 217,
+      "contentHash": "0eb67e1e68516f6c35d80bd29023182102d5004cd58ca6f389008a2d24bc1730",
+      "sources": [
+        {
+          "title": "FAI announcement",
+          "url": "https://www.thefai.org/posts/dean-ball-joins-openai-as-head-of-strategic-futures"
+        },
+        {
+          "title": "Axios",
+          "url": "https://axios.com/2026/06/18/dean-ball-openai"
+        },
+        {
+          "title": "FAI profile",
+          "url": "https://www.thefai.org/profile/dean-ball"
+        },
+        {
+          "title": "Hyperdimensional: About",
+          "url": "https://www.hyperdimensional.co/about"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 89,
+      "name": "Lennart Heim",
+      "stableId": "lennart-heim",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 204,
+      "contentHash": "60835ee03e095a8e693bada62718025b193cfbcb92029a5073046a83862b0595",
+      "sources": [
+        {
+          "title": "alphaXiv profile",
+          "url": "https://www.alphaxiv.org/@lennart-heim"
+        },
+        {
+          "title": "Digg roundup",
+          "url": "https://digg.com/tech/lmt012pe"
+        },
+        {
+          "title": "GovAI: Lennart Heim",
+          "url": "https://governance.ai/team/lennart-heim"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 90,
+      "name": "Kai Zenner",
+      "stableId": "kai-zenner",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 212,
+      "contentHash": "a61f532703fe9efccba75b9f0ef0de80a6edb272b9b4c73a009c9983a8e71275",
+      "sources": [
+        {
+          "title": "OECD.AI",
+          "url": "https://oecd.ai/en/community/kai-zenner"
+        },
+        {
+          "title": "Informa AI Regulation Forum",
+          "url": "https://informaconnect.com/ai-regulation-forum/speakers/kai-zenner/"
+        },
+        {
+          "title": "Rise of AI",
+          "url": "https://riseof.ai/speaker/kaizenner/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 91,
+      "name": "Helen Toner",
+      "stableId": "helen-toner",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education",
+        "outlook",
+        "read"
+      ],
+      "words": 205,
+      "contentHash": "0d62edc1305c9f7768a1f0673941ef183f277a729ffe5a4bc148a0dd7a91a574",
+      "sources": [
+        {
+          "title": "CSET announcement",
+          "url": "https://cset.georgetown.edu/article/helen-toner-named-interim-executive-director/"
+        },
+        {
+          "title": "Rising Tide",
+          "url": "https://helentoner.substack.com/about"
+        },
+        {
+          "title": "cset.georgetown.edu",
+          "url": "https://cset.georgetown.edu/staff/helen-toner/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 92,
+      "name": "Sarah Guo",
+      "stableId": "sarah-guo",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 193,
+      "contentHash": "512b193a7f6b0b42f03cd18196ceb1acdf87f0b068290ab70405eaa3c814b690",
+      "sources": [
+        {
+          "title": "Forbes profile",
+          "url": "https://www.forbes.com/profile/sarah-guo/"
+        },
+        {
+          "title": "TechCrunch",
+          "url": "https://techcrunch.com/2025/01/31/guos-conviction-partners-adds-mike-vernal-as-gp-raises-230m-fund"
+        },
+        {
+          "title": "AltAssets",
+          "url": "https://www.altassets.net/private-equity-news/by-region/north-america-by-region/united-states-north-america-by-region/100207687.html"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 93,
+      "name": "Nathan Benaich",
+      "stableId": "nathan-benaich",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 178,
+      "contentHash": "dad3d085fe76c9e90c1575ff0eb6c3d6479d15581a89467199a016cb9c92049f",
+      "sources": [
+        {
+          "title": "tech.eu",
+          "url": "https://tech.eu/2026/03/23/nathan-benaich-s-air-street-raises-232m-fund-iii-becoming-europe-s-largest-solo-gp-venture-firm/"
+        },
+        {
+          "title": "State of AI Report",
+          "url": "https://www.stateof.ai/"
+        },
+        {
+          "title": "Gates Cambridge",
+          "url": "https://www.gatescambridge.org/biography/6331/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 94,
+      "name": "Leigh Marie Braswell",
+      "stableId": "leigh-marie-braswell",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 199,
+      "contentHash": "1c9c5ed631e1102566951c19e68f3d9e365c2f3872589783b115eadb7c2c0c6e",
+      "sources": [
+        {
+          "title": "Kleiner Perkins bio",
+          "url": "https://kleinerperkins.com/people/leigh-marie-braswell/"
+        },
+        {
+          "title": "Fortune",
+          "url": "https://fortune.com/2026/02/04/kleiner-perkins-leigh-marie-braswell-risk-from-playing-poker-scale/"
+        },
+        {
+          "title": "kleinerperkins.com",
+          "url": "https://www.kleinerperkins.com/people/leigh-marie-braswell/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 95,
+      "name": "Grace Isford",
+      "stableId": "grace-isford",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 185,
+      "contentHash": "f0236a7355b13e051ddad2111c67424a00e20002b1c27aec253defce7d7eb2f3",
+      "sources": [
+        {
+          "title": "Lux Capital: Grace Isford",
+          "url": "https://luxcapital.com/team/grace-isford"
+        },
+        {
+          "title": "Lux announcement",
+          "url": "https://www.luxcapital.com/news/welcoming-our-newest-investor-grace-isford-to-lux-capital"
+        },
+        {
+          "title": "Greenwich Free Press",
+          "url": "https://greenwichfreepress.com/schools/class-of-2015-member-named-the-175th-commencement-speaker-for-sacred-heart-greenwich-213021/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 96,
+      "name": "Simon Willison",
+      "stableId": "simon-willison",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 184,
+      "contentHash": "2a34b1b73b9a4b39d7b31a91dfc0088291b6e4c9c46d9f6bfc62a910de3a1a49",
+      "sources": [
+        {
+          "title": "simonwillison.net: About",
+          "url": "https://simonwillison.net/about/"
+        },
+        {
+          "title": "Prompt injection post",
+          "url": "https://simonwillison.net/2022/Sep/12/prompt-injection/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 97,
+      "name": "Nathan Lambert",
+      "stableId": "nathan-lambert",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [
+        "education"
+      ],
+      "words": 196,
+      "contentHash": "26246e8e80f1e913b72f99a6e839a75fa0f329c369aff951571a98995ea347a7",
+      "sources": [
+        {
+          "title": "Farewell Ai2",
+          "url": "https://www.interconnects.ai/p/farewell-ai2"
+        },
+        {
+          "title": "My path into AI",
+          "url": "https://www.interconnects.ai/p/my-path-into-ai"
+        },
+        {
+          "title": "MATS mentor page",
+          "url": "https://matsprogram.org/mentor/nathan-lambert"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 98,
+      "name": "Dwarkesh Patel",
+      "stableId": "dwarkesh-patel",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 178,
+      "contentHash": "c440ae043ca5a4b663b976e49dbea4fd6be518b7f242894cb84783c211240235",
+      "sources": [
+        {
+          "title": "dwarkesh.com: About",
+          "url": "https://www.dwarkesh.com/about"
+        },
+        {
+          "title": "creatordb",
+          "url": "https://creatordb.app/creatorstats/dwarkeshpatel/"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 99,
+      "name": "Shawn \"swyx\" Wang",
+      "stableId": "shawn-swyx-wang",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 210,
+      "contentHash": "67a63ac61285d156dce6716f9cde9624a545511826ecadd645f7af45e2783384",
+      "sources": [
+        {
+          "title": "AI Engineer: About",
+          "url": "https://ai.engineer/about"
+        },
+        {
+          "title": "Latent Space: About",
+          "url": "https://www.latent.space/about"
+        },
+        {
+          "title": "yespress profile",
+          "url": "https://yespress.io/swyx.md"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    },
+    {
+      "number": 100,
+      "name": "Sebastian Raschka",
+      "stableId": "sebastian-raschka",
+      "verification": "pending-expanded-claims",
+      "specificCorrections": [],
+      "words": 192,
+      "contentHash": "422e9fce16d236c32a229a2acd1c258c50c03a173e05b02eccb08b97c993b8e5",
+      "sources": [
+        {
+          "title": "sebastianraschka.com: About",
+          "url": "https://sebastianraschka.com/about/"
+        },
+        {
+          "title": "GitHub: LLMs-from-scratch",
+          "url": "https://github.com/rasbt/LLMs-from-scratch"
+        },
+        {
+          "title": "Manning",
+          "url": "https://www.manning.com/books/build-a-reasoning-model-from-scratch"
+        },
+        {
+          "title": "Ahead of AI: About",
+          "url": "https://magazine.sebastianraschka.com/about"
+        }
+      ],
+      "limitation": "Restored biography and current financial leads require sentence-level evidence before publication; a successful fetch or an existing concise claim check cannot approve them."
+    }
+  ]
+}

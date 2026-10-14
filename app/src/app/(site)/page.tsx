@@ -17,6 +17,7 @@ import { loadWatchlist } from "@/lib/watchlist-content";
 import { WatchlistHomeFeature } from "@/components/WatchlistHomeFeature";
 export const dynamic = "force-dynamic";
 export const metadata = {
+  other: { "p:domain_verify": "82d912d9494256eb147ff539476d0162" },
   alternates: { canonical: "https://visionarytalks.com/" },
   openGraph: {
     title: "Visionary Talks — Companies. Money. Careers.",

@@ -1,0 +1,1050 @@
+[
+  {
+    "number": 1,
+    "name": "Alexander Wei",
+    "field": "education",
+    "old": "A.B. and S.M., Harvard (2020), advised by Jelani Nelson and Scott Kominers. Ph.D. in Computer Science, UC Berkeley (2023), advised by Nika Haghtalab, Michael I. Jordan and Jacob Steinhardt. Meta Research PhD Fellow (2022 to 2023) and NSF Graduate Research Fellow (2020 to 2023).",
+    "revised": "His [own research profile](https://www.alexwei.org/) records an A.B. and S.M. from Harvard in 2020 and a computer-science PhD from Berkeley in 2023, advised by Nika Haghtalab, Michael Jordan and Jacob Steinhardt.",
+    "evidence": [
+      "https://www.alexwei.org/",
+      "https://research.facebook.com/fellows/wei-alexander/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 1,
+    "name": "Alexander Wei",
+    "field": "outlook",
+    "old": "OpenAI's stated internal goal is a fully autonomous AI researcher by March 2028, and its agent systems claimed a Navier-Stokes result in September 2026 that is still under review. No source names Wei on that work; his IMO-gold methods sit at the root of OpenAI's broader math-reasoning push.",
+    "revised": "I am watching whether his reasoning research produces inspectable arguments that other mathematicians can check, rather than another impressive score without a reproducible artifact; the practical prize is reducing the cost of expert verification, not claiming that every OpenAI mathematics result belongs to him.",
+    "evidence": [
+      "https://www.alexwei.org/",
+      "https://research.facebook.com/fellows/wei-alexander/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 1,
+    "name": "Alexander Wei",
+    "field": "read",
+    "old": "Wei described a model that can \"craft intricate, watertight arguments at the level of human mathematicians.\" His role is confirmed only by his personal site (Oct 2026), so recheck it before print.",
+    "revised": "A strong competition result would weaken as evidence if it failed to transfer to independently verifiable mathematics.",
+    "evidence": [
+      "https://www.alexwei.org/",
+      "https://research.facebook.com/fellows/wei-alexander/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 2,
+    "name": "Jerry Tworek",
+    "field": "education",
+    "old": "Master's in mathematics, University of Warsaw, on an individual curriculum focused on financial mathematics. Year not verified; secondary source (aiwiki).",
+    "revised": "I could not establish his degree or graduation year from a primary education record; the supplied Warsaw master's claim remains outside this revision's verified biography.",
+    "evidence": [
+      "https://openai.com/index/learning-to-reason-with-llms/",
+      "https://openai.com/openai-o1-contributions/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 2,
+    "name": "Jerry Tworek",
+    "field": "read",
+    "old": "A flagship continual-learning project, reportedly codenamed \"Ceres,\" aims for a roughly 100x cut in training data (secondary source). That number is the whole thesis.",
+    "revised": "An automated research lab still has to demonstrate a repeatable learning advantage outside its own promotional claims.",
+    "evidence": [
+      "https://openai.com/index/learning-to-reason-with-llms/",
+      "https://openai.com/openai-o1-contributions/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 2,
+    "name": "Jerry Tworek",
+    "field": "career",
+    "old": "Per aiwiki, he spent about five years building futures strategies, rising to head of R&D at a hedge fund. At OpenAI from 2019 he worked on the Rubik's Cube robot hand, then Codex (the basis of GitHub Copilot) and GSM8K verifiers in 2021 and 2022. Promoted to VP of Research in 2022, he did GPT-4 post-training (2023) and led o1 (Sept 2024) and o3. He left in early January 2026 \"to try and explore types of research that are hard to do at OpenAI,\" and founded Core Automation in March 2026.",
+    "revised": "OpenAI's [September 2024 o1 credits](https://openai.com/openai-o1-contributions/) identify Tworek with overall leadership in reasoning research. Business Today's January 7, 2026 departure report connects his seven-year OpenAI career to Codex, post-training and the o1 and o3 systems. The Decoder subsequently reported the launch of Core Automation. The supplied hedge-fund chronology, 2022 promotion date and claimed hundredfold training-data reduction require stronger records than an AI-written biography.",
+    "evidence": [
+      "https://openai.com/index/learning-to-reason-with-llms/",
+      "https://openai.com/openai-o1-contributions/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 3,
+    "name": "Jason Wei",
+    "field": "education",
+    "old": "B.A. in computer science, Dartmouth College (2020). Goldwater Scholar (2019). No PhD.",
+    "revised": "[Dartmouth's alumni report](https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai) identifies him as a 2020 graduate; his former lab lists an A.B. in computer science, while his published CV documents the subsequent Google Brain roles.",
+    "evidence": [
+      "https://www.jasonwei.net/",
+      "https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf",
+      "https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 3,
+    "name": "Jason Wei",
+    "field": "hook",
+    "old": "Two years out of undergrad, as a Google Brain resident, Jason Wei was lead author on the chain-of-thought prompting paper, one of the most-cited papers of the LLM era. Meta's challenge now is keeping him.",
+    "revised": "Jason Wei helped make chain-of-thought prompting a research result rather than a prompting anecdote; his current [personal site](https://www.jasonwei.net/) places him at Meta Superintelligence Labs after Google Brain and OpenAI.",
+    "evidence": [
+      "https://www.jasonwei.net/",
+      "https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf",
+      "https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 3,
+    "name": "Jason Wei",
+    "field": "career",
+    "old": "Wei joined Google Brain as an AI Resident in October 2020 and stayed as a research engineer and research scientist until February 2023. There he led \"Chain-of-Thought Prompting Elicits Reasoning in Large Language Models\" (NeurIPS 2022) and worked on FLAN instruction tuning (ICLR 2022) and \"Emergent Abilities of Large Language Models\" (2022). At OpenAI, from February 2023 to July 2025, he worked on o-series reasoning and Deep Research and built the SimpleQA (2024) and BrowseComp (2025) benchmarks. He moved to Meta Superintelligence Labs in July 2025.",
+    "revised": "His [CV](https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf) dates the Google Brain residency from October 2020 to December 2021, followed by research-engineer and research-scientist roles. He joined OpenAI in February 2023. The publication record includes FLAN, chain-of-thought prompting, emergent abilities, SimpleQA in 2024 and BrowseComp in 2025. The older CV still says OpenAI; his updated homepage is the source for the later Meta affiliation.",
+    "evidence": [
+      "https://www.jasonwei.net/",
+      "https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf",
+      "https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 3,
+    "name": "Jason Wei",
+    "field": "outlook",
+    "old": "MSL shipped its first foundation model, Muse Spark, in April 2026, then suffered heavy researcher attrition, including multimodal head Jiahui Yu in August 2026. Whether Wei stays and shapes Meta's next reasoning model is a clean test of Meta's talent bet.",
+    "revised": "I am following whether his new work improves the reliability of reasoning and browsing agents on problems with checkable answers, and whether the accompanying evaluations expose failure modes instead of rewarding confident output.",
+    "evidence": [
+      "https://www.jasonwei.net/",
+      "https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf",
+      "https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 3,
+    "name": "Jason Wei",
+    "field": "read",
+    "old": "Meta reportedly offered some top researchers packages of up to $300M over four years; Wei's terms were never disclosed. I found no fresh 2026 confirmation that he is still at Meta, so his title needs a check before print.",
+    "revised": "A compelling reasoning benchmark would lose force if it rewarded persuasive explanations more than correct, reproducible answers.",
+    "evidence": [
+      "https://www.jasonwei.net/",
+      "https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf",
+      "https://home.dartmouth.edu/news/2023/05/recent-alumnus-lectures-advances-ai"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 4,
+    "name": "Hongyu Ren",
+    "field": "education",
+    "old": "B.S. in computer science with honors, Peking University; Ph.D. in computer science, Stanford. I could not verify his degree years or advisor.",
+    "revised": "His [personal research page](https://hyren.me/) records a computer-science PhD from Stanford and an honors computer-science bachelor's degree from Peking University; I have not established the graduation years from those records.",
+    "evidence": [
+      "https://hyren.me/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 5,
+    "name": "Sholto Douglas",
+    "field": "education",
+    "old": "University of Sydney, B.Eng. (Hons) in Mechatronic (Space) Engineering and B.Commerce (2015 to 2020); New Colombo Plan scholar who studied ML at Tsinghua in 2018. Secondary source (Grokipedia), medium confidence. No PhD.",
+    "revised": "A [University of Sydney report from August 2019](https://www.sydney.edu.au/engineering/news-and-events/news/2019/08/01/one-student-s-vision-to-build-an-automated-future.html) describes engineering honors studies, with a space-engineering major, alongside commerce. Australia's foreign-affairs department documents his 2018 New Colombo Plan scholarship and study at Tsinghua; neither record establishes his graduation date.",
+    "evidence": [
+      "https://www.sydney.edu.au/engineering/news-and-events/news/2019/08/01/one-student-s-vision-to-build-an-automated-future.html",
+      "https://www.dfat.gov.au/people-to-people/new-colombo-plan/news/Pages/scholar-returns-from-china-determined-to-help-build-australias-artificial-intelligence-ecosystem"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 6,
+    "name": "Joshua (Josh) Batson",
+    "field": "education",
+    "old": "B.A. in mathematics, Yale (Phi Beta Kappa), where he founded the Yale Undergraduate Math Society and won six prizes, five in mathematics and one in literary criticism. Part III of the Mathematical Tripos, Churchill College, Cambridge, as a Gates Cambridge Scholar (2008). Ph.D. in mathematics, MIT (2014), advised by Peter Ozsváth; thesis \"Obstructions to slicing knots and splitting links.\"",
+    "revised": "[Gates Cambridge](https://gatescambridge.org/biography/6120) documents Yale mathematics studies and his move to Cambridge's Part III course. The Mathematics Genealogy record dates his MIT mathematics PhD to 2014, with Peter Ozsvath advising his work on knots and links.",
+    "evidence": [
+      "https://gatescambridge.org/biography/6120",
+      "https://genealogy.math.ndsu.nodak.edu/id.php?id=189873",
+      "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 6,
+    "name": "Joshua (Josh) Batson",
+    "field": "hook",
+    "old": "\"Inside the model, it's just a bunch of numbers,\" Josh Batson told VentureBeat in March 2025. His job is reading those numbers, and his team's work showed Claude planning rhymes ahead and sometimes fabricating its reasoning.",
+    "revised": "Josh Batson helped turn Claude's internal computations into experiments that people can inspect; Anthropic's March 2025 circuit-tracing study examines rhyme planning, factual recall and the limits of a model's own account of its reasoning.",
+    "evidence": [
+      "https://gatescambridge.org/biography/6120",
+      "https://genealogy.math.ndsu.nodak.edu/id.php?id=189873",
+      "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 6,
+    "name": "Joshua (Josh) Batson",
+    "field": "career",
+    "old": "Batson started as a knot theorist. He moved into machine learning through self-supervised denoising, \"Noise2Self,\" with Loic Royer (2019); a Chan Zuckerberg Biohub affiliation is reported, but I could not verify it from a primary page, nor his Anthropic start date. In March 2025 he co-authored \"On the Biology of a Large Language Model,\" Anthropic's attribution-graph and circuit-tracing study, and the company open-sourced the tools. He appeared in a 60 Minutes segment in November 2025.",
+    "revised": "He came to machine learning from knot theory, then co-authored Noise2Self with Loic Royer in 2019. Anthropic's [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) credits him on the 2025 attribution-graph project. The contribution record matters: graph construction, interventions and visualization are distinct responsibilities, and the paper does not establish that one researcher explained an entire model. His Anthropic start date remains unestablished.",
+    "evidence": [
+      "https://gatescambridge.org/biography/6120",
+      "https://genealogy.math.ndsu.nodak.edu/id.php?id=189873",
+      "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 6,
+    "name": "Joshua (Josh) Batson",
+    "field": "outlook",
+    "old": "Interpretability is moving from research curiosity to audit tool. As regulators start asking how models reason, Batson is one of the clearest explainers of what attribution graphs can and cannot show.",
+    "revised": "I am looking for circuit tracing to predict a failure before it happens and show that a targeted intervention actually prevents it; that would give interpretability a practical auditing role beyond an attractive diagram.",
+    "evidence": [
+      "https://gatescambridge.org/biography/6120",
+      "https://genealogy.math.ndsu.nodak.edu/id.php?id=189873",
+      "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 6,
+    "name": "Joshua (Josh) Batson",
+    "field": "read",
+    "old": "The literary-criticism prize is not trivia. Translating model internals for non-specialists is half this job.",
+    "revised": "The case weakens if explanations remain descriptive without predicting or preventing failures on new inputs.",
+    "evidence": [
+      "https://gatescambridge.org/biography/6120",
+      "https://genealogy.math.ndsu.nodak.edu/id.php?id=189873",
+      "https://transformer-circuits.pub/2025/attribution-graphs/biology.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 8,
+    "name": "Neel Nanda",
+    "field": "education",
+    "old": "B.A. in pure mathematics, University of Cambridge (graduated 2020).",
+    "revised": "His [own biography](https://www.neelnanda.io/about) says he studied pure mathematics at Cambridge and graduated in 2020, before a postgraduate year of AI safety internships; I do not infer an additional degree from that year.",
+    "evidence": [
+      "https://www.neelnanda.io/about"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 9,
+    "name": "Jack Parker-Holder",
+    "field": "education",
+    "old": "BSc in mathematics, University of Exeter (2009 to 2012); MA (QMSS), Columbia (2016 to 2018, part-time); DPhil in machine learning, University of Oxford (St Peter's College, from 2019), advised by Stephen Roberts.",
+    "revised": "His [academic profile](https://jparkerholder.github.io/) lists an Exeter mathematics BSc from 2009 to 2012, Columbia's quantitative-methods master's studies from 2016 to 2018, and Oxford DPhil research beginning in 2019; it does not establish a completed DPhil award.",
+    "evidence": [
+      "https://jparkerholder.github.io/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 11,
+    "name": "Liam Fedus",
+    "field": "outlook",
+    "old": "Periodic raised a $300M seed at a $1.3B valuation in September 2025 (a16z, Felicis, Accel). Bloomberg reported talks at about $7B (Mar 25, 2026), and Portal Tela reported advanced talks to raise at least $500M at about $7.5B led by AMP (Jul 4, 2026): reported, not confirmed closed.",
+    "revised": "The [September 2025 investor announcement](https://a16z.com/announcement/investing-in-periodic-labs/) records a $300 million founding round. The opened primary record does not disclose a valuation. Bloomberg reported further fundraising discussions on March 25, 2026; I have not established that those talks closed, and the supplied later $7.5 billion price lacks a verified original record.",
+    "evidence": [
+      "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 11,
+    "name": "Liam Fedus",
+    "field": "read",
+    "old": "One real materials discovery would make Periodic the flagship AI-for-science company. Until then, a reported fivefold valuation jump is a bet on a lab result nobody has seen yet.",
+    "revised": "The case weakens if autonomous experiments fail to produce materials with independently demonstrated practical value.",
+    "evidence": [
+      "https://www.bloomberg.com/news/articles/2026-03-25/ai-science-startup-periodic-labs-is-in-deal-talks-at-about-7-billion-valuation"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 12,
+    "name": "Misha Laskin",
+    "field": "education",
+    "old": "PhD in theoretical physics, University of Chicago (year not verified); postdoc at UC Berkeley.",
+    "revised": "His [personal research biography](https://www.mishalaskin.com/) records a theoretical-physics PhD at the University of Chicago and reinforcement-learning postdoctoral work at Berkeley; the opened biography does not give a graduation year.",
+    "evidence": [
+      "https://www.mishalaskin.com/",
+      "https://reflection.company/newsroom"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 12,
+    "name": "Misha Laskin",
+    "field": "outlook",
+    "old": "Beam's weights were slated to ship under Apache 2.0 later in October 2026, backed by compute deals with SpaceX (up to $6.3B, CNBC) and Nebius ($1B, Bloomberg). Reflection raised $2B at an $8B valuation led by Nvidia (Oct 2025), and Laskin confirmed on CNBC (Apr 23, 2026) a round at a $25B pre-money valuation, a figure I have only through a secondary summary.",
+    "revised": "Reflection's [newsroom](https://reflection.company/newsroom) labels its April 23, 2026 CNBC interview as confirmation that a round closed at a $25 billion pre-money valuation. That is company value before the new investment, not Laskin's wealth. Beam's announcement promised weights later in October; an announcement alone does not establish that developers can download them.",
+    "evidence": [
+      "https://www.mishalaskin.com/",
+      "https://reflection.company/newsroom"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 12,
+    "name": "Misha Laskin",
+    "field": "read",
+    "old": "Those are company valuations, not his net worth. A physicist turned founder-researcher, not a career executive, he is taking on the closed labs with open weights. The 2027 test is whether developers actually build on Beam, because self-reported specs cost nothing.",
+    "revised": "The case weakens if developers cannot reproduce the announced model's results using the promised released weights.",
+    "evidence": [
+      "https://www.mishalaskin.com/",
+      "https://reflection.company/newsroom"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 16,
+    "name": "Yang Zhilin",
+    "field": "education",
+    "old": "B.S. in computer science, Tsinghua University; Ph.D., Carnegie Mellon University (about four years). Degree years not verified. Born 1992 in Shantou.",
+    "revised": "[Carnegie Mellon's alumni record](https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html) identifies his 2019 PhD as Language and Information Technology; that is more precise than the supplied generic computer-science label.",
+    "evidence": [
+      "https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 16,
+    "name": "Yang Zhilin",
+    "field": "hook",
+    "old": "Moonshot AI was valued at $50B in October 2026 (Bloomberg) and has confidentially filed for a Hong Kong IPO targeting early 2027. Its founder was lead author of Transformer-XL and XLNet.",
+    "revised": "Yang Zhilin's research record connects Transformer-XL and XLNet to Moonshot's Kimi models; I am following the work that can be inspected, rather than treating an aggregator's IPO headline as a completed transaction.",
+    "evidence": [
+      "https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 16,
+    "name": "Yang Zhilin",
+    "field": "career",
+    "old": "At Tsinghua he played drums in a campus rock band. His research career includes Google Brain and Meta AI, and he co-founded an earlier AI company at 24. He founded Moonshot in March 2023 and built the Kimi K2 line. Kimi K3 (July 16, 2026) is a roughly 2.8T-parameter sparse MoE with a 1M-token context; a single aggregator report ranked it 4th on the Artificial Analysis Intelligence Index v4.1, and open weights followed after a delay.",
+    "revised": "CMU's Language Technologies Institute records his doctorate in 2019. His earlier research includes Transformer-XL and XLNet, and he subsequently founded Moonshot AI, the company behind Kimi. The progression is useful because it joins a documented model-research contribution to a commercial model family. The supplied Kimi K3 parameter counts, rankings and release dates need stronger original records before entering this profile.",
+    "evidence": [
+      "https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 16,
+    "name": "Yang Zhilin",
+    "field": "outlook",
+    "old": "The IPO targets a raise of about $3B with Goldman, CICC and Deutsche Bank. Moonshot's valuation went from about $4.3B (end-2025) to $20B (May 2026), $35B post-money (July 2026, on a $3.5B raise) and $50B (Oct 2026), with more than $5.5B raised in total.",
+    "revised": "I am watching whether Moonshot releases technical artifacts that let outside developers test its reasoning and long-context claims against actual cost and reliability; those records would also make a future ownership investigation more useful than a succession of changing private-company prices.",
+    "evidence": [
+      "https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 16,
+    "name": "Yang Zhilin",
+    "field": "read",
+    "old": "That is company value, not Yang's personal wealth, and I found no verified net worth figure. A public listing will force Moonshot to show the revenue behind the benchmark rankings, which is where researcher-founders usually get tested hardest.",
+    "revised": "The case weakens if commercial claims move faster than reproducible models and disclosed operating evidence.",
+    "evidence": [
+      "https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 17,
+    "name": "Chelsea Finn",
+    "field": "education",
+    "old": "B.S. in EECS, MIT (year not verified); Ph.D. in CS, UC Berkeley (August 2018), advised by Pieter Abbeel and Sergey Levine; thesis \"Learning to Learn with Gradients.\"",
+    "revised": "Her [Stanford research biography](https://ai.stanford.edu/~cbfinn/) records an MIT bachelor's degree in electrical engineering and computer science and a Berkeley computer-science PhD; Berkeley's dissertation record is dated August 2018.",
+    "evidence": [
+      "https://ai.stanford.edu/~cbfinn/",
+      "https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-105.html"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 18,
+    "name": "Sherry Yang",
+    "field": "education",
+    "old": "B.S. and M.Eng. in CS, MIT (2014 to 2018); Ph.D., UC Berkeley (2021 to 2024), advised by Pieter Abbeel; postdoc at Stanford with Percy Liang (2025).",
+    "revised": "Her [personal academic biography](https://sherryy.github.io/) records bachelor's and master's degrees at MIT, a Berkeley PhD advised by Pieter Abbeel, and Stanford postdoctoral work with Percy Liang; the opened biography does not establish all award years.",
+    "evidence": [
+      "https://sherryy.github.io/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 19,
+    "name": "Levent Alpöge",
+    "field": "read",
+    "old": "OpenAI's own post calls him an Anthropic employee; Wikipedia cites a WSJ headline implying an OpenAI job. I could not resolve that, and his 2026 results are claims, not peer-reviewed theorems.",
+    "revised": "The case weakens if the claimed results cannot survive independent mathematical review and reproducible checking.",
+    "evidence": [
+      "https://openai.com/index/navier-stokes-solution/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 19,
+    "name": "Levent Alpöge",
+    "field": "outlook",
+    "old": "OpenAI's Sept 8, 2026 Navier-Stokes post acknowledged the Alpöge-Buckmaster priority on forced Euler. Buckmaster alleges OpenAI suggested dropping Alpöge as co-author because he works at Anthropic; OpenAI's Sebastien Bubeck denies it. The pair say they hold an unreleased hypo-dissipative Navier-Stokes blowup.",
+    "revised": "OpenAI's [September 2026 account](https://openai.com/index/navier-stokes-solution/) identifies Alpoge as an Anthropic employee and acknowledges the earlier Alpoge-Buckmaster forced-Euler result. That primary attribution is stronger than an inferred employer from a headline, but it does not settle competing claims about credit or certify an unpublished mathematical result.",
+    "evidence": [
+      "https://openai.com/index/navier-stokes-solution/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 19,
+    "name": "Levent Alpöge",
+    "field": "career",
+    "old": "Asteroid 25898 Alpöge honors his 2010 Intel Science Talent Search finalist run. He was an NSF Postdoctoral Fellow (2020) and a Junior Fellow at the Harvard Society of Fellows (2021 to 2025). With Bhargava, Ho and Shnidman he gave a second proof that Hilbert's tenth problem is negative over rings of integers of number fields (Inventiones, 2025). His 2026 AI-assisted claims: a Jacobian conjecture counterexample in dimension 3 (July), a Carathéodory conjecture counterexample (Aug 19), Hadamard matrices for twelve orders below 2000, and the Euler blowup (solved Aug 15, verified Aug 22).",
+    "revised": "His published research record includes work with Manjul Bhargava, Wei Ho and Ari Shnidman on Hilbert's tenth problem over rings of integers of number fields. In 2026, he and Tristan Buckmaster publicized AI-assisted mathematics results involving forced Euler equations and formal checking. Their public account and OpenAI's subsequent post disagree about aspects of attribution. I distinguish a claimed result, a checking artifact and independent mathematical acceptance; neither a company post nor a disputed headline settles all three.",
+    "evidence": [
+      "https://openai.com/index/navier-stokes-solution/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 20,
+    "name": "Sara Hooker",
+    "field": "education",
+    "old": "B.A., Carleton College; Ph.D. in Computer Science, Mila (Quebec AI Institute). Years not verified.",
+    "revised": "Her [current personal biography](https://www.sarahooker.me/) explicitly records a computer-science PhD at Mila, supervised by Hugo Larochelle and Aaron Courville. Her earlier first-person account describes an economics undergraduate background; the dated change in her biography matters, so I do not repeat an older assumption that she has no PhD.",
+    "evidence": [
+      "https://www.sarahooker.me/",
+      "https://www.sarahooker.me/blog/slow-learning",
+      "https://arxiv.org/abs/2009.06489"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 20,
+    "name": "Sara Hooker",
+    "field": "career",
+    "old": "Born in Dublin, she moved to Lesotho at four and grew up across South Africa, Mozambique, Lesotho, Eswatini and Kenya until 19. In 2014 she founded Delta Analytics, building data capacity for nonprofits. She joined Google Brain in 2017 as a research scientist in interpretability and was a founding member of Google's AI research office in Accra, Ghana. In April 2022 she joined Cohere to lead Cohere Labs (Cohere For AI), later as VP of Research, leading Aya: 3,000+ researchers, a multilingual model and dataset covering 101 languages, then Aya Expanse 8B and 32B (2024). Her work has also won an ACL Best Paper Award. In 2025 she co-founded Adaption with Sudip Roy.",
+    "revised": "Hooker's earlier work includes Delta Analytics and Google Brain; her first-person account describes a route from economics to machine learning. At Cohere she led Cohere For AI, later Cohere Labs, and worked on multilingual research including Aya. Her current personal site identifies Adaption Labs as her new venture and describes the earlier Cohere vice-president role. The Hardware Lottery, posted in 2020, supplies the intellectual thread: available hardware can favor some research directions over others.",
+    "evidence": [
+      "https://www.sarahooker.me/",
+      "https://www.sarahooker.me/blog/slow-learning",
+      "https://arxiv.org/abs/2009.06489"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 21,
+    "name": "Joelle Pineau",
+    "field": "education",
+    "old": "Engineering at the University of Waterloo; postgraduate robotics at Carnegie Mellon (completed 2004), with the PhD thesis \"Tractable Planning Under Uncertainty: Exploiting Structure,\" supervised by Sebastian Thrun and Geoff Gordon.",
+    "revised": "A [Carnegie Mellon seminar biography](https://www.cs.cmu.edu/afs/.cs.cmu.edu/Web/Posters/RI-Pineau14.pdf) records a Waterloo engineering bachelor's degree in 1998, followed by CMU robotics master's and PhD degrees in 2001 and 2004. Her dissertation is Tractable Planning Under Uncertainty.",
+    "evidence": [
+      "https://www.cs.mcgill.ca/~jpineau/",
+      "https://www.cs.cmu.edu/afs/.cs.cmu.edu/Web/Posters/RI-Pineau14.pdf"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 25,
+    "name": "Tri Dao",
+    "field": "education",
+    "old": "B.S., Stanford University (year not verified). Ph.D. in Computer Science, Stanford (2016 to 2023), advised by Christopher Ré and Stefano Ermon.",
+    "revised": "His [CV](https://tridao.me/assets/pdf/cv.pdf) records a Stanford mathematics BS and computer-science MS in 2016, a statistics MS in 2019 and a computer-science PhD completed in June 2023, advised by Christopher Re and Stefano Ermon.",
+    "evidence": [
+      "https://tridao.me/assets/pdf/cv.pdf",
+      "https://www.cs.princeton.edu/people/profile/td8762"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 25,
+    "name": "Tri Dao",
+    "field": "career",
+    "old": "During his PhD he released FlashAttention (2022) and FlashAttention-2 (2023). He co-founded Together AI as chief scientist in July 2023, and that December co-created Mamba with Albert Gu, followed by FlashAttention-3 for Hopper GPUs (2024) and Mamba-2 (ICML 2024). He held a Princeton faculty post as assistant professor from Sept 2024; Princeton now lists him as a visiting research scholar, though a 2026 secondary source still says assistant professor, so I treat his status as unconfirmed. In 2026 came Mamba-3 (ICLR) and FlashAttention-4, an MLSys Best Paper Honorable Mention.",
+    "revised": "During his doctorate he released FlashAttention in 2022 and FlashAttention-2 in 2023. His CV dates the Together AI chief-scientist role to July 2023 and lists Mamba, co-authored with Albert Gu, followed by Mamba-2 and FlashAttention-3. The same CV lists Mamba-3 and FlashAttention-4 in 2026. For his university title I use [Princeton's current page](https://www.cs.princeton.edu/people/profile/td8762), which says Visiting Research Scholar and previously Assistant Professor; the older CV still uses the faculty title.",
+    "evidence": [
+      "https://tridao.me/assets/pdf/cv.pdf",
+      "https://www.cs.princeton.edu/people/profile/td8762"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 25,
+    "name": "Tri Dao",
+    "field": "outlook",
+    "old": "Each GPU generation needs a new FlashAttention. With Blackwell-era FA-4 and Mamba-3 both out in 2026, he holds the two bets that most affect inference cost: faster attention and architectures without it. The flash-attention repo has 24.8k stars (Oct 2026), and he had about 33,000 Google Scholar citations (May 2026).",
+    "revised": "I am following the cost tradeoff between optimizing attention for new GPU generations and replacing it with state-space architectures; a reproducible improvement in memory use or throughput matters more to a buyer than an undated star count.",
+    "evidence": [
+      "https://tridao.me/assets/pdf/cv.pdf",
+      "https://www.cs.princeton.edu/people/profile/td8762"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 25,
+    "name": "Tri Dao",
+    "field": "read",
+    "old": "Born in Vietnam and an AI2050 Fellow (Schmidt Sciences), he is effectively hedging against his own best-known work, which I find the most telling thing about him. I could not verify Together AI's latest valuation.",
+    "revised": "The case weakens if faster published kernels do not improve real workloads once memory, quality and deployment costs are included.",
+    "evidence": [
+      "https://tridao.me/assets/pdf/cv.pdf",
+      "https://www.cs.princeton.edu/people/profile/td8762"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 25,
+    "name": "Tri Dao",
+    "field": "hook",
+    "old": "Tri Dao's kernels run inside nearly every major training and inference stack, yet most AI users have never heard his name. FlashAttention is his work.",
+    "revised": "FlashAttention tackles the GPU memory traffic that makes attention expensive; Tri Dao's research record also includes Mamba, a different architectural bet on how sequence models should work.",
+    "evidence": [
+      "https://tridao.me/assets/pdf/cv.pdf",
+      "https://www.cs.princeton.edu/people/profile/td8762"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 29,
+    "name": "Erik Bernhardsson",
+    "field": "outlook",
+    "old": "Modal raised a $355M Series C at a $4.65B post-money valuation (Dealroom, May 2026). Annualized revenue reportedly grew from about $60M (Sept 2025) to nearly $300M (May 2026). In Sept 2026 it was reported in talks to raise about $750M at roughly $15B to $16B: reported, not confirmed closed, and the source's headline and body give different figures.",
+    "revised": "Modal's [May 21, 2026 announcement](https://modal.com/blog/modal-series-c) confirms a $355 million Series C at a $4.65 billion post-money valuation, led by General Catalyst and Redpoint. It reports annualized revenue exceeding $300 million and fivefold growth since September; those are company claims, not audited full-year revenue. I have not established a closed subsequent round from the supplied September talks.",
+    "evidence": [
+      "https://modal.com/blog/modal-series-c"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 29,
+    "name": "Erik Bernhardsson",
+    "field": "read",
+    "old": "Annoy, Luigi and Modal share one instinct: make the infrastructure disappear. Any valuation here is Modal's, not his personal wealth.",
+    "revised": "The case weakens if usage growth fails to translate into durable margins after paying for compute.",
+    "evidence": [
+      "https://modal.com/blog/modal-series-c"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 30,
+    "name": "Lin Qiao",
+    "field": "education",
+    "old": "B.S. and M.S. in Computer Science, Fudan University; Ph.D. in Computer Science, UC Santa Barbara. I could not verify the years.",
+    "revised": "In her [TWIML interview biography](https://twimlai.com/network/lin-qiao/), Qiao records bachelor's and master's degrees in computer science from Fudan and a computer-science PhD from UC Santa Barbara; degree years are not established by that record.",
+    "evidence": [
+      "https://twimlai.com/network/lin-qiao/",
+      "https://fireworks.ai/blog/series-d-announcement"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 30,
+    "name": "Lin Qiao",
+    "field": "outlook",
+    "old": "Fireworks closed a $1.505B Series D at a $17.5B valuation on Jul 16, 2026, led by Atreides Management, Index Ventures and TCV, with Lightspeed, NVIDIA and Ontario Teachers' participating. It reports run-rate revenue above $1B, up about 5x year over year (company-reported). That makes it a leading candidate for an inference-company IPO.",
+    "revised": "Fireworks' [July 15, 2026 announcement](https://fireworks.ai/blog/series-d-announcement) reports a $1.505 billion Series D at a $17.5 billion valuation, led by Atreides, Index and TCV. It also reports an annualized revenue run rate above $1 billion and more than 40 trillion daily tokens; those operating figures are company-reported, not audited annual revenue.",
+    "evidence": [
+      "https://twimlai.com/network/lin-qiao/",
+      "https://fireworks.ai/blog/series-d-announcement"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 31,
+    "name": "Tuhin Srivastava",
+    "field": "hook",
+    "old": "Baseten's annualized revenue reportedly tripled from $200M to $600M in a single quarter (WSJ via Noqta, Jun 2026). Tuhin Srivastava, a former investment banker, runs it.",
+    "revised": "Baseten's financing moved from a $5 billion valuation in January 2026 to $13 billion in June; the later round is no longer merely reported talks, because the company published its own announcement.",
+    "evidence": [
+      "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/",
+      "https://www.baseten.co/blog/announcing-our-series-f/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 31,
+    "name": "Tuhin Srivastava",
+    "field": "career",
+    "old": "He began his career at Macquarie Group around 2009, then moved into machine learning engineering (I could not verify the employer). In 2019 he co-founded Baseten with Amir Haghighat, Phil Howes and Pankaj Gupta to run inference for production workloads. Customers include Writer, Abridge and Bland, per his HumanX bio. About five months before its June 2026 round, Baseten raised a $300M Series E at a $5B valuation.",
+    "revised": "Tuhin Srivastava co-founded the inference company with Amir Haghighat, Phil Howes and Pankaj Gupta. Baseten's [January 23, 2026 Series E statement](https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/) records $300 million raised at $5 billion and names IVP and CapitalG as leads. Its June announcement is signed by the four founders and names customers including Cursor, Notion, Harvey and OpenEvidence. I have not verified the supplied exact early-career banking dates.",
+    "evidence": [
+      "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/",
+      "https://www.baseten.co/blog/announcing-our-series-f/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 31,
+    "name": "Tuhin Srivastava",
+    "field": "outlook",
+    "old": "On Jun 18, 2026, WSJ reported a round of about $1.5B at $11B to $13B (split pricing), co-led by Spark Capital, Sands Capital, Altimeter, Wellington and Conviction. That round was reported, not confirmed closed at the time. If it closed as described, Baseten enters 2027 in the same tier as Fireworks and Modal, with a valuation that moved from $5B to as much as $13B in about five months.",
+    "revised": "The [June 22, 2026 Series F announcement](https://www.baseten.co/blog/announcing-our-series-f/) records $1.5 billion at a $13 billion valuation, led by Altimeter, Conviction and Spark, with Sands and Wellington co-leading. Baseten reports twentyfold revenue growth and fortyfold inference-volume growth over the previous year, but does not disclose an absolute revenue figure there. I am following whether specialization protects its economics as inference competitors expand.",
+    "evidence": [
+      "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/",
+      "https://www.baseten.co/blog/announcing-our-series-f/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 31,
+    "name": "Tuhin Srivastava",
+    "field": "read",
+    "old": "The public record on him is thin, and I would rather say so than pad it. The revenue figures are reported, not audited, and the valuation belongs to Baseten, not to him.",
+    "revised": "The case weakens if growth in inference volume masks falling margins or customer concentration.",
+    "evidence": [
+      "https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/",
+      "https://www.baseten.co/blog/announcing-our-series-f/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 36,
+    "name": "Anastasios Angelopoulos",
+    "field": "education",
+    "old": "B.S. in Electrical Engineering, Stanford; Ph.D. in EECS, UC Berkeley, followed by a Berkeley postdoc. I could not verify the years. His PhD research was on conformal prediction and distribution-free uncertainty quantification.",
+    "revised": "His [personal academic biography](https://angelopoulos.ai/) records undergraduate electrical engineering at Stanford, an EECS PhD at Berkeley advised by Michael Jordan and Jitendra Malik, and postdoctoral work with Ion Stoica; award years are not supplied in the opened biography.",
+    "evidence": [
+      "https://angelopoulos.ai/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 38,
+    "name": "Gavin Uberti",
+    "field": "hook",
+    "old": "In 2022 Gavin Uberti bet that AI would consolidate on transformers and set out to build a chip that runs nothing else. By Sept 2026, investors valued that bet at $21B.",
+    "revised": "Etched is a concentrated bet on transformer-specific inference hardware; its own funding announcement records $700 million at a $21 billion valuation in August 2026, rather than the September date in the supplied brief.",
+    "evidence": [
+      "https://www.etched.com/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 38,
+    "name": "Gavin Uberti",
+    "field": "career",
+    "old": "In 2022 he began experimenting with AI compiler optimizations and co-founded Etched with Harvard classmates Chris Zhu and Robert Wachen. The company raised a $5.4M seed at $34M (Mar 2023) and a $120M Series A (Jun 2024), the same month it unveiled Sohu, a transformer ASIC on TSMC 4nm. MIT Technology Review named him an Innovator Under 35 in Sept 2025, at 23. Etched then raised $300M led by Sequoia at $10.3B (Jul 2026) and $700M led by Jane Street at $21B (Sept 2026).",
+    "revised": "Gavin Uberti co-founded Etched with Chris Zhu and Robert Wachen after working on AI compiler optimizations. The company introduced Sohu as hardware specialized for transformers. Its [current company page](https://www.etched.com/) describes chips, racks and software designed together, reports returned A0 silicon from TSMC N4P, and says it is validating its first rack-scale product with customers. These are company statements about engineering progress, not independent evidence that the system has delivered its promised economic advantage.",
+    "evidence": [
+      "https://www.etched.com/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 38,
+    "name": "Gavin Uberti",
+    "field": "outlook",
+    "old": "Etched said in July 2026 it had $1B in orders; Jane Street has taken delivery of a system. Its claim that \"one Sohu server replaces 160 H100 GPUs\" is the company's own, and unverified. TechCrunch reported offers at $40B to $50B (Oct 5, 2026), reported, not confirmed closed.",
+    "revised": "The company identifies Jane Street as lead investor in its $700 million round at $21 billion. I am following delivered throughput, power consumption and customer economics rather than treating a quoted GPU-replacement ratio as a verified benchmark. Higher October valuation offers in reporting remain a separate, unconfirmed transaction lead; none is evidence of Uberti's personal wealth.",
+    "evidence": [
+      "https://www.etched.com/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 38,
+    "name": "Gavin Uberti",
+    "field": "read",
+    "old": "$34M to $21B in about three and a half years (company valuation, not his wealth). A single-architecture chip is exposed if attention-free designs like Tri Dao's Mamba (entry 25) catch on.",
+    "revised": "The case weakens if changing model architectures or real deployment costs erase the advantage of transformer-specific silicon.",
+    "evidence": [
+      "https://www.etched.com/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 42,
+    "name": "Anton Osika",
+    "field": "education",
+    "old": "BSc in Physics, Hong Kong University of Science and Technology; MSc in Engineering Physics and Applied Mathematics, KTH Royal Institute of Technology. I could not verify the years. Born Aug 10, 1990, in Sweden.",
+    "revised": "[KTH's September 2025 innovation-award profile](https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893) confirms engineering-physics studies at KTH; it does not establish the supplied HKUST degree or a completed KTH master's degree.",
+    "evidence": [
+      "https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 45,
+    "name": "Brendan Foody",
+    "field": "outlook",
+    "old": "Early talks at about $20B were reported Jul 9, 2026 (Bloomberg via TechCrunch), not confirmed closed. Meanwhile Mercor is handling a Mar 2026 data breach tied to the LiteLLM supply-chain attack, class actions and contractor complaints.",
+    "revised": "TechCrunch's [July 9, 2026 report](https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/) describes $20 billion valuation talks, not a closed round. Its [April breach report](https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/) dates the earlier $350 million financing at $10 billion to October 2025. I am following whether client trust and contractor economics hold up as expert-data demand grows.",
+    "evidence": [
+      "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/",
+      "https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 45,
+    "name": "Brendan Foody",
+    "field": "read",
+    "old": "A $2B gross-billings run rate is not $2B of revenue Mercor keeps. The breach fallout may matter more to that $20B than growth does.",
+    "revised": "The case weakens if gross contractor billings are mistaken for retained revenue or security failures damage lab customers' trust.",
+    "evidence": [
+      "https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/",
+      "https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 54,
+    "name": "Grant Lee",
+    "field": "education",
+    "old": "I could not verify his education.",
+    "revised": "[Stanford's entrepreneurship biography](https://stvp.stanford.edu/people/grant-lee) records a BS in biomechanical engineering and an MS in mechanical engineering; graduation years are not stated.",
+    "evidence": [
+      "https://stvp.stanford.edu/people/grant-lee"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 54,
+    "name": "Grant Lee",
+    "field": "career",
+    "old": "I could not verify Lee's career before Gamma. He co-founded the company in late 2020 with Jon Noronha and James Fox, and the product launched in 2022. In late 2022, with runway running short, the team bet the company on AI and rebuilt the product in three months. Gamma says it reached $50M ARR profitably within its first two years. In Nov 2025 it raised a $68M Series B at $2.1B led by Andreessen Horowitz, bringing total funding to about $90M, and reported 70M users and more than 400M creations. One investor, Lee has said, called it \"the dumbest idea he had ever heard\" (Lenny's Newsletter).",
+    "revised": "Stanford's biography identifies him as Gamma's CEO and co-founder and supplies a career the original brief left unknown: he was COO of ClearBrain, acquired by Amplitude, and CFO of Optimizely. Gamma began in 2020, launched its product in 2022 and integrated AI in 2023. Its [November 2025 announcement](https://gamma.app/insights/how-we-built-a-usd100m-business-differently) reported $100 million ARR and a $68 million Series B at a $2.1 billion valuation. Those are company-reported figures; I do not divide funding including a secondary component into ARR and call the ratio capital efficiency.",
+    "evidence": [
+      "https://stvp.stanford.edu/people/grant-lee"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 54,
+    "name": "Grant Lee",
+    "field": "outlook",
+    "old": "Gamma is the cleanest case of a capital-efficient AI app I found: profitable, roughly 50 people, $100M ARR on about $90M raised. The next test is taking share in office software from Microsoft and Google, who own the default slide tools.",
+    "revised": "I am following whether Gamma can keep a simple authoring experience while winning recurring paid use against the office suites; profitability and dated customer retention would be more useful evidence than cumulative creation counts.",
+    "evidence": [
+      "https://stvp.stanford.edu/people/grant-lee"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 54,
+    "name": "Grant Lee",
+    "field": "read",
+    "old": "I like the efficiency story, but my data stops at Nov 2025; I could not verify any 2026 figures or Lee's 2026 role. No personal net worth has been reported; $2.1B is the company valuation.",
+    "revised": "The case weakens if the reported efficiency cannot survive competition from bundled office tools.",
+    "evidence": [
+      "https://stvp.stanford.edu/people/grant-lee"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 62,
+    "name": "Zachary Lipton",
+    "field": "education",
+    "old": "Columbia University, undergraduate (I could not verify the degree or year). PhD in Computer Science, UC San Diego, 2017, advised by Charles Elkan and Julian McAuley.",
+    "revised": "[Carnegie Mellon's expert biography](https://www.cmu.edu/news/experts/zachary.lipton) records a Columbia BA in mathematics and economics; the supplied doctoral year still needs a direct degree record.",
+    "evidence": [
+      "https://www.cmu.edu/news/experts/zachary.lipton"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 65,
+    "name": "Suchi Saria",
+    "field": "education",
+    "old": "Mount Holyoke College, BA (year not verified). Stanford University, MS and PhD (PhD 2011), advised by Daphne Koller.",
+    "revised": "[Johns Hopkins' faculty record](https://publichealth.jhu.edu/faculty/2783/suchi-saria) lists Stanford MSc and PhD degrees in 2011. Her own Hopkins research biography identifies Daphne Koller as her doctoral adviser.",
+    "evidence": [
+      "https://publichealth.jhu.edu/faculty/2783/suchi-saria",
+      "https://suchisaria.jhu.edu/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 67,
+    "name": "Brian Hie",
+    "field": "education",
+    "old": "Stanford University, undergraduate, and a PhD from MIT CSAIL. I could not verify the degrees' years.",
+    "revised": "His [Stanford faculty record](https://cheme.stanford.edu/people/brian-hie) lists an honors computer-science BS from Stanford in 2016, an MIT EECS MS in 2019 and an MIT EECS PhD in 2021.",
+    "evidence": [
+      "https://cheme.stanford.edu/people/brian-hie"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 67,
+    "name": "Brian Hie",
+    "field": "career",
+    "old": "Before academia he worked at Google X, Illumina and Salesforce, an unusually industrial route to a Stanford professorship. He was a visiting researcher at Meta AI, working on protein language models, then a Stanford Science Fellow at the School of Medicine. He then joined the Stanford faculty and Arc Institute, a nonprofit. Evo 2 (preprint Feb 2025; *Nature*, 2026), on which he is co-senior author, was trained on more than 9.3 trillion nucleotides from more than 128,000 whole genomes plus metagenomic data, using more than 2,000 NVIDIA H100s. It reads up to 1 million nucleotides of context and classified BRCA1 variants as benign or likely pathogenic with over 90% accuracy.",
+    "revised": "Stanford's faculty biography records earlier appointments as a Stanford Science Fellow and visiting Meta AI researcher, followed by his current faculty and Arc Institute roles. He co-led the Evo 2 genome-model work, whose released paper describes long-context modeling across genomic data. The technical paper and release artifacts are a better basis for evaluating the contribution than an undated count of GPUs or citations. I keep a model's reported variant-classification performance separate from evidence that it is safe for clinical diagnosis.",
+    "evidence": [
+      "https://cheme.stanford.edu/people/brian-hie"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 68,
+    "name": "Max Jaderberg",
+    "field": "education",
+    "old": "University of Oxford, undergraduate in engineering science, then a PhD with Oxford's Visual Geometry Group on deep learning for image understanding. I could not verify the years.",
+    "revised": "A [Broad Institute biography](https://www.broadinstitute.org/bios/max-jaderberg) records Oxford undergraduate engineering science and doctoral work in Oxford's Visual Geometry Group; the opened record does not establish the degree years.",
+    "evidence": [
+      "https://www.broadinstitute.org/bios/max-jaderberg"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 69,
+    "name": "Emma Lundberg",
+    "field": "education",
+    "old": "KTH Royal Institute of Technology, MS in Bioengineering (2004) and PhD in Biotechnology (2008).",
+    "revised": "Her [Stanford faculty record](https://profiles.stanford.edu/emma-lundberg?tab=bio) lists a KTH bioengineering master's degree in 2004 and a biotechnology PhD in 2008.",
+    "evidence": [
+      "https://profiles.stanford.edu/emma-lundberg?tab=bio"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 71,
+    "name": "Deepak Pathak",
+    "field": "education",
+    "old": "IIT Kanpur, BTech in Computer Science and Engineering, 2014, with the Institute Gold Medal. UC Berkeley, PhD in Computer Science, 2019.",
+    "revised": "His [CMU-hosted CV](https://www.cs.cmu.edu/~dpathak/CV_Pathak.pdf) dates an IIT Kanpur computer-science and engineering BTech to 2014 and Berkeley computer-science doctoral research to 2014 to 2019, advised by Alexei Efros and Trevor Darrell; the older CV still uses candidate language, so it alone does not certify the award date.",
+    "evidence": [
+      "https://www.cs.cmu.edu/~dpathak/CV_Pathak.pdf",
+      "https://www.cs.cmu.edu/~dpathak/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 71,
+    "name": "Deepak Pathak",
+    "field": "career",
+    "old": "During his PhD he held fellowships from Facebook, NVIDIA and Snapchat, and his research on curiosity-driven exploration and self-supervised learning borrowed directly from psychology. He was a researcher at Meta AI Research and a visiting postdoc at Berkeley, then joined CMU as Raj Reddy Assistant Professor, promoted to associate professor in 2024. In 2023 he co-founded Skild AI in Pittsburgh with Abhinav Gupta, its president. The Skild Brain runs on standard GPUs across quadrupeds, arms, hands and humanoids. Awards include the IEEE PAMI Young Researcher Award (2026) and a Sloan Fellowship (2025).",
+    "revised": "His CMU research record connects curiosity-driven exploration and self-supervised learning to robot behavior. His CV records a Facebook AI Research appointment and a Berkeley visiting postdoctoral role before CMU. He co-founded Skild AI in 2023 with Abhinav Gupta. The technical question is whether a shared robot model can generalize across different bodies, tasks and environments; named deployments must demonstrate that generalization rather than merely share a financing headline.",
+    "evidence": [
+      "https://www.cs.cmu.edu/~dpathak/CV_Pathak.pdf",
+      "https://www.cs.cmu.edu/~dpathak/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 80,
+    "name": "Ekin Dogus Cubuk",
+    "field": "education",
+    "old": "I could not verify his education.",
+    "revised": "His [Harvard alumni record](https://efthimioskaxiras.scholars.harvard.edu/ekin-dogus) records a PhD in 2016 and a physics MA, alongside a Swarthmore BS in engineering and BA in physics with high honors; the old page's Google affiliation is a historical record, not evidence of his current job.",
+    "evidence": [
+      "https://efthimioskaxiras.scholars.harvard.edu/ekin-dogus"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 82,
+    "name": "Kristen DiCerbo",
+    "field": "education",
+    "old": "I could not verify her education.",
+    "revised": "[Khan Academy's leadership biography](https://www.khanacademy.org/about/our-board) records a Hamilton College BA in psychology and sociology and Arizona State MEd and PhD degrees in educational psychology; graduation years are not stated there.",
+    "evidence": [
+      "https://www.khanacademy.org/about/our-board"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 82,
+    "name": "Kristen DiCerbo",
+    "field": "career",
+    "old": "She came up through educational assessment and research; I could not verify her earlier career dates. As Chief Learning Officer at Khan Academy (title confirmed in a blog post dated Oct 7, 2026), she leads the learning science behind Khanmigo, the AI tutor introduced Mar 14, 2023, and writes the column \"Kristen's Corner.\" The design choices she champions: withhold the answer, walk students through their mistakes. A Khanmigo pilot reached about 65,000 students across 53 school districts, an older figure.",
+    "revised": "Khan Academy's biography records earlier work as vice-president of learning research and design at Pearson, work with Cisco Networking Academy and service as a school psychologist in Arizona. As Khan Academy's chief learning officer, DiCerbo leads its learning strategy, content and product teams. That history provides a firmer career account than the supplied note that her earlier work could not be verified. Her Khanmigo work connects AI product design to pedagogy: helping students reason through a problem rather than simply handing them an answer.",
+    "evidence": [
+      "https://www.khanacademy.org/about/our-board"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 83,
+    "name": "Alex Kendall",
+    "field": "education",
+    "old": "PhD, University of Cambridge (thesis 2017), then a Research Fellow at Trinity College, Cambridge (2017). Earlier degrees not verified. He grew up in New Zealand's South Island.",
+    "revised": "His [personal research biography](https://alexgkendall.com/) records a Cambridge PhD and a Trinity College research fellowship; I have not established earlier degrees from that page.",
+    "evidence": [
+      "https://alexgkendall.com/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 85,
+    "name": "Marius Hobbhahn",
+    "field": "education",
+    "old": "University of Tübingen: BSc in Computer Science and BSc in Cognitive Science (2015 to 2018), MSc in Machine Learning (2018 to 2020), and a PhD in Bayesian machine learning (2020 to 2023) advised by Philipp Hennig.",
+    "revised": "[Tubingen's alumni record](https://tuebingen.ai/alumni/marius-hobhahn) dates his computer-science and cognitive-science bachelor's studies to 2015 to 2018, machine-learning master's studies to 2018 to 2020 and Bayesian machine-learning doctoral work with Philipp Hennig to 2020 to 2023.",
+    "evidence": [
+      "https://tuebingen.ai/alumni/marius-hobhahn"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 88,
+    "name": "Dean W. Ball",
+    "field": "education",
+    "old": "BA in History, magna cum laude, Hamilton College. I could not verify the year.",
+    "revised": "His [Foundation for American Innovation biography](https://www.thefai.org/profile/dean-ball) records a Hamilton College BA in history, magna cum laude; the opened biography does not state the graduation year.",
+    "evidence": [
+      "https://www.thefai.org/profile/dean-ball"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 90,
+    "name": "Kai Zenner",
+    "field": "education",
+    "old": "State Exam in law, University of Münster; BA in Political Science, University of Bremen; MSc in Political Science, University of Edinburgh. I could not verify the years.",
+    "revised": "The [OECD expert biography](https://oecd.ai/en/community/kai-zenner) lists an Edinburgh political-science MSc, a Bremen political-science BA and a law state examination at Munster. It identifies him as head of office and digital-policy adviser to Axel Voss MEP, not as an OECD employee.",
+    "evidence": [
+      "https://oecd.ai/en/community/kai-zenner"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 91,
+    "name": "Helen Toner",
+    "field": "education",
+    "old": "BSc in Chemical Engineering and Diploma in Languages, University of Melbourne (graduated 2014); MA in Security Studies, Georgetown University (2019 to 2021).",
+    "revised": "Her [CSET staff biography](https://cset.georgetown.edu/staff/helen-toner/) records a Georgetown security-studies MA, a Melbourne chemical-engineering BSc and a diploma in languages; degree years are not stated on that page.",
+    "evidence": [
+      "https://cset.georgetown.edu/staff/helen-toner/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 91,
+    "name": "Helen Toner",
+    "field": "outlook",
+    "old": "CSET named her interim executive director effective 2 Sept 2025. I could not find a 2026 source confirming whether she is still interim or now permanent. Either way, US-China compute competition and federal preemption of state AI laws sit squarely in her lane.",
+    "revised": "CSET's current [staff page](https://cset.georgetown.edu/staff/helen-toner/) calls her Executive Director, without the interim qualifier in the supplied brief. I am following whether its research makes US-China AI competition easier to measure through concrete records of chips, research capacity and deployment, rather than through assumptions about national intent.",
+    "evidence": [
+      "https://cset.georgetown.edu/staff/helen-toner/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 91,
+    "name": "Helen Toner",
+    "field": "read",
+    "old": "A chemical engineer who studied Mandarin and worked in Beijing is an unusual profile for a DC security voice. On China, it is an asset.",
+    "revised": "The case weakens if policy recommendations outrun the evidence about capability, access and actual deployment.",
+    "evidence": [
+      "https://cset.georgetown.edu/staff/helen-toner/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 94,
+    "name": "Leigh Marie Braswell",
+    "field": "education",
+    "old": "MIT. I could not verify her degree or year.",
+    "revised": "Her [Kleiner Perkins biography](https://www.kleinerperkins.com/people/leigh-marie-braswell/) confirms graduation from MIT; it does not specify a degree subject or award year in the opened record.",
+    "evidence": [
+      "https://www.kleinerperkins.com/people/leigh-marie-braswell/"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  },
+  {
+    "number": 97,
+    "name": "Nathan Lambert",
+    "field": "education",
+    "old": "PhD in EECS, UC Berkeley (BAIR), fall 2017 to early 2022, advised by Kris Pister and Roberto Calandra. Undergraduate study at Cornell is inferred from a rowing reference; I could not verify the degree or year.",
+    "revised": "His first-person [account of entering AI](https://www.interconnects.ai/p/my-path-into-ai) describes Berkeley doctoral research from 2017 to early 2022; I do not infer a Cornell degree from a reference to earlier rowing there.",
+    "evidence": [
+      "https://www.interconnects.ai/p/my-path-into-ai"
+    ],
+    "checked": "2026-10-14",
+    "scope": "Specific correction; not approval of all expanded claims."
+  }
+]

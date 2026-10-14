@@ -39,6 +39,39 @@ export default async function Page() {
   const structured = {
     "@context": "https://schema.org",
     "@graph": [
+      ...(aiWatchlist.faq?.length
+        ? [
+            {
+              "@type": "FAQPage",
+              mainEntity: aiWatchlist.faq.map((f) => ({
+                "@type": "Question",
+                name: f.question,
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: f.answer.replace(/\[([^\]]+)\]\([^)]*\)/g, "$1"),
+                },
+              })),
+            },
+          ]
+        : []),
+      ...(aiWatchlist.layout === "profiles"
+        ? [
+            {
+              "@type": "ItemList",
+              name: "100 AI people to watch in 2027",
+              numberOfItems: 100,
+              itemListElement: aiWatchlist.people.map((p) => ({
+                "@type": "ListItem",
+                position: p.number,
+                item: {
+                  "@type": "Person",
+                  name: p.name,
+                  url: `https://visionarytalks.com/ai-people-to-watch/#${p.id}`,
+                },
+              })),
+            },
+          ]
+        : []),
       {
         "@type": "Article",
         headline: aiWatchlist.title,

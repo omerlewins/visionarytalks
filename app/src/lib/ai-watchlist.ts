@@ -45,6 +45,17 @@ const person = z.object({
   risk: z.string().min(20),
   featured: z.boolean(),
   detail: z.array(z.string()),
+  profile: z
+    .object({
+      hook: z.string().min(20),
+      education: z.string().min(10),
+      career: z.string().min(20),
+      outlook: z.string().min(20),
+      read: z.string().min(20),
+      location: z.string().optional(),
+      sources: z.array(z.object({ title: z.string(), url: z.url() })).min(1),
+    })
+    .optional(),
   checked: date,
   reviewState: z.enum(["retained-claims-checked", "pending"]),
   relatedLinks: z.array(
@@ -61,7 +72,7 @@ export const aiWatchlistSchema = z
     title: z.string(),
     dek: z.string(),
     seo: z.object({
-      title: z.string().max(65),
+      title: z.string().max(80),
       description: z.string().max(165),
     }),
     checked: date,
@@ -110,6 +121,19 @@ export const aiWatchlistSchema = z
         sourceId: id,
       }),
     ),
+    layout: z.literal("profiles").optional(),
+    editionChecked: date.optional(),
+    introduction: z.array(z.string()).length(3).optional(),
+    patterns: z
+      .array(z.object({ title: z.string(), text: z.string() }))
+      .length(5)
+      .optional(),
+    faq: z
+      .array(z.object({ question: z.string(), answer: z.string() }))
+      .optional(),
+    methodology: z
+      .array(z.object({ label: z.string(), text: z.string() }))
+      .optional(),
   })
   .superRefine((value, context) => {
     const seen = new Set<string>(),
@@ -122,6 +146,11 @@ export const aiWatchlistSchema = z
         });
       seen.add(p.id);
       numbers.add(p.number);
+      if (value.layout === "profiles" && !p.profile)
+        context.addIssue({
+          code: "custom",
+          message: `Missing expanded entry for ${p.name}`,
+        });
       for (const s of [p.sourceId, ...(p.additionalSourceIds ?? [])])
         if (!value.sources[s])
           context.addIssue({

@@ -234,6 +234,22 @@
   font: 11px/2 var(--sans);
   color: var(--muted);
 }
+.watch-index-person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.watch-index-person img {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #d5d5ca;
+}
+.watch-illustration-disclosure {
+  color: #555b55;
+}
 .watch-index-note {
   font: 12px/1.6 var(--sans);
   color: var(--muted);
@@ -354,6 +370,97 @@
   padding: 32px 0;
   border-bottom: 1px solid var(--rule);
   scroll-margin-top: 25px;
+}
+.watch-profile-hero {
+  max-width: 950px;
+  padding: 35px 0 25px;
+}
+.watch-profile-hero h1 {
+  font: normal 52px/1.12 var(--serif);
+  letter-spacing: -1.3px;
+  margin: 20px 0 25px;
+}
+.watch-profiles .watch-introduction {
+  max-width: 850px;
+  margin: 10px 0 40px;
+}
+.watch-profiles .watch-person .watch-person-portrait {
+  margin: 18px 0 24px;
+  width: 160px;
+}
+.watch-profiles .watch-person-portrait img {
+  width: 160px;
+  height: 160px;
+  border-radius: 3px;
+}
+.watch-profiles .watch-person-portrait figcaption {
+  font-size: 9px;
+  text-align: left;
+}
+.watch-profiles .watch-person .watch-profile-role {
+  font: 13px/1.6 var(--sans);
+  margin: 12px 0;
+}
+.watch-profiles .watch-person .watch-profile-sources {
+  font: 12px/1.7 var(--sans);
+  border-top: 1px solid var(--rule);
+  padding-top: 16px;
+}
+.watch-profile-label {
+  font-weight: 600;
+}
+.watch-profile-hook {
+  font-size: 20px !important;
+}
+.watch-patterns {
+  max-width: 880px;
+  margin: 50px 0;
+}
+.watch-patterns h3 {
+  font: normal 25px/1.3 var(--serif);
+  margin: 28px 0 12px;
+}
+.watch-patterns p,
+.watch-faq p {
+  font: 18px/1.65 var(--serif);
+}
+.watch-patterns table {
+  min-width: 0;
+}
+.watch-faq {
+  max-width: 850px;
+  margin: 55px 0;
+}
+.watch-faq h3 {
+  font: normal 23px/1.4 var(--serif);
+  margin: 25px 0 12px;
+}
+.watch-profiles .watch-methodology {
+  max-width: 850px;
+  margin: 50px 0;
+}
+.watch-profiles .watch-methodology li {
+  font: 17px/1.65 var(--serif);
+  margin: 14px 0;
+}
+@media (max-width: 650px) {
+  .watch-profile-hero h1 {
+    font-size: 35px;
+    letter-spacing: -0.6px;
+  }
+  .watch-profiles .watch-person-portrait img {
+    width: 132px;
+    height: 132px;
+  }
+  .watch-profiles .watch-person-portrait {
+    width: 132px;
+  }
+  .watch-profiles .watch-person h3 {
+    font-size: 27px;
+  }
+  .watch-profile-hook {
+    font-size: 18px !important;
+  }
 }
 .watch-person.featured {
   background: #f4f3ed;

@@ -20,7 +20,7 @@ const fs=require('node:fs');
   await page.locator('[data-watch-id] a').filter({hasText:'Tri Dao'}).click();if(!page.url().endsWith('#tri-dao'))throw new Error('Stable anchor');
   await page.evaluate(async()=>{await Promise.all([...document.images].map(async(image)=>{image.loading='eager';await image.decode()}))});
   if(await page.locator('.watch-person .watch-role-labels').count()!==100)throw new Error('Missing role labels');
-  if(await page.locator('.watch-person-portrait').count()!==12)throw new Error('Featured portrait scope');
+  if(await page.locator('.watch-person-portrait').count()!==100)throw new Error('Every entry needs its own portrait');
   if(await page.locator('.watch-test-card').count()!==200)throw new Error('Missing research panels');
   const form=page.locator('#suggest-person form');
   if(await form.getAttribute('action')!=='mailto:daniel@visionarytalks.com?subject=AI%20watchlist%20nomination')throw new Error('Nomination fallback');

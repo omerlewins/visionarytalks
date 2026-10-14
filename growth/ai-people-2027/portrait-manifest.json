@@ -4,88 +4,894 @@
   "note": "AI editorial illustrations, not photographs, interviews or endorsements. Identity photos include historical portraits; these are not verified current headshots. Private reference photos are not redistributed. Fedus is the right-hand person in the Felicis founders photo. An unrelated current X avatar candidate was rejected for Ying Sheng; the older self-published portrait was used.",
   "portraits": [
     {
+      "number": 1,
+      "name": "Alexander Wei",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/alexander-wei-editorial-v1.webp",
+      "reference": "https://www.alexwei.org/",
+      "prompt": "Create one square editorial portrait illustration of Alexander Wei for Visionary Talks. Reference 1 is the ONLY identity and face reference; preserve his facial geometry, short dark hair, smile and recognizable expression. Reference 2 is ONLY the desired graphite and ink engraving style, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove backpack and outdoor backdrop; retain casual dark shirt. Face large and recognizable at 132px thumbnail. Illustrate the person in reference 1, never substitute the style-reference man."
+    },
+    {
+      "number": 2,
+      "name": "Jerry Tworek",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jerry-tworek-editorial-v1.webp",
+      "reference": "https://www.businesstoday.in/amp/technology/news/story/openai-reasoning-chief-jerry-tworek-quits-after-7-years-heres-why-509827-2026-01-07",
+      "prompt": "Create one square editorial portrait illustration of Jerry Tworek for Visionary Talks. Reference 1 is the ONLY identity and face reference; preserve the supplied person's facial geometry, hair, eyewear if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background scenery and props. Keep face large, recognizable at 132px thumbnail. Do not substitute the style-reference man."
+    },
+    {
+      "number": 3,
+      "name": "Jason Wei",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jason-wei-editorial-v1.webp",
+      "reference": "https://www.jasonwei.net/",
+      "prompt": "Create one square editorial portrait illustration of Jason Wei for Visionary Talks. Reference 1 is the ONLY identity and face reference; preserve the supplied person's facial geometry, hair, eyewear if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background scenery and props. Keep face large, recognizable at 132px thumbnail. Do not substitute the style-reference man."
+    },
+    {
+      "number": 4,
+      "name": "Hongyu Ren",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/hongyu-ren-editorial-v1.webp",
+      "reference": "https://forum.openai.com/public/events/virtual-event-learning-to-reason-with-llms-74dhb4kcmj",
+      "prompt": "Create one square editorial portrait illustration of Hongyu Ren for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 5,
+      "name": "Sholto Douglas",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/sholto-douglas-editorial-v1.webp",
+      "reference": "https://x.com/_sholtodouglas",
+      "prompt": "Create one square editorial portrait illustration of Sholto Douglas for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
       "id": "batson",
       "number": 6,
       "src": "/reference/watchlist/batson-editorial-v1.webp",
       "reference": "https://www.gatescambridge.org/biography/6120/",
-      "prompt": "Create one square editorial portrait illustration of Joshua (Josh) Batson for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Joshua (Josh) Batson for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Joshua (Josh) Batson"
+    },
+    {
+      "number": 7,
+      "name": "Julian Schrittwieser",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/julian-schrittwieser-editorial-v1.webp",
+      "reference": "https://x.com/Mononofu",
+      "prompt": "Create one square editorial portrait illustration of Julian Schrittwieser for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 8,
+      "name": "Neel Nanda",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/neel-nanda-editorial-v1.webp",
+      "reference": "https://www.neelnanda.io/about",
+      "prompt": "Create one square editorial portrait illustration of Neel Nanda for Visionary Talks. Reference 1 is the ONLY identity and face reference; preserve the supplied person's facial geometry, hair, eyewear if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background scenery and props. Keep face large, recognizable at 132px thumbnail. Do not substitute the style-reference man."
+    },
+    {
+      "number": 9,
+      "name": "Jack Parker-Holder",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jack-parker-holder-editorial-v1.webp",
+      "reference": "https://jparkerholder.github.io/",
+      "prompt": "Create one square editorial portrait illustration of Jack Parker-Holder for Visionary Talks. Reference 1 is the ONLY identity and face reference; preserve the supplied person's facial geometry, hair, eyewear if present and recognizable expression. Illustrate ONLY the man, exclude the dog completely. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background scenery and props. Keep face large, recognizable at 132px thumbnail. Do not substitute the style-reference man."
+    },
+    {
+      "number": 10,
+      "name": "Lilian Weng",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/lilian-weng-editorial-v1.webp",
+      "reference": "https://americanbazaaronline.com/2026/07/30/weng-leaves-thinking-machines-to-rejoin-openai-485496/",
+      "prompt": "Create one square editorial portrait illustration of Lilian Weng for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "fedus",
       "number": 11,
       "src": "/reference/watchlist/fedus-editorial-v1.webp",
       "reference": "https://www.felicis.com/blog/periodic-labs-investment",
-      "prompt": "Create one square editorial portrait illustration of Liam Fedus for Visionary Talks. In reference 1, Liam Fedus is the man on the RIGHT in the gray zip-neck sweater. Illustrate ONLY that man; exclude the other man completely. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Liam Fedus for Visionary Talks. In reference 1, Liam Fedus is the man on the RIGHT in the gray zip-neck sweater. Illustrate ONLY that man; exclude the other man completely. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Liam Fedus"
+    },
+    {
+      "number": 12,
+      "name": "Misha Laskin",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/misha-laskin-editorial-v1.webp",
+      "reference": "https://event.gic.com.sg/bridgeforumsummit2025",
+      "prompt": "Create one square editorial portrait illustration of Misha Laskin for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 13,
+      "name": "Luo Fuli",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/luo-fuli-editorial-v1.webp",
+      "reference": "https://hr.xiaomi.com/website/top-talent.html",
+      "prompt": "Create one square editorial portrait illustration of Luo Fuli for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 14,
+      "name": "Yao Shunyu (Vinces Yao)",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/yao-shunyu-vinces-yao-editorial-v1.webp",
+      "reference": "https://database.caixin.com/m/2026-01-24/102407419.html",
+      "prompt": "Create one square editorial portrait illustration of Shunyu Yao for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 15,
+      "name": "Lin Junyang (Justin Lin)",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/lin-junyang-justin-lin-editorial-v1.webp",
+      "reference": "https://x.com/JustinLin610",
+      "prompt": "Create one square editorial portrait illustration of Junyang Lin for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 16,
+      "name": "Yang Zhilin",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/yang-zhilin-editorial-v1.webp",
+      "reference": "https://www.faz.net/pro/digitalwirtschaft/transformation/augenhoehe-mit-open-ai-kimi-k2-und-der-zweite-deepseek-moment-110591982.html",
+      "prompt": "Create one square editorial portrait illustration of Zhilin Yang for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 17,
+      "name": "Chelsea Finn",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/chelsea-finn-editorial-v1.webp",
+      "reference": "https://ai.stanford.edu/~cbfinn/",
+      "prompt": "Create one square editorial portrait illustration of Chelsea Finn for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 18,
+      "name": "Sherry Yang",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/sherry-yang-editorial-v1.webp",
+      "reference": "https://sherryy.github.io/",
+      "prompt": "Create one square editorial portrait illustration of Sherry Yang for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 19,
+      "name": "Levent Alpöge",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/levent-alpoge-editorial-v1.webp",
+      "reference": "https://x.com/__alpoge__",
+      "prompt": "Create one square editorial portrait illustration of Levent Alpöge for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 20,
+      "name": "Sara Hooker",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/sara-hooker-editorial-v1.webp",
+      "reference": "https://mila.quebec/fr/evenement/mila-techaide-2025",
+      "prompt": "Create one square editorial portrait illustration of Sara Hooker for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 21,
+      "name": "Joelle Pineau",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/joelle-pineau-editorial-v1.webp",
+      "reference": "https://ised-isde.canada.ca/site/advisory-council-artificial-intelligence/en/safe-and-secure-ai-advisory-group",
+      "prompt": "Create one square editorial portrait illustration of Joelle Pineau for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 22,
+      "name": "Woosuk Kwon",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/woosuk-kwon-editorial-v1.webp",
+      "reference": "https://www.alphaxiv.org/@woosuk-kwon",
+      "prompt": "Create one square editorial portrait illustration of Woosuk Kwon for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "sheng",
       "number": 23,
       "src": "/reference/watchlist/sheng-editorial-v1.webp",
       "reference": "https://x.com/ying11231",
-      "prompt": "Create one square editorial portrait illustration of Ying Sheng for Visionary Talks. Reference 1 shows the person's face. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Ying Sheng for Visionary Talks. Reference 1 shows the person's face. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Ying Sheng"
     },
     {
       "id": "gerganov",
       "number": 24,
       "src": "/reference/watchlist/gerganov-editorial-v1.webp",
       "reference": "https://huggingface.co/blog/ggml-joins-hf",
-      "prompt": "Create one square editorial portrait illustration of Georgi Gerganov for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Georgi Gerganov for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Georgi Gerganov"
     },
     {
       "id": "dao",
       "number": 25,
       "src": "/reference/watchlist/dao-editorial-v1.webp",
       "reference": "https://tridao.me/",
-      "prompt": "Create one square editorial portrait illustration of Tri Dao for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Tri Dao for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Tri Dao"
+    },
+    {
+      "number": 26,
+      "name": "Daniel Han",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/daniel-han-editorial-v1.webp",
+      "reference": "https://tii.ae/node/3272",
+      "prompt": "Create one square editorial portrait illustration of Daniel Han for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 27,
+      "name": "Omar Khattab",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/omar-khattab-editorial-v1.webp",
+      "reference": "https://www.eecs.mit.edu/people/omar-khattab/",
+      "prompt": "Create one square editorial portrait illustration of Omar Khattab for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 28,
+      "name": "Lysandre Debut",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/lysandre-debut-editorial-v1.webp",
+      "reference": "https://pytorch.org/?p=1098",
+      "prompt": "Create one square editorial portrait illustration of Lysandre Debut for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 29,
+      "name": "Erik Bernhardsson",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/erik-bernhardsson-editorial-v1.webp",
+      "reference": "https://erikbern.com/about",
+      "prompt": "Create one square editorial portrait illustration of Erik Bernhardsson for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 30,
+      "name": "Lin Qiao",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/lin-qiao-editorial-v1.webp",
+      "reference": "https://twimlai.com/network/lin-qiao/",
+      "prompt": "Create one square editorial portrait illustration of Lin Qiao for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 31,
+      "name": "Tuhin Srivastava",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/tuhin-srivastava-editorial-v1.webp",
+      "reference": "https://x.com/tuhinone",
+      "prompt": "Create one square editorial portrait illustration of Tuhin Srivastava for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 32,
+      "name": "Gorkem Yurtseven",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/gorkem-yurtseven-editorial-v1.webp",
+      "reference": "https://www.upscaleconf.com/",
+      "prompt": "Create one square editorial portrait illustration of Gorkem Yurtseven for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 33,
+      "name": "Jeffrey Morgan",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jeffrey-morgan-editorial-v1.webp",
+      "reference": "https://www.ycombinator.com/companies/ollama",
+      "prompt": "Create one square editorial portrait illustration of Jeffrey Morgan for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 34,
+      "name": "Simon Hørup Eskildsen",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/simon-h-rup-eskildsen-editorial-v1.webp",
+      "reference": "https://www.aicouncil.com/speakers/simon-h-rup-eskildsen",
+      "prompt": "Create one square editorial portrait illustration of Simon Hørup Eskildsen for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 35,
+      "name": "Ankur Goyal",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/ankur-goyal-editorial-v1.webp",
+      "reference": "https://www.notion.com/zh-tw/customers/braintrust",
+      "prompt": "Create one square editorial portrait illustration of Ankur Goyal for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 36,
+      "name": "Anastasios Angelopoulos",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/anastasios-angelopoulos-editorial-v1.webp",
+      "reference": "https://www.endeavor.org.gr/entrepreneurs/anastasios-angelopoulos",
+      "prompt": "Create one square editorial portrait illustration of Anastasios Angelopoulos for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 37,
+      "name": "David Soria Parra",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/david-soria-parra-editorial-v1.webp",
+      "reference": "https://www.ai.engineer/speakers/david-soria-parra",
+      "prompt": "Create one square editorial portrait illustration of David Soria Parra for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 38,
+      "name": "Gavin Uberti",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/gavin-uberti-editorial-v1.webp",
+      "reference": "https://www.semi.org/en/bio-gavin-uberti",
+      "prompt": "Create one square editorial portrait illustration of Gavin Uberti for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 39,
+      "name": "Reiner Pope",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/reiner-pope-editorial-v1.webp",
+      "reference": "https://x.com/reinerpope",
+      "prompt": "Create one square editorial portrait illustration of Reiner Pope for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 40,
+      "name": "Sharon Zhou",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/sharon-zhou-editorial-v1.webp",
+      "reference": "https://www.amd.com/en/corporate/events/advancing-ai.html",
+      "prompt": "Create one square editorial portrait illustration of Sharon Zhou for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 41,
+      "name": "Jerry Liu",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jerry-liu-editorial-v1.webp",
+      "reference": "https://www.uipath.com/events/fusion",
+      "prompt": "Create one square editorial portrait illustration of Jerry Liu for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 42,
+      "name": "Anton Osika",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/anton-osika-editorial-v1.webp",
+      "reference": "https://www.businessinsider.com/lovable-ceo-looks-for-4-traits-when-hiring-2025-8",
+      "prompt": "Create one square editorial portrait illustration of Anton Osika for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "shlomo",
       "number": 43,
       "src": "/reference/watchlist/shlomo-editorial-v1.webp",
       "reference": "https://www.linkedin.com/in/maor-shlomo-1088b4144/",
-      "prompt": "Create one square editorial portrait illustration of Maor Shlomo for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Maor Shlomo for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Maor Shlomo"
+    },
+    {
+      "number": 44,
+      "name": "Mati Staniszewski",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/mati-staniszewski-editorial-v1.webp",
+      "reference": "https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-longoria-as-new-investors/",
+      "prompt": "Create one square editorial portrait illustration of Mati Staniszewski for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 45,
+      "name": "Brendan Foody",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/brendan-foody-editorial-v1.webp",
+      "reference": "https://events.stanford.edu/event/brendan-foody-entrepreneurial-thought-leaders-speaker-series-etl",
+      "prompt": "Create one square editorial portrait illustration of Brendan Foody for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 46,
+      "name": "Jesse Zhang",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jesse-zhang-editorial-v1.webp",
+      "reference": "https://websummit.com/featured-attendees/",
+      "prompt": "Create one square editorial portrait illustration of Jesse Zhang for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 47,
+      "name": "Matan Grinberg",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/matan-grinberg-editorial-v1.webp",
+      "reference": "https://sfelc.com/annual2025/topics/agent-native-development",
+      "prompt": "Create one square editorial portrait illustration of Matan Grinberg for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 48,
+      "name": "Mukund Jha",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/mukund-jha-editorial-v1.webp",
+      "reference": "https://x.com/mukundjha",
+      "prompt": "Create one square editorial portrait illustration of Mukund Jha for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 49,
+      "name": "Cristóbal Valenzuela",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/cristobal-valenzuela-editorial-v1.webp",
+      "reference": "https://summit.runway.com/ny",
+      "prompt": "Create one square editorial portrait illustration of Cristóbal Valenzuela for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 50,
+      "name": "Kareem Amin",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/kareem-amin-editorial-v1.webp",
+      "reference": "https://www.firstround.com/companies/clay",
+      "prompt": "Create one square editorial portrait illustration of Kareem Amin for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 51,
+      "name": "Jan Oberhauser",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jan-oberhauser-editorial-v1.webp",
+      "reference": "https://www.anthropic.com/events/claude-founder-house",
+      "prompt": "Create one square editorial portrait illustration of Jan Oberhauser for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 52,
+      "name": "Robin Rombach",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/robin-rombach-editorial-v1.webp",
+      "reference": "https://londontechweek.com/speakers/robin-rombach",
+      "prompt": "Create one square editorial portrait illustration of Robin Rombach for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 53,
+      "name": "Alex Mashrabov",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/alex-mashrabov-editorial-v1.webp",
+      "reference": "https://www.saastrannual2026.com/session/6-million-generations-a-day-how-higgsfield-scaled-from-0-to-300m-arr-by-reimagining-the-video-creation-with-higgsfield-s-ceo-and-co-founder",
+      "prompt": "Create one square editorial portrait illustration of Alex Mashrabov for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "lee",
       "number": 54,
       "src": "/reference/watchlist/lee-editorial-v1.webp",
       "reference": "https://stvp.stanford.edu/people/grant-lee",
-      "prompt": "Create one square editorial portrait illustration of Grant Lee for Visionary Talks. Reference 1 shows the person's face. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Grant Lee for Visionary Talks. Reference 1 shows the person's face. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Grant Lee"
+    },
+    {
+      "number": 55,
+      "name": "James Cadwallader",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/james-cadwallader-editorial-v1.webp",
+      "reference": "https://siliconvalleyinvestclub.com/companies/profound/team/james-cadwallader/",
+      "prompt": "Create one square editorial portrait illustration of James Cadwallader for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 56,
+      "name": "Noah Shinn",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/noah-shinn-editorial-v1.webp",
+      "reference": "https://sierra.ai/author/noah-shinn",
+      "prompt": "Create one square editorial portrait illustration of Noah Shinn for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 57,
+      "name": "Lourdes Agapito",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/lourdes-agapito-editorial-v1.webp",
+      "reference": "https://www.synthesia.io/about",
+      "prompt": "Create one square editorial portrait illustration of Lourdes Agapito for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 58,
+      "name": "Demi Guo",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/demi-guo-editorial-v1.webp",
+      "reference": "https://www.forbes.com/video/772b4646-6db0-4c20-a2cf-60a830b7d7b2/this-entrepreneur-built-a-multimilliondollar-business-to-put-ai-at-the-center-of-creative-arts/",
+      "prompt": "Create one square editorial portrait illustration of Demi Guo for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 59,
+      "name": "Mikey Shulman",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/mikey-shulman-editorial-v1.webp",
+      "reference": "https://nowmedia.co/posts/suno-ceo-mikey-shulman-luminaries-interview",
+      "prompt": "Create one square editorial portrait illustration of Mikey Shulman for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 60,
+      "name": "Bar Winkler",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/bar-winkler-editorial-v1.webp",
+      "reference": "https://www.wonderful.ai/about-us",
+      "prompt": "Create one square editorial portrait illustration of Bar Winkler for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 61,
+      "name": "Chris Pedregal",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/chris-pedregal-editorial-v1.webp",
+      "reference": "https://x.com/cjpedregal",
+      "prompt": "Create one square editorial portrait illustration of Chris Pedregal for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 62,
+      "name": "Zachary Lipton",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/zachary-lipton-editorial-v1.webp",
+      "reference": "https://www.abridge.com/author/zack-lipton",
+      "prompt": "Create one square editorial portrait illustration of Zachary Lipton for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 63,
+      "name": "Nikhil Buduma",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/nikhil-buduma-editorial-v1.webp",
+      "reference": "https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-nikhil-buduma-as-new-chief-executive-officer",
+      "prompt": "Create one square editorial portrait illustration of Nikhil Buduma for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 64,
+      "name": "Zachary Ziegler",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/zachary-ziegler-editorial-v1.webp",
+      "reference": "https://www.gv.com/news/openevidence-founder-ai",
+      "prompt": "Create one square editorial portrait illustration of Zachary Ziegler for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 65,
+      "name": "Suchi Saria",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/suchi-saria-editorial-v1.webp",
+      "reference": "https://aimi.stanford.edu/people/suchi-saria",
+      "prompt": "Create one square editorial portrait illustration of Suchi Saria for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 66,
+      "name": "Joshua Meier",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/joshua-meier-editorial-v1.webp",
+      "reference": "https://www.indexventures.com/perspectives/transforming-biology-from-science-to-engineering-our-investment-in-chai-discovery/",
+      "prompt": "Create one square editorial portrait illustration of Joshua Meier for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Joshua Meier is the LEFTMOST man in the four-founder photo. Illustrate ONLY him and exclude the other three men. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "hie",
       "number": 67,
       "src": "/reference/watchlist/hie-editorial-v1.webp",
       "reference": "https://profiles.stanford.edu/brian-hie",
-      "prompt": "Create one square editorial portrait illustration of Brian Hie for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Brian Hie for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Brian Hie"
     },
     {
       "id": "jaderberg",
       "number": 68,
       "src": "/reference/watchlist/jaderberg-editorial-v1.webp",
       "reference": "https://www.broadinstitute.org/bios/max-jaderberg",
-      "prompt": "Create one square editorial portrait illustration of Max Jaderberg for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Max Jaderberg for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, facial hair and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Max Jaderberg"
     },
     {
       "id": "lundberg",
       "number": 69,
       "src": "/reference/watchlist/lundberg-editorial-v1.webp",
       "reference": "https://profiles.stanford.edu/emma-lundberg",
-      "prompt": "Create one square editorial portrait illustration of Emma Lundberg for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Emma Lundberg for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Emma Lundberg"
+    },
+    {
+      "number": 70,
+      "name": "Karol Hausman",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/karol-hausman-editorial-v1.webp",
+      "reference": "https://karolhausman.github.io/",
+      "prompt": "Create one square editorial portrait illustration of Karol Hausman for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 71,
+      "name": "Deepak Pathak",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/deepak-pathak-editorial-v1.webp",
+      "reference": "https://www.ri.cmu.edu/ri-faculty/deepak-pathak/",
+      "prompt": "Create one square editorial portrait illustration of Deepak Pathak for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 72,
+      "name": "Bernt Øivind Børnich",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/bernt-ivind-b-rnich-editorial-v1.webp",
+      "reference": "https://stories.eqtventures.com/articles/empathetic-robots-the-vision-of-1x-founder-bernt-ivind-brnich",
+      "prompt": "Create one square editorial portrait illustration of Bernt Øivind Børnich for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 73,
+      "name": "Carolina Parada",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/carolina-parada-editorial-v1.webp",
+      "reference": "https://cvpr.thecvf.com/Conferences/2025/KeynotesAndPanels",
+      "prompt": "Create one square editorial portrait illustration of Carolina Parada for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 74,
+      "name": "Max Junestrand",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/max-junestrand-editorial-v1.webp",
+      "reference": "https://news.cision.com/se/san-francisco-oy/i/max-junestrand-legora%2Cc3379025",
+      "prompt": "Create one square editorial portrait illustration of Max Junestrand for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 75,
+      "name": "Gabriel Pereyra",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/gabriel-pereyra-editorial-v1.webp",
+      "reference": "https://www.harvey.ai/blog/author/gabe-pereyra",
+      "prompt": "Create one square editorial portrait illustration of Gabriel Pereyra for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 76,
+      "name": "George Sivulka",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/george-sivulka-editorial-v1.webp",
+      "reference": "https://radical.vc/portfolio/hebbia/",
+      "prompt": "Create one square editorial portrait illustration of George Sivulka for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 77,
+      "name": "Gabriel Stengel",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/gabriel-stengel-editorial-v1.webp",
+      "reference": "https://x.com/GabeStengel/highlights",
+      "prompt": "Create one square editorial portrait illustration of Gabriel Stengel for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 78,
+      "name": "Antoine Bordes",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/antoine-bordes-editorial-v1.webp",
+      "reference": "https://www.bloomberg.com/news/articles/2023-03-15/former-meta-ai-executive-bordes-joins-european-defense-tech-firm",
+      "prompt": "Create one square editorial portrait illustration of Antoine Bordes for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 79,
+      "name": "Oege de Moor",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/oege-de-moor-editorial-v1.webp",
+      "reference": "https://xbow.com/leadership",
+      "prompt": "Create one square editorial portrait illustration of Oege de Moor for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 80,
+      "name": "Ekin Dogus Cubuk",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/ekin-dogus-cubuk-editorial-v1.webp",
+      "reference": "https://scholar.google.com/citations?user=Mu_8iOEAAAAJ",
+      "prompt": "Create one square editorial portrait illustration of Ekin Dogus Cubuk for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 81,
+      "name": "Jonathan Godwin",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/jonathan-godwin-editorial-v1.webp",
+      "reference": "https://mcj.vc/inevitable-podcast/orbital-materials",
+      "prompt": "Create one square editorial portrait illustration of Jonathan Godwin for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 82,
+      "name": "Kristen DiCerbo",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/kristen-dicerbo-editorial-v1.webp",
+      "reference": "https://unlocked.microsoft.com/ai-anthology/kristen-dicerbo/",
+      "prompt": "Create one square editorial portrait illustration of Kristen DiCerbo for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 83,
+      "name": "Alex Kendall",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/alex-kendall-editorial-v1.webp",
+      "reference": "https://alexgkendall.com/",
+      "prompt": "Create one square editorial portrait illustration of Alex Kendall for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "barnes",
       "number": 84,
       "src": "/reference/watchlist/barnes-editorial-v1.webp",
       "reference": "https://metr.org/about",
-      "prompt": "Create one square editorial portrait illustration of Beth Barnes for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Beth Barnes for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Beth Barnes"
+    },
+    {
+      "number": 85,
+      "name": "Marius Hobbhahn",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/marius-hobbhahn-editorial-v1.webp",
+      "reference": "https://www.apolloresearch.ai/team",
+      "prompt": "Create one square editorial portrait illustration of Marius Hobbhahn for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 86,
+      "name": "Buck Shlegeris",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/buck-shlegeris-editorial-v1.webp",
+      "reference": "https://www.redwoodresearch.org/team",
+      "prompt": "Create one square editorial portrait illustration of Buck Shlegeris for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 87,
+      "name": "Owain Evans",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/owain-evans-editorial-v1.webp",
+      "reference": "https://www.quantamagazine.org/the-ai-was-fed-sloppy-code-it-turned-into-something-evil-20250813/",
+      "prompt": "Create one square editorial portrait illustration of Owain Evans for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 88,
+      "name": "Dean W. Ball",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/dean-w-ball-editorial-v1.webp",
+      "reference": "https://www.thefai.org/profile/dean-ball",
+      "prompt": "Create one square editorial portrait illustration of Dean W. Ball for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 89,
+      "name": "Lennart Heim",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/lennart-heim-editorial-v1.webp",
+      "reference": "https://www.alphaxiv.org/@lennart-heim",
+      "prompt": "Create one square editorial portrait illustration of Lennart Heim for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 90,
+      "name": "Kai Zenner",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/kai-zenner-editorial-v1.webp",
+      "reference": "https://www.ceps.eu/ceps-staff/kai-zenner/",
+      "prompt": "Create one square editorial portrait illustration of Kai Zenner for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 91,
+      "name": "Helen Toner",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/helen-toner-editorial-v1.webp",
+      "reference": "https://cset.georgetown.edu/staff/helen-toner/",
+      "prompt": "Create one square editorial portrait illustration of Helen Toner for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 92,
+      "name": "Sarah Guo",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/sarah-guo-editorial-v1.webp",
+      "reference": "https://www.altassets.net/private-equity-news/by-region/north-america-by-region/united-states-north-america-by-region/100207687.html",
+      "prompt": "Create one square editorial portrait illustration of Sarah Guo for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 93,
+      "name": "Nathan Benaich",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/nathan-benaich-editorial-v1.webp",
+      "reference": "https://www.stateof.ai/",
+      "prompt": "Create one square editorial portrait illustration of Nathan Benaich for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 94,
+      "name": "Leigh Marie Braswell",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/leigh-marie-braswell-editorial-v1.webp",
+      "reference": "https://fortune.com/2026/02/04/kleiner-perkins-leigh-marie-braswell-risk-from-playing-poker-scale/",
+      "prompt": "Create one square editorial portrait illustration of Leigh Marie Braswell for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression. Illustrate ONLY the woman on the LEFT wearing the brown top. Exclude the other woman. Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 95,
+      "name": "Grace Isford",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/grace-isford-editorial-v1.webp",
+      "reference": "https://luxcapital.com/team/grace-isford",
+      "prompt": "Create one square editorial portrait illustration of Grace Isford for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     },
     {
       "id": "willison",
       "number": 96,
       "src": "/reference/watchlist/willison-editorial-v1.webp",
       "reference": "https://github.com/simonw",
-      "prompt": "Create one square editorial portrait illustration of Simon Willison for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference."
+      "prompt": "Create one square editorial portrait illustration of Simon Willison for Visionary Talks. Reference 1 is the ONLY identity/face reference; preserve that person's facial geometry, hair, glasses if present and recognizable expression. Reference 2 is ONLY a graphite/ink engraving style reference, NOT the identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, simple warm ivory background #f4f3ed, subtle muted sage halo. No text, no logos, no charts, no invented accessories, no photographic-looking output. Keep face large and recognizable at 132px thumbnail size. Adapt the supplied face faithfully; do not substitute the man in the style reference.",
+      "name": "Simon Willison"
+    },
+    {
+      "number": 97,
+      "name": "Nathan Lambert",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/nathan-lambert-editorial-v1.webp",
+      "reference": "https://matsprogram.org/mentor/nathan-lambert",
+      "prompt": "Create one square editorial portrait illustration of Nathan Lambert for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 98,
+      "name": "Dwarkesh Patel",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/dwarkesh-patel-editorial-v1.webp",
+      "reference": "https://mercury.com/blog/dwarkesh-patel",
+      "prompt": "Create one square editorial portrait illustration of Dwarkesh Patel for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 99,
+      "name": "Shawn \"swyx\" Wang",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/shawn-swyx-wang-editorial-v1.webp",
+      "reference": "https://githubnext.com/speakerseries/swyx",
+      "prompt": "Create one square editorial portrait illustration of Shawn \"swyx\" Wang for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
+    },
+    {
+      "number": 100,
+      "name": "Sebastian Raschka",
+      "created": "2026-10-14",
+      "mode": "built-in image_gen",
+      "src": "/reference/watchlist/sebastian-raschka-editorial-v1.webp",
+      "reference": "https://github.com/rasbt/LLMs-from-scratch",
+      "prompt": "Create one square editorial portrait illustration of Sebastian Raschka for Visionary Talks. Reference 1 is the ONLY identity and face reference; faithfully preserve facial geometry, hair, glasses if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove scenery, furniture and props. Face large and recognizable at 132px. Never substitute the style-reference man."
     }
-  ]
+  ],
+  "updated": "2026-10-14",
+  "coverage": 100
 }

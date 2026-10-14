@@ -1,8 +1,12 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import data from "../src/data/ai-watchlist.json";
+import publishedSnapshot from "../src/data/ai-watchlist-published-2026-10-13.json";
 import { validatePublishedResearch } from "../src/lib/published-research";
-import { watchlistReviewHash } from "../src/lib/watchlist-publication";
+import {
+  watchlistReviewHash,
+  previousWatchlistReviewHash,
+} from "../src/lib/watchlist-publication";
 import {
   aiWatchlistSchema,
   canExposeWatchlist,
@@ -41,8 +45,8 @@ test("production cannot expose the review feature even when demo or preview flag
 test("published watchlist requires its exact reviewed content and cannot publish a draft or wrong path", () => {
   const record = {
     type: "watchlist",
-    content: aiWatchlistSchema.parse(data),
-    reviewHash: watchlistReviewHash,
+    content: aiWatchlistSchema.parse(publishedSnapshot),
+    reviewHash: previousWatchlistReviewHash,
   };
   assert.doesNotThrow(() =>
     validatePublishedResearch(record, "/ai-people-to-watch/", "article"),
@@ -56,6 +60,51 @@ test("published watchlist requires its exact reviewed content and cannot publish
   draft.content.editorialReview.status = "awaiting-editorial-review";
   assert.throws(() =>
     validatePublishedResearch(draft, "/ai-people-to-watch/", "article"),
+  );
+  const expanded = aiWatchlistSchema.parse(data);
+  assert.doesNotThrow(() =>
+    validatePublishedResearch(
+      { type: "watchlist", content: expanded, reviewHash: watchlistReviewHash },
+      "/ai-people-to-watch/",
+      "article",
+    ),
+  );
+  const pendingExpanded = structuredClone(expanded);
+  pendingExpanded.people[0].reviewState = "pending";
+  assert.throws(() =>
+    validatePublishedResearch(
+      {
+        type: "watchlist",
+        content: pendingExpanded,
+        reviewHash: watchlistReviewHash,
+      },
+      "/ai-people-to-watch/",
+      "article",
+    ),
+  );
+  const alteredProfile = structuredClone(expanded);
+  alteredProfile.people[0].profile!.education += " Unreviewed biography.";
+  assert.throws(() =>
+    validatePublishedResearch(
+      {
+        type: "watchlist",
+        content: alteredProfile,
+        reviewHash: watchlistReviewHash,
+      },
+      "/ai-people-to-watch/",
+      "article",
+    ),
+  );
+  assert.throws(() =>
+    validatePublishedResearch(
+      {
+        type: "watchlist",
+        content: expanded,
+        reviewHash: previousWatchlistReviewHash,
+      },
+      "/ai-people-to-watch/",
+      "article",
+    ),
   );
   assert.throws(() =>
     validatePublishedResearch(record, "/wrong-path/", "article"),

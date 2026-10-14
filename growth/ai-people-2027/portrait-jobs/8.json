@@ -1,0 +1,9 @@
+{
+  "number": 8,
+  "name": "Neel Nanda",
+  "created": "2026-10-14",
+  "mode": "built-in image_gen",
+  "src": "/reference/watchlist/neel-nanda-editorial-v1.webp",
+  "reference": "https://www.neelnanda.io/about",
+  "prompt": "Create one square editorial portrait illustration of Neel Nanda for Visionary Talks. Reference 1 is the ONLY identity and face reference; preserve the supplied person's facial geometry, hair, eyewear if present and recognizable expression.  Reference 2 is ONLY graphite and ink engraving STYLE, not identity. Black and gray finely stippled pencil and ink, tasteful newspaper financial magazine illustration, centered head and shoulders, warm ivory background #f4f3ed with subtle muted sage halo. No text, logos, charts, invented accessories or photographic output. Remove background scenery and props. Keep face large, recognizable at 132px thumbnail. Do not substitute the style-reference man."
+}

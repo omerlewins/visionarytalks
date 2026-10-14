@@ -1,17 +1,18 @@
 {
   "version": "watchlist-release-v1",
   "path": "/ai-people-to-watch/",
-  "reviewedAt": "2026-10-13",
-  "authorization": "Owner requested deployment after reviewing the complete article, illustrations and homepage placement in this chat.",
-  "scope": "Publication of the retained concise claims and labelled editorial analysis; not certification of omitted intake biographies or a personal-wealth audit.",
-  "contentHash": "8083d424344b60e4425db4ce39ebfc9bde4fb0222383ccf6d77e7356e0985d04",
-  "claimLedgerHash": "da2580b544f064fd0144712d688aeda3e32df85a00b8591588fd721ac0af98a2",
+  "reviewedAt": "2026-10-14",
+  "authorization": "Owner explicitly requested completion of the expanded factual review followed by deployment, after reviewing the portrait Preview in this chat.",
+  "scope": "Manual review of retained biography, dated research and attributed company claims, with unsupported supplied details removed. Unknowns remain explicit; editorial forecasts are opinions.",
+  "contentHash": "9e9a1e0c12081562dd73140c6f9df49e4bb2c4832db74a5790a601072c6da351",
+  "claimLedgerHash": "2cfd5a8723d4f124ab0bff2beeefc7e7119e333d3d0b37cbc1d93bdc80908e21",
   "retainedClaims": 100,
   "sourceRecords": 108,
+  "expandedCitationURLs": 196,
   "limitations": [
-    "Selected public-record research, not interviews or a comprehensive archive search.",
-    "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
-    "Company financial statements are attributed, not audited by Visionary Talks.",
-    "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+    "Public-record review of the retained claims and explicitly labelled editorial analysis; no interviews or audited company accounts.",
+    "Education dates and current jobs that could not be established remain unknown or explicitly attributed to dated records.",
+    "Company operating metrics are attributed claims. Private stakes and personal wealth are not estimated; pending transactions are not closed rounds.",
+    "This editorial selection is not a demographic survey, influence ranking or investment recommendation."
   ]
 }

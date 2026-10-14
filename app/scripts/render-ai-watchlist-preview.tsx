@@ -31,9 +31,10 @@ writeFileSync(
   folder + "article.md",
   `# ${aiWatchlist.title}\n\n${aiWatchlist.dek}\n\nResearch checked ${aiWatchlist.checked}. Editorial review pending.\n\n` +
     aiWatchlist.people
-      .map(
-        (p) =>
-          `## ${p.number}. ${p.name}\n\n${p.organization} · ${p.role}\n\n### ${p.hook}\n\nAccording to [${aiWatchlist.sources[p.sourceId].title}](${aiWatchlist.sources[p.sourceId].url}), ${p.fact.replace(/^The /, "the ")}\n\n${p.analysis}\n\n${p.detail.join("\n\n")}\n\n**My 2027 test:** ${p.watch}\n\n**What would weaken the case:** ${p.risk}\n`,
+      .map((p) =>
+        p.profile
+          ? `## ${p.number}. ${p.name}\n\n${p.organization} · ${p.role}\n\n${p.profile.hook}\n\n**Education:** ${p.profile.education}\n\n**The path:** ${p.profile.career}\n\n**Why I'm watching in 2027:** ${p.profile.outlook}\n\n**My read:** ${p.profile.read}\n\n**Sources:** ${p.profile.sources.map((s) => `[${s.title}](${s.url})`).join(" · ")}\n`
+          : `## ${p.number}. ${p.name}\n\n${p.organization} · ${p.role}\n\n### ${p.hook}\n\nAccording to [${aiWatchlist.sources[p.sourceId].title}](${aiWatchlist.sources[p.sourceId].url}), ${p.fact.replace(/^The /, "the ")}\n\n${p.analysis}\n\n${p.detail.join("\n\n")}\n\n**My 2027 test:** ${p.watch}\n\n**What would weaken the case:** ${p.risk}\n`,
       )
       .join("\n"),
 );

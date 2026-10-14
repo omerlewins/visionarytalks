@@ -4,6 +4,287 @@ import { PersonSuggestion } from "./PersonSuggestion";
 import { watchlistRoleLabels } from "@/lib/watchlist-display";
 import portraitData from "@/data/watchlist-portraits.json";
 const portraits: { number: number; src: string }[] = portraitData;
+
+const expandedHeadings: Record<string, string> = {
+  frontier: "Frontier AI researchers",
+  infrastructure: "AI engineers building the infrastructure",
+  founders: "AI founders and builders",
+  applied: "Applied AI innovators, industry by industry",
+  context: "AI safety, policy, investing and the people who explain it",
+};
+function InlineCopy({ text }: { text: string }) {
+  const chunks = text.split(/(\[[^\]]+\]\(https?:[^\s)]+\))/g);
+  return (
+    <>
+      {chunks.map((chunk, i) => {
+        const link = chunk.match(/^\[([^\]]+)\]\((https?:[^\s)]+)\)$/);
+        return link ? (
+          <a key={i} href={link[2]}>
+            {link[1]}
+          </a>
+        ) : (
+          <span key={i}>{chunk.replace(/\*\*/g, "")}</span>
+        );
+      })}
+    </>
+  );
+}
+function ExpandedWatchlist({
+  article,
+  review,
+}: {
+  article: Article;
+  review: boolean;
+}) {
+  return (
+    <article className="watch-article watch-profiles">
+      {review && (
+        <aside className="watch-review">
+          <strong>EDITORIAL PREVIEW</strong> Revised entries and restored facts
+          are under verification. The published version remains separate.
+        </aside>
+      )}
+      <header className="watch-profile-hero">
+        <span className="eyebrow">VISIONARY TALKS / LEADERS</span>
+        <h1>{article.title}</h1>
+        <div className="story-byline byline-with-avatar">
+          <img
+            className="author-avatar"
+            src="/reference/daniel-mercer-editorial-v1.png"
+            alt=""
+            width={44}
+            height={44}
+          />
+          <div>
+            By <a href="/about/#about-me">Daniel Mercer</a>
+            <span>
+              Public records checked{" "}
+              <time dateTime={article.editionChecked ?? article.checked}>
+                October 13, 2026
+              </time>
+            </span>
+            {article.checked !== article.editionChecked && (
+              <span>Revision verification: October 14, 2026</span>
+            )}
+          </div>
+        </div>
+      </header>
+      <div className="watch-introduction">
+        {article.introduction?.map((text, i) => (
+          <p key={i}>
+            <InlineCopy text={text} />
+          </p>
+        ))}
+      </div>
+      <WatchlistExplorer people={article.people} overview />
+      <section className="watch-featured-path">
+        <h2>Twelve to start with.</h2>
+        <div>
+          {article.people
+            .filter((p) => p.featured)
+            .map((p) => (
+              <a key={p.id} href={`#${p.id}`}>
+                <span>{p.organization}</span>
+                <strong>{p.name}</strong>
+                <small>
+                  {watchlistChapters.find((c) => c.id === p.chapter)?.label} ↗
+                </small>
+              </a>
+            ))}
+        </div>
+      </section>
+      <section className="watch-patterns">
+        <h2>What the 100 tell me.</h2>
+        <p>
+          Five patterns in this editorial selection, and the records I would
+          follow into 2027.
+        </p>
+        <div
+          className="watch-table-scroll"
+          tabIndex={0}
+          role="region"
+          aria-label="Section counts"
+        >
+          <table>
+            <thead>
+              <tr>
+                <th scope="col">Section</th>
+                <th scope="col">People</th>
+                <th scope="col">Numbers</th>
+              </tr>
+            </thead>
+            <tbody>
+              {watchlistChapters.map((c) => {
+                const people = article.people.filter((p) => p.chapter === c.id);
+                return (
+                  <tr key={c.id}>
+                    <th scope="row">{expandedHeadings[c.id]}</th>
+                    <td>{people.length}</td>
+                    <td>
+                      {people[0].number} to {people.at(-1)!.number}
+                    </td>
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+        {article.patterns?.map((p, i) => (
+          <div key={p.title}>
+            <h3>
+              {i + 1}. {p.title}
+            </h3>
+            <p>
+              <InlineCopy text={p.text} />
+            </p>
+          </div>
+        ))}
+      </section>
+      {watchlistChapters.map((c) => (
+        <section className="watch-chapter" id={`chapter-${c.id}`} key={c.id}>
+          <header>
+            <h2>{expandedHeadings[c.id]}</h2>
+          </header>
+          <div className="watch-entries">
+            {article.people
+              .filter((p) => p.chapter === c.id)
+              .map((p) => {
+                const profile = p.profile!;
+                const portrait = portraits.find((x) => x.number === p.number);
+                return (
+                  <section
+                    id={p.id}
+                    key={p.id}
+                    className={`watch-person ${p.featured ? "featured" : ""}`}
+                  >
+                    <div className="watch-person-number" aria-hidden="true">
+                      {String(p.number).padStart(2, "0")}
+                    </div>
+                    <div>
+                      <h3>
+                        {p.number}. {p.name}
+                      </h3>
+                      <p className="watch-profile-role">
+                        <strong>
+                          {p.role}, {p.organization}
+                        </strong>{" "}
+                        · {c.label}
+                        {/* Intake geography can describe a birthplace or an old affiliation.
+                            Do not present it as a verified current base. */}
+                      </p>
+                      <div className="watch-role-labels">
+                        {watchlistRoleLabels(p).map((l) => (
+                          <span key={l}>{l}</span>
+                        ))}
+                      </div>
+                      {portrait && (
+                        <figure className="watch-person-portrait">
+                          <img
+                            src={portrait.src}
+                            alt={`Illustrated portrait of ${p.name}`}
+                            width={160}
+                            height={160}
+                            loading="lazy"
+                          />
+                          <figcaption>AI editorial illustration</figcaption>
+                        </figure>
+                      )}
+                      <p className="watch-profile-hook">
+                        <InlineCopy text={profile.hook} />
+                      </p>
+                      {[
+                        ["Education", profile.education],
+                        ["The path", profile.career],
+                        ["Why I'm watching in 2027", profile.outlook],
+                        ["My read", profile.read],
+                      ].map(([label, text]) => (
+                        <p key={label}>
+                          <strong className="watch-profile-label">
+                            {label}:{" "}
+                          </strong>
+                          <InlineCopy text={text} />
+                        </p>
+                      ))}
+                      <p className="watch-profile-sources">
+                        <strong>Sources: </strong>
+                        {profile.sources.map((s, i) => (
+                          <span key={s.url}>
+                            {i > 0 ? " · " : ""}
+                            <a href={s.url}>{s.title}</a>
+                          </span>
+                        ))}
+                      </p>
+                      {p.relatedLinks.length > 0 && (
+                        <p className="watch-related">
+                          Read more:{" "}
+                          {p.relatedLinks.map((l, i) => (
+                            <span key={l.path}>
+                              {i ? " · " : ""}
+                              <a href={l.path}>{l.label}</a>
+                            </span>
+                          ))}
+                        </p>
+                      )}
+                    </div>
+                  </section>
+                );
+              })}
+          </div>
+        </section>
+      ))}
+      <section className="watch-faq" id="watch-faq">
+        <h2>Frequently asked questions.</h2>
+        {article.faq?.map((f) => (
+          <div key={f.question}>
+            <h3>{f.question}</h3>
+            <p>
+              <InlineCopy text={f.answer} />
+            </p>
+          </div>
+        ))}
+      </section>
+      <section className="watch-methodology" id="watch-methodology">
+        <h2>How I built this list.</h2>
+        <p className="watch-illustration-disclosure">
+          The portraits are AI-generated editorial illustrations based on public
+          face references, including historical headshots. They are not
+          photographs or evidence of an interview or endorsement.
+        </p>
+        <ul>
+          {article.methodology?.map((m) => (
+            <li key={m.label}>
+              <strong>{m.label}: </strong>
+              <InlineCopy text={m.text} />
+            </li>
+          ))}
+        </ul>
+        <p>
+          Portraits are AI editorial illustrations based on public identity
+          references, not photographs or endorsements.{" "}
+          <a href="/ai-disclosure/">Read the AI disclosure</a>.
+        </p>
+      </section>
+      <section className="watch-author">
+        <img
+          src="/reference/daniel-mercer-editorial-v1.png"
+          alt=""
+          width={76}
+          height={76}
+        />
+        <div>
+          <span className="eyebrow">THE RESEARCHER</span>
+          <h2>Daniel Mercer</h2>
+          <p>
+            I investigate public and private companies, the people building them
+            and what their work means for businesses and careers.
+          </p>
+          <a href="/about/">About my research ↗</a>
+        </div>
+      </section>
+      <PersonSuggestion />
+    </article>
+  );
+}
 import {
   watchlistChapters,
   watchlistFinancingChart,
@@ -103,6 +384,8 @@ export function AIWatchlist({
   article: Article;
   review?: boolean;
 }) {
+  if (article.layout === "profiles")
+    return <ExpandedWatchlist article={article} review={review} />;
   const s = (id: string) => article.sources[id];
   const sourceLink = (id: string, label?: string) => (
     <a href={s(id).url}>{label ?? s(id).title}</a>
@@ -573,11 +856,11 @@ export function AIWatchlist({
         <span className="eyebrow">OUR METHOD / THE LIMITS OF THE RECORD</span>
         <h2>How I built this watchlist.</h2>
         <p>
-          Portraits of the 12 featured people are AI-generated editorial
-          illustrations, based on public identity references. They are not
-          photographs or evidence of an interview or endorsement. The short role
-          labels describe contribution categories; the role line below each name
-          preserves the scope of its dated record.
+          The portraits are AI-generated editorial illustrations, based on
+          public identity references. They are not photographs or evidence of an
+          interview or endorsement. The short role labels describe contribution
+          categories; the role line below each name preserves the scope of its
+          dated record.
         </p>
         <p>
           I conducted independent desk research into the public records linked
