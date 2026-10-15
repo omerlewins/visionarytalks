@@ -8,7 +8,7 @@ import { storyTeasers, companies, isDemo, cms } from "@/lib/content";
 import { HomeLead, OwnershipNewsroom } from "@/components/HomeLead";
 import { storyUpdated, updatedStories } from "@/lib/home-editorial";
 import { UpdatedStamp } from "@/components/UpdatedStamp";
-import { StoryCard } from "@/components/Story";
+import { StoryCard } from "@/components/StoryCard";
 import { TrackerPreview } from "@/components/TrackerPreview";
 import { Newsletter } from "@/components/Shell";
 import { ownershipBrand } from "@/lib/ownership";
