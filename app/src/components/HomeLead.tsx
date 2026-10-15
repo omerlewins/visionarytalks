@@ -39,7 +39,9 @@ export function HomeLead({ stories }: { stories: Story[] }) {
           <UpdatedStamp date={storyUpdated(lead)} />
         </div>
         <h1>
-          <Link href={lead.path} prefetch={false}>{editorialText(lead.title)}</Link>
+          <Link href={lead.path} prefetch={false}>
+            {editorialText(lead.title)}
+          </Link>
         </h1>
         <p className="lead-dek">{editorialText(lead.dek)}</p>
         <Link
@@ -54,7 +56,11 @@ export function HomeLead({ stories }: { stories: Story[] }) {
             width={lead.kind === "leader" ? 1024 : 1200}
             height={lead.kind === "leader" ? 1536 : 630}
             preload
-            sizes={lead.kind === "leader" ? "(max-width:800px) 32vw, 20vw" : "(max-width:800px) 90vw, 60vw"}
+            sizes={
+              lead.kind === "leader"
+                ? "(max-width:800px) 32vw, 20vw"
+                : "(max-width:800px) 90vw, 60vw"
+            }
           />
         </Link>
         <div className="lead-story-foot">
@@ -83,7 +89,9 @@ export function HomeLead({ stories }: { stories: Story[] }) {
                 </time>
               </div>
               <h3>
-                <Link href={s.path} prefetch={false}>{editorialText(s.title)}</Link>
+                <Link href={s.path} prefetch={false}>
+                  {editorialText(s.title)}
+                </Link>
               </h3>
               {s.path === watchlistPath && <p>{watchlistDek}</p>}
               <UpdatedStamp date={storyUpdated(s)} />

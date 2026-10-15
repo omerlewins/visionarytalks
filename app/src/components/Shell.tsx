@@ -37,13 +37,17 @@ export function Header({
           </time>
         )}
         <div className="utility-actions">
-          <Link href="/search/">Search</Link>
-          <Link href="/newsletter/">Newsletter ↗</Link>
+          <Link prefetch={false} href="/search/">
+            Search
+          </Link>
+          <Link prefetch={false} href="/newsletter/">
+            Newsletter ↗
+          </Link>
           <SocialLinks compact />
         </div>
       </div>
       <div className="masthead">
-        <Link href="/" className="wordmark">
+        <Link prefetch={false} href="/" className="wordmark">
           VISIONARY<span> TALKS</span>
         </Link>
         <p>Who owns it. Who runs it. What it&apos;s really worth.</p>
@@ -56,14 +60,16 @@ export function Header({
                 Leaders <span aria-hidden="true">⌄</span>
               </summary>
               <div className="leaders-nav-submenu">
-                <Link href={p}>Leader profiles ↗</Link>
-                <Link href="/ai-people-to-watch/">
+                <Link prefetch={false} href={p}>
+                  Leader profiles ↗
+                </Link>
+                <Link prefetch={false} href="/ai-people-to-watch/">
                   100 AI people to watch in 2027 ↗
                 </Link>
               </div>
             </details>
           ) : (
-            <Link key={p} href={p}>
+            <Link prefetch={false} key={p} href={p}>
               {n}
             </Link>
           ),
@@ -76,9 +82,12 @@ export function Header({
         <nav aria-label="Mobile sections">
           {visibleNav.map(([n, p]) => (
             <div key={p}>
-              <Link href={p}>{n}</Link>
+              <Link prefetch={false} href={p}>
+                {n}
+              </Link>
               {p === "/leaders/" && showWatchlist && (
                 <Link
+                  prefetch={false}
                   className="mobile-nav-subitem"
                   href="/ai-people-to-watch/"
                 >
@@ -87,7 +96,9 @@ export function Header({
               )}
             </div>
           ))}
-          <Link href="/search/">Search</Link>
+          <Link prefetch={false} href="/search/">
+            Search
+          </Link>
         </nav>
       </details>
       {!!figures.length && (
@@ -101,6 +112,7 @@ export function Header({
             {figures.map((f) => (
               <li key={f.path}>
                 <Link
+                  prefetch={false}
                   href={f.path}
                   title={`${f.name}: ${f.measure}, ${figureDate(f.date)}`}
                 >
@@ -151,7 +163,7 @@ export function Footer() {
       <div className="page-width">
         <div className="footer-top">
           <div>
-            <Link className="footer-logo" href="/">
+            <Link prefetch={false} className="footer-logo" href="/">
               VISIONARY TALKS
             </Link>
             <p>Companies. Money. Careers.</p>
@@ -167,7 +179,11 @@ export function Footer() {
               "Privacy",
               "Terms",
             ].map((n) => (
-              <Link key={n} href={`/${n.toLowerCase().replaceAll(" ", "-")}/`}>
+              <Link
+                prefetch={false}
+                key={n}
+                href={`/${n.toLowerCase().replaceAll(" ", "-")}/`}
+              >
                 {n}
               </Link>
             ))}
@@ -182,7 +198,9 @@ export function Footer() {
         </div>
         <p className="footer-ai-note">
           We use AI to assist research, writing and some illustrations.{" "}
-          <Link href="/ai-disclosure/">Read our AI disclosure ↗</Link>
+          <Link prefetch={false} href="/ai-disclosure/">
+            Read our AI disclosure ↗
+          </Link>
         </p>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} Visionary Talks</span>
