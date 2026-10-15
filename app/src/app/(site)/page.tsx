@@ -9,7 +9,7 @@ import { HomeLead, OwnershipNewsroom } from "@/components/HomeLead";
 import { storyUpdated, updatedStories } from "@/lib/home-editorial";
 import { UpdatedStamp } from "@/components/UpdatedStamp";
 import { StoryCard } from "@/components/Story";
-import { Tracker } from "@/components/Tracker";
+import { TrackerPreview } from "@/components/TrackerPreview";
 import { Newsletter } from "@/components/Shell";
 import { ownershipBrand } from "@/lib/ownership";
 import { notFound } from "next/navigation";
@@ -214,7 +214,7 @@ export default async function Home({
               Explore the AI companies tracker ↗
             </Link>
           </div>
-          <Tracker rows={rows} preview />
+          <TrackerPreview rows={rows} />
         </section>
       )}
       <section className="section careers-section">
