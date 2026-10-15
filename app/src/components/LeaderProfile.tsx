@@ -9,6 +9,7 @@ import {
 } from "@/lib/leader-wealth";
 import Image from "next/image";
 import Link from "next/link";
+import { UpdatedStamp } from "./UpdatedStamp";
 import { Fragment } from "react";
 import { EditorialChart } from "./EditorialChart";
 import {
@@ -583,6 +584,7 @@ export async function LeaderProfile({ leader: p }: { leader: Profile }) {
                 <Link href={l.path}>{l.name} ↗</Link>
               </h3>
               <p>{l.hook}.</p>
+              <UpdatedStamp date={l.checked + "T12:00:00Z"} />
             </article>
           ))}
         </div>

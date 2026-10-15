@@ -481,6 +481,7 @@ export async function StoryTemplate({
                   </Link>
                 </h3>
                 <p>{p.hook}.</p>
+                <UpdatedStamp date={p.checked + "T12:00:00Z"} />
               </article>
             ))}
           </div>

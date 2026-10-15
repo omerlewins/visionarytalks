@@ -39,25 +39,26 @@ export function HomeLead({ stories }: { stories: Story[] }) {
           <UpdatedStamp date={storyUpdated(lead)} />
         </div>
         <h1>
-          <Link href={lead.path}>{editorialText(lead.title)}</Link>
+          <Link href={lead.path} prefetch={false}>{editorialText(lead.title)}</Link>
         </h1>
         <p className="lead-dek">{editorialText(lead.dek)}</p>
         <Link
           className="lead-illustration"
           href={lead.path}
+          prefetch={false}
           aria-label={`Read ${editorialText(lead.title)}`}
         >
           <Image
             src={cover.url}
             alt={editorialText(cover.alt)}
-            width={1200}
-            height={630}
+            width={lead.kind === "leader" ? 1024 : 1200}
+            height={lead.kind === "leader" ? 1536 : 630}
             preload
-            sizes="(max-width:800px) 90vw, 60vw"
+            sizes={lead.kind === "leader" ? "(max-width:800px) 32vw, 20vw" : "(max-width:800px) 90vw, 60vw"}
           />
         </Link>
         <div className="lead-story-foot">
-          <Link href={lead.path}>
+          <Link href={lead.path} prefetch={false}>
             Read the investigation <span aria-hidden="true">↗</span>
           </Link>
           <span>
@@ -82,7 +83,7 @@ export function HomeLead({ stories }: { stories: Story[] }) {
                 </time>
               </div>
               <h3>
-                <Link href={s.path}>{editorialText(s.title)}</Link>
+                <Link href={s.path} prefetch={false}>{editorialText(s.title)}</Link>
               </h3>
               {s.path === watchlistPath && <p>{watchlistDek}</p>}
               <UpdatedStamp date={storyUpdated(s)} />

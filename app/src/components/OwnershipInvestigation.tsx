@@ -1,5 +1,6 @@
 import { Fragment, type ReactNode } from "react";
 import Link from "next/link";
+import { UpdatedStamp } from "./UpdatedStamp";
 import { StoryTemplate } from "./Story";
 import { EditorialChart } from "./EditorialChart";
 import {
@@ -115,6 +116,7 @@ export function OwnershipDirectory() {
               <Link href={ownershipPath(p)}>{p.title}</Link>
             </h3>
             <p>{p.dek}</p>
+            <UpdatedStamp date={p.updated + "T12:00:00Z"} />
             <p>
               <strong>{p.card.figure}</strong> · {p.card.label}
             </p>
