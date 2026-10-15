@@ -32,6 +32,7 @@ export type Story = {
   path: string;
   title: string;
   homepageHeadline?: string | null;
+  excludeFromHomepage?: boolean | null;
   dek: string;
   kind: "article" | "ownership" | "leader" | "salary" | "company" | "page";
   category: string;

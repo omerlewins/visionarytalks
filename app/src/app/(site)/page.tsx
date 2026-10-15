@@ -47,8 +47,8 @@ export default async function Home({
     query.preview !== undefined
   )
     notFound();
-  const [all, rows, settings, publishedProfiles, watchlist] = await Promise.all(
-    [
+  const [teasers, rows, settings, publishedProfiles, watchlist] =
+    await Promise.all([
       storyTeasers(),
       companies(),
       isDemo()
@@ -62,8 +62,8 @@ export default async function Home({
           ),
       publicLeaderProfiles(),
       loadWatchlist(),
-    ],
-  );
+    ]);
+  const all = teasers.filter((story) => !story.excludeFromHomepage);
   const ownership = updatedStories(all).filter((s) => s.kind === "ownership");
   const publicProfiles = isLeadersReview()
     ? featuredLeaders

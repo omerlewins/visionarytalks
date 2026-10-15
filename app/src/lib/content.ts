@@ -46,6 +46,7 @@ export const storyTeasers = cache(async (): Promise<Story[]> => {
     select: {
       title: true,
       homepageHeadline: true,
+      excludeFromHomepage: true,
       path: true,
       kind: true,
       category: true,

@@ -9,6 +9,7 @@ export const homepageFields: Field[] = [
       and: [
         { _status: { equals: "published" } },
         { kind: { not_equals: "page" } },
+        { excludeFromHomepage: { not_equals: true } },
       ],
     },
     admin: {
@@ -25,6 +26,7 @@ export const homepageFields: Field[] = [
       and: [
         { _status: { equals: "published" } },
         { kind: { not_equals: "page" } },
+        { excludeFromHomepage: { not_equals: true } },
       ],
     },
     admin: {
@@ -68,6 +70,7 @@ export const homepageFields: Field[] = [
           and: [
             { _status: { equals: "published" } },
             { kind: { equals: "ownership" } },
+            { excludeFromHomepage: { not_equals: true } },
           ],
         },
       },
@@ -84,6 +87,11 @@ export const homepageFields: Field[] = [
       description:
         "Order up to five published stories. Displayed as an editor-selected list until verified analytics rankings are connected.",
     },
-    filterOptions: { _status: { equals: "published" } },
+    filterOptions: {
+      and: [
+        { _status: { equals: "published" } },
+        { excludeFromHomepage: { not_equals: true } },
+      ],
+    },
   },
 ];

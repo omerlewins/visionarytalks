@@ -7,6 +7,7 @@ import * as migration_20261012_080223_newsletter_registrations from "./20261012_
 import * as publishedResearch from "./20261012_170000_published_research";
 import * as homepageEditorial from "./20261015_090000_homepage_editorial";
 import * as homepageHeroMoney from "./20261015_110000_homepage_hero_money";
+import * as homepageExclusion from "./20261015_120000_homepage_exclusion";
 export const migrations = [
   {
     up: migration_20261008_134508_initial.up,
@@ -47,5 +48,10 @@ export const migrations = [
     up: homepageHeroMoney.up,
     down: homepageHeroMoney.down,
     name: "20261015_110000_homepage_hero_money",
+  },
+  {
+    up: homepageExclusion.up,
+    down: homepageExclusion.down,
+    name: "20261015_120000_homepage_exclusion",
   },
 ];

@@ -16,7 +16,13 @@ export function storyUpdated(story: {
 }
 export function updatedStories(stories: Story[]) {
   return stories
-    .filter((s) => s.kind !== "page" && !s.noindex && storyUpdated(s))
+    .filter(
+      (s) =>
+        s.kind !== "page" &&
+        !s.noindex &&
+        !s.excludeFromHomepage &&
+        storyUpdated(s),
+    )
     .sort(
       (a, b) =>
         Date.parse(storyUpdated(b)!) - Date.parse(storyUpdated(a)!) ||
@@ -126,7 +132,9 @@ export function homepageFigures(
   published: Story[],
 ): Figure[] {
   const available = new Set(
-    published.filter((s) => s.kind === "ownership").map((s) => s.path),
+    published
+      .filter((s) => s.kind === "ownership" && !s.excludeFromHomepage)
+      .map((s) => s.path),
   );
   const result: Figure[] = [];
   for (const c of rows) {
@@ -186,7 +194,10 @@ export function ownershipUpdates(
     .flatMap((item) => {
       const id = typeof item.story === "object" ? item.story?.id : item.story;
       const story = published.find(
-        (s) => s.id === String(id) && s.kind === "ownership",
+        (s) =>
+          s.id === String(id) &&
+          s.kind === "ownership" &&
+          !s.excludeFromHomepage,
       );
       return story && Number.isFinite(Date.parse(item.eventDate))
         ? [{ ...item, path: story.path }]

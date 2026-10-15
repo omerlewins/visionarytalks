@@ -252,6 +252,16 @@ export const collections: CollectionConfig[] = [
       text("title", true),
       { name: "path", type: "text", required: true, unique: true, index: true },
       {
+        name: "excludeFromHomepage",
+        label: "Exclude from homepage",
+        type: "checkbox",
+        defaultValue: false,
+        admin: {
+          description:
+            "Keep the article accessible by its URL and in archives, but omit it from every homepage story selection.",
+        },
+      },
+      {
         name: "homepageHeadline",
         label: "Homepage headline",
         type: "text",

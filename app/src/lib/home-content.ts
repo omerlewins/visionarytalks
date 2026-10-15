@@ -16,6 +16,7 @@ export const latestEditorialUpdate = cache(async () => {
       and: [
         { _status: { equals: "published" } },
         { kind: { not_equals: "page" } },
+        { excludeFromHomepage: { not_equals: true } },
       ],
     },
     select: { modifiedAt: true, publishedAt: true },

@@ -318,6 +318,10 @@ export interface Story {
   title: string;
   path: string;
   /**
+   * Keep the article accessible by its URL and in archives, but omit it from every homepage story selection.
+   */
+  excludeFromHomepage?: boolean | null;
+  /**
    * Optional editorial display headline for the homepage. Does not replace the article or SEO title.
    */
   homepageHeadline?: string | null;
@@ -1219,6 +1223,7 @@ export interface SourceDocumentsSelect<T extends boolean = true> {
 export interface StoriesSelect<T extends boolean = true> {
   title?: T;
   path?: T;
+  excludeFromHomepage?: T;
   homepageHeadline?: T;
   legacyKey?: T;
   legacyStatus?: T;

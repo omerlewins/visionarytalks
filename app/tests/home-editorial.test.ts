@@ -66,6 +66,33 @@ test("CMS hero and manual lead only resolve to published indexable stories", () 
   );
   assert.equal(homepageEdition(stories, "/hero/", "/hero/").editorPick, false);
 });
+test("homepage exclusions override recency and manual hero or lead choices", () => {
+  const hidden = {
+    ...article("/hidden/", "2026-10-16"),
+    excludeFromHomepage: true,
+  };
+  const visible = article("/visible/", "2026-10-15");
+  const edition = homepageEdition([hidden, visible], hidden.id, hidden.id);
+  assert.equal(edition.hero?.path, visible.path);
+  assert.equal(edition.lead, undefined);
+  assert.deepEqual(edition.latest, []);
+  assert.equal(edition.updated, visible.modifiedAt);
+  assert.equal(hidden.noindex, undefined);
+  assert.deepEqual(
+    ownershipUpdates(
+      [
+        {
+          eventDate: "2026-10-15",
+          headline: "Round",
+          status: "New round",
+          story: hidden.id,
+        },
+      ],
+      [{ ...hidden, kind: "ownership" }],
+    ),
+    [],
+  );
+});
 test("dates use Eastern time and distinguish yesterday from elapsed hours", () => {
   assert.equal(
     editionLabel("2026-01-02T02:10:00Z"),
