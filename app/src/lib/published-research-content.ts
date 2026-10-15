@@ -14,6 +14,12 @@ export const publishedResearchStories = cache(async () => {
     overrideAccess: true,
     depth: 0,
     pagination: false,
+    select: {
+      path: true,
+      kind: true,
+      publishedAt: true,
+      publishedResearch: true,
+    },
     where: {
       and: [
         { _status: { equals: "published" } },

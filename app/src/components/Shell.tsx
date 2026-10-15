@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { NewsletterRegistration } from "./NewsletterRegistration";
-import { publicationSocials } from "@/lib/publication-socials";
+import { SocialLinks } from "./SocialLinks";
+import { editionLabel, figureDate, type Figure } from "@/lib/home-editorial";
 const nav = [
   ["Who owns", "/category/ownership/"],
   ["Business", "/category/business/"],
@@ -12,9 +13,13 @@ const nav = [
 export function Header({
   showCompanyTracker = true,
   showWatchlist = false,
+  updated,
+  figures = [],
 }: {
   showCompanyTracker?: boolean;
   showWatchlist?: boolean;
+  updated?: string;
+  figures?: Figure[];
 }) {
   const visibleNav = nav.filter(
     ([, path]) => showCompanyTracker || path !== "/ai-companies/",
@@ -26,17 +31,22 @@ export function Header({
       </a>
       <div className="utility">
         <span>A MAGAZINE FOR THE BUSINESS CURIOUS</span>
-        <span className="date">BUSINESS, EXPLAINED.</span>
+        {updated && (
+          <time className="date edition-date" dateTime={updated}>
+            {editionLabel(updated)}
+          </time>
+        )}
         <div className="utility-actions">
           <Link href="/search/">Search</Link>
           <Link href="/newsletter/">Newsletter ↗</Link>
+          <SocialLinks compact />
         </div>
       </div>
       <div className="masthead">
         <Link href="/" className="wordmark">
           VISIONARY<span> TALKS</span>
         </Link>
-        <p>Companies. Money. Careers.</p>
+        <p>Who owns it. Who runs it. What it&apos;s really worth.</p>
       </div>
       <nav className="main-nav desktop-nav" aria-label="Sections">
         {visibleNav.map(([n, p]) =>
@@ -80,23 +90,48 @@ export function Header({
           <Link href="/search/">Search</Link>
         </nav>
       </details>
+      {!!figures.length && (
+        <div
+          className="figures-strip"
+          aria-label="Dated company financing figures"
+          tabIndex={0}
+        >
+          <span className="figures-label">THE NUMBERS / DATED, SOURCED</span>
+          <ul>
+            {figures.map((f) => (
+              <li key={f.path}>
+                <Link
+                  href={f.path}
+                  title={`${f.name}: ${f.measure}, ${figureDate(f.date)}`}
+                >
+                  <strong>
+                    {f.name} <b>{f.figure}</b>
+                  </strong>
+                  <span>
+                    {figureDate(f.date)} · {f.measure}
+                  </span>
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </header>
   );
 }
-export function Newsletter() {
+export function Newsletter({
+  kicker = "THE VISIONARY BRIEF",
+}: { kicker?: string } = {}) {
   return (
     <section className="brief" id="brief">
       <div>
-        <span className="eyebrow">THE VISIONARY BRIEF</span>
+        <span className="eyebrow">{kicker}</span>
         <h2>
           A little perspective.
           <br />
           In your inbox.
         </h2>
-        <p>
-          The stories behind the businesses, people, and industries shaping your
-          world.
-        </p>
+        <p>A closer look at the companies behind the headlines.</p>
       </div>
       <NewsletterRegistration />
     </section>
@@ -143,26 +178,7 @@ export function Footer() {
             <span className="eyebrow">FOLLOW THE INVESTIGATIONS</span>
             <p>More ways to look a little closer.</p>
           </div>
-          <nav aria-label="Visionary Talks social pages">
-            {publicationSocials.map((social) =>
-              social.url ? (
-                <a
-                  key={social.name}
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  {social.name}
-                  <span aria-hidden="true">↗</span>
-                </a>
-              ) : (
-                <span className="footer-social-pending" key={social.name}>
-                  {social.name}
-                  <small>Coming soon</small>
-                </span>
-              ),
-            )}
-          </nav>
+          <SocialLinks />
         </div>
         <p className="footer-ai-note">
           We use AI to assist research, writing and some illustrations.{" "}

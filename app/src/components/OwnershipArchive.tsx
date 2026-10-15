@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useState } from "react";
 import { CompanySuggestion } from "./CompanySuggestion";
+import { UpdatedStamp } from "./UpdatedStamp";
+import { editorialText } from "@/lib/home-editorial";
 
 export type OwnershipArchiveEntry = {
   path: string;
@@ -11,6 +13,7 @@ export type OwnershipArchiveEntry = {
   dek: string;
   group: "AI & technology" | "Everyday brands" | "More industries";
   draft: boolean;
+  updated?: string;
 };
 const groups = [
   "All companies",
@@ -54,9 +57,10 @@ function CompanyCard({
           {entry.draft ? "RESEARCH PREVIEW" : "OWNERSHIP INVESTIGATION"}
         </span>
         <h3>
-          <Link href={entry.path}>{entry.title}</Link>
+          <Link href={entry.path}>{editorialText(entry.title)}</Link>
         </h3>
-        <p>{entry.dek}</p>
+        <p>{editorialText(entry.dek)}</p>
+        <UpdatedStamp date={entry.updated} />
         <Link className="owner-card-read" href={entry.path}>
           Follow the ownership <span aria-hidden="true">↗</span>
         </Link>
@@ -112,7 +116,9 @@ export function OwnershipArchive({
             Explore {entries.length} company files{" "}
             <span aria-hidden="true">↓</span>
           </a>
-          <a className="owner-suggest-link" href="#suggest-company">Suggest a company to investigate ↗</a>
+          <a className="owner-suggest-link" href="#suggest-company">
+            Suggest a company to investigate ↗
+          </a>
         </div>
         <div className="owner-hero-art" aria-hidden="true">
           <span className="owner-hero-art-label">LOOK BEHIND THE BRAND</span>

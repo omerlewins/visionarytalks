@@ -1701,6 +1701,22 @@ export interface Integration {
  */
 export interface SiteSetting {
   id: number;
+  /**
+   * Three dated events selected for this week's reading. Use the event date, not the date you edit this box. Links appear only while their investigations are published.
+   */
+  ownershipUpdates?:
+    | {
+        eventDate: string;
+        status: 'Pending deal' | 'New round' | 'IPO filing' | 'Reported talks';
+        headline: string;
+        story: number | Story;
+        id?: string | null;
+      }[]
+    | null;
+  /**
+   * Order up to five published stories. Displayed as an editor-selected list until verified analytics rankings are connected.
+   */
+  mostReadStories?: (number | Story)[] | null;
   featuredStories?: (number | Story)[] | null;
   heroTitle?: string | null;
   heroDescription?: string | null;
@@ -1727,6 +1743,16 @@ export interface IntegrationsSelect<T extends boolean = true> {
  * via the `definition` "site-settings_select".
  */
 export interface SiteSettingsSelect<T extends boolean = true> {
+  ownershipUpdates?:
+    | T
+    | {
+        eventDate?: T;
+        status?: T;
+        headline?: T;
+        story?: T;
+        id?: T;
+      };
+  mostReadStories?: T;
   featuredStories?: T;
   heroTitle?: T;
   heroDescription?: T;

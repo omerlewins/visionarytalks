@@ -10,6 +10,7 @@ import {
   leaderSummary,
 } from "@/lib/leaders";
 import { LeadersDirectory } from "@/components/LeadersDirectory";
+import { UpdatedStamp } from "@/components/UpdatedStamp";
 export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "AI Leaders: People, Ownership & Net Worth",
@@ -85,6 +86,7 @@ export default async function LeadersPage() {
                 <Link href={p.path}>{p.name} ↗</Link>
               </h3>
               <p>{p.hook}.</p>
+              <UpdatedStamp date={p.checked + "T12:00:00Z"} />
             </article>
           ))}
         </div>

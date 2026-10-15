@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { AIWatchlist } from "@/lib/ai-watchlist";
 import portraits from "@/data/watchlist-portraits.json";
+import { UpdatedStamp } from "./UpdatedStamp";
 
 export function WatchlistHomeFeature({ article }: { article: AIWatchlist }) {
   const selection = [23, 25, 43, 69, 84, 96].map((number) => ({
@@ -13,17 +14,16 @@ export function WatchlistHomeFeature({ article }: { article: AIWatchlist }) {
       <div className="home-watchlist-copy">
         <span className="eyebrow">LEADERS / THE 2027 WATCHLIST</span>
         <h2 id="home-watchlist-title">
-          100 AI people.
-          <br />
-          <em>The bets behind them.</em>
+          100 AI people to watch <em>in 2027</em>
         </h2>
         <p>
-          Meet the researchers, builders and voices I’m watching into 2027. The
-          work, the evidence, and the test each case needs to pass.
+          Meet the researchers, engineers and founders building what comes next:
+          their education, career and the numbers behind them.
         </p>
         <Link href="/ai-people-to-watch/" className="index-cta">
-          Explore the 2027 watchlist ↗
+          See the 100 →
         </Link>
+        <UpdatedStamp date={article.checked + "T12:00:00Z"} />
         <Link
           href="/ai-people-to-watch/#suggest-person"
           className="home-watchlist-nominate"

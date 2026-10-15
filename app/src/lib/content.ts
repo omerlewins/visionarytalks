@@ -30,6 +30,33 @@ export const stories = cache(async (): Promise<Story[]> => {
   });
   return result.docs.map(toStory);
 });
+// Homepage and masthead need teasers, not every legacy article body and source.
+export const storyTeasers = cache(async (): Promise<Story[]> => {
+  if (isDemo()) return fixtures;
+  const result = await (
+    await cms()
+  ).find({
+    collection: "stories",
+    overrideAccess: false,
+    depth: 1,
+    pagination: false,
+    sort: "-modifiedAt",
+    where: { _status: { equals: "published" } },
+    select: {
+      title: true,
+      path: true,
+      kind: true,
+      category: true,
+      dek: true,
+      legacyKey: true,
+      publishedAt: true,
+      modifiedAt: true,
+      featuredImage: true,
+      seo: true,
+    },
+  });
+  return result.docs.map(toStory);
+});
 export function toStory(doc: Record<string, any>): Story {
   const image =
     typeof doc.featuredImage === "object" ? doc.featuredImage : undefined;

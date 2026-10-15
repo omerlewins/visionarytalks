@@ -2,6 +2,7 @@ import type { Story } from "./domain";
 import type { OwnershipArchiveEntry } from "@/components/OwnershipArchive";
 import { ownershipBrand } from "./ownership";
 import { ownershipFiles } from "./ownership-files";
+import { storyUpdated } from "./home-editorial";
 import { ownershipPath } from "./ownership-contract";
 
 const ai =
@@ -31,6 +32,7 @@ export function ownershipArchiveEntries(
         ? "Everyday brands"
         : "More industries",
     draft: false,
+    updated: storyUpdated(s),
   }));
   if (review)
     for (const file of ownershipFiles)
@@ -42,6 +44,7 @@ export function ownershipArchiveEntries(
           dek: file.dek,
           group: "AI & technology",
           draft: true,
+          updated: file.updated + "T12:00:00Z",
         });
   return entries;
 }

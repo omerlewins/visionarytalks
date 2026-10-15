@@ -18,6 +18,13 @@ import { AIContentNotice } from "./AIContentNotice";
 import { StateWealthMap } from "./StateWealthMap";
 import { TopOnePercentComparison } from "./TopOnePercentComparison";
 import { storyFeaturedImage } from "@/lib/story-image";
+import {
+  editorialText,
+  storyUpdated,
+  watchlistPath,
+  watchlistDek,
+} from "@/lib/home-editorial";
+import { UpdatedStamp } from "./UpdatedStamp";
 import { correctedStateWealthHTML } from "@/lib/state-wealth";
 import { publicLeaderProfiles } from "@/lib/leader-content";
 import { publishedResearchStories } from "@/lib/published-research-content";
@@ -28,9 +35,16 @@ export function StoryCard({ story }: { story: StoryData }) {
         {story.category} / {story.kind}
       </span>
       <h3>
-        <Link href={story.path}>{story.title}</Link>
+        <Link href={story.path}>{editorialText(story.title)}</Link>
       </h3>
-      {story.dek !== story.title && <p>{story.dek}</p>}
+      {story.dek !== story.title && (
+        <p>
+          {story.path === watchlistPath
+            ? watchlistDek
+            : editorialText(story.dek)}
+        </p>
+      )}
+      <UpdatedStamp date={storyUpdated(story)} />
       <Link className="latest-action" href={story.path}>
         Take a closer look ↗
       </Link>

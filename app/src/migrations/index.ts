@@ -5,6 +5,7 @@ import * as migration_20261011_102136_google_integrations from "./20261011_10213
 import * as migration_20261012_080223_newsletter_registrations from "./20261012_080223_newsletter_registrations";
 
 import * as publishedResearch from "./20261012_170000_published_research";
+import * as homepageEditorial from "./20261015_090000_homepage_editorial";
 export const migrations = [
   {
     up: migration_20261008_134508_initial.up,
@@ -35,5 +36,10 @@ export const migrations = [
     up: publishedResearch.up,
     down: publishedResearch.down,
     name: "20261012_170000_published_research",
+  },
+  {
+    up: homepageEditorial.up,
+    down: homepageEditorial.down,
+    name: "20261015_090000_homepage_editorial",
   },
 ];

@@ -76,10 +76,12 @@ export function Tracker({
       )}
       <p className="source" aria-live="polite">
         {filtered.length} {filtered.length === 1 ? "company" : "companies"} ·
-        Dated, company-reported observations—not live prices or necessarily the
+        Dated, company-reported observations, not live prices or necessarily the
         latest valuations. Mixed metrics are not directly comparable.
       </p>
-      <p className="tracker-scroll-hint">Scroll across for figures and source links →</p>
+      <p className="tracker-scroll-hint">
+        Scroll across for figures and source links →
+      </p>
       <div
         className="table-scroll"
         tabIndex={0}

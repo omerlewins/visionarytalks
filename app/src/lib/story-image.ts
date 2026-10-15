@@ -6,7 +6,7 @@ export function storyFeaturedImage(s: Story) {
   if (s.path === "/ai-people-to-watch/")
     return {
       url: "/reference/ai-watchlist-2027-cover.png",
-      alt: "100 AI people to watch in 2027 — Visionary Talks",
+      alt: "100 AI people to watch in 2027: Visionary Talks",
       credit: "Visionary Talks editorial graphic.",
     };
   const leader = leaderProfiles.find((p) => p.path === s.path);

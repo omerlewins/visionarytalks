@@ -10,15 +10,21 @@ import "@/styles/production.css";
 import "@/styles/leaders.css";
 import "@/styles/state-wealth-map.css";
 import "@/styles/home-editorial.css";
+import "@/styles/home-freshness.css";
 import "@/styles/publication-policies.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo, companies } from "@/lib/content";
 import { publicationURL, socialImage, productionIndexing } from "@/lib/seo";
 import { loadWatchlist } from "@/lib/watchlist-content";
+import { latestEditorialUpdate } from "@/lib/home-content";
+import { homepageFigures } from "@/lib/home-editorial";
+import { storyTeasers } from "@/lib/content";
+import { publishedResearchStories } from "@/lib/published-research-content";
+import { publicationSocials } from "@/lib/publication-socials";
 const baseMetadata: Metadata = {
   metadataBase: new URL(publicationURL),
   title: {
-    default: "Visionary Talks — Companies. Money. Careers.",
+    default: "Visionary Talks: Companies. Money. Careers.",
     template: "%s | Visionary Talks",
   },
   description:
@@ -32,7 +38,7 @@ const baseMetadata: Metadata = {
         url: socialImage("/"),
         width: 1200,
         height: 630,
-        alt: "Visionary Talks — Companies. Money. Careers.",
+        alt: "Visionary Talks: Companies. Money. Careers.",
       },
     ],
   },
@@ -56,12 +62,25 @@ export default async function Layout({
 }: {
   children: React.ReactNode;
 }) {
-  const [settings, companyRows, watchlist] = await Promise.all([
+  const [settings, companyRows, watchlist, updated] = await Promise.all([
     publicIntegrationSettings(),
     companies(),
     loadWatchlist(),
+    latestEditorialUpdate(),
   ]);
   const requestHeaders = await headers();
+  const onHome = requestHeaders.get("x-visionary-path") === "/";
+  const figures = onHome
+    ? homepageFigures(
+        companyRows,
+        (await publishedResearchStories()).flatMap((s) =>
+          s.research.type === "ownership"
+            ? [{ path: s.path, content: s.research.content }]
+            : [],
+        ),
+        await storyTeasers(),
+      )
+    : [];
   return (
     <html lang="en">
       <body>
@@ -78,11 +97,26 @@ export default async function Layout({
         <Header
           showCompanyTracker={companyRows.length > 0}
           showWatchlist={Boolean(watchlist)}
+          updated={updated}
+          figures={figures}
         />
         <main id="main" className="page-width" tabIndex={-1}>
           {children}
         </main>
         <Footer />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://visionarytalks.com/#organization",
+              name: "Visionary Talks",
+              url: "https://visionarytalks.com/",
+              sameAs: publicationSocials.map((s) => s.url),
+            }).replace(/</g, "\\u003c"),
+          }}
+        />
         {settings.measurementId && (
           <GoogleAnalytics
             measurementId={settings.measurementId}

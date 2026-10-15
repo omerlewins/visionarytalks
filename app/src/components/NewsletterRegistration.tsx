@@ -8,7 +8,7 @@ export function NewsletterRegistration() {
   const [saved, setSaved] = useState(false);
   return (
     <div className="newsletter-registration">
-      <p>Registration is open. Email delivery hasn’t started yet.</p>
+      <p>One ownership story, every Thursday. Sharp, sourced, 4 minutes.</p>
       {saved ? (
         <p className="newsletter-result" role="status">
           {message}

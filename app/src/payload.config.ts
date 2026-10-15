@@ -1,4 +1,5 @@
 import { integrations } from "./cms/integrations";
+import { homepageFields } from "./cms/homepage";
 import { buildConfig } from "payload";
 import { postgresAdapter } from "@payloadcms/db-postgres";
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
@@ -37,7 +38,7 @@ export default buildConfig({
   admin: {
     user: "users",
     importMap: { baseDir: path.resolve(process.cwd(), "src") },
-    meta: { titleSuffix: "— Visionary Talks" },
+    meta: { titleSuffix: "| Visionary Talks" },
   },
   db: postgresAdapter({
     pool: {
@@ -54,18 +55,21 @@ export default buildConfig({
       slug: "site-settings",
       access: { read: () => true, update: editors },
       fields: [
+        ...homepageFields,
         {
           name: "featuredStories",
           type: "relationship",
           relationTo: "stories",
           hasMany: true,
+          admin: { hidden: true },
         },
         {
           name: "heroTitle",
           type: "text",
           defaultValue: "The stories behind the world we live in.",
+          admin: { hidden: true },
         },
-        { name: "heroDescription", type: "textarea" },
+        { name: "heroDescription", type: "textarea", admin: { hidden: true } },
         { name: "newsletterURL", type: "text" },
       ],
     },

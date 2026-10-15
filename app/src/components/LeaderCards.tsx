@@ -1,5 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
+import { UpdatedStamp } from "./UpdatedStamp";
+import { editorialText } from "@/lib/home-editorial";
 import {
   leaderPortrait,
   dateLabel,
@@ -48,7 +50,12 @@ export function LeaderCard({
         <h3>
           <Link href={p.path}>{p.name}</Link>
         </h3>
-        <p>{p.hook}.</p>
+        <p>{editorialText(p.hook)}.</p>
+        <UpdatedStamp
+          date={
+            p.updatedAt || (p.checked ? p.checked + "T12:00:00Z" : undefined)
+          }
+        />
         <div className="leader-file-foot">
           <span>
             {p.wealth.value === null

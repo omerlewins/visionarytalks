@@ -5,6 +5,8 @@ export type LeaderSummary = {
   company: string;
   cluster: string;
   hook: string;
+  checked?: string;
+  updatedAt?: string;
   wealth: {
     display: string;
     value: number | null;
@@ -64,6 +66,8 @@ export function leaderSummary(p: LeaderSummary): LeaderSummary {
     company: p.company,
     cluster: p.cluster,
     hook: p.hook,
+    checked: p.checked,
+    updatedAt: p.updatedAt,
     wealth: {
       display: p.wealth.display,
       value: p.wealth.value,
