@@ -186,7 +186,7 @@ export function WatchlistExplorer({
                   </th>
                   <td>
                     {p.organization}
-                    <span>{p.role}</span>
+                    <span>{" · "}{p.role}</span>
                   </td>
                   <td>
                     {overview

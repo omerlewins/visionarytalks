@@ -2,7 +2,7 @@
 
 The research, open infrastructure and business decisions behind AI’s next chapter. One documented contribution and one testable 2027 thesis for every person.
 
-Research checked 2026-10-14. Editorial review pending.
+Research checked 2026-10-15. Editorial review pending.
 
 ## 1. Alexander Wei
 
@@ -14,7 +14,7 @@ OpenAI · Research scientist
 
 **The path:** Wei won IOI gold in 2015 and a SODA 2019 Best Student Paper award. At Meta FAIR he co-authored CICERO, the Diplomacy-playing AI published in Science in 2022. He was at OpenAI by 2025 (start date not verified). On July 19, 2025, he and Noam Brown announced the IMO result, crediting general-purpose reinforcement learning and test-time compute scaling rather than task-specific methods.
 
-**Why I'm watching in 2027:** I am watching whether his reasoning research produces inspectable arguments that other mathematicians can check, rather than another impressive score without a reproducible artifact; the practical prize is reducing the cost of expert verification, not claiming that every OpenAI mathematics result belongs to him.
+**Why I'm watching in 2027:** The July 2025 IMO result raises a harder question for Wei's team: can other mathematicians inspect and verify the reasoning?
 
 **My read:** A strong competition result would weaken as evidence if it failed to transfer to independently verifiable mathematics.
 
@@ -46,7 +46,7 @@ Jason Wei helped make chain-of-thought prompting a research result rather than a
 
 **The path:** His [CV](https://www.jasonwei.net/s/Jason_Wei___CV-f3xl.pdf) dates the Google Brain residency from October 2020 to December 2021, followed by research-engineer and research-scientist roles. He joined OpenAI in February 2023. The publication record includes FLAN, chain-of-thought prompting, emergent abilities, SimpleQA in 2024 and BrowseComp in 2025. The older CV still says OpenAI; his updated homepage is the source for the later Meta affiliation.
 
-**Why I'm watching in 2027:** I am following whether his new work improves the reliability of reasoning and browsing agents on problems with checkable answers, and whether the accompanying evaluations expose failure modes instead of rewarding confident output.
+**Why I'm watching in 2027:** Chain-of-thought research gives Jason Wei a specific 2027 challenge: show when a model's explanation reliably tracks how it reaches an answer. I would compare explanations against interventions, not just answer accuracy.
 
 **My read:** A compelling reasoning benchmark would lose force if it rewarded persuasive explanations more than correct, reproducible answers.
 
@@ -58,13 +58,13 @@ Meta hiring report / OpenAI o1 record · Researcher; reported Meta hire, June 20
 
 Hongyu Ren appears among the foundational reasoning contributors in [OpenAI's o1 credit record](https://openai.com/openai-o1-contributions/). [Fortune reported in June 2025](https://fortune.com/2025/06/28/meta-four-openai-researchers-superintelligence-team-ai-talent-competition) that Meta hired him alongside three other OpenAI researchers.
 
-**Education:** I could not retrieve a readable current primary education record during this review, so I do not publish the supplied degree dates.
+**Education:** I could not retrieve a readable current primary education record during this review, so I do not publish the degree dates.
 
 **The path:** The o1 record establishes a contribution to reasoning research, rather than sole authorship of a model. Fortune's June 28, 2025 report names Ren, Jiahui Yu, Shuchao Bi and Shengjia Zhao in the same hiring group. Those are dated records: the OpenAI credits describe earlier work and the hiring report describes a later move. Neither gives a verified chronology of internships or assigns him responsibility for every subsequent model.
 
-**Why I'm watching in 2027:** I am watching the economics of efficient reasoning: whether better answers can be delivered with less inference compute, and whether evaluations separate accuracy from persuasive explanations. A hiring headline is useful context, but reproducible evidence of better reasoning per dollar would be the stronger investment signal.
+**Why I'm watching in 2027:** Ren's o1 contribution and reported Meta move put reliable reasoning, rather than another recruitment headline, at the center of my 2027 thesis. A hiring headline is useful context, but reproducible evidence of better reasoning per dollar would be the stronger investment signal.
 
-**My read:** My concern is confusing participation in a large team with individual responsibility for every result.
+**My read:** For Hongyu Ren, I would look for evidence against this risk: confusing participation in a large team with individual responsibility for every result.
 
 **Sources:** [openai.com](https://openai.com/openai-o1-contributions/) · [Fortune](https://fortune.com/2025/06/28/meta-four-openai-researchers-superintelligence-team-ai-talent-competition)
 
@@ -78,9 +78,9 @@ Anthropic / reinforcement learning · Research discussed in a first-person inter
 
 **The path:** His [February 28, 2025 announcement](https://x.com/_sholtodouglas/status/1895610467818901609) says he joined Anthropic at the start of that month after Google DeepMind. The [May 2025 Dwarkesh interview](https://www.dwarkesh.com/p/sholto-trenton-2) describes his work scaling reinforcement learning at Anthropic. I use those first-person records for the move and research focus, rather than assigning him sole credit for Claude's capabilities.
 
-**Why I'm watching in 2027:** He has predicted near-day-long autonomous software work by agents, continual learning in 2026 and AGI-level trends by 2027. Next year those dated calls get graded in public.
+**Why I'm watching in 2027:** Douglas's May 2025 interview leaves dated predictions to compare with actual reinforcement-learning results in 2027. Next year those dated calls get graded in public.
 
-**My read:** My concern is reward hacking or narrow training success presented as broad competence.
+**My read:** Anthropic / reinforcement learning's challenge is to avoid reward hacking or narrow training success presented as broad competence.
 
 **Sources:** [sydney.edu.au](https://www.sydney.edu.au/engineering/news-and-events/news/2019/08/01/one-student-s-vision-to-build-an-automated-future.html) · [X post](https://x.com/_sholtodouglas/status/1895610467818901609) · [Dwarkesh Podcast](https://www.dwarkesh.com/p/sholto-trenton-2)
 
@@ -94,9 +94,9 @@ Josh Batson helped turn Claude's internal computations into experiments that peo
 
 **The path:** His mathematics record traces a move from knot theory into AI interpretability. Anthropic's [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html) credits him as a core contributor and correspondence author on the March 2025 attribution-graph project. Graph construction, interventions and visualization are distinct responsibilities; that credit does not mean one researcher explained an entire model. His Anthropic start date remains unestablished.
 
-**Why I'm watching in 2027:** I am looking for circuit tracing to predict a failure before it happens and show that a targeted intervention actually prevents it; that would give interpretability a practical auditing role beyond an attractive diagram.
+**Why I'm watching in 2027:** Anthropic's circuit-tracing experiments give Batson's work a practical next test: can the explanations guide interventions that consistently change model behavior?
 
-**My read:** The case weakens if explanations remain descriptive without predicting or preventing failures on new inputs.
+**My read:** Joshua (Josh) Batson's case depends on avoiding the opposite outcome:  explanations remain descriptive without predicting or preventing failures on new inputs.
 
 **Sources:** [Gates Cambridge](https://gatescambridge.org/biography/6120) · [Transformer Circuits](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 
@@ -110,9 +110,9 @@ Julian Schrittwieser's research path runs from Go-playing systems to formal math
 
 **The path:** [MIT Technology Review's profile](https://www.technologyreview.com/innovator/julian-schrittwieser/) describes his engineering work on AlphaGo and AlphaGo Zero. His [November 2025 AlphaProof account](https://www.julian.ac/index.html) says the system discovered Lean proofs for the 2024 International Mathematical Olympiad at silver-medal performance, with a paper published in Nature. It explicitly dates the work to his earlier Google DeepMind tenure. I retain that chronology rather than treating a later publication date as proof of a current employer.
 
-**Why I'm watching in 2027:** His [personal essays](https://www.julian.ac/index.html) discuss rising AI task lengths and the implications for work. I am watching whether reinforcement learning transfers from tightly specified games and formal proofs to tasks with ambiguous goals, incomplete feedback and a real cost when an agent makes a mistake.
+**Why I'm watching in 2027:** AlphaProof's formal-mathematics work makes independently checkable proofs the result I want to see next from Schrittwieser's research. I am watching whether reinforcement learning transfers from tightly specified games and formal proofs to tasks with ambiguous goals, incomplete feedback and a real cost when an agent makes a mistake.
 
-**My read:** My concern is success confined to problems already shaped for a formal system.
+**My read:** Julian Schrittwieser: the warning sign is success confined to problems already shaped for a formal system.
 
 **Sources:** [MIT Technology Review](https://www.technologyreview.com/innovator/julian-schrittwieser/) · [julian.ac](https://www.julian.ac/index.html)
 
@@ -126,9 +126,9 @@ Neel Nanda's [own biography](https://www.neelnanda.io/about) says he runs Google
 
 **The path:** The same biography records internships at Jane Street and Jump Trading, followed by AI safety work at the Future of Humanity Institute, DeepMind and CHAI. He then did independent interpretability research and worked at Anthropic under Chris Olah before leading the Google DeepMind team. He describes the team's job as reverse engineering the algorithms and structures learned by neural networks; that is a concrete research mandate rather than a claim that every model behavior is already understood.
 
-**Why I'm watching in 2027:** I am watching whether interpretability tools become useful in deployment decisions: predicting failures, identifying a mechanism and testing whether an intervention changes it. His mentoring work also makes the supply of trained researchers part of the story; a technique that only its original authors can operate has a limited auditing market.
+**Why I'm watching in 2027:** Nanda's interpretability work at DeepMind needs to show which findings help researchers diagnose or change a model beyond a selected example. His mentoring work also makes the supply of trained researchers part of the story; a technique that only its original authors can operate has a limited auditing market.
 
-**My read:** My concern is explanations that are informative to researchers but too fragile or costly for operational use.
+**My read:** For Neel Nanda, I would look for evidence against this risk: explanations that are informative to researchers but too fragile or costly for operational use.
 
 **Sources:** [neelnanda.io](https://www.neelnanda.io/about)
 
@@ -142,9 +142,9 @@ Jack Parker-Holder works on Genie, Google DeepMind's world-model research. [Tech
 
 **The path:** From 2012 to 2019 he worked at J.P. Morgan in New York as a quantitative researcher and ETF trader, rising to VP, Quantitative Research. Then came Oxford and Google DeepMind's Open-Endedness team. His record includes PB2 (now in Ray Tune), ACCEL (ICML 2022) and AdA (ICML 2023 oral), then Genie (Feb 2024) and Genie 3, followed by Project Genie and a Street View integration announced at Google I/O. He is also an Honorary Lecturer at UCL DARK.
 
-**Why I'm watching in 2027:** I am watching whether simulated environments improve training for embodied agents and robotics. [His 2026 interview with Heise](https://heise.de/-11304842) discusses Street View integration and physical-world uses. The financial question is whether useful training scenarios can be produced more cheaply without sacrificing the accuracy needed for transfer to real environments.
+**Why I'm watching in 2027:** Genie 3's research preview makes world-model consistency a concrete 2027 test for Parker-Holder, beyond the quality of a short demonstration. [His 2026 interview with Heise](https://heise.de/-11304842) discusses Street View integration and physical-world uses. The financial question is whether useful training scenarios can be produced more cheaply without sacrificing the accuracy needed for transfer to real environments.
 
-**My read:** My concern is visual plausibility mistaken for physical accuracy or reliable transfer.
+**My read:** Google DeepMind's challenge is to avoid visual plausibility mistaken for physical accuracy or reliable transfer.
 
 **Sources:** [TechCrunch](https://techcrunch.com/2025/08/05/deepmind-reveals-genie-3-a-world-model-that-could-be-the-key-to-reaching-agi) · [jparkerholder.github.io](https://jparkerholder.github.io/) · [heise](https://heise.de/-11304842)
 
@@ -158,9 +158,9 @@ Lilian Weng's [Lil'Log](https://lilianweng.github.io/) turns technical research 
 
 **The path:** The July departure reporting describes earlier OpenAI robotics and safety work, followed by co-founding Thinking Machines Lab. I treat that as an attributed career account, not a primary employment register. Her own blog dates its learning notes to 2017 and provides a direct record of her writing. Research on reward hacking, hallucinations and test-time compute connects her public explanations to practical questions about model reliability.
 
-**Why I'm watching in 2027:** I am watching whether AI-assisted model development yields measurable improvements against a fixed baseline. Faster research cycles would matter economically, but a claim of self-improvement needs a clear account of what was automated, what humans supplied and whether the gains replicate outside the team's own evaluation.
+**Why I'm watching in 2027:** Weng's reported return to OpenAI shifts my attention to the artifacts that emerge from recursive self-improvement research. Faster research cycles would matter economically, but a claim of self-improvement needs a clear account of what was automated, what humans contributed and whether the gains replicate outside the team's own evaluation.
 
-**My read:** My concern is a broad self-improvement claim with no clear baseline or independently checkable outcome.
+**My read:** Weng would lose my confidence over a broad self-improvement claim with no clear baseline or independently checkable outcome.
 
 **Sources:** [lilianweng.github.io](https://lilianweng.github.io/) · [American Bazaar](https://americanbazaaronline.com/2026/07/30/weng-leaves-thinking-machines-to-rejoin-openai-485496/) · [ifanr](https://www.ifanr.com/1673220)
 
@@ -174,9 +174,9 @@ Liam Fedus moved from language-model research to a company trying to automate sc
 
 **The path:** [OpenAI's o1 credits](https://openai.com/openai-o1-contributions/) name Fedus in reasoning-research leadership. The [Periodic Labs founding announcement](https://a16z.com/announcement/investing-in-periodic-labs/) identifies the subsequent company and its plan to connect AI with physical experimentation. These records document two distinct stages: improving language-model systems, then building infrastructure that can generate experimental data instead of relying only on existing text. They do not establish the full chronology of earlier employment or a personal ownership percentage.
 
-**Why I'm watching in 2027:** The same investor announcement records a $300 million founding round; it does not disclose a valuation. I am watching whether automated experimentation produces reproducible materials results. Later fundraising discussions are not a closed round, and company capital raised is not Fedus's personal wealth.
+**Why I'm watching in 2027:** Periodic Labs' combination of models and physical laboratories makes repeatable experimental results the milestone to follow in 2027. I am watching whether automated experimentation produces reproducible materials results. Later fundraising discussions are not a closed round, and company capital raised is not Fedus's personal wealth.
 
-**My read:** The case weakens if autonomous experiments fail to produce materials with independently demonstrated practical value.
+**My read:** Liam Fedus's case depends on avoiding the opposite outcome:  autonomous experiments fail to produce materials with independently demonstrated practical value.
 
 **Sources:** [a16z.com](https://a16z.com/announcement/investing-in-periodic-labs/) · [openai.com](https://openai.com/openai-o1-contributions/)
 
@@ -186,13 +186,13 @@ Reflection · Co-founder and CEO, NVIDIA announcement
 
 [Reflection's October 5, 2026 announcement](https://reflection.ai/blog/introducing-beam) describes Beam as a mixture-of-experts model with 501 billion total and 23 billion active parameters. Those are company-reported specifications, not an independent performance audit.
 
-**Education:** His [personal research biography](https://www.mishalaskin.com/) records a theoretical-physics PhD at the University of Chicago and reinforcement-learning postdoctoral work at Berkeley; the opened biography does not give a graduation year.
+**Education:** His [personal research biography](https://www.mishalaskin.com/) records a theoretical-physics PhD at the University of Chicago and reinforcement-learning postdoctoral work at Berkeley; the biography does not give a graduation year.
 
 **The path:** His [personal biography](https://www.mishalaskin.com/) records theoretical-physics doctoral work, a Berkeley postdoc and a Y Combinator-backed startup. [NVIDIA's March 2026 coalition announcement](https://nvidianews.nvidia.com/news/nvidia-launches-nemotron-coalition-of-leading-global-ai-labs-to-advance-open-frontier-models) identifies him as Reflection's co-founder and CEO. The move connects reinforcement-learning research with a company building frontier models; it does not prove that announced benchmarks translate into dependable production workloads.
 
-**Why I'm watching in 2027:** I am watching whether developers can download the promised weights and reproduce Beam's reported results at a usable serving cost. The model announcement describes a planned weights release later in October; announcing an open-weight model and delivering the artifact are separate milestones. I omit a later private valuation that I could not establish from a readable original record.
+**Why I'm watching in 2027:** Beam's October 2026 release gives Reflection a model that outside developers can examine, making reproducibility the next test for Laskin's team. The model announcement describes a planned weights release later in October; announcing an open-weight model and delivering the artifact are separate milestones.
 
-**My read:** The case weakens if developers cannot reproduce the announced model's results using the promised released weights.
+**My read:** Misha Laskin's case depends on avoiding the opposite outcome:  developers cannot reproduce the announced model's results using the promised released weights.
 
 **Sources:** [reflection.ai](https://reflection.ai/blog/introducing-beam) · [mishalaskin.com](https://www.mishalaskin.com/) · [nvidianews.nvidia.com](https://nvidianews.nvidia.com/news/nvidia-launches-nemotron-coalition-of-leading-global-ai-labs-to-advance-open-frontier-models)
 
@@ -206,9 +206,9 @@ Xiaomi MiMo · MiMo team lead, September 2026 report
 
 **The path:** The [MiMo-V2-Flash technical report](https://arxiv.org/abs/2601.02780), submitted in January 2026, includes Fuli Luo among the Xiaomi LLM-Core Team authors. That gives a research artifact to inspect alongside the later leadership report. I distinguish a named contribution from sole authorship and leave out uncertain joining dates and private compensation stories.
 
-**Why I'm watching in 2027:** I am watching whether Xiaomi can turn model research into reliable features across devices while retaining efficient inference. The technical report and deployed products are stronger tests than a promotion headline: an important rank is an organizational signal, but the business case depends on quality, latency and the cost of serving real users.
+**Why I'm watching in 2027:** Luo's reported MiMo promotion puts the model team's releases, deployment costs and external evaluations ahead of the internal rank in my 2027 assessment. The technical report and deployed products are stronger tests than a promotion headline: an important rank is an organizational signal, but the business case depends on quality, latency and the cost of serving real users.
 
-**My read:** My concern is architectural efficiency claimed without measuring the full serving pipeline.
+**My read:** Xiaomi MiMo's challenge is to avoid architectural efficiency claimed without measuring the full serving pipeline.
 
 **Sources:** [TechNode](https://technode.com/2026/09/29/xiaomi-promotes-mimo-team-lead-luo-fuli-to-its-top-job-level/) · [Jiemian](https://www.jiemian.com/article/12362237.html) · [arxiv.org](https://arxiv.org/abs/2601.02780)
 
@@ -216,15 +216,15 @@ Xiaomi MiMo · MiMo team lead, September 2026 report
 
 Tencent · Chief AI scientist, December 2025 report
 
-[SCMP's December 17, 2025 report](https://finance.yahoo.com/news/tencent-restructures-ai-operations-promotes-093000045.html) identifies Yao Shunyu as Tencent's chief AI scientist under the CEO's office, reporting to president Martin Lau. That is a dated reporting record, not a continuously updated employment register.
+[Yahoo Finance's December 17, 2025 report](https://finance.yahoo.com/news/tencent-restructures-ai-operations-promotes-093000045.html) identifies Yao Shunyu as Tencent's chief AI scientist under the CEO's office, reporting to president Martin Lau. That is a dated reporting record, not a continuously updated employment register.
 
-**Education:** I could not verify the complete supplied degree chronology against readable university award records in this review.
+**Education:** I could not verify his complete degree chronology against university award records.
 
-**The path:** His [Reflexion research paper](https://arxiv.org/abs/2303.11366) establishes a contribution to agents that use verbal feedback. The later Tencent report says he came from OpenAI and was also assigned leadership of LLM development and AI infrastructure. The distinction matters: a research paper shows a method, while an organizational appointment creates responsibility for training and inference platforms. I omit unconfirmed internship dates, competition awards and product-credit claims.
+**The path:** His [Reflexion research paper](https://arxiv.org/abs/2303.11366) establishes a contribution to agents that use verbal feedback. The later Tencent report says he came from OpenAI and was also assigned leadership of LLM development and AI infrastructure. The distinction matters: a research paper shows a method, while an organizational appointment creates responsibility for training and inference platforms.
 
-**Why I'm watching in 2027:** I am watching whether agents use feedback to correct mistakes rather than merely elaborate them. At a large consumer technology company, the commercial test also includes deployment cost and consistency across user contexts. A stronger model benchmark alone does not show that feedback has become reliable memory in a working product.
+**Why I'm watching in 2027:** The Tencent appointment puts Yao's feedback-based agent research alongside responsibility for large-scale deployment. At a large consumer technology company, the commercial test also includes deployment cost and consistency across user contexts. A stronger model benchmark alone does not show that feedback has become reliable memory in a working product.
 
-**My read:** My concern is an agent carrying forward a mistaken explanation as if it were verified experience.
+**My read:** Yao) would lose my confidence over an agent carrying forward a mistaken explanation as if it were verified experience.
 
 **Sources:** [Yahoo Finance](https://finance.yahoo.com/news/tencent-restructures-ai-operations-promotes-093000045.html) · [arxiv.org](https://arxiv.org/abs/2303.11366)
 
@@ -234,13 +234,13 @@ Pragmatik Labs; former Qwen lead · Founder, August 2026 announcement
 
 [The Standard's August 2026 report](https://www.thestandard.com.hk/finance/article/339744/Former-Alibaba-Qwen-AI-model-leader-founds-new-AI-company-with-funding-from-venture-giants) describes former Qwen leader Lin Junyang announcing Pragmatik Labs, five months after his departure from Alibaba.
 
-**Education:** I have not confirmed his degree award year against a primary university record, so I omit the supplied date and unverified biographical details.
+**Education:** I could not verify his degree award year from a university record.
 
 **The path:** The [Qwen2 technical report](https://arxiv.org/abs/2407.10671) includes Junyang Lin in the team behind the open-weight model family. His later startup announcement marks a move from a large technology company to a venture pursuing agents across digital and physical worlds. The Standard names HSG and Gaorong as co-leading the funding and Tencent among the supporters. Paper authorship and a startup announcement establish different kinds of evidence; neither establishes personal wealth.
 
 **Why I'm watching in 2027:** The Standard reports funding worth hundreds of millions of dollars, including $100 million each from HSG and Gaorong and $20 million from Tencent. I attribute those amounts to the report rather than an audited cap table. I am watching whether the new venture releases models or products that outside developers can evaluate.
 
-**My read:** My concern is a changing employer or fundraising story substituting for evidence about the product.
+**My read:** Lin Junyang (Justin Lin): the warning sign is a changing employer or fundraising story substituting for evidence about the product.
 
 **Sources:** [The Standard](https://www.thestandard.com.hk/finance/article/339744/Former-Alibaba-Qwen-AI-model-leader-founds-new-AI-company-with-funding-from-venture-giants) · [arxiv.org](https://arxiv.org/abs/2407.10671)
 
@@ -250,13 +250,13 @@ Kimi research · Kimi K2 technical-report co-author
 
 Yang Zhilin's research record connects Transformer-XL and XLNet to Moonshot's Kimi models; I am following the work that can be inspected, rather than treating an aggregator's IPO headline as a completed transaction.
 
-**Education:** [Carnegie Mellon's alumni record](https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html) identifies his 2019 PhD as Language and Information Technology; that is more precise than the supplied generic computer-science label.
+**Education:** [Carnegie Mellon's alumni record](https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html) identifies his 2019 PhD as Language and Information Technology.
 
-**The path:** CMU's Language Technologies Institute records his doctorate in 2019. The [Kimi K2 technical report](https://arxiv.org/abs/2507.20534) provides an inspectable model artifact from the company associated with his later work. That connection between research and commercial models is the useful thread here. I leave out unverified Kimi K3 rankings, parameter counts and IPO claims rather than treating aggregator headlines as original records.
+**The path:** CMU's Language Technologies Institute records his doctorate in 2019. The [Kimi K2 technical report](https://arxiv.org/abs/2507.20534) provides an inspectable model artifact from the company associated with his later work. That connection between research and commercial models is the useful thread here.
 
-**Why I'm watching in 2027:** I am watching whether Moonshot releases technical artifacts that let outside developers test its reasoning and long-context claims against actual cost and reliability; those records would also make a future ownership investigation more useful than a succession of changing private-company prices.
+**Why I'm watching in 2027:** Kimi K2 provides a technical starting point for testing Moonshot's reasoning and long-context claims against actual cost and reliability. An external test should identify the model version, context length and evaluation date, so a later release cannot silently inherit the performance claims of an earlier one.
 
-**My read:** The case weakens if commercial claims move faster than reproducible models and disclosed operating evidence.
+**My read:** Yang Zhilin's case depends on avoiding the opposite outcome:  commercial claims move faster than reproducible models and disclosed operating evidence.
 
 **Sources:** [lti.cs.cmu.edu](https://www.lti.cs.cmu.edu/people/alumni/alumni-2019/yang-zhilin.html) · [arxiv.org](https://arxiv.org/abs/2507.20534)
 
@@ -270,9 +270,9 @@ Chelsea Finn connects meta-learning research with general-purpose robotics. Her 
 
 **The path:** Her [Stanford biography](https://ai.stanford.edu/~cbfinn/) identifies an assistant professorship in computer science and electrical engineering and describes the IRIS lab's work on intelligence through robotic interaction. Her Berkeley dissertation, dated August 2018, documents the earlier meta-learning research. Together, those records trace the connection from learning algorithms to systems that must act in physical environments, where training data and evaluation are harder to collect than ordinary text.
 
-**Why I'm watching in 2027:** I am watching whether generalist robot policies transfer to unfamiliar tasks without substantial hidden setup work. Demonstrations should show success rates, failures and the labor needed to prepare a task. I omit later financing talks from this entry because the accessible intermediary source does not establish an original closing record.
+**Why I'm watching in 2027:** Physical Intelligence brings Finn's learning-to-learn research to a harder setting: robots that must work outside their training demonstrations. Demonstrations should show success rates, failures and the labor needed to prepare a task.
 
-**My read:** My concern is a successful video that leaves setup labor and failures out of view.
+**My read:** Stanford / Physical Intelligence's challenge is to avoid a successful video that leaves setup labor and failures out of view.
 
 **Sources:** [Berkeley EECS thesis](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2018/EECS-2018-105.html) · [Stanford AI Lab](https://ai.stanford.edu/~cbfinn/)
 
@@ -282,13 +282,13 @@ NYU / Google DeepMind · Assistant professor and staff research scientist
 
 Sherry Yang's [academic homepage](https://sherryy.github.io/) records an ICLR 2024 Outstanding Paper Award for UniSim, Learning Interactive Real-World Simulators. Her work links world models with robot policies and AI for science.
 
-**Education:** Her [personal academic biography](https://sherryy.github.io/) records bachelor's and master's degrees at MIT, a Berkeley PhD advised by Pieter Abbeel, and Stanford postdoctoral work with Percy Liang; the opened biography does not establish all award years.
+**Education:** Her [personal academic biography](https://sherryy.github.io/) records bachelor's and master's degrees at MIT, a Berkeley PhD advised by Pieter Abbeel, and Stanford postdoctoral work with Percy Liang; not all award years are established.
 
 **The path:** Her [academic homepage](https://sherryy.github.io/) describes research in world models, agents, robotics and AI for science, following a Stanford postdoc. Its news record includes CrystalReasoner in May 2026. [Harvard Kempner's February 2026 event](https://kempnerinstitute.harvard.edu/events/sherry-yang) independently identifies her as an NYU assistant professor and Google DeepMind research scientist. I use those records for the affiliations rather than extrapolating employment dates from an aggregator.
 
-**Why I'm watching in 2027:** I am watching whether world models improve learning in environments where real experiments are expensive. Her research connects simulation to robotics and scientific discovery; the valuable test is whether a policy trained in that cheaper environment works under the physical or scientific constraints of its intended application.
+**Why I'm watching in 2027:** UniSim's interactive simulation work makes transfer to real experiments the next test for Yang's world models. Her research connects simulation to robotics and scientific discovery; the valuable test is whether a policy trained in that cheaper environment works under the physical or scientific constraints of its intended application.
 
-**My read:** My concern is a simulated result whose assumptions do not survive contact with the intended application.
+**My read:** Yang would lose my confidence over a simulated result whose assumptions do not survive contact with the intended application.
 
 **Sources:** [sherryy.github.io](https://sherryy.github.io/) · [Kempner Institute](https://kempnerinstitute.harvard.edu/events/sherry-yang)
 
@@ -298,29 +298,29 @@ Anthropic, dated attribution · Researcher, described as an Anthropic employee i
 
 Levent Alpöge and Tristan Buckmaster's AI-assisted mathematics work became part of a September 2026 dispute over attribution. [OpenAI's account](https://openai.com/index/navier-stokes-solution/) acknowledges the priority of their forced-Euler work; that acknowledgment is separate from independent acceptance of a proof.
 
-**Education:** I have not established the supplied degree and scholarship chronology from readable primary award records, so I leave it out.
+**Education:** I could not verify his degrees or scholarship dates from primary award records.
 
 **The path:** The [September 2026 university account](https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/) describes a dispute over related fluid-equation results. OpenAI's original post identifies Alpöge as an Anthropic employee and acknowledges work with Buckmaster. I distinguish each party's account, a formal checking artifact and independent mathematical acceptance. Those records do not justify attributing every result in the dispute to one person or saying that a prize was awarded.
 
 **Why I'm watching in 2027:** OpenAI's [September 2026 account](https://openai.com/index/navier-stokes-solution/) identifies Alpoge as an Anthropic employee and acknowledges the earlier Alpoge-Buckmaster forced-Euler result. That primary attribution is stronger than an inferred employer from a headline, but it does not settle competing claims about credit or certify an unpublished mathematical result.
 
-**My read:** The case weakens if the claimed results cannot survive independent mathematical review and reproducible checking.
+**My read:** Levent Alpöge's case depends on avoiding the opposite outcome:  the claimed results cannot survive independent mathematical review and reproducible checking.
 
 **Sources:** [OpenAI](https://openai.com/index/navier-stokes-solution/) · [NYU Shanghai RITS](https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/)
 
 ## 20. Sara Hooker
 
-Adaption Labs · AI researcher
+Adaption · AI researcher
 
 Sara Hooker's essay "The Hardware Lottery" argued that available hardware quietly decides which research ideas win. Her new company, Adaption, is a bet against the bigger-static-model paradigm.
 
 **Education:** Her [current personal biography](https://www.sarahooker.me/) explicitly records a computer-science PhD at Mila, supervised by Hugo Larochelle and Aaron Courville. Her earlier first-person account describes an economics undergraduate background; the dated change in her biography matters, so I do not repeat an older assumption that she has no PhD.
 
-**The path:** Hooker's earlier work includes Delta Analytics and Google Brain; her first-person account describes a route from economics to machine learning. At Cohere she led Cohere For AI, later Cohere Labs, and worked on multilingual research including Aya. Her current personal site identifies Adaption Labs as her new venture and describes the earlier Cohere vice-president role. The Hardware Lottery, posted in 2020, supplies the intellectual thread: available hardware can favor some research directions over others.
+**The path:** Hooker's earlier work includes Delta Analytics and Google Brain; her first-person account describes a route from economics to machine learning. At Cohere she led Cohere For AI, later Cohere Labs, and worked on multilingual research including Aya. Her current personal site identifies Adaption as her new venture and describes the earlier Cohere vice-president role. The Hardware Lottery, posted in 2020, supplies the intellectual thread: available hardware can favor some research directions over others.
 
-**Why I'm watching in 2027:** Her [current biography](https://www.sarahooker.me/) describes Adaption's focus on efficient systems that continually learn. I am watching whether that approach maintains quality as data changes, without pushing unreported costs into retraining or evaluation. I omit a seed amount that I could not verify from an original financing announcement.
+**Why I'm watching in 2027:** Her [current biography](https://www.sarahooker.me/) describes Adaption's focus on efficient systems that continually learn. I am watching whether that approach maintains quality as data changes, without pushing unreported costs into retraining or evaluation.
 
-**My read:** My concern is an efficiency claim that works only after shifting unreported costs elsewhere.
+**My read:** For Sara Hooker, I would look for evidence against this risk: an efficiency claim that works only after shifting unreported costs elsewhere.
 
 **Sources:** [sarahooker.me](https://www.sarahooker.me/)
 
@@ -334,9 +334,9 @@ Cohere · Chief AI Officer
 
 **The path:** Her [McGill biography](https://www.cs.mcgill.ca/~jpineau/) describes planning under uncertainty and applications in robotics, healthcare and conversational agents. It records FAIR leadership from 2017 to 2025 and a current part-time leave from McGill. Cohere's later appointment announcement establishes the new company role. I keep those dated records separate instead of treating an older university page as a full current employment register.
 
-**Why I'm watching in 2027:** I am watching whether enterprise and sovereign AI deployments turn research progress into renewals and measurable workflow improvements. That company structure is examined separately in [who owns Cohere](https://visionarytalks.com/who-owns-cohere/); a pending transaction is not proof of completed ownership or of an individual's stake.
+**Why I'm watching in 2027:** Cohere's August 2025 chief-AI-officer announcement puts Pineau's research leadership alongside enterprise and sovereign deployment economics. That company structure is examined separately in [who owns Cohere](https://visionarytalks.com/who-owns-cohere/); a pending transaction is not proof of completed ownership or of an individual's stake.
 
-**My read:** My concern is product announcements without evidence of renewal or improved workflow outcomes.
+**My read:** Cohere's challenge is to avoid product announcements without evidence of renewal or improved workflow outcomes.
 
 **Sources:** [cohere.com](https://cohere.com/blog/august-2025-funding-round) · [cs.mcgill.ca](https://www.cs.mcgill.ca/~jpineau/) · [who owns Cohere](https://visionarytalks.com/who-owns-cohere/)
 
@@ -348,11 +348,11 @@ Woosuk Kwon co-created vLLM, whose [open repository](https://github.com/vllm-pro
 
 **Education:** His research biographies describe Seoul National University studies and doctoral research at Berkeley. I have not confirmed a completed Berkeley PhD award, and do not infer one from the project or company launch.
 
-**The path:** The [vLLM repository](https://github.com/vllm-project/vllm) provides the code and project record behind his inference work, including PagedAttention. [SiliconANGLE's January 22, 2026 report](https://siliconangle.com/2026/01/22/inferact-launches-150m-funding-commercialize-vllm/) describes the subsequent Inferact launch. I omit an aggregator's precise employment dates and volatile star counts: a repository's popularity is different from production usage and paid demand.
+**The path:** The [vLLM repository](https://github.com/vllm-project/vllm) provides the code and project record behind his inference work, including PagedAttention. [SiliconANGLE's January 22, 2026 report](https://siliconangle.com/2026/01/22/inferact-launches-150m-funding-commercialize-vllm/) describes the subsequent Inferact launch.
 
-**Why I'm watching in 2027:** Inferact launched with a $150M seed at an $800M valuation, led by Andreessen Horowitz and Lightspeed (SiliconANGLE, Jan 22, 2026). Next year it must sell a paid product on the default open inference engine without losing the community that built it.
+**Why I'm watching in 2027:** vLLM gives Kwon an inspectable technical foundation; Inferact must show why customers will pay for the surrounding service. Next year it must sell a paid product on the default open inference engine without losing the community that built it. I would compare support costs, latency under load and paid retention with the same engine operated independently.
 
-**My read:** My concern is commercial adoption growing while community stewardship or portability weakens.
+**My read:** Kwon would lose my confidence over commercial adoption growing while community stewardship or portability weakens.
 
 **Sources:** [vLLM on GitHub](https://github.com/vllm-project/vllm) · [SiliconANGLE](https://siliconangle.com/2026/01/22/inferact-launches-150m-funding-commercialize-vllm/)
 
@@ -362,13 +362,13 @@ RadixArk / SGLang · Co-founder and CEO, 2026 event biography
 
 Ying Sheng's SGLang work connects an open inference engine to RadixArk, a company commercializing AI infrastructure. The [SGLang repository](https://github.com/sgl-project/sglang) offers a direct technical record to inspect.
 
-**Education:** I have not confirmed the supplied degree award dates against university records, so I do not publish an aggregator's education chronology.
+**Education:** I have not confirmed the degree award dates against university records, so I do not publish an aggregator's education chronology.
 
-**The path:** [TechCrunch's January 2026 report](https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes) connects the SGLang spinout to Sheng's earlier inference work. The repository and paper record show the technical project; the financing report describes the later business. I leave out precise internship dates that I could not establish from original records.
+**The path:** [TechCrunch's January 2026 report](https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes) connects the SGLang spinout to Sheng's earlier inference work. The repository and paper record show the technical project; the financing report describes the later business.
 
-**Why I'm watching in 2027:** [RadixArk's May 5, 2026 announcement](https://www.radixark.com/blog/radixark-launches-100m-seed) records a $100 million seed at a $400 million post-money valuation, led by Accel and co-led by Spark Capital. I am watching whether hosted infrastructure wins paid customers while preserving the portability that attracts developers to an open engine. Financing sets investor expectations; renewals test the operational value.
+**Why I'm watching in 2027:** SGLang's open engine makes RadixArk's support, reliability and production economics the next things to examine in Sheng's work. I am watching whether hosted infrastructure wins paid customers while preserving the portability that attracts developers to an open engine. Financing sets investor expectations; renewals test the operational value. My comparison would hold the model, hardware and request mix constant before crediting the serving engine for a cost improvement.
 
-**My read:** My concern is comparisons that change hardware, batch size or quality targets between systems.
+**My read:** Ying Sheng: the warning sign is comparisons that change hardware, batch size or quality targets between systems.
 
 **Sources:** [SGLang on GitHub](https://github.com/sgl-project/sglang) · [TechCrunch](https://techcrunch.com/2026/01/21/sources-project-sglang-spins-out-as-radixark-with-400m-valuation-as-inference-market-explodes) · [radixark.com](https://www.radixark.com/blog/radixark-launches-100m-seed)
 
@@ -378,13 +378,13 @@ ggml / llama.cpp · Creator and project steward
 
 Georgi Gerganov's [llama.cpp](https://github.com/ggml-org/llama.cpp) is a direct route to running language models locally. Its economics differ from a cloud API: the user supplies the device and trades hardware constraints against privacy, latency and recurring cost.
 
-**Education:** I could not confirm the supplied medical-physics degree against an original university record.
+**Education:** I could not confirm the medical-physics degree against an original university record.
 
 **The path:** [Hugging Face's February 20, 2026 announcement](https://huggingface.co/blog/ggml-joins-hf) says Gerganov and the ggml team joined it to support local AI. It says the team retains technical autonomy and dedicates its work to llama.cpp. The release does not disclose transaction terms, so I do not estimate a deal price or personal proceeds. The public repository makes the supported hardware and implementation visible to developers.
 
-**Why I'm watching in 2027:** The announcement sets out easier model conversion and packaging as goals. I am watching whether that reduces the effort required to run new open models on ordinary devices. A promised near-single-click conversion path is a roadmap, while a working release and reproducible performance are evidence that the goal has been delivered.
+**Why I'm watching in 2027:** llama.cpp makes local inference testable on the user's own device; Gerganov's next challenge is preserving that usability as models change. I am watching whether that reduces the effort required to run new open models on ordinary devices. A promised near-single-click conversion path is a roadmap, while a working release and reproducible performance are evidence that the goal has been delivered.
 
-**My read:** My concern is a change in sponsorship that gradually makes users dependent on a closed service.
+**My read:** For Georgi Gerganov, I would look for evidence against this risk: a change in sponsorship that gradually makes users dependent on a closed service.
 
 **Sources:** [llama.cpp on GitHub](https://github.com/ggml-org/llama.cpp) · [Hugging Face blog](https://huggingface.co/blog/ggml-joins-hf)
 
@@ -398,9 +398,9 @@ FlashAttention tackles the GPU memory traffic that makes attention expensive; Tr
 
 **The path:** During his doctorate he released FlashAttention in 2022 and FlashAttention-2 in 2023. His CV dates the Together AI chief-scientist role to July 2023 and lists Mamba, co-authored with Albert Gu, followed by Mamba-2 and FlashAttention-3. The same CV lists Mamba-3 and FlashAttention-4 in 2026. For his university title I use [Princeton's current page](https://www.cs.princeton.edu/people/profile/td8762), which says Visiting Research Scholar and previously Assistant Professor; the older CV still uses the faculty title.
 
-**Why I'm watching in 2027:** I am following the cost tradeoff between optimizing attention for new GPU generations and replacing it with state-space architectures; a reproducible improvement in memory use or throughput matters more to a buyer than an undated star count.
+**Why I'm watching in 2027:** FlashAttention and Mamba put Dao's work on two routes to lower inference costs, both of which need matched hardware comparisons.
 
-**My read:** The case weakens if faster published kernels do not improve real workloads once memory, quality and deployment costs are included.
+**My read:** Tri Dao's case depends on avoiding the opposite outcome:  faster published kernels do not improve real workloads once memory, quality and deployment costs are included.
 
 **Sources:** [tridao.me](https://tridao.me/assets/pdf/cv.pdf) · [Princeton CS profile](https://www.cs.princeton.edu/people/profile/td8762)
 
@@ -412,11 +412,11 @@ Daniel Han's [Y Combinator biography](https://www.ycombinator.com/companies/unsl
 
 **Education:** I could not verify his education.
 
-**The path:** The same YC record identifies NVIDIA algorithm work, the Hyperlearn package, co-founder Michael Han, a 2023 founding date and the Summer 2024 batch. Unsloth's [repository](https://github.com/unslothai/unsloth) supplies an inspectable record of its fine-tuning and reinforcement-learning tools. I leave out an aggregator's small seed amount and compare performance claims against specific workloads instead of treating one speedup as universal.
+**The path:** The same YC record identifies NVIDIA algorithm work, the Hyperlearn package, co-founder Michael Han, a 2023 founding date and the Summer 2024 batch. Unsloth's [repository](https://github.com/unslothai/unsloth) supplies an inspectable record of its fine-tuning and reinforcement-learning tools.
 
-**Why I'm watching in 2027:** I am watching whether hand-tuned kernels make custom models practical on cheaper hardware while preserving output quality. The economic benefit needs to survive a matched comparison: the same model, data, quality target and hardware. Downloads and repository stars show interest, but are not a measure of customer revenue or dependable savings.
+**Why I'm watching in 2027:** Unsloth's model fixes give Han a testable proposition: lower training costs without hidden losses in correctness or reproducibility. The economic benefit needs to survive a matched comparison: the same model, data, quality target and hardware. Downloads and repository stars show interest, but are not a measure of customer revenue or dependable savings. A useful benchmark would publish the model, memory requirement and resulting quality alongside the reported training speed.
 
-**My read:** My concern is savings achieved by changing the task or accepting an undisclosed quality loss.
+**My read:** Han would lose my confidence over savings achieved by changing the task or accepting an undisclosed quality loss.
 
 **Sources:** [Y Combinator](https://www.ycombinator.com/companies/unsloth-ai) · [Unsloth on GitHub](https://github.com/unslothai/unsloth)
 
@@ -430,9 +430,9 @@ Omar Khattab's [DSPy repository](https://github.com/stanfordnlp/dspy) treats lan
 
 **The path:** The MIT profile identifies his work in AI systems, while [DSPy's code](https://github.com/stanfordnlp/dspy) provides the implementation developers can use and test. The research connects retrieval and language models with a programming approach to compound systems. I do not infer adoption across all enterprise stacks from repository popularity or assign sole credit for a project with multiple contributors.
 
-**Why I'm watching in 2027:** DSPy-style prompt optimization is being built into enterprise AI stacks. With his own MIT lab now running, he is positioned to define how compound AI systems get compiled and optimized rather than hand-prompted.
+**Why I'm watching in 2027:** DSPy's programmatic approach makes repeatable optimization, rather than a one-off prompt improvement, the result to follow from Khattab's work. With his own MIT lab now running, he is positioned to define how compound AI systems get compiled and optimized rather than hand-prompted.
 
-**My read:** My concern is an optimized program that overfits its evaluation examples.
+**My read:** Omar Khattab: the warning sign is an optimized program that overfits its evaluation examples.
 
 **Sources:** [DSPy on GitHub](https://github.com/stanfordnlp/dspy) · [qatar.cmu.edu](https://www.qatar.cmu.edu/news/cmu-q-opened-doors-to-a-career-in-research-says-computer-science-grad-omar-khattab/)
 
@@ -446,9 +446,9 @@ Lysandre Debut co-authored [Hugging Face's December 2025 Transformers v5 announc
 
 **The path:** The [PyTorch Foundation biography](https://pytorch.org/?p=1098) describes his open-source leadership at Hugging Face. The v5 release post names him among its authors and reports over 400 supported model architectures, up from 40 at the earlier v4 release. Those are company-reported ecosystem figures. The December 1 post announced a release candidate, v5.0.0rc-0, rather than establishing the date of every later stable release. The post distinguishes model definitions from the downstream runtime.
 
-**Why I'm watching in 2027:** I am watching whether simpler model definitions let downstream inference engines support new architectures faster without incompatible defaults. Hugging Face's [February 2026 ggml announcement](https://huggingface.co/blog/ggml-joins-hf) describes a closer path from Transformers definitions to llama.cpp; it is a roadmap that still needs working integrations.
+**Why I'm watching in 2027:** Transformers v5 makes compatibility across downstream tools a concrete test of Debut's infrastructure work. Hugging Face's [February 2026 ggml announcement](https://huggingface.co/blog/ggml-joins-hf) describes a closer path from Transformers definitions to llama.cpp; it is a roadmap that still needs working integrations.
 
-**My read:** My concern is rapid integration that leaves incompatible defaults or poorly tested implementations.
+**My read:** For Lysandre Debut, I would look for evidence against this risk: rapid integration that leaves incompatible defaults or poorly tested implementations.
 
 **Sources:** [Transformers v5 blog](https://huggingface.co/blog/transformers-v5) · [PyTorch Foundation](https://pytorch.org/?p=1098) · [huggingface.co](https://huggingface.co/blog/ggml-joins-hf)
 
@@ -460,11 +460,11 @@ Erik Bernhardsson's [own biography](https://erikbern.com/about) traces Annoy and
 
 **Education:** His [own biography](https://erikbern.com/about) records a physics MSc from KTH, an IOI gold medal and two ACM-ICPC world-final appearances; it does not state the degree award year.
 
-**The path:** After a six-month internship at Google Zurich, he spent about six years at Spotify, first in Stockholm analytics, then building and running the NYC machine learning team. There he built the first version of its music recommendations, including Related Artists, Radio and Discover Weekly, and open-sourced Luigi (10k+ stars) and Annoy. From Feb 2015 to Jan 2021 he was CTO of Better.com, leading a roughly 300-person tech team, according to his biography, according to his biography. He founded Modal in 2021 to build a container and GPU runtime.
+**The path:** After a six-month internship at Google Zurich, he spent about six years at Spotify, first in Stockholm analytics, then building and running the NYC machine learning team. There he built the first version of its music recommendations, including Related Artists, Radio and Discover Weekly, and open-sourced Luigi (10k+ stars) and Annoy. From Feb 2015 to Jan 2021 he was CTO of Better.com, leading a roughly 300-person tech team, according to his biography. He founded Modal in 2021 to build a container and GPU runtime.
 
-**Why I'm watching in 2027:** Modal's [May 21, 2026 announcement](https://modal.com/blog/modal-series-c) confirms a $355 million Series C at a $4.65 billion post-money valuation, led by General Catalyst and Redpoint. It reports annualized revenue exceeding $300 million and fivefold growth since September; those are company claims, not audited full-year revenue. I have not established a closed subsequent round from the supplied September talks.
+**Why I'm watching in 2027:** Modal's [May 21, 2026 announcement](https://modal.com/blog/modal-series-c) confirms a $355 million Series C at a $4.65 billion post-money valuation, led by General Catalyst and Redpoint. It reports annualized revenue exceeding $300 million and fivefold growth since September; those are company claims, not audited full-year revenue. I have not established a closed subsequent round after that announcement.
 
-**My read:** The case weakens if usage growth fails to translate into durable margins after paying for compute.
+**My read:** Erik Bernhardsson's case depends on avoiding the opposite outcome:  usage growth fails to translate into durable margins after paying for compute.
 
 **Sources:** [erikbern.com](https://erikbern.com/about) · [modal.com](https://modal.com/blog/modal-series-c)
 
@@ -476,11 +476,11 @@ Lin Qiao ran the Meta organization behind PyTorch, the framework most of her cus
 
 **Education:** In her [TWIML interview biography](https://twimlai.com/network/lin-qiao/), Qiao records bachelor's and master's degrees in computer science from Fudan and a computer-science PhD from UC Santa Barbara; degree years are not established by that record.
 
-**The path:** Her [TWIML biography](https://twimlai.com/network/lin-qiao/) describes earlier work at IBM and LinkedIn and leadership of Meta's AI frameworks organization. The later Fireworks financing announcement documents the company she co-founded. I leave out precise employment months and team-size estimates not established by that institutional account. The progression connects model-development infrastructure with the later problem of serving specialized models to customers.
+**The path:** Her [TWIML biography](https://twimlai.com/network/lin-qiao/) describes earlier work at IBM and LinkedIn and leadership of Meta's AI frameworks organization. The later Fireworks financing announcement documents the company she co-founded. The progression connects model-development infrastructure with the later problem of serving specialized models to customers.
 
-**Why I'm watching in 2027:** Fireworks' [July 15, 2026 announcement](https://fireworks.ai/blog/series-d-announcement) reports a $1.505 billion Series D at a $17.5 billion valuation, led by Atreides, Index and TCV. It also reports an annualized revenue run rate above $1 billion and more than 40 trillion daily tokens; those operating figures are company-reported, not audited annual revenue.
+**Why I'm watching in 2027:** Qiao's move from PyTorch infrastructure to inference turns the question toward reliable customer workloads at a sustainable serving cost. It also reports an annualized revenue run rate above $1 billion and more than 40 trillion daily tokens; those operating figures are company-reported, not audited annual revenue.
 
-**My read:** My concern is revenue growth mistaken for high margins or cash generation.
+**My read:** Qiao would lose my confidence over revenue growth mistaken for high margins or cash generation.
 
 **Sources:** [twimlai.com](https://twimlai.com/network/lin-qiao/) · [fireworks.ai](https://fireworks.ai/blog/series-d-announcement)
 
@@ -492,11 +492,11 @@ Baseten's financing moved from a $5 billion valuation in January 2026 to $13 bil
 
 **Education:** I could not verify his education.
 
-**The path:** Tuhin Srivastava co-founded the inference company with Amir Haghighat, Phil Howes and Pankaj Gupta. Baseten's [January 23, 2026 Series E statement](https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/) records $300 million raised at $5 billion and names IVP and CapitalG as leads. Its June announcement is signed by the four founders and names customers including Cursor, Notion, Harvey and OpenEvidence. I have not verified the supplied exact early-career banking dates.
+**The path:** Tuhin Srivastava co-founded the inference company with Amir Haghighat, Phil Howes and Pankaj Gupta. Baseten's [January 23, 2026 Series E statement](https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/) records $300 million raised at $5 billion and names IVP and CapitalG as leads. Its June announcement is signed by the four founders and names customers including Cursor, Notion, Harvey and OpenEvidence. His exact early-career banking dates remain unverified.
 
 **Why I'm watching in 2027:** The [June 22, 2026 Series F announcement](https://www.baseten.co/blog/announcing-our-series-f/) records $1.5 billion at a $13 billion valuation, led by Altimeter, Conviction and Spark, with Sands and Wellington co-leading. Baseten reports twentyfold revenue growth and fortyfold inference-volume growth over the previous year, but does not disclose an absolute revenue figure there. I am following whether specialization protects its economics as inference competitors expand.
 
-**My read:** The case weakens if growth in inference volume masks falling margins or customer concentration.
+**My read:** Tuhin Srivastava's case depends on avoiding the opposite outcome:  growth in inference volume masks falling margins or customer concentration.
 
 **Sources:** [baseten.co](https://www.baseten.co/blog/announcing-baseten-s-300m-series-e/) · [baseten.co](https://www.baseten.co/blog/announcing-our-series-f/)
 
@@ -508,11 +508,11 @@ Gorkem Yurtseven co-founded fal, an infrastructure platform for generative image
 
 **Education:** I could not verify his education.
 
-**The path:** The company connects its origin to the founders' earlier work at Amazon and Coinbase. [TechCrunch's December 2025 funding report](https://finance.yahoo.com/news/fal-nabs-140m-fresh-funding-222133234.html) describes Yurtseven as an ex-Amazon developer and reports fal's expansion in media-model hosting. I use co-founder as his title because the accessible profiles disagree about the executive title. I omit unsourced customer lists and treat revenue reporting as company context rather than audited accounts.
+**The path:** The company connects its origin to the founders' earlier work at Amazon and Coinbase. [Yahoo Finance's December 2025 funding report](https://finance.yahoo.com/news/fal-nabs-140m-fresh-funding-222133234.html) describes Yurtseven as an ex-Amazon developer and reports fal's expansion in media-model hosting. I use co-founder as his title because the accessible profiles disagree about the executive title.
 
 **Why I'm watching in 2027:** The December report records $140 million in new funding at a $4.5 billion valuation, led by Sequoia. It also attributes revenue above $200 million as of October to Bloomberg reporting, without establishing a comparable annual recurring-revenue measure. I am watching whether a specialist serving layer retains customers as model providers change their prices and distribution.
 
-**My read:** My concern is model-provider dependence or volatile inference costs eroding the platform’s value.
+**My read:** For Gorkem Yurtseven, I would look for evidence against this risk: model-provider dependence or volatile inference costs eroding the platform’s value.
 
 **Sources:** [fal.ai](https://fal.ai/about) · [Yahoo Finance](https://finance.yahoo.com/news/fal-nabs-140m-fresh-funding-222133234.html)
 
@@ -526,9 +526,9 @@ Jeffrey Morgan co-founded Ollama with Michael Chiang, according to [Y Combinator
 
 **The path:** [TechCrunch's March 2015 account](https://techcrunch.com/2015/03/12/kitematic-founders-barely-two-years-out-of-college-sell-to-docker) describes the earlier Kitematic acquisition by Docker. YC's later Ollama record identifies Morgan and Chiang as founders. The progression connects two developer tools that reduce setup complexity, but the acquisition story does not establish the price, Morgan's proceeds or a full intervening employment chronology.
 
-**Why I'm watching in 2027:** [Pulse 2.0's July 2026 report](https://pulse2.com/ollama-raises-65-million-in-series-b-funding-to-expand-its-open-source-ai-platform/) describes a $65 million Series B led by Theory Ventures and attributes an 8.9 million-developer figure to the company. I am watching whether that distribution supports a sustainable local and hybrid-inference business. A user count does not by itself establish paid customers, revenue or margins.
+**Why I'm watching in 2027:** Ollama's local-model workflow makes installation, updating and dependable everyday use the next tests for Morgan's team. I am watching whether that distribution supports a sustainable local and hybrid-inference business. A user count does not by itself establish paid customers, revenue or margins.
 
-**My read:** My concern is adoption figures that do not translate into supported, sustainable use.
+**My read:** Ollama's challenge is to avoid adoption figures that do not translate into supported, sustainable use.
 
 **Sources:** [ycombinator.com](https://www.ycombinator.com/companies/ollama) · [TechCrunch (2015)](https://techcrunch.com/2015/03/12/kitematic-founders-barely-two-years-out-of-college-sell-to-docker) · [Pulse 2.0](https://pulse2.com/ollama-raises-65-million-in-series-b-funding-to-expand-its-open-source-ai-platform/)
 
@@ -540,11 +540,11 @@ Simon Hørup Eskildsen's [own career record](https://sirupsen.com/about/) dates 
 
 **Education:** I could not verify his formal education. He competed in the International Olympiad in Informatics.
 
-**The path:** His biography dates Shopify work to 2013 to 2021, consulting with companies including Replicate and Readwise to 2021 to 2023, and turbopuffer's founding to 2023. He describes infrastructure scaling from 1,000 to one million requests per second and maintains the napkin-math project. Those are attributed first-person career records. I leave out a particular job-offer story and exact customer savings that I could not corroborate with a readable original account.
+**The path:** His biography dates Shopify work to 2013 to 2021, consulting with companies including Replicate and Readwise to 2021 to 2023, and turbopuffer's founding to 2023. He describes infrastructure scaling from 1,000 to one million requests per second and maintains the napkin-math project. Those are attributed first-person career records.
 
-**Why I'm watching in 2027:** I am watching whether low-cost storage also produces dependable retrieval latency and fresh context at scale. A cheaper backend matters to an AI product only if it can return the right material within the product's response budget. Capacity, paid usage and customer outcomes are more useful here than an unsourced growth multiple.
+**Why I'm watching in 2027:** turbopuffer's object-storage design puts retrieval latency and total operating cost at the center of Eskildsen's 2027 case. A cheaper backend matters to an AI product only if it can return the right material within the product's response budget. Capacity, paid usage and customer outcomes are more useful here than an unsourced growth multiple.
 
-**My read:** My concern is cheap storage offset by unpredictable retrieval or stale context.
+**My read:** Eskildsen would lose my confidence over cheap storage offset by unpredictable retrieval or stale context.
 
 **Sources:** [sirupsen.com](https://sirupsen.com/about/)
 
@@ -554,13 +554,13 @@ Braintrust · Founder, first-person company announcement
 
 Ankur Goyal's [Braintrust funding announcement](https://www.braintrust.dev/blog/announcing-series-b) connects his earlier work at Impira and Figma to a company selling evaluation and observability tools for production AI.
 
-**Education:** I could not confirm the supplied degree or withdrawal chronology from a primary education record.
+**Education:** I could not confirm the degree or withdrawal chronology from a primary education record.
 
 **The path:** In the February 2026 post, Goyal says he built internal evaluation tools at both Impira and Figma and founded Braintrust after seeing the same need elsewhere. That first-person explanation establishes the product's origin without requiring an aggregator's precise promotion or employment dates. The company describes a shift from experiments to agents embedded in engineering workflows, where tracing failures becomes an operational requirement.
 
-**Why I'm watching in 2027:** The [February 17, 2026 announcement](https://www.braintrust.dev/blog/announcing-series-b) confirms an $80 million Series B led by ICONIQ. It does not establish the post-money valuation in the readable text I reviewed, so I omit that figure. I am watching whether evaluations detect failures customers actually encounter and help teams improve them, rather than merely add another dashboard.
+**Why I'm watching in 2027:** Braintrust's funding announcement connects Goyal's evaluation tools with a commercial test: catching failures that customers actually encounter. It does not establish the post-money valuation in the readable text I reviewed, so I omit that figure. I am watching whether evaluations detect failures customers actually encounter and help teams improve them, rather than merely add another dashboard.
 
-**My read:** My concern is a dashboard measuring convenient proxies instead of the failures customers experience.
+**My read:** Ankur Goyal: the warning sign is a dashboard measuring convenient proxies instead of the failures customers experience.
 
 **Sources:** [braintrust.dev](https://www.braintrust.dev/blog/announcing-series-b)
 
@@ -570,13 +570,13 @@ Arena · Co-founder and CEO
 
 Anastasios Angelopoulos's [own biography](https://angelopoulos.ai/) identifies him as Arena's co-founder and CEO and describes a research focus on reliable AI. That puts a researcher in charge of a business whose central asset is trust in evaluation.
 
-**Education:** His [personal academic biography](https://angelopoulos.ai/) records undergraduate electrical engineering at Stanford, an EECS PhD at Berkeley advised by Michael Jordan and Jitendra Malik, and postdoctoral work with Ion Stoica; award years are not supplied in the opened biography.
+**Education:** His [personal academic biography](https://angelopoulos.ai/) records undergraduate electrical engineering at Stanford, an EECS PhD at Berkeley advised by Michael Jordan and Jitendra Malik, and postdoctoral work with Ion Stoica; the biography does not establish the award years.
 
 **The path:** His biography documents a Berkeley postdoc after doctoral work, and publications on conformal prediction and prediction-powered inference. The later Arena role connects those reliability questions to public model comparisons. I avoid treating a leaderboard position as a universal verdict: rankings depend on the tasks, users and comparison method. The record also does not make one founder solely responsible for the platform's research or every ranked outcome.
 
-**Why I'm watching in 2027:** I am watching whether Arena can run commercial evaluation services while maintaining confidence in the independence of its comparisons. [January 2026 reporting](https://bridgemena.com/news/lmarena-reaches-1-7b-valuation-following-150m-series-a-round) describes a $150 million Series A at a $1.7 billion post-money valuation. I attribute that price to the funding report and leave out unverified operating run rates.
+**Why I'm watching in 2027:** Arena's reported January 2026 financing makes commercial expansion and the independence of its comparisons a joint test for Angelopoulos. [January 2026 reporting](https://bridgemena.com/news/lmarena-reaches-1-7b-valuation-following-150m-series-a-round) describes a $150 million Series A at a $1.7 billion post-money valuation. I attribute that price to the funding report and leave out unverified operating run rates.
 
-**My read:** My concern is a single leaderboard position treated as proof that a model is best for all users.
+**My read:** For Anastasios Angelopoulos, I would look for evidence against this risk: a single leaderboard position treated as proof that a model is best for all users.
 
 **Sources:** [angelopoulos.ai](https://angelopoulos.ai/) · [Bridge MENA](https://bridgemena.com/news/lmarena-reaches-1-7b-valuation-following-150m-series-a-round)
 
@@ -590,9 +590,9 @@ David Soria Parra is a lead maintainer in the [Model Context Protocol's October 
 
 **The path:** The [AI Engineer biography](https://www.ai.engineer/speakers/david-soria-parra) connects his PHP and developer-tooling background to MCP. The protocol's own maintainer list names both Soria Parra and Den Delimarsky as lead maintainers and identifies Justin Spahr-Summers as co-inventor and emeritus lead maintainer. I retain the team attribution and omit an unverified full employment chronology.
 
-**Why I'm watching in 2027:** I am watching whether the ecosystem converges on compatible authentication and authorization behavior. Support in a client is not enough if a connection grants excessive permissions or behaves differently across implementations. The economic benefit is easier integration with less bespoke maintenance; that benefit needs interoperable releases rather than a repository popularity count.
+**Why I'm watching in 2027:** The October 2026 MCP maintainer record puts Soria Parra close to the practical question of dependable tool and data connections. Support in a client is not enough if a connection grants excessive permissions or behaves differently across implementations. The economic benefit is easier integration with less bespoke maintenance; that benefit needs interoperable releases rather than a repository popularity count.
 
-**My read:** My concern is broad support claimed despite incompatible behavior or unsafe authorization.
+**My read:** Model Context Protocol's challenge is to avoid broad support claimed despite incompatible behavior or unsafe authorization.
 
 **Sources:** [github.com](https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/MAINTAINERS.md) · [AI Engineer](https://www.ai.engineer/speakers/david-soria-parra)
 
@@ -600,7 +600,7 @@ David Soria Parra is a lead maintainer in the [Model Context Protocol's October 
 
 Etched · Co-founder and CEO
 
-Etched is a concentrated bet on transformer-specific inference hardware; its own funding announcement records $700 million at a $21 billion valuation in August 2026, rather than the September date in the supplied brief.
+Etched is a concentrated bet on transformer-specific inference hardware; its own funding announcement records $700 million at a $21 billion valuation in August 2026.
 
 **Education:** [Etched's team page](https://www.etched.com/join) describes Uberti as a Harvard Thiel Fellow and Math 55 alumnus. It does not establish a completed degree, so I do not infer one.
 
@@ -608,7 +608,7 @@ Etched is a concentrated bet on transformer-specific inference hardware; its own
 
 **Why I'm watching in 2027:** The company identifies Jane Street as lead investor in its $700 million round at $21 billion. I am following delivered throughput, power consumption and customer economics rather than treating a quoted GPU-replacement ratio as a verified benchmark. Higher October valuation offers in reporting remain a separate, unconfirmed transaction lead; none is evidence of Uberti's personal wealth.
 
-**My read:** The case weakens if changing model architectures or real deployment costs erase the advantage of transformer-specific silicon.
+**My read:** Gavin Uberti's case depends on avoiding the opposite outcome:  changing model architectures or real deployment costs erase the advantage of transformer-specific silicon.
 
 **Sources:** [etched.com](https://www.etched.com/join) · [etched.com](https://www.etched.com/progress/from-zero-to-one)
 
@@ -616,33 +616,33 @@ Etched is a concentrated bet on transformer-specific inference hardware; its own
 
 MatX · Co-founder and CEO
 
-Reiner Pope's [MatX company biography](https://matx.com/jobs) identifies him as co-founder and CEO and describes earlier work as Google's PaLM efficiency lead. His startup turns inference efficiency into a hardware business.
+Reiner Pope's [personal biography](https://reiner.org/) identifies him as MatX's co-founder and CEO, following work at Google on language-model hardware and software efficiency. His startup turns that systems experience into a chip business.
 
-**Education:** I have not confirmed the supplied degree year from an original university record.
+**Education:** I could not verify his degree or graduation year from a university record.
 
-**The path:** The MatX biography attributes high-performance software and hardware experience to Pope, including PaLM inference work and involvement in Google's TPU architecture. It identifies Mike Gunter as co-founder and CTO. I treat the claims as an attributed company biography, and omit exact earlier employment years and departure timing not established by that page.
+**The path:** Pope describes earlier Google work on compilers and chip architecture as well as model efficiency. His [personal site](https://reiner.org/) also lists technical writing on matrix multiplication, hashing and sorting, with dated posts in 2025. Those are inspectable technical contributions, rather than proof that a commercial chip meets its performance targets. I do not infer precise employment dates or a completed delivery milestone from that biography.
 
-**Why I'm watching in 2027:** I am watching whether the company's chip design becomes a dependable customer system with measured throughput, power consumption and software support. I could not retrieve a readable original record for the supplied later financing amount, so I omit the figure and an implied first-silicon delivery date. Product delivery will be more useful evidence than a speculative private-company price.
+**Why I'm watching in 2027:** MatX puts Pope on the other side of the hardware purchase: his team must deliver a customer system, not just optimize an existing one. Measured throughput, power consumption, compiler support and deployment reliability would tell me more than a speculative private-company price. A design target is not evidence of shipped silicon.
 
-**My read:** My concern is impressive component results that do not become dependable customer performance.
+**My read:** Reiner Pope: the warning sign is impressive component results that do not become dependable customer performance.
 
-**Sources:** [matx.com](https://matx.com/jobs)
+**Sources:** [Reiner Pope: personal biography](https://reiner.org/)
 
 ## 40. Sharon Zhou
 
 AMD · AI Chief of Staff, 2026 event listing
 
-Sharon Zhou built Lamini on AMD GPUs when most fine-tuning startups ran on NVIDIA. In June 2025 AMD hired her, along with part of the Lamini team.
+Sharon Zhou's move from Lamini to AMD put AI research and developer education inside a chip supplier. In [AMD's own welcome post](https://www.linkedin.com/posts/amd_welcome-to-team-amd-sharon-activity-7338587807789002754-hLsk), she says she is joining Lisa Su's team and that several Lamini colleagues are joining too.
 
-**Education:** I have not confirmed the supplied degree award years against readable university records, so I omit those years.
+**Education:** I could not verify her degree award years from university records.
 
-**The path:** [Le Monde Informatique's June 2025 report](https://www.lemondeinformatique.fr/actualites/lireamp-telex-amd-renforce-son-pole-ia-avec-l-equipe-lamini-outset-leve-17-m$-pour-son-ia-intervieweuse-rappel-d-1-1-million-de-batteries-externes-anker-97133.html) says AMD brought in Lamini team members including CEO Sharon Zhou. AMD's [2026 Advancing AI event](https://www.amd.com/en/corporate/events/advancing-ai.html) supplies a later company record of her work. I do not treat the team move as proof that AMD acquired all of Lamini or assign undisclosed deal proceeds to Zhou. Its developer-event material offers a dated company affiliation record.
+**The path:** Zhou's announcement describes teaching AI with Andrew Ng and work on fine-tuning and accuracy using AMD GPUs. It also sets out an intention to build accessible AI courses and listen to developers' feedback. AMD's [author page](https://www.amd.com/en/blogs/by-author/sharon-zhou.html) provides a separate company record under her name. The team move establishes an affiliation; it does not disclose acquisition terms or personal proceeds. I do not treat it as evidence that AMD acquired all of Lamini.
 
-**Why I'm watching in 2027:** AMD's MI400-generation push depends on making ROCm a credible software alternative to CUDA. She is one of the executives responsible for the developer and model experience on AMD silicon heading into 2027.
+**Why I'm watching in 2027:** The AMD appointment connects Zhou with the developer adoption problem around its GPUs. For 2027, I want evidence that clearer teaching and usable tools reduce the time required to run real models on that hardware. A course can attract learners without demonstrating sustained production use.
 
-**My read:** My concern is hardware specifications improving faster than the software needed to use them.
+**My read:** For Sharon Zhou, I would look for evidence against this risk: hardware specifications improving faster than the software needed to use them.
 
-**Sources:** [Le Monde Informatique](https://www.lemondeinformatique.fr/actualites/lireamp-telex-amd-renforce-son-pole-ia-avec-l-equipe-lamini-outset-leve-17-m$-pour-son-ia-intervieweuse-rappel-d-1-1-million-de-batteries-externes-anker-97133.html) · [amd.com](https://www.amd.com/en/corporate/events/advancing-ai.html)
+**Sources:** [AMD: Sharon Zhou welcome announcement](https://www.linkedin.com/posts/amd_welcome-to-team-amd-sharon-activity-7338587807789002754-hLsk) · [AMD: Sharon Zhou author page](https://www.amd.com/en/blogs/by-author/sharon-zhou.html)
 
 ## 41. Jerry Liu
 
@@ -650,13 +650,13 @@ LlamaIndex · Co-founder and CEO
 
 Jerry Liu's LlamaIndex connects open-source retrieval tools with a managed document-processing business. [KPMG's May 2025 investment statement](https://kpmg.com/us/en/media/news/llamaIndex-announces-investments-from-databricks-and-kpmg.html) identifies him as co-founder and CEO.
 
-**Education:** I have not confirmed the supplied degree, honors and award chronology against a primary university record.
+**Education:** I could not verify his degrees, honors or award dates from a university record.
 
-**The path:** The [KPMG announcement](https://kpmg.com/us/en/media/news/llamaIndex-announces-investments-from-databricks-and-kpmg.html) describes managed parsing, ingestion and retrieval and investments from KPMG and Databricks. The [open repository](https://github.com/run-llama/llama_index) provides the technical project record. I leave out exact earlier employment years from an aggregator and an uncorroborated total-funding calculation: investments disclosed in separate announcements do not automatically sum to a complete capitalization history.
+**The path:** The [KPMG announcement](https://kpmg.com/us/en/media/news/llamaIndex-announces-investments-from-databricks-and-kpmg.html) describes managed parsing, ingestion and retrieval and investments from KPMG and Databricks. The [open repository](https://github.com/run-llama/llama_index) provides the technical project record.
 
-**Why I'm watching in 2027:** [TechCrunch's March 2025 report](https://techcrunch.com/2025/03/04/llamaindex-launches-a-cloud-service-for-building-unstructed-data-agents) describes a $19 million Series A led by Norwest. I am watching whether better document parsing and retrieval improve agent reliability on real enterprise data. An impressive final answer can still depend on a flawed extraction step upstream. Source accuracy matters throughout that chain.
+**Why I'm watching in 2027:** [TechCrunch's March 2025 report](https://techcrunch.com/2025/03/04/llamaindex-launches-a-cloud-service-for-building-unstructed-data-agents) describes a $19 million Series A led by Norwest. I am watching whether better document parsing and retrieval improve agent reliability on real enterprise data. An impressive final answer can still depend on a flawed extraction step upstream. Source accuracy matters throughout that chain. I would test extraction against the original documents before scoring the final answer, including scanned tables, conflicting versions and access permissions that limit what an agent should retrieve.
 
-**My read:** My concern is a polished answer that hides errors introduced earlier in the data pipeline.
+**My read:** LlamaIndex's challenge is to avoid a polished answer that hides errors introduced earlier in the data pipeline.
 
 **Sources:** [KPMG](https://kpmg.com/us/en/media/news/llamaIndex-announces-investments-from-databricks-and-kpmg.html) · [LlamaIndex on GitHub](https://github.com/run-llama/llama_index) · [TechCrunch](https://techcrunch.com/2025/03/04/llamaindex-launches-a-cloud-service-for-building-unstructed-data-agents)
 
@@ -666,13 +666,13 @@ Lovable · Co-founder, KTH award record
 
 Anton Osika's Lovable announced a [$400 million Series C at a $13.3 billion valuation in August 2026](https://lovable.dev/blog/series-c). That financing gives a concrete scale to the question: can software generated from natural-language instructions become dependable business infrastructure?
 
-**Education:** [KTH's September 2025 innovation-award profile](https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893) confirms engineering-physics studies at KTH; it does not establish the supplied HKUST degree or a completed KTH master's degree.
+**Education:** [KTH's September 2025 innovation-award profile](https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893) confirms engineering-physics studies at KTH; it does not establish an HKUST degree or a completed KTH master's degree.
 
 **The path:** [KTH's 2025 award profile](https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893) identifies Osika and Fabian Hedin as Lovable's founders. The [August 12, 2026 company announcement](https://lovable.dev/blog/series-c) dates the product launch to November 2024 and reports more than 60 million projects created. That is a company usage claim, not a count of successful or maintained businesses.
 
 **Why I'm watching in 2027:** The round was led by Menlo Ventures and co-led by the Scaleup Europe Fund managed by EQT. I am watching whether rapid app creation translates into durable paid use, secure deployments and manageable maintenance. A forecast revenue run rate is different from realized annual revenue, and a project count says little about repair costs after launch.
 
-**My read:** My concern is rapid creation followed by high repair costs or dependence on a fragile generated codebase.
+**My read:** Osika would lose my confidence over rapid creation followed by high repair costs or dependence on a fragile generated codebase.
 
 **Sources:** [lovable.dev](https://lovable.dev/blog/series-c) · [KTH](https://www.kth.se/en/om/nyheter/centrala-nyheter/anton-osika-och-fabian-hedin-kth-innovation-award-2025-1.1425893)
 
@@ -686,9 +686,9 @@ Base44 / Wix · Founder associated with the acquired product
 
 **The path:** The release identifies Shlomo as Base44's CEO and says the product will operate as a distinct business within Wix. About $25 million in employee retention bonuses was expected within the initial consideration, rather than as an additional founder payout. I do not translate the headline acquisition price into Shlomo's wealth, and omit unverified claims about his earlier company title, personal profit and individual share of the deal.
 
-**Why I'm watching in 2027:** I am watching whether a conversational app builder keeps its speed and customer appeal inside a public company. The conditional earn-outs make future performance part of the transaction, but do not establish that all payments have been earned. I examine the ownership and deal terms separately in [Who Owns Base44?](https://visionarytalks.com/who-owns-base44/).
+**Why I'm watching in 2027:** Wix's Base44 acquisition makes the post-deal product, customer retention and maintenance burden more informative than the headline consideration. The conditional earn-outs make future performance part of the transaction, but do not establish that all payments have been earned. I examine the ownership and deal terms separately in [Who Owns Base44?](https://visionarytalks.com/who-owns-base44/).
 
-**My read:** My concern is treating an acquisition announcement as proof of either personal wealth or future product success.
+**My read:** Maor Shlomo: the warning sign is treating an acquisition announcement as proof of either personal wealth or future product success.
 
 **Sources:** [Wix press release](https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif) · [Who Owns Base44?](https://visionarytalks.com/who-owns-base44/)
 
@@ -698,13 +698,13 @@ ElevenLabs · Co-founder
 
 [ElevenLabs' May 2026 update](https://elevenlabs.io/blog/500m-arr-and-new-investors) reports that ARR passed $500 million in the first four months of the year, after ending 2025 at $350 million. Mati Staniszewski co-founded the business turning voice models into enterprise products.
 
-**Education:** I have not confirmed the supplied school and degree award dates against primary education records.
+**Education:** I have not confirmed the school and degree award dates against primary education records.
 
 **The path:** The [company's own history](https://elevenlabs.io/about) identifies Staniszewski and Piotr Dabkowski as founders. Its May operating update describes enterprises using voice agents and a further close in the Series D financing. I use that direct business record and leave out uncertain earlier job dates, board appointments and a team-acquisition chronology that is not needed to explain the product.
 
-**Why I'm watching in 2027:** I am watching whether enterprise voice agents produce reliable service outcomes with workable margins and appropriate control over synthetic voices. ARR is a company-reported recurring-revenue measure, not audited annual revenue or cash generation. A possible IPO date is a reported intention, not a confirmed listing schedule.
+**Why I'm watching in 2027:** ElevenLabs' reported ARR growth makes retention, serving costs and dependable voice output the next checks on Staniszewski's business. ARR is a company-reported recurring-revenue measure, not audited annual revenue or cash generation. A possible IPO date is a reported intention, not a confirmed listing schedule.
 
-**My read:** My concern is rapid usage growth without dependable margins or trustworthy handling of voices.
+**My read:** For Mati Staniszewski, I would look for evidence against this risk: rapid usage growth without dependable margins or trustworthy handling of voices.
 
 **Sources:** [elevenlabs.io](https://elevenlabs.io/blog/500m-arr-and-new-investors) · [elevenlabs.io](https://elevenlabs.io/about)
 
@@ -718,9 +718,9 @@ Brendan Foody's Mercor organizes domain experts to help train and evaluate AI sy
 
 **The path:** The [company's mission page](https://www.mercor.com/mission/) names Foody and Adarsh Hiremath in its leadership account and describes the expert network and APEX evaluation work. [TechCrunch's April 2026 report](https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/) dates a $350 million round at a $10 billion valuation to October 2025. That is a company financing price, not an independently verified personal net worth.
 
-**Why I'm watching in 2027:** [TechCrunch's July 9, 2026 report](https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/) describes $20 billion valuation talks, not a closed round. I am watching whether client trust and contractor economics hold up as expert-data demand grows, while keeping gross billings separate from money the company retains.
+**Why I'm watching in 2027:** Mercor's expert-training business makes retained revenue and the cost of coordinating specialists the measures I want to follow from Foody. I am watching whether client trust and contractor economics hold up as expert-data demand grows, while keeping gross billings separate from money the company retains.
 
-**My read:** The case weakens if gross contractor billings are mistaken for retained revenue or security failures damage lab customers' trust.
+**My read:** Brendan Foody's case depends on avoiding the opposite outcome:  gross contractor billings are mistaken for retained revenue or security failures damage lab customers' trust.
 
 **Sources:** [mercor.com](https://www.mercor.com/mission/) · [KTVU](https://www.ktvu.com/news/from-bay-area-high-school-friends-worlds-youngest-self-made-billionaires-company-valued-10b) · [techcrunch.com](https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/) · [techcrunch.com](https://techcrunch.com/2026/07/09/mercor-is-in-talks-for-a-20b-valuation/)
 
@@ -730,13 +730,13 @@ Decagon · Co-founder and CEO
 
 [Decagon's January 27, 2026 announcement](https://decagon.ai/blog/series-d-announcement) records $250 million of new funding at a $4.5 billion valuation. Jesse Zhang co-founded a business whose agents have to resolve customer problems, not merely handle more messages.
 
-**Education:** I have not verified a degree award year from an original university record, so I leave out the supplied age and precise education chronology.
+**Education:** I have not verified a degree award year from an original university record, so I leave out the age and precise education chronology.
 
-**The path:** The [company page](https://decagon.ai/about) identifies Zhang as co-founder and CEO and Ashwin Sreenivas as co-founder and president. That corrects the supplied CTO label. The financing announcement describes expansion of the AI concierge business with Coatue and Index leading the new round. I omit unsupported acquisition details and customer lists rather than treating a blocked Forbes page as a verified record.
+**The path:** The [company page](https://decagon.ai/about) identifies Zhang as co-founder and CEO and Ashwin Sreenivas as co-founder and president. The financing announcement describes expansion of the AI concierge business with Coatue and Index leading the new round.
 
-**Why I'm watching in 2027:** I am watching resolution quality, repeat contacts and the ease of reaching a person when automation fails. A high private valuation does not establish revenue or profitability; the paid product must earn renewals through customer outcomes. Reducing escalation by frustrating users would make a containment statistic look better while damaging the business.
+**Why I'm watching in 2027:** Decagon's January 2026 financing gives Zhang's team capital to expand; resolved customer problems will matter more than message volume. A high private valuation does not establish revenue or profitability; the paid product must earn renewals through customer outcomes. Reducing escalation by frustrating users would make a containment statistic look better while damaging the business.
 
-**My read:** My concern is containment rates that improve by making it harder for customers to reach a person.
+**My read:** Zhang would lose my confidence over containment rates that improve by making it harder for customers to reach a person.
 
 **Sources:** [decagon.ai](https://decagon.ai/blog/series-d-announcement) · [decagon.ai](https://decagon.ai/about)
 
@@ -744,15 +744,15 @@ Decagon · Co-founder and CEO
 
 Factory · Co-founder and company-announcement author
 
-[Factory's September 15, 2026 announcement](https://factory.com/news/5-billion-valuation) records a $200 million financing at a $5 billion valuation. The original date is September 15, correcting the supplied September 16 chronology.
+[Factory's September 15, 2026 announcement](https://factory.com/news/5-billion-valuation) records a $200 million financing at a $5 billion valuation. The announcement is dated September 15.
 
-**Education:** I have not confirmed the supplied degree and doctoral-withdrawal dates against primary university records.
+**Education:** I have not confirmed the degree and doctoral-withdrawal dates against primary university records.
 
 **The path:** The statement is signed by Matan Grinberg and Eno Reyes, and dates Factory's founding to 2023. It names Blackstone, Khosla Ventures and Sequoia among the financing participants and says total funding exceeds $400 million. I use that original record instead of summing an aggregator's intermediate rounds or repeating an unverified cold-email origin story.
 
-**Why I'm watching in 2027:** I am watching whether enterprise coding agents reduce the complete cost of software delivery: implementation, review, security and ongoing maintenance. The company's announcement describes controlled deployment across cloud, on-premises and air-gapped environments. Those are product claims that customer results need to substantiate, rather than proof that greater code output automatically creates value.
+**Why I'm watching in 2027:** Factory's September 2026 round makes secure deployment and ongoing maintenance the next tests of Grinberg's coding agents. The company's announcement describes controlled deployment across cloud, on-premises and air-gapped environments. Those are product claims that customer results need to substantiate, rather than proof that greater code output automatically creates value.
 
-**My read:** My concern is faster code production accompanied by a larger maintenance or security burden.
+**My read:** Matan Grinberg: the warning sign is faster code production accompanied by a larger maintenance or security burden.
 
 **Sources:** [factory.com](https://factory.com/news/5-billion-valuation)
 
@@ -764,11 +764,11 @@ Emergent · Co-founder and CEO, company announcement
 
 **Education:** I could not verify his education.
 
-**The path:** The [company's April 2026 Wingman announcement](https://emergent.sh/news/emergent-launches-wingman-autonomous-ai-agent) identifies Mukund Jha as co-founder and CEO and describes agents operating through connected business tools. [January 2026 reporting](https://techcrunch.com/2026/01/20/indian-vibe-coding-startup-emergent-raises-70m-at-300m-valuation-from-softbank-khosla-ventures/) records $70 million raised at a $300 million valuation. I omit an unverified later round and his brother's detailed education history. The announcement describes connections to calendars, email and other tools through its integration hub.
+**The path:** The [company's April 2026 Wingman announcement](https://emergent.sh/news/emergent-launches-wingman-autonomous-ai-agent) identifies Mukund Jha as co-founder and CEO and describes agents operating through connected business tools. [January 2026 reporting](https://techcrunch.com/2026/01/20/indian-vibe-coding-startup-emergent-raises-70m-at-300m-valuation-from-softbank-khosla-ventures/) records $70 million raised at a $300 million valuation. The announcement describes connections to calendars, email and other tools through its integration hub.
 
-**Why I'm watching in 2027:** I am watching whether nontechnical users retain control when delegated software acts across calendars, messaging and other business systems. Creation speed and reported adoption are useful leads, but renewals, error recovery and permissions are stronger evidence that an agent is ready for consequential work.
+**Why I'm watching in 2027:** Emergent's reported eight-month run-rate milestone raises a tougher question for Jha: will users keep control when agents act across business systems? Creation speed and reported adoption are useful leads, but renewals, error recovery and permissions are stronger evidence that an agent is ready for consequential work.
 
-**My read:** My concern is convenient delegation without adequate control over mistakes or sensitive actions.
+**My read:** For Mukund Jha, I would look for evidence against this risk: convenient delegation without adequate control over mistakes or sensitive actions.
 
 **Sources:** [TechCrunch (Feb 2026)](https://techcrunch.com/2026/02/17/emergent-hits-100m-arr-eight-months-after-launch-rolls-out-mobile-app/) · [emergent.sh](https://emergent.sh/news/emergent-launches-wingman-autonomous-ai-agent) · [TechCrunch (Jan 2026)](https://techcrunch.com/2026/01/20/indian-vibe-coding-startup-emergent-raises-70m-at-300m-valuation-from-softbank-khosla-ventures/)
 
@@ -778,13 +778,13 @@ Runway · Co-founder and co-CEO, 2026 event record
 
 [February 2026 reporting](https://techfundingnews.com/runway-315m-series-e-5-3b-valuation-world-models/) records a $315 million Runway Series E at a $5.3 billion valuation. Cristóbal Valenzuela's company is directing investment toward world models as well as creative video tools.
 
-**Education:** I have not verified the supplied complete degree chronology against original university records, so I omit exact award years.
+**Education:** I have not verified the complete degree chronology against original university records, so I omit exact award years.
 
-**The path:** Runway's [own summit materials](https://summit.runway.com/ny) identify Valenzuela and Anastasis Germanidis as co-founders and co-CEOs. The February funding report names General Atlantic as lead investor and describes the company's expansion from media tools toward simulation. I leave out unverified teaching dates and earlier deal totals; a later financing headline does not certify every stage of a founder's biography.
+**The path:** Runway's [own summit materials](https://summit.runway.com/ny) identify Valenzuela and Anastasis Germanidis as co-founders and co-CEOs. The February funding report names General Atlantic as lead investor and describes the company's expansion from media tools toward simulation.
 
-**Why I'm watching in 2027:** I am watching whether world models support useful applications beyond selected creative samples. Work in robotics, medicine or climate requires different evaluation standards from an attractive video. Serving costs, manual correction and dependable behavior will decide how much of that broader ambition becomes a business.
+**Why I'm watching in 2027:** Runway's reported Series E backs Valenzuela's move toward world models, whose value must extend beyond selected creative samples. Work in robotics, medicine or climate requires different evaluation standards from an attractive video. Serving costs, manual correction and dependable behavior will decide how much of that broader ambition becomes a business.
 
-**My read:** My concern is high-quality samples that require too much manual correction to fit a real production budget.
+**My read:** Runway's challenge is to avoid high-quality samples that require too much manual correction to fit a real production budget.
 
 **Sources:** [TechFundingNews](https://techfundingnews.com/runway-315m-series-e-5-3b-valuation-world-models/) · [summit.runway.com](https://summit.runway.com/ny)
 
@@ -794,13 +794,13 @@ Clay · CEO and company-update author
 
 Clay's [September 9, 2026 company announcement](https://www.clay.com/blog/series-d) records $115 million in Series D funding at a $7.1 billion valuation. Kareem Amin's business sits at the intersection of data enrichment and AI-assisted sales workflows.
 
-**Education:** I have not confirmed the supplied degree award year from an original university record.
+**Education:** I have not confirmed the degree award year from an original university record.
 
-**The path:** The [January 2026 tender announcement](https://www.clay.com/blog/tender-offer-2026) describes employee share liquidity, while the September statement describes new financing. These are separate transactions: a tender transfers existing shares and does not automatically add the same amount to company cash. I omit the supplied early-career dates and uncorroborated total funding history.
+**The path:** The [January 2026 tender announcement](https://www.clay.com/blog/tender-offer-2026) describes employee share liquidity, while the September statement describes new financing. These are separate transactions: a tender transfers existing shares and does not automatically add the same amount to company cash.
 
-**Why I'm watching in 2027:** The September statement reports fourfold revenue growth in 2025 and more than 17,000 customers. I treat those as company operating claims, not audited accounts. I am watching whether data enrichment and automated outreach improve business outcomes without degrading data quality or merely generating more low-value activity.
+**Why I'm watching in 2027:** The September statement reports fourfold revenue growth in 2025 and more than 17,000 customers. I treat those as company operating claims, not audited accounts. I am watching whether data enrichment and automated outreach improve business outcomes without degrading data quality or merely generating more low-value activity. My comparison would count qualified outcomes rather than messages generated.
 
-**My read:** My concern is a higher activity count with no improvement in business outcomes or data quality.
+**My read:** Amin would lose my confidence over a higher activity count with no improvement in business outcomes or data quality.
 
 **Sources:** [clay.com](https://www.clay.com/blog/series-d) · [Clay blog](https://www.clay.com/blog/tender-offer-2026)
 
@@ -814,9 +814,9 @@ n8n's [press record](https://n8n.io/press/) dates Jan Oberhauser's founding of t
 
 **The path:** The company identifies Oberhauser as founder and CEO and describes its fair-code licensing under the Sustainable Use License. Its financing chronology lists a $1.5 million seed in March 2020, $12 million Series A in April 2021, $60 million Series B in March 2025 and $180 million Series C at $2.5 billion in October 2025. I use those company figures rather than mixing currency conversions from different reports.
 
-**Why I'm watching in 2027:** I am watching whether workflow automation becomes dependable infrastructure for corporate agents. The SAP relationship adds an enterprise distribution channel, but does not guarantee adoption. Licensing, debugging and governance remain part of the buying decision: a workflow that works in a demo still needs clear ownership when a connected system changes or an automated action fails.
+**Why I'm watching in 2027:** SAP's strategic investment gives n8n an enterprise distribution relationship; Oberhauser still needs to show dependable workflows in customer use. The SAP relationship adds an enterprise distribution channel, but does not guarantee adoption. Licensing, debugging and governance remain part of the buying decision: a workflow that works in a demo still needs clear ownership when a connected system changes or an automated action fails.
 
-**My read:** My concern is automation that saves time initially but becomes costly to debug or govern.
+**My read:** Jan Oberhauser: the warning sign is automation that saves time initially but becomes costly to debug or govern.
 
 **Sources:** [n8n press page](https://n8n.io/press/)
 
@@ -830,9 +830,9 @@ Robin Rombach's [Stanford seminar biography](https://ee.stanford.edu/event/10-16
 
 **The path:** The October 2024 biography describes earlier research directorship at Stability AI and work on VQGAN, Latent Diffusion and Stable Diffusion. It identifies efficient visual generation and open models as the thread connecting that work. [December 2025 reporting](https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation) describes a $300 million Series B at a $3.25 billion valuation. I attribute that financing to the report and omit an unverified list of model customers.
 
-**Why I'm watching in 2027:** I am watching whether a specialist model lab retains paying customers as large creative platforms develop or bundle competing tools. Image quality needs to be judged alongside serving cost, retries, controllability and rights requirements. A financing price shows investor expectations; reliable production use determines how much of those expectations can become revenue.
+**Why I'm watching in 2027:** Black Forest Labs connects Rombach's diffusion research with a commercial test: keeping paying users as creative platforms bundle competing tools. Image quality needs to be judged alongside serving cost, retries, controllability and rights requirements. A financing price shows investor expectations; reliable production use determines how much of those expectations can become revenue.
 
-**My read:** My concern is attractive images that require excessive retries or cannot fit a customer’s rights requirements.
+**My read:** For Robin Rombach, I would look for evidence against this risk: attractive images that require excessive retries or cannot fit a customer’s rights requirements.
 
 **Sources:** [Stanford EE](https://ee.stanford.edu/event/10-16-2024/latent-diffusion-flux-and-beyond-scaling-efficient-content-creation) · [TechCrunch](https://techcrunch.com/2025/12/01/black-forest-labs-raises-300m-at-3-25b-valuation)
 
@@ -842,13 +842,13 @@ Higgsfield · CEO and co-founder, 2026 event record
 
 [SaaStr's May 2026 speaker materials](https://saastrannual.com/speaker/alex-mashrabov) describe Higgsfield at a $300 million revenue run rate and identify Alex Mashrabov as CEO and co-founder. I treat that conference biography as an attributed company account, not audited ARR.
 
-**Education:** I could not confirm the supplied degree details from an original university record.
+**Education:** I could not confirm the degree details from an original university record.
 
-**The path:** The same conference biography describes earlier generative-AI leadership at Snap and co-founding AI Factory, acquired by Snap for a reported $166 million. That is acquisition consideration, not his individual proceeds. Higgsfield's later business applies video models in a consumer creation workflow. I omit an aggregator's month-by-month revenue progression and uncertain education history.
+**The path:** The same conference biography describes earlier generative-AI leadership at Snap and co-founding AI Factory, acquired by Snap for a reported $166 million. That is acquisition consideration, not his individual proceeds. Higgsfield's later business applies video models in a consumer creation workflow.
 
-**Why I'm watching in 2027:** I am watching whether a workflow business built around rapidly improving models can preserve repeat demand and margins. If users only arrive for a viral effect, recurring revenue will be harder to sustain. The useful tests are paid retention, cost per completed creation and the number of retries needed for an acceptable output.
+**Why I'm watching in 2027:** Higgsfield's conference-reported run rate makes repeat paid demand and cost per completed creation the tests to follow from Mashrabov. If users only arrive for a viral effect, recurring revenue will be harder to sustain. The useful tests are paid retention, cost per completed creation and the number of retries needed for an acceptable output.
 
-**My read:** My concern is viral usage that does not become repeat demand at sustainable serving costs.
+**My read:** Higgsfield's challenge is to avoid viral usage that does not become repeat demand at sustainable serving costs.
 
 **Sources:** [saastrannual.com](https://saastrannual.com/speaker/alex-mashrabov)
 
@@ -862,9 +862,9 @@ Gamma · Co-founder and company-announcement author
 
 **The path:** Stanford's biography identifies him as Gamma's CEO and co-founder and supplies a career the original brief left unknown: he was COO of ClearBrain, acquired by Amplitude, and CFO of Optimizely. Gamma began in 2020, launched its product in 2022 and integrated AI in 2023. Its [November 2025 announcement](https://gamma.app/insights/how-we-built-a-usd100m-business-differently) reported $100 million ARR and a $68 million Series B at a $2.1 billion valuation. Those are company-reported figures; I do not divide funding including a secondary component into ARR and call the ratio capital efficiency.
 
-**Why I'm watching in 2027:** I am following whether Gamma can keep a simple authoring experience while winning recurring paid use against the office suites; profitability and dated customer retention would be more useful evidence than cumulative creation counts.
+**Why I'm watching in 2027:** Gamma's reported profitability makes Lee's next challenge concrete: retain paid users while competing with established office suites.
 
-**My read:** The case weakens if the reported efficiency cannot survive competition from bundled office tools.
+**My read:** Grant Lee's case depends on avoiding the opposite outcome:  the reported efficiency cannot survive competition from bundled office tools.
 
 **Sources:** [Gamma](https://gamma.app/insights/how-we-built-a-usd100m-business-differently) · [stvp.stanford.edu](https://stvp.stanford.edu/people/grant-lee)
 
@@ -874,13 +874,13 @@ Profound · Co-founder and CEO
 
 [Profound's September 15, 2026 announcement](https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams) records a $180 million Series D at a $1.8 billion valuation. James Cadwallader is building a business around how brands appear in AI-generated answers.
 
-**Education:** I could not confirm a formal education history from a primary record, so I omit the supplied university-attendance claim.
+**Education:** I could not confirm a formal education history from a primary record, so I omit the university-attendance claim.
 
-**The path:** The announcement identifies Cadwallader as co-founder and CEO and describes a progression from AI-discovery analytics to marketing agents and orchestration. It reports more than 1,000 enterprise brands and names customers, but those are company claims. I leave out an unverified early sales story and precise previous employment dates that do not establish the product's performance.
+**The path:** The announcement identifies Cadwallader as co-founder and CEO and describes a progression from AI-discovery analytics to marketing agents and orchestration. It reports more than 1,000 enterprise brands and names customers, but those are company claims.
 
-**Why I'm watching in 2027:** I am watching whether visibility in an AI answer leads to discovery, purchases or other measurable customer value. A mention count can rise without a sale, and measurement is difficult when answers vary by user and prompt. Profound needs to show the connection between its analytics, the actions marketers take and the resulting business outcome.
+**Why I'm watching in 2027:** Profound's September 2026 round backs Cadwallader's bet on AI-answer visibility; I want evidence that mentions produce measurable customer value. A mention count can rise without a sale, and measurement is difficult when answers vary by user and prompt. Profound needs to show the connection between its analytics, the actions marketers take and the resulting business outcome.
 
-**My read:** My concern is metrics improving without a credible link to discovery, purchase or customer value.
+**My read:** James Cadwallader: the warning sign is metrics improving without a credible link to discovery, purchase or customer value.
 
 **Sources:** [Profound newsroom](https://www.tryprofound.com/newsroom/profound-raises-usd180m-series-d-at-usd1-8b-valuation-to-build-the-ai-platform-for-marketing-teams)
 
@@ -890,13 +890,13 @@ Instinct / Reflexion research · Researcher and founder, September 2026 report
 
 Noah Shinn is the first listed author of [Reflexion](https://arxiv.org/abs/2303.11366), a framework in which agents use verbal feedback rather than updating model weights. His later consumer-agent company, Instinct, puts feedback and error recovery into consequential everyday tasks.
 
-**Education:** I could not confirm the supplied university-withdrawal date or age from an original education record.
+**Education:** I could not confirm the university-withdrawal date or age from an original education record.
 
-**The path:** The Reflexion paper, submitted in March 2023, names Shinn alongside five other authors, including Shunyu Yao. Its contribution is a method for storing feedback as text to improve later attempts. [September 2026 reporting](https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/) connects Shinn to Instinct. I omit uncertain founding and launch dates rather than choosing between conflicting intermediary profiles.
+**The path:** The Reflexion paper, submitted in March 2023, names Shinn alongside five other authors, including Shunyu Yao. Its contribution is a method for storing feedback as text to improve later attempts. [September 2026 reporting](https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/) connects Shinn to Instinct.
 
 **Why I'm watching in 2027:** The September 28 report describes a $1 billion Series C at a $10 billion valuation. I am watching whether a consumer agent can earn repeat paid use while giving users clear permissions, recoverable actions and a reliable account of mistakes. A large financing does not establish sustainable revenue or safe delegation.
 
-**My read:** My concern is the agent reinforcing its own mistaken interpretation of an earlier failure.
+**My read:** For Noah Shinn, I would look for evidence against this risk: the agent reinforcing its own mistaken interpretation of an earlier failure.
 
 **Sources:** [arxiv.org](https://arxiv.org/abs/2303.11366) · [TechCrunch](https://techcrunch.com/2026/09/28/viral-ai-agent-instinct-raises-1b-series-c-at-a-10b-valuation/)
 
@@ -906,13 +906,13 @@ UCL / Synthesia · Professor and co-founder, UCL record
 
 Lourdes Agapito's [UCL impact case study](https://www.ucl.ac.uk/research-innovation/case-studies/2022/apr/ucl-computer-scientists-create-photorealistic-talking-digital-actors) connects visual-synthesis research with co-founding Synthesia and its digital actors.
 
-**Education:** I have not confirmed every supplied degree and appointment date against original university records, so I omit the full dated chronology.
+**Education:** I have not confirmed every degree and appointment date against original university records, so I omit the full dated chronology.
 
 **The path:** The university case study attributes underpinning research to Agapito's team and describes commercial use of photorealistic talking digital actors. That documents a path from academic computer vision to a production tool, without making every later improvement the work of one founder. [January 2026 financing reporting](https://www.finsmes.com/2026/01/synthesia-raises-200m-in-series-e-funding-at-4-billion-post-money-valuation-2.html) describes a $200 million Series E at a $4 billion post-money valuation.
 
-**Why I'm watching in 2027:** I am watching whether enterprise video creation remains useful after the novelty of realistic avatars fades. Production economics include editing time, localization and appropriate identity controls. A lower creation cost has commercial value only when the resulting communication is accurate, acceptable to its audience and easy to update.
+**Why I'm watching in 2027:** Synthesia takes Agapito's visual-synthesis research into enterprise communication, where editing, localization and identity controls determine repeat use. Production economics include editing time, localization and appropriate identity controls. A lower creation cost has commercial value only when the resulting communication is accurate, acceptable to its audience and easy to update.
 
-**My read:** My concern is a lower creation cost accompanied by misleading identity use or unacceptable editing constraints.
+**My read:** UCL / Synthesia's challenge is to avoid a lower creation cost accompanied by misleading identity use or unacceptable editing constraints.
 
 **Sources:** [ucl.ac.uk](https://www.ucl.ac.uk/research-innovation/case-studies/2022/apr/ucl-computer-scientists-create-photorealistic-talking-digital-actors) · [FinSMEs](https://www.finsmes.com/2026/01/synthesia-raises-200m-in-series-e-funding-at-4-billion-post-money-valuation-2.html)
 
@@ -926,9 +926,9 @@ Demi Guo co-founded Pika, whose [company team page](https://pika.art/careers) co
 
 **The path:** Pika's own page identifies Guo as CEO and co-founder, names Chenlin Meng in the team and describes earlier work at Meta, Google, Microsoft and Epic Games. I use that attributed company biography and leave out exact internship dates. [Her November 2023 post](https://x.com/demi_guo_/status/1729546758718656530) provides a dated public launch record rather than a complete capitalization history.
 
-**Why I'm watching in 2027:** I am watching whether video generation and personal avatars lead to repeat creative use at sustainable serving costs. Consumer attention can move quickly when rival models improve. Production control, editing and the ability to deliver an acceptable result without excessive retries are stronger tests than a conflicting private valuation estimate.
+**Why I'm watching in 2027:** Pika's video tools put Guo's 2027 case on repeat creative use at a sustainable cost, rather than a disputed private valuation. Consumer attention can move quickly when rival models improve. Production control, editing and the ability to deliver an acceptable result without excessive retries are stronger tests than a conflicting private valuation estimate.
 
-**My read:** My concern is novelty-driven adoption that fades when users encounter production constraints.
+**My read:** Guo would lose my confidence over novelty-driven adoption that fades when users encounter production constraints.
 
 **Sources:** [pika.art](https://pika.art/careers) · [X](https://x.com/demi_guo_/status/1729546758718656530)
 
@@ -938,13 +938,13 @@ Suno · Co-founder and CEO
 
 Mikey Shulman's [Suno company posts](https://www.suno.com/blog) describe a business moving from music generation toward releases and partnerships with the music industry. The rights relationships are part of the product's economics, not an issue separate from growth.
 
-**Education:** I have not confirmed the supplied doctorate award year against an original university record.
+**Education:** I have not confirmed the doctorate award year against an original university record.
 
 **The path:** Suno's September 2026 blog identifies Shulman as co-founder and CEO and dates an announcement of new music models in partnership with the industry. [Music Business Worldwide's October account](https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/) attributes subscriber and revenue claims to him. I do not substitute those assertions for audited results, or repeat a later lawsuit's exact recording count without the court record.
 
-**Why I'm watching in 2027:** I am watching whether licensing relationships, creator acceptance and recurring demand support a durable business. Faster generation is only one input: model-serving expense and rights costs both affect margins. I leave legal outcomes open rather than predict that one case will settle copyright rules for the whole industry.
+**Why I'm watching in 2027:** Suno's releases and music-industry relationships make licensing costs and recurring demand central to Shulman's next phase. Faster generation is only one input: model-serving expense and rights costs both affect margins. I leave legal outcomes open rather than predict that one case will settle copyright rules for the whole industry.
 
-**My read:** My concern is rapid generation without a durable relationship with creators and rights holders.
+**My read:** Mikey Shulman: the warning sign is rapid generation without a durable relationship with creators and rights holders.
 
 **Sources:** [suno.com](https://www.suno.com/blog) · [Music Business Worldwide](https://www.musicbusinessworldwide.com/suno-is-far-beyond-2m-subscribers-and-300m-in-revenue-says-mikey-shulman-who-argues-its-good-that-ai-music-has-no-firm-rules-of-the-road-yet/)
 
@@ -958,9 +958,9 @@ Wonderful's [own company page](https://www.wonderful.ai/about-us) promotes a $55
 
 **The path:** [TechCrunch's March 2026 report](https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/) describes an earlier $150 million Series B at a $2 billion valuation. The company describes agents and embedded delivery for enterprise workflows. I do not infer that services work is negligible, and leave out customer counts, staffing totals and earlier acquisition dates not established by the records reviewed here.
 
-**Why I'm watching in 2027:** I am watching whether localized deployment can scale without equally fast growth in implementation labor. That approach may open markets underserved by English-first products, but recurring software revenue and one-off delivery work have different economics. The financing headline does not by itself establish margins, customer retention or founder wealth. Globes' September report uses different valuation figures in its headline and body; I leave that price unresolved.
+**Why I'm watching in 2027:** Wonderful's local deployment teams make implementation labor a central test of whether Winkler's agent business scales like software. That approach may open markets underserved by English-first products, but recurring software revenue and one-off delivery work have different economics. The financing headline does not by itself establish margins, customer retention or founder wealth. Globes' September report uses different valuation figures in its headline and body; I leave that price unresolved.
 
-**My read:** My concern is a services-heavy delivery process described as frictionless software scaling.
+**My read:** For Bar Winkler, I would look for evidence against this risk: a services-heavy delivery process described as frictionless software scaling.
 
 **Sources:** [wonderful.ai](https://www.wonderful.ai/about-us) · [TechCrunch](https://techcrunch.com/2026/03/12/wonderful-raises-150m-series-b-at-2b-valuation/)
 
@@ -972,11 +972,11 @@ Granola's [March 25, 2026 company announcement](https://www.granola.ai/blog/seri
 
 **Education:** I could not verify his education.
 
-**The path:** Granola's [release archive](https://www.granola.ai/updates) names Pedregal as an author of product updates and also names co-founder Sam Stephenson. It documents meeting chat, note sharing and team-context features. I leave out unconfirmed previous acquisition dates, a precise intervening Google employment timeline and a cumulative funding sum; the release record is the direct evidence of what this product is adding.
+**The path:** Granola's [release archive](https://www.granola.ai/updates) names Pedregal as an author of product updates and also names co-founder Sam Stephenson. It documents meeting chat, note sharing and team-context features.
 
-**Why I'm watching in 2027:** I am watching whether shared context helps teams retrieve decisions without losing nuance or exposing sensitive conversations. A meeting summary is useful only when its users understand what was recorded, what was inferred and who can access it. Enterprise expansion adds permissions and retention requirements alongside the convenience that initially draws individual users.
+**Why I'm watching in 2027:** Granola's March 2026 financing supports Pedregal's move from meeting notes to shared context, where permissions and accuracy become buying requirements. A meeting summary is useful only when its users understand what was recorded, what was inferred and who can access it. Enterprise expansion adds permissions and retention requirements alongside the convenience that initially draws individual users. I would test a disputed meeting decision against the recording and permissions, rather than judge the elegance of its summary.
 
-**My read:** My concern is convenient summaries that quietly lose nuance or expose sensitive conversation context.
+**My read:** Granola's challenge is to avoid convenient summaries that quietly lose nuance or expose sensitive conversation context.
 
 **Sources:** [granola.ai](https://www.granola.ai/blog/series-c) · [granola.ai](https://www.granola.ai/updates)
 
@@ -988,11 +988,11 @@ Zachary Lipton's [Abridge author biography](https://www.abridge.com/author/zack-
 
 **Education:** [Carnegie Mellon's expert record](https://www.cmu.edu/news/experts/zachary.lipton) lists a Columbia BA in mathematics and economics and UC San Diego computer-science MS and PhD degrees, without award years.
 
-**The path:** His [CMU expert record](https://www.cmu.edu/news/experts/zachary.lipton) documents his academic work, while Abridge's biography identifies the company role. Those records connect research on robustness with a product used in clinical workflows. I omit uncertain appointment years, award rankings and later investment terms that I could not establish from original records during this review.
+**The path:** His [CMU expert record](https://www.cmu.edu/news/experts/zachary.lipton) documents his academic work, while Abridge's biography identifies the company role. Those records connect research on robustness with a product used in clinical workflows.
 
-**Why I'm watching in 2027:** I am watching whether less documentation effort comes with evidence that omissions, transcription errors and misleading summaries are detected and corrected. Clinical and billing workflows give those mistakes consequences beyond a weak benchmark score. An investment or product expansion is not, by itself, proof of improved patient outcomes.
+**Why I'm watching in 2027:** Abridge puts Lipton's reliability research inside clinical documentation, where omissions and misleading summaries require detection and correction. Clinical and billing workflows give those mistakes consequences beyond a weak benchmark score. An investment or product expansion is not, by itself, proof of improved patient outcomes. For an evaluation, I would count corrections required per note and compare the clinician time saved after those corrections.
 
-**My read:** My concern is less visible documentation effort accompanied by consequential transcription or summarization errors.
+**My read:** Lipton would lose my confidence over less visible documentation effort accompanied by consequential transcription or summarization errors.
 
 **Sources:** [abridge.com](https://www.abridge.com/author/zack-lipton) · [cmu.edu](https://www.cmu.edu/news/experts/zachary.lipton)
 
@@ -1002,13 +1002,13 @@ Ambience Healthcare · Co-founder and CEO
 
 [Ambience's September 22, 2025 announcement](https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-nikhil-buduma-as-new-chief-executive-officer) appoints Nikhil Buduma CEO after serving as co-founder and chief scientist. It places documentation, coding and clinical workflows in the same product strategy.
 
-**Education:** I have not verified the supplied degree dates, school honors and Olympiad medals against original award records.
+**Education:** I have not verified the degree dates, school honors and Olympiad medals against original award records.
 
-**The path:** The original appointment statement says co-founder Mike Ng becomes president and chairman. It gives a definite September 2025 date, stronger than the promotional biography's undated leadership claim. I use this company record for the transition and omit a supplied early-career chronology that could not be corroborated. Scientific leadership and executive responsibility are separate roles, even when held sequentially by the same founder.
+**The path:** The original appointment statement says co-founder Mike Ng becomes president and chairman. It gives a definite September 2025 date, stronger than the promotional biography's undated leadership claim. I use this company record for the transition and omit a early-career chronology that could not be corroborated. Scientific leadership and executive responsibility are separate roles, even when held sequentially by the same founder.
 
 **Why I'm watching in 2027:** [Ambience's July 29, 2025 statement](https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems) confirms $243 million in Series C funding, co-led by Oak HC/FT and a16z. I am watching whether documentation and coding improve the complete workflow without introducing errors clinicians or billing teams must repair. Funding supports deployment; it does not prove clinical effectiveness.
 
-**My read:** My concern is commercial expansion outpacing independent evidence of reliability.
+**My read:** Nikhil Buduma: the warning sign is commercial expansion outpacing independent evidence of reliability.
 
 **Sources:** [ambiencehealthcare.com](https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-nikhil-buduma-as-new-chief-executive-officer) · [ambiencehealthcare.com](https://www.ambiencehealthcare.com/blog/ambience-healthcare-announces-243-million-series-c-to-scale-its-ai-platform-for-health-systems)
 
@@ -1020,11 +1020,11 @@ Zachary Ziegler connects language-model research with OpenEvidence's clinician i
 
 **Education:** I have not confirmed a completed Harvard doctorate or undergraduate award record, so I do not infer either from research affiliation.
 
-**The path:** [PMLR's ICML 2019 record](https://proceedings.mlr.press/v97/ziegler19a.html) identifies Ziegler and Alexander Rush as authors of Latent Normalizing Flows for Discrete Sequences. The later [Sequoia page](https://sequoiacap.com/founder/zachary-ziegler/) associates him with OpenEvidence. I leave out unverified counts of physicians and consultations, and do not treat an investor biography as proof of clinical safety.
+**The path:** [PMLR's ICML 2019 record](https://proceedings.mlr.press/v97/ziegler19a.html) identifies Ziegler and Alexander Rush as authors of Latent Normalizing Flows for Discrete Sequences. The later [Sequoia page](https://sequoiacap.com/founder/zachary-ziegler/) associates him with OpenEvidence.
 
-**Why I'm watching in 2027:** I am watching whether cited medical answers accurately reflect the underlying evidence and help a clinician find what is relevant. A citation can look authoritative without supporting the generated sentence. Usage and private valuations are business signals, but evaluation of answer quality and appropriate escalation are different tests.
+**Why I'm watching in 2027:** OpenEvidence puts Ziegler's language-model work in front of clinicians, making the accuracy of cited medical answers the decisive test. A citation can look authoritative without supporting the generated sentence. Usage and private valuations are business signals, but evaluation of answer quality and appropriate escalation are different tests. My spot checks would trace each medical assertion to the cited passage.
 
-**My read:** My concern is authority implied by a citation that does not actually support the response.
+**My read:** For Zachary Ziegler, I would look for evidence against this risk: authority implied by a citation that does not actually support the response.
 
 **Sources:** [sequoiacap.com](https://sequoiacap.com/founder/zachary-ziegler/) · [PMLR](https://proceedings.mlr.press/v97/ziegler19a.html)
 
@@ -1038,9 +1038,9 @@ Suchi Saria's clinical AI work has a published outcomes record, which makes stud
 
 **The path:** Her [Johns Hopkins biography](https://publichealth.jhu.edu/faculty/2783/suchi-saria) documents the academic background, and [Bayesian Health's company history](https://www.bayesianhealth.com/about) identifies her as founder. TREWS outcomes have been studied in clinical deployment. I avoid converting an observational association into a promise that every deployment reduces mortality, and omit earlier employment and award details not established by the original records used here.
 
-**Why I'm watching in 2027:** I am watching whether clinical decision support improves timely action in settings beyond the original study. The important evidence includes who was compared, whether clinicians responded and how confounding was addressed. Prediction accuracy, clinician satisfaction and patient outcomes are different measures and should not be collapsed into one claim of effectiveness.
+**Why I'm watching in 2027:** Saria's published clinical outcomes work makes replication beyond the original study the next evidence to seek. The important evidence includes who was compared, whether clinicians responded and how confounding was addressed. Prediction accuracy, clinician satisfaction and patient outcomes are different measures and should not be collapsed into one claim of effectiveness.
 
-**My read:** My concern is a strong prediction metric that does not lead to reliable action in practice.
+**My read:** Bayesian Health's challenge is to avoid a strong prediction metric that does not lead to reliable action in practice.
 
 **Sources:** [publichealth.jhu.edu](https://publichealth.jhu.edu/faculty/2783/suchi-saria) · [bayesianhealth.com](https://www.bayesianhealth.com/about)
 
@@ -1054,9 +1054,9 @@ Joshua Meier's [Index Ventures founder account](https://www.indexventures.com/pe
 
 **The path:** Index names Meier, Jacques Boitreaud, Matthew McPartlon and Jack Dent as Chai's founders and dates Meier's OpenAI move to 2018. It describes a subsequent move through Meta FAIR and Absci toward AI applied to biology. The research preprint provides a separate record of design experiments; a successful laboratory binder is not proof of a safe or effective therapeutic.
 
-**Why I'm watching in 2027:** I am watching whether designed molecules advance through reproducible laboratory validation and the development steps needed for medicines. Index's [investment account](https://www.indexventures.com/perspectives/transforming-biology-from-science-to-engineering-our-investment-in-chai-discovery/) explains the thesis, but investment conviction does not establish clinical effectiveness. Binding a target in a laboratory is an earlier milestone than showing that a candidate is safe and useful in patients.
+**Why I'm watching in 2027:** Chai Discovery turns Meier's model research toward molecular design; reproducible laboratory validation is the next milestone that matters to me. Index's [investment account](https://www.indexventures.com/perspectives/transforming-biology-from-science-to-engineering-our-investment-in-chai-discovery/) explains the thesis, but investment conviction does not establish clinical effectiveness. Binding a target in a laboratory is an earlier milestone than showing that a candidate is safe and useful in patients.
 
-**My read:** My concern is technical promise mistaken for a validated therapeutic or a proven development shortcut.
+**My read:** Meier would lose my confidence over technical promise mistaken for a validated therapeutic or a proven development shortcut.
 
 **Sources:** [indexventures.com](https://www.indexventures.com/perspectives/transforming-biology-from-science-to-engineering-our-investment-in-chai-discovery/)
 
@@ -1070,9 +1070,9 @@ Brian Hie's Evo 2 work applies long-context modeling to genomic data. [Arc Insti
 
 **The path:** Stanford's faculty biography records earlier appointments as a Stanford Science Fellow and visiting Meta AI researcher, followed by his current faculty and Arc Institute roles. He co-led the Evo 2 genome-model work, whose released paper describes long-context modeling across genomic data. The technical paper and release artifacts are a better basis for evaluating the contribution than an undated count of GPUs or citations. I keep a model's reported variant-classification performance separate from evidence that it is safe for clinical diagnosis.
 
-**Why I'm watching in 2027:** I am watching what external researchers can reproduce from the released artifacts and how limits on biological design are evaluated. His Stanford and Arc roles connect research with release decisions. A genome model's prediction performance does not prove that a designed organism will behave as intended or that a model is ready for clinical diagnosis.
+**Why I'm watching in 2027:** Evo 2's release of code, data and weights gives external researchers a way to test Hie's genomic-model work. His Stanford and Arc roles connect research with release decisions. A genome model's prediction performance does not prove that a designed organism will behave as intended or that a model is ready for clinical diagnosis.
 
-**My read:** My concern is prediction quality presented as proof that a designed biological system will behave as intended.
+**My read:** Brian Hie: the warning sign is prediction quality presented as proof that a designed biological system will behave as intended.
 
 **Sources:** [Arc Institute](https://arcinstitute.org/news/evo2) · [cheme.stanford.edu](https://cheme.stanford.edu/people/brian-hie)
 
@@ -1082,13 +1082,13 @@ Isomorphic Labs · President, effective January 2026
 
 AlphaFold changed structural biology. Whether it changes medicine is now Max Jaderberg's problem: he became president of Isomorphic Labs on Jan 1, 2026, and the company's stated goal is to move internal programs into the clinic.
 
-**Education:** A [Broad Institute biography](https://www.broadinstitute.org/bios/max-jaderberg) records Oxford undergraduate engineering science and doctoral work in Oxford's Visual Geometry Group; the opened record does not establish the degree years.
+**Education:** A [Broad Institute biography](https://www.broadinstitute.org/bios/max-jaderberg) records Oxford undergraduate engineering science and doctoral work in Oxford's Visual Geometry Group; the cited record does not establish the degree years.
 
-**The path:** [Isomorphic's November 26, 2025 announcement](https://www.isomorphiclabs.com/articles/isomorphic-labs-to-appoint-max-jaderberg-as-president) appoints Jaderberg president effective January 1, 2026, after serving as chief AI officer. It describes him as a founding team member and credits his work building the company's AI approach. His [Broad Institute biography](https://www.broadinstitute.org/bios/max-jaderberg) documents earlier Oxford and machine-learning work. I omit a fuller acquisition and project-credit chronology not needed to establish that transition.
+**The path:** [Isomorphic's November 26, 2025 announcement](https://www.isomorphiclabs.com/articles/isomorphic-labs-to-appoint-max-jaderberg-as-president) appoints Jaderberg president effective January 1, 2026, after serving as chief AI officer. It describes him as a founding team member and credits his work building the company's AI approach. His [Broad Institute biography](https://www.broadinstitute.org/bios/max-jaderberg) documents earlier Oxford and machine-learning work.
 
 **Why I'm watching in 2027:** Isomorphic raised $600M, its first external round, led by Thrive Capital with GV and Alphabet (Mar 2025; valuation not disclosed). That money buys a clinical attempt, not more papers.
 
-**My read:** My concern is a partnership or candidate announcement treated as a proven medicine or realized revenue.
+**My read:** For Max Jaderberg, I would look for evidence against this risk: a partnership or candidate announcement treated as a proven medicine or realized revenue.
 
 **Sources:** [Broad Institute](https://www.broadinstitute.org/bios/max-jaderberg) · [Isomorphic Labs: President](https://www.isomorphiclabs.com/articles/isomorphic-labs-to-appoint-max-jaderberg-as-president)
 
@@ -1102,9 +1102,9 @@ Emma Lundberg's [Stanford biography](https://profiles.stanford.edu/emma-lundberg
 
 **The path:** The institutional biography describes Stanford bioengineering and pathology appointments alongside a KTH professorship. Her [2024 Stanford research account](https://news.stanford.edu/stories/2024/12/scientists-call-for-all-out-global-effort-to-create-an-ai-virtual-cell) presents the case for a global virtual-cell effort. I retain that research connection without an unverified chronology of advisory boards, administrative posts or specific later preprint output counts.
 
-**Why I'm watching in 2027:** I am watching whether integrated cell models generate predictions that survive experiments outside their training data. Imaging quality, annotation and the completeness of measured cell states all affect the result. A convincing simulated cell is a research artifact; the business and scientific value depend on what it helps discover and validate.
+**Why I'm watching in 2027:** Lundberg's Cell Atlas work gives integrated cell models an experimental test: predictions that survive outside their training data. Imaging quality, annotation and the completeness of measured cell states all affect the result. A convincing simulated cell is a research artifact; the business and scientific value depend on what it helps discover and validate.
 
-**My read:** My concern is a convincing simulation whose assumptions are not validated outside its training data.
+**My read:** Stanford / Human Protein Atlas's challenge is to avoid a convincing simulation whose assumptions are not validated outside its training data.
 
 **Sources:** [Stanford Profiles](https://profiles.stanford.edu/emma-lundberg?tab=bio) · [Stanford Report](https://news.stanford.edu/stories/2024/12/scientists-call-for-all-out-global-effort-to-create-an-ai-virtual-cell)
 
@@ -1114,13 +1114,13 @@ Physical Intelligence · Co-founder, personal research record
 
 Karol Hausman's [own biography](https://karolhausman.github.io/) identifies him as a Physical Intelligence co-founder after robot-learning work at Google DeepMind. His question is how a robot acquires general-purpose skills in the real world.
 
-**Education:** I have not confirmed all supplied degree award dates against original university records.
+**Education:** I have not confirmed all degree award dates against original university records.
 
 **The path:** The biography records an earlier Google DeepMind staff research-scientist role and Stanford adjunct teaching, including deep reinforcement learning. It also describes RT-X as a collaboration across many authors and institutions. That is a useful reminder that robot-learning systems depend on shared datasets and infrastructure, rather than the contribution of one founder alone.
 
-**Why I'm watching in 2027:** I am watching whether a general-purpose robot policy transfers across bodies, tasks and unfamiliar environments without substantial custom engineering. Demonstrations need to expose failures, setup labor and the conditions under which they work. I leave later private financing talks out of this entry rather than infer that a reported round closed.
+**Why I'm watching in 2027:** Physical Intelligence puts Hausman's robot-learning work into a general-purpose policy whose transfer across tasks must be demonstrated. Demonstrations need to expose failures, setup labor and the conditions under which they work. I leave later private financing talks out of this entry rather than infer that a reported round closed.
 
-**My read:** My concern is a general-purpose label applied to a system that needs extensive custom deployment work.
+**My read:** Hausman would lose my confidence over a general-purpose label applied to a system that needs extensive custom deployment work.
 
 **Sources:** [karolhausman.github.io](https://karolhausman.github.io/)
 
@@ -1134,9 +1134,9 @@ Deepak Pathak's [CMU research record](https://www.cs.cmu.edu/~dpathak/) connects
 
 **The path:** His CMU research record connects curiosity-driven exploration and self-supervised learning to robot behavior. His CV records a Facebook AI Research appointment and a Berkeley visiting postdoctoral role before CMU. He co-founded Skild AI in 2023 with Abhinav Gupta. The technical question is whether a shared robot model can generalize across different bodies, tasks and environments; named deployments must demonstrate that generalization rather than merely share a financing headline.
 
-**Why I'm watching in 2027:** I am watching whether a shared model reliably controls different robot bodies and unfamiliar tasks. An announced partnership or financing does not establish that transfer. Useful evidence includes intervention rates, failure recovery and matched comparisons with specialized systems. I leave out an unverified round total and named customer-deployment claims from this entry.
+**Why I'm watching in 2027:** Skild AI brings Pathak's sensory-learning research into robot systems that must control different bodies and unfamiliar tasks. An announced partnership or financing does not establish that transfer. Useful evidence includes intervention rates, failure recovery and matched comparisons with specialized systems.
 
-**My read:** My concern is training efficiency that comes at the cost of unpredictable behavior during deployment.
+**My read:** Deepak Pathak: the warning sign is training efficiency that comes at the cost of unpredictable behavior during deployment.
 
 **Sources:** [cs.cmu.edu](https://www.cs.cmu.edu/~dpathak/) · [cs.cmu.edu](https://www.cs.cmu.edu/~dpathak/CV_Pathak.pdf)
 
@@ -1150,9 +1150,9 @@ Bernt Børnich's 1X [announced NEO for homes in October 2025](https://www.busine
 
 **The path:** The company release identifies Børnich and describes NEO as a home robot. I distinguish a launch and order offer from evidence that a robot can autonomously perform every advertised task in an unfamiliar home. The earlier company and product chronology is left out where I could not retrieve original dated records, rather than using a later promotional summary to fill the gaps.
 
-**Why I'm watching in 2027:** I am watching how much human intervention the system needs and what users understand about remote assistance. Factory capacity targets, preorders and shipped working units are different measures. The commercial test is useful, repeatable help at a support cost and privacy standard households can accept, not simply a compelling launch video.
+**Why I'm watching in 2027:** NEO's October 2025 home launch makes human intervention and users' understanding of remote assistance central to Børnich's 2027 case. Factory capacity targets, preorders and shipped working units are different measures. The commercial test is useful, repeatable help at a support cost and privacy standard households can accept, not simply a compelling launch video.
 
-**My read:** My concern is an appealing launch that obscures intervention or support needed in ordinary homes.
+**My read:** For Bernt Øivind Børnich, I would look for evidence against this risk: an appealing launch that obscures intervention or support needed in ordinary homes.
 
 **Sources:** [Business Wire](https://www.businesswire.com/news/home/20251027434628/en/1X-Launches-NEO-The-Robot-Redefining-Life-at-Home)
 
@@ -1162,13 +1162,13 @@ Google DeepMind robotics · Gemini Robotics announcement author
 
 Carolina Parada co-authored [Google DeepMind's March 2025 Gemini Robotics announcement](https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/). It separates a vision-language-action model from a model focused on embodied reasoning.
 
-**Education:** I have not confirmed the complete supplied degree chronology against primary university award records.
+**Education:** I have not confirmed the complete degree chronology against primary university award records.
 
-**The path:** The original company post describes bringing multimodal reasoning into physical actions and sets out the two model roles. Parada's [industry interview](https://www.automate.org/robotics/industry-insights/rip-it-up-and-start-again-google-deepmind-vp-on-rewriting-the-rules-of-robotics) gives a later account of the robotics work. I omit precise prior appointment dates and do not say one executive determines every partner's capabilities or that a announced model has already solved whole-body autonomy.
+**The path:** The original company post describes bringing multimodal reasoning into physical actions and sets out the two model roles. Parada's [industry interview](https://www.automate.org/robotics/industry-insights/rip-it-up-and-start-again-google-deepmind-vp-on-rewriting-the-rules-of-robotics) gives a later account of the robotics work.
 
-**Why I'm watching in 2027:** I am watching whether reasoning produces reliable physical actions across different environments and robot hardware. A model that describes a plan persuasively still has to act safely under sensor uncertainty. Deployment evidence should include failures and recovery, not only demonstrations chosen because they worked.
+**Why I'm watching in 2027:** Gemini Robotics' March 2025 announcement gives Parada's team a physical-action test, beyond a model's ability to describe a plan. A model that describes a plan persuasively still has to act safely under sensor uncertainty. Deployment evidence should include failures and recovery, not only demonstrations chosen because they worked. I would compare task success with intervention rates and disclose which robot, environment and preparation steps the result depends on.
 
-**My read:** My concern is reasoning that sounds plausible but fails when the action has physical consequences.
+**My read:** Google DeepMind robotics's challenge is to avoid reasoning that sounds plausible but fails when the action has physical consequences.
 
 **Sources:** [deepmind.google](https://deepmind.google/blog/gemini-robotics-brings-ai-into-the-physical-world/) · [Automate.org](https://www.automate.org/robotics/industry-insights/rip-it-up-and-start-again-google-deepmind-vp-on-rewriting-the-rules-of-robotics)
 
@@ -1178,13 +1178,13 @@ Legora · CEO and co-founder, 2026 event record
 
 Max Junestrand's [Legora event materials](https://legora.com/iltacon) identify him as co-founder and CEO. Its [company overview](https://legora.com/about) describes a legal-AI workspace for research, review and drafting; the buying question is whether it reduces the lawyer's complete workload.
 
-**Education:** I could not confirm the supplied degree fields and award years against original university records.
+**Education:** I could not confirm the degree fields and award years against original university records.
 
-**The path:** Legora's own material describes collaborative legal work, including review and drafting. That is a more direct product record than a claim that it is the only credible rival in a market. I omit a supplied interview count, a precise rebranding chronology and reported growth figures not corroborated by the readable company record in this review.
+**The path:** Legora's own material describes collaborative legal work, including review and drafting. That is a more direct product record than a claim that it is the only credible rival in a market.
 
-**Why I'm watching in 2027:** I am watching whether repeat use and renewals show time saved after lawyers check the results. A generated draft can be fast while transferring substantial verification work to its user. Valuation talks are separate from closed financing, and neither alone demonstrates that an application fits the liability and confidentiality requirements of legal practice.
+**Why I'm watching in 2027:** Legora's research-and-drafting workspace makes renewals and time saved after verification the evidence to follow from Junestrand. A generated draft can be fast while transferring substantial verification work to its user. Valuation talks are separate from closed financing, and neither alone demonstrates that an application fits the liability and confidentiality requirements of legal practice. I would measure the complete review cycle.
 
-**My read:** My concern is fast drafting that transfers hidden checking costs to the lawyer.
+**My read:** Junestrand would lose my confidence over fast drafting that transfers hidden checking costs to the lawyer.
 
 **Sources:** [legora.com](https://legora.com/iltacon) · [Legora](https://legora.com/about)
 
@@ -1196,11 +1196,11 @@ Gabriel Pereyra's [March 2024 Harvey announcement](https://www.harvey.ai/blog/ha
 
 **Education:** I could not verify his education.
 
-**The path:** The company statement describes deployment of its professional-services platform on Azure. That is a dated commercial record, not proof that generated legal answers require no checking. I leave out an origin experiment's detailed success rate, uncertain research-employment dates and an implied personal stake that I could not establish from original records. Azure is a distribution and deployment relationship, not a clinical or legal validation study.
+**The path:** The company statement describes deployment of its professional-services platform on Azure. That is a dated commercial record, not proof that generated legal answers require no checking. Azure is a distribution and deployment relationship, not a clinical or legal validation study.
 
-**Why I'm watching in 2027:** I am watching whether specialized models and evaluations produce useful legal work at an acceptable review cost. Distribution can bring a product into more firms, but confidentiality, traceable sources and sustained renewals determine whether those firms keep using it. A reported customer count or funding round is different from evidence of correctness in a client's matter.
+**Why I'm watching in 2027:** Harvey's Azure distribution announcement gives Pereyra a route into more firms; traceable legal work and sustained renewals remain the commercial test. Distribution can bring a product into more firms, but confidentiality, traceable sources and sustained renewals determine whether those firms keep using it. A reported customer count or funding round is different from evidence of correctness in a client's matter. My evaluation would include rejected drafts and correction time, not only accepted outputs.
 
-**My read:** My concern is distribution reach mistaken for evidence of sustained customer value.
+**My read:** Gabriel Pereyra: the warning sign is distribution reach mistaken for evidence of sustained customer value.
 
 **Sources:** [harvey.ai](https://www.harvey.ai/blog/harvey-launches-ai-powered-professional-services-platform-on-microsoft-azure)
 
@@ -1210,13 +1210,13 @@ Hebbia · Founder and CEO, company announcement
 
 George Sivulka's Hebbia turns document retrieval into an enterprise workflow. Its [June 2025 FlashDocs announcement](https://www.hebbia.com/blog/acquiring-flashdocs-streamlining-financial-workflows-with-ai-slide-deck) adds slide creation after research and analysis.
 
-**Education:** I have not confirmed the supplied degree award and withdrawal dates against original university records.
+**Education:** I have not confirmed the degree award and withdrawal dates against original university records.
 
-**The path:** The company announcement identifies Sivulka as Hebbia's founder and CEO and describes buying FlashDocs to create branded slides from research. The announcement establishes the product move, not undisclosed acquisition consideration. I omit an unverified early banker-prototype story and exact internship years while retaining the direct connection between document analysis and presentation. No price is disclosed there.
+**The path:** The company announcement identifies Sivulka as Hebbia's founder and CEO and describes buying FlashDocs to create branded slides from research. The announcement establishes the product move, not undisclosed acquisition consideration. No price is disclosed there.
 
-**Why I'm watching in 2027:** I am watching whether source citations survive every stage from retrieval to a final deck. More polished output can make an unsupported conclusion harder to spot. The useful commercial test is less work after checking and correction, not just a faster first draft or an attractive presentation.
+**Why I'm watching in 2027:** Hebbia's FlashDocs addition extends Sivulka's workflow from research to slides, making source provenance across the whole chain essential. More polished output can make an unsupported conclusion harder to spot. The useful commercial test is less work after checking and correction, not just a faster first draft or an attractive presentation. I would trace each slide calculation back to the underlying document and its date.
 
-**My read:** My concern is a polished deck that makes unsupported conclusions harder to notice.
+**My read:** For George Sivulka, I would look for evidence against this risk: a polished deck that makes unsupported conclusions harder to notice.
 
 **Sources:** [hebbia.com](https://www.hebbia.com/blog/acquiring-flashdocs-streamlining-financial-workflows-with-ai-slide-deck)
 
@@ -1230,9 +1230,9 @@ Gabe Stengel's [April 29, 2026 Rogo announcement](https://rogo.com/blog/series-d
 
 **The path:** The [January 2026 company post](https://rogo.com/blog/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion) records an earlier $75 million Series C and European expansion. The April announcement identifies returning participants including Sequoia, Thrive and J.P. Morgan Growth Equity Partners. I keep the two dated rounds separate and do not infer an undisclosed valuation or a complete career chronology from the financing releases. Neither record discloses a company valuation or an individual holding.
 
-**Why I'm watching in 2027:** I am watching whether analyst agents improve verified work rather than just accelerate output. Financial research needs source provenance, consistent calculations and review of assumptions. Forward-deployed delivery can help fit a workflow, but its labor cost must be distinguished from scalable software economics.
+**Why I'm watching in 2027:** Rogo's April 2026 financing backs Stengel's financial-research agents; verified calculations and traceable assumptions are the results I want to follow. Financial research needs source provenance, consistent calculations and review of assumptions. Forward-deployed delivery can help fit a workflow, but its labor cost must be distinguished from scalable software economics.
 
-**My read:** My concern is output speed improving while verification and correction costs rise.
+**My read:** Rogo's challenge is to avoid output speed improving while verification and correction costs rise.
 
 **Sources:** [Rogo: Series D](https://rogo.com/blog/series-d) · [Rogo: Series C](https://rogo.com/blog/scaling-rogo-to-build-the-future-of-investment-banking-our-75m-series-c-and-european-expansion)
 
@@ -1242,13 +1242,13 @@ Helsing · Chief Scientist, January 2026 record
 
 [Helsing's January 2026 announcement](https://helsing.ai/newsroom/chief-scientist-antoine-bordes-receives-aaai-classic-paper-award) identifies Antoine Bordes as chief scientist and recognizes co-authored research on structured knowledge embeddings.
 
-**Education:** I could not confirm the supplied doctorate institution and award year from an original education record.
+**Education:** I could not confirm the doctorate institution and award year from an original education record.
 
 **The path:** The company account connects his earlier research to an AAAI Classic Paper Award. I retain the team attribution and separate the scientific contribution from a claim that it proves operational defense performance. An award can document the influence of an earlier method without certifying the reliability of every later system using AI. The recognized paper is Learning Structured Embeddings of Knowledge Bases.
 
-**Why I'm watching in 2027:** I am watching how autonomy is bounded and tested in operational systems. Perception, structured representations and uncertainty all matter when a model's outputs have physical consequences. I omit supplied funding and aircraft-delivery claims not needed to establish his research role; a future flight target is not a completed demonstration.
+**Why I'm watching in 2027:** Helsing's chief-scientist appointment record puts Bordes's structured-representation research alongside the need to bound autonomy in operational systems. Perception, structured representations and uncertainty all matter when a model's outputs have physical consequences. A future flight target is not a completed demonstration; research credentials do not establish aircraft delivery.
 
-**My read:** My concern is research pedigree used as a substitute for operational validation.
+**My read:** Bordes would lose my confidence over research pedigree used as a substitute for operational validation.
 
 **Sources:** [Helsing: AAAI award](https://helsing.ai/newsroom/chief-scientist-antoine-bordes-receives-aaai-classic-paper-award)
 
@@ -1262,9 +1262,9 @@ Oege de Moor's XBOW [described reaching the top of HackerOne's US leaderboard in
 
 **The path:** [GitHub's September 2019 announcement](https://github.blog/news-insights/company-news/github-welcomes-semmle/) records its acquisition of Semmle, the earlier business associated with de Moor. XBOW's later account describes automated discovery supported by a security team reviewing submissions under platform rules. I do not present that workflow as fully independent of human labor or turn a leaderboard position into proof that every report was novel and accepted.
 
-**Why I'm watching in 2027:** I am watching accepted, actionable findings and time to remediation rather than raw discovery counts. A fast automated test has commercial value when it reliably finds problems a customer can fix without flooding the team with duplicates and false positives. Scope, authorization and hidden review labor affect that value.
+**Why I'm watching in 2027:** XBOW's June 2025 leaderboard account makes de Moor's next test actionable findings and time to remediation, rather than raw discovery counts. A fast automated test has commercial value when it reliably finds problems a customer can fix without flooding the team with duplicates and false positives. Scope, authorization and hidden review labor affect that value.
 
-**My read:** My concern is large discovery counts that conceal duplication, rejected reports or substantial hidden labor.
+**My read:** Oege de Moor: the warning sign is large discovery counts that conceal duplication, rejected reports or substantial hidden labor.
 
 **Sources:** [XBOW: HackerOne](https://xbow.com/blog/top-1-how-xbow-did-it) · [GitHub blog](https://github.blog/news-insights/company-news/github-welcomes-semmle/)
 
@@ -1276,11 +1276,11 @@ GNoME's [Google DeepMind account](https://deepmind.google/discover/blog/millions
 
 **Education:** His [Harvard alumni record](https://efthimioskaxiras.scholars.harvard.edu/ekin-dogus) records a PhD in 2016 and a physics MA, alongside a Swarthmore BS in engineering and BA in physics with high honors; the old page's Google affiliation is a historical record, not evidence of his current job.
 
-**The path:** The GNoME account describes a large predicted-materials search, while [Periodic's September 30, 2025 founding statement](https://periodic.com/news/introducing-periodic-labs) lays out autonomous laboratories feeding experimental results back into models. I keep a predicted stable structure separate from a material synthesized, characterized and found useful. I omit a volatile citation count and unverified deployment details from the supplied biography.
+**The path:** The GNoME account describes a large predicted-materials search, while [Periodic's September 30, 2025 founding statement](https://periodic.com/news/introducing-periodic-labs) lays out autonomous laboratories feeding experimental results back into models. I keep a predicted stable structure separate from a material synthesized, characterized and found useful.
 
 **Why I'm watching in 2027:** [Andreessen Horowitz's founding announcement](https://a16z.com/announcement/investing-in-periodic-labs/) records $300 million of funding without a disclosed valuation. I am watching whether the closed experimental loop produces independently reproducible materials results at a useful cost. Capital buys a research attempt; it does not establish a commercially valuable discovery.
 
-**My read:** My concern is a prediction treated as a discovered, usable material before experimental confirmation.
+**My read:** For Ekin Dogus Cubuk, I would look for evidence against this risk: a prediction treated as a discovered, usable material before experimental confirmation.
 
 **Sources:** [Google DeepMind](https://deepmind.google/discover/blog/millions-of-new-materials-discovered-with-deep-learning/) · [efthimioskaxiras.scholars.harvard.edu](https://efthimioskaxiras.scholars.harvard.edu/ekin-dogus) · [Periodic Labs](https://periodic.com/news/introducing-periodic-labs) · [a16z](https://a16z.com/announcement/investing-in-periodic-labs/)
 
@@ -1294,9 +1294,9 @@ Jonathan Godwin's [August 2026 Orbital announcement](https://www.orbitalindustri
 
 **The path:** The statement identifies Godwin as Orbital Industries' CEO and describes CurieOS in catalyst-development work. The [Orb research paper](https://arxiv.org/abs/2410.22570) provides a separate technical account of interatomic potentials. I do not infer his earlier employer from co-authorship with a lab's researchers, and leave out an unverified cooling-material sales story. A paper, an agreement and delivered industrial value are three different records.
 
-**Why I'm watching in 2027:** I am watching whether the industrial license produces useful experimental results and a repeatable business, rather than remaining a pilot. The [CurieOS announcement](https://www.orbitalindustries.com/news/announcements/introducing-curieos) explains the platform; customers' measured development time, costs and successful materials would be stronger evidence of its value than a general claim that AI accelerates discovery.
+**Why I'm watching in 2027:** Orbital's BASF agreement gives Godwin an industrial test of materials discovery, beyond a pilot or a general promise about faster research. The [CurieOS announcement](https://www.orbitalindustries.com/news/announcements/introducing-curieos) explains the platform; customers' measured development time, costs and successful materials would be stronger evidence of its value than a general claim that AI accelerates discovery.
 
-**My read:** My concern is an announced agreement remaining a pilot without measurable industrial value.
+**My read:** Orbital Industries's challenge is to avoid an announced agreement remaining a pilot without measurable industrial value.
 
 **Sources:** [Orbital: BASF](https://www.orbitalindustries.com/news/press/basf-ecms-ai-materials-discovery-platform) · [arXiv: Orb](https://arxiv.org/abs/2410.22570) · [Orbital: CurieOS](https://www.orbitalindustries.com/news/announcements/introducing-curieos)
 
@@ -1308,11 +1308,11 @@ Kristen DiCerbo's [Khan Academy writing](https://blog.khanacademy.org/student-mo
 
 **Education:** Her [first-person biography](https://www.kristendicerbo.com/about-me) records a Hamilton College bachelor's degree in psychology and sociology and Arizona State educational-psychology master's and PhD degrees; it does not give award years.
 
-**The path:** Khan Academy's biography records earlier work as vice-president of learning research and design at Pearson, work with Cisco Networking Academy and service as a school psychologist in Arizona. As Khan Academy's chief learning officer, DiCerbo leads its learning strategy, content and product teams. That history provides a firmer career account than the supplied note that her earlier work could not be verified. Her Khanmigo work connects AI product design to pedagogy: helping students reason through a problem rather than simply handing them an answer.
+**The path:** Khan Academy's biography records earlier work as vice-president of learning research and design at Pearson, work with Cisco Networking Academy and service as a school psychologist in Arizona. As Khan Academy's chief learning officer, DiCerbo leads its learning strategy, content and product teams. That history provides a firmer career account than the note that her earlier work could not be verified. Her Khanmigo work connects AI product design to pedagogy: helping students reason through a problem rather than simply handing them an answer.
 
-**Why I'm watching in 2027:** I am watching whether AI assistance helps students explain and solve problems independently after the help is removed. Engagement and time in an app can be useful observations, but they do not establish improved understanding. Her learning-science background puts assessment, appropriate feedback and the design of a credible comparison at the center of that question.
+**Why I'm watching in 2027:** Khan Academy's tutoring work puts DiCerbo's learning-science approach to a concrete test: students solving problems after the assistance is removed. Engagement and time in an app can be useful observations, but they do not establish improved understanding. Her learning-science background puts assessment, appropriate feedback and the design of a credible comparison at the center of that question.
 
-**My read:** My concern is engagement or generated answers mistaken for improved understanding.
+**My read:** DiCerbo would lose my confidence over engagement or generated answers mistaken for improved understanding.
 
 **Sources:** [Khan Academy blog: motivation](https://blog.khanacademy.org/student-motivation-hard-problem/) · [kristendicerbo.com](https://www.kristendicerbo.com/about-me)
 
@@ -1326,9 +1326,9 @@ Alex Kendall's [own biography](https://alexgkendall.com/) dates Wayve's founding
 
 **The path:** His publication record includes [work on uncertainty in computer vision](https://arxiv.org/abs/1703.04977) and research on end-to-end driving. The biography identifies him as Wayve's co-founder and CEO after Cambridge research. I do not treat a planned robotaxi deployment as an already operating service, and omit uncertain financing totals and award dates from this entry.
 
-**Why I'm watching in 2027:** I am watching the conditions under which the system can operate, intervention rates and the cost of supervision. An integration agreement creates a path to distribution, not proof that a vehicle is ready for every road. The most useful evidence combines repeatable driving performance with a clear statement of operational limits.
+**Why I'm watching in 2027:** Wayve's embodied-driving approach makes operating conditions, interventions and supervision costs the measures to follow from Kendall. An integration agreement creates a path to distribution, not proof that a vehicle is ready for every road. The most useful evidence combines repeatable driving performance with a clear statement of operational limits.
 
-**My read:** My concern is expansion claims that omit constraints, intervention or the cost of supervision.
+**My read:** Alex Kendall: the warning sign is expansion claims that omit constraints, intervention or the cost of supervision.
 
 **Sources:** [Alex Kendall](https://alexgkendall.com/) · [arXiv](https://arxiv.org/abs/1703.04977)
 
@@ -1340,11 +1340,11 @@ Beth Barnes's [METR organization page](https://metr.org/about) identifies her as
 
 **Education:** I could not verify her degrees or schools.
 
-**The path:** The organization describes independent evaluation and productivity research. I retain that institutional account rather than a precise early-employment chronology or updated doubling-time figure not established by the opened record. A time-horizon estimate depends on task selection, the success threshold and the evaluation setup; it is not a direct measure of how many jobs a model can replace.
+**The path:** The organization describes independent evaluation and productivity research. I retain that institutional account rather than a precise early-employment chronology or updated doubling-time figure not established by that organization page. A time-horizon estimate depends on task selection, the success threshold and the evaluation setup; it is not a direct measure of how many jobs a model can replace.
 
-**Why I'm watching in 2027:** I am watching whether evaluation methods remain informative as tasks get longer and models become aware of testing. The useful result is a transparent comparison with uncertainty and reproducible conditions. A chart's extrapolated curve should not stand in for measured workplace productivity or the reliability needed for unsupervised deployment.
+**Why I'm watching in 2027:** METR's agent evaluations give Barnes a growing measurement problem as tasks lengthen and models become aware of testing. The useful result is a transparent comparison with uncertainty and reproducible conditions. A chart's extrapolated curve should not stand in for measured workplace productivity or the reliability needed for unsupervised deployment.
 
-**My read:** My concern is a benchmark result becoming a universal forecast of job automation.
+**My read:** For Beth Barnes, I would look for evidence against this risk: a benchmark result becoming a universal forecast of job automation.
 
 **Sources:** [METR: About](https://metr.org/about)
 
@@ -1356,11 +1356,11 @@ Marius Hobbhahn's [Apollo team page](https://www.apolloresearch.ai/team) identif
 
 **Education:** [Tubingen's alumni record](https://tuebingen.ai/alumni/marius-hobhahn) dates his computer-science and cognitive-science bachelor's studies to 2015 to 2018, machine-learning master's studies to 2018 to 2020 and Bayesian machine-learning doctoral work with Philipp Hennig to 2020 to 2023.
 
-**The path:** Apollo's own material connects research with a later monitoring product, Watcher. I omit an unverified conversion date, seed amount and exact anti-scheming reduction ratio rather than treat an intermediary compilation as an original experiment. Research on deceptive behavior needs its setup and limits alongside the headline: observing a behavior in a designed test does not establish its rate in every deployment.
+**The path:** Apollo's own material connects research with a later monitoring product, Watcher. Research on deceptive behavior needs its setup and limits alongside the headline: observing a behavior in a designed test does not establish its rate in every deployment.
 
-**Why I'm watching in 2027:** I am watching whether monitoring identifies useful warning signals in production without an unmanageable rate of false alarms. A model may behave differently when it recognizes an evaluation. The challenge is to show what the test establishes, what remains uncertain and whether safeguards still work when the model or environment changes.
+**Why I'm watching in 2027:** Apollo's scheming experiments make useful warning signals in deployment the next test for Hobbhahn, including the rate of false alarms. A model may behave differently when it recognizes an evaluation. The challenge is to show what the test establishes, what remains uncertain and whether safeguards still work when the model or environment changes.
 
-**My read:** My concern is a striking result whose setup does not represent the deployment being assessed.
+**My read:** Apollo Research's challenge is to avoid a striking result whose setup does not represent the deployment being assessed.
 
 **Sources:** [Apollo Research: Team](https://www.apolloresearch.ai/team) · [Tübingen AI Center](https://tuebingen.ai/alumni/marius-hobhahn)
 
@@ -1374,9 +1374,9 @@ Buck Shlegeris's [Redwood team record](https://www.redwoodresearch.org/team) ide
 
 **The path:** The [AI control research material](https://redwoodresearch.org/research/ai-control) and his [April 2025 interview](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/) describe monitoring and safeguards around potentially misaligned models. I leave the pre-2021 career chronology unknown and do not say one framework is the field's only method. The contribution is a way to test the deployment, not a certificate that every monitored model is safe.
 
-**Why I'm watching in 2027:** I am watching whether a safety case states the assumptions a control depends on and tests attempts to evade it. As agents receive more tools and permissions, failures of monitoring become economically consequential. A successful experiment with a cooperative model is weaker evidence than a test that challenges the safeguard's central assumptions.
+**Why I'm watching in 2027:** Redwood's control research makes adversarial testing of safeguards, rather than assumed model cooperation, the evidence to follow from Shlegeris. As agents receive more tools and permissions, failures of monitoring become economically consequential. A successful experiment with a cooperative model is weaker evidence than a test that challenges the safeguard's central assumptions.
 
-**My read:** My concern is a safeguard that works only when the monitored model is already cooperative.
+**My read:** Shlegeris would lose my confidence over a safeguard that works only when the monitored model is already cooperative.
 
 **Sources:** [redwoodresearch.org](https://www.redwoodresearch.org/team) · [Redwood Research: AI Control](https://redwoodresearch.org/research/ai-control) · [80,000 Hours podcast](https://80000hours.org/podcast/episodes/buck-shlegeris-ai-control-scheming/)
 
@@ -1386,13 +1386,13 @@ Truthful AI · Research-team lead
 
 Owain Evans's [Truthful AI research page](https://truthful.ai/) lists work on emergent misalignment, subliminal learning and hidden influences on model answers. Narrow training choices can have consequences beyond the intended task.
 
-**Education:** I have not confirmed the supplied complete degree chronology against original university award records.
+**Education:** I have not confirmed the complete degree chronology against original university award records.
 
 **The path:** Truthful AI identifies Evans as its team lead in Berkeley and lists the group's papers. Those artifacts let readers examine the conditions under which researchers observed broader behavior changes after particular training. I retain the experiment-level description rather than claim that every fine-tuned model becomes malicious, and leave out an unverified prior appointment timeline.
 
-**Why I'm watching in 2027:** I am watching whether the reported effects replicate across models, data choices and evaluation settings. Synthetic data is economically appealing, but hidden behavior transfer would make data provenance and testing more important. The conditions producing the result matter as much as the unsettling headline; the next test is knowing when the effect does and does not occur.
+**Why I'm watching in 2027:** Truthful AI's subliminal-learning results make replication across models and data choices the next test for Evans's research. Synthetic data is economically appealing, but hidden behavior transfer would make data provenance and testing more important. The conditions producing the result matter as much as the unsettling headline; the next test is knowing when the effect does and does not occur.
 
-**My read:** My concern is overgeneralizing from an experiment without identifying the conditions that produced it.
+**My read:** Owain Evans: the warning sign is overgeneralizing from an experiment without identifying the conditions that produced it.
 
 **Sources:** [truthful.ai](https://truthful.ai/)
 
@@ -1402,13 +1402,13 @@ OpenAI / FAI · Head of Strategic Futures, announced July 2026
 
 [FAI's June 18, 2026 announcement](https://www.thefai.org/posts/dean-ball-joins-openai-as-head-of-strategic-futures) says Dean Ball joins OpenAI as head of strategic futures on July 6 after work on the White House AI Action Plan.
 
-**Education:** His [Foundation for American Innovation biography](https://www.thefai.org/profile/dean-ball) records a Hamilton College BA in history, magna cum laude; the opened biography does not state the graduation year.
+**Education:** His [Foundation for American Innovation biography](https://www.thefai.org/profile/dean-ball) records a Hamilton College BA in history, magna cum laude; the biography does not state the graduation year.
 
-**The path:** The FAI record describes his plan co-authorship and continued nonresident fellowship. His [FAI biography](https://www.thefai.org/profile/dean-ball) documents the academic background. I omit uncertain dates for other appointments and do not infer a confirmed OpenAI IPO timetable. A role inside a lab gives his policy analysis a different institutional position from an independent newsletter.
+**The path:** The FAI record describes his plan co-authorship and continued nonresident fellowship. His [FAI biography](https://www.thefai.org/profile/dean-ball) documents the academic background. A role inside a lab gives his policy analysis a different institutional position from an independent newsletter.
 
-**Why I'm watching in 2027:** I am watching how frontier-model policy arguments change when their author works inside a major developer. Advocacy, scenario analysis and enacted rules are different forms of evidence. The useful test is whether proposals state their tradeoffs clearly and respond to contrary records, rather than presenting one company's strategic preferences as a neutral forecast.
+**Why I'm watching in 2027:** Ball's announced July 2026 OpenAI role changes the context for his frontier-policy arguments, making the developer's interests part of the analysis. Advocacy, scenario analysis and enacted rules are different forms of evidence. The useful test is whether proposals state their tradeoffs clearly and respond to contrary records, rather than presenting one company's strategic preferences as a neutral forecast.
 
-**My read:** My concern is an advocacy position treated as a neutral forecast or settled rule.
+**My read:** For Dean W. Ball, I would look for evidence against this risk: an advocacy position treated as a neutral forecast or settled rule.
 
 **Sources:** [FAI announcement](https://www.thefai.org/posts/dean-ball-joins-openai-as-head-of-strategic-futures) · [FAI profile](https://www.thefai.org/profile/dean-ball)
 
@@ -1422,9 +1422,9 @@ Lennart Heim's [training-compute paper](https://heim.xyz/documents/Training-Comp
 
 **The path:** His [GovAI biography](https://governance.ai/team/lennart-heim) provides a record of compute-governance research. I do not infer a later Foundation role or control over a philanthropic budget from a social profile or roundup. The inspectable contribution is analysis of how compute can inform oversight without becoming a complete measure of model risk.
 
-**Why I'm watching in 2027:** I am watching whether resource-based thresholds remain useful as algorithmic efficiency and deployment methods change. A numerical boundary is easier to administer than a full capability assessment, but simplicity does not make it sufficient. The policy question is what additional testing and context are needed after a threshold is crossed.
+**Why I'm watching in 2027:** Heim's training-compute paper leaves an explicit policy test: do resource thresholds remain useful as algorithms and deployment methods change? A numerical boundary is easier to administer than a full capability assessment, but simplicity does not make it sufficient. The policy question is what additional testing and context are needed after a threshold is crossed.
 
-**My read:** My concern is a convenient numerical cutoff treated as a complete assessment of risk.
+**My read:** Compute governance research's challenge is to avoid a convenient numerical cutoff treated as a complete assessment of risk.
 
 **Sources:** [heim.xyz](https://heim.xyz/documents/Training-Compute-Thresholds.pdf) · [GovAI: Lennart Heim](https://governance.ai/team/lennart-heim)
 
@@ -1436,11 +1436,11 @@ Kai Zenner's [OECD expert biography](https://oecd.ai/en/community/kai-zenner) id
 
 **Education:** The [OECD expert biography](https://oecd.ai/en/community/kai-zenner) lists an Edinburgh political-science MSc, a Bremen political-science BA and a law state examination at Munster. It identifies him as head of office and digital-policy adviser to Axel Voss MEP, not as an OECD employee.
 
-**The path:** The expert biography describes his AI and digital-policy work and education, while his [industry-event biography](https://informaconnect.com/ai-regulation-forum/speakers/kai-zenner/) offers a later professional account. I leave out an unverified ranking, award and full prior-employment chronology. The role provides context for his policy commentary; it does not make every proposal he discusses settled law.
+**The path:** The expert biography describes his AI and digital-policy work and education, while his [industry-event biography](https://informaconnect.com/ai-regulation-forum/speakers/kai-zenner/) offers a later professional account. The role provides context for his policy commentary; it does not make every proposal he discusses settled law.
 
-**Why I'm watching in 2027:** I am watching how policy proposals become workable obligations for organizations deploying AI. Draft amendments, political positions and rules currently in force must remain separate. Useful analysis should state the stage of a proposal and the tradeoffs involved, rather than describe an expected change as if it has already taken effect.
+**Why I'm watching in 2027:** Zenner's parliamentary advisory work makes the transition from policy proposal to workable obligation the issue to follow in 2027. Draft amendments, political positions and rules currently in force must remain separate. Useful analysis should state the stage of a proposal and the tradeoffs involved, rather than describe an expected change as if it has already taken effect.
 
-**My read:** My concern is commentary about proposed rules presented as the law currently in force.
+**My read:** Zenner would lose my confidence over commentary about proposed rules presented as the law currently in force.
 
 **Sources:** [OECD.AI](https://oecd.ai/en/community/kai-zenner) · [Informa AI Regulation Forum](https://informaconnect.com/ai-regulation-forum/speakers/kai-zenner/)
 
@@ -1448,15 +1448,15 @@ Kai Zenner's [OECD expert biography](https://oecd.ai/en/community/kai-zenner) id
 
 CSET · Executive director
 
-Helen Toner's [current CSET biography](https://cset.georgetown.edu/staff/helen-toner/) identifies her as executive director, without the supplied interim qualifier. Her work connects policy debates with research on AI capability and access.
+Helen Toner's [current CSET biography](https://cset.georgetown.edu/staff/helen-toner/) identifies her as executive director. Her work connects policy debates with research on AI capability and access.
 
 **Education:** Her [CSET staff biography](https://cset.georgetown.edu/staff/helen-toner/) records a Georgetown security-studies MA, a Melbourne chemical-engineering BSc and a diploma in languages; degree years are not stated on that page.
 
-**The path:** The [institutional biography](https://cset.georgetown.edu/staff/helen-toner/) documents her security-studies and engineering background and earlier policy work. I use that current role record instead of inferring it from an older appointment announcement. I leave out an unverified birth year, precise early-employment dates and subscriber counts that do not establish the quality of the policy research.
+**The path:** The [institutional biography](https://cset.georgetown.edu/staff/helen-toner/) documents her security-studies and engineering background and earlier policy work. I use that current role record instead of inferring it from an older appointment announcement.
 
-**Why I'm watching in 2027:** CSET's current [staff page](https://cset.georgetown.edu/staff/helen-toner/) calls her Executive Director, without the interim qualifier in the supplied brief. I am following whether its research makes US-China AI competition easier to measure through concrete records of chips, research capacity and deployment, rather than through assumptions about national intent.
+**Why I'm watching in 2027:** CSET's current [staff page](https://cset.georgetown.edu/staff/helen-toner/) calls her Executive Director. I am following whether its research makes US-China AI competition easier to measure through concrete records of chips, research capacity and deployment, rather than through assumptions about national intent. For a policy claim, I would trace the cited chip restriction or capability assessment to its original document and effective date.
 
-**My read:** The case weakens if policy recommendations outrun the evidence about capability, access and actual deployment.
+**My read:** Helen Toner's case depends on avoiding the opposite outcome:  policy recommendations outrun the evidence about capability, access and actual deployment.
 
 **Sources:** [cset.georgetown.edu](https://cset.georgetown.edu/staff/helen-toner/)
 
@@ -1464,15 +1464,15 @@ Helen Toner's [current CSET biography](https://cset.georgetown.edu/staff/helen-t
 
 Conviction · Founder and investment-thesis author
 
-Sarah Guo's [Conviction launch statement](https://www.conviction.com/launching-with-conviction) describes a $100 million first fund built around AI-first companies. The original statement corrects the supplied $101 million amount.
+Sarah Guo's [Conviction launch statement](https://www.conviction.com/launching-with-conviction) describes a $100 million first fund built around AI-first companies. That is committed fund capital, not a personal wealth estimate.
 
-**Education:** I could not confirm the supplied complete degree list and award dates against a primary university record.
+**Education:** I could not confirm the complete degree list and award dates against a primary university record.
 
 **The path:** The launch statement is signed by Guo and lays out the firm's foundation-model investment thesis. [January 2025 reporting](https://techcrunch.com/2025/01/31/guos-conviction-partners-adds-mike-vernal-as-gp-raises-230m-fund) describes a later $230 million fund. I keep capital raised for a fund separate from portfolio-company valuations and omit uncertain ages, individual first-check claims and a later fund target not established by an original closing record.
 
-**Why I'm watching in 2027:** I am watching whether the investment thesis produces durable companies after model access and inference costs change. A venture fund's size measures capital available to invest, not realized returns. Portfolio markups are different from cash returned to investors, and either can look strong before the underlying businesses prove durable.
+**Why I'm watching in 2027:** Conviction's first-fund thesis makes durable companies, rather than portfolio markups alone, the result to follow from Guo's investments. A venture fund's size measures capital available to invest, not realized returns. Portfolio markups are different from cash returned to investors, and either can look strong before the underlying businesses prove durable.
 
-**My read:** My concern is an investment narrative that depends on scarcity the market subsequently removes.
+**My read:** For Sarah Guo, I would look for evidence against this risk: an investment narrative that depends on scarcity the market subsequently removes.
 
 **Sources:** [conviction.com](https://www.conviction.com/launching-with-conviction) · [TechCrunch](https://techcrunch.com/2025/01/31/guos-conviction-partners-adds-mike-vernal-as-gp-raises-230m-fund)
 
@@ -1482,13 +1482,13 @@ Air Street Capital · Founder and General Partner
 
 Nathan Benaich's [State of AI site](https://www.stateof.ai/) presents the ninth annual report in 2026. The report is useful to follow because its prior predictions can be compared with later evidence.
 
-**Education:** [Gates Cambridge's biography](https://www.gatescambridge.org/biography/6331/) documents his Cambridge scholarship and biological-science studies. I have not confirmed every supplied degree award year.
+**Education:** [Gates Cambridge's biography](https://www.gatescambridge.org/biography/6331/) documents his Cambridge scholarship and biological-science studies. I have not confirmed every degree award year.
 
-**The path:** The report's first-person introduction describes cancer and computational-biology doctoral research in the early 2010s and investing in AI companies since 2013. His Air Street role connects a research synthesis with an investment perspective. I omit an unverified complete portfolio list and a precise founding chronology when the report itself is the direct record being assessed.
+**The path:** The report's first-person introduction describes cancer and computational-biology doctoral research in the early 2010s and investing in AI companies since 2013. His Air Street role connects a research synthesis with an investment perspective.
 
-**Why I'm watching in 2027:** [March 2026 reporting](https://tech.eu/2026/03/23/nathan-benaich-s-air-street-raises-232m-fund-iii-becoming-europe-s-largest-solo-gp-venture-firm/) describes Air Street's $232 million Fund III. I am watching how the next report scores earlier predictions, including those that failed. The investment position should remain visible when readers judge a report's conclusions about technologies and companies.
+**Why I'm watching in 2027:** [March 2026 reporting](https://tech.eu/2026/03/23/nathan-benaich-s-air-street-raises-232m-fund-iii-becoming-europe-s-largest-solo-gp-venture-firm/) describes Air Street's $232 million Fund III. I am watching how the next report scores earlier predictions, including those that failed. The investment position should remain visible when readers judge a report's conclusions about technologies and companies. I would compare each forecast with its original wording and deadline before counting it as correct.
 
-**My read:** My concern is retrospective success claims that quietly change the original prediction.
+**My read:** Air Street Capital's challenge is to avoid retrospective success claims that quietly change the original prediction.
 
 **Sources:** [State of AI Report](https://www.stateof.ai/) · [Gates Cambridge](https://www.gatescambridge.org/biography/6331/) · [tech.eu](https://tech.eu/2026/03/23/nathan-benaich-s-air-street-raises-232m-fund-iii-becoming-europe-s-largest-solo-gp-venture-firm/)
 
@@ -1498,13 +1498,13 @@ Kleiner Perkins · Partner
 
 Leigh Marie Braswell's [Kleiner Perkins biography](https://www.kleinerperkins.com/people/leigh-marie-braswell/) connects early engineering and product work at Scale AI with investing in infrastructure and AI applications.
 
-**Education:** Her [Kleiner Perkins biography](https://www.kleinerperkins.com/people/leigh-marie-braswell/) confirms graduation from MIT; it does not specify a degree subject or award year in the opened record.
+**Education:** Her [Kleiner Perkins biography](https://www.kleinerperkins.com/people/leigh-marie-braswell/) confirms graduation from MIT; it does not specify a degree subject or award year in the cited record.
 
 **The path:** The firm identifies her as a partner, dates her Kleiner move to 2023 after Founders Fund and describes earlier work on Scale's 3D annotation product. It lists Avoca and Poetic board roles and investments including Windsurf, Neon and Chronosphere. I attribute the portfolio to the firm's account and leave out uncertain personal first-check claims or realized proceeds; an acquisition involving a portfolio company is not automatically a disclosed investor return.
 
-**Why I'm watching in 2027:** I am watching whether infrastructure and agent companies turn growing adoption into retained customers and a durable business. A private-company price can rise while the unit economics remain unresolved. Product experience offers a useful perspective on that gap, but an investor biography is not an independent performance audit.
+**Why I'm watching in 2027:** Braswell's move from product and engineering to venture investing makes retained infrastructure customers a more useful test than rising private prices. A private-company price can rise while the unit economics remain unresolved. Product experience offers a useful perspective on that gap, but an investor biography is not an independent performance audit.
 
-**My read:** My concern is portfolio valuation growth mistaken for demonstrated business durability.
+**My read:** Braswell would lose my confidence over portfolio valuation growth mistaken for demonstrated business durability.
 
 **Sources:** [kleinerperkins.com](https://www.kleinerperkins.com/people/leigh-marie-braswell/)
 
@@ -1514,13 +1514,13 @@ Lux Capital · Partner
 
 Grace Isford's [Lux biography](https://www.luxcapital.com/people/grace-isford) describes investments at the intersection of computation, software and the physical world. Its first-check and early-partner wording is the firm's account, not proof she individually led every listed deal.
 
-**Education:** I have not confirmed the supplied precise degree award year against an original Stanford record.
+**Education:** I have not confirmed the precise degree award year against an original Stanford record.
 
 **The path:** Lux identifies her as a New York-based partner after Canvas Ventures, product work at Handshake and work at the Stanford Endowment. It lists companies including Together, Sakana, Modal and Physical Intelligence. I retain that attributed career record without inferring personal ownership, individual returns or a complete deal-leadership history.
 
-**Why I'm watching in 2027:** I am watching the mismatch between software-style growth expectations and the slower validation of physical systems. Compute infrastructure, robots and biology each face different capital and testing constraints. A promising portfolio theme needs evidence that customers can use the product at a viable cost, beyond the excitement of an early financing.
+**Why I'm watching in 2027:** Isford's investments across computation and physical systems face different validation times, which makes software-style growth expectations a risk to examine. Compute infrastructure, robots and biology each face different capital and testing constraints. A promising portfolio theme needs evidence that customers can use the product at a viable cost, beyond the excitement of an early financing.
 
-**My read:** My concern is software-style growth expectations imposed on slower physical validation.
+**My read:** Grace Isford: the warning sign is software-style growth expectations imposed on slower physical validation.
 
 **Sources:** [luxcapital.com](https://www.luxcapital.com/people/grace-isford)
 
@@ -1530,13 +1530,13 @@ Independent development · Datasette creator and Django co-creator
 
 Simon Willison's [September 12, 2022 prompt-injection post](https://simonwillison.net/2022/Sep/12/prompt-injection/) gives a dated practitioner account of attacks that mix untrusted content with instructions. The problem becomes more consequential when agents can act.
 
-**Education:** I have not confirmed the supplied degree award date against a primary university record.
+**Education:** I have not confirmed the degree award date against a primary university record.
 
 **The path:** His [own biography](https://simonwillison.net/about/) identifies him as Datasette's creator and a Django co-creator and describes Lanyrd's acquisition by Eventbrite. It also documents his independent open-source work. I retain that first-person chronology and omit an unverified board-service history or precise current consulting schedule. His biography discloses sponsorships and access to product previews.
 
-**Why I'm watching in 2027:** I am watching whether practical demonstrations help teams set better boundaries around tools, data and permissions. His disclosed sponsorship and product-preview relationships are part of interpreting the writing, not evidence that it lacks value. A persuasive product impression is still different from an independent performance or security study.
+**Why I'm watching in 2027:** Willison's prompt-injection demonstrations make boundaries around agents' tools, data and permissions a concrete engineering test for 2027. His disclosed sponsorship and product-preview relationships are part of interpreting the writing, not evidence that it lacks value. A persuasive product impression is still different from an independent performance or security study.
 
-**My read:** My concern is a product impression presented as an independent performance study.
+**My read:** For Simon Willison, I would look for evidence against this risk: a product impression presented as an independent performance study.
 
 **Sources:** [Prompt injection post](https://simonwillison.net/2022/Sep/12/prompt-injection/) · [simonwillison.net: About](https://simonwillison.net/about/)
 
@@ -1548,11 +1548,11 @@ Nathan Lambert's [June 2, 2026 farewell to Ai2](https://www.interconnects.ai/p/f
 
 **Education:** His first-person [account of entering AI](https://www.interconnects.ai/p/my-path-into-ai) describes Berkeley doctoral research from 2017 to early 2022; I do not infer a Cornell degree from a reference to earlier rowing there.
 
-**The path:** The farewell describes work on Olmo models and reflects on the impact of open research despite performance limits. His [first-person career account](https://www.interconnects.ai/p/my-path-into-ai) documents the earlier doctoral and industry path. I omit precise internship dates, blanket priority claims for research terms and an unconfirmed current nonprofit title.
+**The path:** The farewell describes work on Olmo models and reflects on the impact of open research despite performance limits. His [first-person career account](https://www.interconnects.ai/p/my-path-into-ai) documents the earlier doctoral and industry path.
 
-**Why I'm watching in 2027:** I am watching whether open post-training releases expose enough data, code and evaluation detail for outside teams to reproduce the important choices. A label of open is weaker than a usable recipe. The next meaningful result would reduce the gap between reading a report and being able to train and assess a comparable model.
+**Why I'm watching in 2027:** Lambert's June 2026 Ai2 farewell makes the next released post-training recipe, rather than an outdated affiliation, the work to follow. A label of open is weaker than a usable recipe. The next meaningful result would reduce the gap between reading a report and being able to train and assess a comparable model.
 
-**My read:** My concern is an open label applied to artifacts that leave the important training choices inaccessible.
+**My read:** Interconnects / open post-training's challenge is to avoid an open label applied to artifacts that leave the important training choices inaccessible.
 
 **Sources:** [Farewell Ai2](https://www.interconnects.ai/p/farewell-ai2) · [My path into AI](https://www.interconnects.ai/p/my-path-into-ai)
 
@@ -1564,11 +1564,11 @@ Dwarkesh Patel's [podcast page](https://www.dwarkesh.com/about) describes deeply
 
 **Education:** I could not confirm a completed degree and award year from a primary university record.
 
-**The path:** His own page identifies him as the host and links the podcast and other public work. The [May 2025 Sholto Douglas and Trenton Bricken interview](https://www.dwarkesh.com/p/sholto-trenton-2) is one example of the format, covering reinforcement learning and interpretability. I omit an unverified birth date, audience count and donation chronology that are not needed to evaluate the contribution.
+**The path:** His own page identifies him as the host and links the podcast and other public work. The [May 2025 Sholto Douglas and Trenton Bricken interview](https://www.dwarkesh.com/p/sholto-trenton-2) is one example of the format, covering reinforcement learning and interpretability.
 
-**Why I'm watching in 2027:** I am watching whether interviews expose disagreements, concrete predictions and failure conditions that can be checked later. Access to a prominent guest is useful, but it is not independent verification of the guest's claims. A strong interview should leave a record that readers can compare against what actually happens.
+**Why I'm watching in 2027:** Patel's long-form interviews leave a record of disagreements and predictions that readers can compare with later events. Access to a prominent guest is useful, but it is not independent verification of the guest's claims. A strong interview should leave a record that readers can compare against what actually happens. I would track a guest’s specific prediction against its stated deadline, rather than score an interview by prominence alone.
 
-**My read:** My concern is a persuasive interview becoming a substitute for independently checked evidence.
+**My read:** Patel would lose my confidence over a persuasive interview becoming a substitute for independently checked evidence.
 
 **Sources:** [dwarkesh.com: About](https://www.dwarkesh.com/about) · [dwarkesh.com](https://www.dwarkesh.com/p/sholto-trenton-2)
 
@@ -1578,13 +1578,13 @@ AI Engineer / Latent Space · Co-founder and host
 
 Shawn ‘swyx’ Wang's [AI Engineer organization history](https://www.ai.engineer/about) dates his AI-engineer essay and the first summit to 2023. It connects a practitioner role with a conference and learning community.
 
-**Education:** I could not confirm the supplied formal education and bootcamp dates against original education records.
+**Education:** I could not confirm the formal education and bootcamp dates against original education records.
 
 **The path:** The organization describes launching the summit with conference organizer Ben Dunphy and later expanding the events. [Latent Space's about page](https://www.latent.space/about) documents the newsletter and podcast. I do not repeat an unverified currency-trading asset figure or infer investment performance from a prior finance role.
 
-**Why I'm watching in 2027:** I am watching whether the community teaches repeatable engineering skills as quickly as it spreads fashionable claims. Useful evidence includes code, evaluation methods and candid failure reports that participants can reuse. Attendance and self-reported audience totals show reach, but do not measure whether a new practitioner can build a dependable system.
+**Why I'm watching in 2027:** The AI Engineer community's growth makes reusable code, evaluation methods and candid failure reports the evidence to seek from Wang's teaching. Useful evidence includes code, evaluation methods and candid failure reports that participants can reuse. Attendance and self-reported audience totals show reach, but do not measure whether a new practitioner can build a dependable system.
 
-**My read:** My concern is a growing community that amplifies fashionable claims faster than it evaluates them.
+**My read:** Shawn "swyx" Wang: the warning sign is a growing community that amplifies fashionable claims faster than it evaluates them.
 
 **Sources:** [ai.engineer](https://www.ai.engineer/about) · [Latent Space: About](https://www.latent.space/about)
 
@@ -1596,10 +1596,10 @@ Sebastian Raschka's [own biography](https://sebastianraschka.com/about/) describ
 
 **Education:** He holds a PhD, but I could not confirm the institution or year on primary pages.
 
-**The path:** The [LLMs-from-scratch repository](https://github.com/rasbt/LLMs-from-scratch) accompanies his model-building work. [Manning's reasoning-model book page](https://www.manning.com/books/build-a-reasoning-model-from-scratch) supplies the publisher record for the later book. I leave out uncertain previous employment dates and a volatile star-count comparison with other frameworks; popularity is not a measure of whether a lesson reproduces a frontier system.
+**The path:** The [LLMs-from-scratch repository](https://github.com/rasbt/LLMs-from-scratch) accompanies his model-building work. [Manning's reasoning-model book page](https://www.manning.com/books/build-a-reasoning-model-from-scratch) supplies the publisher record for the later book.
 
-**Why I'm watching in 2027:** I am watching whether the teaching makes assumptions, training choices and evaluation limits visible, particularly in reasoning and post-training. A small implementation can clarify an algorithm without reproducing the data, compute and engineering behind a commercial model. That distinction is essential when readers move from an educational example toward production work.
+**Why I'm watching in 2027:** Raschka's model-building books and reference code make visible training choices and evaluation limits the next tests of his teaching. A small implementation can clarify an algorithm without reproducing the data, compute and engineering behind a commercial model. That distinction is essential when readers move from an educational example toward production work. I would run the examples, inspect the evaluation setup and distinguish a teaching simplification from an implementation error.
 
-**My read:** My concern is a teaching example mistaken for a production-ready system or a full reproduction of a frontier result.
+**My read:** For Sebastian Raschka, I would look for evidence against this risk: a teaching example mistaken for a production-ready system or a full reproduction of a frontier result.
 
 **Sources:** [sebastianraschka.com: About](https://sebastianraschka.com/about/) · [GitHub: LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch) · [Manning](https://www.manning.com/books/build-a-reasoning-model-from-scratch)

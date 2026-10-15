@@ -64,7 +64,7 @@ function ExpandedWatchlist({
               </time>
             </span>
             {article.checked !== article.editionChecked && (
-              <span>Revision verification: October 14, 2026</span>
+              <span>Revision verification: {article.checked}</span>
             )}
           </div>
         </div>

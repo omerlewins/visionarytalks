@@ -1,0 +1,18 @@
+{
+  "version": "watchlist-release-v1",
+  "path": "/ai-people-to-watch/",
+  "reviewedAt": "2026-10-14",
+  "authorization": "Owner explicitly requested completion of the expanded factual review followed by deployment, after reviewing the portrait Preview in this chat.",
+  "scope": "Manual review of retained biography, dated research and attributed company claims, with unsupported supplied details removed. Unknowns remain explicit; editorial forecasts are opinions.",
+  "contentHash": "9e9a1e0c12081562dd73140c6f9df49e4bb2c4832db74a5790a601072c6da351",
+  "claimLedgerHash": "2cfd5a8723d4f124ab0bff2beeefc7e7119e333d3d0b37cbc1d93bdc80908e21",
+  "retainedClaims": 100,
+  "sourceRecords": 108,
+  "expandedCitationURLs": 196,
+  "limitations": [
+    "Public-record review of the retained claims and explicitly labelled editorial analysis; no interviews or audited company accounts.",
+    "Education dates and current jobs that could not be established remain unknown or explicitly attributed to dated records.",
+    "Company operating metrics are attributed claims. Private stakes and personal wealth are not estimated; pending transactions are not closed rounds.",
+    "This editorial selection is not a demographic survey, influence ranking or investment recommendation."
+  ]
+}
