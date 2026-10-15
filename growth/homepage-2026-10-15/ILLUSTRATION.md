@@ -1,0 +1,7 @@
+# Legal AI ownership illustration
+
+Built-in image generation produced the illustration. Final project asset: `app/public/reference/harvey-ownership-editorial-v1.webp`, 1400 by 700 pixels, 239,774 bytes. It is a conceptual AI-generated scene, not a photograph or depiction of an identifiable employee. The CMS media record carries that disclosure and is attached to the published Harvey story without changing its editorial update date. The hero reads the selected story's CMS image; no story is hardcoded in hero selection.
+
+Prompt:
+
+> Create a refined wide editorial illustration for a financial-investigation magazine story about Harvey, the legal AI company, who owns it and its private financing. Aspect ratio 2:1 landscape. No text, no lettering, no logos, no numerals. Fine black pen and graphite stipple on warm ivory paper, subtle muted sage and pale ochre accents only. A thoughtful legal professional at a large worktable inspecting a document with a magnifying glass, stacked case files at left, a small abstract AI computing device at right, and faint fine-line connections between documents suggesting investment ownership. Old newspaper etching meets modern literary business magazine. Human and architecture rendered elegantly and credibly, no photorealism. Spacious composition, restrained texture, crisp readable silhouettes, no decorative border. This is a conceptual illustration, not a portrait of a real person. No scales-of-justice clipart, no glowing neon, no interface screenshot.

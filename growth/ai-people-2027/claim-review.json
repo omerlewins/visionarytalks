@@ -1,0 +1,1716 @@
+{
+  "checked": "2026-10-13",
+  "status": "awaiting-editorial-review",
+  "scope": "Review of retained concise claims; original omitted education, net-worth, hiring and unverified funding leads are not certified.",
+  "people": [
+    {
+      "number": 1,
+      "name": "Alexander Wei",
+      "sourceIds": [
+        "watch-source-1"
+      ],
+      "supportedClaim": "Wei identifies his OpenAI research role and lists his participation in the CICERO team.",
+      "role": "Research scientist",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 2,
+      "name": "Jerry Tworek",
+      "sourceIds": [
+        "watch-source-2"
+      ],
+      "supportedClaim": "OpenAI credits Jerry Tworek with overall leadership within its reasoning-research section.",
+      "role": "Research leadership, 2024 credit record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 3,
+      "name": "Jason Wei",
+      "sourceIds": [
+        "watch-source-3"
+      ],
+      "supportedClaim": "Wei says he works at Meta Superintelligence Labs and lists chain-of-thought and instruction-tuning work.",
+      "role": "Researcher, according to personal page",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 4,
+      "name": "Hongyu Ren",
+      "sourceIds": [
+        "watch-source-2"
+      ],
+      "supportedClaim": "Hongyu Ren appears among the foundational contributors to o1 reasoning research.",
+      "role": "Foundational contributor, 2024 record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 5,
+      "name": "Sholto Douglas",
+      "sourceIds": [
+        "watch-source-4"
+      ],
+      "supportedClaim": "Sholto Douglas discusses reinforcement learning and the difficulty of specifying useful rewards outside games.",
+      "role": "Research discussed in a first-person interview",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 6,
+      "name": "Joshua (Josh) Batson",
+      "sourceIds": [
+        "watch-source-5"
+      ],
+      "supportedClaim": "The contribution section credits Joshua Batson with leading the overall circuits project and helping develop its methodology.",
+      "role": "Circuits project lead, 2025 research record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 7,
+      "name": "Julian Schrittwieser",
+      "sourceIds": [
+        "watch-source-6"
+      ],
+      "supportedClaim": "Schrittwieser describes the AlphaProof system and links its published mathematical-reasoning paper.",
+      "role": "Contributor describing the project’s published work",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 8,
+      "name": "Neel Nanda",
+      "sourceIds": [
+        "watch-source-7"
+      ],
+      "supportedClaim": "Nanda says he leads DeepMind’s mechanistic interpretability team and identifies TransformerLens among his projects.",
+      "role": "Mechanistic interpretability team lead",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 9,
+      "name": "Jack Parker-Holder",
+      "sourceIds": [
+        "watch-source-8"
+      ],
+      "supportedClaim": "Parker-Holder describes work on world models and points to Genie as an example.",
+      "role": "Research scientist, personal-page record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 10,
+      "name": "Lilian Weng",
+      "sourceIds": [
+        "watch-source-9"
+      ],
+      "supportedClaim": "Weng’s July 2026 notes discuss recursive self-improvement; her blog also examines test-time computation.",
+      "role": "Research writer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 11,
+      "name": "Liam Fedus",
+      "sourceIds": [
+        "watch-source-10"
+      ],
+      "supportedClaim": "The investor names Liam Fedus as a co-founder and describes a $300M founding round dated September 30, 2025.",
+      "role": "Co-founder, founding announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 12,
+      "name": "Misha Laskin",
+      "sourceIds": [
+        "watch-source-11",
+        "watch-source-98"
+      ],
+      "supportedClaim": "The October 5 announcement promised the model’s weights and supporting artifacts later that month.",
+      "role": "Co-founder and CEO, NVIDIA announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 13,
+      "name": "Luo Fuli",
+      "sourceIds": [
+        "watch-source-12"
+      ],
+      "supportedClaim": "Fuli Luo appears on the report’s author list for a model using a mixture-of-experts and hybrid-attention architecture.",
+      "role": "Technical-report co-author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 14,
+      "name": "Yao Shunyu (Vinces Yao)",
+      "sourceIds": [
+        "watch-source-13"
+      ],
+      "supportedClaim": "Shunyu Yao is a co-author of research that uses linguistic feedback and episodic memory to improve an agent’s subsequent attempts.",
+      "role": "Co-author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 15,
+      "name": "Lin Junyang (Justin Lin)",
+      "sourceIds": [
+        "watch-source-14"
+      ],
+      "supportedClaim": "Junyang Lin is listed among the authors of the Qwen2 model-family report.",
+      "role": "Qwen2 technical-report co-author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 16,
+      "name": "Yang Zhilin",
+      "sourceIds": [
+        "watch-source-15"
+      ],
+      "supportedClaim": "Zhilin Yang appears on the author list of the Kimi K2 report, which describes an agentic model and released checkpoints.",
+      "role": "Kimi K2 technical-report co-author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 17,
+      "name": "Chelsea Finn",
+      "sourceIds": [
+        "watch-source-16"
+      ],
+      "supportedClaim": "Finn identifies her Stanford appointment, Physical Intelligence co-founding role and research on learning through robotic interaction.",
+      "role": "Assistant professor and co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 18,
+      "name": "Sherry Yang",
+      "sourceIds": [
+        "watch-source-17"
+      ],
+      "supportedClaim": "Sherry Yang identifies her NYU and DeepMind roles and a focus on reinforcement learning and generative modeling.",
+      "role": "Assistant professor and staff research scientist",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 19,
+      "name": "Levent Alpöge",
+      "sourceIds": [
+        "watch-source-18"
+      ],
+      "supportedClaim": "OpenAI’s September account discusses Alpöge’s work and acknowledges priority concerning a forced-Euler result.",
+      "role": "Researcher named in a contested priority account",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 20,
+      "name": "Sara Hooker",
+      "sourceIds": [
+        "watch-source-19"
+      ],
+      "supportedClaim": "Sara Hooker examines how available hardware and software can favor particular research directions.",
+      "role": "Author of The Hardware Lottery",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 21,
+      "name": "Joelle Pineau",
+      "sourceIds": [
+        "watch-source-20"
+      ],
+      "supportedClaim": "Cohere lists Joelle Pineau as Chief AI Officer and describes an enterprise-focused AI platform.",
+      "role": "Chief AI Officer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 22,
+      "name": "Woosuk Kwon",
+      "sourceIds": [
+        "watch-source-21"
+      ],
+      "supportedClaim": "Inferact names Woosuk Kwon among its founders and announces $150M raised at an $800M valuation on January 22, 2026.",
+      "role": "Co-founder named in launch record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 23,
+      "name": "Ying Sheng",
+      "sourceIds": [
+        "watch-source-22",
+        "watch-source-99"
+      ],
+      "supportedClaim": "AMD’s event biography identifies Ying Sheng as RadixArk co-founder and CEO and an SGLang co-creator and core contributor.",
+      "role": "Co-founder and CEO, 2026 event biography",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 24,
+      "name": "Georgi Gerganov",
+      "sourceIds": [
+        "watch-source-23"
+      ],
+      "supportedClaim": "The February 20 announcement says Gerganov and the team are joining Hugging Face while retaining technical direction and community autonomy.",
+      "role": "Creator and project steward",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 25,
+      "name": "Tri Dao",
+      "sourceIds": [
+        "watch-source-24",
+        "watch-source-100"
+      ],
+      "supportedClaim": "The repository credits Tri Dao and collaborators for FlashAttention and Dao for FlashAttention-2.",
+      "role": "Assistant professor and co-founder/chief scientist",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 26,
+      "name": "Daniel Han",
+      "sourceIds": [
+        "watch-source-25"
+      ],
+      "supportedClaim": "The company record names Daniel Han as a founder and describes open-source reinforcement learning and fine-tuning tools.",
+      "role": "Founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 27,
+      "name": "Omar Khattab",
+      "sourceIds": [
+        "watch-source-26",
+        "watch-source-101"
+      ],
+      "supportedClaim": "MIT lists Omar Khattab as an assistant professor in EECS.",
+      "role": "Assistant professor",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 28,
+      "name": "Lysandre Debut",
+      "sourceIds": [
+        "watch-source-27"
+      ],
+      "supportedClaim": "Lysandre is among the announcement’s authors; the post describes interoperability across training, inference and deployment tools.",
+      "role": "Co-author of the v5 announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 29,
+      "name": "Erik Bernhardsson",
+      "sourceIds": [
+        "watch-source-28"
+      ],
+      "supportedClaim": "Bernhardsson identifies himself as Modal’s founder and CEO and describes earlier open-source work including Luigi and Annoy.",
+      "role": "Founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 30,
+      "name": "Lin Qiao",
+      "sourceIds": [
+        "watch-source-29"
+      ],
+      "supportedClaim": "The announcement identifies Lin Qiao and reports a $1.505B round plus an annualized revenue run rate exceeding $1B.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 31,
+      "name": "Tuhin Srivastava",
+      "sourceIds": [
+        "watch-source-30"
+      ],
+      "supportedClaim": "Baseten identifies Tuhin Srivastava as CEO and co-founder and describes deployment engineering under real traffic.",
+      "role": "CEO and co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 32,
+      "name": "Gorkem Yurtseven",
+      "sourceIds": [
+        "watch-source-31"
+      ],
+      "supportedClaim": "fal says Burkay Gur and Gorkem Yurtseven founded the company in 2021 to address AI infrastructure challenges.",
+      "role": "Co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 33,
+      "name": "Jeffrey Morgan",
+      "sourceIds": [
+        "watch-source-32"
+      ],
+      "supportedClaim": "The record names Jeffrey Morgan as a founder of a tool for running language models.",
+      "role": "Founder, YC record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 34,
+      "name": "Simon Hørup Eskildsen",
+      "sourceIds": [
+        "watch-source-33"
+      ],
+      "supportedClaim": "Eskildsen identifies turbopuffer as a search engine for object storage that he co-founded in 2023.",
+      "role": "Co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 35,
+      "name": "Ankur Goyal",
+      "sourceIds": [
+        "watch-source-34"
+      ],
+      "supportedClaim": "Goyal describes founding Braintrust after building evaluation tools at Impira and Figma; the February announcement states an $80M round.",
+      "role": "Founder, first-person company announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 36,
+      "name": "Anastasios Angelopoulos",
+      "sourceIds": [
+        "watch-source-35"
+      ],
+      "supportedClaim": "Angelopoulos identifies his Arena role and lists work on human-preference evaluation and conformal prediction.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 37,
+      "name": "David Soria Parra",
+      "sourceIds": [
+        "watch-source-36"
+      ],
+      "supportedClaim": "The October 1, 2026 record lists David Soria Parra and Den Delimarsky as lead maintainers.",
+      "role": "Lead maintainer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 38,
+      "name": "Gavin Uberti",
+      "sourceIds": [
+        "watch-source-37"
+      ],
+      "supportedClaim": "Etched identifies Gavin Uberti as co-founder and CEO in its leadership section.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 39,
+      "name": "Reiner Pope",
+      "sourceIds": [
+        "watch-source-38"
+      ],
+      "supportedClaim": "MatX names Reiner Pope as co-founder and CEO and describes work spanning silicon, compilers, kernels and models.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 40,
+      "name": "Sharon Zhou",
+      "sourceIds": [
+        "watch-source-22"
+      ],
+      "supportedClaim": "AMD’s event materials identify Sharon Zhou as AI Chief of Staff.",
+      "role": "AI Chief of Staff, 2026 event listing",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 41,
+      "name": "Jerry Liu",
+      "sourceIds": [
+        "watch-source-39"
+      ],
+      "supportedClaim": "The May 2025 record identifies Jerry Liu and explains managed document parsing, ingestion and retrieval services.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 42,
+      "name": "Anton Osika",
+      "sourceIds": [
+        "watch-source-40"
+      ],
+      "supportedClaim": "KTH identifies Anton Osika and Fabian Hedin as Lovable’s founders and describes natural-language app creation.",
+      "role": "Co-founder, KTH award record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 43,
+      "name": "Maor Shlomo",
+      "sourceIds": [
+        "watch-source-41"
+      ],
+      "supportedClaim": "Wix describes approximately $80M initial consideration, including employee retention payments, and conditional earn-outs through 2029.",
+      "role": "Founder associated with the acquired product",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 44,
+      "name": "Mati Staniszewski",
+      "sourceIds": [
+        "watch-source-42"
+      ],
+      "supportedClaim": "The update identifies Mati Staniszewski and reports that ElevenLabs surpassed $500M ARR in the first four months of 2026.",
+      "role": "Co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 45,
+      "name": "Brendan Foody",
+      "sourceIds": [
+        "watch-source-43"
+      ],
+      "supportedClaim": "Mercor names Brendan Foody and Adarsh Hiremath as co-founders and co-CEOs and describes an expert network for training and evaluation.",
+      "role": "Co-founder and co-CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 46,
+      "name": "Jesse Zhang",
+      "sourceIds": [
+        "watch-source-44"
+      ],
+      "supportedClaim": "Decagon identifies Jesse Zhang as co-founder and CEO and describes agents across customer-service channels.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 47,
+      "name": "Matan Grinberg",
+      "sourceIds": [
+        "watch-source-45"
+      ],
+      "supportedClaim": "Grinberg and Reyes announce a $200M financing at a $5B valuation on September 15, 2026, following the earlier Series C.",
+      "role": "Co-founder and company-announcement author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 48,
+      "name": "Mukund Jha",
+      "sourceIds": [
+        "watch-source-46"
+      ],
+      "supportedClaim": "The April 2026 account names Mukund Jha and describes an agent operating through messaging interfaces.",
+      "role": "Co-founder and CEO, company announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 49,
+      "name": "Cristóbal Valenzuela",
+      "sourceIds": [
+        "watch-source-47"
+      ],
+      "supportedClaim": "The event materials identify Cristóbal Valenzuela as co-founder and co-CEO.",
+      "role": "Co-founder and co-CEO, 2026 event record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 50,
+      "name": "Kareem Amin",
+      "sourceIds": [
+        "watch-source-48"
+      ],
+      "supportedClaim": "The post by Kareem Amin describes employees being able to sell up to $55M of shares at a $5B valuation.",
+      "role": "CEO and company-update author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 51,
+      "name": "Jan Oberhauser",
+      "sourceIds": [
+        "watch-source-49"
+      ],
+      "supportedClaim": "The press page identifies Jan Oberhauser as founder and CEO and dates the company’s founding to 2019.",
+      "role": "Founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 52,
+      "name": "Robin Rombach",
+      "sourceIds": [
+        "watch-source-50"
+      ],
+      "supportedClaim": "The 2024 record identifies Rombach as a Black Forest Labs co-founder and describes work on latent diffusion and visual models.",
+      "role": "Co-founder, Stanford event record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 53,
+      "name": "Alex Mashrabov",
+      "sourceIds": [
+        "watch-source-51"
+      ],
+      "supportedClaim": "The conference record identifies Mashrabov as Higgsfield’s CEO and co-founder.",
+      "role": "CEO and co-founder, 2026 event record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 54,
+      "name": "Grant Lee",
+      "sourceIds": [
+        "watch-source-52"
+      ],
+      "supportedClaim": "Lee reports $100M ARR, profitability, 50 employees and $23M initial funding, then separately announces a $68M Series B.",
+      "role": "Co-founder and company-announcement author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 55,
+      "name": "James Cadwallader",
+      "sourceIds": [
+        "watch-source-53"
+      ],
+      "supportedClaim": "The record identifies James Cadwallader and announces a $180M Series D at a $1.8B valuation.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 56,
+      "name": "Noah Shinn",
+      "sourceIds": [
+        "watch-source-13"
+      ],
+      "supportedClaim": "Noah Shinn is the paper’s first listed author; the framework uses feedback stored as text rather than updating model weights.",
+      "role": "Paper co-author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 57,
+      "name": "Lourdes Agapito",
+      "sourceIds": [
+        "watch-source-54"
+      ],
+      "supportedClaim": "UCL attributes underpinning visual-synthesis research to Lourdes Agapito’s team and describes her co-founding role.",
+      "role": "Professor and co-founder, UCL record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 58,
+      "name": "Demi Guo",
+      "sourceIds": [
+        "watch-source-55"
+      ],
+      "supportedClaim": "Pika identifies Demi Guo as CEO and co-founder in its team material.",
+      "role": "CEO and co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 59,
+      "name": "Mikey Shulman",
+      "sourceIds": [
+        "watch-source-56"
+      ],
+      "supportedClaim": "The September 2026 posts identify Mikey Shulman and describe model releases and music-industry partnerships.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 60,
+      "name": "Bar Winkler",
+      "sourceIds": [
+        "watch-source-57",
+        "watch-source-102"
+      ],
+      "supportedClaim": "Wonderful identifies Bar Winkler and describes an enterprise platform supported by local deployment teams.",
+      "role": "CEO, company team record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 61,
+      "name": "Chris Pedregal",
+      "sourceIds": [
+        "watch-source-58"
+      ],
+      "supportedClaim": "Chris Pedregal appears as the author of releases including meeting chat, Windows support and shared team context.",
+      "role": "Product founder associated with dated release notes",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 62,
+      "name": "Zachary Lipton",
+      "sourceIds": [
+        "watch-source-59"
+      ],
+      "supportedClaim": "Abridge identifies Lipton’s scientific and technology leadership and describes his work on robust machine learning.",
+      "role": "Chief Scientific and Technology Officer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 63,
+      "name": "Nikhil Buduma",
+      "sourceIds": [
+        "watch-source-60"
+      ],
+      "supportedClaim": "The company announces Nikhil Buduma’s move from chief scientist to CEO and describes documentation, coding and clinical workflows.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 64,
+      "name": "Zachary Ziegler",
+      "sourceIds": [
+        "watch-source-61"
+      ],
+      "supportedClaim": "Sequoia associates Zachary Ziegler with OpenEvidence and links its clinical-information product.",
+      "role": "Founder identified by investor record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 65,
+      "name": "Suchi Saria",
+      "sourceIds": [
+        "watch-source-62"
+      ],
+      "supportedClaim": "The company identifies Suchi Saria as its founder and describes real-time clinical signals drawn from patient data.",
+      "role": "Founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 66,
+      "name": "Joshua Meier",
+      "sourceIds": [
+        "watch-source-63"
+      ],
+      "supportedClaim": "Index identifies Joshua Meier among Chai’s co-founders and describes a molecular-design business.",
+      "role": "Co-founder, investor account",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 67,
+      "name": "Brian Hie",
+      "sourceIds": [
+        "watch-source-64"
+      ],
+      "supportedClaim": "Arc identifies Brian Hie as a co-senior author and describes releasing model code, data and weights.",
+      "role": "Researcher and Evo 2 co-senior author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 68,
+      "name": "Max Jaderberg",
+      "sourceIds": [
+        "watch-source-65"
+      ],
+      "supportedClaim": "The November 2025 record appoints Max Jaderberg President effective January 1, 2026, after serving as Chief AI Officer.",
+      "role": "President, effective January 2026",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 69,
+      "name": "Emma Lundberg",
+      "sourceIds": [
+        "watch-source-66"
+      ],
+      "supportedClaim": "Stanford describes Lundberg’s work on spatial protein organization, cell mapping and virtual-cell models.",
+      "role": "Associate professor and Cell Atlas director",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 70,
+      "name": "Karol Hausman",
+      "sourceIds": [
+        "watch-source-67"
+      ],
+      "supportedClaim": "Hausman identifies himself as a Physical Intelligence co-founder and lists work on robot learning and general-purpose skills.",
+      "role": "Co-founder, personal research record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 71,
+      "name": "Deepak Pathak",
+      "sourceIds": [
+        "watch-source-68"
+      ],
+      "supportedClaim": "Pathak describes agents learning from raw sensory data and research spanning vision, learning and robotics.",
+      "role": "Faculty researcher",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 72,
+      "name": "Bernt Øivind Børnich",
+      "sourceIds": [
+        "watch-source-69"
+      ],
+      "supportedClaim": "The October 2025 company release identifies Bernt Børnich and presents NEO as a home-robot product.",
+      "role": "Founder and CEO, product announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 73,
+      "name": "Carolina Parada",
+      "sourceIds": [
+        "watch-source-70"
+      ],
+      "supportedClaim": "The March 2025 post by Carolina Parada introduces vision-language-action and embodied-reasoning models.",
+      "role": "Gemini Robotics announcement author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 74,
+      "name": "Max Junestrand",
+      "sourceIds": [
+        "watch-source-71"
+      ],
+      "supportedClaim": "Legora identifies Max Junestrand as CEO and co-founder and describes a platform for legal work.",
+      "role": "CEO and co-founder, 2026 event record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 75,
+      "name": "Gabriel Pereyra",
+      "sourceIds": [
+        "watch-source-72"
+      ],
+      "supportedClaim": "The March 2024 record identifies Gabriel Pereyra and describes deployment and distribution through Azure.",
+      "role": "Co-founder and President, 2024 announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 76,
+      "name": "George Sivulka",
+      "sourceIds": [
+        "watch-source-73"
+      ],
+      "supportedClaim": "The June 2025 post identifies Sivulka and describes adding slide creation to retrieval and analysis workflows.",
+      "role": "Founder and CEO, company announcement",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 77,
+      "name": "Gabriel Stengel",
+      "sourceIds": [
+        "watch-source-74"
+      ],
+      "supportedClaim": "Gabe Stengel authors Rogo’s April 29, 2026 announcement of a $160M Series D.",
+      "role": "Company financing-announcement author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 78,
+      "name": "Antoine Bordes",
+      "sourceIds": [
+        "watch-source-75"
+      ],
+      "supportedClaim": "The January 2026 release identifies Bordes and describes his co-authored research on structured knowledge embeddings.",
+      "role": "Chief Scientist, January 2026 record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 79,
+      "name": "Oege de Moor",
+      "sourceIds": [
+        "watch-source-76",
+        "watch-source-103"
+      ],
+      "supportedClaim": "The June 2025 post says automated findings were reviewed by its security team before submission under platform rules.",
+      "role": "Founder associated with the company’s security research",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 80,
+      "name": "Ekin Dogus Cubuk",
+      "sourceIds": [
+        "watch-source-77"
+      ],
+      "supportedClaim": "The company describes its founding team and a plan to combine AI with autonomous physical laboratories.",
+      "role": "Co-founder, company launch record",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 81,
+      "name": "Jonathan Godwin",
+      "sourceIds": [
+        "watch-source-78"
+      ],
+      "supportedClaim": "The August 2026 post names Jonathan Godwin and describes licensing its CurieOS materials platform to BASF ECMS.",
+      "role": "Chief Executive Officer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 82,
+      "name": "Kristen DiCerbo",
+      "sourceIds": [
+        "watch-source-79"
+      ],
+      "supportedClaim": "The organization identifies DiCerbo and describes her advice to begin technology decisions with the problem being solved.",
+      "role": "Chief Learning Officer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 83,
+      "name": "Alex Kendall",
+      "sourceIds": [
+        "watch-source-80"
+      ],
+      "supportedClaim": "Kendall identifies his Wayve role and lists work on embodied AI, uncertainty and autonomous-driving models.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 84,
+      "name": "Beth Barnes",
+      "sourceIds": [
+        "watch-source-81"
+      ],
+      "supportedClaim": "METR names Beth Barnes as founder and CEO and describes independent evaluation, productivity research and its funding arrangements.",
+      "role": "Founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 85,
+      "name": "Marius Hobbhahn",
+      "sourceIds": [
+        "watch-source-82"
+      ],
+      "supportedClaim": "Apollo identifies Marius Hobbhahn as CEO and co-founder and describes research on AI scheming.",
+      "role": "CEO and co-founder",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 86,
+      "name": "Buck Shlegeris",
+      "sourceIds": [
+        "watch-source-83"
+      ],
+      "supportedClaim": "Redwood identifies Buck Shlegeris as Chief Executive Officer of the AI safety and security research nonprofit.",
+      "role": "Chief Executive Officer",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 87,
+      "name": "Owain Evans",
+      "sourceIds": [
+        "watch-source-84"
+      ],
+      "supportedClaim": "The nonprofit identifies Owain Evans as team lead and lists research on deception, hidden reasoning and emergent misalignment.",
+      "role": "Research-team lead",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 88,
+      "name": "Dean W. Ball",
+      "sourceIds": [
+        "watch-source-85"
+      ],
+      "supportedClaim": "FAI says Ball joins OpenAI as Head of Strategic Futures on July 6 while retaining a non-resident fellowship.",
+      "role": "Head of Strategic Futures, announced July 2026",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 89,
+      "name": "Lennart Heim",
+      "sourceIds": [
+        "watch-source-86"
+      ],
+      "supportedClaim": "The authors argue that training compute can identify models for scrutiny but should not determine mitigations by itself.",
+      "role": "Training-compute paper co-author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 90,
+      "name": "Kai Zenner",
+      "sourceIds": [
+        "watch-source-87"
+      ],
+      "supportedClaim": "OECD describes Zenner’s digital-policy work for MEP Axel Voss and links his work on foundation-model regulation.",
+      "role": "Digital policy adviser, OECD biography",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 91,
+      "name": "Helen Toner",
+      "sourceIds": [
+        "watch-source-88"
+      ],
+      "supportedClaim": "CSET identifies Toner as Executive Director.",
+      "role": "Executive Director",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 92,
+      "name": "Sarah Guo",
+      "sourceIds": [
+        "watch-source-89"
+      ],
+      "supportedClaim": "Guo describes an AI-focused venture firm built around companies using foundation models.",
+      "role": "Founder and investment-thesis author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 93,
+      "name": "Nathan Benaich",
+      "sourceIds": [
+        "watch-source-90",
+        "watch-source-104"
+      ],
+      "supportedClaim": "Benaich describes annual predictions and returning to assess them in the State of AI report.",
+      "role": "Solo member of investment staff",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 94,
+      "name": "Leigh Marie Braswell",
+      "sourceIds": [
+        "watch-source-91"
+      ],
+      "supportedClaim": "The firm identifies Braswell as a partner and describes earlier engineering and product work at Scale AI.",
+      "role": "Partner",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 95,
+      "name": "Grace Isford",
+      "sourceIds": [
+        "watch-source-92"
+      ],
+      "supportedClaim": "Lux identifies Isford as a partner investing across software, computation and the physical world.",
+      "role": "Partner",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 96,
+      "name": "Simon Willison",
+      "sourceIds": [
+        "watch-source-93",
+        "watch-source-105"
+      ],
+      "supportedClaim": "Willison identifies his open-source development work, Datasette and Django, and discloses sponsorship and product-preview relationships.",
+      "role": "Datasette creator and Django co-creator",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 97,
+      "name": "Nathan Lambert",
+      "sourceIds": [
+        "watch-source-94"
+      ],
+      "supportedClaim": "Lambert describes his work on Tülu and open post-training and says he is developing a new project after leaving Ai2.",
+      "role": "Researcher and author; departed Ai2 in 2026",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 98,
+      "name": "Dwarkesh Patel",
+      "sourceIds": [
+        "watch-source-95"
+      ],
+      "supportedClaim": "Patel identifies himself as the podcast’s host and describes a format built around researched interviews.",
+      "role": "Host",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 99,
+      "name": "Shawn \"swyx\" Wang",
+      "sourceIds": [
+        "watch-source-96"
+      ],
+      "supportedClaim": "The organization identifies Shawn Wang and dates his AI Engineer essay and the first summit to 2023.",
+      "role": "Co-founder and CEO",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    },
+    {
+      "number": 100,
+      "name": "Sebastian Raschka",
+      "sourceIds": [
+        "watch-source-97",
+        "watch-source-106"
+      ],
+      "supportedClaim": "Raschka describes reading papers and reference implementations, then building smaller versions to understand their details.",
+      "role": "LLM research engineer and author",
+      "reviewState": "retained-claims-checked",
+      "limitations": [
+        "Selected public-record research, not interviews or a comprehensive archive search.",
+        "Some entries use explicitly historical contribution records instead of asserting unconfirmed current employers.",
+        "Company financial statements are attributed, not audited by Visionary Talks.",
+        "No industry-representative demographic, influence or wealth ranking is inferred from this editorial selection."
+      ],
+      "publicationApproval": false
+    }
+  ]
+}

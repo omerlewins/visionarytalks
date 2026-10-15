@@ -1,0 +1,141 @@
+/* Generated from the homepage chart design. */
+:root {
+  --ink: #151515;
+  --muted: #606060;
+  --rule: #b9b9b9;
+  --soft: #e7e7e7;
+  --wash: #f4f4f2;
+  --page: 1300px;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: Arial, Helvetica, sans-serif;
+}
+.editorial-chart {
+  background: var(--wash);
+  border-block: 1px solid var(--rule);
+  padding: 28px;
+  margin: 32px 0;
+  min-width: 0;
+}
+.editorial-chart figcaption {
+  margin: 0 0 24px;
+}
+.article-body .editorial-chart h3,
+.editorial-chart h3 {
+  font: normal 30px/1.15 var(--serif);
+  letter-spacing: -0.03em;
+  margin: 12px 0;
+}
+.editorial-chart figcaption p {
+  font: 13px/1.5 var(--sans);
+  color: var(--muted);
+}
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 22px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 35px;
+  font: 12px/1.5 var(--sans);
+}
+.chart-legend li {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.chart-legend i {
+  width: 12px;
+  height: 12px;
+  background: #969696;
+}
+.chart-legend i.ink,
+.plot-bar.ink {
+  background: var(--ink);
+}
+.chart-scroll {
+  overflow-x: auto;
+  max-width: 100%;
+  padding: 30px 0 45px;
+  overscroll-behavior-x: contain;
+}
+.editorial-plot {
+  height: 245px;
+  display: flex;
+  gap: 18px;
+  padding: 0 18px;
+  position: relative;
+  border-block: 1px solid #aaa;
+  background: repeating-linear-gradient(
+    to top,
+    transparent 0,
+    transparent calc(25% - 1px),
+    #ddd calc(25% - 1px),
+    #ddd 25%
+  );
+}
+.plot-group {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+.plot-columns {
+  display: flex;
+  gap: 7px;
+  height: 100%;
+  justify-content: center;
+}
+.plot-column {
+  width: 100%;
+  max-width: 64px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.plot-bar {
+  background: #969696;
+  width: 100%;
+  position: relative;
+}
+.plot-bar span {
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+  padding-bottom: 6px;
+  font: 15px/1.3 var(--serif);
+  white-space: nowrap;
+}
+.plot-label {
+  position: absolute;
+  top: calc(100% + 10px);
+  width: 100%;
+  text-align: center;
+  font: 12px/1.3 var(--sans);
+}
+.zero-label {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  font: 10px var(--sans);
+  color: var(--muted);
+}
+.chart-source,
+.chart-method {
+  font: 11px/1.65 var(--sans);
+  color: var(--muted);
+  margin-top: 12px;
+}
+.editorial-chart details {
+  margin-top: 15px;
+}
+.editorial-chart summary {
+  font: 12px/1.5 var(--sans);
+}
+.editorial-chart:has(.chart-legend) .editorial-plot {
+  gap: 25px;
+}
+.editorial-chart:has(.chart-legend) .plot-bar span {
+  font-size: 11px;
+}
+
+.wealth-snapshot figcaption{text-align:left}.wealth-snapshot .editorial-plot{min-width:0}.wealth-scale-top{position:absolute;left:0;top:0;transform:translateY(-100%);font:10px var(--sans);color:var(--muted)}.wealth-snapshot .chart-method{font:11px/1.65 var(--sans)}.wealth-method h3{font:normal 21px/1.3 var(--serif);margin:24px 0 8px}.wealth-method .note{margin-top:0}@media(max-width:760px){.editorial-chart{padding:22px 16px}}

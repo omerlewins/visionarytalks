@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "reviewedAt": "2026-10-04",
+  "currency": "USD",
+  "updateMode": "Editorial snapshot",
+  "companies": [
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "vertical": "Foundation models",
+      "description": "ChatGPT, models & APIs",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "openai-2026-09",
+          "amountUSD": 70000000000,
+          "display": "~$70B",
+          "metric": "Annualized revenue",
+          "asOf": "2026-09",
+          "asOfLabel": "Sep 2026",
+          "basis": "Reported",
+          "source": {
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/technology/openais-annual-recurring-revenue-nears-70-billion-axios-reports-2026-09-29/",
+            "publishedAt": "2026-09-29"
+          },
+          "note": "Approaching $70B, according to an unnamed source cited by Reuters. Rounded for display; not audited annual revenue.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "vertical": "Foundation models",
+      "description": "Claude, models & APIs",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "anthropic-2026-07",
+          "amountUSD": 65000000000,
+          "display": ">$65B",
+          "metric": "Annualized revenue",
+          "asOf": "2026-07",
+          "asOfLabel": "Jul 2026",
+          "basis": "Reported",
+          "source": {
+            "publisher": "Reuters",
+            "url": "https://www.reuters.com/technology/anthropic-revenue-run-rate-tops-65-billion-source-says-2026-08-17/",
+            "publishedAt": "2026-08-17"
+          },
+          "note": "Reported to have passed $65B by the end of July. Revenue accounting through cloud partners can differ between model providers.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "anysphere",
+      "name": "Cursor",
+      "vertical": "Coding tools",
+      "description": "AI code editor",
+      "profileUrl": null,
+      "ownershipUrl": "./who-owns-cursor.html",
+      "observations": [
+        {
+          "id": "anysphere-2026-06",
+          "amountUSD": 2600000000,
+          "display": "$2.6B",
+          "metric": "Annualized revenue",
+          "asOf": "2026-06",
+          "asOfLabel": "Jun 2026",
+          "basis": "Reported",
+          "source": {
+            "publisher": "Visionary Talks",
+            "url": "https://visionarytalks.com/who-owns-cursor/",
+            "publishedAt": "2026-09"
+          },
+          "note": "Uses the $2.6B annualized figure in the June deal reporting summarized by Visionary Talks. Other estimates differ; this is not an audited revenue figure. The metric covers Cursor, not parent SpaceX.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "vertical": "Search & agents",
+      "description": "AI answers & research",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "perplexity-2026-08",
+          "amountUSD": 750000000,
+          "display": "~$750M",
+          "metric": "Annualized revenue",
+          "asOf": "2026-08",
+          "asOfLabel": "Aug 2026",
+          "basis": "Estimated",
+          "source": {
+            "publisher": "Sacra",
+            "url": "https://sacra.com/c/perplexity/",
+            "publishedAt": null
+          },
+          "note": "Third-party estimate for August 2026. Includes the broader company, not just its original search product.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "name": "Lovable",
+      "vertical": "App builders",
+      "description": "Prompt-to-app platform",
+      "profileUrl": null,
+      "ownershipUrl": "https://visionarytalks.com/who-owns-lovable/",
+      "observations": [
+        {
+          "id": "lovable-2026-09",
+          "amountUSD": 600000000,
+          "display": "~$600M",
+          "metric": "Annualized revenue",
+          "asOf": "2026-09",
+          "asOfLabel": "Sep 2026",
+          "basis": "Estimated",
+          "source": {
+            "publisher": "Sacra",
+            "url": "https://sacra.com/c/lovable/",
+            "publishedAt": null
+          },
+          "note": "Third-party estimate for September 2026. A run-rate snapshot rather than full-year booked revenue.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "name": "Replit",
+      "vertical": "App builders",
+      "description": "AI app development",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "replit-2026-04",
+          "amountUSD": 525000000,
+          "display": "~$525M",
+          "metric": "Annualized revenue",
+          "asOf": "2026-04",
+          "asOfLabel": "Apr 2026",
+          "basis": "Estimated",
+          "source": {
+            "publisher": "Sacra",
+            "url": "https://sacra.com/research/replit-passes-500m-year/",
+            "publishedAt": "2026-05-28"
+          },
+          "note": "Third-party estimate for April 2026. The company\u2019s $1B year-end target is a forecast and is excluded from this table.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "vertical": "Voice & audio",
+      "description": "Voice generation & agents",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "elevenlabs-2026-04",
+          "amountUSD": 500000000,
+          "display": ">$500M",
+          "metric": "ARR",
+          "asOf": "2026-04",
+          "asOfLabel": "Apr 2026",
+          "basis": "Company disclosed",
+          "source": {
+            "publisher": "ElevenLabs",
+            "url": "https://elevenlabs.io/blog/500m-arr-and-new-investors",
+            "publishedAt": "2026-05-05"
+          },
+          "note": "The company said it surpassed $500M ARR in the first four months of 2026. Its September tender announcement did not disclose a new total ARR figure.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "harvey",
+      "name": "Harvey",
+      "vertical": "Legal AI",
+      "description": "Legal & professional workflows",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "harvey-2026-08",
+          "amountUSD": 400000000,
+          "display": "~$400M",
+          "metric": "ARR",
+          "asOf": "2026-08",
+          "asOfLabel": "Aug 2026",
+          "basis": "Estimated",
+          "source": {
+            "publisher": "Sacra",
+            "url": "https://sacra.com/c/harvey/",
+            "publishedAt": null
+          },
+          "note": "Third-party estimate of ARR for August 2026. Not a figure from audited financial statements.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "base44",
+      "name": "Base44",
+      "vertical": "App builders",
+      "description": "AI app builder",
+      "profileUrl": null,
+      "ownershipUrl": "https://visionarytalks.com/who-owns-base44/",
+      "observations": [
+        {
+          "id": "base44-2026-08",
+          "amountUSD": 200000000,
+          "display": ">$200M",
+          "metric": "ARR",
+          "asOf": "2026-08",
+          "asOfLabel": "Aug 2026",
+          "basis": "Reported",
+          "source": {
+            "publisher": "CTech",
+            "url": "https://www.calcalistech.com/ctechnews/article/syw900pvdzg",
+            "publishedAt": "2026-08-20"
+          },
+          "note": "Founder-stated ARR milestone, reported by CTech. Covers Base44, not all of parent company Wix.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    },
+    {
+      "id": "synthesia",
+      "name": "Synthesia",
+      "vertical": "Video generation",
+      "description": "AI video for business",
+      "profileUrl": null,
+      "ownershipUrl": null,
+      "observations": [
+        {
+          "id": "synthesia-2026-02",
+          "amountUSD": 140000000,
+          "display": "~$140M",
+          "metric": "ARR",
+          "asOf": "2026-02",
+          "asOfLabel": "Feb 2026",
+          "basis": "Company disclosed",
+          "source": {
+            "publisher": "Synthesia",
+            "url": "https://www.synthesia.io/post/how-we-scaled-our-billing-system-from-40m-to-140m-arr",
+            "publishedAt": "2026-02-10"
+          },
+          "note": "Approximate ARR discussed in a February company engineering post. February is the disclosure date; the exact measurement date was not specified.",
+          "reviewedAt": "2026-10-04"
+        }
+      ]
+    }
+  ]
+}

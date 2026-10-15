@@ -1,0 +1,50 @@
+import fs from 'node:fs';
+const out='app/src/data/leader-profiles.json';
+const sources={};
+export function source(id,title,url,type='Primary record',date='') { sources[id]={id,title,url,type,date,accessed:'2026-10-11'}; return id; }
+export const leaders=[];
+export function add(p){p.slug=p.name.toLowerCase().replaceAll(' ','-');p.path=`/leaders/${p.slug}/`;p.checked='2026-10-11';p.status='draft';p.seo={title:`${p.name} Net Worth: Ownership & Career`,description:`${p.name} net worth, company-building history and the financial records behind the estimate. Independent research, dated sources and methodology.`.slice(0,154)};p.sourceIds=[...new Set(p.sourceIds)];leaders.push(p);}
+export function sec(heading,...paragraphs){return {heading,paragraphs};}
+export function write(){fs.writeFileSync(out,JSON.stringify({sources,leaders},null,2)+'\n');}
+source('cursor8k','SpaceX: completion of Anysphere merger, August 14, 2026','https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm','SEC filing','2026-08-14');
+source('cursor-talk','Cursor team: Lex Fridman interview transcript','https://lexfridman.com/cursor-team-transcript/','First-person interview','2024-10-12');
+source('isomorphic-psc','Isomorphic Labs Limited: persons with significant control','https://find-and-update.company-information.service.gov.uk/company/13223825/persons-with-significant-control');
+source('iso-funding','Isomorphic Labs announces $2.1 billion Series B','https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round','Company announcement','2026-05-12');
+source('hassabis-ucl','UCL: Hassabis, doctoral research and DeepMind origins','https://www.ucl.ac.uk/news/2023/dec/google-deepmind-co-founder-discusses-how-ai-can-benefit-humanity-ucl','University record','2023-12-13');
+source('hassabis-bio','Isomorphic Labs: Demis Hassabis biography','https://www.isomorphiclabs.com/people/sir-demis-hassabis-phd','Company biography');
+source('hassabis-role','Axios: Hassabis becomes DeepMind chair and Alphabet chief scientist','https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai','Independent reporting','2026-08-05');
+for(const [id,name,date] of [['lucy-guo','Lucy Guo','2026-10-11'],['greg-brockman','Greg Brockman','2026-10-11'],['aravind-srinivas','Aravind Srinivas','2026-10-11'],['daniela-amodei','Daniela Amodei','2026-10-11'],['bret-taylor','Bret Taylor','2026-10-10'],['aman-sanger','Aman Sanger','2026-10-11'],['brett-adcock','Brett Adcock','2026-10-11'],['ali-ghodsi','Ali Ghodsi','2026-10-10'],['amjad-masad','Amjad Masad','2026-10-10'],['sualeh-asif','Sualeh Asif','2026-10-11'],['michael-intrator','Michael Intrator','2026-10-11'],['edwin-chen','Edwin Chen','2026-10-11']])source(id+'-forbes',`Forbes: ${name}, dated wealth estimate`,`https://www.forbes.com/profile/${id}/`,'Independent wealth estimate',date);
+source('scale-meta','Scale AI: Meta investment and shareholder distribution','https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution','Company announcement','2025-06-12');
+source('brockman-blog','Greg Brockman: dated posts on engineering and OpenAI','https://blog.gregbrockman.com/','First-person posts');
+source('thinking','Thinking Machines Lab: mission and product approach','https://thinkingmachines.ai/','Company statement');
+source('murati-dartmouth','Dartmouth Engineering: graduate outcomes, Mira Murati','https://engineering.dartmouth.edu/career-services/students/graduate-outcomes','University record');
+source('murati-seed','TechCrunch: $2 billion seed round at $12 billion','https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/','Independent reporting','2025-07-15');
+source('a16z-thinking','a16z enterprise newsletter: Thinking Machines investment','https://a16z.com/newsletter/enterprise-ai-rewrites-benchmarks/','Investor statement','2025-07-23');
+source('ssi-updates','SSI: funding and leadership updates','https://ssi.inc/updates','Company announcement');
+source('sutskever-stake','Bloomberg: Sutskever says OpenAI stake worth about $7 billion','https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion','Independent reporting','2026-05-11');
+source('curl','CURL: Contrastive Unsupervised Representations for Reinforcement Learning','https://arxiv.org/abs/2004.04136','Research paper','2020-04-08');
+source('decision-transformer','Decision Transformer: Reinforcement Learning via Sequence Modeling','https://arxiv.org/abs/2106.01345','Research paper','2021-06-02');
+source('anthropic-h','Anthropic: $65 billion Series H at $965 billion post-money','https://www.anthropic.com/news/series-h','Company announcement','2026-05-28');
+source('anthropic-labs','Anthropic: introducing Labs and Mike Krieger role','https://www.anthropic.com/news/introducing-anthropic-labs','Company announcement','2026-01-13');
+source('sierra-bio','Sierra: Bret Taylor biography','https://sierra.ai/author/bret-taylor','Company biography');
+source('sierra-about','Sierra: founders and company approach','https://sierra.ai/about','Company statement');
+source('sierra-10','Sierra: $350 million at $10 billion','https://sierra.ai/blog/theres-an-agent-for-that-and-it-runs-on-sierra','Company announcement','2025-09-04');
+source('sierra-15','Axios: $950 million round at $15.8 billion post-money','https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise','Independent reporting','2026-05-04');
+source('cognition-e','Cognition: Series E, over $2 billion at $48 billion','https://cognition.com/blog/series-e','Company announcement','2026-09-08');
+source('cognition-10','Cognition: funding, growth and coding agents','https://cognition.com/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents','Company announcement','2025-09-08');
+source('wu-forbes','Forbes Türkiye: founder wealth and unequal Cognition stakes','https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti','Independent reporting','2026-02-02');
+source('wu-ioi','IOI 2014 official newsletter: first-day results','https://ioi.te.lv/locations/ioi14/newsletters/5.PDF','Competition record','2014-07');
+source('archer-13d','Archer: Adcock beneficial ownership amendment','https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm','SEC filing','2022-05');
+source('instagram-10k','Facebook 2012 Form 10-K: Instagram acquisition accounting','https://www.sec.gov/Archives/edgar/data/1326801/000132680113000003/fb-12312012x10k.htm','SEC filing','2013-02');
+source('transformer','Attention Is All You Need: authors and original submission','https://arxiv.org/abs/1706.03762','Research paper','2017-06-12');
+source('moe','Outrageously Large Neural Networks: sparsely gated mixture of experts','https://arxiv.org/abs/1701.06538','Research paper','2017-01-23');
+source('shazeer-move','Reuters: Shazeer announces move to OpenAI','https://www.investing.com/news/stock-market-news/googles-gemini-colead-noam-shazeer-to-join-openai-4748809','Independent reporting','2026-06-17');
+source('instacart-proxy','Instacart 2026 proxy: Simo pay and forfeited equity','https://www.sec.gov/Archives/edgar/data/1579091/000157909126000024/cart-20260409.htm','SEC filing','2026-04-09');
+source('simo-openai','OpenAI: Simo appointed CEO of Applications','https://openai.com/index/leadership-expansion-with-fidji-simo/','Company announcement','2025-05-07');
+source('databricks-round','Reuters: $5 billion round at $190 billion','https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466','Independent reporting','2026-08-13');
+source('drf','USENIX NSDI 2011: Dominant Resource Fairness','https://www.usenix.org/conference/nsdi11/dominant-resource-fairness-fair-allocation-multiple-resource-types','Research paper','2011');
+source('replit-round','Replit: $400 million at $9 billion','https://replit.com/blog/replit-raises-400-million-dollars','Founder announcement','2026-03-11');
+source('microsoft-role','Microsoft: Copilot leadership and Suleyman model mandate','https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/','Company announcement','2026-03-17');
+source('microsoft-proxy','Microsoft 2025 proxy statement','https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm','SEC filing','2025');
+source('coreweave-s1','CoreWeave registration statement: founder careers and company finances','https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm','SEC filing','2025-03');
+source('edwin-blog','Edwin Chen: archived introduction to latent Dirichlet allocation','https://www.edwinchen.ai/archived-blog/introduction-to-latent-dirichlet-allocation','First-person technical post');

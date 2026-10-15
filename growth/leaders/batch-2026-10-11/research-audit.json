@@ -1,0 +1,308 @@
+{
+  "checked": "2026-10-11",
+  "status": "drafts requiring further research",
+  "seoDemand": "Brief-supplied DataForSEO values were not independently verified in this batch",
+  "profiles": [
+    {
+      "name": "Demis Hassabis",
+      "path": "/leaders/demis-hassabis/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 1066,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "No verified Forbes or Bloomberg personal estimate located in the reviewed material.",
+        "Dated reporting identifies his August 2026 move from DeepMind CEO to chair and Alphabet chief scientist. Company biographies may still carry older titles.",
+        "The £90M wealth claim, $40B financing talks and personal Anthropic stake are unverified. Data Capital’s directorship, PSC rights and accounts filing types are verified; account asset values are not.",
+        "A detailed current capital table is not established by the PSC register."
+      ],
+      "portrait": "/reference/demis-hassabis-editorial-v1.png"
+    },
+    {
+      "name": "Lucy Guo",
+      "path": "/leaders/lucy-guo/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 1043,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "The individual Meta-related payout is undisclosed in reviewed records.",
+        "Earlier near-5% stake language was not independently reconciled with the current approximately 3% estimate.",
+        "Backend Capital transactions, Passes litigation and an age-based wealth ranking were not verified and are omitted."
+      ],
+      "portrait": "/reference/lucy-guo-editorial-v1.png"
+    },
+    {
+      "name": "Greg Brockman",
+      "path": "/leaders/greg-brockman/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 1015,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "AP’s May 4 report of nearly $30B stake testimony is verified as secondary court reporting. The original transcript, exact share count and $471M Stripe component remain unreviewed.",
+        "No current exact ownership percentage or independent asset-level reconciliation is asserted.",
+        "Political donations and diary quotations were omitted because their original records were not reviewed."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Mira Murati",
+      "path": "/leaders/mira-murati/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 1005,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "Later $40B or $50B fundraising targets were not verified as completed rounds.",
+        "The Albania investment, 100-times voting rights and exact founder ownership remain unverified.",
+        "No defensible personal net-worth estimate was located in the reviewed records."
+      ],
+      "portrait": "/reference/mira-murati-editorial-v1.png"
+    },
+    {
+      "name": "Ilya Sutskever",
+      "path": "/leaders/ilya-sutskever/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 1009,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "The proposed $13.8B total and $6.75B SSI component lack a reviewed methodology.",
+        "Later $32B SSI valuation and $5B NVIDIA investment are not used as confirmed financing inputs.",
+        "Trial transcript, salary claims and court-ordered disclosure details were not independently reviewed."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Aravind Srinivas",
+      "path": "/leaders/aravind-srinivas/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 977,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "Original Hurun 2026 figures and the proposed 50% reconciliation were not reviewed.",
+        "The exact ownership percentage remains unestablished.",
+        "NVIDIA funding talks, IPO timing, revenue claims and the Ninth Circuit case were not verified and are omitted."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Daniela Amodei",
+      "path": "/leaders/daniela-amodei/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 960,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "The brief’s public S-1 and Founder LLC voting terms were not independently reviewed.",
+        "No exact Daniela stake or confirmed IPO timetable is asserted.",
+        "The $8B comparison and 80% pledge remain unverified and are excluded."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Bret Taylor",
+      "path": "/leaders/bret-taylor/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 973,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "The proposed 25% Sierra stake was not established from reviewed records.",
+        "FriendFeed and Quip proceeds, Salesforce holdings and the 49ers interest require original ownership and transaction records.",
+        "We do not claim Forbes’s valuation model is stale based solely on its narrative-update date."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Scott Wu",
+      "path": "/leaders/scott-wu/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 962,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Historical Forbes Türkiye estimate, not current wealth",
+      "remaining": [
+        "The brief’s Bloomberg $1.6B estimate is undated and not independently substantiated.",
+        "The 2014 perfect score and tied first place are verified. Exact current ownership, birth year, other medal counts and programming rating remain unestablished.",
+        "The claimed $26B round, Devin Desktop renaming and $1B revenue observation were not verified here."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Aman Sanger",
+      "path": "/leaders/aman-sanger/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 964,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "Forbes now shows $2.8B, rather than the brief’s $2.6B.",
+        "Original Bloomberg estimate, 4.5% and 9% stakes, individual share allocation and current title remain unverified.",
+        "Degree completion is not asserted from conflicting secondary descriptions."
+      ],
+      "portrait": "/reference/aman-sanger-editorial-v1.png"
+    },
+    {
+      "name": "Brett Adcock",
+      "path": "/leaders/brett-adcock/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 983,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "The brief’s $100M Vettery price differs from Forbes’s $110M; primary acquisition accounting remains to be reviewed.",
+        "Archer’s later transaction trail and present holdings are not reconciled.",
+        "The Hark financing terms, personal $100M investment, SPV details and lawsuit allegations are not independently verified here."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Mike Krieger",
+      "path": "/leaders/mike-krieger/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 996,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "The brief’s September closing date conflicts with the reviewed 10-K, which says August 2012.",
+        "The $715M aggregate includes $194M of separately accounted employee compensation.",
+        "The Stanford Mayfield Fellows connection is verified. Exact degree, a 10% personal stake, retained Meta holdings and Artifact economics remain unestablished."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Noam Shazeer",
+      "path": "/leaders/noam-shazeer/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 928,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "The NYT payout range and proposed 30% to 40% founder stake were not verified from originals.",
+        "Exact OpenAI title and completed start date remain unestablished here.",
+        "Competition, degree and litigation details are excluded pending original records."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Fidji Simo",
+      "path": "/leaders/fidji-simo/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 941,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "The claimed July 2026 advisory transition requires the original statement before updating the current role.",
+        "Current retained shares and transaction proceeds are not fully reconciled.",
+        "Education, earlier employer chronology and undisclosed OpenAI compensation are not asserted as verified financial inputs."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Ali Ghodsi",
+      "path": "/leaders/ali-ghodsi/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 931,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "Exact current founder stake and financing security rights remain unestablished.",
+        "The earlier $134B financing and debt composition require original records.",
+        "Databricks’s biography confirms KTH PhD in distributed computing (2006), MBA (2003) and CEO appointment in January 2016. Peerialism and refugee chronology remain unverified."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Amjad Masad",
+      "path": "/leaders/amjad-masad/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 983,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "Founder’s 2023 browser-project origin account is verified. The original jsrepl archive and specific Hacker News thread still require review.",
+        "The March 2026 statement includes a $1B year-end run-rate revenue target. It is verified as a forecast, not an actual result. Earlier financing requires original records.",
+        "Exact current founder ownership and any secondary sale are not established."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Mustafa Suleyman",
+      "path": "/leaders/mustafa-suleyman/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 915,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "No substantiated personal total",
+      "remaining": [
+        "The proposed 2012 share count, later transfer and acquisition-proceeds calculation remain unverified.",
+        "Inflection licensing allocations and personal Microsoft compensation are not established.",
+        "Oxford, helpline and consulting chronology require original sources before inclusion."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Sualeh Asif",
+      "path": "/leaders/sualeh-asif/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 911,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "Verified the new official individual-results URLs: 2016 no award, 2017 bronze, 2018 no award. Older participant and team URLs failed.",
+        "Bloomberg comparison, exact stake, post-close title and current share allocation remain unresolved.",
+        "No youngest-billionaire or national ranking claim is asserted."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Michael Intrator",
+      "path": "/leaders/michael-intrator/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 965,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "Current estimate changed from the brief’s $5.6B to $5.3B.",
+        "April 2026 proxy reviewed, including trusts, LLC and ownership footnotes. Post-April Form 4 reconciliation remains incomplete; historical beneficial ownership is not current.",
+        "The proposed $45M tracker comparison and $10B peak are not used as verified observations."
+      ],
+      "portrait": null
+    },
+    {
+      "name": "Edwin Chen",
+      "path": "/leaders/edwin-chen/",
+      "status": "draft",
+      "articleWordsExcludingTablesSources": 967,
+      "requiredMinimum": 1800,
+      "lengthRequirementMet": false,
+      "wealthStatus": "Forbes personal wealth estimate",
+      "remaining": [
+        "The Bloomberg page reviewed is dated May 20, 2026, not an October snapshot.",
+        "Exact founder ownership and any completed outside financing remain unestablished.",
+        "Fundraising targets, contractor litigation and a complete financial-margin analysis require additional original records."
+      ],
+      "portrait": null
+    }
+  ]
+}

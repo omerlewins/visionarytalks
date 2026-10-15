@@ -1,0 +1,95 @@
+{
+  "checked": "2026-10-12",
+  "companies": [
+    {
+      "slug": "anthropic",
+      "name": "Anthropic",
+      "vertical": "Foundation models",
+      "description": "The company behind Claude, building language models and AI tools for businesses and developers.",
+      "website": "https://www.anthropic.com/",
+      "researchPath": "/who-owns-anthropic-claude/",
+      "value": 380000000000,
+      "display": "$380B",
+      "date": "2026-02-12",
+      "round": "Series G",
+      "note": "Company-reported post-money valuation from its $30B Series G announcement. This is a dated financing valuation, not a current share price or founder wealth.",
+      "source": {
+        "title": "Anthropic Series G financing announcement",
+        "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
+        "publisher": "Anthropic"
+      }
+    },
+    {
+      "slug": "cursor",
+      "name": "Cursor",
+      "vertical": "Coding tools",
+      "description": "An AI-powered code editor and software-development platform built by Anysphere.",
+      "website": "https://cursor.com/",
+      "researchPath": "/who-owns-cursor/",
+      "value": 29300000000,
+      "display": "$29.3B",
+      "date": "2025-11-13",
+      "round": "Series D",
+      "note": "Company-reported post-money valuation at the $2.3B Series D. This historical round is separate from any later acquisition consideration; follow the ownership investigation for that story.",
+      "source": {
+        "title": "Cursor: Past, Present, and Future",
+        "url": "https://cursor.com/blog/series-d",
+        "publisher": "Cursor"
+      }
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "vertical": "Voice & audio",
+      "description": "AI speech, audio generation and conversational-agent tools for businesses, developers and creators.",
+      "website": "https://elevenlabs.io/",
+      "researchPath": null,
+      "value": 11000000000,
+      "display": "$11B",
+      "date": "2026-02-04",
+      "round": "Series D",
+      "note": "Company-reported valuation from its $500M Series D. This is a funding-round observation, not the earlier employee tender value or a public-market quote.",
+      "source": {
+        "title": "ElevenLabs Series D financing announcement",
+        "url": "https://elevenlabs.io/blog/series-d",
+        "publisher": "ElevenLabs"
+      }
+    },
+    {
+      "slug": "glean",
+      "name": "Glean",
+      "vertical": "Enterprise search & agents",
+      "description": "Enterprise search, AI assistance and agents grounded in a company's connected workplace information.",
+      "website": "https://www.glean.com/",
+      "researchPath": "/who-owns-glean/",
+      "value": 7200000000,
+      "display": "$7.2B",
+      "date": "2025-06-10",
+      "round": "Series F",
+      "note": "Glean reported a $150M Series F at this valuation. The observation retains its June 2025 date; it is not labeled as a live or latest valuation.",
+      "source": {
+        "title": "Glean Series F financing announcement",
+        "url": "https://www.glean.com/press/glean-raises-150m-series-f-at-7-2b-valuation-to-accelerate-enterprise-ai-agent-innovation-globally",
+        "publisher": "Glean"
+      }
+    },
+    {
+      "slug": "harvey",
+      "name": "Harvey",
+      "vertical": "Legal AI",
+      "description": "AI tools for law firms, in-house legal teams and professional-services work.",
+      "website": "https://www.harvey.ai/",
+      "researchPath": "/who-owns-harvey-ai/",
+      "value": 15500000000,
+      "display": "$15.5B",
+      "date": "2026-09-09",
+      "round": "September 2026 financing",
+      "note": "Harvey announced a $550M round at this valuation, co-led by Diffusion and Lightspeed. The financing amount and valuation are separate measures; private shareholder percentages are not disclosed by this number.",
+      "source": {
+        "title": "Harvey September 2026 financing announcement",
+        "url": "https://www.harvey.ai/blog/harvey-raises-dollar550m-at-a-dollar155b-valuation-to-help-legal-teams-own-their-intelligence",
+        "publisher": "Harvey"
+      }
+    }
+  ]
+}

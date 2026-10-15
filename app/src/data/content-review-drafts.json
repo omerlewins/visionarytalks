@@ -1,0 +1,53 @@
+[
+  {
+    "id": "C1-03",
+    "path": "/who-owns-costco/",
+    "title": "Who Owns Costco? Shareholders and Membership",
+    "dek": "A sourced first draft distinguishing Costco shareholders from members. The current owner table remains under research.",
+    "answer": "Costco Wholesale Corporation is a public company owned by shareholders. Membership is a customer relationship, not an equity stake.",
+    "paragraphs": [
+      {
+        "heading": "Shareholders and members are different relationships",
+        "paragraphs": [
+          "Costco Wholesale Corporation is a public company owned by shareholders. Its shares trade under the ticker COST. Buying membership gives a customer access to Costco’s stores and services; buying common stock makes an investor a shareholder.",
+          "[Costco’s stock information](https://investor.costco.com/stock-info/default.aspx) describes its shares and shareholder services. The [fiscal 2026 annual filing](https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm) points readers to proxy disclosures for detailed beneficial ownership."
+        ]
+      },
+      {
+        "heading": "Reporting still required",
+        "paragraphs": [
+          "A dated beneficial-owner table, founder history and voting-control explanation remain under research. This is a short reporting draft, not a complete ownership investigation."
+        ]
+      }
+    ],
+    "urls": [
+      "https://investor.costco.com/stock-info/default.aspx",
+      "https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm"
+    ]
+  },
+  {
+    "id": "C1-04",
+    "path": "/who-owns-aldi/",
+    "title": "Who Owns ALDI in the United States?",
+    "dek": "A reporting draft establishing the ALDI SOUTH group relationship while tracing the unresolved ultimate-control structure.",
+    "answer": "In the United States, ALDI belongs to the ALDI SOUTH Group. That group relationship alone does not establish ultimate ownership percentages or legal control.",
+    "paragraphs": [
+      {
+        "heading": "Start with the US business",
+        "paragraphs": [
+          "The [ALDI US human-rights page](https://corporate.aldi.us/corporate-sustainability/supply-chain/human-rights) identifies the business as part of the ALDI SOUTH Group. [ALDI’s history](https://corporate.aldi.us/about-us/aldi-history) provides company-reported historical context. These pages establish a group relationship and a reporting trail, not a current cap table."
+        ]
+      },
+      {
+        "heading": "Reporting still required",
+        "paragraphs": [
+          "Ultimate control, foundation and trust structures, and the separate Trader Joe’s legal chain require original evidence. Exact stakes remain unestablished. This is an opening reporting draft."
+        ]
+      }
+    ],
+    "urls": [
+      "https://corporate.aldi.us/corporate-sustainability/supply-chain/human-rights",
+      "https://corporate.aldi.us/about-us/aldi-history"
+    ]
+  }
+]

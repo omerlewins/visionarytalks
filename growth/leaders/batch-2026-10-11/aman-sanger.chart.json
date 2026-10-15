@@ -1,0 +1,17 @@
+{
+  "title": "Aman Sanger net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 2.8,
+      "display": "$2.8B",
+      "source": "https://www.forbes.com/profile/aman-sanger/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

@@ -1,0 +1,263 @@
+{
+  "profile": {
+    "templateVersion": "leaders-v1",
+    "editorialReview": {
+      "status": "approved",
+      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
+      "findingsReviewed": true,
+      "unknownsReviewed": true
+    },
+    "name": "Leopold Aschenbrenner",
+    "slug": "leopold-aschenbrenner",
+    "path": "/leopold-aschenbrenner-net-worth/",
+    "company": "Situational Awareness",
+    "cluster": "Investment & infrastructure",
+    "role": "Founder of Situational Awareness LP",
+    "hook": "The investor behind the AI infrastructure bet",
+    "dek": "I trace his move from AI safety research to investment management, then separate the firm’s disclosed securities from his unverified personal fortune.",
+    "answer": "Leopold Aschenbrenner is the founder of Situational Awareness, an investment firm focused on AI. Leopold Aschenbrenner net worth is not publicly established by the records reviewed on October 12, 2026. The firm’s SEC holdings disclosures measure managed securities, not his personal wealth.",
+    "checked": "2026-10-12",
+    "status": "draft",
+    "seo": {
+      "title": "Leopold Aschenbrenner Net Worth: The Evidence",
+      "description": "Leopold Aschenbrenner net worth is not established. The 13F concentration calculation without inventing personal wealth."
+    },
+    "wealth": {
+      "display": "Not publicly established",
+      "value": null,
+      "date": "2026-10-12",
+      "basis": "Personal assets, liabilities and economic interests are not sufficiently disclosed",
+      "paragraph": "Leopold Aschenbrenner’s net worth is not publicly established as of my October 11, 2026 research check. The firm’s [March 2026 filing](https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/xslForm13F_X02/primary_doc.xml) reports $13.68 billion of securities-table value; its [June 2026 filing](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml) reports $20.24 billion. Neither is his personal fortune. A defensible estimate requires his own capital balance, management-company ownership, realized fees, other assets and liabilities. I have not established those inputs, so I publish no personal dollar estimate or interpolated wealth curve. The earlier article’s $400 million–$1.6 billion fee-and-capital model depended on undisclosed assumptions and should not be treated as a verified estimate."
+    },
+    "sections": [
+      {
+        "stage": "origin",
+        "heading": "Before the fund: economic growth and AI safety",
+        "paragraphs": [
+          "Aschenbrenner’s [own account of his background](https://situational-awareness.ai/leopold-aschenbrenner/) places him first in research on long-run economic growth at Oxford’s Global Priorities Institute and later on OpenAI’s Superalignment team. He describes himself as coming from Germany and living in San Francisco. These are first-person biographical statements, not an independently documented account of every employment date.",
+          "The connection between those subjects matters. Economic-growth research asks what can change the scale of future output. AI alignment asks whether increasingly capable systems can be controlled. His subsequent investment thesis brings the two together: if machine intelligence becomes much more capable, the enabling infrastructure may become economically important before the ultimate winners are known.",
+          "I distinguish that interpretation from the record. His biography establishes the research path; it does not prove that an investment forecast will be right. Nor does employment at a valuable AI company establish a personal equity stake. Readers looking for the company’s control structure can follow our [OpenAI ownership investigation](/who-owns-chatgpt-openai/) without treating employer value as employee wealth."
+        ]
+      },
+      {
+        "stage": "company",
+        "heading": "From the June 2024 essay to an investment firm",
+        "paragraphs": [
+          "His [June 2024 Situational Awareness essay series](https://situational-awareness.ai/) set out a forecast about AI capabilities, industrial expansion and security. It is a useful record of what he argued at the time, rather than evidence that those predictions have occurred. His accompanying biography names Patrick Collison, John Collison, Nat Friedman and Daniel Gross as anchor investors in the firm; it does not disclose their stakes, commitments or fee arrangements.",
+          "The [firm’s website](https://situationalawarenesslp.com/) dates its establishment to September 2024 and describes a global equity strategy spanning technology and energy. I retain that date rather than assuming that publishing an essay, announcing an investor group and launching an investment vehicle are the same event. The public materials reviewed do not reconcile every step of the launch chronology.",
+          "There are several economic layers here: the adviser runs the strategy, investment vehicles hold capital, investors have claims on those vehicles, and an owner of the adviser may receive business profits. Each layer can have a different ownership split. A founder’s prominence supplies no shortcut for calculating any of them.",
+          "The company’s site also directs prospective investors to private offering documents. Those documents, rather than a public profile or a headline valuation, would determine the terms governing an investment. I have not reviewed a complete set of those agreements. Fund participation, adviser ownership and personal assets remain separate questions."
+        ]
+      },
+      {
+        "stage": "strategy",
+        "heading": "An AI thesis expressed through listed infrastructure",
+        "paragraphs": [
+          "The [June 30, 2026 information table](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/form13fInfoTable.xml) gives a concrete view of the disclosed strategy. It includes memory suppliers, chip-related businesses, data-center and computing infrastructure, and energy businesses. This is a quarter-end view of reportable securities; it is not a live list of everything the manager owns.",
+          "My reading is that the portfolio expresses an AI buildout thesis through several supply-chain bottlenecks rather than only through model developers. A business can benefit from demand for compute without owning a frontier model. That also creates an important risk: different holdings may depend on the same spending cycle, so having several company names does not necessarily mean having several independent sources of return.",
+          "A holdings filing cannot settle whether that risk was hedged. The [SEC’s Form 13F guidance](https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f) excludes short positions and explains that an option entry refers to the underlying security. A large put entry is therefore not the premium paid for insurance. Without the terms and the rest of the book, I cannot reconstruct the manager’s net exposure from the table alone."
+        ]
+      },
+      {
+        "stage": "finding",
+        "heading": "My finding: two memory stocks explain much of the disclosed table",
+        "paragraphs": [
+          "I checked the June table against its cover-page total. It reports SanDisk at $5,673,738,513 and Micron at $5,573,819,392. Adding the two produces $11,247,557,905. Dividing by the [reported $20,242,292,228 table total](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml) gives 55.6%, rounded to one decimal. This is a reproducible concentration measure within the disclosed 13F table, not 55.6% of his personal assets or necessarily of the fund’s net asset value.",
+          "The denominator matters because the table includes option-underlying values alongside ordinary share positions. Calling the whole total cash invested would misread the filing. My calculation deliberately describes the reported table and leaves the fund’s unreported positions, borrowing and liabilities outside its scope.",
+          "The two cover pages also show the number of reported entries falling from 42 in March to 26 in June while reported table value rises from $13.68 billion to $20.24 billion. That does not demonstrate a corresponding investment return: new capital, position changes and option reporting can all affect the comparison. Entries are not a count of distinct companies, either; a company can appear separately for shares and options.",
+          "The practical lesson for a financial investigator is to preserve the unit at every step. Company market capitalization measures a company. A securities table measures disclosed positions under a reporting rule. Fund net asset value measures investor capital after the relevant liabilities. Personal net worth measures one person’s assets less liabilities. A number can be accurate in its original unit and misleading when relabeled."
+        ]
+      }
+    ],
+    "sourceIds": [
+      "leopold-bio",
+      "leopold-essay",
+      "leopold-firm",
+      "leopold-q1",
+      "leopold-q2",
+      "leopold-table",
+      "leopold-sec-guide"
+    ],
+    "capital": [
+      {
+        "date": "September 2024",
+        "event": "Firm establishment",
+        "amount": "Investor commitments not disclosed in reviewed materials",
+        "valuation": "No adviser valuation established",
+        "note": "Firm website dates establishment to September; announcement and investment-vehicle launch dates may differ.",
+        "sourceId": "leopold-firm"
+      },
+      {
+        "date": "March 31, 2026",
+        "event": "Quarter-end 13F disclosure",
+        "amount": "$13,676,657,577",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "42 reported entries. Includes securities under the 13F reporting rules; not a complete net asset balance sheet.",
+        "sourceId": "leopold-q1"
+      },
+      {
+        "date": "June 30, 2026",
+        "event": "Quarter-end 13F disclosure",
+        "amount": "$20,242,292,228",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "26 reported entries. Signed August 14, 2026; quarter-end values are not current prices.",
+        "sourceId": "leopold-q2"
+      }
+    ],
+    "timeline": [
+      {
+        "date": "June 2024",
+        "text": "Publishes the Situational Awareness essay series and describes an AI-focused investment project.",
+        "sourceId": "leopold-essay"
+      },
+      {
+        "date": "September 2024",
+        "text": "Firm website dates its establishment to this month.",
+        "sourceId": "leopold-firm"
+      },
+      {
+        "date": "March 31, 2026",
+        "text": "SEC cover page records 42 entries and $13.68B in reported table value.",
+        "sourceId": "leopold-q1"
+      },
+      {
+        "date": "June 30, 2026",
+        "text": "SEC cover page records 26 entries and $20.24B in reported table value.",
+        "sourceId": "leopold-q2"
+      }
+    ],
+    "methodology": "I conduct independent document-based research for Visionary Talks. For this profile, I compared the founder’s first-person materials, the firm’s website, two SEC cover pages and the June information table. I calculated the two-stock concentration directly from reported dollar values and checked the denominator against the cover page. The SEC guidance defines what the filings include and omit. First-person statements, predictions, reported holdings and my interpretation are identified separately. These documents do not provide a complete personal balance sheet, ownership schedule or realized-fee ledger. I therefore do not turn managed assets or assumed fee rates into a personal wealth estimate. The research check date is October 11, 2026; financial observations retain their own historical dates.",
+    "notes": [
+      "No verified personal net-worth observations were established; no historical personal-wealth graph is drawn.",
+      "The earlier $400M–$1.6B estimate is an assumption-based model, not a verified dollar range.",
+      "Reported portfolio losses, investor withdrawals and any change of fund ownership require separate dated verification before inclusion.",
+      "A full personal balance sheet, adviser economic ownership and private fund agreements were not available in the records reviewed."
+    ],
+    "quickFacts": [
+      {
+        "label": "Name",
+        "value": "Leopold Aschenbrenner",
+        "sourceId": "leopold-bio"
+      },
+      {
+        "label": "Current firm",
+        "value": "Situational Awareness LP",
+        "sourceId": "leopold-firm"
+      },
+      {
+        "label": "Role",
+        "value": "Founder",
+        "sourceId": "leopold-firm"
+      },
+      {
+        "label": "Earlier research",
+        "value": "OpenAI Superalignment; Oxford Global Priorities Institute, per his own biography",
+        "sourceId": "leopold-bio"
+      },
+      {
+        "label": "Based in",
+        "value": "San Francisco, per reviewed materials",
+        "sourceId": "leopold-firm"
+      },
+      {
+        "label": "Firm established",
+        "value": "September 2024, per firm website",
+        "sourceId": "leopold-firm"
+      },
+      {
+        "label": "Personal net worth",
+        "value": "Not publicly established in reviewed records",
+        "sourceId": null
+      },
+      {
+        "label": "June 2026 reported holdings",
+        "value": "$20.24B securities-table value; not his wealth",
+        "sourceId": "leopold-q2"
+      },
+      {
+        "label": "Disclosed personal stake",
+        "value": "Exact economic ownership not established",
+        "sourceId": null
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Leopold Aschenbrenner’s net worth?",
+        "answer": "Leopold Aschenbrenner’s net worth is not publicly established as of my October 11, 2026 research check. The firm’s March 2026 filing reports $13.68 billion of securities-table value; its June 2026 filing reports $20.24 billion. Neither is his personal fortune. A defensible estimate requires his own capital balance, management-company ownership, realized fees, other assets and liabilities. I have not established those inputs, so I publish no personal dollar estimate or interpolated wealth curve. The earlier article’s $400 million–$1.6 billion fee-and-capital model depended on undisclosed assumptions and should not be treated as a verified estimate."
+      },
+      {
+        "question": "Is Leopold Aschenbrenner a billionaire?",
+        "answer": "The reviewed records do not establish his personal fortune. Situational Awareness’s $20.24 billion June securities-table total concerns the firm’s reported positions, not his own assets less liabilities.",
+        "sourceId": "leopold-q2"
+      },
+      {
+        "question": "How much money did Leopold Aschenbrenner make?",
+        "answer": "The 13F filings do not disclose his capital balance, realized personal fees, management-company ownership or liabilities. I cannot derive his personal earnings from changes in the reported portfolio total.",
+        "sourceId": "leopold-q2"
+      },
+      {
+        "question": "Can the SEC filings show his investment returns?",
+        "answer": "Not by comparing the two table totals alone. New capital, position changes and option-underlying reporting can alter the total. A 13F securities snapshot is different from fund net asset value and audited performance.",
+        "sourceId": "leopold-sec-guide"
+      }
+    ]
+  },
+  "sources": {
+    "leopold-bio": {
+      "id": "leopold-bio",
+      "title": "Aschenbrenner: first-person biography",
+      "url": "https://situational-awareness.ai/leopold-aschenbrenner/",
+      "type": "Founder / first-person",
+      "date": "June 2024 materials",
+      "accessed": "2026-10-11"
+    },
+    "leopold-essay": {
+      "id": "leopold-essay",
+      "title": "Situational Awareness: essay series",
+      "url": "https://situational-awareness.ai/",
+      "type": "Founder / first-person",
+      "date": "June 2024",
+      "accessed": "2026-10-11"
+    },
+    "leopold-firm": {
+      "id": "leopold-firm",
+      "title": "Situational Awareness LP: firm website",
+      "url": "https://situationalawarenesslp.com/",
+      "type": "Company / primary",
+      "date": "Current site at research check",
+      "accessed": "2026-10-11"
+    },
+    "leopold-q1": {
+      "id": "leopold-q1",
+      "title": "SEC: March 2026 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended March 31, 2026; signed May 15",
+      "accessed": "2026-10-11"
+    },
+    "leopold-q2": {
+      "id": "leopold-q2",
+      "title": "SEC: June 2026 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended June 30, 2026; signed August 14",
+      "accessed": "2026-10-11"
+    },
+    "leopold-table": {
+      "id": "leopold-table",
+      "title": "SEC: June 2026 reported securities",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/form13fInfoTable.xml",
+      "type": "SEC / primary",
+      "date": "June 30, 2026",
+      "accessed": "2026-10-11"
+    },
+    "leopold-sec-guide": {
+      "id": "leopold-sec-guide",
+      "title": "SEC: Form 13F reporting guidance",
+      "url": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "type": "SEC / primary",
+      "date": "Updated March 6, 2026",
+      "accessed": "2026-10-11"
+    }
+  }
+}

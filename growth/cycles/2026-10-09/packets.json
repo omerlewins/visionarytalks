@@ -1,0 +1,87 @@
+{
+  "cycle": "2026-10-09",
+  "scope": {"country": "US", "language": "English", "engine": "Google"},
+  "mode": "first-cycle-only",
+  "items": [
+    {
+      "id": "C1-01",
+      "hub": "Ownership",
+      "action": "revision",
+      "status": "proposal-prepared",
+      "requiredBeforePublication": ["Current CMS target ID/version", "Responsible author", "Latest dated beneficial-ownership evidence", "Editor approval"],
+      "packet": {
+        "name": "C1-01 McDonald's ownership precision refresh",
+        "workflow": "ownership",
+        "text": "Use growth/EDITORIAL_GUIDELINES.md and the first-cycle REVIEW.md. Propose targeted changes to the current article; preserve its path, original publication date, useful sections and cleared featured image. Opening proposal: McDonald's Corporation is owned by its shareholders. Approximately 95% of its restaurants were franchised at December 31, 2025. Separate corporate stock ownership from restaurant ownership. Cite the 2025 annual report for the historical franchise figure, not a current October count. The live largest-holder table is approximately late-2025; obtain current appropriate beneficial-ownership evidence and preserve each reporting date before replacing numeric stakes. Do not invent percentages or treat asset managers as personal owners. Remove irrelevant stale market-cap context only after reviewing the full article. Produce a proposal and an explicit unresolved-claims list, not an overwritten article. Target current CMS record/version must be bound at intake. SEO title candidate: Who Owns McDonald's? Shareholders, Franchisees and Control. PAA questions remain editorial unless a live SERP supplies them.",
+        "urls": [{"url":"https://visionarytalks.com/who-owns-mcdonalds/"},{"url":"https://corporate.mcdonalds.com/content/dam/sites/corp/nfl/pdf/MCD%202025%20Annual%20Report.pdf"}],
+        "imageMode": "reuse",
+        "proposedPath": "/who-owns-mcdonalds/",
+        "allowResearch": true
+      }
+    },
+    {
+      "id": "C1-02",
+      "hub": "Ownership",
+      "action": "revision",
+      "status": "proposal-prepared",
+      "requiredBeforePublication": ["Current CMS target ID/version", "Responsible author", "Operating-entity source review", "Material developments check", "Editor approval"],
+      "packet": {
+        "name": "C1-02 FIJI Water evidence and valuation correction",
+        "workflow": "ownership",
+        "text": "Use growth/EDITORIAL_GUIDELINES.md and first-cycle REVIEW.md. The existing page already has a September refresh: do not refresh only the timestamp or rewrite its full body. Parent relationship is supported by Wonderful's official co-owner biography. Separate Stewart and Lynda Resnick's estimated personal wealth from FIJI Water brand/company valuation; remove the unsupported implication that one measures the other. Verify a precise operating-LLC chain separately. Avoid unqualified assertions of no acquisition or investment unless scoped current evidence supports them. Keep useful historical content, original URL/date/image and propose a concise change log. Bind current CMS target/version and author at intake. Unknown cap-table percentages remain null. Litigation detail should follow rather than displace the reader's ownership question and needs its own source check.",
+        "urls": [{"url":"https://visionarytalks.com/who-owns-fiji-water/"},{"url":"https://www.wonderful.com/stewartresnick/"}],
+        "imageMode": "reuse",
+        "proposedPath": "/who-owns-fiji-water/",
+        "allowResearch": true
+      }
+    },
+    {
+      "id": "C1-03",
+      "hub": "Ownership",
+      "action": "new-draft",
+      "status": "short-draft-prepared",
+      "requiredBeforePublication": ["Full CMS/live duplicate check", "Live keyword/SERP verification", "Dated beneficial-ownership evidence", "Responsible author", "Editor approval"],
+      "packet": {
+        "name": "C1-03 Who owns Costco",
+        "workflow": "ownership",
+        "text": "Use growth/EDITORIAL_GUIDELINES.md and first-cycle REVIEW.md. Target US reader asking who owns Costco. Costco is a public company owned by shareholders; membership and stock ownership are distinct. Use its investor stock page and FY2026 filing for a sourced opening, then retrieve the latest available relevant proxy and beneficial-ownership filings for any numeric stakes. Do not assume the next proxy is filed; distinguish beneficial ownership from voting power and reporting dates. Draft direct answer, fact table, shareholders/control distinction, sourced history timeline, CEO versus owner and membership FAQ, source notes and uncertainties. Existing inventory has no matching ranking URL, but a full CMS and live duplicate check is still required before using this proposed path. Briefing volume 14800/KD12 is historical September 2026, not current evidence. Keep undisclosed numbers unknown; no fake fund-manager stakes. No image generation for this pilot. Output a review draft only.",
+        "urls": [{"url":"https://investor.costco.com/stock-info/default.aspx"},{"url":"https://www.sec.gov/Archives/edgar/data/909832/000090983226000093/cost-20260830.htm"}],
+        "imageMode": "none",
+        "proposedPath": "/who-owns-costco/",
+        "allowResearch": true
+      }
+    },
+    {
+      "id": "C1-04",
+      "hub": "Ownership",
+      "action": "new-draft",
+      "status": "reporting-draft-prepared",
+      "requiredBeforePublication": ["Ultimate-owner and legal-control evidence", "Trader Joe's relationship evidence", "Full CMS/live duplicate check", "Live keyword/SERP verification", "Responsible author", "Editor approval"],
+      "packet": {
+        "name": "C1-04 Who owns Aldi: US and global scope",
+        "workflow": "ownership",
+        "text": "Use growth/EDITORIAL_GUIDELINES.md and first-cycle REVIEW.md. Target US readers. ALDI US official human-rights page identifies it with ALDI SOUTH Group. This confirms group affiliation, not ultimate beneficial owners. Research current ALDI SOUTH/Nord legal ownership and foundation/family control from authoritative evidence. Source the global split and Trader Joe's legal chain independently; Nord's Trader Joe's snack branding alone does not prove ownership of the US retailer. Do not infer percentages from family history or use founding relatives as current cap-table holders. Direct answer can cover sourced US group relationship but must flag ultimate ownership unknown until evidence is available. Draft geography-specific ownership map, dated history, private ownership limitations and relevant reader questions; hold unresolved claims for reporting. September briefing volume8100/KD6 is historical only. Full CMS/live duplicate check before reserving the flat proposed path. No generated imagery. Output a private reporting draft with explicit source gaps.",
+        "urls": [{"url":"https://corporate.aldi.us/corporate-sustainability/supply-chain/human-rights"},{"url":"https://corporate.aldi.us/about-us/aldi-history"},{"url":"https://www.aldi.com/"}],
+        "imageMode": "none",
+        "proposedPath": "/who-owns-aldi/",
+        "allowResearch": true
+      }
+    },
+    {
+      "id": "C1-05",
+      "hub": "Money",
+      "action": "data-review",
+      "status": "sample-verified",
+      "requiredBeforePublication": ["Full table and aggregate verification", "Attribution/licensing review", "Current CMS target ID/version", "Responsible author", "Editor approval"],
+      "packet": {
+        "name": "C1-05 Millionaires by state methodology check",
+        "workflow": "article",
+        "text": "Use growth/EDITORIAL_GUIDELINES.md and first-cycle REVIEW.md. Preserve /millionaires-by-state/ and its original dates; propose a methodology/table update only. Linked Windfall source is April2026 modeled covered-household data, not an official individual-millionaire census. Pilot verifies California3590000/12430000=28.9% and New Jersey960000/3240000=29.6% after rounding; both agree with displayed percentages. Two sample checks do not validate full table, national total or all rankings. Check each row against source snapshot, retain approximation and coverage exclusions, sum only comparable observations and distinguish household versus individual net worth/investable assets. Keep attribution beside data. Verification on October9 does not create October measurement data. Produce source-linked proposed methodology copy, unresolved claims and calculation manifest; do not silently republish old counts as newly measured figures. Current CMS target/version and author must be bound at intake.",
+        "urls": [{"url":"https://visionarytalks.com/millionaires-by-state/"},{"url":"https://www.windfall.com/blog/what-it-takes-to-be-in-the-top-1-of-every-state"}],
+        "imageMode": "reuse",
+        "proposedPath": "/millionaires-by-state/",
+        "allowResearch": true
+      }
+    }
+  ]
+}

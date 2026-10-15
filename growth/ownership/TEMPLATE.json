@@ -1,0 +1,100 @@
+{
+  "version": "ownership-v1",
+  "slug": "company",
+  "company": "[Company]",
+  "legalName": null,
+  "legalSourceId": null,
+  "website": "https://example.com",
+  "founded": "[Verify]",
+  "founders": [],
+  "checked": "2026-10-11",
+  "updated": "2026-10-11",
+  "published": null,
+  "status": "review",
+  "title": "Who Owns [Company]? (2026)",
+  "dek": "[Reporting angle]",
+  "answer": "[Company] is owned by [verify the legal ownership answer].",
+  "seo": {
+    "title": "Who Owns [Company]? (2026)",
+    "description": "[Answer ownership and stock/IPO intent in under 155 characters.]"
+  },
+  "card": {
+    "owner": "[Verified owner]",
+    "figure": "[Dated observation]",
+    "label": "[Metric basis]",
+    "alt": "[Ownership answer]"
+  },
+  "takeaways": [
+    "[Verified key fact]",
+    "[Verified key fact]",
+    "[Verified key fact]",
+    "[Verified key fact]"
+  ],
+  "changed": [
+    "[Verified statement with a natural inline source link: [record](source:source-id)]"
+  ],
+  "ownership": [
+    "[Verified statement with a natural inline source link: [record](source:source-id)]"
+  ],
+  "holders": [
+    {
+      "holder": "[Holder]",
+      "type": "[Founder/fund/strategic]",
+      "stake": "Undisclosed unless verified",
+      "votes": "Undisclosed unless verified",
+      "sourceId": "source-id",
+      "date": "[Source date]"
+    }
+  ],
+  "extras": [],
+  "founderStory": [
+    "[Verified statement with a natural inline source link: [record](source:source-id)]"
+  ],
+  "rounds": [],
+  "funding": [
+    "[Verified statement with a natural inline source link: [record](source:source-id)]"
+  ],
+  "chartRead": "[First-person interpretation of exact dated observations, or why no chart is defensible]",
+  "timeline": [],
+  "finding": {
+    "heading": "[Useful primary-record finding]",
+    "paragraphs": [
+      "[What I checked and what the document shows]"
+    ],
+    "sourceIds": [
+      "source-id"
+    ]
+  },
+  "leadership": [],
+  "stock": [
+    "[Verified statement with a natural inline source link: [record](source:source-id)]"
+  ],
+  "faq": [
+    {
+      "question": "[Actual relevant search question]",
+      "answer": "[40–60 words based on opened records]"
+    },
+    {
+      "question": "[Actual relevant search question]",
+      "answer": "[40–60 words based on opened records]"
+    },
+    {
+      "question": "[Actual relevant search question]",
+      "answer": "[40–60 words based on opened records]"
+    },
+    {
+      "question": "[Actual relevant search question]",
+      "answer": "[40–60 words based on opened records]"
+    }
+  ],
+  "watching": [
+    "[Specific update trigger]"
+  ],
+  "methodology": "[Research actually performed; definitions, arithmetic assumptions and limits]",
+  "sourceIds": [
+    "source-id"
+  ],
+  "gaps": [
+    "Unresearched scaffold"
+  ]
+}

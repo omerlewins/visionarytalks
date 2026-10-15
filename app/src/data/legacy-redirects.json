@@ -1,0 +1,93 @@
+[
+  {"source":"/privacy-policy/","destination":"/privacy/","statusCode":301},
+  {"source":"/contact-page/","destination":"/contact/","statusCode":301},
+  {
+    "source": "/sitemap_index.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/post-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/page-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/category-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/post_tag-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/author-sitemap.xml",
+    "destination": "/sitemap.xml",
+    "statusCode": 301
+  },
+  {
+    "source": "/how-many-millionaires-in-the-us/",
+    "destination": "/millionaires-by-state/",
+    "statusCode": 301
+  },
+  { "source": "/coming-soon/", "destination": "/", "statusCode": 301 },
+  { "source": "/redirect-page-2/", "destination": "/", "statusCode": 301 },
+  { "source": "/sample-page/", "destination": "/", "statusCode": 301 },
+  { "source": "/my-account/", "destination": "/", "statusCode": 301 },
+  {
+    "destination": "/perplexity-salary/",
+    "statusCode": 301,
+    "source": "/perplexity/"
+  },
+  {
+    "destination": "/who-owns-ben-jerrys/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-ben-jerrys/"
+  },
+  {
+    "destination": "/who-owns-chatgpt-openai/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-chatgpt-openai/"
+  },
+  {
+    "destination": "/who-owns-einstein-bros/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-einstein-bros/"
+  },
+  {
+    "destination": "/who-owns-keurig/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-keurig/"
+  },
+  {
+    "destination": "/who-owns-lovable/",
+    "statusCode": 301,
+    "source": "/visionarytalks.com/who-owns-lovable/"
+  },
+  {
+    "destination": "/who-owns-ben-jerrys/",
+    "statusCode": 301,
+    "source": "/who-owns-ben-jerry/"
+  },
+  {
+    "destination": "/who-owns-einstein-bros/",
+    "statusCode": 301,
+    "source": "/who-owns-einstein-bros"
+  },
+  {
+    "destination": "/who-owns-mcdonalds/",
+    "statusCode": 301,
+    "source": "/who-owns-mcdonalds"
+  },
+  {
+    "destination": "/who-owns-panera-bread/",
+    "statusCode": 301,
+    "source": "/who-owns-panera-bread"
+  }
+]

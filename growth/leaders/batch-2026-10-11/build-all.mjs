@@ -1,0 +1,12 @@
+import './01-models.mjs';
+import './02-research.mjs';
+import './03-builders.mjs';
+import './04-financial-records.mjs';
+import './05-infrastructure.mjs';
+import './06-original-records.mjs';
+import './07-ownership-analysis.mjs';
+import './08-economic-ledgers.mjs';
+import './09-finalize.mjs';
+import {leaders,write} from './build-data.mjs';
+write();
+console.log(leaders.length+' profiles built');

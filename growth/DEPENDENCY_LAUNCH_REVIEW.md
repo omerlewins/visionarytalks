@@ -1,0 +1,13 @@
+# Dependency review: October 12, 2026
+
+The Vercel install report prompted an `npm audit --omit=dev` check. Payload's Undici 7.29.0 was within the affected advisory ranges. A scoped override installs 7.29.1 for affected Undici 7 dependencies; Blob retains its existing Undici 6 branch. DOMPurify 3.4.15 was also reported and is overridden to 3.4.16 within its compatible major version. See the [Undici maintainer advisory](https://github.com/advisories/GHSA-w293-vg96-wgc3) and [DOMPurify advisory](https://github.com/advisories/GHSA-p98j-92pf-mc4p). The lockfile records the patch versions; application credentials and content files are unchanged.
+
+The audit is not clean: 15 affected package nodes remain (ten high, five moderate). These counts include dependent parent packages and are not 15 independent bugs. The remaining underlying advisories are [braces recursion exhaustion](https://github.com/advisories/GHSA-vfj7-8cjw-p6xm), for which the reviewed advisory lists no patch, and [esbuild's development-server request issue](https://github.com/advisories/GHSA-67mh-4wv8-2f99). The installed paths include Sass/chokidar and cloud-storage's find-node-modules/findup-sync/micromatch chain for braces, and Drizzle's tooling for esbuild.
+
+Repository source inspection found no application call accepting a public brace/glob pattern, and Production does not start esbuild's development HTTP server. That is a bounded reachability assessment, not proof that every transitive code path is safe or a complete penetration test. Keep these vendor advisories on the launch risk record and recheck after vendor updates. Do not downgrade the CMS or claim zero advisories to satisfy an audit counter.
+
+Private raw audit evidence is under `private/growth/production-dependency-audit*.json`. The editorial approval remains tied to its exact content hashes; dependency patching does not publish the reviewed articles or perform the domain cutover.
+
+After patching, all 59 tests, the release-integrity check and the candidate build passed. The approved Production owner still signed in successfully, and both published and draft CMS reads retained the exact 102-article baseline. No research record was introduced into Production by these checks.
+
+The later launch integration passed 61 tests. GitHub's npm 10 clean install exposed a compatibility issue with the range-qualified DOMPurify override. It is now the exact `dompurify: 3.4.16` override; the resolved lockfile and installed patch version are unchanged. A clean-install dry-run with npm 10.9.4 passed. Vercel's newer npm independently installed and built the candidate successfully. This correction does not remove the retained braces/esbuild advisories above.

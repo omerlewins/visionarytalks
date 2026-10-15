@@ -1,0 +1,134 @@
+{
+  "templateVersion": "leaders-v1",
+  "editorialReview": {
+    "status": "needs-review",
+    "questionsBasis": "[RESEARCH] Record the live query, date and actual search questions",
+    "findingsReviewed": false
+  },
+  "name": "[RESEARCH]",
+  "slug": "first-last",
+  "path": "/leaders/first-last/",
+  "company": "[RESEARCH]",
+  "cluster": "[RESEARCH]",
+  "role": "[RESEARCH]",
+  "hook": "[RESEARCH] Specific company or event",
+  "dek": "[RESEARCH]",
+  "answer": "[RESEARCH] Name, role, dated personal estimate and estimator, within 50 words",
+  "checked": "[RESEARCH]",
+  "status": "Research in progress",
+  "seo": {
+    "title": "[RESEARCH]",
+    "description": "[RESEARCH]"
+  },
+  "wealth": {
+    "display": "Not established",
+    "value": null,
+    "date": "[RESEARCH]",
+    "basis": "No verified personal total yet",
+    "paragraph": "[RESEARCH] Show sourced personal figures or explain that no total is established"
+  },
+  "sections": [
+    {
+      "stage": "origin",
+      "heading": "[RESEARCH] Specific name/company/query heading",
+      "paragraphs": [
+        "[RESEARCH] Linked primary record, attributed facts, My read: analysis"
+      ]
+    },
+    {
+      "stage": "company",
+      "heading": "[RESEARCH] Specific name/company/query heading",
+      "paragraphs": [
+        "[RESEARCH] Linked primary record, attributed facts, My read: analysis"
+      ]
+    },
+    {
+      "stage": "strategy",
+      "heading": "[RESEARCH] Specific name/company/query heading",
+      "paragraphs": [
+        "[RESEARCH] Linked primary record, attributed facts, My read: analysis"
+      ]
+    },
+    {
+      "stage": "finding",
+      "heading": "[RESEARCH] Specific name/company/query heading",
+      "paragraphs": [
+        "[RESEARCH] Linked primary record, attributed facts, My read: analysis"
+      ]
+    }
+  ],
+  "sourceIds": [],
+  "capital": [
+    {
+      "date": "[RESEARCH]",
+      "event": "[RESEARCH]",
+      "amount": "[RESEARCH]",
+      "valuation": "[RESEARCH]",
+      "note": "[RESEARCH] Company capital, not personal wealth",
+      "sourceId": "[RESEARCH]"
+    }
+  ],
+  "timeline": [],
+  "methodology": "[RESEARCH] Three or four sentences describing only research actually done",
+  "notes": [],
+  "quickFacts": [
+    {
+      "label": "Age",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Birth date",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Background",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Education",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Company",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Role",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Co-founders",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    },
+    {
+      "label": "Personal wealth",
+      "value": "[RESEARCH] Verify or state unknown explicitly",
+      "sourceId": null
+    }
+  ],
+  "faq": [
+    {
+      "question": "[RESEARCH] Actual reader question",
+      "answer": "[RESEARCH] Evidence-based concise answer"
+    },
+    {
+      "question": "[RESEARCH] Actual reader question",
+      "answer": "[RESEARCH] Evidence-based concise answer"
+    },
+    {
+      "question": "[RESEARCH] Actual reader question",
+      "answer": "[RESEARCH] Evidence-based concise answer"
+    },
+    {
+      "question": "[RESEARCH] Actual reader question",
+      "answer": "[RESEARCH] Evidence-based concise answer"
+    }
+  ]
+}

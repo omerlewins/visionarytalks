@@ -1,0 +1,602 @@
+{
+  "cursor8k": {
+    "id": "cursor8k",
+    "title": "SpaceX: completion of Anysphere merger, August 14, 2026",
+    "url": "https://www.sec.gov/Archives/edgar/data/1181412/000162828026056945/spcx-20260814.htm",
+    "type": "SEC filing",
+    "date": "2026-08-14",
+    "accessed": "2026-10-11"
+  },
+  "cursor-talk": {
+    "id": "cursor-talk",
+    "title": "Cursor team: Lex Fridman interview transcript",
+    "url": "https://lexfridman.com/cursor-team-transcript/",
+    "type": "First-person interview",
+    "date": "2024-10-12",
+    "accessed": "2026-10-11"
+  },
+  "isomorphic-psc": {
+    "id": "isomorphic-psc",
+    "title": "Isomorphic Labs Limited: persons with significant control",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/13223825/persons-with-significant-control",
+    "type": "Primary record",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "iso-funding": {
+    "id": "iso-funding",
+    "title": "Isomorphic Labs announces $2.1 billion Series B",
+    "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-b-investment-round",
+    "type": "Company announcement",
+    "date": "2026-05-12",
+    "accessed": "2026-10-11"
+  },
+  "hassabis-ucl": {
+    "id": "hassabis-ucl",
+    "title": "UCL: Hassabis, doctoral research and DeepMind origins",
+    "url": "https://www.ucl.ac.uk/news/2023/dec/google-deepmind-co-founder-discusses-how-ai-can-benefit-humanity-ucl",
+    "type": "University record",
+    "date": "2023-12-13",
+    "accessed": "2026-10-11"
+  },
+  "hassabis-bio": {
+    "id": "hassabis-bio",
+    "title": "Isomorphic Labs: Demis Hassabis biography",
+    "url": "https://www.isomorphiclabs.com/people/sir-demis-hassabis-phd",
+    "type": "Company biography",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "hassabis-role": {
+    "id": "hassabis-role",
+    "title": "Axios: Hassabis becomes DeepMind chair and Alphabet chief scientist",
+    "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+    "type": "Independent reporting",
+    "date": "2026-08-05",
+    "accessed": "2026-10-11"
+  },
+  "lucy-guo-forbes": {
+    "id": "lucy-guo-forbes",
+    "title": "Forbes: Lucy Guo, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/lucy-guo/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "greg-brockman-forbes": {
+    "id": "greg-brockman-forbes",
+    "title": "Forbes: Greg Brockman, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/greg-brockman/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "aravind-srinivas-forbes": {
+    "id": "aravind-srinivas-forbes",
+    "title": "Forbes: Aravind Srinivas, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/aravind-srinivas/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "daniela-amodei-forbes": {
+    "id": "daniela-amodei-forbes",
+    "title": "Forbes: Daniela Amodei, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/daniela-amodei/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "bret-taylor-forbes": {
+    "id": "bret-taylor-forbes",
+    "title": "Forbes: Bret Taylor, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/bret-taylor/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-10",
+    "accessed": "2026-10-11"
+  },
+  "aman-sanger-forbes": {
+    "id": "aman-sanger-forbes",
+    "title": "Forbes: Aman Sanger, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/aman-sanger/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "brett-adcock-forbes": {
+    "id": "brett-adcock-forbes",
+    "title": "Forbes: Brett Adcock, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/brett-adcock/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "ali-ghodsi-forbes": {
+    "id": "ali-ghodsi-forbes",
+    "title": "Forbes: Ali Ghodsi, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/ali-ghodsi/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-10",
+    "accessed": "2026-10-11"
+  },
+  "amjad-masad-forbes": {
+    "id": "amjad-masad-forbes",
+    "title": "Forbes: Amjad Masad, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/amjad-masad/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-10",
+    "accessed": "2026-10-11"
+  },
+  "sualeh-asif-forbes": {
+    "id": "sualeh-asif-forbes",
+    "title": "Forbes: Sualeh Asif, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/sualeh-asif/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "michael-intrator-forbes": {
+    "id": "michael-intrator-forbes",
+    "title": "Forbes: Michael Intrator, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/michael-intrator/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "edwin-chen-forbes": {
+    "id": "edwin-chen-forbes",
+    "title": "Forbes: Edwin Chen, dated wealth estimate",
+    "url": "https://www.forbes.com/profile/edwin-chen/",
+    "type": "Independent wealth estimate",
+    "date": "2026-10-11",
+    "accessed": "2026-10-11"
+  },
+  "scale-meta": {
+    "id": "scale-meta",
+    "title": "Scale AI: Meta investment and shareholder distribution",
+    "url": "https://scale.com/blog/scale-ai-announces-next-phase-of-company-evolution",
+    "type": "Company announcement",
+    "date": "2025-06-12",
+    "accessed": "2026-10-11"
+  },
+  "brockman-blog": {
+    "id": "brockman-blog",
+    "title": "Greg Brockman: dated posts on engineering and OpenAI",
+    "url": "https://blog.gregbrockman.com/",
+    "type": "First-person posts",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "thinking": {
+    "id": "thinking",
+    "title": "Thinking Machines Lab: mission and product approach",
+    "url": "https://thinkingmachines.ai/",
+    "type": "Company statement",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "murati-dartmouth": {
+    "id": "murati-dartmouth",
+    "title": "Dartmouth Engineering: graduate outcomes, Mira Murati",
+    "url": "https://engineering.dartmouth.edu/career-services/students/graduate-outcomes",
+    "type": "University record",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "murati-seed": {
+    "id": "murati-seed",
+    "title": "TechCrunch: $2 billion seed round at $12 billion",
+    "url": "https://techcrunch.com/2025/07/15/mira-muratis-thinking-machines-lab-is-worth-12b-in-seed-round/",
+    "type": "Independent reporting",
+    "date": "2025-07-15",
+    "accessed": "2026-10-11"
+  },
+  "a16z-thinking": {
+    "id": "a16z-thinking",
+    "title": "a16z enterprise newsletter: Thinking Machines investment",
+    "url": "https://a16z.com/newsletter/enterprise-ai-rewrites-benchmarks/",
+    "type": "Investor statement",
+    "date": "2025-07-23",
+    "accessed": "2026-10-11"
+  },
+  "ssi-updates": {
+    "id": "ssi-updates",
+    "title": "SSI: funding and leadership updates",
+    "url": "https://ssi.inc/updates",
+    "type": "Company announcement",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "sutskever-stake": {
+    "id": "sutskever-stake",
+    "title": "Bloomberg: Sutskever says OpenAI stake worth about $7 billion",
+    "url": "https://www.bloomberg.com/news/articles/2026-05-11/sutskever-says-his-openai-stake-worth-about-7-billion",
+    "type": "Independent reporting",
+    "date": "2026-05-11",
+    "accessed": "2026-10-11"
+  },
+  "curl": {
+    "id": "curl",
+    "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2004.04136",
+    "type": "Research paper",
+    "date": "2020-04-08",
+    "accessed": "2026-10-11"
+  },
+  "decision-transformer": {
+    "id": "decision-transformer",
+    "title": "Decision Transformer: Reinforcement Learning via Sequence Modeling",
+    "url": "https://arxiv.org/abs/2106.01345",
+    "type": "Research paper",
+    "date": "2021-06-02",
+    "accessed": "2026-10-11"
+  },
+  "anthropic-h": {
+    "id": "anthropic-h",
+    "title": "Anthropic: $65 billion Series H at $965 billion post-money",
+    "url": "https://www.anthropic.com/news/series-h",
+    "type": "Company announcement",
+    "date": "2026-05-28",
+    "accessed": "2026-10-11"
+  },
+  "anthropic-labs": {
+    "id": "anthropic-labs",
+    "title": "Anthropic: introducing Labs and Mike Krieger role",
+    "url": "https://www.anthropic.com/news/introducing-anthropic-labs",
+    "type": "Company announcement",
+    "date": "2026-01-13",
+    "accessed": "2026-10-11"
+  },
+  "sierra-bio": {
+    "id": "sierra-bio",
+    "title": "Sierra: Bret Taylor biography",
+    "url": "https://sierra.ai/author/bret-taylor",
+    "type": "Company biography",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "sierra-about": {
+    "id": "sierra-about",
+    "title": "Sierra: founders and company approach",
+    "url": "https://sierra.ai/about",
+    "type": "Company statement",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "sierra-10": {
+    "id": "sierra-10",
+    "title": "Sierra: $350 million at $10 billion",
+    "url": "https://sierra.ai/blog/theres-an-agent-for-that-and-it-runs-on-sierra",
+    "type": "Company announcement",
+    "date": "2025-09-04",
+    "accessed": "2026-10-11"
+  },
+  "sierra-15": {
+    "id": "sierra-15",
+    "title": "Axios: $950 million round at $15.8 billion post-money",
+    "url": "https://www.axios.com/pro/enterprise-software-deals/2026/05/04/sierra-ai-valuation-agentic-enterprise",
+    "type": "Independent reporting",
+    "date": "2026-05-04",
+    "accessed": "2026-10-11"
+  },
+  "cognition-e": {
+    "id": "cognition-e",
+    "title": "Cognition: Series E, over $2 billion at $48 billion",
+    "url": "https://cognition.com/blog/series-e",
+    "type": "Company announcement",
+    "date": "2026-09-08",
+    "accessed": "2026-10-11"
+  },
+  "cognition-10": {
+    "id": "cognition-10",
+    "title": "Cognition: funding, growth and coding agents",
+    "url": "https://cognition.com/blog/funding-growth-and-the-next-frontier-of-ai-coding-agents",
+    "type": "Company announcement",
+    "date": "2025-09-08",
+    "accessed": "2026-10-11"
+  },
+  "wu-forbes": {
+    "id": "wu-forbes",
+    "title": "Forbes Türkiye: founder wealth and unequal Cognition stakes",
+    "url": "https://www.forbes.com.tr/milyarderler/cognition-yeni-yapay-zeka-milyarderini-yaratti",
+    "type": "Independent reporting",
+    "date": "2026-02-02",
+    "accessed": "2026-10-11"
+  },
+  "wu-ioi": {
+    "id": "wu-ioi",
+    "title": "IOI 2014 official newsletter: first-day results",
+    "url": "https://ioi.te.lv/locations/ioi14/newsletters/5.PDF",
+    "type": "Competition record",
+    "date": "2014-07",
+    "accessed": "2026-10-11"
+  },
+  "archer-13d": {
+    "id": "archer-13d",
+    "title": "Archer: Adcock beneficial ownership amendment",
+    "url": "https://www.sec.gov/Archives/edgar/data/1824502/000110465922062994/tm2215981d1_sc13da.htm",
+    "type": "SEC filing",
+    "date": "2022-05",
+    "accessed": "2026-10-11"
+  },
+  "instagram-10k": {
+    "id": "instagram-10k",
+    "title": "Facebook 2012 Form 10-K: Instagram acquisition accounting",
+    "url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680113000003/fb-12312012x10k.htm",
+    "type": "SEC filing",
+    "date": "2013-02",
+    "accessed": "2026-10-11"
+  },
+  "transformer": {
+    "id": "transformer",
+    "title": "Attention Is All You Need: authors and original submission",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "type": "Research paper",
+    "date": "2017-06-12",
+    "accessed": "2026-10-11"
+  },
+  "moe": {
+    "id": "moe",
+    "title": "Outrageously Large Neural Networks: sparsely gated mixture of experts",
+    "url": "https://arxiv.org/abs/1701.06538",
+    "type": "Research paper",
+    "date": "2017-01-23",
+    "accessed": "2026-10-11"
+  },
+  "shazeer-move": {
+    "id": "shazeer-move",
+    "title": "Reuters: Shazeer announces move to OpenAI",
+    "url": "https://www.investing.com/news/stock-market-news/googles-gemini-colead-noam-shazeer-to-join-openai-4748809",
+    "type": "Independent reporting",
+    "date": "2026-06-17",
+    "accessed": "2026-10-11"
+  },
+  "instacart-proxy": {
+    "id": "instacart-proxy",
+    "title": "Instacart 2026 proxy: Simo pay and forfeited equity",
+    "url": "https://www.sec.gov/Archives/edgar/data/1579091/000157909126000024/cart-20260409.htm",
+    "type": "SEC filing",
+    "date": "2026-04-09",
+    "accessed": "2026-10-11"
+  },
+  "simo-openai": {
+    "id": "simo-openai",
+    "title": "OpenAI: Simo appointed CEO of Applications",
+    "url": "https://openai.com/index/leadership-expansion-with-fidji-simo/",
+    "type": "Company announcement",
+    "date": "2025-05-07",
+    "accessed": "2026-10-11"
+  },
+  "databricks-round": {
+    "id": "databricks-round",
+    "title": "Reuters: $5 billion round at $190 billion",
+    "url": "https://www.investing.com/news/stock-market-news/databricks-valued-at-190-billion-in-latest-funding-round-4858466",
+    "type": "Independent reporting",
+    "date": "2026-08-13",
+    "accessed": "2026-10-11"
+  },
+  "drf": {
+    "id": "drf",
+    "title": "USENIX NSDI 2011: Dominant Resource Fairness",
+    "url": "https://www.usenix.org/conference/nsdi11/dominant-resource-fairness-fair-allocation-multiple-resource-types",
+    "type": "Research paper",
+    "date": "2011",
+    "accessed": "2026-10-11"
+  },
+  "replit-round": {
+    "id": "replit-round",
+    "title": "Replit: $400 million at $9 billion",
+    "url": "https://replit.com/blog/replit-raises-400-million-dollars",
+    "type": "Founder announcement",
+    "date": "2026-03-11",
+    "accessed": "2026-10-11"
+  },
+  "microsoft-role": {
+    "id": "microsoft-role",
+    "title": "Microsoft: Copilot leadership and Suleyman model mandate",
+    "url": "https://blogs.microsoft.com/blog/2026/03/17/announcing-copilot-leadership-update/",
+    "type": "Company announcement",
+    "date": "2026-03-17",
+    "accessed": "2026-10-11"
+  },
+  "microsoft-proxy": {
+    "id": "microsoft-proxy",
+    "title": "Microsoft 2025 proxy statement",
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312525245150/d908201ddef14a.htm",
+    "type": "SEC filing",
+    "date": "2025",
+    "accessed": "2026-10-11"
+  },
+  "coreweave-s1": {
+    "id": "coreweave-s1",
+    "title": "CoreWeave registration statement: founder careers and company finances",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000119312525044231/d899798ds1.htm",
+    "type": "SEC filing",
+    "date": "2025-03",
+    "accessed": "2026-10-11"
+  },
+  "edwin-blog": {
+    "id": "edwin-blog",
+    "title": "Edwin Chen: archived introduction to latent Dirichlet allocation",
+    "url": "https://www.edwinchen.ai/archived-blog/introduction-to-latent-dirichlet-allocation",
+    "type": "First-person technical post",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "ilya-toronto": {
+    "id": "ilya-toronto",
+    "title": "University of Toronto: Sutskever PhD alumnus",
+    "url": "https://www.sgs.utoronto.ca/profile/ilya-sutskever/",
+    "type": "University record",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "ilya-home": {
+    "id": "ilya-home",
+    "title": "Sutskever academic homepage: early research appointments",
+    "url": "https://www.cs.toronto.edu/~ilya/",
+    "type": "First-person biography",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "suleyman-bio": {
+    "id": "suleyman-bio",
+    "title": "Mustafa Suleyman: first-person biography",
+    "url": "https://mustafa-suleyman.ai/",
+    "type": "First-person biography",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "microsoft-join": {
+    "id": "microsoft-join",
+    "title": "Microsoft: Suleyman joins to form Microsoft AI",
+    "url": "https://blogs.microsoft.com/blog/2024/03/19/mustafa-suleyman-deepmind-and-inflection-co-founder-joins-microsoft-to-lead-copilot/",
+    "type": "Company announcement",
+    "date": "2024-03-19",
+    "accessed": "2026-10-11"
+  },
+  "edwin-bloomberg": {
+    "id": "edwin-bloomberg",
+    "title": "Bloomberg: Edwin Chen snapshot, May 20, 2026",
+    "url": "https://www.bloomberg.com/billionaires/profiles/edwin-chen/",
+    "type": "Independent wealth estimate",
+    "date": "2026-05-20",
+    "accessed": "2026-10-11"
+  },
+  "sierra-may": {
+    "id": "sierra-may",
+    "title": "Sierra: May 2026 financing and customer-expansion thesis",
+    "url": "https://sierra.ai/blog/better-customer-experiences-built-on-sierra",
+    "type": "Founder statement",
+    "date": "2026-05-04",
+    "accessed": "2026-10-11"
+  },
+  "stanford-instagram": {
+    "id": "stanford-instagram",
+    "title": "Stanford: From Stanford to Startup, Krieger and Systrom",
+    "url": "https://stvp.stanford.edu/av/stanford-startup",
+    "type": "University event record",
+    "date": "2011-05-11",
+    "accessed": "2026-10-11"
+  },
+  "wu-result": {
+    "id": "wu-result",
+    "title": "International Olympiad in Informatics: 2014 official results",
+    "url": "https://stats.ioinformatics.org/results/2014",
+    "type": "Official competition results",
+    "date": "2014",
+    "accessed": "2026-10-11"
+  },
+  "asif-2016": {
+    "id": "asif-2016",
+    "title": "International Mathematical Olympiad: 2016 individual results",
+    "url": "https://www.imo-official.org/results/individual/year/2016/",
+    "type": "Official competition results",
+    "date": "2016",
+    "accessed": "2026-10-11"
+  },
+  "asif-2017": {
+    "id": "asif-2017",
+    "title": "International Mathematical Olympiad: 2017 individual results",
+    "url": "https://www.imo-official.org/results/individual/year/2017/",
+    "type": "Official competition results",
+    "date": "2017",
+    "accessed": "2026-10-11"
+  },
+  "asif-2018": {
+    "id": "asif-2018",
+    "title": "International Mathematical Olympiad: 2018 individual results",
+    "url": "https://www.imo-official.org/results/individual/year/2018/",
+    "type": "Official competition results",
+    "date": "2018",
+    "accessed": "2026-10-11"
+  },
+  "intrator-proxy": {
+    "id": "intrator-proxy",
+    "title": "CoreWeave: 2026 proxy, ownership table and footnote 2",
+    "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000191/crwv-20260422.htm",
+    "type": "SEC filing",
+    "date": "2026-04-22",
+    "accessed": "2026-10-11"
+  },
+  "ali-bio": {
+    "id": "ali-bio",
+    "title": "Databricks: Ali Ghodsi official speaker biography",
+    "url": "https://www.databricks.com/dataaisummit/speaker/ali-ghodsi",
+    "type": "Company biography",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "replit-origin": {
+    "id": "replit-origin",
+    "title": "Amjad Masad: Replit origin and 2023 developer milestone",
+    "url": "https://replit.com/blog/20-million-developers",
+    "type": "Founder statement",
+    "date": "2023-02-16",
+    "accessed": "2026-10-11"
+  },
+  "data-capital-officers": {
+    "id": "data-capital-officers",
+    "title": "Data Capital Ltd: Demis Hassabis directorship",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09730522/officers",
+    "type": "Companies House record",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "data-capital-filings": {
+    "id": "data-capital-filings",
+    "title": "Data Capital Ltd: filing history and accounts periods",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09730522/filing-history",
+    "type": "Companies House record",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "data-capital-psc": {
+    "id": "data-capital-psc",
+    "title": "Data Capital Ltd: control through director appointment rights",
+    "url": "https://find-and-update.company-information.service.gov.uk/company/09730522/persons-with-significant-control",
+    "type": "Companies House record",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "brockman-ap": {
+    "id": "brockman-ap",
+    "title": "Associated Press: Brockman’s reported trial stake disclosure",
+    "url": "https://apnews.com/article/brockman-musk-altman-openai-trial-837bdc3fbced2a02f0f93a1899260bdd",
+    "type": "Independent court reporting",
+    "date": "2026-05-04",
+    "accessed": "2026-10-11"
+  },
+  "openai-formation": {
+    "id": "openai-formation",
+    "title": "OpenAI: original nonprofit founding announcement",
+    "url": "https://openai.com/index/introducing-openai/",
+    "type": "Company announcement",
+    "date": "2015-12-11",
+    "accessed": "2026-10-11"
+  },
+  "openai-2022": {
+    "id": "openai-2022",
+    "title": "OpenAI: Brockman president and Murati CTO appointments",
+    "url": "https://openai.com/index/leadership-team-update/",
+    "type": "Company announcement",
+    "date": "2022-05-05",
+    "accessed": "2026-10-11"
+  },
+  "ssi-mission": {
+    "id": "ssi-mission",
+    "title": "SSI: single-product mission and commercial-pressure thesis",
+    "url": "https://ssi.inc/",
+    "type": "Company statement",
+    "date": "",
+    "accessed": "2026-10-11"
+  },
+  "surge-mission": {
+    "id": "surge-mission",
+    "title": "Surge AI: product positioning and benchmark portfolio",
+    "url": "https://surgehq.ai/",
+    "type": "Company statement",
+    "date": "",
+    "accessed": "2026-10-11"
+  }
+}

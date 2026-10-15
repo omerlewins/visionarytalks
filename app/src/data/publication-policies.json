@@ -1,0 +1,210 @@
+{
+  "editorial-standards": {
+    "title": "Editorial standards",
+    "description": "How Visionary Talks handles financial research, sources, estimates, editorial independence and corrections.",
+    "intro": "I investigate companies, ownership, wealth and careers through public records. My job is to show what the evidence supports, what I calculated and what remains unknown.",
+    "sections": [
+      {
+        "heading": "Evidence before a headline",
+        "paragraphs": [
+          "I use company announcements, regulatory filings, court records, corporate registers and original research where they answer the question. A company or investor statement is an interested source, not independent confirmation. I link records inside the relevant sentences and retain the date and definition behind financial figures.",
+          "Source counts do not certify accuracy. An article can contain an unresolved question, but it must describe that uncertainty rather than turn it into a fact."
+        ]
+      },
+      {
+        "heading": "Estimates and calculations",
+        "paragraphs": [
+          "Personal wealth, company valuation, money raised, transaction consideration and managed assets are different measures. I label third-party estimates with their estimator and date. My calculations show their inputs and limits; an unknown private stake stays unknown.",
+          "Charts use comparable observations. Missing figures are not zero, and proposed deals, debt or partial holdings do not become exact equity valuations simply to fill a chart."
+        ]
+      },
+      {
+        "heading": "Editorial independence",
+        "paragraphs": [
+          "Payment cannot buy a favorable conclusion or change an ownership finding. Any paid placement must be clearly marked. A relevant financial interest or business relationship should be disclosed in the article; do not assume that an illustrated person or company endorses this publication."
+        ]
+      },
+      {
+        "heading": "AI assistance and human responsibility",
+        "paragraphs": [
+          "AI can assist research, drafting, editing and illustrations. It is not a source for a financial claim. I remain responsible for editorial decisions and for checking the supporting records. AI illustrations are labeled and should not be read as photographs of real events. The AI disclosure explains this practice in more detail."
+        ]
+      },
+      {
+        "heading": "Corrections and updates",
+        "paragraphs": [
+          "Send a correction with the article URL, the disputed passage and a supporting record to daniel@visionarytalks.com. I review substantive errors and explain material corrections. A changed source value is dated; historical estimates are preserved where they help readers understand the change.",
+          "Daniel Mercer is my editorial pen name. I use it because I continue to work in the industry. The About page describes the background I have supplied and the limits of that public biography."
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Visionary Talks",
+    "description": "Contact Daniel Mercer about company investigations, editorial questions, corrections and business enquiries.",
+    "intro": "Have a company worth investigating, a record I should read or a question about an article? Email me at daniel@visionarytalks.com.",
+    "sections": [
+      {
+        "heading": "Help me investigate",
+        "paragraphs": [
+          "Include the company name, the question you want answered and links to public records where possible. A suggestion is a research lead, not a promise of coverage. Please do not send confidential documents, account credentials or sensitive personal information without arranging an appropriate channel first."
+        ]
+      },
+      {
+        "heading": "Corrections and rights enquiries",
+        "paragraphs": [
+          "For a correction, include the article URL and the passage you are challenging. For an image or copyright enquiry, identify the material and explain your relationship to the rights. I can assess a precise request more effectively than an unsupported claim."
+        ]
+      },
+      {
+        "heading": "Publication and business enquiries",
+        "paragraphs": [
+          "Use the same email for interviews, licensing or clearly labeled sponsorship enquiries. The website does not send a message on your behalf: an email link opens your own mail application, where you choose whether to send it."
+        ]
+      }
+    ]
+  },
+  "corrections": {
+    "title": "Corrections",
+    "description": "How to report an error in Visionary Talks and how material corrections and changing financial estimates are handled.",
+    "intro": "If the evidence shows that an article is wrong, I want to correct it. Send the article URL, the specific passage and the supporting source to daniel@visionarytalks.com.",
+    "sections": [
+      {
+        "heading": "What to include",
+        "paragraphs": [
+          "Explain which fact, number, date, attribution or chart is incorrect. A filing, company statement or original dataset is more useful than an unsourced alternative. Do not include unnecessary personal information in your request."
+        ]
+      },
+      {
+        "heading": "How I handle a correction",
+        "paragraphs": [
+          "I assess the record and the article together. When a material error is confirmed, I amend the article and add a dated correction explaining the change. Minor spelling and formatting fixes may be made without a separate note. I do not promise a response deadline that I cannot consistently meet."
+        ]
+      },
+      {
+        "heading": "New information is not always an old error",
+        "paragraphs": [
+          "A newly priced funding round, a revised wealth estimate or a completed acquisition can change an accurate earlier account. I label such changes as updates, preserve useful historical observations and distinguish announced transactions from completed ones."
+        ]
+      }
+    ]
+  },
+  "advertise": {
+    "title": "Advertising and sponsorship",
+    "description": "Visionary Talks sponsorship enquiries, labeling standards and separation of paid placements from editorial research.",
+    "intro": "For sponsorship or advertising enquiries, contact daniel@visionarytalks.com. Paid placements must be clearly labeled and separate from the findings in our investigations.",
+    "sections": [
+      {
+        "heading": "What a sponsor can buy",
+        "paragraphs": [
+          "A sponsor may discuss a clearly marked placement or commissioned commercial material. Payment does not buy an ownership conclusion, a wealth estimate, a favorable ranking or removal of a documented fact. Any sponsored article must disclose the commercial relationship where readers can see it."
+        ]
+      },
+      {
+        "heading": "Current availability",
+        "paragraphs": [
+          "There is no self-service advertising checkout or active advertising network connected to this website. Reserved placement areas are not advertisements for an undisclosed sponsor. No audience-size or performance guarantee is made on this page."
+        ]
+      },
+      {
+        "heading": "Affiliates and endorsements",
+        "paragraphs": [
+          "If an article includes a compensated affiliate link, that relationship should be disclosed close to the recommendation or link. An ordinary editorial link, a company logo or an AI illustration does not imply endorsement by the person or company shown."
+        ]
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy notice",
+    "description": "How Visionary Talks handles newsletter registration, optional analytics, correspondence and website security data.",
+    "intro": "Visionary Talks operates this publication in the United States and is responsible for the personal information described here. Contact daniel@visionarytalks.com for privacy questions or requests. Daniel Mercer is an editorial pen name, not a separate registered company.",
+    "sections": [
+      {
+        "heading": "Reading the website",
+        "paragraphs": [
+          "You do not need a reader account to read public articles. Our hosting and infrastructure providers may process request information such as network address, browser information and requested URLs to deliver the website and protect it from abuse. Restricted CMS accounts are for publication staff, not a public membership service."
+        ]
+      },
+      {
+        "heading": "Newsletter registration",
+        "paragraphs": [
+          "When you opt in, we store your email address, the time and version of your consent, registration status and the page where you registered in our private CMS database. We use this information to prepare and operate the newsletter. Registration requests are not sent to an AI service. Email delivery has not started, and registering is not proof that an address has been verified.",
+          "We retain registrations while preparing and operating the newsletter, unless you request deletion or the programme closes. You can withdraw consent or request removal by emailing from the registered address. Verification and an unsubscribe process must be connected before newsletter delivery begins. A separate newsletter privacy notice describes the registration process."
+        ]
+      },
+      {
+        "heading": "Website analytics and your choices",
+        "paragraphs": [
+          "When enabled on the live website, Google Analytics helps us understand readership. We automatically send limited cookieless measurement signals from all regions, unless you opt out. Without an analytics-cookie choice, we configure Google Analytics with analytics storage denied; Google Analytics cookies are not read or written by this integration. These signals still involve data processing by Google and are not a promise of anonymity. Cookie-based analytics is enabled only after you allow analytics or when you have an existing saved permission. Analytics is disabled on Preview deployments and CMS pages.",
+          "You can use Opt out of analytics on the website at any time. An existing Decline choice is preserved. We also disable analytics when we receive Global Privacy Control or Do Not Track signals. Opting out stops future website analytics events, clears accessible first-party Google Analytics cookies and saves your preference in this browser. It does not erase information already received by Google. Clearing browser storage, changing browsers or devices can remove your saved preference.",
+          "Google Analytics can process page addresses, browser and device information, approximate location and cookie-based identifiers. We omit URL query strings from the page-view addresses we send and disable Google signals and advertising personalization in our website integration. Google cookies and data retention depend on the configured service. We do not link analytics identifiers to newsletter subscribers. Read how Google uses information from sites that use its services: https://policies.google.com/technologies/partner-sites."
+        ]
+      },
+      {
+        "heading": "Email and abuse prevention",
+        "paragraphs": [
+          "If you email us, your address and message are used to handle the enquiry. Please avoid unnecessary sensitive information. We retain correspondence for as long as it is needed to handle the matter and keep a reasonable record of the outcome.",
+          "Newsletter abuse controls use short-lived request limits and keyed hashes of network addresses rather than storing raw addresses in the newsletter list. Hosting providers may retain separate security logs."
+        ]
+      },
+      {
+        "heading": "Providers and transfers",
+        "paragraphs": [
+          "Vercel provides website hosting and media infrastructure, and Neon provides the CMS database infrastructure. Google processes website analytics according to the settings and your choices described above. Email correspondence is handled through our email service. These providers may process information in the United States or other countries under their applicable terms and safeguards.",
+          "We do not sell the newsletter list or submit newsletter registrations to AI models. Authorized publication staff can access registrations in the CMS. Service providers process information to provide their services, and information may also be disclosed when legally required or necessary to protect the website and its users."
+        ]
+      },
+      {
+        "heading": "Your choices and requests",
+        "paragraphs": [
+          "Depending on applicable law, you may have rights to access, correct or delete personal information, withdraw consent or raise a complaint with a regulator. Contact daniel@visionarytalks.com and explain your request. We may need proportionate information to verify that a request relates to your data, and legal exceptions may affect what we can remove.",
+          "This publication and its newsletter are intended for a general adult audience. We do not knowingly collect newsletter registrations from children under 13. Contact us if you believe a child’s information was submitted so we can investigate and remove it where appropriate."
+        ]
+      },
+      {
+        "heading": "Changes to this notice",
+        "paragraphs": [
+          "We will update this page when our data handling changes. A new email delivery provider, advertising service or materially different use of personal information requires an updated notice and any consent required by applicable law."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of use",
+    "description": "Terms for reading and using Visionary Talks research, graphics and publication services.",
+    "intro": "Visionary Talks publishes general information and analysis about companies, money, people and careers. These terms explain the intended use of the website and how to contact us about its material.",
+    "sections": [
+      {
+        "heading": "Research, not a personal recommendation",
+        "paragraphs": [
+          "Articles and tools do not consider your individual financial, legal, tax or career circumstances. They are not a personalized investment recommendation, an offer of securities or a substitute for qualified advice. Estimates, private-company information and dated market observations can change; read the source, date and methodology before relying on a number.",
+          "We aim to correct material errors, but cannot guarantee that every article is complete, current or suitable for every use. Nothing on this page removes rights or responsibilities that applicable law does not allow to be excluded."
+        ]
+      },
+      {
+        "heading": "Using our material",
+        "paragraphs": [
+          "You may read public articles and link to them. Contact daniel@visionarytalks.com for permission to republish substantial article text, commissioned illustrations or other protected material. Third-party records, logos and quoted material remain subject to their own rights and applicable exceptions. An editorial reference or illustration does not imply endorsement."
+        ]
+      },
+      {
+        "heading": "Links, tools and availability",
+        "paragraphs": [
+          "External websites have their own policies and may change or become unavailable. Interactive charts explain the observations and definitions supplied; they are not live prices unless expressly identified as such. The website may be updated, interrupted or discontinued, and no continuous-availability promise is made."
+        ]
+      },
+      {
+        "heading": "Suggestions and correspondence",
+        "paragraphs": [
+          "A company suggestion or email is not a contract for coverage or a guarantee of publication. Do not send material you are not entitled to share. Please do not impersonate another person, submit abusive requests or attempt to access restricted CMS records."
+        ]
+      },
+      {
+        "heading": "Contact and changes",
+        "paragraphs": [
+          "Contact daniel@visionarytalks.com about these terms, corrections or rights requests. We may update these terms and will date the revised page."
+        ]
+      }
+    ]
+  }
+}

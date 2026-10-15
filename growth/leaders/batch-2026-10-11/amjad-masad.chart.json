@@ -1,0 +1,17 @@
+{
+  "title": "Amjad Masad net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-10",
+      "value": 2,
+      "display": "$2B",
+      "source": "https://www.forbes.com/profile/amjad-masad/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Aravind Srinivas net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 2.1,
+      "display": "$2.1B",
+      "source": "https://www.forbes.com/profile/aravind-srinivas/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}

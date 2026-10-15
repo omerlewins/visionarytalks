@@ -1,0 +1,17 @@
+{
+  "title": "Lucy Guo net worth",
+  "metric": "personal net worth estimate",
+  "unit": "USD billions",
+  "basis": "Forbes personal wealth estimate",
+  "observations": [
+    {
+      "date": "2026-10-11",
+      "value": 1.5,
+      "display": "$1.5B",
+      "source": "https://www.forbes.com/profile/lucy-guo/"
+    }
+  ],
+  "unknownIsNotZero": true,
+  "interpolation": false,
+  "companyValuesExcluded": true
+}
