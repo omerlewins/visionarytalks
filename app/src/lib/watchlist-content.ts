@@ -1,11 +1,12 @@
 import "server-only";
 import { cache } from "react";
-import { aiWatchlist, canExposeWatchlist } from "./ai-watchlist";
+import { canExposeWatchlist } from "./ai-watchlist";
 import { publishedResearchStories } from "./published-research-content";
+import { previewWatchlist } from "./watchlist-preview";
 export const loadWatchlist = cache(async () => {
   if (canExposeWatchlist(process.env))
     return {
-      article: aiWatchlist,
+      article: previewWatchlist(),
       publishedAt: undefined as string | undefined,
     };
   const record = (await publishedResearchStories()).find(

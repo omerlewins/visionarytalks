@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import data from "@/data/us-state-wealth.json";
 
 type Kind = "billionaires" | "millionaires" | "topOnePercent";
@@ -15,6 +15,21 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
   const [selected, setSelected] = useState("CA");
   const [hovered, setHovered] = useState<string | null>(null);
   const [share, setShare] = useState(false);
+  useEffect(() => {
+    const selectAnchor = () => {
+      const code = location.hash
+        .match(/^#state-([a-z]{2})$/i)?.[1]
+        .toUpperCase();
+      if (!code || !data.states.some((s) => s.code === code)) return;
+      setSelected(code);
+      const row = document.getElementById(`state-${code.toLowerCase()}`);
+      const details = row?.closest("details");
+      if (details) details.open = true;
+    };
+    selectAnchor();
+    addEventListener("hashchange", selectAnchor);
+    return () => removeEventListener("hashchange", selectAnchor);
+  }, []);
   const millionaire = kind === "millionaires";
   const threshold = kind === "topOnePercent";
   const current = data.states.find((s) => s.code === (hovered ?? selected))!;
@@ -28,12 +43,12 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
         ? [100000, 250000, 500000, 1000000]
         : [1, 5, 20, 100];
   const labels = share
-    ? ["<10%", "10–<15%", "15–<20%", "20–<25%", "25%+"]
+    ? ["<10%", "10 to <15%", "15 to <20%", "20 to <25%", "25%+"]
     : threshold
-      ? ["<$5M", "$5M–<$8M", "$8M–<$11M", "$11M–<$15M", "$15M+"]
+      ? ["<$5M", "$5M to <$8M", "$8M to <$11M", "$11M to <$15M", "$15M+"]
       : millionaire
-        ? ["<100K", "100K–<250K", "250K–<500K", "500K–<1M", "1M+"]
-        : ["0", "1–4", "5–19", "20–99", "100+"];
+        ? ["<100K", "100K to <250K", "250K to <500K", "500K to <1M", "1M+"]
+        : ["0", "1 to 4", "5 to 19", "20 to 99", "100+"];
   const band = (n: number) => edges.filter((e) => n >= e).length;
   const formatted = (s: typeof current) =>
     share
@@ -282,7 +297,7 @@ export function StateWealthMap({ kind }: { kind: Kind }) {
             </thead>
             <tbody>
               {ranked.map((s) => (
-                <tr key={s.code}>
+                <tr key={s.code} id={`state-${s.code.toLowerCase()}`}>
                   <th scope="row">
                     <button
                       type="button"

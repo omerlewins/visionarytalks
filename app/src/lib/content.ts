@@ -5,6 +5,7 @@ import type { Story, CompanyRow } from "./domain";
 import { decodeHTML } from "entities";
 import trackerSeed from "@/data/company-tracker-seed.json";
 import { isLeadersReview } from "./leaders-review";
+import { publicationText, publicationRichText } from "./editorial-punctuation";
 
 export const isDemo = () =>
   process.env.DEMO_MODE === "true" &&
@@ -44,6 +45,7 @@ export const storyTeasers = cache(async (): Promise<Story[]> => {
     where: { _status: { equals: "published" } },
     select: {
       title: true,
+      homepageHeadline: true,
       path: true,
       kind: true,
       category: true,
@@ -63,11 +65,15 @@ export function toStory(doc: Record<string, any>): Story {
   const author = typeof doc.author === "object" ? doc.author : undefined;
   return {
     ...doc,
-    title: doc.legacyKey ? decodeHTML(doc.title) : doc.title,
+    title: publicationText(doc.legacyKey ? decodeHTML(doc.title) : doc.title),
+    dek: publicationText(doc.dek || ""),
+    category: publicationText(doc.category || ""),
     id: String(doc.id),
     path: doc.path,
     sections: (doc.sections ?? []).map((section: any) => ({
       ...section,
+      heading: publicationText(section.heading || ""),
+      text: publicationText(section.text || ""),
       id: section.anchor ?? section.id,
     })),
     sources: (doc.sources ?? [])
@@ -82,7 +88,7 @@ export function toStory(doc: Record<string, any>): Story {
     imageAlt: image?.alt,
     imageCredit: image?.credit,
     metrics: doc.chartMetrics ?? [],
-    richBody: doc.body,
+    richBody: publicationRichText(doc.body),
     noindex: doc.seo?.noindex,
     related: (doc.relatedStories ?? [])
       .filter((r: any) => typeof r === "object")

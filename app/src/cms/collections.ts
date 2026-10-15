@@ -251,6 +251,20 @@ export const collections: CollectionConfig[] = [
     fields: [
       text("title", true),
       { name: "path", type: "text", required: true, unique: true, index: true },
+      {
+        name: "homepageHeadline",
+        label: "Homepage headline",
+        type: "text",
+        maxLength: 160,
+        admin: {
+          description:
+            "Optional editorial display headline for the homepage. Does not replace the article or SEO title.",
+        },
+        validate: (value: unknown) =>
+          typeof value === "string" && /[\u2013\u2014]/.test(value)
+            ? "Use commas or colons instead of long dashes."
+            : true,
+      },
       { name: "legacyKey", type: "text", unique: true, index: true },
       text("legacyStatus"),
       {

@@ -1,11 +1,13 @@
 // Plain URL is deliberately checked first, without a cache-busting query.
 const {chromium}=require('../../app/node_modules/@playwright/test');
 const assert=require('node:assert/strict'),fs=require('node:fs');
+const protectPreview=require('./preview-check-access.cjs');
 const base=process.env.WATCHLIST_BASE_URL||'https://visionarytalks.com';
 (async()=>{
  const browser=await chromium.launch(),report=[];
  for(const javaScriptEnabled of [true,false]) for(const suffix of ['', '?v=reviewed-20261014']) {
   const context=await browser.newContext({javaScriptEnabled,viewport:{width:390,height:900}}),page=await context.newPage();
+  await protectPreview(page,base);
   const response=await page.goto(base+'/ai-people-to-watch/'+suffix);
   assert.equal(response.status(),200);
   const result=await page.evaluate(()=>{
@@ -18,5 +20,5 @@ const base=process.env.WATCHLIST_BASE_URL||'https://visionarytalks.com';
   report.push({url:page.url(),javaScriptEnabled,entries:100,allFields:true,faq:7,methodologyAfterFAQ:true,indexSeparator:true,noDrafting:true,oldFundingTableRemoved:true,updated:true,headers:response.headers()});
   await context.close();
  }
- await browser.close();fs.mkdirSync('private/growth/ai-people-2027',{recursive:true});fs.writeFileSync('private/growth/ai-people-2027/completeness-after.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report.map(({headers,...r})=>r),null,2));
+ await browser.close();fs.mkdirSync('private/growth/ai-people-2027',{recursive:true});fs.writeFileSync(process.env.WATCHLIST_COMPLETENESS_OUTPUT||'private/growth/ai-people-2027/completeness-after.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report.map(({headers,...r})=>r),null,2));
 })().catch(e=>{console.error(e);process.exit(1)});

@@ -317,6 +317,10 @@ export interface Story {
   id: number;
   title: string;
   path: string;
+  /**
+   * Optional editorial display headline for the homepage. Does not replace the article or SEO title.
+   */
+  homepageHeadline?: string | null;
   legacyKey?: string | null;
   legacyStatus?: string | null;
   kind: 'article' | 'ownership' | 'leader' | 'salary' | 'company' | 'page';
@@ -1215,6 +1219,7 @@ export interface SourceDocumentsSelect<T extends boolean = true> {
 export interface StoriesSelect<T extends boolean = true> {
   title?: T;
   path?: T;
+  homepageHeadline?: T;
   legacyKey?: T;
   legacyStatus?: T;
   kind?: T;
@@ -1702,6 +1707,14 @@ export interface Integration {
 export interface SiteSetting {
   id: number;
   /**
+   * Choose a published article. Defaults to 100 AI people to watch in 2027. Unpublished choices never appear.
+   */
+  homepageHero?: (number | null) | Story;
+  /**
+   * Leave blank for the newest editorial update, excluding the hero. A manual choice is labelled Editor's pick.
+   */
+  homepageLead?: (number | null) | Story;
+  /**
    * Three dated events selected for this week's reading. Use the event date, not the date you edit this box. Links appear only while their investigations are published.
    */
   ownershipUpdates?:
@@ -1743,6 +1756,8 @@ export interface IntegrationsSelect<T extends boolean = true> {
  * via the `definition` "site-settings_select".
  */
 export interface SiteSettingsSelect<T extends boolean = true> {
+  homepageHero?: T;
+  homepageLead?: T;
   ownershipUpdates?:
     | T
     | {

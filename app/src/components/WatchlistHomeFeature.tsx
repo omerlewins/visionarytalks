@@ -5,49 +5,64 @@ import portraits from "@/data/watchlist-portraits.json";
 import { UpdatedStamp } from "./UpdatedStamp";
 
 export function WatchlistHomeFeature({ article }: { article: AIWatchlist }) {
-  const selection = [23, 25, 43, 69, 84, 96].map((number) => ({
+  const selection = [1, 23, 25, 40, 43, 69, 84, 91, 96, 2].map((number) => ({
     person: article.people.find((p) => p.number === number)!,
     portrait: portraits.find((p) => p.number === number)!,
   }));
   return (
-    <section className="home-watchlist" aria-labelledby="home-watchlist-title">
+    <section
+      className="home-watchlist watchlist-hero"
+      aria-labelledby="home-watchlist-title"
+    >
       <div className="home-watchlist-copy">
         <span className="eyebrow">LEADERS / THE 2027 WATCHLIST</span>
-        <h2 id="home-watchlist-title">
+        <h1 id="home-watchlist-title">
           100 AI people to watch <em>in 2027</em>
-        </h2>
+        </h1>
         <p>
-          Meet the researchers, engineers and founders building what comes next:
-          their education, career and the numbers behind them.
+          The researchers, engineers and founders building what comes next.
+          Their education, career path and the numbers behind them.
         </p>
-        <Link href="/ai-people-to-watch/" className="index-cta">
+        <Link
+          prefetch={false}
+          href="/ai-people-to-watch/"
+          className="index-cta"
+        >
           See the 100 →
         </Link>
         <UpdatedStamp date={article.checked + "T12:00:00Z"} />
         <Link
+          prefetch={false}
           href="/ai-people-to-watch/#suggest-person"
           className="home-watchlist-nominate"
         >
-          Who am I missing? Nominate someone ↗
+          Who am I missing? Nominate someone
         </Link>
       </div>
       <div className="home-watchlist-faces">
         <div className="home-watchlist-portraits">
           {selection.map(({ person, portrait }) => (
-            <Link key={person.id} href={`/ai-people-to-watch/#${person.id}`}>
+            <Link
+              prefetch={false}
+              key={person.id}
+              href={`/ai-people-to-watch/#${person.id}`}
+              data-person={person.id}
+            >
               <Image
                 src={portrait.src}
                 alt={`AI editorial illustration of ${person.name}`}
                 width={320}
                 height={320}
-                sizes="(max-width:700px) 26vw, 150px"
+                sizes="(max-width:700px) 106px, (max-width:1100px) 90px, 116px"
+                loading="eager"
               />
               <span>{person.name}</span>
+              <small>{person.organization}</small>
             </Link>
           ))}
         </div>
         <p>
-          AI editorial illustrations · Six faces from a 100-person selection
+          AI editorial illustrations · Ten faces from a 100-person selection
         </p>
       </div>
     </section>

@@ -1,0 +1,24 @@
+{
+  "national": {
+    "value": 13700000,
+    "display": "about $13.7M",
+    "period": "2022",
+    "label": "US household benchmark",
+    "basis": "SCF 2022 benchmark retained from the published article; not an average of state thresholds",
+    "article": "/top-1-percent-net-worth/",
+    "source": "https://www.federalreserve.gov/publications/files/scf23.pdf"
+  },
+  "age": {
+    "period": "2022",
+    "source": "https://www.federalreserve.gov/publications/files/scf23.pdf",
+    "article": "/net-worth-by-age/",
+    "values": [
+      { "label": "Under 35", "value": 39000, "display": "$39,000" },
+      { "label": "35-44", "value": 135600, "display": "$135,600" },
+      { "label": "45-54", "value": 247200, "display": "$247,200" },
+      { "label": "55-64", "value": 364500, "display": "$364,500" },
+      { "label": "65-74", "value": 409900, "display": "$409,900" },
+      { "label": "75+", "value": 335600, "display": "$335,600" }
+    ]
+  }
+}

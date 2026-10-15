@@ -10,95 +10,115 @@ import {
   watchlistDek,
   ownershipUpdates,
   type OwnershipUpdate,
+  type StoryReference,
 } from "@/lib/home-editorial";
 import { storyFeaturedImage } from "@/lib/story-image";
 import { UpdatedStamp } from "./UpdatedStamp";
 
-export function HomeLead({ stories }: { stories: Story[] }) {
-  const { lead, latest } = homepageEdition(stories);
+export function HomeLead({
+  stories,
+  heroChoice,
+  leadChoice,
+}: {
+  stories: Story[];
+  heroChoice?: StoryReference;
+  leadChoice?: StoryReference;
+}) {
+  const { lead, latest, editorPick } = homepageEdition(
+    stories,
+    heroChoice,
+    leadChoice,
+  );
   const now = new Date();
   if (!lead)
     return (
       <section className="lead-edition">
-        <h1>The next investigation is on its way.</h1>
+        <h2>The next investigation is on its way.</h2>
       </section>
     );
   const cover = storyFeaturedImage(lead);
   return (
-    <section
-      className="lead-edition"
-      aria-label="Lead investigation and latest stories"
-    >
-      <article
-        className={`lead-story ${lead.kind === "leader" ? "lead-portrait" : ""}`}
+    <section className="newsroom-section" aria-labelledby="newsroom-title">
+      <div className="newsroom-heading">
+        <span className="eyebrow">THE LATEST REPORTING</span>
+        <h2 id="newsroom-title">From the newsroom</h2>
+      </div>
+      <div
+        className="lead-edition"
+        aria-label="Lead investigation and latest stories"
       >
-        <div className="lead-story-kicker">
-          <span className="eyebrow">
-            {editorialText(lead.category)} / THE LEAD
-          </span>
-          <UpdatedStamp date={storyUpdated(lead)} />
-        </div>
-        <h1>
-          <Link href={lead.path} prefetch={false}>
-            {editorialText(lead.title)}
-          </Link>
-        </h1>
-        <p className="lead-dek">{editorialText(lead.dek)}</p>
-        <Link
-          className="lead-illustration"
-          href={lead.path}
-          prefetch={false}
-          aria-label={`Read ${editorialText(lead.title)}`}
+        <article
+          className={`lead-story ${lead.kind === "leader" ? "lead-portrait" : ""}`}
         >
-          <Image
-            src={cover.url}
-            alt={editorialText(cover.alt)}
-            width={lead.kind === "leader" ? 1024 : 1200}
-            height={lead.kind === "leader" ? 1536 : 630}
-            preload
-            sizes={
-              lead.kind === "leader"
-                ? "(max-width:800px) 32vw, 20vw"
-                : "(max-width:800px) 90vw, 60vw"
-            }
-          />
-        </Link>
-        <div className="lead-story-foot">
-          <Link href={lead.path} prefetch={false}>
-            Read the investigation <span aria-hidden="true">↗</span>
+          <div className="lead-story-kicker">
+            <span className="eyebrow">
+              {editorialText(lead.category)} /{" "}
+              {editorPick ? "Editor's pick" : "THE LEAD"}
+            </span>
+            <UpdatedStamp date={storyUpdated(lead)} />
+          </div>
+          <h2 className="lead-display-headline">
+            <Link href={lead.path} prefetch={false}>
+              {editorialText(lead.homepageHeadline || lead.title)}
+            </Link>
+          </h2>
+          <p className="lead-dek">{editorialText(lead.dek)}</p>
+          <Link
+            className="lead-illustration"
+            href={lead.path}
+            prefetch={false}
+            aria-label={`Read ${editorialText(lead.title)}`}
+          >
+            <Image
+              src={cover.url}
+              alt={editorialText(cover.alt)}
+              width={lead.kind === "leader" ? 1024 : 1200}
+              height={lead.kind === "leader" ? 1536 : 630}
+              loading="lazy"
+              sizes={
+                lead.kind === "leader"
+                  ? "(max-width:800px) 32vw, 20vw"
+                  : "(max-width:800px) 90vw, 60vw"
+              }
+            />
           </Link>
-          <span>
-            {cover.credit
-              ? editorialText(cover.credit)
-              : "VISIONARY TALKS / EDITORIAL ART"}
-          </span>
-        </div>
-      </article>
-      <aside className="latest-rail" aria-labelledby="latest-heading">
-        <div className="latest-rail-heading">
-          <h2 id="latest-heading">Latest</h2>
-          <span>FROM THE NEWSROOM</span>
-        </div>
-        <ol>
-          {latest.map((s) => (
-            <li key={s.id}>
-              <div>
-                <span className="eyebrow">{editorialText(s.category)}</span>
-                <time dateTime={storyUpdated(s)}>
-                  {relativeUpdated(storyUpdated(s)!, now)}
-                </time>
-              </div>
-              <h3>
-                <Link href={s.path} prefetch={false}>
-                  {editorialText(s.title)}
-                </Link>
-              </h3>
-              {s.path === watchlistPath && <p>{watchlistDek}</p>}
-              <UpdatedStamp date={storyUpdated(s)} />
-            </li>
-          ))}
-        </ol>
-      </aside>
+          <div className="lead-story-foot">
+            <Link href={lead.path} prefetch={false}>
+              Read the investigation <span aria-hidden="true">↗</span>
+            </Link>
+            <span>
+              {cover.credit
+                ? editorialText(cover.credit)
+                : "VISIONARY TALKS / EDITORIAL ART"}
+            </span>
+          </div>
+        </article>
+        <aside className="latest-rail" aria-labelledby="latest-heading">
+          <div className="latest-rail-heading">
+            <h2 id="latest-heading">Latest</h2>
+            <span>FROM THE NEWSROOM</span>
+          </div>
+          <ol>
+            {latest.map((s) => (
+              <li key={s.id}>
+                <div>
+                  <span className="eyebrow">{editorialText(s.category)}</span>
+                  <time dateTime={storyUpdated(s)}>
+                    {relativeUpdated(storyUpdated(s)!, now)}
+                  </time>
+                </div>
+                <h3>
+                  <Link href={s.path} prefetch={false}>
+                    {editorialText(s.title)}
+                  </Link>
+                </h3>
+                {s.path === watchlistPath && <p>{watchlistDek}</p>}
+                <UpdatedStamp date={storyUpdated(s)} />
+              </li>
+            ))}
+          </ol>
+        </aside>
+      </div>
     </section>
   );
 }

@@ -1,12 +1,13 @@
 const {chromium}=require('../../app/node_modules/@playwright/test');
 const {pathToFileURL}=require('node:url');
 const path=require('node:path'),fs=require('node:fs');
+const protectPreview=require('./preview-check-access.cjs');
 (async()=>{
  const browser=await chromium.launch();
  const url=process.env.WATCHLIST_BASE_URL?`${process.env.WATCHLIST_BASE_URL}/ai-people-to-watch/`:pathToFileURL(path.join(__dirname,'preview.html')).href;
- const out=path.join(__dirname,'../../private/growth/ai-people-2027/rebuild-2026-10-14');fs.mkdirSync(out,{recursive:true});const evidence=[];
+ const out=process.env.WATCHLIST_QA_OUTPUT||path.join(__dirname,'../../private/growth/ai-people-2027/rebuild-2026-10-14');fs.mkdirSync(out,{recursive:true});const evidence=[];
  for(const width of [1440,390]){
-  const page=await browser.newPage({viewport:{width,height:1000}}),errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto(url);
+  const page=await browser.newPage({viewport:{width,height:1000}}),errors=[];await protectPreview(page,process.env.WATCHLIST_BASE_URL);page.on('pageerror',e=>errors.push(e.message));await page.goto(url);
   if(await page.locator('.watch-person').count()!==100)throw new Error('100 entries required');
   if(await page.locator('.watch-profile-label').count()!==400)throw new Error('Four labeled fields per entry required');
   if(await page.locator('.watch-role-labels').count()<100)throw new Error('Missing role badges');
@@ -28,6 +29,6 @@ const path=require('node:path'),fs=require('node:fs');
   await form.locator('[name=person]').fill('A proposed researcher');await form.locator('[name=reason]').fill('A documented contribution to investigate.');await form.locator('[name=source]').fill('https://example.com/research');if(!await form.evaluate(f=>f.checkValidity()))throw new Error('Valid nomination rejected');await form.evaluate(f=>f.reset());
   await page.evaluate(()=>scrollTo(0,0));await page.screenshot({path:path.join(out,`hero-${width}.png`)});await page.locator('#tri-dao').scrollIntoViewIfNeeded();await page.screenshot({path:path.join(out,`entry-${width}.png`)});evidence.push({...result,interactions:'pass'});await page.close();
  }
- const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),page=await context.newPage();await page.goto(url);if(await page.locator('.watch-person').count()!==100)throw new Error('No-JS entries');await page.locator('.watch-index-details summary').click();if(await page.locator('[data-watch-id]:visible').count()!==100)throw new Error('No-JS index');evidence.push({noJavaScript:'100 profiles and complete native index available'});
+ const context=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),page=await context.newPage();await protectPreview(page,process.env.WATCHLIST_BASE_URL);await page.goto(url);if(await page.locator('.watch-person').count()!==100)throw new Error('No-JS entries');await page.locator('.watch-index-details summary').click();if(await page.locator('[data-watch-id]:visible').count()!==100)throw new Error('No-JS index');evidence.push({noJavaScript:'100 profiles and complete native index available'});
  fs.writeFileSync(path.join(out,'browser-check.json'),JSON.stringify(evidence,null,2));console.log(JSON.stringify(evidence,null,2));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});

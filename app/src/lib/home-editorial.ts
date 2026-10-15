@@ -25,12 +25,35 @@ export function updatedStories(stories: Story[]) {
         a.path.localeCompare(b.path),
     );
 }
-export function homepageEdition(stories: Story[]) {
+export type StoryReference = string | number | { id: string | number } | null;
+export function homepageEdition(
+  stories: Story[],
+  heroChoice?: StoryReference,
+  leadChoice?: StoryReference,
+) {
   const ordered = updatedStories(stories);
-  const lead = ordered.find((s) => s.path !== watchlistPath);
+  const resolve = (ref?: StoryReference) =>
+    ref == null
+      ? undefined
+      : ordered.find(
+          (s) => s.id === String(typeof ref === "object" ? ref.id : ref),
+        );
+  const hero =
+    resolve(heroChoice) ??
+    ordered.find((s) => s.path === watchlistPath) ??
+    ordered[0];
+  const manualLead = resolve(leadChoice);
+  const editorPick = Boolean(manualLead && manualLead.path !== hero?.path);
+  const lead = editorPick
+    ? manualLead
+    : ordered.find((s) => s.path !== hero?.path);
   return {
+    hero,
     lead,
-    latest: ordered.filter((s) => s.path !== lead?.path).slice(0, 6),
+    editorPick,
+    latest: ordered
+      .filter((s) => s.path !== hero?.path && s.path !== lead?.path)
+      .slice(0, 6),
     updated: ordered[0] && storyUpdated(ordered[0]),
   };
 }

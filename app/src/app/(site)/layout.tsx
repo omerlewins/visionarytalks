@@ -11,6 +11,7 @@ import "@/styles/leaders.css";
 import "@/styles/state-wealth-map.css";
 import "@/styles/home-editorial.css";
 import "@/styles/home-freshness.css";
+import "@/styles/home-consolidated.css";
 import "@/styles/publication-policies.css";
 import { Header, Footer } from "@/components/Shell";
 import { isDemo, companies } from "@/lib/content";

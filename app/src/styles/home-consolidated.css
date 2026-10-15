@@ -1,0 +1,507 @@
+.watchlist-hero {
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  margin: 36px 0 0;
+  gap: 48px;
+  padding: 38px 34px;
+}
+.watchlist-hero h1 {
+  font: normal clamp(38px, 4.5vw, 65px)/1.02 var(--serif);
+  letter-spacing: -0.04em;
+  margin: 23px 0 22px;
+}
+.watchlist-hero h1 em {
+  font-weight: normal;
+}
+.watchlist-hero .home-watchlist-copy > p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.watchlist-hero .home-watchlist-portraits {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 24px 12px;
+}
+.watchlist-hero .home-watchlist-portraits img {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}
+.watchlist-hero .home-watchlist-portraits span {
+  font-size: 12px;
+}
+.watchlist-hero .home-watchlist-portraits small {
+  display: block;
+  font: 9px/1.4 var(--sans);
+  color: #616653;
+  margin-top: 4px;
+}
+.newsroom-heading {
+  padding: 40px 0 0;
+}
+.newsroom-heading h2 {
+  font: normal 36px/1.1 var(--serif);
+  letter-spacing: -0.03em;
+  margin: 11px 0 0;
+}
+.newsroom-section .lead-edition {
+  padding-top: 26px;
+}
+.lead-story .lead-display-headline {
+  font: normal clamp(34px, 3.7vw, 54px)/1.06 var(--serif);
+  letter-spacing: -0.04em;
+  margin: 22px 0 15px;
+}
+.home-article-hero {
+  background: #eeebdf;
+  padding: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin-top: 36px;
+  align-items: center;
+}
+.home-article-hero h1 {
+  font: normal 52px/1.05 var(--serif);
+  letter-spacing: -0.04em;
+  margin: 20px 0;
+}
+.home-article-hero img {
+  width: 100%;
+  height: auto;
+  max-height: 440px;
+  object-fit: contain;
+}
+.home-money > .section-heading h2 {
+  max-width: 740px;
+}
+.home-money > .section-heading > p {
+  max-width: 310px;
+}
+.home-money-atlas {
+  background: #f4f1e7;
+  border-block: 1px solid #b9b6a8;
+  padding: 30px;
+}
+.home-money-map-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 20px;
+}
+.home-money h3 {
+  font: normal 35px/1.08 var(--serif);
+  letter-spacing: -0.025em;
+  margin: 13px 0 20px;
+}
+.money-callouts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-block: 1px solid #c9c6b7;
+  padding: 20px 0;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.money-callouts > div + div {
+  border-left: 1px solid #c9c6b7;
+  padding-left: 24px;
+}
+.money-callouts span,
+.money-callouts small {
+  display: block;
+  font: 10px/1.5 var(--sans);
+  color: #5b6254;
+}
+.money-callouts strong {
+  display: block;
+  font: normal 28px/1.2 var(--serif);
+  color: #243a2a;
+  margin: 7px 0;
+}
+.home-map-explorer {
+  display: grid;
+  grid-template-columns: minmax(180px, 0.65fr) 1fr;
+  gap: 20px;
+  max-width: 740px;
+  margin: auto;
+}
+.home-map-explorer label {
+  font: 11px/1.5 var(--sans);
+}
+.home-map-explorer form {
+  display: flex;
+  gap: 8px;
+  align-items: end;
+}
+.home-map-explorer label {
+  flex: 1;
+  min-width: 0;
+}
+.home-map-explorer button {
+  border: 1px solid #566550;
+  background: #263c2d;
+  color: #fff;
+  height: 40px;
+  padding: 0 10px;
+  font: 11px var(--sans);
+  cursor: pointer;
+}
+.home-map-explorer select {
+  display: block;
+  width: 100%;
+  border: 1px solid #8a9082;
+  background: #fffef8;
+  padding: 11px;
+  margin-top: 7px;
+  font: 13px var(--sans);
+  border-radius: 0;
+}
+.home-map-readout {
+  border-left: 2px solid #596e59;
+  padding: 0 0 0 17px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  min-height: 85px;
+}
+.state-map-table tr:target {
+  outline: 2px solid #a98232;
+  outline-offset: -2px;
+  background: #eeeadc;
+}
+.home-map-readout strong {
+  font: normal 21px/1.15 var(--serif);
+}
+.home-map-readout span,
+.home-map-readout a {
+  font: 10px/1.5 var(--sans);
+}
+.home-map-readout a {
+  text-decoration: underline;
+}
+.home-map-canvas {
+  max-width: 975px;
+  margin: 8px auto 0;
+}
+.home-map-canvas svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 975/610;
+  overflow: visible;
+}
+.home-map-overview {
+  aspect-ratio: 975 / 610;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 0px;
+}
+.home-map-canvas path {
+  stroke: #f5f2e8;
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+}
+.home-map-canvas a:hover path,
+.home-map-canvas a:focus path {
+  stroke: #b28b36;
+  stroke-width: 2.4;
+}
+.home-map-canvas text {
+  pointer-events: none;
+  font: 11px var(--sans);
+}
+.home-map-small {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font: 10px var(--sans);
+  justify-content: flex-end;
+}
+.home-map-small a {
+  border: 1px solid #b4b6a6;
+  padding: 8px;
+  background: #faf8f0;
+}
+.home-map-instructions {
+  font: 10px/1.5 var(--sans);
+  color: #5f6455;
+}
+.home-map-legend {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding: 15px 0;
+  border-bottom: 1px solid #c9c6b7;
+}
+.home-map-legend span {
+  font: 10px/1.5 var(--sans);
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.home-map-legend i {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  border: 1px solid #bdc0ae;
+}
+.home-money-table {
+  margin-top: 18px;
+  font: 12px/1.5 var(--sans);
+}
+.home-money-table summary {
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 8px 0;
+}
+.home-money-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.home-money-table th,
+.home-money-table td {
+  text-align: left;
+  border-bottom: 1px solid #cfcec3;
+  padding: 10px;
+}
+.home-money-table td {
+  font-variant-numeric: tabular-nums;
+}
+.home-money-source {
+  font: 11px/1.6 var(--sans);
+  color: #606455;
+  margin: 20px 0;
+}
+.home-money-source a {
+  text-decoration: underline;
+}
+.home-money-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+  margin-top: 28px;
+}
+.home-money-pair > article {
+  border-top: 2px solid #1c2b21;
+  background: #f3f3eb;
+  padding: 28px;
+}
+.home-money-pair > article > p:not(.home-money-source) {
+  font: 15px/1.5 var(--serif);
+  color: #586052;
+}
+.millionaire-reference {
+  display: flex;
+  justify-content: space-between;
+  font: 11px/1.5 var(--sans);
+  padding: 14px 0;
+  border-block: 1px solid #c8ccbd;
+}
+.millionaire-reference strong {
+  color: #304c36;
+}
+.millionaire-bars,
+.money-billionaires ol {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+.millionaire-bars li {
+  display: grid;
+  grid-template-columns: 24px 1fr auto;
+  gap: 8px;
+  margin: 0 0 12px;
+  font: 13px/1.4 var(--sans);
+}
+.money-rank {
+  font: 10px/1.6 var(--sans);
+  color: #717968;
+}
+.money-bar-track {
+  grid-column: 2/4;
+  background: #e2e4d7;
+  height: 9px;
+  position: relative;
+}
+.money-bar-track span {
+  display: block;
+  height: 9px;
+  background: #5b705b;
+}
+.money-bar-track i {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  width: 1px;
+  background: #171f18;
+}
+.money-billionaires li {
+  display: grid;
+  grid-template-columns: 23px 1fr auto;
+  gap: 10px;
+  padding: 17px 0;
+  border-bottom: 1px solid #c7ccbd;
+}
+.money-billionaires li > div > a {
+  font: normal 23px/1.1 var(--serif);
+}
+.money-billionaires li > div > span {
+  display: block;
+  font: 11px/1.5 var(--sans);
+  margin-top: 5px;
+  color: #596451;
+}
+.money-billionaires li small {
+  display: block;
+  font: 10px/1.5 var(--sans);
+  color: #596451;
+  margin-top: 5px;
+}
+.money-billionaires li strong {
+  font: normal 24px/1 var(--serif);
+  color: #304b36;
+}
+@media (max-width: 1100px) {
+  .watchlist-hero {
+    gap: 28px;
+    padding: 28px;
+  }
+  .watchlist-hero .home-watchlist-portraits {
+    gap: 18px 9px;
+  }
+}
+@media (max-width: 700px) {
+  .watchlist-hero {
+    grid-template-columns: 1fr;
+    margin-top: 24px;
+    padding: 26px 18px;
+    gap: 28px;
+  }
+  .watchlist-hero h1 {
+    font-size: 44px;
+    margin: 18px 0;
+  }
+  .watchlist-hero .home-watchlist-copy > p {
+    font-size: 17px;
+  }
+  .watchlist-hero .home-watchlist-faces {
+    min-width: 0;
+  }
+  .watchlist-hero .home-watchlist-portraits {
+    display: flex;
+    overflow-x: auto;
+    gap: 16px;
+    scrollbar-width: thin;
+    padding-bottom: 14px;
+    scroll-snap-type: x proximity;
+  }
+  .watchlist-hero .home-watchlist-portraits a {
+    flex: 0 0 106px;
+    scroll-snap-align: start;
+  }
+  .newsroom-heading {
+    padding-top: 30px;
+  }
+  .newsroom-heading h2 {
+    font-size: 31px;
+  }
+  .home-article-hero {
+    grid-template-columns: 1fr;
+    padding: 22px;
+  }
+  .home-article-hero h1 {
+    font-size: 40px;
+  }
+  .home-money-atlas {
+    padding: 20px 15px;
+  }
+  .home-money-map-heading {
+    flex-direction: column;
+    gap: 0;
+  }
+  .home-money h3 {
+    font-size: 30px;
+  }
+  .money-callouts {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .money-callouts > div + div {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .money-callouts strong {
+    font-size: 27px;
+  }
+  .home-map-explorer {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .home-map-readout {
+    min-height: 100px;
+  }
+  .home-map-canvas {
+    margin: 15px -5px 0;
+  }
+  .home-map-canvas text {
+    font-size: 16px;
+  }
+  .home-map-small {
+    justify-content: start;
+  }
+  .home-map-small a {
+    padding: 10px;
+  }
+  .home-map-legend {
+    gap: 10px;
+  }
+  .home-money-pair {
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  .home-money-pair > article {
+    padding: 22px 18px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .watchlist-hero .home-watchlist-portraits {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+  }
+  .home-money-map * {
+    transition: none;
+  }
+}
+/* Skip offscreen layout/paint on this long edition, not its server HTML.
+   Auto caches the real size after a section is viewed. These conservative
+   fallbacks reserve scroll space before the browser approaches the section. */
+.home-leaders {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 1000px;
+}
+.home-money {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 2000px;
+}
+.company-files {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 1200px;
+}
+.home-ai-index {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 550px;
+}
+.careers-section {
+  content-visibility: auto;
+  contain-intrinsic-block-size: auto 800px;
+}
+@media (max-width: 700px) {
+  .home-money {
+    contain-intrinsic-block-size: auto 3400px;
+  }
+  .company-files {
+    contain-intrinsic-block-size: auto 2100px;
+  }
+  .careers-section {
+    contain-intrinsic-block-size: auto 1400px;
+  }
+}

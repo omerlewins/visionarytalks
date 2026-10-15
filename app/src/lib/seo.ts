@@ -2,6 +2,7 @@ import { decodeHTML } from "entities";
 import sanitize from "sanitize-html";
 import defaults from "@/data/article-seo-defaults.json";
 import type { Story } from "./domain";
+import { publicationText } from "./editorial-punctuation";
 import { ownershipBrand, isOwnershipStory } from "./ownership";
 export const publicationURL = "https://visionarytalks.com";
 export function productionIndexing(
@@ -13,7 +14,9 @@ export function productionIndexing(
   );
 }
 export const textOnly = (text: string) =>
-  decodeHTML(sanitize(text, { allowedTags: [], allowedAttributes: {} }))
+  publicationText(
+    decodeHTML(sanitize(text, { allowedTags: [], allowedAttributes: {} })),
+  )
     .replace(/\s+/g, " ")
     .trim();
 const words = (text: string, max: number) =>

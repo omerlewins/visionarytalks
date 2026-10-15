@@ -753,7 +753,7 @@ export function AIWatchlist({
         </div>
         <EditorialChart
           title="Three documented founding and seed financings"
-          subtitle="Selected watchlist companies · USD millions · Sep 2025–May 2026"
+          subtitle="Selected watchlist companies · USD millions · Sep 2025 to May 2026"
           series={[
             {
               name: "Announced financing",

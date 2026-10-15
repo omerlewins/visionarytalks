@@ -55,7 +55,7 @@ export function PersonSuggestion() {
             name="source"
             type="url"
             maxLength={1000}
-            placeholder="https:// — a paper, project or profile"
+            placeholder="https://, a paper, project or profile"
           />
         </label>
         <label>

@@ -1,0 +1,23 @@
+{
+  "version": "watchlist-preview-review-v1",
+  "baseContentHash": "67c323572dda5e5ed685797c2e7ab21c401202d88d6373c6a97f2596488dc141",
+  "date": "2026-10-15",
+  "status": "awaiting-owner-preview-review",
+  "scope": "Copy and numerical-date improvements to the current approved article; preserves prior claim limitations. Not a new publication approval.",
+  "roleChecks": [
+    { "name": "Jason Wei", "source": "https://www.jasonwei.net/", "outcome": "Current personal page identifies Meta Superintelligence Labs. Earlier OpenAI work remains dated 2023 to 2025." },
+    { "name": "Hongyu Ren", "source": "https://hyren.me/", "outcome": "Fresh direct access failed; an old search record still shows OpenAI. No current employer inferred. Retain the explicitly dated June 2025 Meta hiring report and separate o1 contribution record." },
+    { "name": "Levent Alpöge", "source": "https://rits.shanghai.nyu.edu/ai/openai-navier-stokes-proof-credit-dispute/", "outcome": "NYU's dated September 2026 record identifies an Anthropic researcher. Keep this dated attribution, not an inferred current appointment from an empty Harvard page." },
+    { "name": "Helen Toner", "source": "https://cset.georgetown.edu/staff/helen-toner/", "outcome": "Institutional page identifies Executive Director; retained role is supported." },
+    { "name": "Tri Dao", "source": "https://www.cs.princeton.edu/people/profile/td8762", "outcome": "Web reader returned 403, but terminal retrieval returned 200 and the institutional biography identifies Visiting Research Scholar and Together AI chief scientist. Do not substitute the older faculty title." },
+    { "name": "Jerry Liu", "source": "https://www.linkedin.com/posts/llamaindex_jerry-liu-activity-7496564133652496384-Bhqg", "outcome": "The company's own post announcing his September 30, 2026 appearance calls him co-founder and CEO. The May 2025 KPMG statement independently supports the dated role already used in the entry." }
+  ],
+  "newNumericalEvidence": [
+    { "source": "https://fireworks.ai/blog/series-d-announcement", "outcome": "July 15, 2026 announcement attributes annualized revenue above $1B and more than 40T daily tokens to the company; added this observation date without treating run rate as audited annual revenue." },
+    { "source": "https://www.wonderful.ai/blog-articles/wonderful-raises-550m-series-c", "outcome": "September 2, 2026 company statement explicitly announces closing of $550M Series C and names Winkler CEO/co-founder. Added source and date, retaining company-reported attribution." },
+    { "source": "https://a16z.com/announcement/investing-in-periodic-labs/", "outcome": "Investor announcement dated September 30, 2025 identifies a $300M founding round; date added to the existing attributed amount." },
+    { "source": "https://www.conviction.com/launching-with-conviction", "outcome": "Undated launch statement identifies a $100M first fund. Copy labels the October 15, 2026 access date and explicitly avoids presenting this as current fund size or personal wealth." }
+  ],
+  "pendingFinancing": "Removed the unsupported current October valuation-offer reference from Uberti's Preview entry. No announced company financing becomes a personal wealth estimate, and no report of talks is treated as proof of closing.",
+  "publication": "Production release and its claim ledger remain unchanged. Changed Preview entries are pending. A separate exact reviewed integration is required before publication."
+}

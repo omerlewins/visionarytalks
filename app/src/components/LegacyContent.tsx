@@ -2,6 +2,7 @@ import sanitize from "sanitize-html";
 import { editorialTables, ownershipOpening } from "@/migration/render";
 import { extractLegacyChart } from "@/migration/charts";
 import { EditorialChart } from "./EditorialChart";
+import { publicationText } from "@/lib/editorial-punctuation";
 export function LegacyContent({
   html,
   ownership,
@@ -10,6 +11,7 @@ export function LegacyContent({
   ownership: boolean;
 }) {
   const clean = sanitize(html, {
+    textFilter: publicationText,
     allowedTags: sanitize.defaults.allowedTags.concat([
       "img",
       "figure",

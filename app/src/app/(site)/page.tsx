@@ -6,7 +6,11 @@ import Image from "next/image";
 import Link from "next/link";
 import { storyTeasers, companies, isDemo, cms } from "@/lib/content";
 import { HomeLead, OwnershipNewsroom } from "@/components/HomeLead";
-import { storyUpdated, updatedStories } from "@/lib/home-editorial";
+import {
+  storyUpdated,
+  updatedStories,
+  homepageEdition,
+} from "@/lib/home-editorial";
 import { UpdatedStamp } from "@/components/UpdatedStamp";
 import { StoryCard } from "@/components/StoryCard";
 import { TrackerPreview } from "@/components/TrackerPreview";
@@ -14,7 +18,8 @@ import { Newsletter } from "@/components/Shell";
 import { ownershipBrand } from "@/lib/ownership";
 import { notFound } from "next/navigation";
 import { loadWatchlist } from "@/lib/watchlist-content";
-import { WatchlistHomeFeature } from "@/components/WatchlistHomeFeature";
+import { HomeHero } from "@/components/HomeHero";
+import { HomeMoney } from "@/components/HomeMoney";
 export const dynamic = "force-dynamic";
 export const metadata = {
   other: { "p:domain_verify": "82d912d9494256eb147ff539476d0162" },
@@ -42,24 +47,44 @@ export default async function Home({
     query.preview !== undefined
   )
     notFound();
-  const [all, rows] = await Promise.all([storyTeasers(), companies()]);
-  const settings = isDemo()
-    ? undefined
-    : await (
-        await cms()
-      ).findGlobal({ slug: "site-settings", overrideAccess: false, depth: 0 });
+  const [all, rows, settings, publishedProfiles, watchlist] = await Promise.all(
+    [
+      storyTeasers(),
+      companies(),
+      isDemo()
+        ? Promise.resolve(undefined)
+        : cms().then((payload) =>
+            payload.findGlobal({
+              slug: "site-settings",
+              overrideAccess: false,
+              depth: 0,
+            }),
+          ),
+      publicLeaderProfiles(),
+      loadWatchlist(),
+    ],
+  );
   const ownership = updatedStories(all).filter((s) => s.kind === "ownership");
   const publicProfiles = isLeadersReview()
     ? featuredLeaders
-    : await publicLeaderProfiles();
+    : publishedProfiles;
   const leaderFeatures = featuredLeaders.flatMap((p) =>
     publicProfiles.filter((l) => l.slug === p.slug),
   );
   const leaders = all.filter((s) => s.kind === "leader");
-  const watchlist = await loadWatchlist();
+  const edition = homepageEdition(
+    all,
+    settings?.homepageHero,
+    settings?.homepageLead,
+  );
   return (
     <>
-      <HomeLead stories={all} />
+      <HomeHero story={edition.hero} watchlist={watchlist?.article} />
+      <HomeLead
+        stories={all}
+        heroChoice={settings?.homepageHero}
+        leadChoice={settings?.homepageLead}
+      />
       <section className="section home-leaders" id="people">
         <div className="section-heading">
           <div>
@@ -67,7 +92,6 @@ export default async function Home({
             <h2>The Leaders</h2>
           </div>
         </div>
-        {watchlist && <WatchlistHomeFeature article={watchlist.article} />}
         {leaderFeatures.length ? (
           <FeaturedLeaders leaders={leaderFeatures} />
         ) : (
@@ -121,10 +145,17 @@ export default async function Home({
           Explore the Leaders index ↗
         </Link>
       </section>
+      <HomeMoney
+        stories={all}
+        leaders={publishedProfiles}
+        selectedState={
+          typeof query.state === "string" ? query.state : undefined
+        }
+      />
       <section className="section company-files" id="ownership">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">02 / OWNERSHIP</span>
+            <span className="eyebrow">03 / OWNERSHIP</span>
             <h2>Behind the Brand</h2>
           </div>
           <p>
@@ -200,7 +231,7 @@ export default async function Home({
       {!!rows.length && (
         <section className="section home-ai-index">
           <div className="home-ai-intro">
-            <span className="eyebrow">03 / AI COMPANIES</span>
+            <span className="eyebrow">04 / AI COMPANIES</span>
             <h2>
               Behind the hype.
               <br />
@@ -220,7 +251,7 @@ export default async function Home({
       <section className="section careers-section">
         <div className="section-heading">
           <div>
-            <span className="eyebrow">04 / CAREERS</span>
+            <span className="eyebrow">05 / CAREERS</span>
             <h2>Work, considered.</h2>
           </div>
           <p>Clear reporting for consequential career decisions.</p>
@@ -271,7 +302,7 @@ export default async function Home({
           </div>
         </div>
       </section>
-      <Newsletter kicker="05 / NEWSLETTER" />
+      <Newsletter kicker="06 / NEWSLETTER" />
     </>
   );
 }

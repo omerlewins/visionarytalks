@@ -1,5 +1,7 @@
 # Homepage edition and freshness
 
+The sections below describe the first October 15 public release. The later consolidated Preview changes the hero, adds Money and expands the article review. Its current design, CMS controls, isolation and evidence are documented in [CONSOLIDATED_REVIEW.md](CONSOLIDATED_REVIEW.md).
+
 The homepage keeps the publication's serif masthead, cream and black editorial palette, accepted portraits and AI illustration disclosures. The order is hero, 01 Leaders, 02 Ownership, 03 AI companies, 04 Careers, 05 Newsletter, then footer.
 
 ## Automatic content

@@ -31,6 +31,7 @@ export type Story = {
   id: string;
   path: string;
   title: string;
+  homepageHeadline?: string | null;
   dek: string;
   kind: "article" | "ownership" | "leader" | "salary" | "company" | "page";
   category: string;

@@ -22,23 +22,24 @@ import {
 import { publicationAuthor } from "@/lib/authors";
 import { publicLeaderProfiles } from "@/lib/leader-content";
 import { isLeadersReview } from "@/lib/leaders-review";
+import { publicationText } from "@/lib/editorial-punctuation";
 export function Inline({ text }: { text: string }) {
   const parts = text.split(/(\[[^\]]+\]\((?:https:\/\/|\/|\.\.\/)[^)]+\))/g);
   return (
     <>
       {parts.map((part, i) => {
         const m = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
-        if (!m) return <Fragment key={i}>{part}</Fragment>;
+        if (!m) return <Fragment key={i}>{publicationText(part)}</Fragment>;
         const href = m[2].startsWith("../")
           ? "/leaders/" + m[2].slice(3)
           : m[2];
         return href.startsWith("/") ? (
           <Link key={i} href={href}>
-            {m[1]}
+            {publicationText(m[1])}
           </Link>
         ) : (
           <a key={i} href={href}>
-            {m[1]}
+            {publicationText(m[1])}
           </a>
         );
       })}
@@ -47,7 +48,7 @@ export function Inline({ text }: { text: string }) {
 }
 function Source({ id }: { id: string }) {
   const s = leaderSources[id];
-  return s ? <a href={s.url}>{s.title}</a> : null;
+  return s ? <a href={s.url}>{publicationText(s.title)}</a> : null;
 }
 export async function LeaderProfile({ leader: p }: { leader: Profile }) {
   const companyLinks = leaderCompanyLinks(p.slug);

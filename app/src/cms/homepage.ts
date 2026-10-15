@@ -1,6 +1,38 @@
 import type { Field } from "payload";
 export const homepageFields: Field[] = [
   {
+    name: "homepageHero",
+    label: "Homepage hero",
+    type: "relationship",
+    relationTo: "stories",
+    filterOptions: {
+      and: [
+        { _status: { equals: "published" } },
+        { kind: { not_equals: "page" } },
+      ],
+    },
+    admin: {
+      description:
+        "Choose a published article. Defaults to 100 AI people to watch in 2027. Unpublished choices never appear.",
+    },
+  },
+  {
+    name: "homepageLead",
+    label: "Newsroom lead: optional editor's pick",
+    type: "relationship",
+    relationTo: "stories",
+    filterOptions: {
+      and: [
+        { _status: { equals: "published" } },
+        { kind: { not_equals: "page" } },
+      ],
+    },
+    admin: {
+      description:
+        "Leave blank for the newest editorial update, excluding the hero. A manual choice is labelled Editor's pick.",
+    },
+  },
+  {
     name: "ownershipUpdates",
     label: "This week in ownership",
     type: "array",

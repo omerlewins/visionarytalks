@@ -32,7 +32,12 @@ test("edition sorts editorial updates and keeps the watchlist out of the lead", 
   const edition = homepageEdition(stories);
   assert.equal(edition.lead?.path, "/lead/");
   assert.equal(edition.latest.length, 6);
-  assert.equal(edition.latest[0].path, "/ai-people-to-watch/");
+  assert.equal(edition.hero?.path, "/ai-people-to-watch/");
+  assert.ok(
+    !edition.latest.some(
+      (s) => s.path === edition.hero?.path || s.path === edition.lead?.path,
+    ),
+  );
   assert.equal(edition.updated, "2026-10-15");
   assert.equal(
     storyUpdated({ modifiedAt: "invalid", publishedAt: "2026-10-01" }),
@@ -42,6 +47,24 @@ test("edition sorts editorial updates and keeps the watchlist out of the lead", 
     homepageEdition([article("/draft/", "2026-10-15", "page")]).lead,
     undefined,
   );
+});
+test("CMS hero and manual lead only resolve to published indexable stories", () => {
+  const stories = [
+    article("/hero/", "2026-10-10"),
+    article("/latest/", "2026-10-15"),
+    article("/pick/", "2026-09-01"),
+    article("/ai-people-to-watch/", "2026-10-14"),
+  ];
+  const edition = homepageEdition(stories, { id: "/hero/" }, "/pick/");
+  assert.equal(edition.hero?.path, "/hero/");
+  assert.equal(edition.lead?.path, "/pick/");
+  assert.equal(edition.editorPick, true);
+  assert.equal(edition.latest[0].path, "/latest/");
+  assert.equal(
+    homepageEdition(stories, "missing", "missing").hero?.path,
+    "/ai-people-to-watch/",
+  );
+  assert.equal(homepageEdition(stories, "/hero/", "/hero/").editorPick, false);
 });
 test("dates use Eastern time and distinguish yesterday from elapsed hours", () => {
   assert.equal(

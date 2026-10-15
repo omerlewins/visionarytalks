@@ -1,5 +1,6 @@
 import sanitize from "sanitize-html";
 import { decodeHTML } from "entities";
+import { publicationText } from "@/lib/editorial-punctuation";
 
 export function ownershipOpening(html: string) {
   return html.replace(
@@ -30,8 +31,10 @@ export function legacyHeadings(html: string) {
       const id = existing ?? `legacy-heading-${toc.length + 1}`;
       toc.push({
         id,
-        heading: decodeHTML(
-          sanitize(text, { allowedTags: [], allowedAttributes: {} }),
+        heading: publicationText(
+          decodeHTML(
+            sanitize(text, { allowedTags: [], allowedAttributes: {} }),
+          ),
         ),
       });
       const headingLevel = level === "1" ? "2" : level;
