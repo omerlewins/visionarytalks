@@ -137,7 +137,7 @@ export function GoogleAnalytics({
         <Script
           id="vt-ga4"
           src={"https://www.googletagmanager.com/gtag/js?id=" + measurementId}
-          strategy="afterInteractive"
+          strategy={pathname === "/" ? "lazyOnload" : "afterInteractive"}
           onReady={initialize}
         />
       )}
