@@ -8,6 +8,8 @@ The plain production URL and both `?v=reviewed-20261014` and `?v=complete-202610
 
 No live truncation or query-dependent stale response was reproduced. There is therefore no evidence of a CMS length cap, broken markdown token or failing build step. A reader-side or extraction cutoff remains possible but unproven; do not describe that as an established cause. A fresh deployment and repeat plain-URL checks are required for the corrected release.
 
+The expanded renderer did pass full profile objects into the client index, unlike the older concise layout. Corrected that boundary to send only the eight discovery fields. This removes redundant biography and source data from the client payload; it is a payload reduction, not proof of the reported truncation's cause.
+
 ## Changed claim scope
 
 All 100 retained October 14 entries were checked for the five required fields and reviewed for public drafting language and repeated outlook/risk openings. New outlook openings use work or events already established in that entry, not newly inferred funding or appointments. Unsupported education remains unknown. Removal of internal omission explanations does not restore the omitted claims. Earlier retained claims retain the scope and limitations of the October 14 field ledger; they were not all independently researched again on October 15.

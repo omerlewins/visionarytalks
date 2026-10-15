@@ -76,7 +76,14 @@ function ExpandedWatchlist({
           </p>
         ))}
       </div>
-      <WatchlistExplorer people={article.people} overview />
+      <WatchlistExplorer
+        people={article.people.map(
+          ({ id, number, name, organization, role, chapter, bottleneck, hook }) => ({
+            id, number, name, organization, role, chapter, bottleneck, hook,
+          }),
+        )}
+        overview
+      />
       <section className="watch-featured-path">
         <h2>Twelve to start with.</h2>
         <div>
