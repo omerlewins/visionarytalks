@@ -210,7 +210,11 @@ try {
       const stored = (
         await payload.find({
           collection: "sources",
-          where: { url: { equals: record.url } },
+          // Reuse approved sources only; unreviewed drafts stay as they are.
+          where: {
+            url: { equals: record.url },
+            _status: { equals: "published" },
+          },
           depth: 0,
           limit: 1,
         })
