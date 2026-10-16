@@ -58,6 +58,7 @@
     "prettier": "3.9.9",
     "tsx": "^4.20.6",
     "typescript": "^5.9.3",
-    "wait-on": "9.5.1"
+    "wait-on": "9.5.1",
+    "world-atlas": "2.0.2"
   }
 }
