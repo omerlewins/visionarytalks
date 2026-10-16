@@ -53,7 +53,8 @@ test("every citizenship country joins to bundled world geometry", () => {
 
 test("draft copy answers first, avoids em dashes and links the money cluster", () => {
   const text = JSON.stringify(article);
-  assert.ok(!text.includes("—"), "no em dashes");
+  const emDash = String.fromCharCode(0x2014);
+  assert.ok(!text.includes(emDash), "no em dashes");
   const first = article.blocks[0];
   assert.equal(first.type, "p");
   if (first.type === "p") {
@@ -87,5 +88,10 @@ test("draft copy answers first, avoids em dashes and links the money cluster", (
     "src/components/YoungestBillionairesRanking.tsx",
     "../growth/money/youngest-billionaires/ARTICLE.md",
   ])
-    assert.ok(!readFileSync(file, "utf8").includes("—"), file);
+    assert.ok(
+      !readFileSync(new URL("../" + file, import.meta.url), "utf8").includes(
+        emDash,
+      ),
+      file,
+    );
 });
