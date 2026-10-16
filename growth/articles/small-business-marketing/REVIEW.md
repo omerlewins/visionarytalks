@@ -31,3 +31,5 @@ The earlier unrelated untracked `debug.log` is excluded from the commit. The pre
 ## October 16 publication authorization
 
 After Preview acceptance, the owner explicitly confirmed deploying all changes to the live domain. The same importer now has an explicit `--production` mode, requiring the exact live database host and Production environment. The default remains the existing isolated target. The source article, homepage exclusion and conversion checksum are unchanged. Live import follows the rehearsed additive schema migration and new application rollout so an older homepage cannot temporarily promote the article through its automatic Latest list.
+
+Completed: Production Story 147 is live at https://visionarytalks.com/small-business-marketing-strategies/. Desktop/mobile and JavaScript/no-JavaScript checks pass on the main domain, with no homepage links to the article. The public sitemap includes it. See `growth/homepage-2026-10-15/LIVE_RELEASE_2026-10-16.md` for the complete release receipt.

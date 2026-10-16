@@ -1,5 +1,7 @@
 # Consolidated homepage and watchlist Preview
 
+Historical Preview record. The owner subsequently authorized live publication on October 16. See `LIVE_RELEASE_2026-10-16.md` for the completed deployment, separate claim integration and live verification.
+
 The owner approved implementing the three attached prompts in Preview. This revision supersedes the first October 15 homepage layout. It is not authorization to change the main domain or approve a new watchlist publication release.
 
 ## Homepage
