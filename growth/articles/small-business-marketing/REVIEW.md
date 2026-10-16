@@ -27,3 +27,7 @@ The additive migration updates the story and version schemas. It was applied onl
 - Screenshots and browser results are private under `private/article-imports/`.
 
 The earlier unrelated untracked `debug.log` is excluded from the commit. The previous accepted homepage and watchlist work is included in the branch being pushed.
+
+## October 16 publication authorization
+
+After Preview acceptance, the owner explicitly confirmed deploying all changes to the live domain. The same importer now has an explicit `--production` mode, requiring the exact live database host and Production environment. The default remains the existing isolated target. The source article, homepage exclusion and conversion checksum are unchanged. Live import follows the rehearsed additive schema migration and new application rollout so an older homepage cannot temporarily promote the article through its automatic Latest list.

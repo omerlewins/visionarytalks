@@ -3,15 +3,22 @@ import config from "../src/payload.config";
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { createHash } from "node:crypto";
 
-// The accepted homepage work and this import share an isolated review snapshot.
-// This is deliberately not a Production publication script.
+// Production integration was explicitly authorized after Preview acceptance.
+// Live writes require a separate flag, exact host and Production environment.
+const production = process.argv.includes("--production");
+const expectedHost = production
+  ? "ep-misty-grass-b79eo2x6.c-13.us-east-1.aws.neon.tech"
+  : "ep-lively-scene-b7dmo6bp.c-13.us-east-1.aws.neon.tech";
 if (
-  process.env.APP_ENV !== "preview" ||
-  process.env.VERCEL_ENV !== "preview" ||
-  new URL(process.env.DATABASE_URL!).hostname !==
-    "ep-lively-scene-b7dmo6bp.c-13.us-east-1.aws.neon.tech"
+  (production
+    ? process.env.APP_ENV !== "production" ||
+      process.env.VERCEL_ENV !== "production"
+    : !["preview", "production"].includes(process.env.APP_ENV!)) ||
+  new URL(process.env.DATABASE_URL!).hostname !== expectedHost
 ) {
-  throw Error("Only the isolated editorial Preview snapshot is allowed");
+  throw Error(
+    "Expected isolated rehearsal, or explicitly selected authorized Production",
+  );
 }
 const input = JSON.parse(
   await readFile(

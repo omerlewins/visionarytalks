@@ -1,7 +1,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import { aiWatchlist } from "../src/lib/ai-watchlist";
-import { previewWatchlist } from "../src/lib/watchlist-preview";
+import {
+  previewWatchlist,
+  pendingWatchlistRevision,
+} from "../src/lib/watchlist-preview";
 import {
   validateWatchlistPublication,
   watchlistReviewHash,
@@ -12,13 +15,14 @@ import {
 } from "../src/lib/editorial-punctuation";
 test("Preview copy edits cannot inherit the approved watchlist release", () => {
   const before = JSON.stringify(aiWatchlist),
-    draft = previewWatchlist();
+    draft = pendingWatchlistRevision();
   assert.equal(draft.people.length, 100);
   assert.equal(draft.editorialReview.status, "awaiting-editorial-review");
   assert.ok(draft.people.some((p) => p.reviewState === "pending"));
   assert.throws(() => validateWatchlistPublication(draft, watchlistReviewHash));
   assert.equal(JSON.stringify(aiWatchlist), before);
   validateWatchlistPublication(aiWatchlist, watchlistReviewHash);
+  assert.deepEqual(previewWatchlist(), aiWatchlist);
   assert.ok(
     !draft.people.some((p) =>
       JSON.stringify(p.profile).includes("original brief"),

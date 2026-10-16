@@ -4,7 +4,7 @@ const { chromium } = require('../../../app/node_modules/@playwright/test');
 const protect = require('../../ai-people-2027/preview-check-access.cjs');
 const article = require('./article.json');
 const base = process.argv[2] || 'http://127.0.0.1:3126';
-if (!/^(http:\/\/127\.0\.0\.1:3126|https:\/\/visionarytalks-[a-z0-9]+-omer-webielcoms-projects\.vercel\.app)$/.test(base)) throw Error('Preview origin required');
+if (!/^(http:\/\/127\.0\.0\.1:(3126|3128)|https:\/\/(www\.)?visionarytalks\.com|https:\/\/visionarytalks-[a-z0-9]+-omer-webielcoms-projects\.vercel\.app)$/.test(base)) throw Error('Known review or publication origin required');
 (async () => {
   const browser = await chromium.launch();
   const results = [];

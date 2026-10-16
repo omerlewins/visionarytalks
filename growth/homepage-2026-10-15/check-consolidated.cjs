@@ -3,11 +3,11 @@ const fs = require("fs"),
   { chromium } = require("../../app/node_modules/@playwright/test");
 const base = process.argv[2] || "http://127.0.0.1:3126";
 if (
-  !/^(?:http:\/\/127\.0\.0\.1:3126|https:\/\/visionarytalks-[a-z0-9]+-omer-webielcoms-projects\.vercel\.app)$/.test(
+  !/^(?:http:\/\/127\.0\.0\.1:(3126|3128)|https:\/\/(www\.)?visionarytalks\.com|https:\/\/visionarytalks-[a-z0-9]+-omer-webielcoms-projects\.vercel\.app)$/.test(
     base,
   )
 )
-  throw Error("Preview origin required");
+  throw Error("Known review or publication origin required");
 const output = "private/home-consolidated";
 fs.mkdirSync(output, { recursive: true });
 const access = base.includes(".vercel.app")

@@ -1,0 +1,18 @@
+{
+  "version": "watchlist-release-v1",
+  "path": "/ai-people-to-watch/",
+  "reviewedAt": "2026-10-15",
+  "authorization": "Owner explicitly requested correction, full completeness checks and publication of the existing live article in this chat.",
+  "scope": "October 15 copy and completeness correction carrying forward the October 14 retained-claim review, with newly opened primary biographies for Pope and Zhou. Unknowns remain explicit; forecasts are editorial opinions. See rebuild-2026-10-15/REVIEW.md for the exact review scope.",
+  "contentHash": "67c323572dda5e5ed685797c2e7ab21c401202d88d6373c6a97f2596488dc141",
+  "claimLedgerHash": "deaeb8cc8ab969c3f3ab93a298c2e405bc04f4d504732c159c236b59effe45c4",
+  "retainedClaims": 100,
+  "sourceRecords": 108,
+  "expandedCitationURLs": 196,
+  "limitations": [
+    "Public-record review of the retained claims and explicitly labelled editorial analysis; no interviews or audited company accounts.",
+    "Education dates and current jobs that could not be established remain unknown or explicitly attributed to dated records.",
+    "Company operating metrics are attributed claims. Private stakes and personal wealth are not estimated; pending transactions are not closed rounds.",
+    "This editorial selection is not a demographic survey, influence ranking or investment recommendation."
+  ]
+}

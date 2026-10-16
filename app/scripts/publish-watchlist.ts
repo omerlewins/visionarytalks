@@ -5,6 +5,7 @@ import {
   watchlistReviewHash,
   previousWatchlistReviewHash,
   october14WatchlistReviewHash,
+  october15WatchlistReviewHash,
 } from "../src/lib/watchlist-publication";
 import { validatePublishedResearch } from "../src/lib/published-research";
 import { mkdir, writeFile } from "node:fs/promises";
@@ -64,7 +65,9 @@ try {
   )?.reviewHash;
   const replacement = Boolean(
     old &&
-    (oldHash === previousWatchlistReviewHash || oldHash === october14WatchlistReviewHash) &&
+    (oldHash === previousWatchlistReviewHash ||
+      oldHash === october14WatchlistReviewHash ||
+      oldHash === october15WatchlistReviewHash) &&
     process.argv.includes("--replace-reviewed"),
   );
   if (replacement)
