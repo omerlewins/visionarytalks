@@ -2,6 +2,10 @@ import sanitize from "sanitize-html";
 import { editorialTables, ownershipOpening } from "@/migration/render";
 import { extractLegacyChart } from "@/migration/charts";
 import { EditorialChart } from "./EditorialChart";
+import {
+  YoungestBillionairesEmbed,
+  youngestBillionairesMarker,
+} from "./YoungestBillionairesEmbed";
 import { publicationText } from "@/lib/editorial-punctuation";
 export function LegacyContent({
   html,
@@ -26,6 +30,24 @@ export function LegacyContent({
   const chart = extractLegacyChart(clean);
   const opening = (value: string) =>
     editorialTables(ownership ? ownershipOpening(value) : value);
+  if (youngestBillionairesMarker.test(clean)) {
+    // split() with one capture group alternates HTML and marker kinds.
+    const parts = clean.split(new RegExp(youngestBillionairesMarker, "g"));
+    return (
+      <div className="legacy-content">
+        {parts.map((part, i) =>
+          i % 2 ? (
+            <YoungestBillionairesEmbed key={i} kind={part} />
+          ) : (
+            <div
+              key={i}
+              dangerouslySetInnerHTML={{ __html: editorialTables(part) }}
+            />
+          ),
+        )}
+      </div>
+    );
+  }
   return (
     <div className="legacy-content">
       {chart ? (

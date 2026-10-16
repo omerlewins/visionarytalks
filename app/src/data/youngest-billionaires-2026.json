@@ -1,0 +1,999 @@
+{
+  "contract": "youngest-billionaires-v1",
+  "listDate": "2026-03-01",
+  "listPublished": "2026-03-10",
+  "checked": "2026-10-16",
+  "geography": "citizenship",
+  "asOf": "Net worths and ages as of 2026-03-01 (Forbes World's Billionaires 2026, published 2026-03-10). Research compiled 2026-10-16. This is the latest full Forbes snapshot of under-30 billionaires found; it is NOT a live/current October 2026 figure.",
+  "method": "Primary source: Forbes 'The World's Youngest Billionaires 2026: 35 Under 30' (all 35 billionaires under 30 on the 2026 list). Ranked youngest first by age as of 2026-03-01; ties broken by reversing Forbes' own oldest-to-youngest article order (presumed birth-date order, not independently verified). Self-made = Forbes asterisk; all others labelled inherited. Cross-checked against Forbes facts-and-figures article and two secondary pages citing the same Forbes data (ValueAddVC, Visual Capitalist): no numeric disagreements. Bloomberg Billionaires Index was not opened/used (it ranks only the top 500, whose cutoff is far above these fortunes), so there are no Bloomberg figures. Birth years not published in sources opened, so left null.",
+  "sources": [
+    {
+      "title": "The World's Youngest Billionaires 2026: 35 Under 30 (Forbes, Simone Melvin, 2026-03-10, updated 2026-03-17)",
+      "url": "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "title": "Inside Forbes' 2026 Billionaires List: More Than 3,400 Worth $20 Trillion (Forbes, Chase Peterson-Withorn, 2026-03-10)",
+      "url": "https://www.forbes.com/sites/chasewithorn/2026/03/10/2026-worlds-billionaires-list-facts-and-figures/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "title": "Youngest Billionaires 2026: All 35 Under 30 on the Forbes List (ValueAddVC)",
+      "url": "https://valueaddvc.com/tools/forbes-under30-billionaires",
+      "accessed": "2026-10-16"
+    },
+    {
+      "title": "Ranked: The Youngest Billionaires in 2026 (Visual Capitalist, 2026-05-18)",
+      "url": "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/",
+      "accessed": "2026-10-16"
+    },
+    {
+      "title": "The 10 youngest billionaires on the 2026 Forbes 400 list (Forbes Australia, 2026-09-15; US-only, net worths as of 2026-09-04)",
+      "url": "https://www.forbes.com.au/?p=206622",
+      "accessed": "2026-10-16"
+    },
+    {
+      "title": "Brasileira de 21 anos e a bilionaria mais jovem do mundo (Economic News Brasil, 2026-08-28)",
+      "url": "https://economicnewsbrasil.com.br/2026/08/28/bilionaria-mais-jovem-do-mundo-amelie-voigt/",
+      "accessed": "2026-10-16"
+    }
+  ],
+  "summary": {
+    "all35": {
+      "count": 35,
+      "selfMade": 12,
+      "inherited": 23,
+      "medianAge": 25,
+      "medianNetWorthUSD_B": 1.7,
+      "meanAge": 25.03,
+      "totalNetWorthUSD_B": 92.4
+    },
+    "youngest25": {
+      "count": 25,
+      "selfMade": 8,
+      "inherited": 17,
+      "medianAge": 24,
+      "medianNetWorthUSD_B": 1.7,
+      "meanAge": 23.68,
+      "totalNetWorthUSD_B": 69.7
+    }
+  },
+  "people": [
+    {
+      "rank": 1,
+      "name": "Amelie Voigt Trejes",
+      "age": 20,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.1,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Industrial machinery: WEG (~2%)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Brazil",
+      "iso3": "BRA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Forbes: world's youngest billionaire. Forbes Brasil Aug 2026 survey (prices 30 Jun 2026) put her at R$6.7bn, age 21 (per economicnewsbrasil.com.br); no USD figure given",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/",
+        "https://www.forbes.com/sites/chasewithorn/2026/03/10/2026-worlds-billionaires-list-facts-and-figures/",
+        "https://economicnewsbrasil.com.br/2026/08/28/bilionaria-mais-jovem-do-mundo-amelie-voigt/"
+      ]
+    },
+    {
+      "rank": 2,
+      "name": "Johannes von Baumbach",
+      "age": 20,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 6.6,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Pharma: Boehringer Ingelheim",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Forbes calls him the second-youngest billionaire",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 3,
+      "name": "Livia Voigt de Assis",
+      "age": 21,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.4,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Industrial machinery: WEG (3.1% with sister Dora)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Brazil",
+      "iso3": "BRA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 4,
+      "name": "Clemente Del Vecchio",
+      "age": 21,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 6.8,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Eyewear: ~12.5% of Delfin (EssilorLuxottica)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Italy",
+      "iso3": "ITA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 5,
+      "name": "Kim Jung-youn",
+      "age": 22,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.7,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Online gaming: Nexon (~9%, with sister Jung-min)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "South Korea",
+      "iso3": "KOR",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 6,
+      "name": "Surya Midha",
+      "age": 22,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 2.2,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Mercor cofounder",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "World's youngest self-made billionaire per Forbes",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/",
+        "https://www.forbes.com/sites/chasewithorn/2026/03/10/2026-worlds-billionaires-list-facts-and-figures/"
+      ]
+    },
+    {
+      "rank": 7,
+      "name": "Brendan Foody",
+      "age": 22,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 2.2,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Mercor cofounder & CEO",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 8,
+      "name": "Adarsh Hiremath",
+      "age": 22,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 2.2,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Mercor cofounder",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 9,
+      "name": "Kevin David Lehmann",
+      "age": 23,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 4.9,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Drugstores: 50% of dm-drogerie markt",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Received stake from father in 2017 at age 14",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 10,
+      "name": "Pedro Voigt Trejes",
+      "age": 23,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.1,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Industrial machinery: WEG",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Brazil",
+      "iso3": "BRA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Twin of Felipe",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 11,
+      "name": "Felipe Voigt Trejes",
+      "age": 23,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.1,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Industrial machinery: WEG",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Brazil",
+      "iso3": "BRA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Twin of Pedro",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 12,
+      "name": "Kim Jung-min",
+      "age": 24,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.7,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Online gaming: Nexon (~9%, with sister Jung-youn)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "South Korea",
+      "iso3": "KOR",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 13,
+      "name": "Luca Del Vecchio",
+      "age": 24,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 6.8,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Eyewear: ~12.5% of Delfin (EssilorLuxottica)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Italy",
+      "iso3": "ITA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 14,
+      "name": "Franz von Baumbach",
+      "age": 24,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 6.6,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Pharma: Boehringer Ingelheim",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 15,
+      "name": "Remi Dassault",
+      "age": 24,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 2.4,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Diversified: Dassault Aviation / Dassault Systemes",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "France",
+      "iso3": "FRA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 16,
+      "name": "Maxim Tebar",
+      "age": 25,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.2,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Chainsaws: fourth-generation Stihl heir",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 17,
+      "name": "Michael Truell",
+      "age": 25,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Cursor (Anysphere) cofounder & CEO",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 18,
+      "name": "Aman Sanger",
+      "age": 25,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Cursor (Anysphere) cofounder",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 19,
+      "name": "Yoni Nahmad",
+      "age": 25,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Art: son of late art dealer Ezra Nahmad",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Italy",
+      "iso3": "ITA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 20,
+      "name": "Sualeh Asif",
+      "age": 26,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Cursor (Anysphere) cofounder & CTO",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "Pakistan",
+      "iso3": "PAK",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Only Pakistani billionaire on 2026 list per Forbes",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 21,
+      "name": "Arvid Lunnemark",
+      "age": 26,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI software: Cursor (Anysphere) cofounder",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "Sweden",
+      "iso3": "SWE",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Left Cursor Oct 2025 to start an AI safety company",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 22,
+      "name": "Katharina von Baumbach",
+      "age": 26,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 6.6,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Pharma: Boehringer Ingelheim",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 23,
+      "name": "Abbas Sajwani",
+      "age": 26,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.9,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Real estate: AHS Properties (son of Hussain Sajwani, DAMAC)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "United Arab Emirates",
+      "iso3": "ARE",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Founded AHS in 2021 but Forbes does not mark him self-made",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 24,
+      "name": "Fabian Hedin",
+      "age": 26,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.6,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI coding: Lovable cofounder, ~24% stake",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "Sweden",
+      "iso3": "SWE",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 25,
+      "name": "Zahan Mistry",
+      "age": 27,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 3.1,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Diversified: 4.6% of Tata Sons (with brother Firoz)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Ireland",
+      "iso3": "IRL",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Irish citizen; wealth from India's Tata Sons stake",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 26,
+      "name": "Carl-Anton Kunz",
+      "age": 27,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.1,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Plumbing & heating supplies: Cordes & Graefe (GC Group)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 27,
+      "name": "Shayne Coplan",
+      "age": 27,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.0,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Polymarket (prediction markets), founder & CEO, ~11% stake",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 28,
+      "name": "Maximilian von Baumbach",
+      "age": 28,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 6.6,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Pharma: Boehringer Ingelheim",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Germany",
+      "iso3": "DEU",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 29,
+      "name": "Dora Voigt de Assis",
+      "age": 28,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.4,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Industrial machinery: WEG (3.1% with sister Livia)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Brazil",
+      "iso3": "BRA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 30,
+      "name": "Alexandr Wang",
+      "age": 29,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 3.2,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "AI: Scale AI founder; Meta chief AI officer",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 31,
+      "name": "Firoz Mistry",
+      "age": 29,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 3.1,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Diversified: 4.6% of Tata Sons (with brother Zahan)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Ireland",
+      "iso3": "IRL",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Irish citizen; wealth from India's Tata Sons stake",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 32,
+      "name": "Alexandra Andresen",
+      "age": 29,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 2.5,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Investments: Ferd (family tobacco fortune sold 2005)",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "Norway",
+      "iso3": "NOR",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 33,
+      "name": "Wang Zelong",
+      "age": 29,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.2,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Chemicals: stake in CNNC Hua Yuan Titanium Dioxide",
+      "selfMade": false,
+      "wealthType": "inherited (not marked self-made by Forbes)",
+      "citizenship": "China",
+      "iso3": "CHN",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 34,
+      "name": "Luana Lopes Lara",
+      "age": 29,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Kalshi (prediction markets), cofounder & COO, ~12% stake",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "Brazil",
+      "iso3": "BRA",
+      "residence": "United States",
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "Lives in the US per Forbes; youngest self-made woman billionaire per Forbes",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    },
+    {
+      "rank": 35,
+      "name": "Tarek Mansour",
+      "age": 29,
+      "ageAsOf": "2026-03-01 (Forbes list date; may be one year older by Oct 2026)",
+      "birthYear": null,
+      "netWorthUSD_B": 1.3,
+      "netWorthSource": "Forbes World's Billionaires 2026",
+      "netWorthAsOf": "2026-03-01",
+      "sourceOfWealth": "Kalshi (prediction markets), cofounder & CEO, ~12% stake",
+      "selfMade": true,
+      "wealthType": "self-made",
+      "citizenship": "United States",
+      "iso3": "USA",
+      "residence": null,
+      "verification": "verified: Forbes article opened; cross-checked against 2 secondary pages citing Forbes (identical figures)",
+      "notes": "",
+      "sourceUrls": [
+        "https://www.forbes.com/sites/simonemelvin/2026/03/10/the-worlds-youngest-billionaires-2026/",
+        "https://valueaddvc.com/tools/forbes-under30-billionaires",
+        "https://www.visualcapitalist.com/cp/ranked-the-youngest-billionaires-in-2026/"
+      ]
+    }
+  ],
+  "byCountry": [
+    {
+      "country": "United States",
+      "iso3": "USA",
+      "count": 8
+    },
+    {
+      "country": "Germany",
+      "iso3": "DEU",
+      "count": 7
+    },
+    {
+      "country": "Brazil",
+      "iso3": "BRA",
+      "count": 6
+    },
+    {
+      "country": "Italy",
+      "iso3": "ITA",
+      "count": 3
+    },
+    {
+      "country": "Ireland",
+      "iso3": "IRL",
+      "count": 2
+    },
+    {
+      "country": "South Korea",
+      "iso3": "KOR",
+      "count": 2
+    },
+    {
+      "country": "Sweden",
+      "iso3": "SWE",
+      "count": 2
+    },
+    {
+      "country": "China",
+      "iso3": "CHN",
+      "count": 1
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "count": 1
+    },
+    {
+      "country": "Norway",
+      "iso3": "NOR",
+      "count": 1
+    },
+    {
+      "country": "Pakistan",
+      "iso3": "PAK",
+      "count": 1
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "count": 1
+    }
+  ],
+  "byCountryYoungest25": [
+    {
+      "country": "Germany",
+      "iso3": "DEU",
+      "count": 5
+    },
+    {
+      "country": "United States",
+      "iso3": "USA",
+      "count": 5
+    },
+    {
+      "country": "Brazil",
+      "iso3": "BRA",
+      "count": 4
+    },
+    {
+      "country": "Italy",
+      "iso3": "ITA",
+      "count": 3
+    },
+    {
+      "country": "South Korea",
+      "iso3": "KOR",
+      "count": 2
+    },
+    {
+      "country": "Sweden",
+      "iso3": "SWE",
+      "count": 2
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "count": 1
+    },
+    {
+      "country": "Ireland",
+      "iso3": "IRL",
+      "count": 1
+    },
+    {
+      "country": "Pakistan",
+      "iso3": "PAK",
+      "count": 1
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "count": 1
+    }
+  ],
+  "notes": [
+    "Forbes 2026 list: record 3,428 billionaires, record 35 under 30 (net worths as of 2026-03-01).",
+    "Youngest billionaire: Amelie Voigt Trejes (Brazil, WEG heir), 20 at list time; reported as 21 by Aug 2026. Youngest self-made: Surya Midha (Mercor), 22.",
+    "Ages are as of 2026-03-01; several people will have had birthdays by Oct 2026. Exact birth dates/years were not published in the sources opened, so within-age ordering follows Forbes' article order and is not independently verified.",
+    "Net worths are a 2026-03-01 snapshot. Post-March valuation changes (e.g. new funding for Mercor, Cursor, Kalshi, Polymarket, Lovable) were not systematically re-verified; do not present these as current October 2026 figures.",
+    "Disagreement: Forbes Brasil's August 2026 survey (share prices 30 Jun 2026) puts Amelie Voigt Trejes at R$6.7bn vs Forbes global US$1.1bn (~R$5.72bn) in March; different reference dates, no USD conversion published.",
+    "Firoz and Zahan Mistry are Irish citizens per Forbes; their fortune comes from India's Tata Sons (Shapoorji Pallonji family). Map shows them under Ireland.",
+    "Residence: Forbes says 8 US citizens plus 3 non-citizens (incl. Luana Lopes Lara) live in the US; the other two US residents are not named in the article, so residence is null (unverified) for everyone except Lopes Lara.",
+    "Rank 25 cutoff: Zahan Mistry and Carl-Anton Kunz are both 27; the Forbes order puts Mistry younger, but birth dates were not verified, so the 25th place is a tie at age 27.",
+    "Abbas Sajwani founded AHS Properties but Forbes does not mark him self-made (son of DAMAC founder Hussain Sajwani); labelled inherited per Forbes.",
+    "Forbes 400 (US, Sept 2026) youngest member is Steven Hao (Cognition), 30, $5.8B - over 30, so outside this under-30 ranking. No Figure AI or other 2025-26 AI founder appears on Forbes under-30 list beyond Mercor, Cursor, Lovable and Scale AI founders listed here.",
+    "Bloomberg Billionaires Index (top 500 only) was not checked; no Bloomberg figures are included.",
+    "Visual Capitalist misspells two names (Luana 'Lopez' Lara, 'Carl Anton-Kunz'); Forbes spelling used."
+  ]
+}
