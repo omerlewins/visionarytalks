@@ -7,15 +7,22 @@ import YAML from "yaml";
 import { youngestBillionairesArticle as yb } from "../src/lib/youngest-billionaires-article";
 
 // Loads the six October 2026 KD-under-10 articles into the isolated Preview CMS
-// for owner review. Preview only: Production publication is a separate,
-// explicitly approved step. Dry-run unless --apply.
+// for owner review, or, with --production, into the live CMS after the owner's
+// explicit approval (Oct 16 2026). Dry-run unless --apply.
+const production = process.argv.includes("--production");
 if (
   !process.argv.includes("--print") &&
-  (process.env.APP_ENV !== "preview" ||
-    process.env.VERCEL_ENV === "production" ||
-    process.env.NEON_PROJECT_ID !== "calm-meadow-38652801")
+  (production
+    ? process.env.APP_ENV !== "production" ||
+      process.env.VERCEL_ENV !== "production" ||
+      process.env.NEON_PROJECT_ID !== "rough-wave-60456912"
+    : process.env.APP_ENV !== "preview" ||
+      process.env.VERCEL_ENV === "production" ||
+      process.env.NEON_PROJECT_ID !== "calm-meadow-38652801")
 )
-  throw Error("Isolated Preview only");
+  throw Error(
+    "Expected the isolated Preview, or explicitly selected Production",
+  );
 
 type Source = {
   title: string;
@@ -145,7 +152,8 @@ const inputs = [
 ];
 // An earlier unpublished Aldi research draft already holds this path in
 // Preview. Its content stays in the version history when it is replaced.
-const replaceable = new Set(["/who-owns-aldi/"]);
+// Production never replaces an existing story.
+const replaceable = new Set(production ? [] : ["/who-owns-aldi/"]);
 
 if (process.argv.includes("--print")) {
   console.log(JSON.stringify(inputs, null, 2));
