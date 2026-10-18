@@ -61,3 +61,15 @@ Final expanded Preview: https://visionarytalks-3mr0d3a3c-omer-webielcoms-project
 Deployment `dpl_GY7cTLFwbxbFitsmMbXcHimD44Wo` reached READY with Vercel Authentication retained. Seven hosted URL variants returned 200 through authenticated Vercel read access. Every variant contained the complete 310-source ledger, the primary pay-definition control, noindex metadata and a clean intended canonical. Verification results and HTML are private under `pay-expanded/hosted/`. The preceding expanded candidate remains a recoverable Preview at `visionarytalks-3ymptfmt0-omer-webielcoms-projects.vercel.app`; the original four-company pilot remains separate.
 
 The expanded feature remains review content. No CMS records, Production routing, production indexing, database schema, outreach or recurring tasks were changed. Existing legacy company article bodies still require coordinated editorial review before a deliberate later Production integration.
+
+## Owner-authorized public release and menu integration
+
+The owner subsequently asked to “push and add it somewhere in the menu.” This is the deliberate publication instruction for the accepted explorer. The shared desktop/mobile navigation now labels its existing salary destination **AI Salaries**, replacing the unclear Charts & Data label.
+
+The immutable public snapshot retains all 310 dated job observations, 233 direct ranges, 25 location-tier disclosures, 48 undisclosed ranges and four unresolved numeric records. The latter remain null and have source-limitation wording rather than internal drafting instructions. The snapshot and source ledger are content-hash bound by `PUBLICATION_REVIEW.json`. Publication validation rejects review data, modified salaries, substituted paths and a missing unresolved-number ledger.
+
+Only `/ai-salaries/` and `/ai-product-manager-salary/` are released, with clean canonical URLs, Production indexing and sitemap entries. Legacy company salary article bodies and metadata are preserved in Production; their Preview research appendices are not part of this release. No CMS/database changes or source-history refresh are performed.
+
+The remote branch had advanced with other work. It was merged cleanly before the release; the younger-billionaires and KD10 article work is preserved. The new rollout explicitly disables unrelated build-time CMS synchronization/import hooks. The live deployment before this release was recorded privately as `dpl_GdigCNzw19oR9weRyymQHarQViG4` (`visionarytalks-c7hv2k3xx-omer-webielcoms-projects.vercel.app`) for rollback.
+
+After the merge, all 94 tests and the salary publication validator passed. Production-config rehearsal, candidate/live verification and final deployment results will be recorded below after execution.

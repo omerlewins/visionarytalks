@@ -1,21 +1,23 @@
 import Link from "next/link";
-import raw from "@/data/pay-explorer-review.json";
 import {
-  payDatasetSchema,
   payDisclosureLabel,
   payMoney,
   payRoles,
   type PayFilters,
+  type PayDataset,
 } from "@/lib/pay-explorer";
 import { payPages, type PayPagePath } from "@/lib/pay-explorer-pages";
 import { PayExplorer } from "./PayExplorer";
-const dataset = payDatasetSchema.parse(raw);
 export function PayExplorerPage({
   path,
   embedded = false,
+  dataset,
+  published,
 }: {
   path: PayPagePath;
   embedded?: boolean;
+  dataset: PayDataset;
+  published: boolean;
 }) {
   const page = payPages[path],
     initial: Partial<PayFilters> = { company: page.company, role: page.role };
@@ -79,7 +81,7 @@ export function PayExplorerPage({
         <a href="#pay-source-ledger">
           Browse all {dataset.records.length} sources ↗
         </a>
-        <span className="pay-review-tag">PREVIEW REVIEW</span>
+        {!published && <span className="pay-review-tag">PREVIEW REVIEW</span>}
       </div>
       <PayExplorer dataset={dataset} initial={initial} />
       <section className="pay-methodology" id="pay-methodology">

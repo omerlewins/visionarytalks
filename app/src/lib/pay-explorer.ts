@@ -142,7 +142,7 @@ export const payDatasetSchema = z
   .object({
     contract: z.literal("ai-pay-v1"),
     observedAt: date,
-    status: z.literal("preview-review"),
+    status: z.enum(["preview-review", "published"]),
     selection: z.string(),
     companies: z.array(
       z.object({ slug: z.string(), name: z.string(), careers: z.url() }),
@@ -263,7 +263,7 @@ export function payDisclosureLabel(record: PayRecord) {
   return record.disclosure === "multiple-tiers"
     ? "Location-specific pay tiers"
     : record.disclosure === "needs-review"
-      ? "Pay requires source review"
+      ? "Range not comparable"
       : record.disclosure === "not-disclosed"
         ? "Pay not disclosed"
         : record.payBasis === "base"

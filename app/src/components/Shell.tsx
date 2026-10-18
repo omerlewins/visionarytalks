@@ -7,7 +7,7 @@ const nav = [
   ["Business", "/category/business/"],
   ["Careers", "/category/careers/"],
   ["Leaders", "/leaders/"],
-  ["Charts & Data", "/ai-salaries/"],
+  ["AI Salaries", "/ai-salaries/"],
   ["AI Tracker", "/ai-companies/"],
 ];
 export function Header({

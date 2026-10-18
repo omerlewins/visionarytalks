@@ -1,0 +1,18 @@
+{
+  "contract": "ai-pay-release-v1",
+  "releasedAt": "2026-10-18",
+  "authorization": "Owner explicitly requested pushing the explorer and adding it to the menu.",
+  "contentHash": "2a56d61793497a60ea2bb4617dc5446161ce81e05be88b4d73290495217c25d8",
+  "sourceManifestHash": "de25c6ad47627ab67e024d17efd4e67e3acff422db0098444b6289bb64c7b1df",
+  "paths": [
+    "/ai-salaries/",
+    "/ai-product-manager-salary/"
+  ],
+  "unresolvedNumericIds": [
+    "openai-cc434f5b-dc0b-42fd-97ec-e0171545c6e9",
+    "together-5123203007",
+    "together-5210951007",
+    "together-4627491007"
+  ],
+  "scope": "Dated employer job observations; unresolved ranges remain null and cannot enter comparisons. Legacy company salary articles are not revised by this release."
+}

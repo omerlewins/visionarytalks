@@ -643,7 +643,7 @@ export function PayExplorer({
                     ? "Pay not disclosed"
                     : supporting.some((r) => r.lower !== null)
                       ? "Different pay definition"
-                      : "Source review required";
+                      : "No comparable range";
             return (
               <div className="pay-company-row" key={c.slug}>
                 <div className="pay-company-identity">

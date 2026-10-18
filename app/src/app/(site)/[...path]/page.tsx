@@ -8,7 +8,7 @@ import { Newsletter } from "@/components/Shell";
 import { SalaryTracker } from "@/components/SalaryTracker";
 import { salaryFixtures } from "@/data/salary-fixtures";
 import { PayExplorerPage } from "@/components/PayExplorerPage";
-import { payReviewEnabled } from "@/lib/pay-explorer";
+import { loadPayPage } from "@/lib/pay-content";
 import { isPayPage, payPages } from "@/lib/pay-explorer-pages";
 import type { Metadata } from "next";
 import { headers } from "next/headers";
@@ -74,13 +74,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const route =
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
   const payMetadataPath = route.endsWith("/") ? route : route + "/";
-  if (payReviewEnabled() && isPayPage(payMetadataPath)) {
+  const payMetadata = loadPayPage(payMetadataPath);
+  if (payMetadata && isPayPage(payMetadataPath)) {
     const page = payPages[payMetadataPath];
     return {
       title: page.title,
       description: page.description,
       alternates: { canonical: publicationURL + payMetadataPath },
-      robots: { index: false, follow: false },
+      robots: {
+        index: productionIndexing() && payMetadata.published,
+        follow: productionIndexing(),
+      },
       openGraph: {
         title: page.title,
         description: page.description,
@@ -245,12 +249,13 @@ export default async function Page({ params, searchParams }: Props) {
   const route =
     (await headers()).get("x-visionary-path") ?? `/${path.join("/")}/`;
   const payPath = route.endsWith("/") ? route : route + "/";
-  const payReview = payReviewEnabled() && isPayPage(payPath);
+  const payContent = loadPayPage(payPath);
+  const payReview = Boolean(payContent);
   if (
     payReview &&
     (payPath === "/ai-salaries/" || payPath === "/ai-product-manager-salary/")
   )
-    return <PayExplorerPage path={payPath} />;
+    return <PayExplorerPage {...payContent!} />;
   if (path.length === 1 && path[0] in policies)
     return <PublicationPolicy name={path[0] as PolicyName} />;
   if (route === "/leopold-aschenbrenner-net-worth/") {
@@ -349,13 +354,13 @@ export default async function Page({ params, searchParams }: Props) {
           related={all.filter((r) => s.related?.includes(r.path))}
         />
         {payReview && isPayPage(payPath) && (
-          <PayExplorerPage path={payPath} embedded />
+          <PayExplorerPage {...payContent!} embedded />
         )}
       </>
     );
   }
   if (payReview && isPayPage(payPath))
-    return <PayExplorerPage path={payPath} />;
+    return <PayExplorerPage {...payContent!} />;
   if (path.length === 1 && path[0] === "ai-companies")
     return (
       <>

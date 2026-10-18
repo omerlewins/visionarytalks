@@ -1,5 +1,15 @@
 # AI pay explorer
 
+## Authorized publication integration — October 18
+
+The owner explicitly requested pushing the explorer and adding it to the menu. The accepted public snapshot is now separate in `app/src/data/pay-explorer-published.json`; `PUBLICATION_REVIEW.json` binds its exact content hash, source-manifest hash, two public routes and four unresolved numeric IDs. `npm run validate:salaries -- --publish` validates that exact release. It does not approve the mutable review dataset.
+
+Public scope is `/ai-salaries/` and `/ai-product-manager-salary/`, discovered through the **AI Salaries** desktop/mobile menu and sitemap. The legacy Anthropic, xAI and Cursor salary articles retain their existing Production content; their appended research modules remain Preview-only. No CMS write or database migration is part of this integration.
+
+`pay-content.ts` serves only the validated published snapshot on the two public routes. Production environment flags still cannot expose a company-page review module. Future source or copy changes require a new isolated review and separately recorded release; do not change the release hash merely to make a validator pass. Publication may retain sourced job observations with unknown pay: the four ambiguous numeric records remain null, carry public-facing source limitations and never enter a pay comparison.
+
+The remaining workflow below documents the source/review process and the original Preview boundary; this explicit integration supersedes its statements that no public salary release exists.
+
 The current October 18 expanded revision is isolated Preview research using `ai-pay-v1`: 12 employer boards, 310 distinct selected listings and six title families. It preserves the original four-company pilot privately; the initial review below remains a historical record. Neither snapshot is approved Production content or an employee-pay survey.
 
 ## Reproducible source capture

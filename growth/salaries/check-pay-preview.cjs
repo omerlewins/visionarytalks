@@ -1,6 +1,7 @@
 const fs=require('fs'),path=require('path');
 const {chromium}=require('../../app/node_modules/playwright');
 const base=process.env.PAY_PREVIEW_URL||'http://127.0.0.1:3136';
+const production=process.env.PAY_EXPECT_PUBLIC==='1';
 const data=JSON.parse(fs.readFileSync('app/src/data/pay-explorer-review.json','utf8'));
 const out=path.resolve('private/growth/2026-10-18/pay-expanded/qa');fs.mkdirSync(out,{recursive:true});
 function check(ok,message){if(!ok)throw Error(message);}
@@ -13,7 +14,9 @@ let browser;
  check(response.status()===200,'Hub unavailable');
  check(await page.locator('.pay-company-row').count()===data.companies.length,'Company coverage differs');
  check(await page.locator('#pay-source-ledger li').count()===data.records.length,'Source ledger incomplete');
- check((await page.locator('meta[name="robots"]').getAttribute('content')).includes('noindex'),'Review must be noindex');
+ const robots=(await page.locator('meta[name="robots"]').getAttribute('content'))||'';
+ check(production?!robots.includes('noindex'):robots.includes('noindex'),'Wrong indexing boundary');
+ check(await page.getByRole('navigation',{name:'Sections',exact:true}).getByRole('link',{name:'AI Salaries',exact:true}).isVisible(),'Desktop salary menu missing');
  await page.screenshot({path:path.join(out,'desktop.png')});
  await page.getByRole('checkbox',{name:'Compare Anthropic',exact:true}).check();
  await page.getByRole('checkbox',{name:'Compare OpenAI',exact:true}).check();
@@ -64,9 +67,10 @@ let browser;
  await page.locator('.pay-context').evaluate(el=>window.scrollTo(0,el.getBoundingClientRect().top+window.scrollY-15));await page.screenshot({path:path.join(out,'mobile-comparison.png')});
  await page.getByRole('button',{name:'Heatmap',exact:true}).click();check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'Mobile heatmap overflows document');
  await page.setViewportSize({width:320,height:850});check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'320px overflow');
- for(const slug of ['anthropic-salary','xai-salary','cursor-salary','ai-product-manager-salary']){const r=await page.goto(base+'/'+slug+'/',{waitUntil:'networkidle',timeout:120000});check(r.status()===200,slug+' unavailable');check(await page.locator('h1').count()===1,slug+' duplicate H1');check(await page.locator('#ai-pay-explorer').count()===1,slug+' explorer missing');}
+ for(const slug of ['anthropic-salary','xai-salary','cursor-salary','ai-product-manager-salary']){const r=await page.goto(base+'/'+slug+'/',{waitUntil:'networkidle',timeout:120000});check(r.status()===200,slug+' unavailable');check(await page.locator('h1').count()===1,slug+' duplicate H1');check(await page.locator('#ai-pay-explorer').count()===(production&&slug!=='ai-product-manager-salary'?0:1),slug+' wrong publication boundary');}
  await page.goto(base+'/ai-salaries/#pay=%E0%A4%A',{waitUntil:'networkidle'});check(await page.locator('.pay-company-row').count()===12,'Malformed share hash crashed explorer');
- const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),plain=await nojs.newPage();await plain.goto(base+'/ai-salaries/',{waitUntil:'load'});check(await plain.locator('#pay-source-ledger li').count()===data.records.length,'No-JS ledger incomplete');await plain.locator('#pay-source-ledger summary').click();check(await plain.locator('#pay-source-ledger li').first().isVisible(),'No-JS source disclosure cannot open');check(await plain.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No-JS overflow');
+ const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:900}}),plain=await nojs.newPage();await plain.goto(base+'/ai-salaries/',{waitUntil:'load'});check(await plain.locator('#pay-source-ledger li').count()===data.records.length,'No-JS ledger incomplete');await plain.locator('#pay-source-ledger summary').click();check(await plain.locator('#pay-source-ledger li').first().isVisible(),'No-JS source disclosure cannot open');check(await plain.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'No-JS overflow');await plain.locator('.mobile-nav>summary').click();check(await plain.getByRole('navigation',{name:'Mobile sections',exact:true}).getByRole('link',{name:'AI Salaries',exact:true}).isVisible(),'Mobile salary menu missing');
+ if(production){const sitemap=await (await page.request.get(base+'/sitemap.xml')).text();for(const route of ['/ai-salaries/','/ai-product-manager-salary/'])check(sitemap.split('https://visionarytalks.com'+route).length-1===1,'Sitemap needs one '+route);}
  check(errors.length===0,'Browser errors: '+errors.join('; '));
  fs.writeFileSync(path.join(out,'results.json'),JSON.stringify({base,companies:data.companies.length,jobs:data.records.length,checks:['company compare cap','role filters','share restore','heatmap drilldown','Cohere USD tiers','pagination','CSV sources','empty state','390px and 320px','five routes','malformed hash','no-JavaScript sources'],passed:true},null,2));
  console.log('Passed: expanded company comparison, six-role heatmap, filtered share links, source tiers, pagination, CSV, five routes, mobile widths and complete no-JavaScript ledger.');
