@@ -24,6 +24,7 @@
     "import:wordpress": "tsx scripts/import-wordpress.ts",
     "leaders:new": "tsx scripts/new-leader.ts",
     "validate:leaders": "tsx scripts/validate-leaders.ts",
+    "validate:salaries": "tsx scripts/validate-pay-explorer.ts",
     "validate:watchlist": "tsx scripts/validate-ai-watchlist.ts",
     "ownership:new": "tsx scripts/new-ownership.ts",
     "validate:ownership": "tsx scripts/validate-ownership.ts",

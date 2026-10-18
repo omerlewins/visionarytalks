@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "provider": "Greenhouse",
+    "board": "anthropic",
+    "careers": "https://www.anthropic.com/careers"
+  },
+  {
+    "slug": "openai",
+    "name": "OpenAI",
+    "provider": "Ashby",
+    "board": "openai",
+    "careers": "https://openai.com/careers/search/"
+  },
+  {
+    "slug": "xai",
+    "name": "xAI board · SpaceXSI",
+    "provider": "Greenhouse",
+    "board": "xai",
+    "careers": "https://job-boards.greenhouse.io/xai"
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor board",
+    "provider": "Ashby",
+    "board": "cursor",
+    "careers": "https://cursor.com/careers"
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "provider": "Ashby",
+    "board": "perplexity",
+    "careers": "https://www.perplexity.ai/hub/careers"
+  },
+  {
+    "slug": "cohere",
+    "name": "Cohere",
+    "provider": "Ashby",
+    "board": "cohere",
+    "careers": "https://cohere.com/careers"
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "provider": "Ashby",
+    "board": "ElevenLabs",
+    "careers": "https://elevenlabs.io/careers"
+  },
+  {
+    "slug": "harvey",
+    "name": "Harvey",
+    "provider": "Ashby",
+    "board": "harvey",
+    "careers": "https://www.harvey.ai/careers"
+  },
+  {
+    "slug": "mistral",
+    "name": "Mistral AI",
+    "provider": "Ashby",
+    "board": "mistral.ai",
+    "careers": "https://mistral.ai/careers"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "provider": "Ashby",
+    "board": "runway-ml",
+    "careers": "https://runway.com/careers"
+  },
+  {
+    "slug": "together",
+    "name": "Together AI",
+    "provider": "Greenhouse",
+    "board": "togetherai",
+    "careers": "https://job-boards.greenhouse.io/togetherai"
+  },
+  {
+    "slug": "glean",
+    "name": "Glean",
+    "provider": "Greenhouse",
+    "board": "gleanwork",
+    "careers": "https://www.glean.com/careers"
+  }
+]
