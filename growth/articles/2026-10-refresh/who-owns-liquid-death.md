@@ -2,7 +2,7 @@
 title: "Who Owns Liquid Death? Mike Cessario, Investors and the $1.4B Valuation"
 slug: /who-owns-liquid-death/
 metaDescription: "Liquid Death is owned by Supplying Demand, Inc., a private company led by founder and CEO Mike Cessario and backed by Science Inc., Live Nation and others. Checked October 25, 2026."
-shortAnswer: "Liquid Death is made by Supplying Demand, Inc., a private Los Angeles company led by founder and CEO Mike Cessario. Its shareholders are Cessario, early staff and venture and strategic investors including Science Inc. and Live Nation. Its last priced round, in March 2024, valued it at $1.4 billion. Checked October 25, 2026."
+shortAnswer: "Liquid Death is made by Supplying Demand, Inc., a private Los Angeles company led by founder and CEO Mike Cessario. Its shareholders are Cessario, early staff and venture and strategic investors including Science Inc. and Live Nation. Its last priced round, in March 2024, valued it at $1.4 billion."
 targetKeyword: who owns liquid death
 secondaryKeywords:
   - liquid death owner

@@ -2,7 +2,7 @@
 title: "Who Owns Snapple? Keurig Dr Pepper, and What the Coming Split Changes"
 slug: /who-owns-snapple/
 metaDescription: "Snapple is owned by Keurig Dr Pepper (Nasdaq: KDP). KDP plans to spin off its coffee business in early 2027, and Snapple stays with the beverage company. Full owner timeline since 1972."
-shortAnswer: "Snapple is owned by Keurig Dr Pepper (Nasdaq: KDP), which has owned it outright since the 2018 Keurig merger. KDP plans to spin off its coffee business in early 2027. Snapple stays with the beverage company, alongside Dr Pepper, 7UP and Canada Dry. Checked October 25, 2026."
+shortAnswer: "Snapple is owned by Keurig Dr Pepper (Nasdaq: KDP), which has owned it outright since the 2018 Keurig merger. KDP plans to spin off its coffee business in early 2027. Snapple stays with the beverage company, alongside Dr Pepper, 7UP and Canada Dry."
 targetKeyword: who owns snapple
 secondaryKeywords:
   - snapple owner

@@ -2,7 +2,7 @@
 title: "Who Owns Krispy Kreme? JAB Still Controls It With 43% (2026)"
 slug: /who-owns-krispy-kreme/
 metaDescription: "Krispy Kreme, Inc. (Nasdaq: DNUT) is public, but JAB holds 43.03% of its stock, per its June 2026 Schedule 13D/A. Who owned Krispy Kreme before, and did Shaq own it?"
-shortAnswer: "Krispy Kreme, Inc. (Nasdaq: DNUT) is a public company controlled by JAB, which held 43.03% of its shares as of April 30, 2026, per JAB's June 2026 Schedule 13D/A. Josh Charlesworth is CEO. Checked October 25, 2026."
+shortAnswer: "Krispy Kreme, Inc. (Nasdaq: DNUT) is a public company controlled by JAB, which held 43.03% of its shares as of April 30, 2026, per JAB's June 2026 Schedule 13D/A. Josh Charlesworth is CEO."
 targetKeyword: who owns krispy kreme
 secondaryKeywords:
   - krispy kreme owner

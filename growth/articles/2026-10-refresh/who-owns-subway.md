@@ -2,7 +2,7 @@
 title: "Who Owns Subway? Roark Capital Bought It for Up to $9.55B (2024)"
 slug: /who-owns-subway/
 metaDescription: "Subway is owned by Roark Capital, the Atlanta private equity firm that closed its purchase on April 30, 2024 in a deal reported at up to $9.55 billion. Franchisees own the restaurants."
-shortAnswer: "Subway is owned by Roark Capital, an Atlanta private equity firm that completed its purchase on April 30, 2024. Reuters reported the deal at up to $9.55 billion including debt. The restaurants themselves, nearly 37,000 of them, are owned and run by franchisees. Checked October 25, 2026."
+shortAnswer: "Subway is owned by Roark Capital, an Atlanta private equity firm that completed its purchase on April 30, 2024. Reuters reported the deal at up to $9.55 billion including debt. The restaurants themselves, nearly 37,000 of them, are owned and run by franchisees."
 targetKeyword: who owns subway
 secondaryKeywords:
   - subway owner

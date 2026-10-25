@@ -2,7 +2,7 @@
 title: "Who Owns Alani Nu? Celsius Bought It for $1.8B (2025)"
 slug: /who-owns-alani-nu/
 metaDescription: "Alani Nu is owned by Celsius Holdings (Nasdaq: CELH), which completed its $1.8 billion purchase on April 1, 2025. Deal terms, who got paid and whether Coke or Pepsi owns it."
-shortAnswer: "Alani Nu is owned by Celsius Holdings, Inc. (Nasdaq: CELH), which completed its purchase on April 1, 2025. Celsius announced the deal at $1.8 billion, paid in cash and Celsius stock. PepsiCo distributes Alani Nu in the US and Canada but does not own the brand. Checked October 25, 2026."
+shortAnswer: "Alani Nu is owned by Celsius Holdings, Inc. (Nasdaq: CELH), which completed its purchase on April 1, 2025. Celsius announced the deal at $1.8 billion, paid in cash and Celsius stock. PepsiCo distributes Alani Nu in the US and Canada but does not own the brand."
 targetKeyword: who owns alani
 secondaryKeywords:
   - who owns alani nu
