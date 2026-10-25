@@ -198,6 +198,18 @@ const batches = {
       "Ownership",
     ),
   ],
+  // The next 30-day plan pages: one salary guide and five ownership pages.
+  "plan-2026-11": async () => {
+    const dir = "growth/articles/2026-11-plan/";
+    const pages: [string, Input["kind"], string][] = [
+      ["air-traffic-controller-salary", "salary", "Money"],
+    ];
+    return Promise.all(
+      pages.map(([file, kind, category]) =>
+        markdownArticle(dir + file + ".md", kind, category),
+      ),
+    );
+  },
   "refresh-2026-10": async () => {
     const dir = "growth/articles/2026-10-refresh/";
     return Promise.all(

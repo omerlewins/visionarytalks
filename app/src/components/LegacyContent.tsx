@@ -7,6 +7,7 @@ import {
   youngestBillionairesMarker,
 } from "./YoungestBillionairesEmbed";
 import { MoneyWorldMap } from "./MoneyWorldMap";
+import { AtcPayEmbed, atcPayMarker } from "./AtcPayEmbed";
 import { publicationText } from "@/lib/editorial-punctuation";
 
 // Article HTML places the money map with <div id="vt-money-map"></div>.
@@ -63,6 +64,23 @@ export function LegacyContent({
         <WithMoneyMap html={editorialTables(tableChart.after)} />
       </div>
     );
+  if (atcPayMarker.test(clean)) {
+    const parts = clean.split(new RegExp(atcPayMarker, "g"));
+    return (
+      <div className="legacy-content">
+        {parts.map((part, i) =>
+          i % 2 ? (
+            <AtcPayEmbed key={i} kind={part} />
+          ) : (
+            <div
+              key={i}
+              dangerouslySetInnerHTML={{ __html: editorialTables(part) }}
+            />
+          ),
+        )}
+      </div>
+    );
+  }
   if (youngestBillionairesMarker.test(clean)) {
     // split() with one capture group alternates HTML and marker kinds.
     const parts = clean.split(new RegExp(youngestBillionairesMarker, "g"));

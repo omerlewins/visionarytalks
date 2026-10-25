@@ -26,7 +26,7 @@ if (
 run("npm run build");
 const productionBatch = process.env.PRODUCTION_CMS_IMPORT;
 if (
-  ["kd10-2026-10", "nuuly-2026-10", "refresh-2026-10"].includes(productionBatch) &&
+  ["kd10-2026-10", "nuuly-2026-10", "refresh-2026-10", "plan-2026-11"].includes(productionBatch) &&
   process.env.VERCEL_ENV === "production" &&
   process.env.APP_ENV === "production" &&
   process.env.NEON_PROJECT_ID === "rough-wave-60456912"
