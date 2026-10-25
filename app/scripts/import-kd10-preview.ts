@@ -204,6 +204,7 @@ const batches = {
     const pages: [string, Input["kind"], string][] = [
       ["air-traffic-controller-salary", "salary", "Money"],
       ["who-owns-costco", "ownership", "Ownership"],
+      ["who-owns-trader-joes", "ownership", "Ownership"],
     ];
     return Promise.all(
       pages.map(([file, kind, category]) =>
@@ -231,10 +232,12 @@ const refresh = batch.startsWith("refresh-");
 const inputs = (await batches[batch]()).filter(
   (input) => !only || only.includes(input.path),
 );
-// An earlier unpublished Aldi research draft already holds this path in
-// Preview. Its content stays in the version history when it is replaced.
-// Production never replaces an existing story.
-const replaceable = new Set(production ? [] : ["/who-owns-aldi/"]);
+// Earlier unpublished Aldi and Costco research drafts already hold these
+// paths in Preview. Their content stays in the version history when they are
+// replaced. Production never replaces an existing story.
+const replaceable = new Set(
+  production ? [] : ["/who-owns-aldi/", "/who-owns-costco/"],
+);
 
 if (process.argv.includes("--print")) {
   console.log(JSON.stringify(inputs, null, 2));
