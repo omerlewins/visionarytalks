@@ -9,6 +9,12 @@ export function storyFeaturedImage(s: Story) {
       alt: "100 AI people to watch in 2027: Visionary Talks",
       credit: "Visionary Talks editorial graphic.",
     };
+  if (s.path === "/how-much-money-is-there-in-the-world/")
+    return {
+      url: "/reference/money-in-the-world-cover.png",
+      alt: "How much money is in the world: a world map of broad money by country and bars for cash ($7.3T), broad money ($106T and $151T) and personal wealth ($518T)",
+      credit: "Visionary Talks editorial graphic.",
+    };
   const leader = leaderProfiles.find((p) => p.path === s.path);
   const portrait = leader && leaderPortrait(leader);
   if (portrait)

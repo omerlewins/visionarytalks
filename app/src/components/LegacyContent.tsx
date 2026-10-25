@@ -6,7 +6,25 @@ import {
   YoungestBillionairesEmbed,
   youngestBillionairesMarker,
 } from "./YoungestBillionairesEmbed";
+import { MoneyWorldMap } from "./MoneyWorldMap";
 import { publicationText } from "@/lib/editorial-punctuation";
+
+// Article HTML places the money map with <div id="vt-money-map"></div>.
+const moneyMapMarker = '<div id="vt-money-map"></div>';
+function WithMoneyMap({ html }: { html: string }) {
+  const [before, after] = html.split(moneyMapMarker);
+  return (
+    <>
+      <div dangerouslySetInnerHTML={{ __html: before }} />
+      {after !== undefined && (
+        <>
+          <MoneyWorldMap />
+          <div dangerouslySetInnerHTML={{ __html: after }} />
+        </>
+      )}
+    </>
+  );
+}
 export function LegacyContent({
   html,
   ownership,
@@ -42,11 +60,7 @@ export function LegacyContent({
           scale={tableChart.config.scale}
           source="Source: the dated figures and sources in the table above."
         />
-        <div
-          dangerouslySetInnerHTML={{
-            __html: editorialTables(tableChart.after),
-          }}
-        />
+        <WithMoneyMap html={editorialTables(tableChart.after)} />
       </div>
     );
   if (youngestBillionairesMarker.test(clean)) {

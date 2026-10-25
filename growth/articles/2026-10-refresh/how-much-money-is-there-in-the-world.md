@@ -141,6 +141,16 @@ The four largest currency areas alone reached $106 trillion by September 2026. A
 
 Spread across about 8.1 billion people in 2024, $151 trillion is roughly $18,600 each. Nobody actually holds that: the figure includes company deposits, and deposits are very unevenly shared.
 
+## How much money does each country have?
+
+The map shows broad money for 146 countries and territories, plus the 21-country euro area as one bloc, each at its latest official date. Switch it to money per person to see a different ranking.
+
+<div id="vt-money-map"></div>
+
+China has the most money by far: about $53.6 trillion of M2 in September 2026, more than the US ($23.3 trillion in August 2026) and the euro area ($20.5 trillion) combined. Per person, the top of the list is financial centers: Hong Kong at about $274,000 per person in 2025 and Switzerland at about $163,000 in September 2026. The US comes in at about $68,000 per person.
+
+Added together, these figures come to about $143 trillion. They run from 2020 to September 2026, though, so treat the sum as a cross-check on the World Bank's $151 trillion for 2024, not as a 2026 world total. Some large economies, including Saudi Arabia, Iran and Taiwan, have no recent figure in the World Bank series and are left grey rather than estimated.
+
 ## What is "the money in the world" if you count wealth?
 
 If you mean everything people own, the number is far bigger. UBS's Global Wealth Report 2026, published June 30, 2026, splits the adults in its 56 markets into four wealth bands. Those bands add up to about **$518 trillion** of personal net worth at the end of 2025, after debts. UBS says those 56 markets hold more than 92% of the world's wealth. Wealth grew 10.8% in US dollar terms in 2025.
