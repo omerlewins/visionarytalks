@@ -205,6 +205,9 @@ const batches = {
       ["air-traffic-controller-salary", "salary", "Money"],
       ["who-owns-costco", "ownership", "Ownership"],
       ["who-owns-trader-joes", "ownership", "Ownership"],
+      ["who-owns-the-lakers", "ownership", "Ownership"],
+      ["who-owns-the-dallas-cowboys", "ownership", "Ownership"],
+      ["who-owns-the-yankees", "ownership", "Ownership"],
     ];
     return Promise.all(
       pages.map(([file, kind, category]) =>
