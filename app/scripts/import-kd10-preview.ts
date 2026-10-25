@@ -209,6 +209,15 @@ const batches = {
       ["who-owns-the-dallas-cowboys", "ownership", "Ownership"],
       ["who-owns-the-yankees", "ownership", "Ownership"],
       ["who-owns-chick-fil-a", "ownership", "Ownership"],
+      ["jordan-belfort-net-worth", "article", "Leaders"],
+      ["who-owns-monster-energy", "ownership", "Ownership"],
+      ["who-owns-wingstop", "ownership", "Ownership"],
+      ["who-owns-burger-king", "ownership", "Ownership"],
+      ["who-owns-jersey-mikes", "ownership", "Ownership"],
+      ["who-owns-raising-canes", "ownership", "Ownership"],
+      ["sam-altman-net-worth", "article", "Leaders"],
+      ["anthropic-valuation", "article", "Money"],
+      ["police-officer-salary", "salary", "Money"],
     ];
     return Promise.all(
       pages.map(([file, kind, category]) =>
