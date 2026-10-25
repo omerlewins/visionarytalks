@@ -9,7 +9,9 @@ import { youngestBillionairesArticle as yb } from "../src/lib/youngest-billionai
 // Loads a reviewed article batch (the six October 2026 KD-under-10 articles by
 // default) into the isolated Preview CMS for owner review, or, with
 // --production, into the live CMS after the owner's explicit approval.
-// Dry-run unless --apply.
+// A refresh batch rewrites existing WordPress-era stories in place instead:
+// same path, image and publication date; the earlier text stays in the
+// story's version history. Dry-run unless --apply.
 const production = process.argv.includes("--production");
 if (
   !process.argv.includes("--print") &&
@@ -41,6 +43,9 @@ type Input = {
   seo: { title: string; description: string };
   legacyHTML: string;
   sourceRecords: Source[];
+  shortAnswer?: string;
+  // The date the facts were checked; it becomes the visible Updated date.
+  checked?: string;
 };
 
 // Only full dates are publication dates; "accessed ..." goes in the evidence.
@@ -79,8 +84,13 @@ async function markdownArticle(
     kind,
     category,
     dek: meta.metaDescription,
-    seo: { title: meta.title, description: meta.metaDescription },
+    seo: {
+      title: meta.seoTitle ?? meta.title,
+      description: meta.metaDescription,
+    },
     legacyHTML: (await marked.parse(text, { gfm: true })).trim(),
+    shortAnswer: meta.shortAnswer,
+    checked: meta.checked,
     sourceRecords: meta.sources.map(
       (s: { title: string; url: string; date?: unknown }) => {
         const date = s.date == null ? undefined : String(s.date);
@@ -130,6 +140,21 @@ function youngestBillionaires(): Input {
   };
 }
 
+// --only /a/,/b/ limits a run to some of a batch's paths.
+const only = process.argv.includes("--only")
+  ? process.argv[process.argv.indexOf("--only") + 1].split(",")
+  : undefined;
+// The eight October 2026 quick-win refreshes, in the order they were briefed.
+const refreshPages: [string, Input["kind"], string][] = [
+  ["how-much-money-is-there-in-the-world", "article", "Money"],
+  ["who-owns-chipotle", "ownership", "Ownership"],
+  ["who-owns-liquid-death", "ownership", "Ownership"],
+  ["john-ternus-net-worth", "article", "Leaders"],
+  ["who-owns-alani-nu", "ownership", "Ownership"],
+  ["who-owns-subway", "ownership", "Ownership"],
+  ["who-owns-snapple", "ownership", "Ownership"],
+  ["who-owns-krispy-kreme", "ownership", "Ownership"],
+];
 // A batch is one reviewed set of articles; --batch picks it (default kd10).
 const batches = {
   "kd10-2026-10": async () => {
@@ -170,13 +195,26 @@ const batches = {
       "Ownership",
     ),
   ],
+  "refresh-2026-10": async () => {
+    const dir = "growth/articles/2026-10-refresh/";
+    return Promise.all(
+      refreshPages
+        .filter(([file]) => !only || only.includes(`/${file}/`))
+        .map(([file, kind, category]) =>
+          markdownArticle(dir + file + ".md", kind, category),
+        ),
+    );
+  },
 } satisfies Record<string, () => Promise<Input[]>>;
 const batchArg = process.argv[process.argv.indexOf("--batch") + 1];
 const batch = (
   process.argv.includes("--batch") ? batchArg : "kd10-2026-10"
 ) as keyof typeof batches;
 if (!(batch in batches)) throw Error(`Unknown batch ${batch}`);
-const inputs = await batches[batch]();
+const refresh = batch.startsWith("refresh-");
+const inputs = (await batches[batch]()).filter(
+  (input) => !only || only.includes(input.path),
+);
 // An earlier unpublished Aldi research draft already holds this path in
 // Preview. Its content stays in the version history when it is replaced.
 // Production never replaces an existing story.
@@ -206,7 +244,7 @@ try {
   if (!user || !author)
     throw Error("Existing owner and Daniel Mercer author must be present");
   for (const input of inputs) {
-    const { sourceRecords, ...article } = input;
+    const { sourceRecords, shortAnswer, checked, ...article } = input;
     const jobKey = `preview-import:${batch}:` + article.path;
     const checksum = createHash("sha256")
       .update(JSON.stringify(input))
@@ -221,7 +259,14 @@ try {
       })
     ).docs[0];
     const ours = existing?.sourceJobKey === jobKey;
-    if (existing && !ours && !replaceable.has(article.path))
+    if (refresh && !existing)
+      throw Error(`${article.path} has no story to refresh`);
+    // A refresh only rewrites the WordPress-era story at its own path.
+    if (refresh && !ours && !existing.legacyKey)
+      throw Error(
+        `${article.path} is not a WordPress-era story; review it first`,
+      );
+    if (!refresh && existing && !ours && !replaceable.has(article.path))
       throw Error(`${article.path} is held by another story; review it first`);
     const action = !existing
       ? "create"
@@ -264,8 +309,34 @@ try {
         }));
       if (!sourceIds.includes(source.id)) sourceIds.push(source.id);
     }
+    if (refresh) {
+      // Keep the story's kind, category, image and first publication date;
+      // only the reporting changes. The Updated date is the date checked.
+      const { kind: _kind, category: _category, ...text } = article;
+      const result = await payload.update({
+        collection: "stories",
+        id: existing.id,
+        user,
+        overrideAccess: false,
+        data: {
+          ...text,
+          shortAnswer: shortAnswer ?? null,
+          author: author.id,
+          sources: sourceIds,
+          _status: "published" as const,
+          modifiedAt: checked
+            ? new Date(checked + "T12:00:00Z").toISOString()
+            : now,
+          importChecksum: checksum,
+          sourceJobKey: jobKey,
+        },
+      });
+      console.log(JSON.stringify({ stored: result.id, path: result.path }));
+      continue;
+    }
     const data = {
       ...article,
+      shortAnswer: shortAnswer ?? null,
       author: author.id,
       sources: sourceIds,
       excludeFromHomepage: false,
@@ -275,7 +346,6 @@ try {
       importChecksum: checksum,
       sourceJobKey: jobKey,
       // Clear the replaced draft's structured fields so they do not render.
-      shortAnswer: null,
       facts: [],
       timeline: [],
       relations: [],

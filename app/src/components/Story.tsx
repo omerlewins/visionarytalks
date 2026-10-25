@@ -343,7 +343,8 @@ export async function StoryTemplate({
                       )
                     : legacy.content
                 }
-                ownership={ownership}
+                // A stored short answer replaces the opening-paragraph one.
+                ownership={ownership && !s.shortAnswer}
               />
             )}
             {!!s.timeline?.length && (
