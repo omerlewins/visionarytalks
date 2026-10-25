@@ -74,10 +74,13 @@ async function markdownArticle(
   const raw = await readFile(new URL("../../" + file, import.meta.url), "utf8");
   const [, front, body] = raw.match(/^---\n([\s\S]*?)\n---\n([\s\S]*)$/)!;
   const meta = YAML.parse(front, { schema: "failsafe" });
-  const text = body
+  let text = body
     .replace(/^# .*\n+/m, "") // the template renders the title
     .replace(/^[*_]{1,2}By Daniel Mercer[^\n]*\n+/m, "") // and the byline
     .replace(/\n## Sources\n[\s\S]*$/, "\n"); // and the source list
+  // An opening paragraph that repeats the short answer would show twice.
+  const [opening, ...rest] = text.trim().split(/\n{2,}/);
+  if (meta.shortAnswer?.startsWith(opening)) text = rest.join("\n\n") + "\n";
   return {
     title: meta.title,
     path: meta.slug,
