@@ -88,9 +88,11 @@ test("keyboard focus, salary selection and enlarged long headlines", async ({
   await page.keyboard.press("Enter");
   await page.goto("/ai-salaries/");
   await page
-    .getByRole("combobox", { name: "Occupation", exact: true })
-    .selectOption("Software developers");
-  await expect(page.locator(".salary-record")).toHaveCount(1);
+    .getByRole("combobox", { name: "Job family", exact: true })
+    .selectOption("machine-learning-engineer");
+  await expect(page.locator(".pay-context")).toContainText(
+    /machine learning engineer/i,
+  );
   await page.goto("/who-owns-cursor/");
   await page.locator("h1").evaluate((el) => {
     el.textContent =
