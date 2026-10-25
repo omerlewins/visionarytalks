@@ -203,6 +203,7 @@ const batches = {
     const dir = "growth/articles/2026-11-plan/";
     const pages: [string, Input["kind"], string][] = [
       ["air-traffic-controller-salary", "salary", "Money"],
+      ["who-owns-costco", "ownership", "Ownership"],
     ];
     return Promise.all(
       pages.map(([file, kind, category]) =>
