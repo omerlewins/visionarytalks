@@ -30,6 +30,9 @@ sources:
   - title: "Moments in NFL History: Long shot pays off for 'America's Team' (Pro Football Hall of Fame)"
     url: https://www.profootballhof.com/news/2026/02/moments-in-nfl-history-long-shot-pays-off-for-america-s-team
     date: "2026-02"
+  - title: "Bum Bright (Wikipedia)"
+    url: https://en.wikipedia.org/wiki/Bum_Bright
+    date: "accessed 2026-10-25"
   - title: "The NFL's Most Valuable Teams 2026 (Forbes via Yahoo Sports)"
     url: https://sports.yahoo.com/articles/nfl-most-valuable-teams-2026-103000891.html
     date: "2026-09-09"
@@ -86,17 +89,33 @@ From about $140 million in 1989 to $17 billion in 2026 is roughly a 121-fold inc
 
 Forbes estimated Jerry Jones' net worth at **$23.3 billion on October 25, 2026**, and lists the Cowboys as the source of his wealth. Most of it is the team. The other big piece is oil and gas: companies Jones controls held 208,300,084 shares, or 70.9%, of the public driller Comstock Resources on April 7, 2026, according to Comstock's proxy. The proxy says Jones is the sole shareholder of Blue Star Exploration, the general partner of those holders.
 
+## Every Cowboys owner
+
+| Owner | Years | Who ran the team | Price paid |
+|---|---|---|---|
+| Clint Murchison Jr. | 1960 to 1984 | Tex Schramm, president and general manager; Tom Landry, head coach | Expansion team |
+| H.R. "Bum" Bright and 11 partners | 1984 to 1989 | Schramm and Landry stayed on; Bright was a hands-off owner | $85 million |
+| Jerry Jones | 1989 to today | Jones as owner, president and general manager; his three children as co-owners and executives | About $140 million |
+
+*Sources: Pro Football Hall of Fame, 2026; Dallas Cowboys; Wikipedia's history of the team and of Bum Bright. Forbes gives Jones' price as $150 million.*
+
+Only three owners in 66 years, and only one in the last 37. Jones is also one of very few NFL owners who is his own general manager, so the owner and the "CEO" of football decisions are the same person.
+
 ## Cowboys ownership timeline
 
-| Year | Owner or event | Source |
-|---|---|---|
-| 1960 | Clint Murchison Jr. founds the Cowboys as an NFL expansion team | Team history |
-| 1984 | Murchison sells to H.R. "Bum" Bright and partners | Team history |
-| 1989 | Jerry Jones buys the team on February 25 for about $140 million | Pro Football Hall of Fame |
-| 2009 | AT&T Stadium opens in Arlington in May | Dallas Cowboys |
-| 2016 | The Star, the team's headquarters in Frisco, opens | Dallas Cowboys |
-| 2017 | Jones enters the Pro Football Hall of Fame as an owner | Dallas Cowboys |
-| 2026 | Forbes values the team at $17 billion | Forbes, September 9, 2026 |
+<div id="vt-timeline"></div>
+
+| Year | What happened | Price or value | Source |
+|---|---|---|---|
+| 1960 | Clint Murchison Jr. starts the Cowboys as an NFL expansion team, with Tex Schramm running it and Tom Landry coaching | - | Team history |
+| 1984 | Murchison sells to H.R. "Bum" Bright and 11 limited partners on March 19 | $85 million | Team history |
+| 1989 | Jerry Jones buys the team on February 25 and replaces Landry with Jimmy Johnson | About $140 million | Pro Football Hall of Fame |
+| 1990s | Super Bowl wins after the 1992, 1993 and 1995 seasons | - | Dallas Cowboys |
+| 2009 | AT&T Stadium opens in Arlington in May | - | Dallas Cowboys |
+| 2016 | The Star, the team's headquarters in Frisco, opens | - | Dallas Cowboys |
+| 2017 | Jones enters the Pro Football Hall of Fame as an owner | - | Dallas Cowboys |
+| 2024 | Forbes and Sportico both value the Cowboys at $10.1 billion, the first team above $10 billion | $10.1 billion | Dallas Cowboys |
+| 2026 | Forbes values the team at $17 billion, No. 1 in the NFL for the 20th straight year | $17 billion | Forbes, September 9, 2026 |
 
 ## Is anyone else part owner of the Cowboys?
 

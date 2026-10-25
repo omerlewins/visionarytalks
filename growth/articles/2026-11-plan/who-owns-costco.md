@@ -81,17 +81,35 @@ James, a former Blackstone executive, has been on Costco's board since August 19
 
 James Sinegal and Jeffrey Brotman. Costco began operations in 1983 in Seattle, and both men were co-founders, according to Costco's filings. Sinegal was President and Chief Operating Officer from 1983 and CEO from 1988 until he retired at the start of 2012. Brotman was chairman from the start, apart from a stretch as vice chairman after the 1993 merger, until his death on August 1, 2017.
 
+## Every Costco CEO
+
+| CEO | Years as CEO | Where they came from | What changed |
+|---|---|---|---|
+| James Sinegal | August 1988 to December 2011 | Co-founder; President and COO from 1983 | Led the 1993 merger with Price Co. and grew Costco into a global chain |
+| W. Craig Jelinek | January 2012 to December 2023 | Joined in April 1984; ran warehouse operations, then merchandising from 2004; President and COO from February 2010 | Took over when Sinegal retired; ran Costco through the pandemic years |
+| Ron M. Vachris | January 2024 to today | About 40 years at Price Club and Costco; head of merchandising 2016 to 2022; President and COO from February 2022 | Current CEO and President |
+
+*Sources: Costco 10-K405 for fiscal 2000; Costco proxies of December 2011 and December 2025.*
+
+Every Costco CEO has been promoted from inside, and each spent decades in the warehouses first. Before August 1988, Sinegal ran the company as President and Chief Operating Officer while Jeffrey Brotman was chairman.
+
 ## Costco ownership timeline
+
+<div id="vt-timeline"></div>
 
 | Year | What happened | Source |
 |---|---|---|
-| 1983 | Costco Wholesale begins operations in Seattle, founded by Jim Sinegal and Jeff Brotman | Costco 10-K, 2000 |
-| 1993 | Costco merges with The Price Company, which pioneered the membership warehouse in 1976, to form Price/Costco, Inc. | Costco 10-K, 2000 |
+| 1976 | The Price Company pioneers the membership warehouse concept | Costco 10-K, 2000 |
+| 1983 | Costco, co-founded by Jim Sinegal and Jeff Brotman, begins operations in Seattle | Costco 10-K, 2000 |
+| 1988 | Sinegal becomes CEO in August | Costco 10-K, 2000 |
+| 1993 | Costco merges with The Price Company in October to form Price/Costco, Inc.; Sinegal stays CEO and Brotman becomes vice chairman | Costco 10-K, 2000 |
+| 1994 | Brotman returns as chairman in December | Costco 10-K, 2000 |
 | 1997 | After spinning off most non-warehouse assets to Price Enterprises, the company is renamed Costco Companies, Inc. | Costco 10-K, 2000 |
-| 1999 | Reincorporates in Washington state and becomes Costco Wholesale Corporation, Nasdaq: COST | Costco 10-K, 2000 |
-| 2012 | Sinegal retires as CEO on January 1; Craig Jelinek takes over | Costco proxy, 2011 |
+| 1999 | Reincorporates in Washington state as Costco Wholesale Corporation, Nasdaq: COST | Costco 10-K, 2000 |
+| 2012 | Sinegal retires; Craig Jelinek becomes CEO on January 1 | Costco proxy, 2011 |
 | 2017 | Brotman dies on August 1; Hamilton James becomes non-executive chairman | Costco proxy, 2017 |
 | 2024 | Ron Vachris becomes CEO in January | Costco proxy, 2025 |
+| 2025 | Vanguard (9.79%) and BlackRock (7.83%) are the only holders above 5% | Costco proxy, December 2025 |
 
 ## How big is Costco?
 

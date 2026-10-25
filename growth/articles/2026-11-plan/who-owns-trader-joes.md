@@ -33,6 +33,9 @@ sources:
   - title: "Trader Joe's founder Joe Coulombe dies at 89 (CBS News)"
     url: https://www.cbsnews.com/news/trader-joes-founder-joe-coulombe-dies-at-89/
     date: "2020-02-29"
+  - title: "John V. Shields Jr., Trader Joe's CEO who made chain a powerhouse, dies at 82 (Bangor Daily News)"
+    url: https://www.bangordailynews.com/2014/11/08/obituaries/john-v-shields-jr-trader-joes-ceo-who-made-chain-a-powerhouse-dies-at-82/
+    date: "2014-11-08"
   - title: "Trader Joe's CEO Dan Bane retiring, Bryan Palbaum will take the lead (Supermarket News)"
     url: https://www.supermarketnews.com/executive-moves/trader-joe-ceo-dan-bane-retiring-bryan-palbaum-will-take-the-lead
     date: "2023-05-16"
@@ -81,17 +84,34 @@ The two Aldi groups have been separate since the founding brothers split the bus
 
 Joe Coulombe. He opened the first Trader Joe's in Pasadena, California, in 1967, after running a chain of convenience stores called Pronto Markets, according to Fortune and CBS News. He sold the chain to the Albrecht family in 1979 and stayed on as CEO until 1988. Coulombe died at 89 in February 2020.
 
-## Trader Joe's ownership and leadership timeline
+## Every Trader Joe's CEO
+
+| CEO | Years as CEO | Where they came from | What changed |
+|---|---|---|---|
+| Joe Coulombe | 1967 to 1988 | Ran Pronto Markets convenience stores before founding Trader Joe's | Founded the chain; sold it to the Albrechts in 1979 and stayed on as CEO |
+| John V. Shields Jr. | 1988 to 2001 | Former vice president of operations at Macy's, then Mervyn's; advised Coulombe on expansion from 1987 | Sales grew from $132 million to more than $2 billion and stores from 27 to 174 |
+| Dan Bane | 2001 to July 2023 | Chairman and CEO | The longest tenure of any Trader Joe's CEO, 22 years, all under Aldi Nord ownership |
+| Bryan Palbaum | July 2, 2023 to today | President and COO for the previous 10 years | Current chairman and CEO; Jon Basalone is vice CEO and president |
+
+*Sources: Fortune, 2010; Bangor Daily News obituary of John Shields, November 8, 2014; Supermarket News, May 16, 2023.*
+
+Coulombe ran the company for about 21 years, the last nine of them for the Albrecht family. Shields, the first outside CEO, ran it for 13, and Bane for 22.
+
+## Trader Joe's ownership timeline
+
+<div id="vt-timeline"></div>
 
 | Year | What happened | Source |
 |---|---|---|
 | 1967 | Joe Coulombe opens the first Trader Joe's in Pasadena, California | Fortune, 2010; CBS News, 2020 |
 | 1979 | Theo Albrecht Sr. of Aldi Nord buys Trader Joe's | Forbes, 2012 |
-| 1988 | Coulombe steps down as CEO | CBS News, 2020 |
-| 2001 | Dan Bane becomes chairman and CEO | Supermarket News, 2023 (22 years as CEO) |
+| 1988 | Coulombe steps down; John Shields becomes CEO | Bangor Daily News, 2014 |
+| 2001 | Dan Bane becomes chairman and CEO | Supermarket News, 2023 |
 | 2010 | Theo Albrecht Sr. dies; ownership stays with his heirs | Legacy.com, July 29, 2010 |
-| 2012 | Berthold Albrecht, who oversaw Trader Joe's for the family, dies | Forbes, 2012 |
-| 2023 | Bryan Palbaum becomes chairman and CEO on July 2; Jon Basalone becomes vice CEO and president | Supermarket News, May 16, 2023 |
+| 2012 | Berthold Albrecht, who oversaw Trader Joe's for the family, dies | Forbes, December 7, 2012 |
+| 2020 | Coulombe dies at 89 in February | CBS News, February 29, 2020 |
+| 2023 | Bryan Palbaum becomes chairman and CEO on July 2 | Supermarket News, May 16, 2023 |
+| 2026 | 671 stores listed in 42 states and DC on the official locator | locations.traderjoes.com, October 25, 2026 |
 
 Forbes' pages disagree on the purchase year: the 2012 article says 1979, while its Theo Albrecht Jr. profile says 1971. I use 1979, which also matches Fortune's and CBS News' accounts of the sale.
 

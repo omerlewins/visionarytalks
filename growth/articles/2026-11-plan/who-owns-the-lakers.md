@@ -48,6 +48,9 @@ sources:
   - title: "It looks like it may be a while before the Lakers' sale gets approved (Lakers Nation)"
     url: https://lakersnation.com/lakers-sale-not-expected-to-be-voted-on-at-upcoming-nba-board-of-governors-meetings/
     date: "2026-09-14"
+  - title: "Los Angeles Lakers: Ownership history (Wikipedia)"
+    url: https://en.wikipedia.org/wiki/Los_Angeles_Lakers#Ownership_history
+    date: "accessed 2026-10-25"
   - title: "Jerry Buss, Lakers Owner and Innovator, Dies at 80 (The New York Times)"
     url: https://www.nytimes.com/2013/02/19/sports/basketball/jerry-buss-longtime-lakers-owner-is-dead-at-80.html
     date: "2013-02-18"
@@ -92,27 +95,38 @@ She owns part of them and still runs them as governor, but control passed to Wal
 - Jeanie Buss is contesting it. Her lawyer wrote that "No sale of the JAB Trust's 17.8% ownership interest" can go ahead without approval by the co-trustees, NBC News reported. A court hearing is scheduled for December 2026.
 - If the family shares are sold, she would lose the governor role, because the NBA requires a governor to hold at least 15% of the team.
 
+## Every controlling owner of the Lakers
+
+| Controlling owner | Years | How they got the team | Price |
+|---|---|---|---|
+| Ben Berger and Morris Chalfen | 1947 to 1957 | Bought the Detroit Gems and moved them to Minneapolis as the Lakers | $15,000 |
+| Bob Short | 1957 to 1965 | Led a group of 117 Minnesota investors; moved the team to Los Angeles in 1960 | $150,000 |
+| Jack Kent Cooke | 1965 to 1979 | Bought from Short; built the Forum in 1967 | $5.175 million, a league record then |
+| Jerry Buss | 1979 to 2013 | Bought the Lakers, the Kings and the Forum from Cooke | $67.5 million for the package |
+| Jeanie Buss (for the Buss family trusts) | 2013 to 2025 | Took control when her father died | Inherited |
+| Mark Walter | 2025 to today | Bought control from the Buss family | $10 billion valuation |
+| Bob Iger and Josh Kushner (pending) | Not yet approved | Agreed to buy from Walter in August 2026 | $12.5 billion, reported |
+
+*Sources: the Lakers' Wikipedia ownership history, citing the Detroit Free Press (1947) and Roland Lazenby's team history; The New York Times, 2013; NBA.com, 2025; NBC News, 2026.*
+
 ## Lakers ownership timeline
 
-| Year | What happened | Source |
-|---|---|---|
-| 1979 | Jerry Buss buys the Lakers, the Forum and the Kings from Jack Kent Cooke for $67.5 million | The New York Times, 2013 |
-| 1998 | Philip Anschutz and Ed Roski Jr. buy 25% | Los Angeles Times |
-| 2013 | Jerry Buss dies; Jeanie Buss becomes controlling owner and governor | The New York Times, 2013 |
-| 2021 | Anschutz sells his roughly 27% stake to Mark Walter and Todd Boehly at about a $5 billion valuation | Los Angeles Times, June 26, 2021; AEG, July 9, 2021 |
-| 2025 | Buss family agrees in June to sell control to Walter at a $10 billion valuation; NBA approves on October 30 | Los Angeles Times; NBA.com |
-| 2026 | Walter agrees on August 12 to sell to Iger and Kushner for a reported $12.5 billion; NBA approval pending | NBC News; ABC News |
+<div id="vt-timeline"></div>
 
-## How much did each owner pay?
+| Year | What happened | Price or value | Source |
+|---|---|---|---|
+| 1947 | Ben Berger and Morris Chalfen buy the Detroit Gems and move them to Minneapolis as the Lakers | $15,000 | Detroit Free Press, 1947 |
+| 1957 | Bob Short's group of 117 Minnesota investors buys the team | $150,000 | Lakers ownership history |
+| 1960 | Short moves the Lakers to Los Angeles | - | Lakers ownership history |
+| 1965 | Jack Kent Cooke buys the team from Short | $5.175 million | Lakers ownership history |
+| 1979 | Jerry Buss buys the Lakers, the Forum and the Kings from Cooke | $67.5 million for the package | The New York Times, 2013 |
+| 1998 | Philip Anschutz and Ed Roski Jr. buy 25% | Not disclosed | Los Angeles Times, 1998 |
+| 2013 | Jerry Buss dies; Jeanie Buss becomes controlling owner and governor | - | The New York Times, 2013 |
+| 2021 | Anschutz sells his roughly 27% stake to Mark Walter and Todd Boehly | About $5 billion team value | Los Angeles Times, June 26, 2021 |
+| 2025 | Buss family sells control to Walter; NBA approves on October 30 | $10 billion team value | NBA.com, October 30, 2025 |
+| 2026 | Walter agrees on August 12 to sell to Iger and Kushner; NBA approval pending as of October 25 | $12.5 billion, reported | NBC News, August 12, 2026 |
 
-| Deal | Team value | Date |
-|---|---|---|
-| Jerry Buss buys the Lakers (with the Forum and Kings) | $67.5 million for the package | 1979 |
-| Walter and Boehly buy Anschutz's stake | About $5 billion | July 2021 |
-| Walter buys control | $10 billion | October 2025 |
-| Iger and Kushner agree to buy | $12.5 billion (reported) | August 2026 |
-
-That is a 25% rise in team value in about 10 months, between the Walter closing and the Iger and Kushner agreement.
+From Cooke's $5.175 million in 1965 to Walter's $10 billion in 2025, the team's value rose about 1,900-fold in 60 years. The Iger and Kushner price would add another 25% in about 10 months.
 
 ## Who runs the Lakers day to day?
 

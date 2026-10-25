@@ -9,6 +9,7 @@ import "@/styles/tracker-reference.css";
 import "@/styles/production.css";
 import "@/styles/leaders.css";
 import "@/styles/state-wealth-map.css";
+import "@/styles/timeline.css";
 import "@/styles/home-editorial.css";
 import "@/styles/home-freshness.css";
 import "@/styles/home-consolidated.css";

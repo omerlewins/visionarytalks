@@ -9,6 +9,7 @@ import {
 import { MoneyWorldMap } from "./MoneyWorldMap";
 import { AtcPayEmbed, atcPayMarker } from "./AtcPayEmbed";
 import { publicationText } from "@/lib/editorial-punctuation";
+import { ownershipTimelines } from "@/migration/timeline";
 
 // Article HTML places the money map with <div id="vt-money-map"></div>.
 const moneyMapMarker = '<div id="vt-money-map"></div>';
@@ -33,7 +34,7 @@ export function LegacyContent({
   html: string;
   ownership: boolean;
 }) {
-  const clean = sanitize(html, {
+  const sanitized = sanitize(html, {
     textFilter: publicationText,
     allowedTags: sanitize.defaults.allowedTags.concat([
       "img",
@@ -46,6 +47,7 @@ export function LegacyContent({
       img: ["src", "srcset", "alt", "width", "height", "loading"],
     },
   });
+  const clean = ownershipTimelines(sanitized);
   const chart = extractLegacyChart(clean);
   const opening = (value: string) =>
     editorialTables(ownership ? ownershipOpening(value) : value);

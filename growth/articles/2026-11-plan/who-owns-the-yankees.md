@@ -39,6 +39,9 @@ sources:
   - title: "MLB Changed Its Team Ownership Rules, and the $12B Yankees Took Advantage (Newsweek)"
     url: https://www.newsweek.com/sports/mlb/mlb-changed-its-team-ownership-rules-and-the-12b-yankees-took-advantage-12475987
     date: "2026-09"
+  - title: "New York Yankees: history (Wikipedia)"
+    url: https://en.wikipedia.org/wiki/New_York_Yankees
+    date: "accessed 2026-10-25"
   - title: "George Steinbrenner dies at 80 (ESPN)"
     url: https://www.espn.com/mlb/news/story?id=5375561
     date: "2010-07-13"
@@ -99,16 +102,38 @@ A 12-member group led by George Steinbrenner bought the Yankees from CBS on Janu
 
 From $8.8 million in 1973 to Forbes' $8.5 billion in 2026 is nearly a 1,000-fold increase in 53 years.
 
+## Every Yankees owner
+
+| Controlling owner | Years | How they got the team | Price |
+|---|---|---|---|
+| Frank Farrell and Bill Devery | 1903 to 1915 | Awarded the new American League franchise in New York | Not reliably recorded |
+| Jacob Ruppert and Tillinghast Huston | 1915 to 1923 | Bought the team together, each paying half | $350,000 |
+| Jacob Ruppert, then his estate | 1923 to 1945 | Bought out Huston in 1923; his heirs ran the team after his death in 1939 | Buyout price not given |
+| Dan Topping and Del Webb (with Larry MacPhail until 1947) | 1945 to 1964 | Bought from the Ruppert estate | $2.8 million |
+| CBS | 1964 to 1973 | Bought 80% from Topping and Webb after the 1964 season | $11.2 million for 80% |
+| George Steinbrenner | 1973 to 2008 | Led a 12-member group that bought the team from CBS, then bought out most partners within a year | $10 million ($8.8 million net per Forbes) |
+| Hal Steinbrenner and family | 2008 to today | MLB approved Hal as the person in control on November 20, 2008 | Family ownership |
+
+*Sources: the Yankees' Wikipedia history, citing team histories and contemporary reports; HISTORY.com; Associated Press, 2008; Forbes, 2026.*
+
+The Yankees have changed hands six times in 123 years, and the Steinbrenners have now owned the team for 53 of them, longer than any other owner.
+
 ## Yankees ownership timeline
 
-| Year | What happened | Source |
-|---|---|---|
-| 1964 | CBS buys the Yankees | HISTORY.com |
-| 1973 | George Steinbrenner's 12-member group buys the team from CBS on January 3 for about $10 million | HISTORY.com |
-| 2008 | MLB owners unanimously approve Hal Steinbrenner as the person in control of the club on November 20 | Associated Press, November 20, 2008 |
-| 2010 | George Steinbrenner dies on July 13 | ESPN, July 13, 2010 |
-| 2020 | Hank Steinbrenner, Hal's brother and fellow general partner, dies on April 14 | New York Post, April 14, 2020 |
-| 2026 | Apollo agrees a $2.6 billion financing and minority stake deal, announced August 11 | Sportico |
+<div id="vt-timeline"></div>
+
+| Year | What happened | Price or value | Source |
+|---|---|---|---|
+| 1903 | Frank Farrell and Bill Devery get the American League's New York franchise | - | Yankees history |
+| 1915 | Jacob Ruppert and Tillinghast Huston buy the team | $350,000 | Yankees history |
+| 1923 | Ruppert buys out Huston and becomes sole owner | - | Yankees history |
+| 1945 | Del Webb, Dan Topping and Larry MacPhail buy the team from the Ruppert estate | $2.8 million | Yankees history |
+| 1964 | CBS buys 80% of the Yankees from Topping and Webb | $11.2 million for 80% | Yankees history |
+| 1973 | George Steinbrenner's 12-member group buys the team from CBS on January 3 | $10 million | HISTORY.com |
+| 2008 | MLB owners unanimously approve Hal Steinbrenner as the person in control on November 20 | - | Associated Press, November 20, 2008 |
+| 2010 | George Steinbrenner dies on July 13 | - | ESPN, July 13, 2010 |
+| 2020 | Hank Steinbrenner, Hal's brother and fellow general partner, dies on April 14 | - | New York Post, April 14, 2020 |
+| 2026 | Forbes values the team at $8.5 billion in March; Apollo agrees a $2.6 billion financing and minority stake deal, announced August 11 | $8.5 billion (Forbes) | Forbes; Sportico |
 
 ## Who runs the Yankees?
 
