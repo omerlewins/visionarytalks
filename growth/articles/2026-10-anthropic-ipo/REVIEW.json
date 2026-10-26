@@ -1,0 +1,61 @@
+{
+  "decision": "document-review-complete",
+  "reviewedAt": "2026-10-26T15:09:37.742774+00:00",
+  "authorization": "Owner requested writing and publishing a deep original analysis of the Anthropic IPO filing.",
+  "reviewer": "Codex document-based analysis; not an independent financial audit or human source approval claim",
+  "articleHash": "e35ca2ed33a0b316d6595b1318a959ad3eaf382f67663de5c9ec2433b33c8504",
+  "metadataHash": "0bb4fa4d78de4597e1ce4c5eb3122c3f9fcd17fa0baca61649b156a0a311473a",
+  "sourceCaptures": [
+    {
+      "file": "s1.html",
+      "sha256": "01ceed043cd6ff4f67d9053ec6f8dac703c931b3327e98d6abf2d56fef45dc89",
+      "bytes": 14169252,
+      "retrievedBy": "2026-10-26T14:58:33.176589+00:00"
+    },
+    {
+      "file": "index.html",
+      "sha256": "85d86828d0ec11ce3ce96f76e9d51ce1189fa25877fabba48987e4c192083720",
+      "bytes": 33494,
+      "retrievedBy": "2026-10-26T15:02:25.544863+00:00"
+    },
+    {
+      "file": "announcement.html",
+      "sha256": "2005bab9310e0f0213abf7f0672ee27a684565355a82b40d66dafbdf9f29df3a",
+      "bytes": 150727,
+      "retrievedBy": "2026-10-26T14:58:33.579082+00:00"
+    },
+    {
+      "file": "submissions.json",
+      "sha256": "c4d6e63ba9662278106dbfa780035ae02425f7a1c91893ce2ef3f48fafe57fc9",
+      "bytes": 2318,
+      "retrievedBy": "2026-10-26T15:02:25.816862+00:00"
+    }
+  ],
+  "primaryFindings": [
+    "Note 8 F-40 functional expense reconciliation, including derived gross margin and retained research/distribution costs",
+    "MD&A pp166-168 conditional Broadcom financing and stressed terms",
+    "Risk factors pp65-66 hypothetical June RSU expense, not exact IPO-quarter forecast",
+    "Governance pp242-251 separates Class F general votes from Class T board-election rights"
+  ],
+  "calculations": {
+    "gross_profit_m": 13906,
+    "gross_margin_pct": 85.38622129436325,
+    "functional_expenses_m": 16979,
+    "operating_loss_m": -693,
+    "cash_less_capex_m": 3447,
+    "break_even_revenue_increase_pct": 4.255188505464816,
+    "q2_revenue_decline_to_break_even_pct": 8.429251406317611,
+    "revenue_down_10pct_operating_m": -2321.6000000000004,
+    "revenue_up_10pct_operating_m": 935.6000000000022,
+    "quarterly_2025_total_m": 4585,
+    "h1_2026_total_m": 16286
+  },
+  "limitations": [
+    "No complete current commitment total or next-12-month maturity figure: initial filing leaves blanks",
+    "No final offering price, share count, valuation, date or per-share model",
+    "No summed overlapping compute commitments",
+    "No independent audit, exhaustive exhibit review or draft-by-draft comparison",
+    "Usage-policy estimate is nine-month, not multiplied by first-half revenue",
+    "Legacy Anthropic ownership and valuation articles not revised in this release"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "path": "/anthropic-ipo/",
+  "title": "Anthropic’s IPO: Who Bears the Risk When the Compute Arrives?",
+  "homepageHeadline": "Anthropic’s IPO puts the compute bill in public hands",
+  "dek": "I traced Anthropic’s first public S-1 from its $80.7 billion loss to Note 8, conditional financing and founder control. The key question is what happens when committed compute meets flexible demand.",
+  "seo": {
+    "title": "Anthropic IPO S-1 Analysis: Profits, Compute Bills and Control",
+    "description": "A close reading of Anthropic’s October 26 S-1: the $80.7B loss, Note 8 margins, compute commitments, conditional financing and what ANT shareholders control.",
+    "canonical": "https://visionarytalks.com/anthropic-ipo/",
+    "noindex": false
+  },
+  "sources": [
+    {
+      "key": "s1",
+      "title": "Anthropic, PBC: initial public Form S-1, accession 0001628280-26-067168",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "publisher": "SEC EDGAR / Anthropic, PBC",
+      "publishedAt": "2026-10-26T13:00:11Z",
+      "evidence": "Primary registration statement retrieved October 26. Cover; summary financial statements; MD&A; selected risk factors; financing, governance and share-capital provisions; financial notes 1, 8, 9, 11, 13 and subsequent events. Annual financials audited; 2026 interim figures unaudited. Offering terms and updated aggregate commitment summary contain blanks. Independent audit, exhaustive exhibit review and comparison of confidential drafts were not performed."
+    },
+    {
+      "key": "index",
+      "title": "SEC EDGAR filing index: Anthropic, PBC, Form S-1, October 26, 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/0001628280-26-067168-index.html",
+      "publisher": "SEC EDGAR",
+      "publishedAt": "2026-10-26T13:00:11Z",
+      "evidence": "Registrant identity and filing accession cross-checked with CIK0002130357 submissions JSON. The retrieved latest form is S-1; no public S-1/A appeared in the retrieved recent-filings record."
+    },
+    {
+      "key": "announcement",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "publisher": "Anthropic",
+      "publishedAt": "2026-10-26T00:00:00Z",
+      "evidence": "Same-day issuer notice confirms proposed Class A IPO and Nasdaq ANT, with share count and price range undetermined and registration not effective. No confirmed trading date or final offering valuation."
+    }
+  ],
+  "quarterlyRevenueMillions": [
+    { "period": "Q1 2025", "value": 376 },
+    { "period": "Q2 2025", "value": 787 },
+    { "period": "Q3 2025", "value": 1382 },
+    { "period": "Q4 2025", "value": 2040 },
+    { "period": "Q1 2026", "value": 4731 },
+    { "period": "Q2 2026", "value": 11555 }
+  ],
+  "faqs": [
+    {
+      "question": "Has Anthropic filed for an IPO?",
+      "answer": "Yes. Anthropic, PBC publicly filed its initial Form S-1 on October 26, 2026, accession 0001628280-26-067168. The initial registration statement is not yet effective."
+    },
+    {
+      "question": "What is Anthropic’s proposed stock ticker and IPO price?",
+      "answer": "The proposed ticker is ANT on the Nasdaq Global Select Market. The October 26 S-1 leaves the IPO price range and number of offered shares blank, so it does not establish a final IPO valuation or trading date."
+    },
+    {
+      "question": "Did Anthropic burn $80.7 billion of cash in the first half of 2026?",
+      "answer": "No. The $80.748 billion net loss includes large noncash financing revaluations. First-half operating cash flow was positive $3.929 billion, while the operating loss was $693 million. Future infrastructure funding needs are a separate question."
+    },
+    {
+      "question": "Will Anthropic’s public shareholders control the company?",
+      "answer": "Class A stock has one vote per share, but the proposed Founder LLC Class F share carries 50.1% of general stockholder voting power. Separately, the Long-Term Benefit Trust generally elects directors constituting a board majority, subject to the governance provisions described in the filing."
+    }
+  ]
+}
