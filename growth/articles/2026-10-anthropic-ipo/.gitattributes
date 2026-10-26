@@ -1,0 +1,4 @@
+# These two inputs are byte-bound to REVIEW.json and the published CMS checksum.
+# Preserve the reviewed bytes across Windows/Linux checkouts.
+ARTICLE.md -text
+article.json -text
