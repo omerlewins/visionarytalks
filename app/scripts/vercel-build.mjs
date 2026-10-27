@@ -3,8 +3,9 @@
 // Preview database before building: pending migrations, then the reviewed
 // Preview content import (PREVIEW_CMS_BATCH, default kd10-2026-10). A
 // Production build imports approved articles only when PRODUCTION_CMS_IMPORT
-// names a known batch, and only after the build succeeds. Every other build
-// only builds.
+// names a known batch, and only after the build succeeds;
+// PRODUCTION_LEADER_REFRESH=<slug> likewise rewrites one approved leader
+// profile story. Every other build only builds.
 import { execSync } from "node:child_process";
 const run = (command, env = {}) =>
   execSync(command, { stdio: "inherit", env: { ...process.env, ...env } });
@@ -34,4 +35,14 @@ if (
   run(
     "npx tsx scripts/import-kd10-preview.ts --production --apply --batch " +
       productionBatch,
+  );
+if (
+  ["leopold-aschenbrenner"].includes(process.env.PRODUCTION_LEADER_REFRESH) &&
+  process.env.VERCEL_ENV === "production" &&
+  process.env.APP_ENV === "production" &&
+  process.env.NEON_PROJECT_ID === "rough-wave-60456912"
+)
+  run(
+    "npx tsx scripts/refresh-leader-story.ts --apply --slug " +
+      process.env.PRODUCTION_LEADER_REFRESH,
   );

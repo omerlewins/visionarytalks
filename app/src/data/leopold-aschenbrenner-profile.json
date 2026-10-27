@@ -3,7 +3,7 @@
     "templateVersion": "leaders-v1",
     "editorialReview": {
       "status": "approved",
-      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant.",
+      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant. Refreshed October 27, 2026 for the \"leopold aschenbrenner\" and \"situational awareness fund\" searches, adding the Form ADV, the full 13F history and the 13D stakes.",
       "findingsReviewed": true,
       "unknownsReviewed": true
     },
@@ -13,40 +13,40 @@
     "company": "Situational Awareness",
     "cluster": "Investment & infrastructure",
     "role": "Founder of Situational Awareness LP",
-    "hook": "The investor behind the AI infrastructure bet",
-    "dek": "I trace his move from AI safety research to investment management, then separate the firm’s disclosed securities from his unverified personal fortune.",
-    "answer": "Leopold Aschenbrenner is the founder of Situational Awareness, an investment firm focused on AI. Leopold Aschenbrenner net worth is not publicly established by the records reviewed on October 12, 2026. The firm’s SEC holdings disclosures measure managed securities, not his personal wealth.",
-    "checked": "2026-10-12",
+    "hook": "The OpenAI researcher who built a $9 billion AI fund",
+    "dek": "I trace his path from Columbia valedictorian and OpenAI researcher to a $9.28 billion AI hedge fund, then show what the SEC filings reveal about his stake and what they do not.",
+    "answer": "Leopold Aschenbrenner net worth is not publicly established. He owns 50% to 75% of Situational Awareness LP, an AI-focused hedge fund adviser that reported $9.28 billion in regulatory assets in June 2026, but no filing shows his personal fortune.",
+    "checked": "2026-10-27",
     "status": "draft",
     "seo": {
-      "title": "Leopold Aschenbrenner Net Worth: The Evidence",
-      "description": "Leopold Aschenbrenner net worth is not established. The 13F concentration calculation without inventing personal wealth."
+      "title": "Leopold Aschenbrenner Net Worth, Fund and Bio (2026)",
+      "description": "Leopold Aschenbrenner net worth: he owns 50-75% of Situational Awareness, a $9.28B AI hedge fund. His stake, holdings, OpenAI exit and bio."
     },
     "wealth": {
       "display": "Not publicly established",
       "value": null,
-      "date": "2026-10-12",
-      "basis": "Personal assets, liabilities and economic interests are not sufficiently disclosed",
-      "paragraph": "Leopold Aschenbrenner’s net worth is not publicly established as of my October 11, 2026 research check. The firm’s [March 2026 filing](https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/xslForm13F_X02/primary_doc.xml) reports $13.68 billion of securities-table value; its [June 2026 filing](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml) reports $20.24 billion. Neither is his personal fortune. A defensible estimate requires his own capital balance, management-company ownership, realized fees, other assets and liabilities. I have not established those inputs, so I publish no personal dollar estimate or interpolated wealth curve. The earlier article’s $400 million–$1.6 billion fee-and-capital model depended on undisclosed assumptions and should not be treated as a verified estimate."
+      "date": "2026-10-27",
+      "basis": "Owns 50% to 75% of the adviser, but personal capital, fee income and liabilities are not disclosed",
+      "paragraph": "Leopold Aschenbrenner’s net worth is not publicly established as of October 27, 2026. What the filings do show is ownership. The firm’s [June 2026 Form ADV](https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf) lists him as chief investment officer and a limited partner owning 50% to 75% of Situational Awareness LP, the adviser, and 75% or more of its general partner. The adviser reported $9.28 billion in regulatory assets, and its [Schedule 13D filings](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml) say it earns fees based on assets and on realized and unrealized gains. A stake in a fast-growing adviser like that can be very valuable, but the filings disclose neither the fee rates, the fund’s returns, his own capital in the fund nor his liabilities. Without those, any dollar figure would be a guess, so I publish none."
     },
     "sections": [
       {
         "stage": "origin",
-        "heading": "Before the fund: economic growth and AI safety",
+        "heading": "Who is Leopold Aschenbrenner?",
         "paragraphs": [
-          "Aschenbrenner’s [own account of his background](https://situational-awareness.ai/leopold-aschenbrenner/) places him first in research on long-run economic growth at Oxford’s Global Priorities Institute and later on OpenAI’s Superalignment team. He describes himself as coming from Germany and living in San Francisco. These are first-person biographical statements, not an independently documented account of every employment date.",
-          "The connection between those subjects matters. Economic-growth research asks what can change the scale of future output. AI alignment asks whether increasingly capable systems can be controlled. His subsequent investment thesis brings the two together: if machine intelligence becomes much more capable, the enabling infrastructure may become economically important before the ultimate winners are known.",
-          "I distinguish that interpretation from the record. His biography establishes the research path; it does not prove that an investment forecast will be right. Nor does employment at a valuable AI company establish a personal equity stake. Readers looking for the company’s control structure can follow our [OpenAI ownership investigation](/who-owns-chatgpt-openai/) without treating employer value as employee wealth."
+          "Aschenbrenner grew up in Germany and graduated as valedictorian of Columbia at 19, according to the introduction to his [June 2024 Dwarkesh Podcast interview](https://www.dwarkesh.com/p/leopold-aschenbrenner). His [own biography](https://situational-awareness.ai/leopold-aschenbrenner/) says he then researched long-run economic growth at Oxford’s Global Priorities Institute and later joined OpenAI’s Superalignment team. He lives in San Francisco.",
+          "He left OpenAI in April 2024. In the same interview he said OpenAI told employees he was fired for leaking, which he said referred to a brainstorming document he had shared with three outside researchers for feedback. He also said he had been told a memo he wrote warning that OpenAI’s security was inadequate was a reason. That is his account; OpenAI’s internal reasoning is not public.",
+          "The two research subjects explain the fund. Growth research asks what can change the scale of the economy; alignment research asks whether powerful AI can be controlled. His investment thesis joins them: if AI keeps improving quickly, the companies that supply chips, memory, data centers and power may gain before the final winners are known. Readers interested in his former employer can see our [OpenAI ownership investigation](/who-owns-chatgpt-openai/)."
         ]
       },
       {
         "stage": "company",
-        "heading": "From the June 2024 essay to an investment firm",
+        "heading": "Situational Awareness: from an essay to a $9 billion fund",
         "paragraphs": [
-          "His [June 2024 Situational Awareness essay series](https://situational-awareness.ai/) set out a forecast about AI capabilities, industrial expansion and security. It is a useful record of what he argued at the time, rather than evidence that those predictions have occurred. His accompanying biography names Patrick Collison, John Collison, Nat Friedman and Daniel Gross as anchor investors in the firm; it does not disclose their stakes, commitments or fee arrangements.",
-          "The [firm’s website](https://situationalawarenesslp.com/) dates its establishment to September 2024 and describes a global equity strategy spanning technology and energy. I retain that date rather than assuming that publishing an essay, announcing an investor group and launching an investment vehicle are the same event. The public materials reviewed do not reconcile every step of the launch chronology.",
-          "There are several economic layers here: the adviser runs the strategy, investment vehicles hold capital, investors have claims on those vehicles, and an owner of the adviser may receive business profits. Each layer can have a different ownership split. A founder’s prominence supplies no shortcut for calculating any of them.",
-          "The company’s site also directs prospective investors to private offering documents. Those documents, rather than a public profile or a headline valuation, would determine the terms governing an investment. I have not reviewed a complete set of those agreements. Fund participation, adviser ownership and personal assets remain separate questions."
+          "His [June 2024 Situational Awareness essay series](https://situational-awareness.ai/) set out a forecast about AI capabilities, industrial expansion and security, and his biography names Patrick Collison, John Collison, Nat Friedman and Daniel Gross as anchor investors in the firm. The [firm’s website](https://situationalawarenesslp.com/) dates its founding to September 2024 and describes a global equity strategy across technology and energy.",
+          "Growth since then is visible in SEC filings. The [first Form 13F](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/xslForm13F_X02/primary_doc.xml), for December 31, 2024, listed $254.8 million of securities. By June 30, 2026 the table showed $20.24 billion. The more reliable size measure is the [Form ADV](https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf) filed June 11, 2026: $9,278,344,000 in regulatory assets across two accounts. Its main fund, Situational Awareness Partners LP, which has an offshore feeder, had 81 investors and a $5 million minimum investment, and the adviser had eight employees.",
+          "The same Form ADV shows who owns the business. Aschenbrenner, listed as chief investment officer and a limited partner, owns 50% to 75% of the adviser. Carl Shulman, director of research and co-portfolio manager, owns 25% to 50%, and chief operating officer Nicholas Gross-Whitaker 5% to 10%. Aschenbrenner also owns 75% or more of Situational Awareness LLC, the adviser’s general partner, and the firm’s [Schedule 13D filings](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml) describe him as its control person.",
+          "The firm also takes large stakes in single companies. It reported 5.8% of Core Scientific in August 2025, raised to 9.4% that October before falling to 4.4% by July 2026, 5.6% of Nebius in May 2026 and 21.1% of [SharonAI Holdings](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000468/xslSCHEDULE_13D_X02/primary_doc.xml) in August 2026. Those filings say the adviser is paid fees based on assets under management and on realized and unrealized gains."
         ]
       },
       {
@@ -73,65 +73,155 @@
       "leopold-bio",
       "leopold-essay",
       "leopold-firm",
+      "leopold-podcast",
+      "leopold-adv",
+      "leopold-q4-24",
+      "leopold-q1-25",
+      "leopold-q2-25",
+      "leopold-q3-25",
+      "leopold-q4-25",
       "leopold-q1",
       "leopold-q2",
       "leopold-table",
+      "leopold-corz",
+      "leopold-corz-a",
+      "leopold-corz-b",
+      "leopold-nbis",
+      "leopold-shai",
       "leopold-sec-guide"
     ],
     "capital": [
       {
         "date": "September 2024",
-        "event": "Firm establishment",
-        "amount": "Investor commitments not disclosed in reviewed materials",
-        "valuation": "No adviser valuation established",
-        "note": "Firm website dates establishment to September; announcement and investment-vehicle launch dates may differ.",
+        "event": "Firm founded",
+        "amount": "Not disclosed",
+        "valuation": "No valuation disclosed",
+        "note": "Firm website dates its founding to September 2024; anchor investors named by Aschenbrenner include Patrick Collison, John Collison, Nat Friedman and Daniel Gross.",
         "sourceId": "leopold-firm"
       },
       {
+        "date": "December 31, 2024",
+        "event": "First Form 13F",
+        "amount": "$254,813,765",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "6 entries, led by Marvell, Vistra and Vertiv.",
+        "sourceId": "leopold-q4-24"
+      },
+      {
+        "date": "March 31, 2025",
+        "event": "Form 13F",
+        "amount": "$1,005,567,727",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "12 entries; the largest was an Intel call-option position.",
+        "sourceId": "leopold-q1-25"
+      },
+      {
+        "date": "June 30, 2025",
+        "event": "Form 13F",
+        "amount": "$2,123,023,762",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "9 entries; the largest was a put-option position on a semiconductor ETF.",
+        "sourceId": "leopold-q2-25"
+      },
+      {
+        "date": "September 30, 2025",
+        "event": "Form 13F",
+        "amount": "$4,138,368,748",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "28 entries, led by Intel calls and CoreWeave shares.",
+        "sourceId": "leopold-q3-25"
+      },
+      {
+        "date": "December 31, 2025",
+        "event": "Form 13F",
+        "amount": "$5,516,758,344",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "29 entries, led by Bloom Energy shares and CoreWeave calls.",
+        "sourceId": "leopold-q4-25"
+      },
+      {
         "date": "March 31, 2026",
-        "event": "Quarter-end 13F disclosure",
+        "event": "Form 13F",
         "amount": "$13,676,657,577",
         "valuation": "Reported securities-table value, not personal wealth",
-        "note": "42 reported entries. Includes securities under the 13F reporting rules; not a complete net asset balance sheet.",
+        "note": "42 entries; the five largest were put-option positions on chip and AI stocks.",
         "sourceId": "leopold-q1"
       },
       {
+        "date": "June 2026",
+        "event": "Form ADV regulatory assets",
+        "amount": "$9,278,344,000",
+        "valuation": "Assets the adviser manages, not personal wealth",
+        "note": "Two accounts, 81 fund investors, a $5 million minimum investment and 8 employees.",
+        "sourceId": "leopold-adv"
+      },
+      {
         "date": "June 30, 2026",
-        "event": "Quarter-end 13F disclosure",
+        "event": "Form 13F",
         "amount": "$20,242,292,228",
         "valuation": "Reported securities-table value, not personal wealth",
-        "note": "26 reported entries. Signed August 14, 2026; quarter-end values are not current prices.",
+        "note": "26 entries; SanDisk and Micron shares make up 55.6% of the table.",
         "sourceId": "leopold-q2"
       }
     ],
     "timeline": [
       {
+        "date": "2021",
+        "text": "Graduates as valedictorian of Columbia at 19, according to the Dwarkesh Podcast introduction.",
+        "sourceId": "leopold-podcast"
+      },
+      {
+        "date": "Before 2024",
+        "text": "Works on OpenAI’s Superalignment team, per his own biography.",
+        "sourceId": "leopold-bio"
+      },
+      {
+        "date": "April 2024",
+        "text": "Leaves OpenAI. He said OpenAI cited a leak of a brainstorming document; he linked the firing to a memo on OpenAI security.",
+        "sourceId": "leopold-podcast"
+      },
+      {
         "date": "June 2024",
-        "text": "Publishes the Situational Awareness essay series and describes an AI-focused investment project.",
+        "text": "Publishes the Situational Awareness essay series and announces an AI-focused investment firm.",
         "sourceId": "leopold-essay"
       },
       {
         "date": "September 2024",
-        "text": "Firm website dates its establishment to this month.",
+        "text": "Founds Situational Awareness LP in San Francisco.",
         "sourceId": "leopold-firm"
       },
       {
-        "date": "March 31, 2026",
-        "text": "SEC cover page records 42 entries and $13.68B in reported table value.",
-        "sourceId": "leopold-q1"
+        "date": "December 2024",
+        "text": "First Form 13F reports $254.8 million in securities.",
+        "sourceId": "leopold-q4-24"
       },
       {
-        "date": "June 30, 2026",
-        "text": "SEC cover page records 26 entries and $20.24B in reported table value.",
-        "sourceId": "leopold-q2"
+        "date": "August 2025",
+        "text": "Files a Schedule 13D for a 5.8% stake in Core Scientific, raised to 9.4% in October 2025.",
+        "sourceId": "leopold-corz"
+      },
+      {
+        "date": "May 2026",
+        "text": "Reports a 5.6% stake in Nebius Group.",
+        "sourceId": "leopold-nbis"
+      },
+      {
+        "date": "June 2026",
+        "text": "Form ADV reports $9.28 billion in regulatory assets; the 13F table reaches $20.24 billion.",
+        "sourceId": "leopold-adv"
+      },
+      {
+        "date": "August 2026",
+        "text": "Reports a 21.1% stake in SharonAI Holdings.",
+        "sourceId": "leopold-shai"
       }
     ],
-    "methodology": "I conduct independent document-based research for Visionary Talks. For this profile, I compared the founder’s first-person materials, the firm’s website, two SEC cover pages and the June information table. I calculated the two-stock concentration directly from reported dollar values and checked the denominator against the cover page. The SEC guidance defines what the filings include and omit. First-person statements, predictions, reported holdings and my interpretation are identified separately. These documents do not provide a complete personal balance sheet, ownership schedule or realized-fee ledger. I therefore do not turn managed assets or assumed fee rates into a personal wealth estimate. The research check date is October 11, 2026; financial observations retain their own historical dates.",
+    "methodology": "I conduct independent document-based research for Visionary Talks. For this profile I read every Form 13F the firm has filed, its June 2026 Form ADV, its Schedule 13D and 13G filings, the founder’s own biography and essays, the firm’s website and his June 2024 podcast interview. I calculated concentration and growth figures directly from reported dollar values. Reported holdings, regulatory assets, first-person statements and my interpretation are identified separately. These records do not provide a personal balance sheet, fee rates or audited returns, so I do not turn managed assets into a personal wealth estimate. The research check date is October 27, 2026; financial observations keep their own dates.",
     "notes": [
       "No verified personal net-worth observations were established; no historical personal-wealth graph is drawn.",
-      "The earlier $400M–$1.6B estimate is an assumption-based model, not a verified dollar range.",
-      "Reported portfolio losses, investor withdrawals and any change of fund ownership require separate dated verification before inclusion.",
-      "A full personal balance sheet, adviser economic ownership and private fund agreements were not available in the records reviewed."
+      "The earlier $400M to $1.6B estimate on this page was an assumption-based model, not a verified dollar range.",
+      "Form ADV ownership is reported in bands, not exact percentages.",
+      "13F totals include option positions at underlying value and exclude short positions, so they differ from regulatory assets."
     ],
     "quickFacts": [
       {
@@ -141,64 +231,80 @@
       },
       {
         "label": "Current firm",
-        "value": "Situational Awareness LP",
+        "value": "Situational Awareness LP, founded September 2024",
         "sourceId": "leopold-firm"
       },
       {
         "label": "Role",
-        "value": "Founder",
-        "sourceId": "leopold-firm"
+        "value": "Chief investment officer and managing partner",
+        "sourceId": "leopold-adv"
       },
       {
-        "label": "Earlier research",
-        "value": "OpenAI Superalignment; Oxford Global Priorities Institute, per his own biography",
+        "label": "Stake in the adviser",
+        "value": "50% to 75%, per June 2026 Form ADV",
+        "sourceId": "leopold-adv"
+      },
+      {
+        "label": "Regulatory assets",
+        "value": "$9.28B, June 2026",
+        "sourceId": "leopold-adv"
+      },
+      {
+        "label": "Fund investors",
+        "value": "81; minimum investment $5 million",
+        "sourceId": "leopold-adv"
+      },
+      {
+        "label": "Co-portfolio manager",
+        "value": "Carl Shulman, director of research",
+        "sourceId": "leopold-corz"
+      },
+      {
+        "label": "Earlier work",
+        "value": "OpenAI Superalignment; Oxford Global Priorities Institute",
         "sourceId": "leopold-bio"
       },
       {
-        "label": "Based in",
-        "value": "San Francisco, per reviewed materials",
-        "sourceId": "leopold-firm"
-      },
-      {
-        "label": "Firm established",
-        "value": "September 2024, per firm website",
-        "sourceId": "leopold-firm"
+        "label": "Education",
+        "value": "Columbia, valedictorian at 19",
+        "sourceId": "leopold-podcast"
       },
       {
         "label": "Personal net worth",
-        "value": "Not publicly established in reviewed records",
-        "sourceId": null
-      },
-      {
-        "label": "June 2026 reported holdings",
-        "value": "$20.24B securities-table value; not his wealth",
-        "sourceId": "leopold-q2"
-      },
-      {
-        "label": "Disclosed personal stake",
-        "value": "Exact economic ownership not established",
+        "value": "Not publicly established",
         "sourceId": null
       }
     ],
     "faq": [
       {
         "question": "What is Leopold Aschenbrenner’s net worth?",
-        "answer": "Leopold Aschenbrenner’s net worth is not publicly established as of my October 11, 2026 research check. The firm’s March 2026 filing reports $13.68 billion of securities-table value; its June 2026 filing reports $20.24 billion. Neither is his personal fortune. A defensible estimate requires his own capital balance, management-company ownership, realized fees, other assets and liabilities. I have not established those inputs, so I publish no personal dollar estimate or interpolated wealth curve. The earlier article’s $400 million–$1.6 billion fee-and-capital model depended on undisclosed assumptions and should not be treated as a verified estimate."
+        "answer": "It is not publicly established as of October 27, 2026. He owns 50% to 75% of Situational Awareness LP, which reported $9.28 billion in regulatory assets in June 2026, but no filing discloses his fee income, his own capital in the fund or his liabilities.",
+        "sourceId": "leopold-adv"
+      },
+      {
+        "question": "Who is Leopold Aschenbrenner?",
+        "answer": "He is a German-born former OpenAI Superalignment researcher who wrote the June 2024 Situational Awareness essays on AI and then founded Situational Awareness LP, an AI-focused investment firm in San Francisco, in September 2024.",
+        "sourceId": "leopold-bio"
+      },
+      {
+        "question": "How much money does Situational Awareness manage?",
+        "answer": "$9,278,344,000 in regulatory assets, according to the firm’s Form ADV filed June 11, 2026. Its 13F table showed $20.24 billion at June 30, 2026, but that figure counts option positions at the value of the underlying shares, so it is not money under management.",
+        "sourceId": "leopold-adv"
+      },
+      {
+        "question": "Why was Leopold Aschenbrenner fired from OpenAI?",
+        "answer": "He said on the Dwarkesh Podcast in June 2024 that OpenAI told staff he was fired for leaking, which he said referred to a brainstorming document he shared with three outside researchers. He also said he was told a memo he had written on OpenAI security was a reason. That is his account.",
+        "sourceId": "leopold-podcast"
       },
       {
         "question": "Is Leopold Aschenbrenner a billionaire?",
-        "answer": "The reviewed records do not establish his personal fortune. Situational Awareness’s $20.24 billion June securities-table total concerns the firm’s reported positions, not his own assets less liabilities.",
-        "sourceId": "leopold-q2"
+        "answer": "No source establishes that. His majority stake in a $9.28 billion adviser could be worth a great deal, but a firm’s assets belong to its investors, and the value of his stake depends on undisclosed fees and profits.",
+        "sourceId": "leopold-adv"
       },
       {
-        "question": "How much money did Leopold Aschenbrenner make?",
-        "answer": "The 13F filings do not disclose his capital balance, realized personal fees, management-company ownership or liabilities. I cannot derive his personal earnings from changes in the reported portfolio total.",
-        "sourceId": "leopold-q2"
-      },
-      {
-        "question": "Can the SEC filings show his investment returns?",
-        "answer": "Not by comparing the two table totals alone. New capital, position changes and option-underlying reporting can alter the total. A 13F securities snapshot is different from fund net asset value and audited performance.",
-        "sourceId": "leopold-sec-guide"
+        "question": "What stocks does Situational Awareness own?",
+        "answer": "Its June 30, 2026 Form 13F listed 26 entries led by SanDisk and Micron, followed by Bloom Energy, TSMC, Nebius and CoreWeave. It has also reported large stakes in Core Scientific, Nebius and SharonAI.",
+        "sourceId": "leopold-table"
       }
     ]
   },
@@ -209,7 +315,7 @@
       "url": "https://situational-awareness.ai/leopold-aschenbrenner/",
       "type": "Founder / first-person",
       "date": "June 2024 materials",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-27"
     },
     "leopold-essay": {
       "id": "leopold-essay",
@@ -225,7 +331,7 @@
       "url": "https://situationalawarenesslp.com/",
       "type": "Company / primary",
       "date": "Current site at research check",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-27"
     },
     "leopold-q1": {
       "id": "leopold-q1",
@@ -233,7 +339,7 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000008/xslForm13F_X02/primary_doc.xml",
       "type": "SEC / primary",
       "date": "Quarter ended March 31, 2026; signed May 15",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-27"
     },
     "leopold-q2": {
       "id": "leopold-q2",
@@ -241,7 +347,7 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml",
       "type": "SEC / primary",
       "date": "Quarter ended June 30, 2026; signed August 14",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-27"
     },
     "leopold-table": {
       "id": "leopold-table",
@@ -249,7 +355,7 @@
       "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/form13fInfoTable.xml",
       "type": "SEC / primary",
       "date": "June 30, 2026",
-      "accessed": "2026-10-11"
+      "accessed": "2026-10-27"
     },
     "leopold-sec-guide": {
       "id": "leopold-sec-guide",
@@ -258,6 +364,102 @@
       "type": "SEC / primary",
       "date": "Updated March 6, 2026",
       "accessed": "2026-10-11"
+    },
+    "leopold-adv": {
+      "id": "leopold-adv",
+      "title": "SEC: Situational Awareness LP Form ADV",
+      "url": "https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf",
+      "type": "SEC / primary",
+      "date": "Amendment filed June 11, 2026",
+      "accessed": "2026-10-27"
+    },
+    "leopold-q4-24": {
+      "id": "leopold-q4-24",
+      "title": "SEC: December 2024 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended December 31, 2024; signed February 11, 2025",
+      "accessed": "2026-10-27"
+    },
+    "leopold-q1-25": {
+      "id": "leopold-q1-25",
+      "title": "SEC: March 2025 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000002/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended March 31, 2025; signed May 14, 2025",
+      "accessed": "2026-10-27"
+    },
+    "leopold-q2-25": {
+      "id": "leopold-q2-25",
+      "title": "SEC: June 2025 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000006/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended June 30, 2025; signed August 14, 2025",
+      "accessed": "2026-10-27"
+    },
+    "leopold-q3-25": {
+      "id": "leopold-q3-25",
+      "title": "SEC: September 2025 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572425000008/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended September 30, 2025; signed November 14, 2025",
+      "accessed": "2026-10-27"
+    },
+    "leopold-q4-25": {
+      "id": "leopold-q4-25",
+      "title": "SEC: December 2025 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000204572426000002/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended December 31, 2025; signed February 11, 2026",
+      "accessed": "2026-10-27"
+    },
+    "leopold-corz": {
+      "id": "leopold-corz",
+      "title": "SEC: Schedule 13D on Core Scientific",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date August 12, 2025; filed August 19, 2025",
+      "accessed": "2026-10-27"
+    },
+    "leopold-corz-a": {
+      "id": "leopold-corz-a",
+      "title": "SEC: Schedule 13D/A on Core Scientific",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583625000638/xslSCHEDULE_13D_X01/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date October 9, 2025; filed October 14, 2025",
+      "accessed": "2026-10-27"
+    },
+    "leopold-nbis": {
+      "id": "leopold-nbis",
+      "title": "SEC: Schedule 13G on Nebius Group",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000303/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date May 19, 2026; filed May 27, 2026",
+      "accessed": "2026-10-27"
+    },
+    "leopold-shai": {
+      "id": "leopold-shai",
+      "title": "SEC: Schedule 13D on SharonAI Holdings",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000468/xslSCHEDULE_13D_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date August 27, 2026; filed August 28, 2026",
+      "accessed": "2026-10-27"
+    },
+    "leopold-podcast": {
+      "id": "leopold-podcast",
+      "title": "Dwarkesh Podcast: Leopold Aschenbrenner interview",
+      "url": "https://www.dwarkesh.com/p/leopold-aschenbrenner",
+      "type": "Interview / first-person",
+      "date": "June 4, 2024",
+      "accessed": "2026-10-27"
+    },
+    "leopold-corz-b": {
+      "id": "leopold-corz-b",
+      "title": "SEC: Schedule 13D/A on Core Scientific, July 2026",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/xslSCHEDULE_13D_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date July 15, 2026; filed August 4, 2026",
+      "accessed": "2026-10-27"
     }
   }
 }

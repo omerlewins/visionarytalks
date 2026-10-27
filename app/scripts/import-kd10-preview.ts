@@ -218,6 +218,12 @@ const batches = {
       ["sam-altman-net-worth", "article", "Leaders"],
       ["anthropic-valuation", "article", "Money"],
       ["police-officer-salary", "salary", "Money"],
+      ["dental-hygienist-salary", "salary", "Money"],
+      ["electrician-salary", "salary", "Money"],
+      ["firefighter-salary", "salary", "Money"],
+      ["pilot-salary", "salary", "Money"],
+      ["lineman-salary", "salary", "Money"],
+      ["garbage-collector-salary", "salary", "Money"],
     ];
     return Promise.all(
       pages.map(([file, kind, category]) =>
