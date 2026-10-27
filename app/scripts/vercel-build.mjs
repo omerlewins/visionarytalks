@@ -23,6 +23,11 @@ if (
     "npx tsx scripts/import-kd10-preview.ts --apply --batch " +
       (process.env.PREVIEW_CMS_BATCH || "kd10-2026-10"),
   );
+  if (process.env.PREVIEW_LEADER_REFRESH)
+    run(
+      "npx tsx scripts/refresh-leader-story.ts --apply --slug " +
+        process.env.PREVIEW_LEADER_REFRESH,
+    );
 }
 run("npm run build");
 const productionBatch = process.env.PRODUCTION_CMS_IMPORT;

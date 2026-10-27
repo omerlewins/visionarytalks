@@ -11,14 +11,22 @@ import {
 // Rewrites one published leader story in the live CMS from its reviewed
 // profile file after the owner's explicit approval: same story, path and
 // first publication date, new research content and Updated date. The
-// earlier content stays in the story's version history. Dry-run unless
-// --apply. Usage: --slug leopold-aschenbrenner [--apply]
+// earlier content stays in the story's version history. In the isolated
+// Preview it updates the review copy (the content-sync record) instead.
+// Dry-run unless --apply. Usage: --slug leopold-aschenbrenner [--apply]
+const preview =
+  process.env.APP_ENV === "preview" &&
+  process.env.VERCEL_ENV === "preview" &&
+  process.env.NEON_PROJECT_ID === "calm-meadow-38652801";
 if (
-  process.env.APP_ENV !== "production" ||
-  process.env.VERCEL_ENV !== "production" ||
-  process.env.NEON_PROJECT_ID !== "rough-wave-60456912"
+  !preview &&
+  (process.env.APP_ENV !== "production" ||
+    process.env.VERCEL_ENV !== "production" ||
+    process.env.NEON_PROJECT_ID !== "rough-wave-60456912")
 )
-  throw Error("Explicitly selected Production required");
+  throw Error(
+    "Expected the isolated Preview, or explicitly selected Production",
+  );
 const slug = process.argv[process.argv.indexOf("--slug") + 1];
 const profile = leaderProfiles.find((p) => p.slug === slug);
 if (!process.argv.includes("--slug") || !profile)
@@ -42,6 +50,32 @@ try {
       limit: 1,
     })
   ).docs[0];
+  if (preview) {
+    const marker = (
+      await payload.find({
+        collection: "claim-evidence",
+        where: { key: { equals: "content-sync:" + profile.path } },
+        depth: 0,
+        limit: 1,
+      })
+    ).docs[0];
+    console.log(
+      JSON.stringify({
+        mode: apply ? "apply" : "dry-run",
+        path: profile.path,
+        preview: marker ? "update" : "none",
+      }),
+    );
+    if (apply && marker && user)
+      await payload.update({
+        collection: "claim-evidence",
+        id: marker.id,
+        user,
+        overrideAccess: false,
+        data: { data: { ...(marker.data as object), profile } },
+      });
+    process.exit(0);
+  }
   const story = (
     await payload.find({
       collection: "stories",
