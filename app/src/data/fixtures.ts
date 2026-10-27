@@ -38,6 +38,7 @@ export const fixtures: Story[] = [
     category: "Business",
     author,
     fixture: true,
+    publishedAt: "2026-10-01T09:00:00.000Z",
     sections,
     sources: [source],
     shortAnswer:
@@ -53,6 +54,7 @@ export const fixtures: Story[] = [
     category: "Ownership",
     author,
     fixture: true,
+    publishedAt: "2026-10-01T09:00:00.000Z",
     sections,
     shortAnswer:
       "The approved design’s ownership claims are awaiting source verification. This preview deliberately leaves the current parent and stake unconfirmed.",
@@ -87,6 +89,7 @@ export const fixtures: Story[] = [
     category: "People",
     author,
     fixture: true,
+    publishedAt: "2026-10-01T09:00:00.000Z",
     image: "/reference/satya-nadella-illustration.png",
     imageAlt: "Monochrome editorial illustration of Satya Nadella",
     imageCredit:
@@ -116,6 +119,7 @@ export const fixtures: Story[] = [
     category: "Careers",
     author,
     fixture: true,
+    publishedAt: "2026-10-01T09:00:00.000Z",
     sections: [
       {
         id: "scope",
@@ -135,6 +139,7 @@ export const fixtures: Story[] = [
     category: "Companies",
     author,
     fixture: true,
+    publishedAt: "2026-10-01T09:00:00.000Z",
     sections,
     facts: [
       { label: "Vertical", value: "Coding tools" },

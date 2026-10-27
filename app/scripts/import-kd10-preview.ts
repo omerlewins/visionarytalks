@@ -6,9 +6,10 @@ import { marked } from "marked";
 import YAML from "yaml";
 import { youngestBillionairesArticle as yb } from "../src/lib/youngest-billionaires-article";
 
-// Loads the six October 2026 KD-under-10 articles into the isolated Preview CMS
-// for owner review, or, with --production, into the live CMS after the owner's
-// explicit approval (Oct 16 2026). Dry-run unless --apply.
+// Loads a reviewed article batch (the six October 2026 KD-under-10 articles by
+// default) into the isolated Preview CMS for owner review, or, with
+// --production, into the live CMS after the owner's explicit approval.
+// Dry-run unless --apply.
 const production = process.argv.includes("--production");
 if (
   !process.argv.includes("--print") &&
@@ -129,27 +130,53 @@ function youngestBillionaires(): Input {
   };
 }
 
-const kd10 = "growth/articles/2026-10-kd10/";
-const inputs = [
-  youngestBillionaires(),
-  await markdownArticle(
-    kd10 + "investment-banker-salary.md",
-    "salary",
-    "Money",
-  ),
-  await markdownArticle(kd10 + "who-owns-aldi.md", "ownership", "Ownership"),
-  await markdownArticle(kd10 + "who-owns-temu.md", "ownership", "Ownership"),
-  await markdownArticle(
-    kd10 + "palmer-luckey-net-worth.md",
-    "article",
-    "Leaders",
-  ),
-  await markdownArticle(
-    kd10 + "sundar-pichai-net-worth.md",
-    "article",
-    "Leaders",
-  ),
-];
+// A batch is one reviewed set of articles; --batch picks it (default kd10).
+const batches = {
+  "kd10-2026-10": async () => {
+    const kd10 = "growth/articles/2026-10-kd10/";
+    return [
+      youngestBillionaires(),
+      await markdownArticle(
+        kd10 + "investment-banker-salary.md",
+        "salary",
+        "Money",
+      ),
+      await markdownArticle(
+        kd10 + "who-owns-aldi.md",
+        "ownership",
+        "Ownership",
+      ),
+      await markdownArticle(
+        kd10 + "who-owns-temu.md",
+        "ownership",
+        "Ownership",
+      ),
+      await markdownArticle(
+        kd10 + "palmer-luckey-net-worth.md",
+        "article",
+        "Leaders",
+      ),
+      await markdownArticle(
+        kd10 + "sundar-pichai-net-worth.md",
+        "article",
+        "Leaders",
+      ),
+    ];
+  },
+  "nuuly-2026-10": async () => [
+    await markdownArticle(
+      "growth/articles/2026-10-nuuly/who-owns-nuuly.md",
+      "ownership",
+      "Ownership",
+    ),
+  ],
+} satisfies Record<string, () => Promise<Input[]>>;
+const batchArg = process.argv[process.argv.indexOf("--batch") + 1];
+const batch = (
+  process.argv.includes("--batch") ? batchArg : "kd10-2026-10"
+) as keyof typeof batches;
+if (!(batch in batches)) throw Error(`Unknown batch ${batch}`);
+const inputs = await batches[batch]();
 // An earlier unpublished Aldi research draft already holds this path in
 // Preview. Its content stays in the version history when it is replaced.
 // Production never replaces an existing story.
@@ -180,7 +207,7 @@ try {
     throw Error("Existing owner and Daniel Mercer author must be present");
   for (const input of inputs) {
     const { sourceRecords, ...article } = input;
-    const jobKey = "preview-import:kd10-2026-10:" + article.path;
+    const jobKey = `preview-import:${batch}:` + article.path;
     const checksum = createHash("sha256")
       .update(JSON.stringify(input))
       .digest("hex");
