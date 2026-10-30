@@ -2,6 +2,7 @@ import { readFile, realpath } from "node:fs/promises";
 import path from "node:path";
 import type { Payload } from "payload";
 import { checksum } from "./wordpress";
+import { legacyMediaPlaceholders } from "@/lib/media-text";
 const transfers = new WeakMap<Payload, Map<string, Promise<any>>>();
 /** Resolve only within an owner-supplied uploads archive. Never fetch arbitrary export URLs. */
 export async function localMediaFile(root: string, url: string) {
@@ -59,11 +60,9 @@ export async function migrateMedia(
         size: bytes.length,
       },
       data: {
-        alt: meta.alt || "Legacy image — alt text review required",
+        alt: meta.alt || legacyMediaPlaceholders.alt,
         caption: meta.caption,
-        credit:
-          meta.credit ||
-          "Imported WordPress media — attribution retained in private source record; review required",
+        credit: meta.credit || legacyMediaPlaceholders.credit,
         originalURL: url,
         checksum: hash,
         approved,
