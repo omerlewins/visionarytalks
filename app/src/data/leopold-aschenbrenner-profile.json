@@ -16,7 +16,7 @@
     "hook": "The OpenAI researcher who built a $9 billion AI fund",
     "dek": "I trace his path from Columbia valedictorian and OpenAI researcher to a $9.28 billion AI hedge fund, then show what the SEC filings reveal about his stake and what they do not.",
     "answer": "Leopold Aschenbrenner net worth is not publicly established. He owns 50% to 75% of Situational Awareness LP, an AI-focused hedge fund adviser that reported $9.28 billion in regulatory assets in June 2026, but no filing shows his personal fortune.",
-    "checked": "2026-10-27",
+    "checked": "2026-10-30",
     "status": "draft",
     "seo": {
       "title": "Leopold Aschenbrenner Net Worth, Fund and Bio (2026)",
@@ -46,7 +46,8 @@
           "His [June 2024 Situational Awareness essay series](https://situational-awareness.ai/) set out a forecast about AI capabilities, industrial expansion and security, and his biography names Patrick Collison, John Collison, Nat Friedman and Daniel Gross as anchor investors in the firm. The [firm’s website](https://situationalawarenesslp.com/) dates its founding to September 2024 and describes a global equity strategy across technology and energy.",
           "Growth since then is visible in SEC filings. The [first Form 13F](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/xslForm13F_X02/primary_doc.xml), for December 31, 2024, listed $254.8 million of securities. By June 30, 2026 the table showed $20.24 billion. The more reliable size measure is the [Form ADV](https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf) filed June 11, 2026: $9,278,344,000 in regulatory assets across two accounts. Its main fund, Situational Awareness Partners LP, which has an offshore feeder, had 81 investors and a $5 million minimum investment, and the adviser had eight employees.",
           "The same Form ADV shows who owns the business. Aschenbrenner, listed as chief investment officer and a limited partner, owns 50% to 75% of the adviser. Carl Shulman, director of research and co-portfolio manager, owns 25% to 50%, and chief operating officer Nicholas Gross-Whitaker 5% to 10%. Aschenbrenner also owns 75% or more of Situational Awareness LLC, the adviser’s general partner, and the firm’s [Schedule 13D filings](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml) describe him as its control person.",
-          "The firm also takes large stakes in single companies. It reported 5.8% of Core Scientific in August 2025, raised to 9.4% that October before falling to 4.4% by July 2026, 5.6% of Nebius in May 2026 and 21.1% of [SharonAI Holdings](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000468/xslSCHEDULE_13D_X02/primary_doc.xml) in August 2026. Those filings say the adviser is paid fees based on assets under management and on realized and unrealized gains."
+          "The firm also takes large stakes in single companies. It reported 5.8% of Core Scientific in August 2025, raised to 9.4% that October before falling to 4.4% by July 2026, 5.6% of Nebius in May 2026 and 21.1% of [SharonAI Holdings](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000468/xslSCHEDULE_13D_X02/primary_doc.xml) in August 2026. Those filings say the adviser is paid fees based on assets under management and on realized and unrealized gains.",
+          "July 2026 tested the fund. Assets had grown to roughly $45 billion at the start of the month, a figure that includes borrowed money, according to a CNBC report summarized by [Finbold on July 31, 2026](https://finbold.com/did-leopold-aschenbrenner-sell-his-entire-stock-portfolio/). Losses on AI holdings such as Nebius, Micron, SanDisk and CoreWeave, plus bearish bets on software stocks, then forced the firm to unwind a large part of the portfolio; Finbold put the July loss at about 67% and said the fund was still up about 80% for the year. Those figures are reported, not filed. The filings do show selling: the [July 2026 Schedule 13D amendment](https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/xslSCHEDULE_13D_X02/primary_doc.xml) cut the Core Scientific stake to 4.4%."
         ]
       },
       {
@@ -88,7 +89,8 @@
       "leopold-corz-b",
       "leopold-nbis",
       "leopold-shai",
-      "leopold-sec-guide"
+      "leopold-sec-guide",
+      "leopold-july"
     ],
     "capital": [
       {
@@ -209,6 +211,11 @@
         "date": "June 2026",
         "text": "Form ADV reports $9.28 billion in regulatory assets; the 13F table reaches $20.24 billion.",
         "sourceId": "leopold-adv"
+      },
+      {
+        "date": "July 2026",
+        "text": "Reportedly unwinds much of the portfolio after losses on AI holdings, from assets near $45 billion at the start of the month; the Core Scientific stake falls to 4.4%.",
+        "sourceId": "leopold-july"
       },
       {
         "date": "August 2026",
@@ -460,6 +467,14 @@
       "type": "SEC / primary",
       "date": "Event date July 15, 2026; filed August 4, 2026",
       "accessed": "2026-10-27"
+    },
+    "leopold-july": {
+      "id": "leopold-july",
+      "title": "Finbold: Did Leopold Aschenbrenner sell his entire stock portfolio? (citing CNBC and the Financial Times)",
+      "url": "https://finbold.com/did-leopold-aschenbrenner-sell-his-entire-stock-portfolio/",
+      "type": "News / secondary report",
+      "date": "July 31, 2026",
+      "accessed": "2026-10-30"
     }
   }
 }

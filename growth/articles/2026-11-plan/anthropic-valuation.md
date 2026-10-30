@@ -1,9 +1,9 @@
 ---
-title: "Anthropic Valuation and Revenue 2026: From $61.5 Billion to $965 Billion"
-seoTitle: "Anthropic Valuation and Revenue 2026: Every Round, Run-Rate and the IPO"
+title: "Anthropic Valuation, Revenue and IPO 2026: What the S-1 Shows"
+seoTitle: "Anthropic Valuation 2026: $965B, the S-1 and the IPO (ANT)"
 slug: /anthropic-valuation/
-metaDescription: "Anthropic was valued at $965 billion in its May 2026 Series H, up from $61.5 billion in March 2025. Its run-rate revenue passed $47 billion in May, and it reportedly told investors third-quarter revenue hit $16.8 billion. Every round, dated and sourced."
-shortAnswer: "Anthropic's latest valuation is $965 billion, set when it raised $65 billion in a Series H round announced May 28, 2026. That is up from $380 billion in February 2026 and $61.5 billion in March 2025. Anthropic said its run-rate revenue crossed $47 billion in May 2026, and Reuters reported it topped $65 billion by the end of July. Anthropic confidentially filed for an IPO on June 1, 2026, and had not filed publicly as of October 25, 2026."
+metaDescription: "Anthropic was last valued at $965 billion (May 2026). Its S-1, filed October 26, 2026, shows $16.3 billion of revenue in the first half of 2026 and plans a Nasdaq listing as ANT. Every round, dated and sourced."
+shortAnswer: "Anthropic's latest valuation is $965 billion, set in its $65 billion Series H on May 28, 2026, up from $61.5 billion in March 2025. On October 26, 2026 it publicly filed an S-1 to list on Nasdaq as ANT. The filing shows $16.3 billion of revenue in the first half of 2026, up from $1.2 billion a year earlier. The price range is not set yet; the Associated Press reported the IPO could value Anthropic at up to $2 trillion."
 targetKeyword: anthropic valuation
 secondaryKeywords:
   - anthropic revenue
@@ -13,8 +13,14 @@ secondaryKeywords:
   - anthropic series h
   - anthropic funding rounds
 byline: Daniel Mercer
-checked: 2026-10-25
+checked: 2026-10-30
 sources:
+  - title: "Anthropic, PBC Form S-1 registration statement (SEC EDGAR)"
+    url: https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm
+    date: "2026-10-26"
+  - title: "Anthropic IPO by the numbers (Associated Press via Yahoo Finance)"
+    url: https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-numbers-possible-valuation-235317124.html
+    date: "2026-10-26"
   - title: "Anthropic raises $65B in Series H funding at $965B post-money valuation (Anthropic)"
     url: https://www.anthropic.com/news/series-h
     date: "2026-05-28"
@@ -56,25 +62,27 @@ sources:
     date: "2026-09-29"
 ---
 
-# Anthropic Valuation and Revenue 2026: From $61.5 Billion to $965 Billion
+# Anthropic Valuation, Revenue and IPO 2026: What the S-1 Shows
 
-**By Daniel Mercer | Checked October 25, 2026**
+**By Daniel Mercer | Checked October 30, 2026**
 
-Anthropic's latest valuation is $965 billion, set when it raised $65 billion in a Series H round announced May 28, 2026. That is up from $380 billion in February 2026 and $61.5 billion in March 2025. Anthropic said its run-rate revenue crossed $47 billion in May 2026, and Reuters reported it topped $65 billion by the end of July. Anthropic confidentially filed for an IPO on June 1, 2026, and had not filed publicly as of October 25, 2026.
+Anthropic's latest valuation is $965 billion, set in its $65 billion Series H on May 28, 2026, up from $61.5 billion in March 2025. On October 26, 2026 it publicly filed an S-1 to list on Nasdaq as ANT. The filing shows $16.3 billion of revenue in the first half of 2026, up from $1.2 billion a year earlier. The price range is not set yet; the Associated Press reported the IPO could value Anthropic at up to $2 trillion.
 
-Two kinds of numbers get mixed up in coverage of Anthropic. The valuations and the run-rates below marked "Anthropic" come from the company's own announcements. The quarterly revenue, the 2025 results and the IPO plans come from reporting on documents and investor meetings that Anthropic has not published, and I label them that way.
+The S-1 replaces most of what was reported before it. Revenue, losses, cash and the share structure below come straight from the filing. The valuations come from Anthropic's funding announcements. The possible IPO valuation, the amount it could raise and the third-quarter revenue are still reports, and I label them that way.
 
 ## Anthropic valuation at a glance
 
 | Measure | Figure | Source and date |
 |---|---|---|
-| Latest valuation | $965 billion post-money | Anthropic, May 28, 2026 |
-| Latest round | $65 billion Series H, including $15 billion previously committed by cloud providers | Anthropic, May 28, 2026 |
-| Run-rate revenue | Over $47 billion | Anthropic, May 2026 |
-| Run-rate revenue, end of July | Over $65 billion | Reuters, citing a source, August 17, 2026 |
+| Latest private valuation | $965 billion post-money | Anthropic, May 28, 2026 |
+| Possible IPO valuation | Up to $2 trillion, reported; price range not yet in the S-1 | Associated Press, October 26, 2026 |
+| Possible amount raised | Up to $100 billion, reported | Associated Press, October 26, 2026 |
+| Revenue, first half of 2026 | $16.3 billion ($16,286 million) | S-1, October 26, 2026 |
+| Revenue, 2025 | $4.6 billion ($4,585 million) | S-1 |
+| Operating loss, first half of 2026 | $693 million | S-1 |
+| Cash and short-term investments | $131.7 billion, June 30, 2026 | S-1 |
+| Exchange and ticker | Nasdaq Global Select Market, "ANT" (applied for) | S-1 |
 | Third-quarter 2026 revenue | $16.8 billion, reported | Financial Times via Reuters, October 15, 2026 |
-| 2025 revenue | About $4.6 billion, reported | Reuters report on the draft prospectus, via OfficeChai, September 2026 |
-| IPO status | Draft registration submitted confidentially June 1, 2026; no public filing on SEC EDGAR as of October 25, 2026 | NPR, June 1, 2026; SEC EDGAR |
 
 ## Every Anthropic funding round and valuation
 
@@ -107,6 +115,7 @@ From $61.5 billion to $965 billion took 15 months, about a 15.7-fold rise. The S
 | 2026 (May) | Series H at $965 billion; run-rate crosses $47 billion | $965 billion | Anthropic, May 28, 2026 |
 | 2026 (June) | Anthropic confidentially submits a draft IPO registration on June 1 | - | NPR, June 1, 2026 |
 | 2026 (October) | Anthropic reportedly tells investors third-quarter revenue reached $16.8 billion | $16.8 billion in one quarter, reported | Financial Times via Reuters, October 15, 2026 |
+| 2026 (October 26) | Anthropic publicly files its S-1 to list on Nasdaq as ANT | Up to $2 trillion IPO valuation, reported | S-1; Associated Press |
 
 ## How much revenue does Anthropic make?
 
@@ -123,28 +132,35 @@ Run-rate revenue is the current month's revenue multiplied by 12. It shows momen
 | May 2026 | Over $47 billion | Anthropic, May 28, 2026 |
 | End of July 2026 | Over $65 billion | Reuters, citing a person familiar, August 17, 2026 |
 
-Actual revenue, from reporting that Anthropic has not confirmed:
+Actual revenue and losses, from the S-1:
 
-| Period | Revenue | Source |
-|---|---|---|
-| 2025 | About $4.6 billion, with an operating loss of $8.06 billion and a net loss of nearly $42 billion, most of it a non-cash accounting charge | Reuters report on the draft prospectus, via OfficeChai, September 29, 2026 |
-| First quarter 2026 | $4.7 billion | Reported from an October 14 investor meeting |
-| Second quarter 2026 | About $11.5 billion to $11.6 billion | Financial Times and others, October 2026 |
-| Third quarter 2026 | $16.8 billion, up about 45% | Financial Times via Reuters, October 15, 2026 |
+| Period | Revenue | Operating loss | Net loss |
+|---|---|---|---|
+| 2023 | $41 million | $551 million | $1.53 billion |
+| 2024 | $386 million | $2.98 billion | $8.31 billion |
+| 2025 | $4.59 billion | $8.06 billion | $41.97 billion |
+| First half of 2025 | $1.16 billion | $2.14 billion | $12.97 billion |
+| First half of 2026 | $16.29 billion | $693 million | $80.75 billion |
 
-The reported third-quarter figure would put Anthropic's revenue for the first nine months of 2026 at about $33 billion, roughly seven times its reported revenue for all of 2025. Reports also said Anthropic described itself as profitable on an adjusted basis, a measure it has not defined publicly.
+*Source: Anthropic S-1, Summary Consolidated Financial and Other Data, filed October 26, 2026. 2025 includes a $1.5 billion charge for the Bartz settlement.*
+
+Revenue in the first half of 2026 was 14 times the same period of 2025, and the operating loss shrank to $693 million. The huge net losses are mostly accounting: $72.4 billion of the first-half 2026 loss is a change in the fair value of convertible notes and similar instruments, which the S-1 says rose because Anthropic's valuation rose. Compute and infrastructure was the biggest cost, at $8.9 billion in the half.
+
+The S-1 runs only to June 30. For the third quarter, the Financial Times reported $16.8 billion of revenue on October 15, 2026, which Anthropic has not published.
 
 ## When is the Anthropic IPO?
 
-There is no confirmed date. Anthropic said on June 1, 2026 that it had confidentially submitted a draft registration statement to the SEC, which lets it go public after the SEC review, and that the number of shares and price were not set. Reuters reported in August that bankers were valuing the company partly on a projected $190 billion to $200 billion in 2028 revenue. Several October reports said a listing could come in November 2026, after the US midterm elections, but Anthropic has not announced a date, and no public S-1 was on EDGAR as of October 25, 2026.
+Anthropic filed its S-1 publicly on October 26, 2026, after a confidential draft in June. It has applied to list Class A shares on the Nasdaq Global Select Market under the symbol ANT. The price range and share count are still blank in the filing, so there is no official IPO valuation yet. The Associated Press reported the listing could come next month, raise up to $100 billion and value the company at up to $2 trillion. Earlier, Reuters reported that bankers were valuing it partly on a projected $190 billion to $200 billion in 2028 revenue.
 
 ## Who owns Anthropic?
 
-Anthropic is a public benefit corporation owned by its founders, employees and investors, with no single controlling shareholder disclosed. Amazon and Google are large minority investors. I cover the ownership in detail in [who owns Anthropic and Claude](/who-owns-anthropic-claude/).
+The S-1 sets up an unusual structure. A single share of Class F stock, held by an LLC of the seven co-founders, will carry a fixed 50.1% of the votes on ordinary matters, so the founders control the company after the IPO. Separately, the Long-Term Benefit Trust holds the one share of Class T stock and elects a majority of the board. Amazon and Google will hold Class N shares, which have no vote.
+
+The S-1 lists Dario Amodei with 245.3 million Class A shares (including shares he votes by proxy) and Daniela Amodei with 241.4 million as of September 30, 2026. Ownership percentages are left blank until the share count is set. I cover the ownership in detail in [who owns Anthropic and Claude](/who-owns-anthropic-claude/).
 
 ## How I checked these numbers
 
-I used Anthropic's own announcements for every valuation and run-rate figure, and dated each one. The 2025 results, the quarterly revenue and the IPO timing come from Reuters, the Financial Times and NPR reporting on documents and meetings that Anthropic has not published, so they are labeled as reported.
+I read the S-1 on SEC EDGAR on October 30, 2026 for revenue, losses, cash, the listing and the share structure. Valuations and run-rates come from Anthropic's announcements. The possible IPO valuation, the amount raised and the third-quarter revenue come from the Associated Press and the Financial Times, and are labeled as reported.
 
 ## Related reading
 
