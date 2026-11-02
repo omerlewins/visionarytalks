@@ -27,6 +27,14 @@ try {
     depth: 0,
     limit: 1,
   });
+  const user = (
+    await payload.find({
+      collection: "users",
+      where: { role: { equals: "admin" } },
+      limit: 1,
+    })
+  ).docs[0];
+  if (!user) throw Error("An admin user must be present");
   const story = r.docs[0] as any;
   if (!story) console.log(`unpublish: no story at ${path}`);
   else if (story._status !== "published")
@@ -37,7 +45,7 @@ try {
       collection: "stories",
       id: story.id,
       data: { _status: "draft" } as any,
-      overrideAccess: true,
+      user,
     });
     console.log(`unpublish: story ${story.id} at ${path} set to draft`);
   }
