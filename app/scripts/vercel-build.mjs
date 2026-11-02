@@ -5,7 +5,8 @@
 // Production build imports approved articles only when PRODUCTION_CMS_IMPORT
 // names a known batch, and only after the build succeeds;
 // PRODUCTION_LEADER_REFRESH=<slug> likewise rewrites one approved leader
-// profile story. Every other build only builds.
+// profile story. PRODUCTION_UNPUBLISH=<path> sets one approved story back
+// to draft. Every other build only builds.
 import { execSync } from "node:child_process";
 const run = (command, env = {}) =>
   execSync(command, { stdio: "inherit", env: { ...process.env, ...env } });
@@ -50,4 +51,14 @@ if (
   run(
     "npx tsx scripts/refresh-leader-story.ts --apply --slug " +
       process.env.PRODUCTION_LEADER_REFRESH,
+  );
+if (
+  ["/small-business-marketing-strategies/"].includes(process.env.PRODUCTION_UNPUBLISH) &&
+  process.env.VERCEL_ENV === "production" &&
+  process.env.APP_ENV === "production" &&
+  process.env.NEON_PROJECT_ID === "rough-wave-60456912"
+)
+  run(
+    "npx tsx scripts/unpublish-story.ts --production --apply --path " +
+      process.env.PRODUCTION_UNPUBLISH,
   );
