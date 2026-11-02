@@ -8,7 +8,7 @@ import { leaderProfiles, leaderSources } from "../src/lib/leaders";
 import { validateLeader } from "../src/lib/leader-validation";
 import { sectionsForStages } from "../src/lib/leader-flow";
 import starter from "../../growth/leaders/PROFILE_STARTER.json";
-const today = "2026-10-12";
+const today = "2026-10-30";
 const fixture = () =>
   structuredClone(leaderProfiles.find((p) => p.slug === "michael-truell")!);
 test("all current profiles satisfy the shared structural contract", () => {
@@ -57,7 +57,7 @@ test("validator rejects missing stage, future access date, broken reference and 
     ),
   );
   const sources = structuredClone(leaderSources);
-  sources[p.sourceIds[0]].accessed = "2026-10-13";
+  sources[p.sourceIds[0]].accessed = "2026-10-31";
   assert.ok(
     validateLeader(p, sources, today).errors.some((e) =>
       e.includes("access date"),

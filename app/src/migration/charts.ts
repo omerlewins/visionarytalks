@@ -54,3 +54,42 @@ export function extractLegacyChart(html: string) {
     })),
   };
 }
+// Reviewed articles can ask for a chart of the table that follows a marker
+// element. The chart only redraws that table: the first column is the label,
+// the second the value (a plain number in the units the config names).
+export const tableCharts = {
+  "vt-chart-money-ladder": {
+    title: "The money ladder, from cash to derivatives",
+    subtitle: "US dollars, trillions · each rung dated in the table above",
+    scale: "log" as const,
+    series: "US dollars, trillions",
+  },
+};
+export function extractTableChart(html: string) {
+  const marker =
+    /<div id="(vt-chart-[a-z-]+)"><\/div>\s*(<table\b[^>]*>[\s\S]*?<\/table>)/i.exec(
+      html,
+    );
+  const config = marker && tableCharts[marker[1] as keyof typeof tableCharts];
+  if (!marker || !config) return null;
+  const rows = [...marker[2].matchAll(/<tr\b[^>]*>([\s\S]*?)<\/tr>/gi)]
+    .slice(1)
+    .map((row) =>
+      [...row[1].matchAll(/<t[dh]\b[^>]*>([\s\S]*?)<\/t[dh]>/gi)].map((cell) =>
+        plain(cell[1]),
+      ),
+    );
+  const points = rows.map((row) => ({
+    label: row[0],
+    value: Number(row[1]?.replace(/[$,]/g, "")),
+    display: row[1]?.startsWith("$") ? row[1] : `$${row[1]}T`,
+  }));
+  if (!points.length || points.some((p) => !(p.value > 0))) return null;
+  const end = marker.index + marker[0].length;
+  return {
+    before: html.slice(0, end),
+    after: html.slice(end),
+    config,
+    series: [{ name: config.series, points }],
+  };
+}

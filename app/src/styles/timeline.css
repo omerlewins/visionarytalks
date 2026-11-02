@@ -1,0 +1,83 @@
+/* Ownership and leadership timelines built by src/migration/timeline.ts */
+.legacy-content .vt-timeline {
+  list-style: none;
+  margin: 28px 0 32px;
+  padding: 0;
+  position: relative;
+}
+.legacy-content .vt-timeline::before {
+  content: "";
+  position: absolute;
+  left: 92px;
+  top: 6px;
+  bottom: 6px;
+  width: 2px;
+  background: var(--soft);
+}
+.legacy-content .vt-timeline-item {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  column-gap: 34px;
+  position: relative;
+  padding: 0 0 22px;
+  margin: 0;
+}
+.legacy-content .vt-timeline-item::before {
+  content: "";
+  position: absolute;
+  left: 87px;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--page-bg, #fff);
+  border: 2px solid #1d3427;
+  box-sizing: border-box;
+}
+.legacy-content .vt-timeline-item.is-latest::before {
+  background: #1d3427;
+}
+.legacy-content .vt-timeline-date {
+  font: 700 15px/1.4 var(--sans);
+  text-align: right;
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+}
+.legacy-content .vt-timeline-body > p {
+  margin: 0;
+}
+.legacy-content .vt-timeline-body > p:first-child {
+  font: 400 17px/1.5 var(--serif);
+}
+.legacy-content .vt-timeline-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  align-items: baseline;
+  margin-top: 6px !important;
+  font: 400 12px/1.5 var(--sans);
+  color: var(--muted);
+}
+.legacy-content .vt-timeline-value {
+  font-weight: 700;
+  color: #1d3427;
+  background: var(--wash);
+  border: 1px solid var(--soft);
+  padding: 1px 8px;
+}
+@media (max-width: 640px) {
+  .legacy-content .vt-timeline::before {
+    left: 5px;
+  }
+  .legacy-content .vt-timeline-item {
+    grid-template-columns: 1fr;
+    padding-left: 26px;
+  }
+  .legacy-content .vt-timeline-item::before {
+    left: 0;
+  }
+  .legacy-content .vt-timeline-date {
+    text-align: left;
+    margin-bottom: 2px;
+  }
+}

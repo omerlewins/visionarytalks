@@ -5,6 +5,7 @@ import type { Story, CompanyRow } from "./domain";
 import { decodeHTML } from "entities";
 import trackerSeed from "@/data/company-tracker-seed.json";
 import { isLeadersReview } from "./leaders-review";
+import { publicMediaText } from "./media-text";
 import { publicationText, publicationRichText } from "./editorial-punctuation";
 
 export const isDemo = () =>
@@ -86,8 +87,8 @@ export function toStory(doc: Record<string, any>): Story {
       path: author?.path,
     },
     image: image?.url,
-    imageAlt: image?.alt,
-    imageCredit: image?.credit,
+    imageAlt: publicMediaText(image?.alt),
+    imageCredit: publicMediaText(image?.credit),
     metrics: doc.chartMetrics ?? [],
     richBody: publicationRichText(doc.body),
     noindex: doc.seo?.noindex,

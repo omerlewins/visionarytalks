@@ -220,3 +220,9 @@
     font-size: 26px;
   }
 }
+
+.atc-pay-table th small {
+  display: block;
+  font-weight: 400;
+  opacity: 0.7;
+}

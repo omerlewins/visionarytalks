@@ -207,7 +207,9 @@ export async function StoryTemplate({
                   priority
                   sizes="(max-width: 768px) 90vw, 36vw"
                 />
-                <figcaption>{featuredImage.credit}</figcaption>
+                {featuredImage.credit && (
+                  <figcaption>{featuredImage.credit}</figcaption>
+                )}
               </figure>
             ) : (
               (s.kind === "ownership" || s.kind === "company") && (
@@ -263,7 +265,7 @@ export async function StoryTemplate({
                   height={630}
                   sizes="(max-width: 768px) 90vw, 50vw"
                 />
-                <figcaption>{s.imageCredit}</figcaption>
+                {s.imageCredit && <figcaption>{s.imageCredit}</figcaption>}
               </figure>
             )}
             {s.shortAnswer && (
@@ -272,6 +274,25 @@ export async function StoryTemplate({
                   {s.kind === "ownership" ? "THE SHORT ANSWER" : "KEY TAKEAWAY"}
                 </span>
                 <p>{s.shortAnswer}</p>
+                {s.modifiedAt && (
+                  <p className="takeaway-checked">
+                    Updated{" "}
+                    {new Date(s.modifiedAt).toLocaleDateString("en-US", {
+                      month: "long",
+                      year: "numeric",
+                      timeZone: "UTC",
+                    })}
+                    {" · "}Facts last checked{" "}
+                    <time dateTime={s.modifiedAt}>
+                      {new Date(s.modifiedAt).toLocaleDateString("en-US", {
+                        month: "long",
+                        day: "numeric",
+                        year: "numeric",
+                        timeZone: "UTC",
+                      })}
+                    </time>
+                  </p>
+                )}
               </aside>
             )}
             {children}
@@ -322,7 +343,8 @@ export async function StoryTemplate({
                       )
                     : legacy.content
                 }
-                ownership={ownership}
+                // A stored short answer replaces the opening-paragraph one.
+                ownership={ownership && !s.shortAnswer}
               />
             )}
             {!!s.timeline?.length && (

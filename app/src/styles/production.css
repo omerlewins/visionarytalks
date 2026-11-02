@@ -234,6 +234,12 @@ dd {
   font: 24px/1.45 Georgia;
   margin-top: 15px;
 }
+.takeaway p.takeaway-checked {
+  font: 13px/1.4 system-ui, sans-serif;
+  letter-spacing: 0.02em;
+  color: #555;
+  margin-top: 12px;
+}
 .source-notes,
 .writer-box {
   padding-top: 25px;
