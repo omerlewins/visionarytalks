@@ -127,7 +127,7 @@ The IPO terms come from Cerebras' closing 8-K and final 424B4 prospectus, owners
 
 ## Related reading
 
-- [Anthropic IPO: date, ANT share price and how to buy](/anthropic-ipo/)
+- [Anthropic stock: ANT share price and how to buy](/anthropic-stock/)
 - [Sam Altman net worth](/sam-altman-net-worth/)
 - [Anthropic valuation](/anthropic-valuation/)
 

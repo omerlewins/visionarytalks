@@ -1,12 +1,11 @@
 ---
-title: "Anthropic IPO: Date, Ticker (ANT), Share Price and How to Buy Anthropic Stock"
-seoTitle: "Anthropic IPO 2026: Date, ANT Stock Price and How to Buy"
-slug: /anthropic-ipo/
+title: "Anthropic Stock: Ticker (ANT), Share Price, IPO Date and How to Buy"
+seoTitle: "Anthropic Stock (ANT): Share Price and How to Buy (2026)"
+slug: /anthropic-stock/
 metaDescription: "Anthropic plans to list on Nasdaq as ANT. What its November 2, 2026 amended S-1 shows: no price range yet, $33.2 billion of revenue in nine months, every funding-round share price, who owns it, the lock-ups, and whether you can buy Anthropic stock now."
 shortAnswer: "You cannot buy Anthropic stock on a public exchange yet. Anthropic filed to list its Class A shares on the Nasdaq Global Select Market under the ticker ANT, and its amended S-1 of November 2, 2026 still leaves the price range and IPO date blank. Goldman Sachs and Morgan Stanley lead the deal. The filing shows $33.2 billion of revenue in the first nine months of 2026, and its last private round sold shares at $589.01 each at a $965 billion valuation."
-targetKeyword: anthropic ipo
+targetKeyword: anthropic stock
 secondaryKeywords:
-  - anthropic stock
   - anthropic ipo date
   - anthropic stock price
   - how to buy anthropic stock
@@ -36,7 +35,7 @@ sources:
     date: "accessed 2026-11-02"
 ---
 
-# Anthropic IPO: Date, Ticker (ANT), Share Price and How to Buy Anthropic Stock
+# Anthropic Stock: Ticker (ANT), Share Price, IPO Date and How to Buy
 
 **By Daniel Mercer | Checked November 2, 2026**
 
@@ -162,6 +161,7 @@ I read Anthropic's S-1 of October 26 and its Amendment No. 1 of November 2, 2026
 
 ## Related reading
 
+- [Anthropic's IPO: who bears the risk when the compute arrives?](/anthropic-ipo/)
 - [Anthropic valuation, revenue and the S-1](/anthropic-valuation/)
 - [Sam Altman net worth](/sam-altman-net-worth/)
 - [Leopold Aschenbrenner net worth](/leopold-aschenbrenner-net-worth/)

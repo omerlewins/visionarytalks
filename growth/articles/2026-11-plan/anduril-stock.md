@@ -120,7 +120,7 @@ I checked SEC EDGAR for any Anduril IPO filing and found none. Round sizes and v
 ## Related reading
 
 - [Palmer Luckey net worth](/palmer-luckey-net-worth/)
-- [Anthropic IPO](/anthropic-ipo/)
+- [Anthropic stock](/anthropic-stock/)
 - [Cerebras stock](/cerebras-stock/)
 
 ## Sources

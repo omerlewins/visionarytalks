@@ -217,7 +217,7 @@ const batches = {
       ["who-owns-raising-canes", "ownership", "Ownership"],
       ["sam-altman-net-worth", "article", "Leaders"],
       ["anthropic-valuation", "article", "Money"],
-      ["anthropic-ipo", "article", "Money"],
+      ["anthropic-stock", "article", "Money"],
       ["cerebras-stock", "article", "Money"],
       ["anduril-stock", "article", "Money"],
       ["databricks-stock", "article", "Money"],

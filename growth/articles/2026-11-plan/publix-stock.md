@@ -171,7 +171,7 @@ I read Publix's 10-K for fiscal 2025, its 2026 proxy statement, its June 2026 10
 
 ## Related reading
 
-- [Anthropic IPO: date, ANT share price and how to buy](/anthropic-ipo/)
+- [Anthropic stock: ANT share price and how to buy](/anthropic-stock/)
 - [Databricks stock](/databricks-stock/)
 - [Who owns Buc-ee's?](/who-owns-buc-ees/)
 - [Who owns Whataburger?](/who-owns-whataburger/)

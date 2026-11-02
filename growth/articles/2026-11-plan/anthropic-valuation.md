@@ -164,7 +164,7 @@ I read the S-1 on SEC EDGAR on October 30, 2026 for revenue, losses, cash, the l
 
 ## Related reading
 
-- [Anthropic IPO: date, ANT share price and how to buy](/anthropic-ipo/)
+- [Anthropic stock: ANT share price and how to buy](/anthropic-stock/)
 - [Who owns Anthropic and Claude?](/who-owns-anthropic-claude/)
 - [Anthropic salary](/anthropic-salary/)
 - [Sam Altman net worth](/sam-altman-net-worth/)

@@ -157,7 +157,7 @@ I checked SEC EDGAR for a Databricks IPO filing and found none, and read the com
 
 ## Related reading
 
-- [Anthropic IPO](/anthropic-ipo/)
+- [Anthropic stock](/anthropic-stock/)
 - [Anduril stock](/anduril-stock/)
 - [Cerebras stock](/cerebras-stock/)
 
