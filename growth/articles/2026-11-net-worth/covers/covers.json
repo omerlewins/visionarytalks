@@ -388,5 +388,200 @@
    }
   ],
   "caption": "He still holds about 170,000 shares, worth about $16 million."
+ },
+ {
+  "slug": "jay-chaudhry-net-worth",
+  "name": "Jay Chaudhry",
+  "subtitle": [
+   "Zscaler's founder takes",
+   "a $23,660 salary. His family",
+   "owns about 35% of the company."
+  ],
+  "footer": "Zscaler Form 4, proxy, Forbes and price data.",
+  "panelTitle": "The family's 56M Zscaler shares",
+  "panelNote": "His shares plus family trusts x price",
+  "bars": [
+   {
+    "label": "IPO, Mar 2018",
+    "sub": "at $16",
+    "value": 0.9,
+    "display": "$0.9B"
+   },
+   {
+    "label": "July 31, 2025",
+    "sub": "close, $285.56",
+    "value": 15.98,
+    "display": "$16.0B"
+   },
+   {
+    "label": "Nov 13, 2026",
+    "sub": "close, $193.22",
+    "value": 10.81,
+    "display": "$10.8B"
+   },
+   {
+    "label": "Forbes, Nov 17",
+    "sub": "real-time estimate",
+    "value": 10.7,
+    "display": "$10.7B"
+   }
+  ],
+  "caption": "Share values are our math from Form 4 and proxy share counts."
+ },
+ {
+  "slug": "axel-dumas-net-worth",
+  "name": "Axel Dumas",
+  "subtitle": [
+   "Herm\u00e8s's boss owns 11,668",
+   "shares in his own name.",
+   "His family owns two thirds."
+  ],
+  "footer": "Herm\u00e8s 2025 registration document and price data.",
+  "panelTitle": "Herm\u00e8s at \u20ac1,362.50",
+  "panelNote": "Value of each holding, Nov. 6, 2026",
+  "bars": [
+   {
+    "label": "His own shares",
+    "sub": "11,668 at Dec. 31, 2025",
+    "value": 0.0159,
+    "display": "\u20ac15.9M"
+   },
+   {
+    "label": "0.1% of Herm\u00e8s",
+    "sub": "for scale",
+    "value": 0.144,
+    "display": "\u20ac144M"
+   },
+   {
+    "label": "H51",
+    "sub": "54.3% of capital",
+    "value": 78.1,
+    "display": "\u20ac78B"
+   },
+   {
+    "label": "Family group",
+    "sub": "66.7% of capital",
+    "value": 96.0,
+    "display": "\u20ac96B"
+   }
+  ],
+  "caption": "His share of H51 and the family stake is not disclosed."
+ },
+ {
+  "slug": "david-ricks-net-worth",
+  "name": "David Ricks",
+  "subtitle": [
+   "Eli Lilly's CEO kept",
+   "his stock as Zepbound",
+   "took off."
+  ],
+  "footer": "Lilly Form 4s, proxy and price data.",
+  "panelTitle": "His 685,273 Lilly shares",
+  "panelNote": "Direct, 401(k) and family trusts x price",
+  "bars": [
+   {
+    "label": "52-week low",
+    "sub": "at $850.51",
+    "value": 583,
+    "display": "$583M"
+   },
+   {
+    "label": "Feb 9, 2026",
+    "sub": "award price, $1,044.67",
+    "value": 716,
+    "display": "$716M"
+   },
+   {
+    "label": "Nov 13, 2026",
+    "sub": "close, $1,443.50",
+    "value": 989,
+    "display": "$989M"
+   },
+   {
+    "label": "2025 pay",
+    "sub": "salary, bonus and stock",
+    "value": 36.7,
+    "display": "$36.7M"
+   }
+  ],
+  "caption": "Values are our math from his Nov. 3, 2026 Form 4."
+ },
+ {
+  "slug": "franz-von-holzhausen-net-worth",
+  "name": "Franz von Holzhausen",
+  "subtitle": [
+   "Tesla's chief designer",
+   "owned pre-IPO stock in 2009.",
+   "How much is still private."
+  ],
+  "footer": "Tesla SEC filings, 2009 to 2025.",
+  "panelTitle": "What Tesla's filings show",
+  "panelNote": "Times his name appears, by filing type",
+  "bars": [
+   {
+    "label": "Series E holder list",
+    "sub": "2009 investors' rights deal",
+    "value": 1,
+    "display": "Named"
+   },
+   {
+    "label": "Investor slides",
+    "sub": "Dec. 2010 8-K",
+    "value": 1,
+    "display": "Named"
+   },
+   {
+    "label": "Proxy materials",
+    "sub": "Oct. 2025 podcast",
+    "value": 1,
+    "display": "Named"
+   },
+   {
+    "label": "Form 4 filings",
+    "sub": "stock buys or sales",
+    "value": 0,
+    "display": "None"
+   }
+  ],
+  "caption": "No Tesla filing discloses his pay or share count."
+ },
+ {
+  "slug": "phebe-novakovic-net-worth",
+  "name": "Phebe Novakovic",
+  "subtitle": [
+   "General Dynamics' CEO",
+   "cashes old options",
+   "and keeps her core stake."
+  ],
+  "footer": "General Dynamics Form 4s, proxy and price data.",
+  "panelTitle": "Her 802,408 GD shares",
+  "panelNote": "Shares held x GD price on each date",
+  "bars": [
+   {
+    "label": "Aug 3, 2026",
+    "sub": "her top sale price, $383.85",
+    "value": 308,
+    "display": "$308M"
+   },
+   {
+    "label": "Nov 6, 2026",
+    "sub": "close, $356.24",
+    "value": 286,
+    "display": "$286M"
+   },
+   {
+    "label": "Nov 13, 2026",
+    "sub": "close, $363.46",
+    "value": 292,
+    "display": "$292M"
+   },
+   {
+    "label": "2026 sales",
+    "sub": "Aug. and Nov., gross",
+    "value": 36.1,
+    "display": "$36.1M"
+   }
+  ],
+  "caption": "Values are our math from her Nov. 5, 2026 Form 4."
  }
 ]
