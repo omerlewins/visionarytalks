@@ -250,6 +250,37 @@ const batches = {
       ),
     );
   },
+  // November 2026 net worth investigations: 20 low-competition leaders.
+  "networth-2026-11": async () => {
+    const dir = "growth/articles/2026-11-net-worth/";
+    const files = [
+      "axel-dumas-net-worth",
+      "brian-roberts-net-worth",
+      "chuck-robbins-net-worth",
+      "david-baszucki-net-worth",
+      "david-ricks-net-worth",
+      "david-velez-net-worth",
+      "franz-von-holzhausen-net-worth",
+      "greg-abel-net-worth",
+      "james-quincey-net-worth",
+      "jay-chaudhry-net-worth",
+      "jeremy-barnum-net-worth",
+      "johny-srouji-net-worth",
+      "lars-moravy-net-worth",
+      "phebe-novakovic-net-worth",
+      "phil-spencer-net-worth",
+      "philipp-schindler-net-worth",
+      "ron-vachris-net-worth",
+      "steve-huffman-net-worth",
+      "strauss-zelnick-net-worth",
+      "tony-xu-net-worth",
+    ];
+    return Promise.all(
+      files.map((file) =>
+        markdownArticle(dir + file + ".md", "article", "Leaders"),
+      ),
+    );
+  },
   "refresh-2026-10": async () => {
     const dir = "growth/articles/2026-10-refresh/";
     return Promise.all(

@@ -432,37 +432,37 @@
   "slug": "axel-dumas-net-worth",
   "name": "Axel Dumas",
   "subtitle": [
-   "Herm\u00e8s's boss owns 11,668",
+   "Hermès's boss owns 11,668",
    "shares in his own name.",
    "His family owns two thirds."
   ],
-  "footer": "Herm\u00e8s 2025 registration document and price data.",
-  "panelTitle": "Herm\u00e8s at \u20ac1,362.50",
+  "footer": "Hermès 2025 registration document and price data.",
+  "panelTitle": "Hermès at €1,362.50",
   "panelNote": "Value of each holding, Nov. 6, 2026",
   "bars": [
    {
     "label": "His own shares",
     "sub": "11,668 at Dec. 31, 2025",
     "value": 0.0159,
-    "display": "\u20ac15.9M"
+    "display": "€15.9M"
    },
    {
-    "label": "0.1% of Herm\u00e8s",
+    "label": "0.1% of Hermès",
     "sub": "for scale",
     "value": 0.144,
-    "display": "\u20ac144M"
+    "display": "€144M"
    },
    {
     "label": "H51",
     "sub": "54.3% of capital",
     "value": 78.1,
-    "display": "\u20ac78B"
+    "display": "€78B"
    },
    {
     "label": "Family group",
     "sub": "66.7% of capital",
     "value": 96.0,
-    "display": "\u20ac96B"
+    "display": "€96B"
    }
   ],
   "caption": "His share of H51 and the family stake is not disclosed."
@@ -583,5 +583,194 @@
    }
   ],
   "caption": "Values are our math from her Nov. 5, 2026 Form 4."
+ },
+ {
+  "slug": "philipp-schindler-net-worth",
+  "name": "Philipp Schindler",
+  "subtitle": [
+   "Google's chief business officer",
+   "added 167,000 shares in 2026",
+   "and sold none on the market."
+  ],
+  "footer": "Alphabet Form 4s, 2026 proxy and price data.",
+  "panelTitle": "His Alphabet Class C shares",
+  "panelNote": "Direct holding after each Form 4",
+  "bars": [
+   {
+    "label": "Jan 13, 2026",
+    "sub": "after PSU payout",
+    "value": 773194,
+    "display": "773,194"
+   },
+   {
+    "label": "Aug 25, 2026",
+    "sub": "after vesting",
+    "value": 925318,
+    "display": "925,318"
+   },
+   {
+    "label": "Oct 25, 2026",
+    "sub": "after vesting",
+    "value": 940464,
+    "display": "940,464"
+   },
+   {
+    "label": "Value, Nov 12",
+    "sub": "at $290.63",
+    "value": 940487,
+    "display": "$273M"
+   }
+  ],
+  "caption": "Share counts from Form 4s; value is our math."
+ },
+ {
+  "slug": "johny-srouji-net-worth",
+  "name": "Johny Srouji",
+  "subtitle": [
+   "Apple's chip chief",
+   "stopped filing stock reports",
+   "in August 2018."
+  ],
+  "footer": "Apple Form 3 and Form 4 filings, 2015 to 2018.",
+  "panelTitle": "His last known Apple stake today",
+  "panelNote": "Split-adjusted, at $356.27 (Nov. 13, 2026)",
+  "bars": [
+   {
+    "label": "Shares, Aug 2018",
+    "sub": "244,632 split-adjusted",
+    "value": 87.2,
+    "display": "$87M"
+   },
+   {
+    "label": "Unvested units, 2018",
+    "sub": "686,964 split-adjusted",
+    "value": 244.7,
+    "display": "$245M"
+   },
+   {
+    "label": "Both, if all kept",
+    "sub": "931,596 shares",
+    "value": 331.9,
+    "display": "$332M"
+   },
+   {
+    "label": "Grants since 2018",
+    "sub": "never disclosed",
+    "value": 0,
+    "display": "Unknown"
+   }
+  ],
+  "caption": "Not his net worth: later sales and grants are private."
+ },
+ {
+  "slug": "david-velez-net-worth",
+  "name": "David Vélez",
+  "subtitle": [
+   "Nubank's founder holds",
+   "923 million shares and",
+   "74% of the votes."
+  ],
+  "footer": "Nu Holdings Form 3, Form 4s, 20-F and price data.",
+  "panelTitle": "His 923.5M Nu shares",
+  "panelNote": "Class A plus Class B x Nu price",
+  "bars": [
+   {
+    "label": "IPO, Dec 2021",
+    "sub": "at $9",
+    "value": 8.31,
+    "display": "$8.3B"
+   },
+   {
+    "label": "52-week high",
+    "sub": "at $18.98",
+    "value": 17.53,
+    "display": "$17.5B"
+   },
+   {
+    "label": "Nov 12, 2026",
+    "sub": "close, $11.83",
+    "value": 10.93,
+    "display": "$10.9B"
+   },
+   {
+    "label": "Nov 13, 2026",
+    "sub": "after earnings, ~$13.11",
+    "value": 12.11,
+    "display": "$12.1B"
+   }
+  ],
+  "caption": "Share values are our math from his 2026 SEC filings."
+ },
+ {
+  "slug": "jeremy-barnum-net-worth",
+  "name": "Jeremy Barnum",
+  "subtitle": [
+   "JPMorgan's CFO",
+   "explains the bank's numbers.",
+   "Here are his own."
+  ],
+  "footer": "JPMorgan Form 4s, 2026 proxy and price data.",
+  "panelTitle": "His visible JPMorgan stake",
+  "panelNote": "At $343.37, Nov. 12, 2026",
+  "bars": [
+   {
+    "label": "Shares held",
+    "sub": "32,438 after May 5 sale",
+    "value": 11.1,
+    "display": "$11.1M"
+   },
+   {
+    "label": "Unvested units",
+    "sub": "30,970 restricted units",
+    "value": 10.6,
+    "display": "$10.6M"
+   },
+   {
+    "label": "Visible total",
+    "sub": "shares plus units",
+    "value": 21.8,
+    "display": "$21.8M"
+   },
+   {
+    "label": "2025 pay",
+    "sub": "cash and stock",
+    "value": 19.5,
+    "display": "$19.5M"
+   }
+  ],
+  "caption": "Performance units and outside assets are not shown in filings."
+ },
+ {
+  "slug": "lars-moravy-net-worth",
+  "name": "Lars Moravy",
+  "subtitle": [
+   "Tesla's vehicle engineering chief",
+   "leads 6,000+ engineers.",
+   "His stock is invisible."
+  ],
+  "footer": "Senate testimony, Feb. 4, 2026; SEC EDGAR, Nov. 17, 2026.",
+  "panelTitle": "What the public record shows",
+  "panelNote": "People he leads vs. Tesla SEC filings that name him",
+  "bars": [
+   {
+    "label": "Team he leads",
+    "sub": "Senate testimony, Feb. 2026",
+    "value": 6000,
+    "display": "6,000+"
+   },
+   {
+    "label": "Tesla filings naming him",
+    "sub": "EDGAR full-text search",
+    "value": 0,
+    "display": "0"
+   },
+   {
+    "label": "Form 4 stock reports",
+    "sub": "buys or sales",
+    "value": 0,
+    "display": "None"
+   }
+  ],
+  "caption": "No Tesla filing discloses his pay or share count."
  }
 ]

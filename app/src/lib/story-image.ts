@@ -2,7 +2,38 @@ import type { Story } from "./domain";
 import { leaderProfiles } from "./leaders";
 import { leaderPortrait } from "./leader-display";
 import { socialImage } from "./seo";
+// Data-graphic covers for the November 2026 net worth investigations,
+// rendered by growth/articles/2026-11-net-worth/covers/render.js.
+const netWorthCovers = new Set([
+  "axel-dumas-net-worth",
+  "brian-roberts-net-worth",
+  "chuck-robbins-net-worth",
+  "david-baszucki-net-worth",
+  "david-ricks-net-worth",
+  "david-velez-net-worth",
+  "franz-von-holzhausen-net-worth",
+  "greg-abel-net-worth",
+  "james-quincey-net-worth",
+  "jay-chaudhry-net-worth",
+  "jeremy-barnum-net-worth",
+  "johny-srouji-net-worth",
+  "lars-moravy-net-worth",
+  "phebe-novakovic-net-worth",
+  "phil-spencer-net-worth",
+  "philipp-schindler-net-worth",
+  "ron-vachris-net-worth",
+  "steve-huffman-net-worth",
+  "strauss-zelnick-net-worth",
+  "tony-xu-net-worth",
+]);
 export function storyFeaturedImage(s: Story) {
+  const coverSlug = s.path.replace(/\//g, "");
+  if (netWorthCovers.has(coverSlug))
+    return {
+      url: `/reference/${coverSlug}-cover.png`,
+      alt: `${s.title}: Visionary Talks data graphic of the public record`,
+      credit: "Visionary Talks editorial graphic.",
+    };
   if (s.path === "/ai-people-to-watch/")
     return {
       url: "/reference/ai-watchlist-2027-cover.png",
