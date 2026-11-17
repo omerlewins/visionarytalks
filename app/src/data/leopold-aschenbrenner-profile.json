@@ -3,7 +3,7 @@
     "templateVersion": "leaders-v1",
     "editorialReview": {
       "status": "approved",
-      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant. Refreshed October 27, 2026 for the \"leopold aschenbrenner\" and \"situational awareness fund\" searches, adding the Form ADV, the full 13F history and the 13D stakes.",
+      "questionsBasis": "Live Google People Also Ask panels verified October 12, 2026 for “Leopold Aschenbrenner net worth”. Observed questions are retained in growth/LAUNCH_SEARCH_QUESTIONS.json; FAQs combine relevant observed questions with editorial questions grounded in the cited records. Family, religion, unrelated-name and intelligence questions are omitted where unsupported or irrelevant. Refreshed October 27, 2026 for the \"leopold aschenbrenner\" and \"situational awareness fund\" searches, adding the Form ADV, the full 13F history and the 13D stakes. Refreshed November 17, 2026 with the September 30, 2026 Form 13F, the Nebius Schedule 13G/A, the SharonAI filings and reporting on the July unwind.",
       "findingsReviewed": true,
       "unknownsReviewed": true
     },
@@ -13,21 +13,21 @@
     "company": "Situational Awareness",
     "cluster": "Investment & infrastructure",
     "role": "Founder of Situational Awareness LP",
-    "hook": "The OpenAI researcher who built a $9 billion AI fund",
-    "dek": "I trace his path from Columbia valedictorian and OpenAI researcher to a $9.28 billion AI hedge fund, then show what the SEC filings reveal about his stake and what they do not.",
-    "answer": "Leopold Aschenbrenner net worth is not publicly established. He owns 50% to 75% of Situational Awareness LP, an AI-focused hedge fund adviser that reported $9.28 billion in regulatory assets in June 2026, but no filing shows his personal fortune.",
-    "checked": "2026-10-30",
+    "hook": "The OpenAI researcher whose AI fund hit $45 billion, then reset",
+    "dek": "I trace his path from Columbia valedictorian and OpenAI researcher to an AI hedge fund that peaked near $45 billion, then show what the SEC filings reveal about his stake, the July 2026 unwind and what the fund holds now.",
+    "answer": "Leopold Aschenbrenner net worth is not publicly established. He owns 50% to 75% of Situational Awareness LP, an AI hedge fund adviser that reported $9.28 billion in June 2026 and then lost about 67% in July, but no filing shows his personal fortune.",
+    "checked": "2026-11-17",
     "status": "draft",
     "seo": {
       "title": "Leopold Aschenbrenner Net Worth, Fund and Bio (2026)",
-      "description": "Leopold Aschenbrenner net worth: he owns 50-75% of Situational Awareness, a $9.28B AI hedge fund. His stake, holdings, OpenAI exit and bio."
+      "description": "Leopold Aschenbrenner net worth: he owns 50-75% of Situational Awareness, the AI fund that lost 67% in July 2026. His stake, holdings and bio."
     },
     "wealth": {
       "display": "Not publicly established",
       "value": null,
-      "date": "2026-10-27",
-      "basis": "Owns 50% to 75% of the adviser, but personal capital, fee income and liabilities are not disclosed",
-      "paragraph": "Leopold Aschenbrenner’s net worth is not publicly established as of October 27, 2026. What the filings do show is ownership. The firm’s [June 2026 Form ADV](https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf) lists him as chief investment officer and a limited partner owning 50% to 75% of Situational Awareness LP, the adviser, and 75% or more of its general partner. The adviser reported $9.28 billion in regulatory assets, and its [Schedule 13D filings](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml) say it earns fees based on assets and on realized and unrealized gains. A stake in a fast-growing adviser like that can be very valuable, but the filings disclose neither the fee rates, the fund’s returns, his own capital in the fund nor his liabilities. Without those, any dollar figure would be a guess, so I publish none."
+      "date": "2026-11-17",
+      "basis": "Owns 50% to 75% of the adviser, but personal capital, fee income, losses and liabilities are not disclosed",
+      "paragraph": "Leopold Aschenbrenner’s net worth is not publicly established as of November 17, 2026. What the filings do show is ownership. The firm’s [June 2026 Form ADV](https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf) lists him as chief investment officer and a limited partner owning 50% to 75% of Situational Awareness LP, the adviser, and 75% or more of its general partner. The adviser reported $9.28 billion in regulatory assets, and its [Schedule 13D filings](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml) say it earns fees based on assets and on realized and unrealized gains. Since then the fund reportedly lost about 67% in July 2026 and shrank to roughly $10 billion, and its [September 30, 2026 Form 13F](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/xslForm13F_X02/primary_doc.xml) reported just $1.58 billion of listed securities. A large drawdown typically reduces the performance fees an adviser can earn until losses are recovered, but the filings disclose neither the fee terms, his own capital in the fund nor his liabilities. Without those, any dollar figure would be a guess, so I publish none."
     },
     "sections": [
       {
@@ -41,31 +41,32 @@
       },
       {
         "stage": "company",
-        "heading": "Situational Awareness: from an essay to a $9 billion fund",
+        "heading": "Situational Awareness: from an essay to a $45 billion peak and a reset",
         "paragraphs": [
           "His [June 2024 Situational Awareness essay series](https://situational-awareness.ai/) set out a forecast about AI capabilities, industrial expansion and security, and his biography names Patrick Collison, John Collison, Nat Friedman and Daniel Gross as anchor investors in the firm. The [firm’s website](https://situationalawarenesslp.com/) dates its founding to September 2024 and describes a global equity strategy across technology and energy.",
           "Growth since then is visible in SEC filings. The [first Form 13F](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000120/xslForm13F_X02/primary_doc.xml), for December 31, 2024, listed $254.8 million of securities. By June 30, 2026 the table showed $20.24 billion. The more reliable size measure is the [Form ADV](https://reports.adviserinfo.sec.gov/reports/ADV/333011/PDF/333011.pdf) filed June 11, 2026: $9,278,344,000 in regulatory assets across two accounts. Its main fund, Situational Awareness Partners LP, which has an offshore feeder, had 81 investors and a $5 million minimum investment, and the adviser had eight employees.",
           "The same Form ADV shows who owns the business. Aschenbrenner, listed as chief investment officer and a limited partner, owns 50% to 75% of the adviser. Carl Shulman, director of research and co-portfolio manager, owns 25% to 50%, and chief operating officer Nicholas Gross-Whitaker 5% to 10%. Aschenbrenner also owns 75% or more of Situational Awareness LLC, the adviser’s general partner, and the firm’s [Schedule 13D filings](https://www.sec.gov/Archives/edgar/data/2045724/000093583625000543/xslSCHEDULE_13D_X01/primary_doc.xml) describe him as its control person.",
           "The firm also takes large stakes in single companies. It reported 5.8% of Core Scientific in August 2025, raised to 9.4% that October before falling to 4.4% by July 2026, 5.6% of Nebius in May 2026 and 21.1% of [SharonAI Holdings](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000468/xslSCHEDULE_13D_X02/primary_doc.xml) in August 2026. Those filings say the adviser is paid fees based on assets under management and on realized and unrealized gains.",
-          "July 2026 tested the fund. Assets had grown to roughly $45 billion at the start of the month, a figure that includes borrowed money, according to a CNBC report summarized by [Finbold on July 31, 2026](https://finbold.com/did-leopold-aschenbrenner-sell-his-entire-stock-portfolio/). Losses on AI holdings such as Nebius, Micron, SanDisk and CoreWeave, plus bearish bets on software stocks, then forced the firm to unwind a large part of the portfolio; Finbold put the July loss at about 67% and said the fund was still up about 80% for the year. Those figures are reported, not filed. The filings do show selling: the [July 2026 Schedule 13D amendment](https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/xslSCHEDULE_13D_X02/primary_doc.xml) cut the Core Scientific stake to 4.4%."
+          "July 2026 tested the fund. Assets had grown to about $45 billion at the start of the month, a figure that includes borrowed money, [CNBC reported on July 31, 2026](https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html), citing people familiar with the matter. Falling chip and AI stocks triggered margin calls, and the fund sold its leveraged public stock positions, including SK Hynix and CoreWeave, to Citadel at a discount, leaving about $10 billion, much of it private stakes led by Anthropic. An investor letter put the July loss at about 67%, said all leverage had been removed and said the fund was still up about 80% for 2026. Those figures are reported, not filed. The filings do show selling: the [July 2026 Schedule 13D amendment](https://www.sec.gov/Archives/edgar/data/2045724/000091957426004796/xslSCHEDULE_13D_X02/primary_doc.xml) cut the Core Scientific stake to 4.4%.",
+          "The fund kept investing. Days after the unwind it completed a $400 million private investment, adding to a $100 million stake in the same unnamed company a month earlier, [Investing.com reported on August 6, 2026](https://www.investing.com/news/stock-market-news/aschenbrenner-makes-quick-return-after-nearcollapse-of-situational-awareness-4842843), citing Bloomberg; the same report said it kept its stakes in Anthropic, Fluidstack and MatX and quoted Aschenbrenner telling investors the steps let the fund “fight another day.” In September it exercised pre-funded warrants for 2,674,823 SharonAI shares, keeping its 21.1% stake at 8,070,950 shares, according to its [Form 4](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/xslF345X06/form4.xml). Its [November 16, 2026 Schedule 13G/A](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000604/xslSCHEDULE_13G_X02/primary_doc.xml) reported 3.4% of Nebius at September 30, down from 5.6% in May."
         ]
       },
       {
         "stage": "strategy",
         "heading": "An AI thesis expressed through listed infrastructure",
         "paragraphs": [
-          "The [June 30, 2026 information table](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/form13fInfoTable.xml) gives a concrete view of the disclosed strategy. It includes memory suppliers, chip-related businesses, data-center and computing infrastructure, and energy businesses. This is a quarter-end view of reportable securities; it is not a live list of everything the manager owns.",
+          "The [June 30, 2026 information table](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/form13fInfoTable.xml) showed the strategy at its peak: memory suppliers, chip-related businesses, data-center and computing infrastructure, and energy businesses, held almost entirely as shares. The [September 30, 2026 table](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/form13fInfoTable.xml) keeps the same themes but changes the form: call options on Bloom Energy, Nebius, SanDisk and a memory-chip ETF, plus shares in SharonAI and four smaller miners and power developers. Each table is a quarter-end view of reportable securities; neither is a live list of everything the manager owns.",
           "My reading is that the portfolio expresses an AI buildout thesis through several supply-chain bottlenecks rather than only through model developers. A business can benefit from demand for compute without owning a frontier model. That also creates an important risk: different holdings may depend on the same spending cycle, so having several company names does not necessarily mean having several independent sources of return.",
           "A holdings filing cannot settle whether that risk was hedged. The [SEC’s Form 13F guidance](https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f) excludes short positions and explains that an option entry refers to the underlying security. A large put entry is therefore not the premium paid for insurance. Without the terms and the rest of the book, I cannot reconstruct the manager’s net exposure from the table alone."
         ]
       },
       {
         "stage": "finding",
-        "heading": "My finding: two memory stocks explain much of the disclosed table",
+        "heading": "My finding: the September filing is mostly options, led by one small company",
         "paragraphs": [
-          "I checked the June table against its cover-page total. It reports SanDisk at $5,673,738,513 and Micron at $5,573,819,392. Adding the two produces $11,247,557,905. Dividing by the [reported $20,242,292,228 table total](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000418/xslForm13F_X02/primary_doc.xml) gives 55.6%, rounded to one decimal. This is a reproducible concentration measure within the disclosed 13F table, not 55.6% of his personal assets or necessarily of the fund’s net asset value.",
-          "The denominator matters because the table includes option-underlying values alongside ordinary share positions. Calling the whole total cash invested would misread the filing. My calculation deliberately describes the reported table and leaves the fund’s unreported positions, borrowing and liabilities outside its scope.",
-          "The two cover pages also show the number of reported entries falling from 42 in March to 26 in June while reported table value rises from $13.68 billion to $20.24 billion. That does not demonstrate a corresponding investment return: new capital, position changes and option reporting can all affect the comparison. Entries are not a count of distinct companies, either; a company can appear separately for shares and options.",
+          "I checked the [September 30, 2026 Form 13F](https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/xslForm13F_X02/primary_doc.xml), filed November 16, against its cover-page total of $1,577,454,028 across 23 entries and nine issuers. Share positions add up to $532,680,878, or 33.8% of the table. The remaining $1,044,773,150, or 66.2%, is call options, reported at the value of the underlying shares: Bloom Energy $389.2 million, Nebius $332.6 million, SanDisk $182.7 million and the Roundhill Memory ETF $140.3 million.",
+          "The largest single line is SharonAI Holdings: 8,070,950 shares worth $440,673,870, or 27.9% of the table. That is the same share count the fund reported in September, and its value per share fell from about $84.66 at June 30 to $54.60 at September 30, by my division of the reported values. A company the fund owns about a fifth of now leads its disclosed public book.",
+          "The table total fell 92.2% from June’s $20,242,292,228. That number describes the disclosed table, not the fund. It excludes private stakes such as Anthropic, which were reported to make up much of what remained after July, and it counts options at underlying value rather than the premium paid. For comparison, the June table was almost all shares, and SanDisk and Micron alone made up 55.6% of it; neither appears as shares in September.",
           "The practical lesson for a financial investigator is to preserve the unit at every step. Company market capitalization measures a company. A securities table measures disclosed positions under a reporting rule. Fund net asset value measures investor capital after the relevant liabilities. Personal net worth measures one person’s assets less liabilities. A number can be accurate in its original unit and misleading when relabeled."
         ]
       }
@@ -90,7 +91,14 @@
       "leopold-nbis",
       "leopold-shai",
       "leopold-sec-guide",
-      "leopold-july"
+      "leopold-july",
+      "leopold-q3",
+      "leopold-q3-table",
+      "leopold-nbis-a",
+      "leopold-shai-a",
+      "leopold-shai-f4",
+      "leopold-cnbc",
+      "leopold-private"
     ],
     "capital": [
       {
@@ -164,6 +172,22 @@
         "valuation": "Reported securities-table value, not personal wealth",
         "note": "26 entries; SanDisk and Micron shares make up 55.6% of the table.",
         "sourceId": "leopold-q2"
+      },
+      {
+        "date": "July 2026",
+        "event": "Reported peak and unwind",
+        "amount": "About $45 billion to about $10 billion",
+        "valuation": "Reported fund assets including leverage, not filed",
+        "note": "Leveraged public positions sold to Citadel at a discount; investor letter put the July loss at about 67%.",
+        "sourceId": "leopold-cnbc"
+      },
+      {
+        "date": "September 30, 2026",
+        "event": "Form 13F",
+        "amount": "$1,577,454,028",
+        "valuation": "Reported securities-table value, not personal wealth",
+        "note": "23 entries across 9 issuers; 66.2% call options; SharonAI shares lead at 27.9%. Excludes private stakes.",
+        "sourceId": "leopold-q3"
       }
     ],
     "timeline": [
@@ -214,21 +238,37 @@
       },
       {
         "date": "July 2026",
-        "text": "Reportedly unwinds much of the portfolio after losses on AI holdings, from assets near $45 billion at the start of the month; the Core Scientific stake falls to 4.4%.",
-        "sourceId": "leopold-july"
+        "text": "Sells leveraged public stock positions to Citadel after margin calls, reportedly falling from about $45 billion to about $10 billion; the Core Scientific stake falls to 4.4%.",
+        "sourceId": "leopold-cnbc"
       },
       {
         "date": "August 2026",
         "text": "Reports a 21.1% stake in SharonAI Holdings.",
         "sourceId": "leopold-shai"
+      },
+      {
+        "date": "August 2026",
+        "text": "Completes a reported $400 million private investment, bringing its stake in an unnamed company to $500 million.",
+        "sourceId": "leopold-private"
+      },
+      {
+        "date": "September 2026",
+        "text": "Exercises SharonAI pre-funded warrants, holding 8,070,950 shares (21.1%).",
+        "sourceId": "leopold-shai-f4"
+      },
+      {
+        "date": "November 2026",
+        "text": "September 30 Form 13F reports $1.58 billion, mostly call options; Nebius stake reported at 3.4%.",
+        "sourceId": "leopold-q3"
       }
     ],
-    "methodology": "I conduct independent document-based research for Visionary Talks. For this profile I read every Form 13F the firm has filed, its June 2026 Form ADV, its Schedule 13D and 13G filings, the founder’s own biography and essays, the firm’s website and his June 2024 podcast interview. I calculated concentration and growth figures directly from reported dollar values. Reported holdings, regulatory assets, first-person statements and my interpretation are identified separately. These records do not provide a personal balance sheet, fee rates or audited returns, so I do not turn managed assets into a personal wealth estimate. The research check date is October 27, 2026; financial observations keep their own dates.",
+    "methodology": "I conduct independent document-based research for Visionary Talks. For this profile I read every Form 13F the firm has filed, its June 2026 Form ADV, its Schedule 13D and 13G filings, the founder’s own biography and essays, the firm’s website and his June 2024 podcast interview, plus news reports on the July 2026 unwind, which I label as reported. I calculated concentration and growth figures directly from reported dollar values. Reported holdings, regulatory assets, first-person statements and my interpretation are identified separately. These records do not provide a personal balance sheet, fee rates or audited returns, so I do not turn managed assets into a personal wealth estimate. The research check date is November 17, 2026; financial observations keep their own dates.",
     "notes": [
       "No verified personal net-worth observations were established; no historical personal-wealth graph is drawn.",
       "The earlier $400M to $1.6B estimate on this page was an assumption-based model, not a verified dollar range.",
       "Form ADV ownership is reported in bands, not exact percentages.",
-      "13F totals include option positions at underlying value and exclude short positions, so they differ from regulatory assets."
+      "13F totals include option positions at underlying value and exclude short positions, so they differ from regulatory assets.",
+      "13F table values for September 30, 2026 are mostly call options at underlying value; they are not the premium paid and exclude private holdings."
     ],
     "quickFacts": [
       {
@@ -253,7 +293,7 @@
       },
       {
         "label": "Regulatory assets",
-        "value": "$9.28B, June 2026",
+        "value": "$9.28B, June 2026 (about $10B reported after July)",
         "sourceId": "leopold-adv"
       },
       {
@@ -285,7 +325,7 @@
     "faq": [
       {
         "question": "What is Leopold Aschenbrenner’s net worth?",
-        "answer": "It is not publicly established as of October 27, 2026. He owns 50% to 75% of Situational Awareness LP, which reported $9.28 billion in regulatory assets in June 2026, but no filing discloses his fee income, his own capital in the fund or his liabilities.",
+        "answer": "It is not publicly established as of November 17, 2026. He owns 50% to 75% of Situational Awareness LP, which reported $9.28 billion in regulatory assets in June 2026 and reportedly lost about 67% in July, but no filing discloses his fee income, his own capital in the fund or his liabilities.",
         "sourceId": "leopold-adv"
       },
       {
@@ -295,8 +335,8 @@
       },
       {
         "question": "How much money does Situational Awareness manage?",
-        "answer": "$9,278,344,000 in regulatory assets, according to the firm’s Form ADV filed June 11, 2026. Its 13F table showed $20.24 billion at June 30, 2026, but that figure counts option positions at the value of the underlying shares, so it is not money under management.",
-        "sourceId": "leopold-adv"
+        "answer": "Its latest Form ADV, filed June 11, 2026, reported $9,278,344,000 in regulatory assets. After the July 2026 unwind, CNBC reported the fund had about $10 billion left, mostly private stakes. Its September 30, 2026 Form 13F listed $1.58 billion of public securities, mostly call options.",
+        "sourceId": "leopold-cnbc"
       },
       {
         "question": "Why was Leopold Aschenbrenner fired from OpenAI?",
@@ -305,13 +345,13 @@
       },
       {
         "question": "Is Leopold Aschenbrenner a billionaire?",
-        "answer": "No source establishes that. His majority stake in a $9.28 billion adviser could be worth a great deal, but a firm’s assets belong to its investors, and the value of his stake depends on undisclosed fees and profits.",
+        "answer": "No source establishes that. His majority stake in the adviser could be worth a great deal, but a firm’s assets belong to its investors, the fund lost about 67% in July 2026, and the value of his stake depends on undisclosed fees and profits.",
         "sourceId": "leopold-adv"
       },
       {
         "question": "What stocks does Situational Awareness own?",
-        "answer": "Its June 30, 2026 Form 13F listed 26 entries led by SanDisk and Micron, followed by Bloom Energy, TSMC, Nebius and CoreWeave. It has also reported large stakes in Core Scientific, Nebius and SharonAI.",
-        "sourceId": "leopold-table"
+        "answer": "Its September 30, 2026 Form 13F listed nine issuers: SharonAI shares led at 27.9% of the table, followed by call options on Bloom Energy, Nebius, SanDisk and the Roundhill Memory ETF, plus smaller share stakes in CleanSpark, IREN, Bitdeer and Fermi.",
+        "sourceId": "leopold-q3-table"
       }
     ]
   },
@@ -475,6 +515,62 @@
       "type": "News / secondary report",
       "date": "July 31, 2026",
       "accessed": "2026-10-30"
+    },
+    "leopold-q3": {
+      "id": "leopold-q3",
+      "title": "SEC: September 2026 Form 13F cover page",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/xslForm13F_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Quarter ended September 30, 2026; signed November 16",
+      "accessed": "2026-11-17"
+    },
+    "leopold-q3-table": {
+      "id": "leopold-q3-table",
+      "title": "SEC: September 2026 reported securities",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000610/form13fInfoTable.xml",
+      "type": "SEC / primary",
+      "date": "September 30, 2026",
+      "accessed": "2026-11-17"
+    },
+    "leopold-nbis-a": {
+      "id": "leopold-nbis-a",
+      "title": "SEC: Schedule 13G/A on Nebius Group",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000604/xslSCHEDULE_13G_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date September 30, 2026; filed November 16, 2026",
+      "accessed": "2026-11-17"
+    },
+    "leopold-shai-a": {
+      "id": "leopold-shai-a",
+      "title": "SEC: Schedule 13D/A on SharonAI Holdings",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000500/xslSCHEDULE_13D_X02/primary_doc.xml",
+      "type": "SEC / primary",
+      "date": "Event date September 15, 2026; filed September 17, 2026",
+      "accessed": "2026-11-17"
+    },
+    "leopold-shai-f4": {
+      "id": "leopold-shai-f4",
+      "title": "SEC: Form 4 on SharonAI Holdings",
+      "url": "https://www.sec.gov/Archives/edgar/data/2045724/000093583626000494/xslF345X06/form4.xml",
+      "type": "SEC / primary",
+      "date": "Transaction September 15, 2026; filed September 17, 2026",
+      "accessed": "2026-11-17"
+    },
+    "leopold-cnbc": {
+      "id": "leopold-cnbc",
+      "title": "CNBC: How Leopold Aschenbrenner built a $45 billion AI hedge fund and lost most of it in days",
+      "url": "https://www.cnbc.com/2026/07/31/leopold-aschenbrenner-situational-awareness-fund-fire-sale.html",
+      "type": "News / secondary report",
+      "date": "July 31, 2026",
+      "accessed": "2026-11-17"
+    },
+    "leopold-private": {
+      "id": "leopold-private",
+      "title": "Investing.com: Aschenbrenner makes quick return after near-collapse of Situational Awareness (citing Bloomberg)",
+      "url": "https://www.investing.com/news/stock-market-news/aschenbrenner-makes-quick-return-after-nearcollapse-of-situational-awareness-4842843",
+      "type": "News / secondary report",
+      "date": "August 6, 2026",
+      "accessed": "2026-11-17"
     }
   }
 }
