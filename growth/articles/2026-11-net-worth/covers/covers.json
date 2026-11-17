@@ -1,0 +1,392 @@
+[
+ {
+  "slug": "david-baszucki-net-worth",
+  "name": "David Baszucki",
+  "subtitle": [
+   "Roblox founder.",
+   "58.8% of the votes,",
+   "$0 salary."
+  ],
+  "footer": "Roblox proxy, Forbes and price data.",
+  "panelTitle": "What his Roblox stake is worth",
+  "panelNote": "About 48.3 million shares, at each date's share price",
+  "bars": [
+   {
+    "label": "Nov 2021",
+    "sub": "stock near its peak",
+    "value": 6.5,
+    "display": "$6.5B"
+   },
+   {
+    "label": "Nov 2025",
+    "sub": "at $104.53",
+    "value": 5.0,
+    "display": "$5.0B"
+   },
+   {
+    "label": "Nov 13, 2026",
+    "sub": "at $49.91",
+    "value": 2.4,
+    "display": "$2.4B"
+   },
+   {
+    "label": "Forbes, Nov 17, 2026",
+    "sub": "total net worth estimate",
+    "value": 3.3,
+    "display": "$3.3B"
+   }
+  ],
+  "caption": "Stake values are our math from the 2026 proxy share count."
+ },
+ {
+  "slug": "greg-abel-net-worth",
+  "name": "Greg Abel",
+  "subtitle": [
+   "Berkshire's new CEO.",
+   "Rich from one 2022 deal,",
+   "not from Berkshire stock."
+  ],
+  "footer": "Berkshire filings, Reuters and Forbes.",
+  "panelTitle": "Where the money came from",
+  "panelNote": "Dated figures, US dollars",
+  "bars": [
+   {
+    "label": "Energy stake sale",
+    "sub": "June 2022, pretax",
+    "value": 870,
+    "display": "$870M"
+   },
+   {
+    "label": "Berkshire shares",
+    "sub": "249 Class A, Nov 2026",
+    "value": 213,
+    "display": "$213M"
+   },
+   {
+    "label": "Salary as CEO",
+    "sub": "2026, per year",
+    "value": 25,
+    "display": "$25M"
+   },
+   {
+    "label": "Net worth",
+    "sub": "Forbes, Nov 17, 2026",
+    "value": 1000,
+    "display": "$1.0B"
+   }
+  ],
+  "caption": "Share value is our math at about $857,000 per Class A share."
+ },
+ {
+  "slug": "strauss-zelnick-net-worth",
+  "name": "Strauss Zelnick",
+  "subtitle": [
+   "Take-Two's CEO takes $1.",
+   "His firm took $66.8M.",
+   "GTA VI lands Nov 19."
+  ],
+  "footer": "Take-Two proxy, Form 4 and price data.",
+  "panelTitle": "The money behind the $1 salary",
+  "panelNote": "Fiscal 2026 and Nov 2026, US dollars",
+  "bars": [
+   {
+    "label": "Take-Two shares",
+    "sub": "1.34M shares, Nov 12, 2026",
+    "value": 305,
+    "display": "$305M"
+   },
+   {
+    "label": "Paid to ZMC",
+    "sub": "fiscal 2026",
+    "value": 66.8,
+    "display": "$66.8M"
+   },
+   {
+    "label": "Zelnick's max share",
+    "sub": "60% of ZMC's fees",
+    "value": 40.1,
+    "display": "$40.1M"
+   },
+   {
+    "label": "Salary from Take-Two",
+    "sub": "per year",
+    "value": 0.0001,
+    "display": "$1"
+   }
+  ],
+  "caption": "Share value is our math at the $226.95 close."
+ },
+ {
+  "slug": "ron-vachris-net-worth",
+  "name": "Ron Vachris",
+  "subtitle": [
+   "Costco's CEO started",
+   "on a Price Club forklift",
+   "in 1982."
+  ],
+  "footer": "Costco Form 4s, proxy and price data.",
+  "panelTitle": "His Costco stake over time",
+  "panelNote": "Shares held x price on each date",
+  "bars": [
+   {
+    "label": "Mar 2025",
+    "sub": "41,076 shares at $931",
+    "value": 38.2,
+    "display": "$38M"
+   },
+   {
+    "label": "Oct 22, 2026",
+    "sub": "62,575 shares at $1,018",
+    "value": 63.7,
+    "display": "$64M"
+   },
+   {
+    "label": "Mid-Nov 2026",
+    "sub": "62,575 shares near $1,106",
+    "value": 69.2,
+    "display": "$69M"
+   },
+   {
+    "label": "Fiscal 2025 pay",
+    "sub": "salary plus stock awards",
+    "value": 13.9,
+    "display": "$13.9M"
+   }
+  ],
+  "caption": "Values are our math from his Form 4 share counts."
+ },
+ {
+  "slug": "tony-xu-net-worth",
+  "name": "Tony Xu",
+  "subtitle": [
+   "DoorDash's cofounder",
+   "directs 54% of the votes",
+   "and just bought Instacart."
+  ],
+  "footer": "DoorDash proxy, 10-Q, Forbes and price data.",
+  "panelTitle": "His 11.1M DoorDash shares",
+  "panelNote": "Class B shares x DoorDash price",
+  "bars": [
+   {
+    "label": "IPO, Dec 2020",
+    "sub": "at $102 a share",
+    "value": 1.13,
+    "display": "$1.13B"
+   },
+   {
+    "label": "Nov 3, 2025",
+    "sub": "high close, $242.05",
+    "value": 2.69,
+    "display": "$2.69B"
+   },
+   {
+    "label": "Nov 13, 2026",
+    "sub": "close, $171.51",
+    "value": 1.9,
+    "display": "$1.90B"
+   },
+   {
+    "label": "Forbes, Nov 17",
+    "sub": "real-time estimate",
+    "value": 1.6,
+    "display": "$1.6B"
+   }
+  ],
+  "caption": "Share values are our math from proxy share counts."
+ },
+ {
+  "slug": "phil-spencer-net-worth",
+  "name": "Phil Spencer",
+  "subtitle": [
+   "38 years at Microsoft,",
+   "12 running Xbox,",
+   "and no public pay records."
+  ],
+  "footer": "Microsoft filings, Game Informer and Wikipedia.",
+  "panelTitle": "The deals he led",
+  "panelNote": "Purchase price of each studio deal",
+  "bars": [
+   {
+    "label": "Mojang, 2014",
+    "sub": "Minecraft",
+    "value": 2.5,
+    "display": "$2.5B"
+   },
+   {
+    "label": "ZeniMax, 2020",
+    "sub": "Bethesda",
+    "value": 7.5,
+    "display": "$7.5B"
+   },
+   {
+    "label": "Activision, 2022",
+    "sub": "closed Oct. 2023",
+    "value": 68.7,
+    "display": "$68.7B"
+   },
+   {
+    "label": "His net worth",
+    "sub": "never disclosed",
+    "value": 0,
+    "display": "Unknown"
+   }
+  ],
+  "caption": "Microsoft never disclosed his pay or shareholdings."
+ },
+ {
+  "slug": "steve-huffman-net-worth",
+  "name": "Steve Huffman",
+  "subtitle": [
+   "Reddit's CEO owns under 2%",
+   "of the shares but casts",
+   "76% of the votes."
+  ],
+  "footer": "Reddit 2026 proxy, Forbes and price data.",
+  "panelTitle": "His 3.24M Reddit shares",
+  "panelNote": "Shares owned outright x Reddit price",
+  "bars": [
+   {
+    "label": "IPO, Mar 2024",
+    "sub": "at $34",
+    "value": 110,
+    "display": "$110M"
+   },
+   {
+    "label": "Jan 13, 2026",
+    "sub": "2026 high, $258.93",
+    "value": 839,
+    "display": "$839M"
+   },
+   {
+    "label": "Nov 6, 2026",
+    "sub": "close, $95.10",
+    "value": 308,
+    "display": "$308M"
+   },
+   {
+    "label": "Our estimate",
+    "sub": "shares plus other assets",
+    "value": 500,
+    "display": "~$500M"
+   }
+  ],
+  "caption": "Share values are our math from the 2026 proxy share count."
+ },
+ {
+  "slug": "chuck-robbins-net-worth",
+  "name": "Chuck Robbins",
+  "subtitle": [
+   "Cisco's CEO since 2015",
+   "holds 956,179 shares",
+   "after a November payout."
+  ],
+  "footer": "Cisco Form 4s, 2026 proxy and price data.",
+  "panelTitle": "His Cisco stake in 2026",
+  "panelNote": "956,179 shares x price on each date",
+  "bars": [
+   {
+    "label": "May 22, 2026",
+    "sub": "his sale price, $120.03",
+    "value": 114.8,
+    "display": "$115M"
+   },
+   {
+    "label": "Aug 2026",
+    "sub": "his sale price, $111.54",
+    "value": 106.7,
+    "display": "$107M"
+   },
+   {
+    "label": "Nov 10, 2026",
+    "sub": "Form 4 price, $98.65",
+    "value": 94.3,
+    "display": "$94M"
+   },
+   {
+    "label": "Fiscal 2026 pay",
+    "sub": "salary, stock and bonus",
+    "value": 48.5,
+    "display": "$48.5M"
+   }
+  ],
+  "caption": "Values are our math from his Nov. 10, 2026 share count."
+ },
+ {
+  "slug": "brian-roberts-net-worth",
+  "name": "Brian Roberts",
+  "subtitle": [
+   "Comcast's chairman owns",
+   "under 1% of the shares",
+   "and a fixed third of the vote."
+  ],
+  "footer": "Comcast Form 4s, proxy, Forbes and price data.",
+  "panelTitle": "His 30.9M Comcast shares",
+  "panelNote": "Class A plus Class B x Comcast price",
+  "bars": [
+   {
+    "label": "52-week high",
+    "sub": "at $32.86",
+    "value": 1015,
+    "display": "$1.02B"
+   },
+   {
+    "label": "Sept 1, 2026",
+    "sub": "Form 4 price, $26.30",
+    "value": 813,
+    "display": "$813M"
+   },
+   {
+    "label": "Nov 11, 2026",
+    "sub": "close, $25.02",
+    "value": 773,
+    "display": "$773M"
+   },
+   {
+    "label": "Forbes, Nov 17",
+    "sub": "real-time estimate",
+    "value": 1500,
+    "display": "$1.5B"
+   }
+  ],
+  "caption": "Share values are our math from Form 4 and proxy share counts."
+ },
+ {
+  "slug": "james-quincey-net-worth",
+  "name": "James Quincey",
+  "subtitle": [
+   "Coca-Cola's chairman",
+   "sold $119 million of stock",
+   "as he handed over the CEO job."
+  ],
+  "footer": "Coca-Cola Form 4s, 2026 proxy and price data.",
+  "panelTitle": "His 2026 stock sales",
+  "panelNote": "Gross proceeds from each Form 4",
+  "bars": [
+   {
+    "label": "March 3",
+    "sub": "250,688 shares",
+    "value": 19.84,
+    "display": "$19.8M"
+   },
+   {
+    "label": "May 7",
+    "sub": "200,000 shares",
+    "value": 15.78,
+    "display": "$15.8M"
+   },
+   {
+    "label": "June 4 to 5",
+    "sub": "2018 options, 444,296 shares",
+    "value": 35.6,
+    "display": "$35.6M"
+   },
+   {
+    "label": "July 28 to 29",
+    "sub": "2019 options, 527,087 shares",
+    "value": 47.47,
+    "display": "$47.5M"
+   }
+  ],
+  "caption": "He still holds about 170,000 shares, worth about $16 million."
+ }
+]
