@@ -29,6 +29,16 @@ const netWorthCovers = new Set([
   "brian-niccol-net-worth",
   "josh-damaro-net-worth",
   "rj-scaringe-net-worth",
+  "doug-mcmillon-net-worth",
+  "john-furner-net-worth",
+  "chris-kempczinski-net-worth",
+  "tim-sweeney-net-worth",
+  "jamie-siminoff-net-worth",
+  "mat-ishbia-net-worth",
+  "ryan-cohen-net-worth",
+  "sanjay-mehrotra-net-worth",
+  "brian-moynihan-net-worth",
+  "darren-woods-net-worth",
 ]);
 export function storyFeaturedImage(s: Story) {
   const coverSlug = s.path.replace(/\//g, "");

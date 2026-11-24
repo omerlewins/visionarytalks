@@ -904,5 +904,371 @@
    }
   ],
   "caption": "The 2025 award pays nothing below $15.22 a share."
+ },
+ {
+  "slug": "doug-mcmillon-net-worth",
+  "name": "Doug McMillon",
+  "subtitle": [
+   "Walmart's CEO until 2026.",
+   "5.2 million shares,",
+   "$111M sold."
+  ],
+  "footer": "Walmart proxies, Form 4s and price data.",
+  "panelTitle": "His Walmart money",
+  "panelNote": "In millions of dollars",
+  "bars": [
+   {
+    "label": "Walmart shares",
+    "sub": "At $129.58, Nov. 23, 2026",
+    "value": 678,
+    "display": "$678M"
+   },
+   {
+    "label": "Stock sold",
+    "sub": "2016 to May 2026, gross",
+    "value": 111.2,
+    "display": "$111M"
+   },
+   {
+    "label": "Fiscal 2026 pay",
+    "sub": "Year to Jan. 31, 2026",
+    "value": 29.2,
+    "display": "$29.2M"
+   }
+  ],
+  "caption": "Each $10 move in Walmart stock is worth about $52 million to him."
+ },
+{
+  "slug": "john-furner-net-worth",
+  "name": "John Furner",
+  "subtitle": [
+   "Walmart CEO.",
+   "760,202 shares,",
+   "$27.3M pay."
+  ],
+  "footer": "Walmart proxy, Form 4s and price data.",
+  "panelTitle": "What the filings show",
+  "panelNote": "In millions of dollars",
+  "bars": [
+   {
+    "label": "Walmart shares",
+    "sub": "At $129.58, Nov. 23, 2026",
+    "value": 98.5,
+    "display": "$98.5M"
+   },
+   {
+    "label": "Stock sold",
+    "sub": "2019 to 2026, gross",
+    "value": 60.6,
+    "display": "$60.6M"
+   },
+   {
+    "label": "Performance units",
+    "sub": "Unvested, at Nov. 23 price",
+    "value": 32.1,
+    "display": "$32.1M"
+   },
+   {
+    "label": "Deferred pay",
+    "sub": "Jan. 30, 2026",
+    "value": 25.5,
+    "display": "$25.5M"
+   }
+  ],
+  "caption": "CEO since February 1, 2026."
+ },
+{
+  "slug": "chris-kempczinski-net-worth",
+  "name": "Chris Kempczinski",
+  "subtitle": [
+   "McDonald's CEO.",
+   "1.1 million options,",
+   "$20.6M pay."
+  ],
+  "footer": "McDonald's proxy, Form 4s and price data.",
+  "panelTitle": "What the filings show",
+  "panelNote": "In millions of dollars, Nov. 23, 2026",
+  "bars": [
+   {
+    "label": "Shares, options, phantom stock",
+    "sub": "At $276.38",
+    "value": 72,
+    "display": "$72M"
+   },
+   {
+    "label": "Stock sold",
+    "sub": "2019 to Feb. 2026, gross",
+    "value": 39.4,
+    "display": "$39.4M"
+   },
+   {
+    "label": "2025 pay",
+    "sub": "Proxy total",
+    "value": 20.6,
+    "display": "$20.6M"
+   },
+   {
+    "label": "Performance units",
+    "sub": "At target",
+    "value": 14.2,
+    "display": "$14.2M"
+   }
+  ],
+  "caption": "His pay was 1,082 times the median McDonald's worker's in 2025."
+ },
+{
+  "slug": "tim-sweeney-net-worth",
+  "name": "Tim Sweeney",
+  "subtitle": [
+   "Epic Games founder.",
+   "Controlling stake,",
+   "size undisclosed."
+  ],
+  "footer": "Wikipedia, CNBC and The Information.",
+  "panelTitle": "What Epic Games was valued at",
+  "panelNote": "In billions of dollars, at each funding round",
+  "bars": [
+   {
+    "label": "Oct. 2018",
+    "sub": "Seven-firm round",
+    "value": 15,
+    "display": "$15B"
+   },
+   {
+    "label": "Apr. 2021",
+    "sub": "$1B round",
+    "value": 28.7,
+    "display": "$28.7B"
+   },
+   {
+    "label": "Apr. 2022",
+    "sub": "Sony and Kirkbi",
+    "value": 32,
+    "display": "$32B"
+   },
+   {
+    "label": "Feb. 2024",
+    "sub": "Disney invests $1.5B",
+    "value": 22.5,
+    "display": "$22.5B"
+   }
+  ],
+  "caption": "Epic laid off more than 1,000 people in March 2026."
+ },
+{
+  "slug": "jamie-siminoff-net-worth",
+  "name": "Jamie Siminoff",
+  "subtitle": [
+   "Ring founder.",
+   "Back at Amazon,",
+   "stake never disclosed."
+  ],
+  "footer": "Amazon 10-K, Latch and Jabil proxies.",
+  "panelTitle": "The numbers in the filings",
+  "panelNote": "In millions of dollars",
+  "bars": [
+   {
+    "label": "Amazon's price for Ring",
+    "sub": "Apr. 2018, net of cash",
+    "value": 839,
+    "display": "$839M"
+   },
+   {
+    "label": "Latch shares received",
+    "sub": "July 2023, at $1.40",
+    "value": 26.7,
+    "display": "$26.7M"
+   },
+   {
+    "label": "Latch pay",
+    "sub": "2024",
+    "value": 3.8,
+    "display": "$3.8M"
+   },
+   {
+    "label": "Latch shares left",
+    "sub": "At $0.18, Nov. 23, 2026",
+    "value": 0.54,
+    "display": "$0.5M"
+   }
+  ],
+  "caption": "Latch bought back 80% of his shares for about $775."
+ },
+{
+  "slug": "mat-ishbia-net-worth",
+  "name": "Mat Ishbia",
+  "subtitle": [
+   "UWM CEO, Suns owner.",
+   "Sold $781M,",
+   "put $549M back."
+  ],
+  "footer": "UWM filings, Form 4s and price data.",
+  "panelTitle": "What his UWM stake is worth",
+  "panelNote": "About 1.26 billion units, in billions of dollars",
+  "bars": [
+   {
+    "label": "Nov. 2025",
+    "sub": "at about $5.85",
+    "value": 7.4,
+    "display": "$7.4B"
+   },
+   {
+    "label": "Apr. 2026",
+    "sub": "at about $3.50",
+    "value": 4.4,
+    "display": "$4.4B"
+   },
+   {
+    "label": "Nov. 23, 2026",
+    "sub": "at $1.12",
+    "value": 1.41,
+    "display": "$1.41B"
+   }
+  ],
+  "caption": "Forbes put him at $9.1 billion in April 2026."
+ },
+{
+  "slug": "ryan-cohen-net-worth",
+  "name": "Ryan Cohen",
+  "subtitle": [
+   "GameStop CEO.",
+   "$0 salary,",
+   "42.5 million shares."
+  ],
+  "footer": "GameStop filings, Form 4s and price data.",
+  "panelTitle": "Visible vs. estimated",
+  "panelNote": "In billions of dollars",
+  "bars": [
+   {
+    "label": "Forbes estimate",
+    "sub": "May 2026",
+    "value": 5.1,
+    "display": "$5.1B"
+   },
+   {
+    "label": "GameStop shares",
+    "sub": "At $27.30, Nov. 23, 2026",
+    "value": 1.16,
+    "display": "$1.16B"
+   },
+   {
+    "label": "Shares bought in 2026",
+    "sub": "Jan. to Oct., cost",
+    "value": 0.119,
+    "display": "$119M"
+   }
+  ],
+  "caption": "He withdrew a 171.5 million-option award in June 2026."
+ },
+{
+  "slug": "sanjay-mehrotra-net-worth",
+  "name": "Sanjay Mehrotra",
+  "subtitle": [
+   "Micron CEO.",
+   "AI memory boom,",
+   "$306M sold."
+  ],
+  "footer": "Micron proxy, Form 4s and price data.",
+  "panelTitle": "Shares and earned units",
+  "panelNote": "About 1.24 million, in millions of dollars",
+  "bars": [
+   {
+    "label": "Late Nov. 2025",
+    "sub": "at about $236",
+    "value": 293,
+    "display": "$293M"
+   },
+   {
+    "label": "Oct. 13, 2026",
+    "sub": "at $989.04",
+    "value": 1228,
+    "display": "$1.23B"
+   },
+   {
+    "label": "Nov. 23, 2026",
+    "sub": "at $707.70",
+    "value": 879,
+    "display": "$879M"
+   }
+  ],
+  "caption": "He sold about $182 million of Micron stock in 2026."
+ },
+{
+  "slug": "brian-moynihan-net-worth",
+  "name": "Brian Moynihan",
+  "subtitle": [
+   "Bank of America CEO.",
+   "921,600 shares given,",
+   "none sold."
+  ],
+  "footer": "Bank of America proxy, Form 4s, prices.",
+  "panelTitle": "His Bank of America stock",
+  "panelNote": "In millions of dollars, at $48.14 on Nov. 23, 2026",
+  "bars": [
+   {
+    "label": "Shares he owns",
+    "sub": "2,764,660",
+    "value": 133.1,
+    "display": "$133M"
+   },
+   {
+    "label": "Unvested stock units",
+    "sub": "1,724,434",
+    "value": 83,
+    "display": "$83M"
+   },
+   {
+    "label": "Shares given away",
+    "sub": "Since 2019, today's value",
+    "value": 44.4,
+    "display": "$44M"
+   },
+   {
+    "label": "2025 pay",
+    "sub": "Proxy total",
+    "value": 33.7,
+    "display": "$33.7M"
+   }
+  ],
+  "caption": "No open-market sales in any Form 4 since 2019."
+ },
+{
+  "slug": "darren-woods-net-worth",
+  "name": "Darren Woods",
+  "subtitle": [
+   "ExxonMobil CEO.",
+   "$311M of stock,",
+   "mostly locked."
+  ],
+  "footer": "ExxonMobil proxy, Form 4 and price data.",
+  "panelTitle": "What he holds",
+  "panelNote": "In millions of dollars, at $156.90 on Nov. 23, 2026",
+  "bars": [
+   {
+    "label": "Restricted shares",
+    "sub": "1,621,050",
+    "value": 254,
+    "display": "$254M"
+   },
+   {
+    "label": "Unrestricted shares",
+    "sub": "358,439",
+    "value": 56,
+    "display": "$56M"
+   },
+   {
+    "label": "Pension",
+    "sub": "Dec. 31, 2025",
+    "value": 50.9,
+    "display": "$50.9M"
+   },
+   {
+    "label": "2025 pay",
+    "sub": "Proxy total",
+    "value": 33,
+    "display": "$33.0M"
+   }
+  ],
+  "caption": "961,050 shares stay locked until 2031 or retirement."
  }
 ]
