@@ -3,6 +3,7 @@ import { revalidatePath } from "next/cache";
 import { admins, editors, staff, published, publicationGuard } from "./access";
 import { publicPath } from "@/lib/domain";
 import { validatePublishedResearch } from "@/lib/published-research";
+import { indexNowURLs, submitIndexNow } from "@/lib/indexnow";
 const text = (name: string, required = false): Field => ({
   name,
   type: "text",
@@ -244,6 +245,12 @@ export const collections: CollectionConfig[] = [
             revalidatePath("/ai-companies/");
             revalidatePath("/ai-salaries/");
           } catch {}
+          return doc;
+        },
+        // Pages render from the database on request, so a published save is
+        // live at once: tell IndexNow engines now (production only).
+        async ({ doc, previousDoc }) => {
+          await submitIndexNow(indexNowURLs(doc, previousDoc));
           return doc;
         },
       ],
