@@ -1,5 +1,7 @@
 import { getPayload } from "payload";
 import config from "../src/payload.config";
+import { publicationURL } from "../src/lib/seo";
+import { submitIndexNow } from "../src/lib/indexnow";
 
 // Takes one approved story off the live site by setting it back to draft.
 // The story and its versions stay in the CMS, so it can be republished.
@@ -48,6 +50,8 @@ try {
       user,
     });
     console.log(`unpublish: story ${story.id} at ${path} set to draft`);
+    // The page now 404s; IndexNow engines drop it on their next visit.
+    await submitIndexNow([publicationURL + path]);
   }
 } finally {
   await payload.destroy?.();
