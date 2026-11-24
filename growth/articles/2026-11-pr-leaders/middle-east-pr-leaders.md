@@ -129,6 +129,8 @@ Israel is a separate market. Its agencies work mostly in Hebrew for Israeli comp
 
 The short version for the Gulf: Burson is the largest PR firm in the region, APCO is the largest that discloses a regional revenue number (almost $53 million in 2025), and the fastest growth is at younger network offshoots like Ruder Finn Atteline and Current Global, both up more than 60% last year.
 
+<div id="vt-pr-map"></div>
+
 ## The 24 agencies at a glance
 
 | # | Agency | Leader | Role | Base | Type |

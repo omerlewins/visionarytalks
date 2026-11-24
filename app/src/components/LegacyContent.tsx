@@ -7,6 +7,7 @@ import {
   youngestBillionairesMarker,
 } from "./YoungestBillionairesEmbed";
 import { MoneyWorldMap } from "./MoneyWorldMap";
+import { MiddleEastPrMap } from "./MiddleEastPrMap";
 import { AtcPayEmbed, atcPayMarker } from "./AtcPayEmbed";
 import { publicationText } from "@/lib/editorial-punctuation";
 import { ownershipTimelines } from "@/migration/timeline";
@@ -27,6 +28,8 @@ function WithMoneyMap({ html }: { html: string }) {
     </>
   );
 }
+// /pr-agencies-in-dubai/ places its agency map with <div id="vt-pr-map"></div>.
+const prMapMarker = '<div id="vt-pr-map"></div>';
 export function LegacyContent({
   html,
   ownership,
@@ -122,8 +125,27 @@ export function LegacyContent({
           />
         </>
       ) : (
-        <div dangerouslySetInnerHTML={{ __html: opening(clean) }} />
+        <WithPrMap html={clean} opening={opening} />
       )}
     </div>
+  );
+}
+
+function WithPrMap({
+  html,
+  opening,
+}: {
+  html: string;
+  opening: (value: string) => string;
+}) {
+  const [before, after] = html.split(prMapMarker);
+  if (after === undefined)
+    return <div dangerouslySetInnerHTML={{ __html: opening(html) }} />;
+  return (
+    <>
+      <div dangerouslySetInnerHTML={{ __html: opening(before) }} />
+      <MiddleEastPrMap />
+      <div dangerouslySetInnerHTML={{ __html: editorialTables(after) }} />
+    </>
   );
 }

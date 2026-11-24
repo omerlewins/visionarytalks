@@ -1,0 +1,91 @@
+/* Middle East PR agency map on /pr-agencies-in-dubai/. Extends .state-wealth-map. */
+.me-pr-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: start;
+}
+.me-pr-canvas svg {
+  background: #fafaf7;
+}
+.me-pr-bubble {
+  cursor: pointer;
+  outline: none;
+}
+.me-pr-bubble circle {
+  fill: #c4771a;
+  stroke: #fff;
+  stroke-width: 1.5;
+  vector-effect: non-scaling-stroke;
+  transition: r 0.15s;
+}
+.me-pr-bubble.is-active circle {
+  fill: #1d3427;
+  stroke: #c4771a;
+  stroke-width: 2.5;
+  r: 3;
+}
+.me-pr-canvas .me-pr-bubble text {
+  font:
+    bold 2.6px Arial,
+    sans-serif;
+  fill: #fff;
+  text-anchor: middle;
+  pointer-events: none;
+}
+.me-pr-readout {
+  border-block: 1px solid #b6b8b2;
+  padding: 18px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 260px;
+}
+.me-pr-readout strong {
+  font-size: clamp(24px, 3vw, 34px);
+  font-weight: 400;
+  line-height: 1.2;
+}
+.me-pr-readout p {
+  margin: 0;
+  font:
+    13px/1.5 Arial,
+    sans-serif;
+  color: #4b5048;
+}
+.me-pr-readout ul {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 0;
+  max-height: 320px;
+  overflow-y: auto;
+}
+.me-pr-readout li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 7px 0;
+  border-top: 1px solid #e1e2dd;
+  font:
+    13px/1.4 Arial,
+    sans-serif;
+}
+.me-pr-readout li span {
+  color: #5a6056;
+  text-align: right;
+}
+@media (max-width: 760px) {
+  .me-pr-layout {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .me-pr-readout {
+    min-height: 0;
+  }
+  .me-pr-readout ul {
+    max-height: none;
+  }
+  .me-pr-canvas .me-pr-bubble text {
+    font-size: 2.6px;
+  }
+}
