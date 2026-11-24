@@ -32,6 +32,9 @@ if (
     "Hosted environments require durable private storage, PostgreSQL and a 32+ character secret",
   );
 export default buildConfig({
+  // Long-form listicles (for example /pr-agencies-in-dubai/) exceed the
+  // 40,000 character default on legacyHTML. Validation only; the columns are unbounded varchar.
+  defaultMaxTextLength: 120000,
   secret: process.env.PAYLOAD_SECRET ?? "",
   sharp,
   editor: lexicalEditor(),
