@@ -37,8 +37,8 @@ function html(c) {
   .bar em{font-style:normal;font-family:Georgia,serif;font-size:21px;white-space:nowrap}
   .cap{font-size:13px;color:#555;margin-top:12px}
   </style></head><body>
-  <div class="top">Visionary Talks / Leaders</div>
-  <div class="wrap"><div class="left"><h1>${esc(c.name)}<br>net worth</h1>
+  <div class="top">Visionary Talks / ${esc(c.kicker || "Leaders")}</div>
+  <div class="wrap"><div class="left"><h1>${c.headline ? c.headline.map(esc).join("<br>") : esc(c.name) + "<br>net worth"}</h1>
   <div class="sub">${c.subtitle.map(esc).join("<br>")}</div>
   <div class="foot">${esc(c.footer)}</div></div>
   <div><div class="panel"><div class="pt">${esc(c.panelTitle)}</div><div class="pn">${esc(c.panelNote || "")}</div>${bars}</div>

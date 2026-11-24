@@ -904,5 +904,60 @@
    }
   ],
   "caption": "The 2025 award pays nothing below $15.22 a share."
+ },
+ {
+  "slug": "pr-agencies-in-dubai",
+  "name": "Middle East PR leaders",
+  "kicker": "Leaders / Middle East PR",
+  "headline": [
+   "Who runs",
+   "Middle East PR"
+  ],
+  "subtitle": [
+   "17 agency leaders,",
+   "from Burson to Gambit."
+  ],
+  "footer": "PRovoke Media 2025 and 2026 reviews.",
+  "panelTitle": "Middle East growth, latest year",
+  "panelNote": "Disclosed revenue or fee growth, 2025",
+  "bars": [
+   {
+    "label": "Ruder Finn Atteline",
+    "sub": "Sophie Simpson",
+    "value": 60,
+    "display": "60%+"
+   },
+   {
+    "label": "Current Global",
+    "sub": "Peter Jacob",
+    "value": 60,
+    "display": "60%+"
+   },
+   {
+    "label": "MSL",
+    "sub": "Maclean Brodie",
+    "value": 45,
+    "display": "45%"
+   },
+   {
+    "label": "Gambit",
+    "sub": "Jamal Al Mawed",
+    "value": 30,
+    "display": "~30%"
+   },
+   {
+    "label": "Edelman",
+    "sub": "Middle East fees",
+    "value": 29,
+    "display": "29%"
+   },
+   {
+    "label": "Brazen MENA",
+    "sub": "Louise Jacobson",
+    "value": 25,
+    "display": "25%"
+   }
+  ],
+  "caption": "APCO, the largest discloser, earned almost $53M, slightly down."
  }
 ]

@@ -296,6 +296,14 @@ const batches = {
       ),
     );
   },
+  // November 2026: Middle East PR agency leaders guide.
+  "pr-leaders-2026-11": async () => [
+    await markdownArticle(
+      "growth/articles/2026-11-pr-leaders/middle-east-pr-leaders.md",
+      "article",
+      "Leaders",
+    ),
+  ],
   "refresh-2026-10": async () => {
     const dir = "growth/articles/2026-10-refresh/";
     return Promise.all(

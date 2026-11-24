@@ -29,6 +29,7 @@ const netWorthCovers = new Set([
   "brian-niccol-net-worth",
   "josh-damaro-net-worth",
   "rj-scaringe-net-worth",
+  "pr-agencies-in-dubai",
 ]);
 export function storyFeaturedImage(s: Story) {
   const coverSlug = s.path.replace(/\//g, "");
