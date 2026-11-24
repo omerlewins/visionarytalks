@@ -281,6 +281,21 @@ const batches = {
       ),
     );
   },
+  // November 2026 net worth batch 2: Iger, Niccol, D'Amaro, Scaringe.
+  "networth-2026-11b": async () => {
+    const dir = "growth/articles/2026-11-net-worth/";
+    const files = [
+      "bob-iger-net-worth",
+      "brian-niccol-net-worth",
+      "josh-damaro-net-worth",
+      "rj-scaringe-net-worth",
+    ];
+    return Promise.all(
+      files.map((file) =>
+        markdownArticle(dir + file + ".md", "article", "Leaders"),
+      ),
+    );
+  },
   "refresh-2026-10": async () => {
     const dir = "growth/articles/2026-10-refresh/";
     return Promise.all(

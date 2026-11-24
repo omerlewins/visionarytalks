@@ -772,5 +772,137 @@
    }
   ],
   "caption": "No Tesla filing discloses his pay or share count."
+ },
+ {
+  "slug": "bob-iger-net-worth",
+  "name": "Bob Iger",
+  "subtitle": [
+   "Disney's two-time CEO.",
+   "$118.5 million pay in 3 years,",
+   "Lakers deal pending."
+  ],
+  "footer": "Disney proxies, FY2023 to FY2025; SEC Form 4, Nov. 18, 2026.",
+  "panelTitle": "Disney pay by fiscal year",
+  "panelNote": "Total reported compensation, in millions",
+  "bars": [
+   {
+    "label": "Fiscal 2023",
+    "sub": "Disney proxy",
+    "value": 31.6,
+    "display": "$31.6M"
+   },
+   {
+    "label": "Fiscal 2024",
+    "sub": "Disney proxy",
+    "value": 41.1,
+    "display": "$41.1M"
+   },
+   {
+    "label": "Fiscal 2025",
+    "sub": "Disney proxy",
+    "value": 45.8,
+    "display": "$45.8M"
+   }
+  ],
+  "caption": "Forbes put his fortune above $700 million in 2024."
+ },
+ {
+  "slug": "brian-niccol-net-worth",
+  "name": "Brian Niccol",
+  "subtitle": [
+   "Starbucks CEO.",
+   "$230 million of Chipotle",
+   "stock sold first."
+  ],
+  "footer": "Chipotle Form 4s, 2019 to 2024; Starbucks 2026 proxy and Form 4, Nov. 19, 2026.",
+  "panelTitle": "Where his money came from",
+  "panelNote": "Gross amounts, in millions",
+  "bars": [
+   {
+    "label": "Chipotle stock sold",
+    "sub": "2019 to April 2024",
+    "value": 229.6,
+    "display": "$230M"
+   },
+   {
+    "label": "Starbucks pay",
+    "sub": "Fiscal 2024 and 2025",
+    "value": 126.8,
+    "display": "$126.8M"
+   },
+   {
+    "label": "Starbucks shares and units",
+    "sub": "At $106.36, Nov. 23, 2026",
+    "value": 52.9,
+    "display": "$52.9M"
+   }
+  ],
+  "caption": "Proceeds and pay before tax."
+ },
+ {
+  "slug": "josh-damaro-net-worth",
+  "name": "Josh D'Amaro",
+  "subtitle": [
+   "Disney's new CEO.",
+   "$17 million in stock,",
+   "$35 million a year in pay."
+  ],
+  "footer": "Disney 8-K, Feb. 2, 2026; Form 3 and Form 4, Mar. 2026; DIS close Nov. 23, 2026.",
+  "panelTitle": "What he owns vs. what he is paid",
+  "panelNote": "In millions of dollars",
+  "bars": [
+   {
+    "label": "Disney equity today",
+    "sub": "At $120.27, Nov. 23, 2026",
+    "value": 17.3,
+    "display": "$17.3M"
+   },
+   {
+    "label": "Annual target pay",
+    "sub": "Salary, bonus, stock",
+    "value": 35.0,
+    "display": "$35.0M"
+   },
+   {
+    "label": "First-year package",
+    "sub": "Fortune, grant-date value",
+    "value": 44.7,
+    "display": "$44.7M"
+   }
+  ],
+  "caption": "A career employee, not a founder, until March 2026."
+ },
+ {
+  "slug": "rj-scaringe-net-worth",
+  "name": "RJ Scaringe",
+  "subtitle": [
+   "Rivian's founder.",
+   "$402.6 million paper pay,",
+   "$89 million in stock."
+  ],
+  "footer": "Rivian 2026 proxy; Form 4, Nov. 15, 2026; RIVN close Nov. 23, 2026.",
+  "panelTitle": "Paper pay vs. what he holds",
+  "panelNote": "In millions of dollars",
+  "bars": [
+   {
+    "label": "Reported 2025 pay",
+    "sub": "Mostly options under water",
+    "value": 402.6,
+    "display": "$402.6M"
+   },
+   {
+    "label": "Shares and in-the-money options",
+    "sub": "At $11.22, Nov. 23, 2026",
+    "value": 88.6,
+    "display": "$88.6M"
+   },
+   {
+    "label": "Cash from Also buyback",
+    "sub": "Dec. 2025, net",
+    "value": 23.5,
+    "display": "$23.5M"
+   }
+  ],
+  "caption": "The 2025 award pays nothing below $15.22 a share."
  }
 ]

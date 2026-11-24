@@ -25,6 +25,10 @@ const netWorthCovers = new Set([
   "steve-huffman-net-worth",
   "strauss-zelnick-net-worth",
   "tony-xu-net-worth",
+  "bob-iger-net-worth",
+  "brian-niccol-net-worth",
+  "josh-damaro-net-worth",
+  "rj-scaringe-net-worth",
 ]);
 export function storyFeaturedImage(s: Story) {
   const coverSlug = s.path.replace(/\//g, "");
